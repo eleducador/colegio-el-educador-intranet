@@ -1,4 +1,4 @@
-﻿const express = require('express');
+const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
@@ -113,26 +113,32 @@ app.get('/api/backup', (req, res) => {
   }
 });
 
-// Servir archivos estÃ¡ticos del frontend (HTML, CSS, JS, Assets)
+// Servir archivos estaticos del frontend (HTML, CSS, JS, Assets) con UTF-8 explicito
 app.use(express.static(__dirname, {
   etag: true,
   maxAge: '1h',
   setHeaders: (res, filePath) => {
     if (filePath.endsWith('.html')) {
+      res.setHeader('Content-Type', 'text/html; charset=utf-8');
       res.setHeader('Cache-Control', 'no-cache');
+    } else if (filePath.endsWith('.js')) {
+      res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
+    } else if (filePath.endsWith('.css')) {
+      res.setHeader('Content-Type', 'text/css; charset=utf-8');
     }
   }
 }));
 
-// Fallback SPA: Cualquier ruta no encontrada retorna index.html
+// Fallback SPA: Cualquier ruta no encontrada retorna index.html con charset UTF-8
 app.get('*', (req, res) => {
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Iniciar servidor en 0.0.0.0
 app.listen(PORT, '0.0.0.0', () => {
   console.log('=================================================================');
-  console.log('  ðŸš€ INTRANET I.E.P. EL EDUCADOR ACTIVA EN PUERTO: ' + PORT);
-  console.log('  ðŸŒ Listo para producciÃ³n en Render (Multi-Dispositivo con SSL)');
+  console.log('  🚀 INTRANET I.E.P. EL EDUCADOR ACTIVA EN PUERTO: ' + PORT);
+  console.log('  🌐 Listo para produccion en Render (Multi-Dispositivo con SSL)');
   console.log('=================================================================');
 });

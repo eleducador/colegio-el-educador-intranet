@@ -1,14 +1,14 @@
-﻿/* === data.js === */
+/* === data.js === */
 /**
- * Datos Iniciales del Sistema - InstituciÃ³n Educativa Privada "EL EDUCADOR" (S.J.L.)
- * "21 aÃ±os dejando huellas" â€¢ UGEL 05
+ * Datos Iniciales del Sistema - Institución Educativa Privada "EL EDUCADOR" (S.J.L.)
+ * "21 años dejando huellas" • UGEL 05
  */
 
 const initialData = {
   institution: {
-    name: "INSTITUCIÃ“N EDUCATIVA PRIVADA \"EL EDUCADOR\"",
+    name: "INSTITUCIÓN EDUCATIVA PRIVADA \"EL EDUCADOR\"",
     levels: "INICIAL - PRIMARIA - SECUNDARIA",
-    slogan: "21 aÃ±os dejando huellas",
+    slogan: "21 años dejando huellas",
     district: "San Juan de Lurigancho (S.J.L.)",
     ugel: "UGEL 05",
     coordinator: "Prof. Alex Lino",
@@ -16,12 +16,12 @@ const initialData = {
       month: "Agosto 2026",
       collectedAmount: 25130.00,
       targetAmount: 24000.00,
-      reportCode: "INFORME- NÂ°003 /ED - COORDINACIÃ“N Y DOCUMENTACIÃ“N",
+      reportCode: "INFORME- N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN",
       reportDate: "15/08/2026"
     }
   },
 
-  academicYear: "2026 - AÃ±o Lectivo",
+  academicYear: "2026 - Año Lectivo",
   currentPeriod: "3er Bimestre",
 
   // 1. Usuarios con Credenciales de Acceso Oficiales
@@ -33,7 +33,7 @@ const initialData = {
       name: "Prof. Alex Lino",
       email: "coordinacion@eleducador.edu.pe",
       role: "admin",
-      roleLabel: "CoordinaciÃ³n General & DocumentaciÃ³n",
+      roleLabel: "Coordinación General & Documentación",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
       totalUsers: 950,
       activeEnrollments: 850,
@@ -62,10 +62,10 @@ const initialData = {
       name: "Prof. Roberto Silva",
       email: "roberto.silva@eleducador.edu.pe",
       role: "docente",
-      roleLabel: "Docente de MatemÃ¡ticas",
+      roleLabel: "Docente de Matemáticas",
       assignedGrades: ["3ro Sec A", "4to Sec A", "5to Sec B"],
       hasAdminPrivileges: true,
-      adminPrivilegeLabel: "Coordinador PedagÃ³gico (Permisos de EdiciÃ³n)",
+      adminPrivilegeLabel: "Coordinador Pedagógico (Permisos de Edición)",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
       totalStudents: 92,
       pendingGrading: 4,
@@ -75,11 +75,11 @@ const initialData = {
       id: "EST-2026-042",
       username: "sofia.mendez",
       password: "estudiante2026",
-      name: "SofÃ­a MÃ©ndez",
+      name: "Sofía Méndez",
       email: "sofia.mendez@eleducador.edu.pe",
       role: "estudiante",
       roleLabel: "Estudiante",
-      gradeLevel: "4to AÃ±o - Secundaria 'A'",
+      gradeLevel: "4to Año - Secundaria 'A'",
       gradeId: "4sec-a",
       avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
       tutor: "Prof. Alex Lino",
@@ -87,11 +87,11 @@ const initialData = {
       attendanceRate: "98.5%",
       pendingTasksCount: 2,
       paymentsUpToDate: true,
-      pensionStatus: "Al DÃ­a",
+      pensionStatus: "Al Día",
       isAccessLocked: false,
       pendingDebtAmount: 0.00,
       pendingConcept: "--",
-      notebooksUpToDate: "5/6 al dÃ­a"
+      notebooksUpToDate: "5/6 al día"
     },
     auxiliar: {
       id: "AUX-2026-004",
@@ -101,19 +101,19 @@ const initialData = {
       name: "Lic. Carlos Medina",
       email: "auxiliar@eleducador.edu.pe",
       role: "auxiliar",
-      roleLabel: "Auxiliar de EducaciÃ³n & PorterÃ­a",
-      assignedZones: ["PorterÃ­a Principal (Puerta 1)", "Patio Central & PabellÃ³n Secundaria"],
+      roleLabel: "Auxiliar de Educación & Portería",
+      assignedZones: ["Portería Principal (Puerta 1)", "Patio Central & Pabellón Secundaria"],
       avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
       scannedToday: 42,
       notebooksReviewedToday: 26,
       incidentsReportedToday: 2,
-      shift: "Turno MaÃ±ana (07:00 AM - 02:30 PM)"
+      shift: "Turno Mañana (07:00 AM - 02:30 PM)"
     },
     padre: {
       id: "FAM-2026-108",
       username: "carmen.mendez",
       password: "padre2026",
-      name: "Dra. Carmen MÃ©ndez",
+      name: "Dra. Carmen Méndez",
       email: "carmen.mendez@gmail.com",
       role: "padre",
       roleLabel: "Padre / Apoderado",
@@ -121,7 +121,7 @@ const initialData = {
       children: [
         {
           id: "EST-2026-042",
-          name: "SofÃ­a MÃ©ndez Flores",
+          name: "Sofía Méndez Flores",
           dni: "74891230",
           level: "Secundaria",
           grade: "4to de Secundaria 'A'",
@@ -129,21 +129,21 @@ const initialData = {
           tutor: "Prof. Roberto Silva",
           generalAverage: 18.4,
           attendanceRate: "98.5%",
-          notebooksUpToDate: "5/6 Al DÃ­a",
+          notebooksUpToDate: "5/6 Al Día",
           pendingTasksCount: 1,
           avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
           notebooks: [
-            { course: "ðŸ“ MatemÃ¡tica", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Tareas completas al 100%, mÃ¡rgenes impecables y esquemas en orden." },
-            { course: "ðŸ“– ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "17 (A)", remarks: "AnÃ¡lisis de textos y caligrafÃ­a Ã³ptima. Muy buen desarrollo." },
-            { course: "ðŸ”¬ Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "18 (AD)", remarks: "PrÃ¡cticas experimentales ilustradas y fichas de laboratorio selladas." },
-            { course: "ðŸŒŽ Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "16 (A)", remarks: "Mapas histÃ³ricos y resÃºmenes de Ã©poca bien estructurados." },
-            { course: "ðŸ‡¬ðŸ‡§ InglÃ©s", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramÃ¡tica avanzados completos." },
-            { course: "ðŸ’» EPT (ComputaciÃ³n)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "ðŸŸ¡ OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto tÃ©cnico NÂ° 3. Presentar este viernes." }
+            { course: "📐 Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+            { course: "📖 Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+            { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+            { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+            { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+            { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
           ]
         },
         {
           id: "EST-2026-088",
-          name: "Mateo MÃ©ndez Flores",
+          name: "Mateo Méndez Flores",
           dni: "78912344",
           level: "Primaria",
           grade: "1ro de Primaria 'A'",
@@ -151,19 +151,19 @@ const initialData = {
           tutor: "Miss Julisa Magali Arroyo Araujo",
           generalAverage: 19.2,
           attendanceRate: "100%",
-          notebooksUpToDate: "4/4 Al DÃ­a",
+          notebooksUpToDate: "4/4 Al Día",
           pendingTasksCount: 0,
           avatar: "https://images.unsplash.com/photo-1543332164-6e82f355badc?w=150&auto=format&fit=crop&q=80",
           notebooks: [
-            { course: "ðŸ”¢ LÃ³gico MatemÃ¡tico", teacher: "Miss Julisa Arroyo", lastDate: "16/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "20 (AD)", remarks: "NumeraciÃ³n y sumas perfectas. Excelente coloreado y trazos." },
-            { course: "âœï¸ ComunicaciÃ³n Integral", teacher: "Miss Julisa Arroyo", lastDate: "15/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Lectoescritura fluida y caligrafÃ­a prolija." },
-            { course: "ðŸŒ± Ciencia y Ambiente", teacher: "Miss Maritza", lastDate: "14/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Fichas de los seres vivos completas y coloreadas." },
-            { course: "ðŸŽ¨ Arte y Cultura", teacher: "Miss Julisa Arroyo", lastDate: "12/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "20 (AD)", remarks: "TÃ©cnicas de dactilopintura y recortado excelentes." }
+            { course: "🔢 Lógico Matemático", teacher: "Miss Julisa Arroyo", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "20 (AD)", remarks: "Numeración y sumas perfectas. Excelente coloreado y trazos." },
+            { course: "✏️ Comunicación Integral", teacher: "Miss Julisa Arroyo", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Lectoescritura fluida y caligrafía prolija." },
+            { course: "🌱 Ciencia y Ambiente", teacher: "Miss Maritza", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Fichas de los seres vivos completas y coloreadas." },
+            { course: "🎨 Arte y Cultura", teacher: "Miss Julisa Arroyo", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "20 (AD)", remarks: "Técnicas de dactilopintura y recortado excelentes." }
           ]
         }
       ],
       avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
-      pensionStatus: "Al DÃ­a",
+      pensionStatus: "Al Día",
       isAccessLocked: false,
       pendingDebtAmount: 0.00,
       pendingConcept: "--"
@@ -174,21 +174,21 @@ const initialData = {
   familiesFinancial: [
     {
       familyId: "FAM-2026-108",
-      guardian: "Dra. Carmen MÃ©ndez",
-      studentName: "SofÃ­a MÃ©ndez",
+      guardian: "Dra. Carmen Méndez",
+      studentName: "Sofía Méndez",
       studentCode: "EST-2026-042",
       grade: "4to Sec 'A'",
       pensionStatus: "bloqueado_deuda",
       pendingAmount: 480.00,
-      pendingConcept: "PensiÃ³n Escolar - Agosto 2026",
+      pendingConcept: "Pensión Escolar - Agosto 2026",
       dueDate: "15/08/2026",
       isAccessLocked: true,
       lastPaymentDate: null
     },
     {
       familyId: "FAM-2026-044",
-      guardian: "Sr. Roberto DÃ­az",
-      studentName: "Carlos BenÃ­tez",
+      guardian: "Sr. Roberto Díaz",
+      studentName: "Carlos Benítez",
       studentCode: "EST-2026-011",
       grade: "4to Sec 'A'",
       pensionStatus: "al_dia",
@@ -203,10 +203,10 @@ const initialData = {
       guardian: "Sra. Teresa Oropeza",
       studentName: "Brini Yuneyli Pocomo Oropeza",
       studentCode: "EST-2026-003",
-      grade: "Inicial 5 aÃ±os",
+      grade: "Inicial 5 años",
       pensionStatus: "al_dia",
       pendingAmount: 0.00,
-      pendingConcept: "MatrÃ­cula 2026",
+      pendingConcept: "Matrícula 2026",
       dueDate: "--",
       isAccessLocked: false,
       lastPaymentDate: "14/08/2026"
@@ -223,7 +223,7 @@ const initialData = {
       name: "Prof. Alex Lino",
       email: "coordinacion@eleducador.edu.pe",
       role: "Directivo",
-      detail: "Coordinador General & DocumentaciÃ³n",
+      detail: "Coordinador General & Documentación",
       hasAdminPrivilege: true,
       status: "Activo",
       createdDate: "05/01/2026"
@@ -249,7 +249,7 @@ const initialData = {
       name: "Lic. Carlos Medina",
       email: "auxiliar@eleducador.edu.pe",
       role: "Auxiliar",
-      detail: "Auxiliar de EducaciÃ³n & PorterÃ­a (Control de Cuadernos y Asistencia)",
+      detail: "Auxiliar de Educación & Portería (Control de Cuadernos y Asistencia)",
       hasAdminPrivilege: false,
       status: "Activo",
       createdDate: "08/01/2026"
@@ -262,7 +262,7 @@ const initialData = {
       name: "Prof. Roberto Silva",
       email: "roberto.silva@eleducador.edu.pe",
       role: "Docente",
-      detail: "MatemÃ¡tica Avanzada (Secundaria)",
+      detail: "Matemática Avanzada (Secundaria)",
       assignedGrades: ["3ro Sec", "4to Sec", "5to Sec"],
       weeklyHours: "24 hrs",
       hasAdminPrivilege: true,
@@ -277,7 +277,7 @@ const initialData = {
       name: "Prof. Fernando Rojas",
       email: "fernando.rojas@eleducador.edu.pe",
       role: "Docente",
-      detail: "ComputaciÃ³n & RobÃ³tica",
+      detail: "Computación & Robótica",
       assignedGrades: ["1ro Sec", "2do Sec", "3ro Sec", "4to Sec", "5to Sec"],
       weeklyHours: "22 hrs",
       hasAdminPrivilege: true,
@@ -292,7 +292,7 @@ const initialData = {
       name: "Miss Leyli Graciela Reyes Cerquen",
       email: "leyli.reyes@eleducador.edu.pe",
       role: "Docente",
-      detail: "Ciencia y TecnologÃ­a (FÃ­sica & QuÃ­mica)",
+      detail: "Ciencia y Tecnología (Física & Química)",
       assignedGrades: ["3ro Sec", "4to Sec", "5to Sec"],
       weeklyHours: "20 hrs",
       hasAdminPrivilege: true,
@@ -304,10 +304,10 @@ const initialData = {
       code: "DOC-2026-006",
       username: "maria.reyes",
       password: "docente2026",
-      name: "Miss MarÃ­a Daysi Reyes Milla",
+      name: "Miss María Daysi Reyes Milla",
       email: "maria.reyes@eleducador.edu.pe",
       role: "Docente",
-      detail: "ComunicaciÃ³n & Literatura",
+      detail: "Comunicación & Literatura",
       assignedGrades: ["1ro Sec", "2do Sec", "4to Sec"],
       weeklyHours: "18 hrs",
       hasAdminPrivilege: false,
@@ -337,8 +337,8 @@ const initialData = {
       name: "Miss Maritza",
       email: "maritza@eleducador.edu.pe",
       role: "Docente",
-      detail: "Nivel Inicial (3, 4 y 5 aÃ±os)",
-      assignedGrades: ["Inicial 3 aÃ±os", "Inicial 4 aÃ±os", "Inicial 5 aÃ±os"],
+      detail: "Nivel Inicial (3, 4 y 5 años)",
+      assignedGrades: ["Inicial 3 años", "Inicial 4 años", "Inicial 5 años"],
       weeklyHours: "30 hrs",
       hasAdminPrivilege: false,
       status: "Activo",
@@ -349,12 +349,12 @@ const initialData = {
       code: "EST-2026-042",
       username: "sofia.mendez",
       password: "estudiante2026",
-      name: "SofÃ­a MÃ©ndez Flores",
+      name: "Sofía Méndez Flores",
       email: "sofia.mendez@eleducador.edu.pe",
       role: "Estudiante",
       detail: "4to de Secundaria",
       dni: "74891230",
-      guardian: "Dra. Carmen MÃ©ndez",
+      guardian: "Dra. Carmen Méndez",
       tutor: "Prof. Roberto Silva",
       hasAdminPrivilege: false,
       status: "Activo",
@@ -365,12 +365,12 @@ const initialData = {
       code: "EST-2026-011",
       username: "carlos.benitez",
       password: "estudiante2026",
-      name: "Carlos BenÃ­tez DÃ­az",
+      name: "Carlos Benítez Díaz",
       email: "carlos.benitez@eleducador.edu.pe",
       role: "Estudiante",
       detail: "4to de Secundaria",
       dni: "75129034",
-      guardian: "Sr. Roberto DÃ­az",
+      guardian: "Sr. Roberto Díaz",
       tutor: "Prof. Roberto Silva",
       hasAdminPrivilege: false,
       status: "Activo",
@@ -386,7 +386,7 @@ const initialData = {
       role: "Estudiante",
       detail: "3ro de Secundaria",
       dni: "76891209",
-      guardian: "Sra. LucÃ­a Quispe",
+      guardian: "Sra. Lucía Quispe",
       tutor: "Miss Leyli Reyes",
       hasAdminPrivilege: false,
       status: "Activo",
@@ -397,13 +397,13 @@ const initialData = {
       code: "FAM-2026-108",
       username: "carmen.mendez",
       password: "padre2026",
-      name: "Dra. Carmen MÃ©ndez",
+      name: "Dra. Carmen Méndez",
       email: "carmen.mendez@gmail.com",
       role: "Apoderado",
-      detail: "Apoderada de SofÃ­a MÃ©ndez Flores (4to Sec)",
+      detail: "Apoderada de Sofía Méndez Flores (4to Sec)",
       dni: "41982301",
       phone: "987-654-321",
-      studentName: "SofÃ­a MÃ©ndez Flores",
+      studentName: "Sofía Méndez Flores",
       hasAdminPrivilege: false,
       status: "Activo",
       createdDate: "05/02/2026"
@@ -413,35 +413,35 @@ const initialData = {
       code: "FAM-2026-044",
       username: "roberto.diaz",
       password: "padre2026",
-      name: "Sr. Roberto DÃ­az",
+      name: "Sr. Roberto Díaz",
       email: "roberto.diaz@gmail.com",
       role: "Apoderado",
-      detail: "Apoderado de Carlos BenÃ­tez DÃ­az (4to Sec)",
+      detail: "Apoderado de Carlos Benítez Díaz (4to Sec)",
       dni: "40891278",
       phone: "984-123-456",
-      studentName: "Carlos BenÃ­tez DÃ­az",
+      studentName: "Carlos Benítez Díaz",
       hasAdminPrivilege: false,
       status: "Activo",
       createdDate: "06/02/2026"
     }
   ],
 
-  // ConfiguraciÃ³n de PestaÃ±as y Espacios Visibles por Perfil (Editable por el Administrador)
+  // Configuración de Pestañas y Espacios Visibles por Perfil (Editable por el Administrador)
   navigationTabsConfig: {
     auxiliar: [
       { id: "dashboard", label: "Inicio / Turno Auxiliar", icon: "dashboard", enabled: true },
-      { id: "asistencia", label: "ðŸšª Registro de Ingreso & QR", badge: "PorterÃ­a", icon: "attendance", enabled: true },
-      { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÃMARA", icon: "qr", enabled: true },
+      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "Portería", icon: "attendance", enabled: true },
+      { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÁMARA", icon: "qr", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true }
     ],
     docente: [
       { id: "dashboard", label: "Inicio / Resumen", icon: "dashboard", enabled: true },
-      { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÃMARA", icon: "qr", enabled: true },
+      { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÁMARA", icon: "qr", enabled: true },
       { id: "calificaciones", label: "Registro de Notas", badge: "Bimestral", icon: "grades", enabled: true },
       { id: "horarios", label: "Horario de Clases", icon: "schedule", enabled: true },
-      { id: "silabus", label: "SÃ­labus Curriculares", icon: "syllabus", enabled: true },
+      { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual / Quizzes", badge: "10P", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "ðŸšª Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", badge: "2026", icon: "boleta", enabled: true }
     ],
@@ -449,61 +449,61 @@ const initialData = {
       { id: "dashboard", label: "Inicio / Resumen", icon: "dashboard", enabled: true },
       { id: "calificaciones", label: "Registro de Notas", icon: "grades", enabled: true },
       { id: "horarios", label: "Horario de Clases", icon: "schedule", enabled: true },
-      { id: "silabus", label: "SÃ­labus Curriculares", icon: "syllabus", enabled: true },
+      { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "cuadernos-qr", label: "Control Cuadernos QR", icon: "qr", enabled: true },
       { id: "tareas", label: "Aula Virtual / Quizzes", badge: "10P", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "ðŸ“… Mi Asistencia & Fotocheck", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "📅 Mi Asistencia & Fotocheck", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true },
       { id: "boleta", label: "Boleta Oficial PDF", icon: "boleta", enabled: true }
     ],
     padre: [
       { id: "dashboard", label: "Inicio / Resumen", icon: "dashboard", enabled: true },
       { id: "horarios", label: "Horario de Clases", icon: "schedule", enabled: true },
-      { id: "silabus", label: "SÃ­labus Curriculares", icon: "syllabus", enabled: true },
-      { id: "cuadernos-qr", label: "Informe RevisiÃ³n Cuadernos", badge: "SELLOS QR", icon: "qr", enabled: true },
+      { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
+      { id: "cuadernos-qr", label: "Informe Revisión Cuadernos", badge: "SELLOS QR", icon: "qr", enabled: true },
       { id: "tareas", label: "Aula Virtual", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "ðŸ“… Asistencia de mi Hijo(a)", icon: "attendance", enabled: true },
-      { id: "comunicados", label: "Informes y Circulares", badge: "NÂ°003", icon: "announcements", enabled: true },
-      { id: "pagos", label: "Pensiones & RecaudaciÃ³n", badge: "S/ 480", icon: "payments", enabled: true }
+      { id: "asistencia", label: "📅 Asistencia de mi Hijo(a)", icon: "attendance", enabled: true },
+      { id: "comunicados", label: "Informes y Circulares", badge: "N°003", icon: "announcements", enabled: true },
+      { id: "pagos", label: "Pensiones & Recaudación", badge: "S/ 480", icon: "payments", enabled: true }
     ],
     director: [
       { id: "dashboard", label: "Inicio / Resumen", icon: "dashboard", enabled: true },
       { id: "database", label: "Base de Datos & DB", badge: "DB Online", icon: "database", enabled: true },
-      { id: "usuarios-matriculas", label: "Expedientes & MatrÃ­culas", badge: "UGEL 05", icon: "users", enabled: true },
-      { id: "cuadernos-qr", label: "SupervisiÃ³n Cuadernos QR", badge: "CÃMARA", icon: "qr", enabled: true },
-      { id: "calificaciones", label: "AuditorÃ­a de Calificaciones", badge: "Bimestral", icon: "grades", enabled: true },
+      { id: "usuarios-matriculas", label: "Expedientes & Matrículas", badge: "UGEL 05", icon: "users", enabled: true },
+      { id: "cuadernos-qr", label: "Supervisión Cuadernos QR", badge: "CÁMARA", icon: "qr", enabled: true },
+      { id: "calificaciones", label: "Auditoría de Calificaciones", badge: "Bimestral", icon: "grades", enabled: true },
       { id: "horarios", label: "Horarios Institucionales", icon: "schedule", enabled: true },
-      { id: "silabus", label: "SÃ­labus Curriculares", icon: "syllabus", enabled: true },
+      { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "ðŸšª Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
-      { id: "comunicados", label: "Informes & Circulares", badge: "NÂ°003", icon: "announcements", enabled: true },
-      { id: "pagos", label: "Reportes EconÃ³micos & Caja", badge: "S/ 25,130", icon: "payments", enabled: true },
+      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
+      { id: "comunicados", label: "Informes & Circulares", badge: "N°003", icon: "announcements", enabled: true },
+      { id: "pagos", label: "Reportes Económicos & Caja", badge: "S/ 25,130", icon: "payments", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", icon: "boleta", enabled: true }
     ]
   },
 
-  // 3. MatrÃ­culas y Fichas Ãšnicas de MatrÃ­cula (FUM - SIAGIE / UGEL 05)
+  // 3. Matrículas y Fichas Únicas de Matrícula (FUM - SIAGIE / UGEL 05)
   enrollments: [
     {
       id: "MATR-2026-001",
       studentCode: "EST-2026-042",
-      studentName: "SofÃ­a MÃ©ndez Flores",
+      studentName: "Sofía Méndez Flores",
       dni: "74891230",
       siagieCode: "2026-74891230",
       birthDate: "14/05/2010",
       gender: "Femenino",
-      address: "Av. PrÃ³ceres de la Independencia 1420",
+      address: "Av. Próceres de la Independencia 1420",
       district: "San Juan de Lurigancho",
       bloodType: "O+",
       insurance: "EsSalud (Activo)",
       allergies: "Ninguna conocida / Sin alergias",
-      medicalCondition: "Ninguna (Apta para actividad fÃ­sica y talleres)",
-      emergencyContact: "Sr. Carlos MÃ©ndez (Padre)",
+      medicalCondition: "Ninguna (Apta para actividad física y talleres)",
+      emergencyContact: "Sr. Carlos Méndez (Padre)",
       emergencyPhone: "984-555-123",
       level: "Secundaria",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
-      guardian: "Dra. Carmen MÃ©ndez",
+      guardian: "Dra. Carmen Méndez",
       guardianDni: "41982301",
       guardianPhone: "987-654-321",
       guardianEmail: "carmen.mendez@gmail.com",
@@ -523,23 +523,23 @@ const initialData = {
     {
       id: "MATR-2026-002",
       studentCode: "EST-2026-011",
-      studentName: "Carlos BenÃ­tez DÃ­az",
+      studentName: "Carlos Benítez Díaz",
       dni: "75129034",
       siagieCode: "2026-75129034",
       birthDate: "20/09/2010",
       gender: "Masculino",
-      address: "Jr. Las Flores 340, Urb. ZÃ¡rate",
+      address: "Jr. Las Flores 340, Urb. Zárate",
       district: "San Juan de Lurigancho",
       bloodType: "A+",
       insurance: "SIS Escolar",
       allergies: "Alergia a la Penicilina",
       medicalCondition: "Ninguna (Apto para deportes)",
-      emergencyContact: "Sra. Rosa DÃ­az (TÃ­a)",
+      emergencyContact: "Sra. Rosa Díaz (Tía)",
       emergencyPhone: "981-234-567",
       level: "Secundaria",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
-      guardian: "Sr. Roberto DÃ­az",
+      guardian: "Sr. Roberto Díaz",
       guardianDni: "40891278",
       guardianPhone: "984-123-456",
       guardianEmail: "roberto.diaz@gmail.com",
@@ -559,7 +559,7 @@ const initialData = {
     {
       id: "MATR-2026-003",
       studentCode: "EST-2026-055",
-      studentName: "Gael Alessandro CÃ¡ceres Ramos",
+      studentName: "Gael Alessandro Cáceres Ramos",
       dni: "76541298",
       siagieCode: "2026-76541298",
       birthDate: "11/07/2010",
@@ -570,12 +570,12 @@ const initialData = {
       insurance: "EsSalud (Activo)",
       allergies: "Sin alergias",
       medicalCondition: "Ninguna (Apto)",
-      emergencyContact: "Sr. Juan Carlos CÃ¡ceres (Padre)",
+      emergencyContact: "Sr. Juan Carlos Cáceres (Padre)",
       emergencyPhone: "984-777-888",
       level: "Secundaria",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
-      guardian: "Sr. Juan Carlos CÃ¡ceres",
+      guardian: "Sr. Juan Carlos Cáceres",
       guardianDni: "41298374",
       guardianPhone: "984-777-888",
       guardianEmail: "juan.caceres@gmail.com",
@@ -595,7 +595,7 @@ const initialData = {
     {
       id: "MATR-2026-004",
       studentCode: "EST-2026-089",
-      studentName: "Marina del Carmen AlbÃºjar Zegarra",
+      studentName: "Marina del Carmen Albújar Zegarra",
       dni: "75849301",
       siagieCode: "2026-75849301",
       birthDate: "12/03/2012",
@@ -606,10 +606,10 @@ const initialData = {
       insurance: "EsSalud",
       allergies: "Sin alergias",
       medicalCondition: "Ninguna",
-      emergencyContact: "Sr. Jorge AlbÃºjar (Padre)",
+      emergencyContact: "Sr. Jorge Albújar (Padre)",
       emergencyPhone: "978-901-234",
       level: "Secundaria",
-      grade: "2Â° de Secundaria",
+      grade: "2° de Secundaria",
       gradeId: "2sec",
       guardian: "Sra. Carmen Zegarra",
       guardianDni: "42109845",
@@ -641,19 +641,19 @@ const initialData = {
       bloodType: "O+",
       insurance: "SIS",
       allergies: "Sin alergias",
-      medicalCondition: "En observaciÃ³n pediÃ¡trica de rutina",
+      medicalCondition: "En observación pediátrica de rutina",
       emergencyContact: "Sra. Teresa Oropeza",
       emergencyPhone: "965-432-109",
       level: "Inicial",
-      grade: "Inicial 5 aÃ±os",
+      grade: "Inicial 5 años",
       gradeId: "ini5",
       guardian: "Sra. Teresa Oropeza",
       guardianDni: "45091283",
       guardianPhone: "965-432-109",
       guardianEmail: "teresa.oropeza@gmail.com",
       enrollmentDate: "15/08/2026",
-      feeStatus: "Al DÃ­a",
-      status: "Pendiente DocumentaciÃ³n (Partida de Nacimiento)",
+      feeStatus: "Al Día",
+      status: "Pendiente Documentación (Partida de Nacimiento)",
       certificateNo: "PEND-DOC-003/ED",
       documents: {
         dniStudent: true,
@@ -667,29 +667,29 @@ const initialData = {
     {
       id: "MATR-2026-005",
       studentCode: "EX-EST-2025-089",
-      studentName: "Evelin EstefanÃ­a DÃ­az Chirre",
+      studentName: "Evelin Estefanía Díaz Chirre",
       dni: "71290384",
       siagieCode: "2025-71290384",
       birthDate: "05/04/2008",
       gender: "Femenino",
-      address: "Av. Gran ChimÃº 650",
+      address: "Av. Gran Chimú 650",
       district: "San Juan de Lurigancho",
       bloodType: "B+",
-      insurance: "Particular (RÃ­mac)",
+      insurance: "Particular (Rímac)",
       allergies: "Sin alergias",
       medicalCondition: "Ninguna",
-      emergencyContact: "Familia DÃ­az Chirre",
+      emergencyContact: "Familia Díaz Chirre",
       emergencyPhone: "991-234-876",
       level: "Secundaria (Egresada)",
       grade: "Certificado de Estudios",
       gradeId: "5sec",
-      guardian: "Familia DÃ­az Chirre",
+      guardian: "Familia Díaz Chirre",
       guardianDni: "40192834",
       guardianPhone: "991-234-876",
       guardianEmail: "diaz.chirre@gmail.com",
       enrollmentDate: "15/08/2026",
-      feeStatus: "Pagado TrÃ¡mite",
-      status: "En ObservaciÃ³n UGEL 05 (Consulta en curso)",
+      feeStatus: "Pagado Trámite",
+      status: "En Observación UGEL 05 (Consulta en curso)",
       certificateNo: "CERT-UGEL05-RECH-2",
       documents: {
         dniStudent: true,
@@ -707,7 +707,7 @@ const initialData = {
     {
       id: "MAT-401",
       code: "MAT-401",
-      name: "MatemÃ¡tica Avanzada",
+      name: "Matemática Avanzada",
       teacher: "Prof. Roberto Silva",
       credits: 5,
       b1: 18,
@@ -722,8 +722,8 @@ const initialData = {
     {
       id: "COM-402",
       code: "COM-402",
-      name: "ComunicaciÃ³n & Literatura",
-      teacher: "Miss MarÃ­a Daysi Reyes Milla",
+      name: "Comunicación & Literatura",
+      teacher: "Miss María Daysi Reyes Milla",
       credits: 4,
       b1: 17,
       b2: 18,
@@ -737,7 +737,7 @@ const initialData = {
     {
       id: "CTA-403",
       code: "CTA-403",
-      name: "Ciencias & TecnologÃ­a",
+      name: "Ciencias & Tecnología",
       teacher: "Miss Leyli Graciela Reyes Cerquen",
       credits: 4,
       b1: 19,
@@ -752,7 +752,7 @@ const initialData = {
     {
       id: "PRI-404",
       code: "PRI-404",
-      name: "Personal Social & FormaciÃ³n Ciudadana",
+      name: "Personal Social & Formación Ciudadana",
       teacher: "Miss Julisa Magali Arroyo Araujo",
       credits: 3,
       b1: 18,
@@ -767,7 +767,7 @@ const initialData = {
     {
       id: "ING-405",
       code: "ING-405",
-      name: "InglÃ©s Institucional (Nivel B2/C1)",
+      name: "Inglés Institucional (Nivel B2/C1)",
       teacher: "Prof. Alex Lino",
       credits: 3,
       b1: 19,
@@ -781,14 +781,14 @@ const initialData = {
     }
   ],
 
-  // Registro Oficial DinÃ¡mico de Notas para EmisiÃ³n de Boletas MINEDU
+  // Registro Oficial Dinámico de Notas para Emisión de Boletas MINEDU
   boletaData: {
     albujar: {
       id: "EST-2026-089",
       name: "ALBUJAR ZEGARRA, MARINA DEL CARMEN",
       dni: "75849301",
-      grade: "2Â°",
-      gradeLevel: "2Â° de Secundaria",
+      grade: "2°",
+      gradeLevel: "2° de Secundaria",
       level: "SECUNDARIA",
       section: "",
       tutor: "Caceres Sutta Juan Carlos",
@@ -825,8 +825,8 @@ const initialData = {
         b4: { inasist_just: "", inasist_injust: "", tard_just: "", tard_injust: "" }
       },
       appreciations: {
-        b1: "Felicitaciones a ALBUJAR ZEGARRA, MARINA DEL CARMEN por su excelente rendimiento. Demuestra responsabilidad, participaciÃ³n activa y compromiso con su aprendizaje. Sus trabajos son de gran calidad y siempre estÃ¡ dispuesta a colaborar. RecomendaciÃ³n: Sigue asÃ­ y anÃ­mate a asumir nuevos retos.",
-        b2: "Has realizado un trabajo muy bueno durante este segundo bimestre. Cumples con responsabilidad tus actividades dentro de la clase y gestionas muy bien tu tiempo de trabajo. Te animo a participar un poco mÃ¡s de manera activa para seguir potenciando tus ideas.",
+        b1: "Felicitaciones a ALBUJAR ZEGARRA, MARINA DEL CARMEN por su excelente rendimiento. Demuestra responsabilidad, participación activa y compromiso con su aprendizaje. Sus trabajos son de gran calidad y siempre está dispuesta a colaborar. Recomendación: Sigue así y anímate a asumir nuevos retos.",
+        b2: "Has realizado un trabajo muy bueno durante este segundo bimestre. Cumples con responsabilidad tus actividades dentro de la clase y gestionas muy bien tu tiempo de trabajo. Te animo a participar un poco más de manera activa para seguir potenciando tus ideas.",
         b3: "",
         b4: ""
       },
@@ -841,9 +841,9 @@ const initialData = {
     },
     mendez: {
       id: "EST-2026-042",
-      name: "MÃ‰NDEZ FLORES, SOFÃA",
+      name: "MÉNDEZ FLORES, SOFÍA",
       dni: "74891230",
-      grade: "4Â°",
+      grade: "4°",
       gradeLevel: "4to de Secundaria",
       level: "SECUNDARIA",
       section: "",
@@ -881,9 +881,9 @@ const initialData = {
         b4: { inasist_just: "", inasist_injust: "", tard_just: "", tard_injust: "" }
       },
       appreciations: {
-        b1: "SofÃ­a demuestra un excelente compromiso acadÃ©mico y un liderazgo intachable en el aula de 4to Sec. 'A'. Â¡Felicitaciones por tus logros!",
-        b2: "Mantiene una alta dedicaciÃ³n y pulcritud en todos los cursos. Sus aportes en el Ã¡rea de matemÃ¡ticas y ciencias son sobresalientes.",
-        b3: "Excelente desempeÃ±o en el tercer bimestre. ContinÃºa demostrando autonomÃ­a y proactividad.",
+        b1: "Sofía demuestra un excelente compromiso académico y un liderazgo intachable en el aula de 4to Sec. 'A'. ¡Felicitaciones por tus logros!",
+        b2: "Mantiene una alta dedicación y pulcritud en todos los cursos. Sus aportes en el área de matemáticas y ciencias son sobresalientes.",
+        b3: "Excelente desempeño en el tercer bimestre. Continúa demostrando autonomía y proactividad.",
         b4: ""
       },
       parentCriteria: {
@@ -897,9 +897,9 @@ const initialData = {
     },
     benitez: {
       id: "EST-2026-011",
-      name: "BENÃTEZ RUIZ, CARLOS",
+      name: "BENÍTEZ RUIZ, CARLOS",
       dni: "74891255",
-      grade: "4Â°",
+      grade: "4°",
       gradeLevel: "4to de Secundaria",
       level: "SECUNDARIA",
       section: "",
@@ -937,9 +937,9 @@ const initialData = {
         b4: { inasist_just: "", inasist_injust: "", tard_just: "", tard_injust: "" }
       },
       appreciations: {
-        b1: "Carlos ha mostrado buena disposiciÃ³n para el trabajo en equipo. Se recomienda reforzar el repaso constante en Ã¡lgebra y fÃ­sica.",
-        b2: "Se aprecia una notable mejorÃ­a en su puntualidad y presentaciÃ³n de trabajos. Buen progreso durante este bimestre.",
-        b3: "Consolida sus aprendizajes con constancia y participaciÃ³n activa.",
+        b1: "Carlos ha mostrado buena disposición para el trabajo en equipo. Se recomienda reforzar el repaso constante en álgebra y física.",
+        b2: "Se aprecia una notable mejoría en su puntualidad y presentación de trabajos. Buen progreso durante este bimestre.",
+        b3: "Consolida sus aprendizajes con constancia y participación activa.",
         b4: ""
       },
       parentCriteria: {
@@ -954,28 +954,28 @@ const initialData = {
   },
 
   studentListDocente: [
-    { "id": "EST-042", "studentKey": "mendez", "name": "SofÃ­a MÃ©ndez", "grade": 19, "attendance": "100%", "status": "Destacado", "notebookStatus": "Al DÃ­a (20)" },
-    { "id": "EST-011", "studentKey": "benitez", "name": "Carlos BenÃ­tez", "grade": 15, "attendance": "94%", "status": "Regular", "notebookStatus": "Incompleto (13)" },
-    { "id": "EST-089", "studentKey": "albujar", "name": "Marina Albujar", "grade": 18, "attendance": "100%", "status": "Destacado", "notebookStatus": "Al DÃ­a (19)" }
+    { "id": "EST-042", "studentKey": "mendez", "name": "Sofía Méndez", "grade": 19, "attendance": "100%", "status": "Destacado", "notebookStatus": "Al Día (20)" },
+    { "id": "EST-011", "studentKey": "benitez", "name": "Carlos Benítez", "grade": 15, "attendance": "94%", "status": "Regular", "notebookStatus": "Incompleto (13)" },
+    { "id": "EST-089", "studentKey": "albujar", "name": "Marina Albujar", "grade": 18, "attendance": "100%", "status": "Destacado", "notebookStatus": "Al Día (19)" }
   ],
 
   tasks: [
     {
       id: "TSK-101",
-      title: "Ensayo HistÃ³rico: Identidad Institucional y Sociedad",
+      title: "Ensayo Histórico: Identidad Institucional y Sociedad",
       course: "Personal Social",
       teacher: "Miss Julisa Arroyo",
-      dueDate: "MaÃ±ana a las 23:59",
+      dueDate: "Mañana a las 23:59",
       priority: "urgent",
       priorityLabel: "Vence Pronto",
       status: "pending",
-      description: "Elaborar un informe sobre los 21 aÃ±os de trayectoria institucional dejando huellas en la comunidad de S.J.L.",
+      description: "Elaborar un informe sobre los 21 años de trayectoria institucional dejando huellas en la comunidad de S.J.L.",
       submission: null
     },
     {
       id: "TSK-102",
-      title: "Taller PrÃ¡ctico: Ecuaciones CuadrÃ¡ticas Complejas",
-      course: "MatemÃ¡tica Avanzada",
+      title: "Taller Práctico: Ecuaciones Cuadráticas Complejas",
+      course: "Matemática Avanzada",
       teacher: "Prof. Roberto Silva",
       dueDate: "Viernes 22 de Agosto",
       priority: "medium",
@@ -986,102 +986,102 @@ const initialData = {
     }
   ],
 
-  // ConfiguraciÃ³n de Estructura AcadÃ©mica (Editable desde el Perfil Administrador)
+  // Configuración de Estructura Académica (Editable desde el Perfil Administrador)
   academicConfig: {
     hasSections: false, // El colegio no tiene secciones, solo mantiene grados (editable por Admin)
-    defaultSectionLabel: "Ãšnica"
+    defaultSectionLabel: "Única"
   },
 
-  // CatÃ¡logo Oficial de Grados del Colegio (Editable por el Administrador)
+  // Catálogo Oficial de Grados del Colegio (Editable por el Administrador)
   gradesCatalog: [
     // INICIAL
-    { id: "ini-3", label: "Inicial 3 AÃ±os", level: "Inicial", section: "", classroom: "PabellÃ³n Inicial - Aula 01", tutor: "Miss Patricia DÃ­az" },
-    { id: "ini-4", label: "Inicial 4 AÃ±os", level: "Inicial", section: "", classroom: "PabellÃ³n Inicial - Aula 02", tutor: "Miss Carmen Flores" },
-    { id: "ini-5", label: "Inicial 5 AÃ±os", level: "Inicial", section: "", classroom: "PabellÃ³n Inicial - Aula 03", tutor: "Miss Maritza" },
+    { id: "ini-3", label: "Inicial 3 Años", level: "Inicial", section: "", classroom: "Pabellón Inicial - Aula 01", tutor: "Miss Patricia Díaz" },
+    { id: "ini-4", label: "Inicial 4 Años", level: "Inicial", section: "", classroom: "Pabellón Inicial - Aula 02", tutor: "Miss Carmen Flores" },
+    { id: "ini-5", label: "Inicial 5 Años", level: "Inicial", section: "", classroom: "Pabellón Inicial - Aula 03", tutor: "Miss Maritza" },
     
     // PRIMARIA
-    { id: "1prim", label: "1Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 101", tutor: "Miss Julisa Arroyo" },
-    { id: "2prim", label: "2Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 102", tutor: "Miss Elena SuÃ¡rez" },
-    { id: "3prim", label: "3Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 103", tutor: "Miss MarÃ­a Daysi Reyes" },
-    { id: "4prim", label: "4Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 201", tutor: "Prof. CÃ©sar Palacios" },
-    { id: "5prim", label: "5Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 202", tutor: "Prof. Miguel Ramos" },
-    { id: "6prim", label: "6Â° de Primaria", level: "Primaria", section: "", classroom: "PabellÃ³n A - Aula 203", tutor: "Miss Leyli Reyes Cerquen" },
+    { id: "1prim", label: "1° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 101", tutor: "Miss Julisa Arroyo" },
+    { id: "2prim", label: "2° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 102", tutor: "Miss Elena Suárez" },
+    { id: "3prim", label: "3° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 103", tutor: "Miss María Daysi Reyes" },
+    { id: "4prim", label: "4° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 201", tutor: "Prof. César Palacios" },
+    { id: "5prim", label: "5° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 202", tutor: "Prof. Miguel Ramos" },
+    { id: "6prim", label: "6° de Primaria", level: "Primaria", section: "", classroom: "Pabellón A - Aula 203", tutor: "Miss Leyli Reyes Cerquen" },
 
     // SECUNDARIA
-    { id: "1sec", label: "1Â° de Secundaria", level: "Secundaria", section: "", classroom: "PabellÃ³n B - Aula 301", tutor: "Prof. Alex Lino" },
-    { id: "2sec", label: "2Â° de Secundaria", level: "Secundaria", section: "", classroom: "PabellÃ³n B - Aula 302", tutor: "Prof. Juan Carlos CÃ¡ceres" },
-    { id: "3sec", label: "3Â° de Secundaria", level: "Secundaria", section: "", classroom: "PabellÃ³n B - Aula 303", tutor: "Prof. Javier Vega" },
-    { id: "4sec", label: "4Â° de Secundaria", level: "Secundaria", section: "", classroom: "PabellÃ³n B - Aula 304", tutor: "Prof. Roberto Silva" },
-    { id: "5sec", label: "5Â° de Secundaria", level: "Secundaria", section: "", classroom: "PabellÃ³n B - Aula 305", tutor: "Miss Andrea Ramos" }
+    { id: "1sec", label: "1° de Secundaria", level: "Secundaria", section: "", classroom: "Pabellón B - Aula 301", tutor: "Prof. Alex Lino" },
+    { id: "2sec", label: "2° de Secundaria", level: "Secundaria", section: "", classroom: "Pabellón B - Aula 302", tutor: "Prof. Juan Carlos Cáceres" },
+    { id: "3sec", label: "3° de Secundaria", level: "Secundaria", section: "", classroom: "Pabellón B - Aula 303", tutor: "Prof. Javier Vega" },
+    { id: "4sec", label: "4° de Secundaria", level: "Secundaria", section: "", classroom: "Pabellón B - Aula 304", tutor: "Prof. Roberto Silva" },
+    { id: "5sec", label: "5° de Secundaria", level: "Secundaria", section: "", classroom: "Pabellón B - Aula 305", tutor: "Miss Andrea Ramos" }
   ],
 
-  // CatÃ¡logo de Docentes y Horarios por Asignatura (Docentes de Curso sin TutorÃ­a / con TutorÃ­a)
+  // Catálogo de Docentes y Horarios por Asignatura (Docentes de Curso sin Tutoría / con Tutoría)
   teachersList: [
     {
       id: "DOC-2026-COMP",
       name: "Prof. Fernando Rojas",
-      subject: "ComputaciÃ³n e InformÃ¡tica / RobÃ³tica",
-      department: "Ãrea de EducaciÃ³n para el Trabajo (EPT)",
+      subject: "Computación e Informática / Robótica",
+      department: "Área de Educación para el Trabajo (EPT)",
       isTutor: false,
       tutoringGrade: null,
       weeklyHours: 26,
-      assignedGrades: ["1Â° Sec", "2Â° Sec", "3Â° Sec", "4Â° Sec", "5Â° Sec"],
-      classrooms: ["Laboratorio de CÃ³mputo 01", "Taller de RobÃ³tica"],
-      courses: ["ComputaciÃ³n", "RobÃ³tica Educativa", "DiseÃ±o Digital"],
+      assignedGrades: ["1° Sec", "2° Sec", "3° Sec", "4° Sec", "5° Sec"],
+      classrooms: ["Laboratorio de Cómputo 01", "Taller de Robótica"],
+      courses: ["Computación", "Robótica Educativa", "Diseño Digital"],
       schedule: [
         {
           time: "08:00 - 08:50",
-          mon: { course: "ComputaciÃ³n", grade: "1Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          tue: { course: "ComputaciÃ³n", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          wed: { course: "RobÃ³tica Educativa", grade: "5Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          thu: { course: "ComputaciÃ³n", grade: "2Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          fri: { course: "DiseÃ±o Digital", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" }
+          mon: { course: "Computación", grade: "1° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          tue: { course: "Computación", grade: "3° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          wed: { course: "Robótica Educativa", grade: "5° Sec", room: "Taller Robótica", color: "yellow" },
+          thu: { course: "Computación", grade: "2° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          fri: { course: "Diseño Digital", grade: "4° Sec", room: "Lab. Cómputo 1", color: "yellow" }
         },
         {
           time: "08:50 - 09:40",
-          mon: { course: "ComputaciÃ³n", grade: "1Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          tue: { course: "ComputaciÃ³n", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          wed: { course: "RobÃ³tica Educativa", grade: "5Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          thu: { course: "ComputaciÃ³n", grade: "2Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          fri: { course: "DiseÃ±o Digital", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" }
+          mon: { course: "Computación", grade: "1° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          tue: { course: "Computación", grade: "3° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          wed: { course: "Robótica Educativa", grade: "5° Sec", room: "Taller Robótica", color: "yellow" },
+          thu: { course: "Computación", grade: "2° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          fri: { course: "Diseño Digital", grade: "4° Sec", room: "Lab. Cómputo 1", color: "yellow" }
         },
         {
           time: "09:40 - 10:30",
-          mon: { course: "ComputaciÃ³n", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          tue: { course: "DiseÃ±o Digital", grade: "2Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" },
-          wed: { course: "ComputaciÃ³n", grade: "1Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "RobÃ³tica Educativa", grade: "3Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          fri: { course: "ComputaciÃ³n", grade: "5Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" }
+          mon: { course: "Computación", grade: "4° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          tue: { course: "Diseño Digital", grade: "2° Sec", room: "Lab. Cómputo 1", color: "yellow" },
+          wed: { course: "Computación", grade: "1° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Robótica Educativa", grade: "3° Sec", room: "Taller Robótica", color: "yellow" },
+          fri: { course: "Computación", grade: "5° Sec", room: "Lab. Cómputo 1", color: "navy" }
         },
         {
           time: "10:30 - 10:50",
           isBreak: true,
           isLunch: false,
-          title: "RECESO PEDAGÃ“GICO / REFRIGERIO (10:30 - 10:50 AM)"
+          title: "RECESO PEDAGÓGICO / REFRIGERIO (10:30 - 10:50 AM)"
         },
         {
           time: "10:50 - 11:40",
-          mon: { course: "ComputaciÃ³n", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          tue: { course: "DiseÃ±o Digital", grade: "2Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" },
-          wed: { course: "ComputaciÃ³n", grade: "1Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "RobÃ³tica Educativa", grade: "3Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          fri: { course: "ComputaciÃ³n", grade: "5Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" }
+          mon: { course: "Computación", grade: "4° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          tue: { course: "Diseño Digital", grade: "2° Sec", room: "Lab. Cómputo 1", color: "yellow" },
+          wed: { course: "Computación", grade: "1° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Robótica Educativa", grade: "3° Sec", room: "Taller Robótica", color: "yellow" },
+          fri: { course: "Computación", grade: "5° Sec", room: "Lab. Cómputo 1", color: "navy" }
         },
         {
           time: "11:40 - 12:30",
-          mon: { course: "RobÃ³tica Educativa", grade: "2Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          tue: { course: "AsesorÃ­a PedagÃ³gica", grade: "Secundaria", room: "Sala Docentes", color: "green" },
-          wed: { course: "ComputaciÃ³n", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "ComputaciÃ³n", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          fri: { course: "PreparaciÃ³n de Material", grade: "Secundaria", room: "Lab. CÃ³mputo 1", color: "green" }
+          mon: { course: "Robótica Educativa", grade: "2° Sec", room: "Taller Robótica", color: "yellow" },
+          tue: { course: "Asesoría Pedagógica", grade: "Secundaria", room: "Sala Docentes", color: "green" },
+          wed: { course: "Computación", grade: "3° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Computación", grade: "4° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          fri: { course: "Preparación de Material", grade: "Secundaria", room: "Lab. Cómputo 1", color: "green" }
         },
         {
           time: "12:30 - 01:20 PM",
-          mon: { course: "RobÃ³tica Educativa", grade: "2Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          tue: { course: "DiseÃ±o Digital", grade: "5Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" },
-          wed: { course: "ComputaciÃ³n", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "ComputaciÃ³n", grade: "4Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          fri: { course: "ReuniÃ³n de Ãrea / EPT", grade: "General", room: "Sala Docentes", color: "green" }
+          mon: { course: "Robótica Educativa", grade: "2° Sec", room: "Taller Robótica", color: "yellow" },
+          tue: { course: "Diseño Digital", grade: "5° Sec", room: "Lab. Cómputo 1", color: "yellow" },
+          wed: { course: "Computación", grade: "3° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Computación", grade: "4° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          fri: { course: "Reunión de Área / EPT", grade: "General", room: "Sala Docentes", color: "green" }
         },
         {
           time: "01:20 - 01:50 PM",
@@ -1091,87 +1091,87 @@ const initialData = {
         },
         {
           time: "01:50 - 02:40 PM",
-          mon: { course: "Taller de RobÃ³tica Avanzada", grade: "4Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          tue: { course: "Soporte y Mantenimiento TI", grade: "Institucional", room: "Lab. CÃ³mputo 1", color: "green" },
-          wed: { course: "Taller de ProgramaciÃ³n", grade: "5Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "DiseÃ±o Web Escolar", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" },
-          fri: { course: "Taller de RobÃ³tica Avanzada", grade: "4Â° Sec", room: "Taller RobÃ³tica", color: "yellow" }
+          mon: { course: "Taller de Robótica Avanzada", grade: "4° Sec", room: "Taller Robótica", color: "yellow" },
+          tue: { course: "Soporte y Mantenimiento TI", grade: "Institucional", room: "Lab. Cómputo 1", color: "green" },
+          wed: { course: "Taller de Programación", grade: "5° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Diseño Web Escolar", grade: "3° Sec", room: "Lab. Cómputo 1", color: "yellow" },
+          fri: { course: "Taller de Robótica Avanzada", grade: "4° Sec", room: "Taller Robótica", color: "yellow" }
         },
         {
           time: "02:40 - 03:30 PM",
-          mon: { course: "Taller de RobÃ³tica Avanzada", grade: "4Â° Sec", room: "Taller RobÃ³tica", color: "yellow" },
-          tue: { course: "Club de Ciencias y TecnologÃ­a", grade: "General", room: "Lab. CÃ³mputo 1", color: "green" },
-          wed: { course: "Taller de ProgramaciÃ³n", grade: "5Â° Sec", room: "Lab. CÃ³mputo 1", color: "navy" },
-          thu: { course: "DiseÃ±o Web Escolar", grade: "3Â° Sec", room: "Lab. CÃ³mputo 1", color: "yellow" },
-          fri: { course: "AtenciÃ³n a Familias / TutorÃ­a", grade: "Secundaria", room: "Sala Docentes", color: "green" }
+          mon: { course: "Taller de Robótica Avanzada", grade: "4° Sec", room: "Taller Robótica", color: "yellow" },
+          tue: { course: "Club de Ciencias y Tecnología", grade: "General", room: "Lab. Cómputo 1", color: "green" },
+          wed: { course: "Taller de Programación", grade: "5° Sec", room: "Lab. Cómputo 1", color: "navy" },
+          thu: { course: "Diseño Web Escolar", grade: "3° Sec", room: "Lab. Cómputo 1", color: "yellow" },
+          fri: { course: "Atención a Familias / Tutoría", grade: "Secundaria", room: "Sala Docentes", color: "green" }
         }
       ]
     },
     {
       id: "DOC-2026-015",
       name: "Prof. Roberto Silva",
-      subject: "MatemÃ¡ticas (Ãlgebra, GeometrÃ­a y Raz. MatemÃ¡tico)",
-      department: "Ãrea de MatemÃ¡tica",
+      subject: "Matemáticas (Álgebra, Geometría y Raz. Matemático)",
+      department: "Área de Matemática",
       isTutor: false,
       tutoringGrade: null,
       weeklyHours: 28,
-      assignedGrades: ["2Â° Sec", "3Â° Sec", "4Â° Sec", "5Â° Sec"],
+      assignedGrades: ["2° Sec", "3° Sec", "4° Sec", "5° Sec"],
       classrooms: ["Aula 201", "Aula 301", "Aula 302"],
-      courses: ["Ãlgebra", "GeometrÃ­a", "Razonamiento MatemÃ¡tico", "TrigonometrÃ­a"],
+      courses: ["Álgebra", "Geometría", "Razonamiento Matemático", "Trigonometría"],
       schedule: [
         {
           time: "08:00 - 08:50",
-          mon: { course: "Ãlgebra", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          tue: { course: "GeometrÃ­a", grade: "3Â° Sec", room: "Aula 201", color: "navy" },
-          wed: { course: "Raz. MatemÃ¡tico", grade: "2Â° Sec", room: "Aula 102", color: "yellow" },
-          thu: { course: "Ãlgebra", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          fri: { course: "TrigonometrÃ­a", grade: "4Â° Sec", room: "Aula 301", color: "navy" }
+          mon: { course: "Álgebra", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          tue: { course: "Geometría", grade: "3° Sec", room: "Aula 201", color: "navy" },
+          wed: { course: "Raz. Matemático", grade: "2° Sec", room: "Aula 102", color: "yellow" },
+          thu: { course: "Álgebra", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          fri: { course: "Trigonometría", grade: "4° Sec", room: "Aula 301", color: "navy" }
         },
         {
           time: "08:50 - 09:40",
-          mon: { course: "Ãlgebra", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          tue: { course: "GeometrÃ­a", grade: "3Â° Sec", room: "Aula 201", color: "navy" },
-          wed: { course: "Raz. MatemÃ¡tico", grade: "2Â° Sec", room: "Aula 102", color: "yellow" },
-          thu: { course: "Ãlgebra", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          fri: { course: "TrigonometrÃ­a", grade: "4Â° Sec", room: "Aula 301", color: "navy" }
+          mon: { course: "Álgebra", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          tue: { course: "Geometría", grade: "3° Sec", room: "Aula 201", color: "navy" },
+          wed: { course: "Raz. Matemático", grade: "2° Sec", room: "Aula 102", color: "yellow" },
+          thu: { course: "Álgebra", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          fri: { course: "Trigonometría", grade: "4° Sec", room: "Aula 301", color: "navy" }
         },
         {
           time: "09:40 - 10:30",
-          mon: { course: "GeometrÃ­a", grade: "2Â° Sec", room: "Aula 102", color: "navy" },
-          tue: { course: "Ãlgebra", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          wed: { course: "TrigonometrÃ­a", grade: "5Â° Sec", room: "Aula 302", color: "navy" },
-          thu: { course: "Raz. MatemÃ¡tico", grade: "3Â° Sec", room: "Aula 201", color: "yellow" },
-          fri: { course: "Ãlgebra", grade: "2Â° Sec", room: "Aula 102", color: "yellow" }
+          mon: { course: "Geometría", grade: "2° Sec", room: "Aula 102", color: "navy" },
+          tue: { course: "Álgebra", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          wed: { course: "Trigonometría", grade: "5° Sec", room: "Aula 302", color: "navy" },
+          thu: { course: "Raz. Matemático", grade: "3° Sec", room: "Aula 201", color: "yellow" },
+          fri: { course: "Álgebra", grade: "2° Sec", room: "Aula 102", color: "yellow" }
         },
         {
           time: "10:30 - 10:50",
           isBreak: true,
           isLunch: false,
-          title: "RECESO PEDAGÃ“GICO / REFRIGERIO (10:30 - 10:50 AM)"
+          title: "RECESO PEDAGÓGICO / REFRIGERIO (10:30 - 10:50 AM)"
         },
         {
           time: "10:50 - 11:40",
-          mon: { course: "GeometrÃ­a", grade: "2Â° Sec", room: "Aula 102", color: "navy" },
-          tue: { course: "Ãlgebra", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          wed: { course: "TrigonometrÃ­a", grade: "5Â° Sec", room: "Aula 302", color: "navy" },
-          thu: { course: "Raz. MatemÃ¡tico", grade: "3Â° Sec", room: "Aula 201", color: "yellow" },
-          fri: { course: "Ãlgebra", grade: "2Â° Sec", room: "Aula 102", color: "yellow" }
+          mon: { course: "Geometría", grade: "2° Sec", room: "Aula 102", color: "navy" },
+          tue: { course: "Álgebra", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          wed: { course: "Trigonometría", grade: "5° Sec", room: "Aula 302", color: "navy" },
+          thu: { course: "Raz. Matemático", grade: "3° Sec", room: "Aula 201", color: "yellow" },
+          fri: { course: "Álgebra", grade: "2° Sec", room: "Aula 102", color: "yellow" }
         },
         {
           time: "11:40 - 12:30",
-          mon: { course: "Raz. MatemÃ¡tico", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          tue: { course: "AtenciÃ³n a Padres (Colegiado)", grade: "Secundaria", room: "Sala Docentes", color: "green" },
-          wed: { course: "Ãlgebra", grade: "3Â° Sec", room: "Aula 201", color: "yellow" },
-          thu: { course: "GeometrÃ­a", grade: "4Â° Sec", room: "Aula 301", color: "navy" },
-          fri: { course: "ReuniÃ³n de Ãrea MatemÃ¡tica", grade: "Colegiado", room: "Sala Docentes", color: "green" }
+          mon: { course: "Raz. Matemático", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          tue: { course: "Atención a Padres (Colegiado)", grade: "Secundaria", room: "Sala Docentes", color: "green" },
+          wed: { course: "Álgebra", grade: "3° Sec", room: "Aula 201", color: "yellow" },
+          thu: { course: "Geometría", grade: "4° Sec", room: "Aula 301", color: "navy" },
+          fri: { course: "Reunión de Área Matemática", grade: "Colegiado", room: "Sala Docentes", color: "green" }
         },
         {
           time: "12:30 - 01:20 PM",
-          mon: { course: "Raz. MatemÃ¡tico", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          tue: { course: "Ãlgebra Avanzada", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          wed: { course: "GeometrÃ­a del Espacio", grade: "4Â° Sec", room: "Aula 301", color: "navy" },
-          thu: { course: "TrigonometrÃ­a AnalÃ­tica", grade: "5Â° Sec", room: "Aula 302", color: "navy" },
-          fri: { course: "PreparaciÃ³n de Evaluaciones", grade: "General", room: "Sala Docentes", color: "green" }
+          mon: { course: "Raz. Matemático", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          tue: { course: "Álgebra Avanzada", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          wed: { course: "Geometría del Espacio", grade: "4° Sec", room: "Aula 301", color: "navy" },
+          thu: { course: "Trigonometría Analítica", grade: "5° Sec", room: "Aula 302", color: "navy" },
+          fri: { course: "Preparación de Evaluaciones", grade: "General", room: "Sala Docentes", color: "green" }
         },
         {
           time: "01:20 - 01:50 PM",
@@ -1181,87 +1181,87 @@ const initialData = {
         },
         {
           time: "01:50 - 02:40 PM",
-          mon: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          tue: { course: "Refuerzo y NivelaciÃ³n AcadÃ©mica", grade: "3Â° Sec", room: "Aula 201", color: "navy" },
-          wed: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          thu: { course: "Taller de GeometrÃ­a Descriptiva", grade: "4Â° Sec", room: "Aula 301", color: "navy" },
-          fri: { course: "AsesorÃ­a Preuniversitaria", grade: "5Â° Sec", room: "Aula 302", color: "yellow" }
+          mon: { course: "Círculo Matemático Olímpico", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          tue: { course: "Refuerzo y Nivelación Académica", grade: "3° Sec", room: "Aula 201", color: "navy" },
+          wed: { course: "Círculo Matemático Olímpico", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          thu: { course: "Taller de Geometría Descriptiva", grade: "4° Sec", room: "Aula 301", color: "navy" },
+          fri: { course: "Asesoría Preuniversitaria", grade: "5° Sec", room: "Aula 302", color: "yellow" }
         },
         {
           time: "02:40 - 03:30 PM",
-          mon: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", grade: "4Â° Sec", room: "Aula 301", color: "yellow" },
-          tue: { course: "Refuerzo y NivelaciÃ³n AcadÃ©mica", grade: "3Â° Sec", room: "Aula 201", color: "navy" },
-          wed: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", grade: "5Â° Sec", room: "Aula 302", color: "yellow" },
-          thu: { course: "Taller de GeometrÃ­a Descriptiva", grade: "4Â° Sec", room: "Aula 301", color: "navy" },
-          fri: { course: "AsesorÃ­a Preuniversitaria", grade: "5Â° Sec", room: "Aula 302", color: "yellow" }
+          mon: { course: "Círculo Matemático Olímpico", grade: "4° Sec", room: "Aula 301", color: "yellow" },
+          tue: { course: "Refuerzo y Nivelación Académica", grade: "3° Sec", room: "Aula 201", color: "navy" },
+          wed: { course: "Círculo Matemático Olímpico", grade: "5° Sec", room: "Aula 302", color: "yellow" },
+          thu: { course: "Taller de Geometría Descriptiva", grade: "4° Sec", room: "Aula 301", color: "navy" },
+          fri: { course: "Asesoría Preuniversitaria", grade: "5° Sec", room: "Aula 302", color: "yellow" }
         }
       ]
     },
     {
       id: "DOC-2026-FIS",
       name: "Miss Leyli Reyes Cerquen",
-      subject: "Ciencia y TecnologÃ­a (FÃ­sica, QuÃ­mica y BiologÃ­a)",
-      department: "Ãrea de Ciencias",
+      subject: "Ciencia y Tecnología (Física, Química y Biología)",
+      department: "Área de Ciencias",
       isTutor: false,
       tutoringGrade: null,
       weeklyHours: 26,
-      assignedGrades: ["2Â° Sec", "3Â° Sec", "4Â° Sec", "5Â° Sec"],
+      assignedGrades: ["2° Sec", "3° Sec", "4° Sec", "5° Sec"],
       classrooms: ["Laboratorio de Ciencias 01", "Aula 301"],
-      courses: ["FÃ­sica", "QuÃ­mica", "BiologÃ­a"],
+      courses: ["Física", "Química", "Biología"],
       schedule: [
         {
           time: "08:00 - 08:50",
-          mon: { course: "FÃ­sica Elemental", grade: "3Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          tue: { course: "QuÃ­mica OrgÃ¡nica", grade: "5Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          wed: { course: "FÃ­sica Avanzada", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          thu: { course: "BiologÃ­a", grade: "2Â° Sec", room: "Lab. Ciencias", color: "green" },
-          fri: { course: "PrÃ¡cticas de Laboratorio", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" }
+          mon: { course: "Física Elemental", grade: "3° Sec", room: "Lab. Ciencias", color: "yellow" },
+          tue: { course: "Química Orgánica", grade: "5° Sec", room: "Lab. Ciencias", color: "navy" },
+          wed: { course: "Física Avanzada", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" },
+          thu: { course: "Biología", grade: "2° Sec", room: "Lab. Ciencias", color: "green" },
+          fri: { course: "Prácticas de Laboratorio", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" }
         },
         {
           time: "08:50 - 09:40",
-          mon: { course: "FÃ­sica Elemental", grade: "3Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          tue: { course: "QuÃ­mica OrgÃ¡nica", grade: "5Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          wed: { course: "FÃ­sica Avanzada", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          thu: { course: "BiologÃ­a", grade: "2Â° Sec", room: "Lab. Ciencias", color: "green" },
-          fri: { course: "PrÃ¡cticas de Laboratorio", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" }
+          mon: { course: "Física Elemental", grade: "3° Sec", room: "Lab. Ciencias", color: "yellow" },
+          tue: { course: "Química Orgánica", grade: "5° Sec", room: "Lab. Ciencias", color: "navy" },
+          wed: { course: "Física Avanzada", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" },
+          thu: { course: "Biología", grade: "2° Sec", room: "Lab. Ciencias", color: "green" },
+          fri: { course: "Prácticas de Laboratorio", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" }
         },
         {
           time: "09:40 - 10:30",
-          mon: { course: "BiologÃ­a y EcologÃ­a", grade: "4Â° Sec", room: "Aula 301", color: "green" },
-          tue: { course: "FÃ­sica Elemental", grade: "2Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          wed: { course: "QuÃ­mica General", grade: "3Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          thu: { course: "FÃ­sica Moderna", grade: "5Â° Sec", room: "Lab. Ciencias", color: "yellow" },
+          mon: { course: "Biología y Ecología", grade: "4° Sec", room: "Aula 301", color: "green" },
+          tue: { course: "Física Elemental", grade: "2° Sec", room: "Lab. Ciencias", color: "yellow" },
+          wed: { course: "Química General", grade: "3° Sec", room: "Lab. Ciencias", color: "navy" },
+          thu: { course: "Física Moderna", grade: "5° Sec", room: "Lab. Ciencias", color: "yellow" },
           fri: { course: "Mantenimiento de Reactivos", grade: "Ciencias", room: "Lab. Ciencias", color: "green" }
         },
         {
           time: "10:30 - 10:50",
           isBreak: true,
           isLunch: false,
-          title: "RECESO PEDAGÃ“GICO / REFRIGERIO (10:30 - 10:50 AM)"
+          title: "RECESO PEDAGÓGICO / REFRIGERIO (10:30 - 10:50 AM)"
         },
         {
           time: "10:50 - 11:40",
-          mon: { course: "BiologÃ­a y EcologÃ­a", grade: "4Â° Sec", room: "Aula 301", color: "green" },
-          tue: { course: "FÃ­sica Elemental", grade: "2Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          wed: { course: "QuÃ­mica General", grade: "3Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          thu: { course: "FÃ­sica Moderna", grade: "5Â° Sec", room: "Lab. Ciencias", color: "yellow" },
+          mon: { course: "Biología y Ecología", grade: "4° Sec", room: "Aula 301", color: "green" },
+          tue: { course: "Física Elemental", grade: "2° Sec", room: "Lab. Ciencias", color: "yellow" },
+          wed: { course: "Química General", grade: "3° Sec", room: "Lab. Ciencias", color: "navy" },
+          thu: { course: "Física Moderna", grade: "5° Sec", room: "Lab. Ciencias", color: "yellow" },
           fri: { course: "Mantenimiento de Reactivos", grade: "Ciencias", room: "Lab. Ciencias", color: "green" }
         },
         {
           time: "11:40 - 12:30",
-          mon: { course: "QuÃ­mica Experimental", grade: "4Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          tue: { course: "AtenciÃ³n a Familias (Ciencias)", grade: "Secundaria", room: "Sala Docentes", color: "green" },
-          wed: { course: "BiologÃ­a Celular", grade: "3Â° Sec", room: "Lab. Ciencias", color: "green" },
-          thu: { course: "QuÃ­mica General", grade: "2Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          fri: { course: "ReuniÃ³n de Ãrea de Ciencias", grade: "Colegiado", room: "Sala Docentes", color: "green" }
+          mon: { course: "Química Experimental", grade: "4° Sec", room: "Lab. Ciencias", color: "navy" },
+          tue: { course: "Atención a Familias (Ciencias)", grade: "Secundaria", room: "Sala Docentes", color: "green" },
+          wed: { course: "Biología Celular", grade: "3° Sec", room: "Lab. Ciencias", color: "green" },
+          thu: { course: "Química General", grade: "2° Sec", room: "Lab. Ciencias", color: "navy" },
+          fri: { course: "Reunión de Área de Ciencias", grade: "Colegiado", room: "Sala Docentes", color: "green" }
         },
         {
           time: "12:30 - 01:20 PM",
-          mon: { course: "QuÃ­mica Experimental", grade: "4Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          tue: { course: "PrÃ¡cticas de MicroscopÃ­a", grade: "4Â° Sec", room: "Lab. Ciencias", color: "green" },
-          wed: { course: "FÃ­sica CuÃ¡ntica BÃ¡sica", grade: "5Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          thu: { course: "Ciencias Experimentales", grade: "3Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          fri: { course: "CalibraciÃ³n de Sensores", grade: "Ciencias", room: "Lab. Ciencias", color: "green" }
+          mon: { course: "Química Experimental", grade: "4° Sec", room: "Lab. Ciencias", color: "navy" },
+          tue: { course: "Prácticas de Microscopía", grade: "4° Sec", room: "Lab. Ciencias", color: "green" },
+          wed: { course: "Física Cuántica Básica", grade: "5° Sec", room: "Lab. Ciencias", color: "yellow" },
+          thu: { course: "Ciencias Experimentales", grade: "3° Sec", room: "Lab. Ciencias", color: "navy" },
+          fri: { course: "Calibración de Sensores", grade: "Ciencias", room: "Lab. Ciencias", color: "green" }
         },
         {
           time: "01:20 - 01:50 PM",
@@ -1271,19 +1271,19 @@ const initialData = {
         },
         {
           time: "01:50 - 02:40 PM",
-          mon: { course: "Club de Ciencias & RobÃ³tica", grade: "4Â° Sec", room: "Lab. Ciencias", color: "green" },
-          tue: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          wed: { course: "Laboratorio Abierto de QuÃ­mica", grade: "5Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          thu: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "3Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          fri: { course: "PreparaciÃ³n de Informes CientÃ­ficos", grade: "Secundaria", room: "Sala Docentes", color: "green" }
+          mon: { course: "Club de Ciencias & Robótica", grade: "4° Sec", room: "Lab. Ciencias", color: "green" },
+          tue: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" },
+          wed: { course: "Laboratorio Abierto de Química", grade: "5° Sec", room: "Lab. Ciencias", color: "navy" },
+          thu: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "3° Sec", room: "Lab. Ciencias", color: "yellow" },
+          fri: { course: "Preparación de Informes Científicos", grade: "Secundaria", room: "Sala Docentes", color: "green" }
         },
         {
           time: "02:40 - 03:30 PM",
-          mon: { course: "Club de Ciencias & RobÃ³tica", grade: "4Â° Sec", room: "Lab. Ciencias", color: "green" },
-          tue: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "4Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          wed: { course: "Laboratorio Abierto de QuÃ­mica", grade: "5Â° Sec", room: "Lab. Ciencias", color: "navy" },
-          thu: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "3Â° Sec", room: "Lab. Ciencias", color: "yellow" },
-          fri: { course: "AtenciÃ³n y AsesorÃ­a a Proyectos", grade: "Secundaria", room: "Lab. Ciencias", color: "green" }
+          mon: { course: "Club de Ciencias & Robótica", grade: "4° Sec", room: "Lab. Ciencias", color: "green" },
+          tue: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "4° Sec", room: "Lab. Ciencias", color: "yellow" },
+          wed: { course: "Laboratorio Abierto de Química", grade: "5° Sec", room: "Lab. Ciencias", color: "navy" },
+          thu: { course: "Taller de Feria de Ciencias (FENCYT)", grade: "3° Sec", room: "Lab. Ciencias", color: "yellow" },
+          fri: { course: "Atención y Asesoría a Proyectos", grade: "Secundaria", room: "Lab. Ciencias", color: "green" }
         }
       ]
     }
@@ -1293,57 +1293,57 @@ const initialData = {
     "4sec": [
       {
         time: "08:00 - 08:50",
-        mon: { course: "MatemÃ¡tica (Ãlgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
-        tue: { course: "ComunicaciÃ³n & Literatura", teacher: "Miss M. Reyes", room: "Aula 304", type: "theory", color: "navy" },
-        wed: { course: "Ciencia y Tec. (FÃ­sica)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" },
+        mon: { course: "Matemática (Álgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        tue: { course: "Comunicación & Literatura", teacher: "Miss M. Reyes", room: "Aula 304", type: "theory", color: "navy" },
+        wed: { course: "Ciencia y Tec. (Física)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" },
         thu: { course: "Personal Social / CC.SS", teacher: "Miss J. Arroyo", room: "Aula 304", type: "theory", color: "navy" },
-        fri: { course: "InglÃ©s Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" }
+        fri: { course: "Inglés Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" }
       },
       {
         time: "08:50 - 09:40",
-        mon: { course: "MatemÃ¡tica (Ãlgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
-        tue: { course: "ComunicaciÃ³n & Literatura", teacher: "Miss M. Reyes", room: "Aula 304", type: "theory", color: "navy" },
-        wed: { course: "Ciencia y Tec. (FÃ­sica)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" },
+        mon: { course: "Matemática (Álgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        tue: { course: "Comunicación & Literatura", teacher: "Miss M. Reyes", room: "Aula 304", type: "theory", color: "navy" },
+        wed: { course: "Ciencia y Tec. (Física)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" },
         thu: { course: "Personal Social / CC.SS", teacher: "Miss J. Arroyo", room: "Aula 304", type: "theory", color: "navy" },
-        fri: { course: "InglÃ©s Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" }
+        fri: { course: "Inglés Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" }
       },
       {
         time: "09:40 - 10:30",
-        mon: { course: "ComputaciÃ³n e InformÃ¡tica", teacher: "Prof. F. Rojas", room: "Lab. CÃ³mputo 1", type: "lab", color: "navy" },
-        tue: { course: "MatemÃ¡tica (Ãlgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
-        wed: { course: "Ciencia y Tec. (BiologÃ­a)", teacher: "Miss L. Reyes", room: "Aula 304", type: "theory", color: "green" },
+        mon: { course: "Computación e Informática", teacher: "Prof. F. Rojas", room: "Lab. Cómputo 1", type: "lab", color: "navy" },
+        tue: { course: "Matemática (Álgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        wed: { course: "Ciencia y Tec. (Biología)", teacher: "Miss L. Reyes", room: "Aula 304", type: "theory", color: "green" },
         thu: { course: "Arte y Cultura", teacher: "Miss J. Arroyo", room: "Taller Arte", type: "art", color: "navy" },
-        fri: { course: "DiseÃ±o Digital & RobÃ³tica", teacher: "Prof. F. Rojas", room: "Lab. CÃ³mputo 1", type: "lab", color: "yellow" }
+        fri: { course: "Diseño Digital & Robótica", teacher: "Prof. F. Rojas", room: "Lab. Cómputo 1", type: "lab", color: "yellow" }
       },
       {
         time: "10:30 - 10:50",
         isBreak: true,
         isLunch: false,
-        title: "RECESO PEDAGÃ“GICO / REFRIGERIO (10:30 - 10:50 AM)"
+        title: "RECESO PEDAGÓGICO / REFRIGERIO (10:30 - 10:50 AM)"
       },
       {
         time: "10:50 - 11:40",
-        mon: { course: "ComputaciÃ³n e InformÃ¡tica", teacher: "Prof. F. Rojas", room: "Lab. CÃ³mputo 1", type: "lab", color: "navy" },
-        tue: { course: "MatemÃ¡tica (Ãlgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
-        wed: { course: "Ciencia y Tec. (BiologÃ­a)", teacher: "Miss L. Reyes", room: "Aula 304", type: "theory", color: "green" },
+        mon: { course: "Computación e Informática", teacher: "Prof. F. Rojas", room: "Lab. Cómputo 1", type: "lab", color: "navy" },
+        tue: { course: "Matemática (Álgebra)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        wed: { course: "Ciencia y Tec. (Biología)", teacher: "Miss L. Reyes", room: "Aula 304", type: "theory", color: "green" },
         thu: { course: "Arte y Cultura", teacher: "Miss J. Arroyo", room: "Taller Arte", type: "art", color: "navy" },
-        fri: { course: "DiseÃ±o Digital & RobÃ³tica", teacher: "Prof. F. Rojas", room: "Lab. CÃ³mputo 1", type: "lab", color: "yellow" }
+        fri: { course: "Diseño Digital & Robótica", teacher: "Prof. F. Rojas", room: "Lab. Cómputo 1", type: "lab", color: "yellow" }
       },
       {
         time: "11:40 - 12:30",
-        mon: { course: "Ciencia y Tec. (QuÃ­mica)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "navy" },
-        tue: { course: "InglÃ©s Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" },
-        wed: { course: "EducaciÃ³n FÃ­sica y Deportes", teacher: "Prof. M. Soto", room: "Coliseo", type: "sport", color: "red" },
-        thu: { course: "MatemÃ¡tica (GeometrÃ­a)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
-        fri: { course: "EducaciÃ³n Religiosa", teacher: "Prof. J. CÃ¡ceres", room: "Aula 304", type: "theory", color: "green" }
+        mon: { course: "Ciencia y Tec. (Química)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "navy" },
+        tue: { course: "Inglés Avanzado", teacher: "Prof. A. Lino", room: "Sala Idiomas", type: "lab", color: "yellow" },
+        wed: { course: "Educación Física y Deportes", teacher: "Prof. M. Soto", room: "Coliseo", type: "sport", color: "red" },
+        thu: { course: "Matemática (Geometría)", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
+        fri: { course: "Educación Religiosa", teacher: "Prof. J. Cáceres", room: "Aula 304", type: "theory", color: "green" }
       },
       {
         time: "12:30 - 01:20 PM",
-        mon: { course: "Ciencia y Tec. (QuÃ­mica)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "navy" },
-        tue: { course: "PrÃ¡cticas de MicroscopÃ­a", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "green" },
-        wed: { course: "EducaciÃ³n FÃ­sica y Deportes", teacher: "Prof. M. Soto", room: "Coliseo", type: "sport", color: "red" },
-        thu: { course: "ComputaciÃ³n e InformÃ¡tica", teacher: "Prof. F. Rojas", room: "Lab. CÃ³mputo 1", type: "lab", color: "navy" },
-        fri: { course: "TutorÃ­a y OrientaciÃ³n Educativa", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "green" }
+        mon: { course: "Ciencia y Tec. (Química)", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "navy" },
+        tue: { course: "Prácticas de Microscopía", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "green" },
+        wed: { course: "Educación Física y Deportes", teacher: "Prof. M. Soto", room: "Coliseo", type: "sport", color: "red" },
+        thu: { course: "Computación e Informática", teacher: "Prof. F. Rojas", room: "Lab. Cómputo 1", type: "lab", color: "navy" },
+        fri: { course: "Tutoría y Orientación Educativa", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "green" }
       },
       {
         time: "01:20 - 01:50 PM",
@@ -1353,19 +1353,19 @@ const initialData = {
       },
       {
         time: "01:50 - 02:40 PM",
-        mon: { course: "Taller de RobÃ³tica Avanzada", teacher: "Prof. F. Rojas", room: "Taller RobÃ³tica", type: "lab", color: "yellow" },
-        tue: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        mon: { course: "Taller de Robótica Avanzada", teacher: "Prof. F. Rojas", room: "Taller Robótica", type: "lab", color: "yellow" },
+        tue: { course: "Círculo Matemático Olímpico", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
         wed: { course: "Club de Ciencias & FENCYT", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "green" },
-        thu: { course: "Taller de GeometrÃ­a Descriptiva", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
-        fri: { course: "PrÃ¡cticas Experimentales Lab", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" }
+        thu: { course: "Taller de Geometría Descriptiva", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
+        fri: { course: "Prácticas Experimentales Lab", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" }
       },
       {
         time: "02:40 - 03:30 PM",
-        mon: { course: "Taller de RobÃ³tica Avanzada", teacher: "Prof. F. Rojas", room: "Taller RobÃ³tica", type: "lab", color: "yellow" },
-        tue: { course: "CÃ­rculo MatemÃ¡tico OlÃ­mpico", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
+        mon: { course: "Taller de Robótica Avanzada", teacher: "Prof. F. Rojas", room: "Taller Robótica", type: "lab", color: "yellow" },
+        tue: { course: "Círculo Matemático Olímpico", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "yellow" },
         wed: { course: "Club de Ciencias & FENCYT", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "green" },
-        thu: { course: "Taller de GeometrÃ­a Descriptiva", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
-        fri: { course: "PrÃ¡cticas Experimentales Lab", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" }
+        thu: { course: "Taller de Geometría Descriptiva", teacher: "Prof. R. Silva", room: "Aula 304", type: "theory", color: "navy" },
+        fri: { course: "Prácticas Experimentales Lab", teacher: "Miss L. Reyes", room: "Lab. Ciencias", type: "lab", color: "yellow" }
       }
     ]
   },
@@ -1375,26 +1375,26 @@ const initialData = {
       id: "SIL-4SEC-MAT",
       gradeId: "4sec-a",
       gradeName: "4to de Secundaria",
-      courseName: "MatemÃ¡tica Avanzada (Ãlgebra y TrigonometrÃ­a)",
+      courseName: "Matemática Avanzada (Álgebra y Trigonometría)",
       courseCode: "MAT-401",
       teacher: "Prof. Roberto Silva",
       hoursWeekly: "5 horas semanales",
       bimester: "III Bimestre 2026",
       competencies: [
         "Resuelve problemas de cantidad y regularidad",
-        "Modela objetos con formas geomÃ©tricas y trigonomÃ©tricas",
-        "Comunica su comprensiÃ³n sobre las relaciones algebraicas complejas"
+        "Modela objetos con formas geométricas y trigonométricas",
+        "Comunica su comprensión sobre las relaciones algebraicas complejas"
       ],
       units: [
         {
           unitNumber: "Unidad I",
-          title: "Funciones CuadrÃ¡ticas y PolinÃ³micas de Grado Superior",
+          title: "Funciones Cuadráticas y Polinómicas de Grado Superior",
           duration: "4 semanas",
-          topics: ["Dominio y rango", "ParÃ¡bolas en contextos reales", "Teorema del residuo"],
-          evaluation: "PrÃ¡ctica Calificada NÂ° 1"
+          topics: ["Dominio y rango", "Parábolas en contextos reales", "Teorema del residuo"],
+          evaluation: "Práctica Calificada N° 1"
         }
       ],
-      bibliography: "Baldor Ãlgebra Moderna, GuÃ­as Oficiales I.E.P. El Educador 2026."
+      bibliography: "Baldor Álgebra Moderna, Guías Oficiales I.E.P. El Educador 2026."
     }
   ],
 
@@ -1403,83 +1403,83 @@ const initialData = {
       id: "REV-2026-081",
       qrCode: "QR-CUAD-4SECA-EST042-MAT",
       studentId: "EST-042",
-      studentName: "SofÃ­a MÃ©ndez",
+      studentName: "Sofía Méndez",
       grade: "4to Secundaria 'A'",
-      course: "MatemÃ¡tica Avanzada",
+      course: "Matemática Avanzada",
       teacher: "Prof. Roberto Silva",
       date: "15/08/2026",
       score: 20,
       status: "Excelente",
       stampType: "stamp-gold",
-      stampText: "LOGRO DESTACADO â˜…",
+      stampText: "LOGRO DESTACADO ★",
       checklist: { margenes: true, fechas: true, teoriaCompleta: true, ejerciciosAlDia: true, pulcritud: true },
-      teacherRemarks: "Cuaderno impecable con sellos al dÃ­a."
+      teacherRemarks: "Cuaderno impecable con sellos al día."
     }
   ],
 
   announcements: [
     {
       id: "ANN-003-ED",
-      title: "INFORME NÂ°003 /ED - COORDINACIÃ“N Y DOCUMENTACIÃ“N (15/08/2026)",
-      category: "CoordinaciÃ³n Institucional",
+      title: "INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN (15/08/2026)",
+      category: "Coordinación Institucional",
       priority: "high",
       tagLabel: "Oficial",
       date: "15 de Agosto, 2026",
       author: "Prof. Alex Lino (Coordinador)",
-      content: "RecaudaciÃ³n acumulada del mes de agosto: S/ 25,130.00 (Superando la meta de S/ 24,000.00). RegularizaciÃ³n de Renta de 4ta CategorÃ­a y seguimiento de expedientes ante la UGEL 05."
+      content: "Recaudación acumulada del mes de agosto: S/ 25,130.00 (Superando la meta de S/ 24,000.00). Regularización de Renta de 4ta Categoría y seguimiento de expedientes ante la UGEL 05."
     }
   ],
 
-  // 5. Control de Asistencia BiomÃ©trico Diario & Registro por Aulas
+  // 5. Control de Asistencia Biométrico Diario & Registro por Aulas
   attendanceRecords: [
     // 19/08/2026 (Hoy) - 4to de Secundaria
-    { id: "ATT-055-0819", studentId: "EST-2026-055", studentCode: "EST-2026-055", studentName: "Gael Alessandro CÃ¡ceres Ramos", dni: "76541298", gradeId: "4sec", grade: "4Â° de Secundaria", date: "19/08/2026", day: "MiÃ©rcoles", status: "Presente", arrivalTime: "07:38 AM", exitTime: "03:30 PM", method: "Fotocheck QR (PorterÃ­a Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-042-0819", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "19/08/2026", day: "MiÃ©rcoles", status: "Presente", arrivalTime: "07:38 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-011-0819", studentId: "EST-2026-011", studentCode: "EST-2026-011", studentName: "Carlos BenÃ­tez DÃ­az", dni: "75129034", gradeId: "4sec", grade: "4Â° de Secundaria", date: "19/08/2026", day: "MiÃ©rcoles", status: "Tardanza", arrivalTime: "07:52 AM", exitTime: "03:30 PM", method: "Fotocheck QR (Puerta Secundaria)", observations: "Tardanza de 7 min" },
-    { id: "ATT-089-0819", studentId: "EST-2026-089", studentCode: "EST-2026-089", studentName: "Marina del Carmen AlbÃºjar Zegarra", dni: "75849301", gradeId: "4sec", grade: "4Â° de Secundaria", date: "19/08/2026", day: "MiÃ©rcoles", status: "Presente", arrivalTime: "07:40 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-025-0819", studentId: "EST-2026-025", studentCode: "EST-2026-025", studentName: "Mateo Ramos Quispe", dni: "76891209", gradeId: "4sec", grade: "4Â° de Secundaria", date: "19/08/2026", day: "MiÃ©rcoles", status: "Falta", arrivalTime: "--:--", exitTime: "--:--", method: "No Registrado", observations: "Sin justificaciÃ³n aÃºn" },
+    { id: "ATT-055-0819", studentId: "EST-2026-055", studentCode: "EST-2026-055", studentName: "Gael Alessandro Cáceres Ramos", dni: "76541298", gradeId: "4sec", grade: "4° de Secundaria", date: "19/08/2026", day: "Miércoles", status: "Presente", arrivalTime: "07:38 AM", exitTime: "03:30 PM", method: "Fotocheck QR (Portería Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-042-0819", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "19/08/2026", day: "Miércoles", status: "Presente", arrivalTime: "07:38 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-011-0819", studentId: "EST-2026-011", studentCode: "EST-2026-011", studentName: "Carlos Benítez Díaz", dni: "75129034", gradeId: "4sec", grade: "4° de Secundaria", date: "19/08/2026", day: "Miércoles", status: "Tardanza", arrivalTime: "07:52 AM", exitTime: "03:30 PM", method: "Fotocheck QR (Puerta Secundaria)", observations: "Tardanza de 7 min" },
+    { id: "ATT-089-0819", studentId: "EST-2026-089", studentCode: "EST-2026-089", studentName: "Marina del Carmen Albújar Zegarra", dni: "75849301", gradeId: "4sec", grade: "4° de Secundaria", date: "19/08/2026", day: "Miércoles", status: "Presente", arrivalTime: "07:40 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-025-0819", studentId: "EST-2026-025", studentCode: "EST-2026-025", studentName: "Mateo Ramos Quispe", dni: "76891209", gradeId: "4sec", grade: "4° de Secundaria", date: "19/08/2026", day: "Miércoles", status: "Falta", arrivalTime: "--:--", exitTime: "--:--", method: "No Registrado", observations: "Sin justificación aún" },
 
     // 18/08/2026 (Ayer) - 4to de Secundaria
-    { id: "ATT-055-0818", studentId: "EST-2026-055", studentCode: "EST-2026-055", studentName: "Gael Alessandro CÃ¡ceres Ramos", dni: "76541298", gradeId: "4sec", grade: "4Â° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:36 AM", exitTime: "03:30 PM", method: "Fotocheck QR (PorterÃ­a Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-042-0818", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:35 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-011-0818", studentId: "EST-2026-011", studentCode: "EST-2026-011", studentName: "Carlos BenÃ­tez DÃ­az", dni: "75129034", gradeId: "4sec", grade: "4Â° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:44 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-089-0818", studentId: "EST-2026-089", studentCode: "EST-2026-089", studentName: "Marina del Carmen AlbÃºjar Zegarra", dni: "75849301", gradeId: "4sec", grade: "4Â° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:39 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
-    { id: "ATT-025-0818", studentId: "EST-2026-025", studentCode: "EST-2026-025", studentName: "Mateo Ramos Quispe", dni: "76891209", gradeId: "4sec", grade: "4Â° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:42 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-055-0818", studentId: "EST-2026-055", studentCode: "EST-2026-055", studentName: "Gael Alessandro Cáceres Ramos", dni: "76541298", gradeId: "4sec", grade: "4° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:36 AM", exitTime: "03:30 PM", method: "Fotocheck QR (Portería Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-042-0818", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:35 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-011-0818", studentId: "EST-2026-011", studentCode: "EST-2026-011", studentName: "Carlos Benítez Díaz", dni: "75129034", gradeId: "4sec", grade: "4° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:44 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-089-0818", studentId: "EST-2026-089", studentCode: "EST-2026-089", studentName: "Marina del Carmen Albújar Zegarra", dni: "75849301", gradeId: "4sec", grade: "4° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:39 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
+    { id: "ATT-025-0818", studentId: "EST-2026-025", studentCode: "EST-2026-025", studentName: "Mateo Ramos Quispe", dni: "76891209", gradeId: "4sec", grade: "4° de Secundaria", date: "18/08/2026", day: "Martes", status: "Presente", arrivalTime: "07:42 AM", exitTime: "03:30 PM", method: "Huella Digital (Torniquete Principal)", observations: "Ingreso puntual" },
 
-    // DÃ­as anteriores para SofÃ­a MÃ©ndez (Historial de Apoderado)
-    { id: "ATT-042-0815", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "15/08/2026", day: "Viernes", status: "Presente", arrivalTime: "07:36 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
-    { id: "ATT-042-0814", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "14/08/2026", day: "Jueves", status: "Presente", arrivalTime: "07:39 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
-    { id: "ATT-042-0813", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "13/08/2026", day: "MiÃ©rcoles", status: "Presente", arrivalTime: "07:34 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
-    { id: "ATT-042-0812", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "12/08/2026", day: "Martes", status: "Justificada", arrivalTime: "--:--", exitTime: "--:--", method: "Certificado MÃ©dico", observations: "Cita mÃ©dica oftalmolÃ³gica (Justificada por Apoderado)" },
-    { id: "ATT-042-0811", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", dni: "74891230", gradeId: "4sec", grade: "4Â° de Secundaria", date: "11/08/2026", day: "Lunes", status: "Presente", arrivalTime: "07:30 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual - FormaciÃ³n General" }
+    // Días anteriores para Sofía Méndez (Historial de Apoderado)
+    { id: "ATT-042-0815", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "15/08/2026", day: "Viernes", status: "Presente", arrivalTime: "07:36 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
+    { id: "ATT-042-0814", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "14/08/2026", day: "Jueves", status: "Presente", arrivalTime: "07:39 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
+    { id: "ATT-042-0813", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "13/08/2026", day: "Miércoles", status: "Presente", arrivalTime: "07:34 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual" },
+    { id: "ATT-042-0812", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "12/08/2026", day: "Martes", status: "Justificada", arrivalTime: "--:--", exitTime: "--:--", method: "Certificado Médico", observations: "Cita médica oftalmológica (Justificada por Apoderado)" },
+    { id: "ATT-042-0811", studentId: "EST-2026-042", studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", dni: "74891230", gradeId: "4sec", grade: "4° de Secundaria", date: "11/08/2026", day: "Lunes", status: "Presente", arrivalTime: "07:30 AM", exitTime: "03:30 PM", method: "Huella Digital", observations: "Puntual - Formación General" }
   ],
 
   attendance: [
-    { date: "19/08/2026", day: "MiÃ©rcoles", status: "Presente", arrival: "07:38 AM", subject: "Jornada AcadÃ©mica Regular" },
-    { date: "18/08/2026", day: "Martes", status: "Presente", arrival: "07:35 AM", subject: "Jornada AcadÃ©mica Regular" },
-    { date: "15/08/2026", day: "SÃ¡bado", status: "Presente", arrival: "08:00 AM", subject: "ReuniÃ³n de CoordinaciÃ³n y DocumentaciÃ³n" },
-    { date: "14/08/2026", day: "Viernes", status: "Presente", arrival: "07:42 AM", subject: "Jornada AcadÃ©mica Completa" }
+    { date: "19/08/2026", day: "Miércoles", status: "Presente", arrival: "07:38 AM", subject: "Jornada Académica Regular" },
+    { date: "18/08/2026", day: "Martes", status: "Presente", arrival: "07:35 AM", subject: "Jornada Académica Regular" },
+    { date: "15/08/2026", day: "Sábado", status: "Presente", arrival: "08:00 AM", subject: "Reunión de Coordinación y Documentación" },
+    { date: "14/08/2026", day: "Viernes", status: "Presente", arrival: "07:42 AM", subject: "Jornada Académica Completa" }
   ],
 
-  // 6. Libro Oficial de Registro de Incidencias & Convivencia Escolar (Ley NÂ° 29719 / MINEDU)
+  // 6. Libro Oficial de Registro de Incidencias & Convivencia Escolar (Ley N° 29719 / MINEDU)
   behaviorIncidents: [
     {
       id: "INC-2026-001",
       studentCode: "EST-2026-055",
-      studentName: "Gael Alessandro CÃ¡ceres Ramos",
+      studentName: "Gael Alessandro Cáceres Ramos",
       dni: "76541298",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
       level: "Secundaria",
       date: "19/08/2026",
       time: "10:15 AM",
       reportedBy: "Prof. Roberto Silva (Docente)",
       severity: "Grave",
-      category: "Desobediencia e interrupciÃ³n de clase",
-      location: "Aula 304 - Clase de MatemÃ¡tica",
-      description: "Durante el desarrollo de la clase de Ãlgebra, el estudiante Gael CÃ¡ceres interrumpiÃ³ reiteradamente la explicaciÃ³n haciendo uso indebido del telÃ©fono celular sin autorizaciÃ³n y negÃ¡ndose a guardarlo tras la primera advertencia verbal del docente.",
-      correctiveMeasure: "Firma de compromiso pedagÃ³gico en cuaderno de incidencias, retenciÃ³n temporal del equipo celular hasta el final de la jornada y notificaciÃ³n inmediata al apoderado vÃ­a WhatsApp.",
-      guardian: "Sr. Juan Carlos CÃ¡ceres",
+      category: "Desobediencia e interrupción de clase",
+      location: "Aula 304 - Clase de Matemática",
+      description: "Durante el desarrollo de la clase de Álgebra, el estudiante Gael Cáceres interrumpió reiteradamente la explicación haciendo uso indebido del teléfono celular sin autorización y negándose a guardarlo tras la primera advertencia verbal del docente.",
+      correctiveMeasure: "Firma de compromiso pedagógico en cuaderno de incidencias, retención temporal del equipo celular hasta el final de la jornada y notificación inmediata al apoderado vía WhatsApp.",
+      guardian: "Sr. Juan Carlos Cáceres",
       guardianPhone: "984-777-888",
       parentMeetingRequired: false,
       status: "Registrado",
@@ -1488,20 +1488,20 @@ const initialData = {
     {
       id: "INC-2026-002",
       studentCode: "EST-2026-011",
-      studentName: "Carlos BenÃ­tez DÃ­az",
+      studentName: "Carlos Benítez Díaz",
       dni: "75129034",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
       level: "Secundaria",
       date: "18/08/2026",
       time: "11:50 AM",
       reportedBy: "Auxiliar de Disciplina",
       severity: "Leve",
-      category: "Uniforme y PresentaciÃ³n Personal",
+      category: "Uniforme y Presentación Personal",
       location: "Patio Central",
-      description: "El estudiante se presentÃ³ a la formaciÃ³n general sin la casaca institucional del colegio.",
-      correctiveMeasure: "Llamado de atenciÃ³n formativo y recomendaciÃ³n de portar el uniforme completo.",
-      guardian: "Sr. Roberto DÃ­az",
+      description: "El estudiante se presentó a la formación general sin la casaca institucional del colegio.",
+      correctiveMeasure: "Llamado de atención formativo y recomendación de portar el uniforme completo.",
+      guardian: "Sr. Roberto Díaz",
       guardianPhone: "984-123-456",
       parentMeetingRequired: false,
       status: "Concluido",
@@ -1510,20 +1510,20 @@ const initialData = {
     {
       id: "INC-2026-003",
       studentCode: "EST-2026-042",
-      studentName: "SofÃ­a MÃ©ndez Flores",
+      studentName: "Sofía Méndez Flores",
       dni: "74891230",
-      grade: "4Â° de Secundaria",
+      grade: "4° de Secundaria",
       gradeId: "4sec",
       level: "Secundaria",
       date: "16/08/2026",
       time: "02:30 PM",
       reportedBy: "Miss Leyli Reyes",
-      severity: "MÃ©rito",
+      severity: "Mérito",
       category: "Conducta Destacada y Liderazgo",
       location: "Laboratorio de Ciencias",
-      description: "FelicitaciÃ³n por apoyar proactivamente a sus compaÃ±eros de grupo en el ensamblaje de la prÃ¡ctica experimental de fÃ­sica y mantener el orden del laboratorio.",
-      correctiveMeasure: "AnotaciÃ³n de MÃ©rito y Reconocimiento en el anecdotario institucional.",
-      guardian: "Dra. Carmen MÃ©ndez",
+      description: "Felicitación por apoyar proactivamente a sus compañeros de grupo en el ensamblaje de la práctica experimental de física y mantener el orden del laboratorio.",
+      correctiveMeasure: "Anotación de Mérito y Reconocimiento en el anecdotario institucional.",
+      guardian: "Dra. Carmen Méndez",
       guardianPhone: "987-654-321",
       parentMeetingRequired: false,
       status: "Concluido",
@@ -1532,42 +1532,42 @@ const initialData = {
   ],
 
   payments: [
-    { id: "PEN-08", concept: "PensiÃ³n Escolar - Agosto 2026", amount: 480.00, dueDate: "28/08/2026", status: "pending", receiptNo: null },
-    { id: "PEN-07", concept: "PensiÃ³n Escolar - Julio 2026", amount: 480.00, dueDate: "28/07/2026", status: "paid", receiptNo: "REC-2026-7890", paidDate: "25/07/2026" }
+    { id: "PEN-08", concept: "Pensión Escolar - Agosto 2026", amount: 480.00, dueDate: "28/08/2026", status: "pending", receiptNo: null },
+    { id: "PEN-07", concept: "Pensión Escolar - Julio 2026", amount: 480.00, dueDate: "28/07/2026", status: "paid", receiptNo: "REC-2026-7890", paidDate: "25/07/2026" }
   ],
 
   // =========================================================================
-  // AULA VIRTUAL: MATERIALES SEMANALES Y EVALUACIONES DINÃMICAS (10 PREGUNTAS)
+  // AULA VIRTUAL: MATERIALES SEMANALES Y EVALUACIONES DINÁMICAS (10 PREGUNTAS)
   // =========================================================================
   weeklyMaterials: [
     {
       id: "MAT-SEM-01",
       courseId: "MAT-401",
-      courseName: "MatemÃ¡tica Avanzada (Ãlgebra y Funciones)",
+      courseName: "Matemática Avanzada (Álgebra y Funciones)",
       gradeId: "4sec",
       gradeName: "4to de Secundaria",
       teacherId: "DOC-2026-015",
       teacherName: "Prof. Roberto Silva",
       weekNumber: 1,
       bimester: "III Bimestre",
-      title: "Funciones CuadrÃ¡ticas y Modelamiento de ParÃ¡bolas en Contextos Reales",
+      title: "Funciones Cuadráticas y Modelamiento de Parábolas en Contextos Reales",
       sessionDate: "15/08/2026",
-      summary: "En esta sesiÃ³n presencial analizamos la estructura de la funciÃ³n cuadrÃ¡tica f(x) = axÂ² + bx + c. Determinamos el vÃ©rtice V(h, k), el eje de simetrÃ­a x = -b/(2a), y la concavidad segÃºn el signo del coeficiente principal. Aplicamos estos conceptos a problemas de tiro parabÃ³lico y maximizaciÃ³n de ganancias en emprendimientos de San Juan de Lurigancho.",
+      summary: "En esta sesión presencial analizamos la estructura de la función cuadrática f(x) = ax² + bx + c. Determinamos el vértice V(h, k), el eje de simetría x = -b/(2a), y la concavidad según el signo del coeficiente principal. Aplicamos estos conceptos a problemas de tiro parabólico y maximización de ganancias en emprendimientos de San Juan de Lurigancho.",
       keyConcepts: [
-        "Forma canÃ³nica f(x) = a(x - h)Â² + k",
-        "VÃ©rtice y eje de simetrÃ­a",
-        "Discriminante Î” = bÂ² - 4ac y naturaleza de raÃ­ces",
-        "OptimizaciÃ³n de valores mÃ¡ximos y mÃ­nimos"
+        "Forma canónica f(x) = a(x - h)² + k",
+        "Vértice y eje de simetría",
+        "Discriminante Δ = b² - 4ac y naturaleza de raíces",
+        "Optimización de valores máximos y mínimos"
       ],
       attachments: [
-        { type: "pdf", name: "GuÃ­a_Teorica_Funciones_Cuadraticas_S1.pdf", size: "2.8 MB", icon: "ðŸ“•" },
-        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "ðŸ“Š" },
-        { type: "worksheet", name: "Ficha_Problemas_Optimizacion_S1.pdf", size: "1.4 MB", icon: "ðŸ“" },
-        { type: "video", name: "Video_Demostracion_GeoGebra_Parabolas.mp4", duration: "18 min", icon: "ðŸŽ¬" }
+        { type: "pdf", name: "Guía_Teorica_Funciones_Cuadraticas_S1.pdf", size: "2.8 MB", icon: "📕" },
+        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "📊" },
+        { type: "worksheet", name: "Ficha_Problemas_Optimizacion_S1.pdf", size: "1.4 MB", icon: "📝" },
+        { type: "video", name: "Video_Demostracion_GeoGebra_Parabolas.mp4", duration: "18 min", icon: "🎬" }
       ],
       evaluation: {
         id: "EVAL-MAT-S1",
-        title: "EvaluaciÃ³n DinÃ¡mica Semanal NÂ° 01: Funciones CuadrÃ¡ticas",
+        title: "Evaluación Dinámica Semanal N° 01: Funciones Cuadráticas",
         timeLimitMinutes: 25,
         totalQuestions: 10,
         passingScore: 14,
@@ -1575,31 +1575,31 @@ const initialData = {
         questions: [
           {
             id: 1,
-            question: "Â¿CuÃ¡l es la fÃ³rmula para calcular la abscisa del vÃ©rtice 'h' en la funciÃ³n cuadrÃ¡tica f(x) = axÂ² + bx + c?",
+            question: "¿Cuál es la fórmula para calcular la abscisa del vértice 'h' en la función cuadrática f(x) = ax² + bx + c?",
             options: [
               "h = -b / (2a)",
               "h = -b / a",
-              "h = bÂ² - 4ac",
+              "h = b² - 4ac",
               "h = 2a / (-b)"
             ],
             correctIndex: 0,
-            explanation: "La coordenada 'h' del vÃ©rtice de una parÃ¡bola se determina mediante la expresiÃ³n h = -b / (2a), la cual coincide con la recta del eje de simetrÃ­a."
+            explanation: "La coordenada 'h' del vértice de una parábola se determina mediante la expresión h = -b / (2a), la cual coincide con la recta del eje de simetría."
           },
           {
             id: 2,
-            question: "Si el coeficiente principal 'a' de una funciÃ³n cuadrÃ¡tica es negativo (a < 0), Â¿cÃ³mo se comporta la parÃ¡bola?",
+            question: "Si el coeficiente principal 'a' de una función cuadrática es negativo (a < 0), ¿cómo se comporta la parábola?",
             options: [
-              "Se abre hacia abajo y posee un punto mÃ¡ximo en el vÃ©rtice",
-              "Se abre hacia arriba y posee un punto mÃ­nimo en el vÃ©rtice",
-              "Es una lÃ­nea recta horizontal constante",
+              "Se abre hacia abajo y posee un punto máximo en el vértice",
+              "Se abre hacia arriba y posee un punto mínimo en el vértice",
+              "Es una línea recta horizontal constante",
               "No corta al eje vertical Y bajo ninguna circunstancia"
             ],
             correctIndex: 0,
-            explanation: "Cuando a < 0, la concavidad de la parÃ¡bola es hacia abajo, por lo que su vÃ©rtice representa el valor mÃ¡ximo absoluto de la funciÃ³n."
+            explanation: "Cuando a < 0, la concavidad de la parábola es hacia abajo, por lo que su vértice representa el valor máximo absoluto de la función."
           },
           {
             id: 3,
-            question: "En la funciÃ³n f(x) = 2xÂ² - 8x + 6, Â¿cuÃ¡les son las coordenadas exactas de su vÃ©rtice V(h, k)?",
+            question: "En la función f(x) = 2x² - 8x + 6, ¿cuáles son las coordenadas exactas de su vértice V(h, k)?",
             options: [
               "V(2, -2)",
               "V(-2, 6)",
@@ -1607,23 +1607,23 @@ const initialData = {
               "V(2, 6)"
             ],
             correctIndex: 0,
-            explanation: "Calculamos h = -(-8)/(2*2) = 8/4 = 2. Luego evaluamos k = f(2) = 2(2)Â² - 8(2) + 6 = 8 - 16 + 6 = -2. Por tanto, V(2, -2)."
+            explanation: "Calculamos h = -(-8)/(2*2) = 8/4 = 2. Luego evaluamos k = f(2) = 2(2)² - 8(2) + 6 = 8 - 16 + 6 = -2. Por tanto, V(2, -2)."
           },
           {
             id: 4,
-            question: "Si el discriminante de una ecuaciÃ³n cuadrÃ¡tica cumple que Î” = bÂ² - 4ac = 0, Â¿quÃ© se puede afirmar sobre sus raÃ­ces?",
+            question: "Si el discriminante de una ecuación cuadrática cumple que Δ = b² - 4ac = 0, ¿qué se puede afirmar sobre sus raíces?",
             options: [
-              "Posee una Ãºnica raÃ­z real doble (la parÃ¡bola es tangente al eje X)",
-              "Posee dos raÃ­ces reales y distintas que cortan en dos puntos",
-              "No posee ninguna soluciÃ³n real (raÃ­ces complejas imaginarias)",
-              "La funciÃ³n carece de vÃ©rtice y tÃ©rmino independiente"
+              "Posee una única raíz real doble (la parábola es tangente al eje X)",
+              "Posee dos raíces reales y distintas que cortan en dos puntos",
+              "No posee ninguna solución real (raíces complejas imaginarias)",
+              "La función carece de vértice y término independiente"
             ],
             correctIndex: 0,
-            explanation: "Cuando el discriminante es exactamente cero (Î” = 0), la ecuaciÃ³n tiene una raÃ­z real Ãºnica de multiplicidad 2, lo que significa que el vÃ©rtice toca tangencialmente el eje X."
+            explanation: "Cuando el discriminante es exactamente cero (Δ = 0), la ecuación tiene una raíz real única de multiplicidad 2, lo que significa que el vértice toca tangencialmente el eje X."
           },
           {
             id: 5,
-            question: "Â¿CuÃ¡l es el punto de intersecciÃ³n de la grÃ¡fica de f(x) = 3xÂ² + 5x - 7 con el eje de ordenadas Y?",
+            question: "¿Cuál es el punto de intersección de la gráfica de f(x) = 3x² + 5x - 7 con el eje de ordenadas Y?",
             options: [
               "(0, -7)",
               "(0, 3)",
@@ -1631,11 +1631,11 @@ const initialData = {
               "(-7, 0)"
             ],
             correctIndex: 0,
-            explanation: "Para hallar la intersecciÃ³n con el eje Y se evalÃºa x = 0: f(0) = 3(0)Â² + 5(0) - 7 = -7. Por lo tanto el punto es (0, -7)."
+            explanation: "Para hallar la intersección con el eje Y se evalúa x = 0: f(0) = 3(0)² + 5(0) - 7 = -7. Por lo tanto el punto es (0, -7)."
           },
           {
             id: 6,
-            question: "Un proyectil describe una trayectoria h(t) = -5tÂ² + 20t en metros. Â¿En cuÃ¡ntos segundos alcanza su altura mÃ¡xima?",
+            question: "Un proyectil describe una trayectoria h(t) = -5t² + 20t en metros. ¿En cuántos segundos alcanza su altura máxima?",
             options: [
               "2 segundos",
               "4 segundos",
@@ -1643,11 +1643,11 @@ const initialData = {
               "10 segundos"
             ],
             correctIndex: 0,
-            explanation: "El tiempo para la altura mÃ¡xima corresponde a la abscisa del vÃ©rtice: t = -b / (2a) = -20 / (2 * -5) = -20 / -10 = 2 segundos."
+            explanation: "El tiempo para la altura máxima corresponde a la abscisa del vértice: t = -b / (2a) = -20 / (2 * -5) = -20 / -10 = 2 segundos."
           },
           {
             id: 7,
-            question: "Siguiendo el caso anterior h(t) = -5tÂ² + 20t, Â¿cuÃ¡l es la altura mÃ¡xima alcanzada por el proyectil?",
+            question: "Siguiendo el caso anterior h(t) = -5t² + 20t, ¿cuál es la altura máxima alcanzada por el proyectil?",
             options: [
               "20 metros",
               "15 metros",
@@ -1655,11 +1655,11 @@ const initialData = {
               "25 metros"
             ],
             correctIndex: 0,
-            explanation: "Sustituyendo t = 2 s en la funciÃ³n: h(2) = -5(2)Â² + 20(2) = -5(4) + 40 = -20 + 40 = 20 metros."
+            explanation: "Sustituyendo t = 2 s en la función: h(2) = -5(2)² + 20(2) = -5(4) + 40 = -20 + 40 = 20 metros."
           },
           {
             id: 8,
-            question: "La forma canÃ³nica de una funciÃ³n cuadrÃ¡tica es f(x) = a(x - h)Â² + k. Si f(x) = (x - 3)Â² + 5, Â¿cuÃ¡l es su vÃ©rtice?",
+            question: "La forma canónica de una función cuadrática es f(x) = a(x - h)² + k. Si f(x) = (x - 3)² + 5, ¿cuál es su vértice?",
             options: [
               "V(3, 5)",
               "V(-3, 5)",
@@ -1667,11 +1667,11 @@ const initialData = {
               "V(-3, -5)"
             ],
             correctIndex: 0,
-            explanation: "Por comparaciÃ³n directa con f(x) = a(x - h)Â² + k, se deduce que h = 3 y k = 5, por lo que el vÃ©rtice es (3, 5)."
+            explanation: "Por comparación directa con f(x) = a(x - h)² + k, se deduce que h = 3 y k = 5, por lo que el vértice es (3, 5)."
           },
           {
             id: 9,
-            question: "Â¿CuÃ¡l es la ecuaciÃ³n del eje de simetrÃ­a de la funciÃ³n cuadrÃ¡tica f(x) = xÂ² - 6x + 8?",
+            question: "¿Cuál es la ecuación del eje de simetría de la función cuadrática f(x) = x² - 6x + 8?",
             options: [
               "x = 3",
               "y = 3",
@@ -1679,86 +1679,86 @@ const initialData = {
               "x = 6"
             ],
             correctIndex: 0,
-            explanation: "El eje de simetrÃ­a es la recta vertical x = -b/(2a) = -(-6)/(2*1) = 6/2 = 3. Por lo tanto x = 3."
+            explanation: "El eje de simetría es la recta vertical x = -b/(2a) = -(-6)/(2*1) = 6/2 = 3. Por lo tanto x = 3."
           },
           {
             id: 10,
-            question: "Si el discriminante Î” < 0 y el coeficiente a > 0, Â¿quÃ© afirmaciÃ³n sobre el rango de la funciÃ³n es verdadera?",
+            question: "Si el discriminante Δ < 0 y el coeficiente a > 0, ¿qué afirmación sobre el rango de la función es verdadera?",
             options: [
-              "La funciÃ³n es siempre positiva f(x) > 0 para todo x real y no corta al eje X",
-              "La funciÃ³n toma Ãºnicamente valores negativos en todo su dominio",
-              "El rango de la funciÃ³n es el conjunto de todos los nÃºmeros reales (-âˆž, +âˆž)",
-              "La parÃ¡bola corta al eje X exactamente en dos puntos simÃ©tricos"
+              "La función es siempre positiva f(x) > 0 para todo x real y no corta al eje X",
+              "La función toma únicamente valores negativos en todo su dominio",
+              "El rango de la función es el conjunto de todos los números reales (-∞, +∞)",
+              "La parábola corta al eje X exactamente en dos puntos simétricos"
             ],
             correctIndex: 0,
-            explanation: "Con a > 0 la parÃ¡bola abre hacia arriba y al ser Î” < 0 no toca ni cruza el eje X, manteniÃ©ndose estrictamente por encima de Ã©l (funciÃ³n estrictamente positiva)."
+            explanation: "Con a > 0 la parábola abre hacia arriba y al ser Δ < 0 no toca ni cruza el eje X, manteniéndose estrictamente por encima de él (función estrictamente positiva)."
           }
         ]
       },
       studentAttempts: [
         {
           studentId: "EST-2026-042",
-          studentName: "SofÃ­a MÃ©ndez Flores",
+          studentName: "Sofía Méndez Flores",
           score: 18,
           total: 20,
           date: "16/08/2026 15:40",
           status: "Aprobado",
           correctCount: 9,
           timeSpent: "14 min",
-          feedback: "Â¡Excelente dominio en el cÃ¡lculo del vÃ©rtice y optimizaciÃ³n parabÃ³lica! Revisar discriminante en ejercicios complejos."
+          feedback: "¡Excelente dominio en el cálculo del vértice y optimización parabólica! Revisar discriminante en ejercicios complejos."
         },
         {
           studentId: "EST-2026-011",
-          studentName: "Carlos BenÃ­tez Ruiz",
+          studentName: "Carlos Benítez Ruiz",
           score: 14,
           total: 20,
           date: "16/08/2026 17:15",
           status: "Aprobado",
           correctCount: 7,
           timeSpent: "19 min",
-          feedback: "Buen intento. Se recomienda repasar la sustituciÃ³n de la forma canÃ³nica."
+          feedback: "Buen intento. Se recomienda repasar la sustitución de la forma canónica."
         },
         {
           studentId: "EST-2026-089",
-          studentName: "Marina del Carmen AlbÃºjar",
+          studentName: "Marina del Carmen Albújar",
           score: 16,
           total: 20,
           date: "16/08/2026 18:22",
           status: "Aprobado",
           correctCount: 8,
           timeSpent: "16 min",
-          feedback: "Logro destacado en anÃ¡lisis de concavidad y raÃ­ces reales."
+          feedback: "Logro destacado en análisis de concavidad y raíces reales."
         }
       ]
     },
     {
       id: "COMP-SEM-01",
       courseId: "EPT-402",
-      courseName: "ComputaciÃ³n e InformÃ¡tica / RobÃ³tica",
+      courseName: "Computación e Informática / Robótica",
       gradeId: "4sec",
       gradeName: "4to de Secundaria",
       teacherId: "DOC-2026-COMP",
       teacherName: "Prof. Fernando Rojas",
       weekNumber: 1,
       bimester: "III Bimestre",
-      title: "RobÃ³tica Educativa: ProgramaciÃ³n de Sensores UltrasÃ³nicos con Arduino",
+      title: "Robótica Educativa: Programación de Sensores Ultrasónicos con Arduino",
       sessionDate: "16/08/2026",
-      summary: "En esta sesiÃ³n en el Taller de RobÃ³tica se realizÃ³ el montaje y calibraciÃ³n del sensor ultrasÃ³nico HC-SR04 conectado a la placa Arduino UNO. Los estudiantes programaron la emisiÃ³n de pulsos TRIGGER y la lectura de tiempo de retorno en ECHO para calcular distancias en centÃ­metros con la velocidad del sonido.",
+      summary: "En esta sesión en el Taller de Robótica se realizó el montaje y calibración del sensor ultrasónico HC-SR04 conectado a la placa Arduino UNO. Los estudiantes programaron la emisión de pulsos TRIGGER y la lectura de tiempo de retorno en ECHO para calcular distancias en centímetros con la velocidad del sonido.",
       keyConcepts: [
         "Estructura del microcontrolador Arduino UNO",
         "Sensor de distancia HC-SR04 (Pines VCC, GND, TRIG, ECHO)",
-        "FÃ³rmula fÃ­sica: Distancia = (Tiempo * 0.0343) / 2",
-        "Estructuras condicionales if-else para evasiÃ³n de obstÃ¡culos"
+        "Fórmula física: Distancia = (Tiempo * 0.0343) / 2",
+        "Estructuras condicionales if-else para evasión de obstáculos"
       ],
       attachments: [
-        { type: "pdf", name: "Manual_Montaje_HC_SR04_Arduino.pdf", size: "3.2 MB", icon: "ðŸ“•" },
-        { type: "code", name: "Codigo_Sensor_Ultrasonico.ino", size: "45 KB", icon: "ðŸ’»" },
-        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "ðŸ“Š" },
-        { type: "worksheet", name: "Ficha_Circuito_Tinkercad_S1.pdf", size: "1.1 MB", icon: "ðŸ“" }
+        { type: "pdf", name: "Manual_Montaje_HC_SR04_Arduino.pdf", size: "3.2 MB", icon: "📕" },
+        { type: "code", name: "Codigo_Sensor_Ultrasonico.ino", size: "45 KB", icon: "💻" },
+        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "📊" },
+        { type: "worksheet", name: "Ficha_Circuito_Tinkercad_S1.pdf", size: "1.1 MB", icon: "📝" }
       ],
       evaluation: {
         id: "EVAL-COMP-S1",
-        title: "EvaluaciÃ³n DinÃ¡mica Semanal NÂ° 01: RobÃ³tica y Sensores",
+        title: "Evaluación Dinámica Semanal N° 01: Robótica y Sensores",
         timeLimitMinutes: 20,
         totalQuestions: 10,
         passingScore: 14,
@@ -1766,43 +1766,43 @@ const initialData = {
         questions: [
           {
             id: 1,
-            question: "Â¿CuÃ¡l es la funciÃ³n del pin TRIGGER en el sensor ultrasÃ³nico HC-SR04?",
+            question: "¿Cuál es la función del pin TRIGGER en el sensor ultrasónico HC-SR04?",
             options: [
               "Emitir el pulso sonoro de alta frecuencia (8 pulsos a 40 kHz)",
               "Recibir el eco reflejado por el objeto detectado",
-              "Alimentar de energÃ­a positiva de 5V al mÃ³dulo",
-              "Conectar a tierra el circuito electrÃ³nico"
+              "Alimentar de energía positiva de 5V al módulo",
+              "Conectar a tierra el circuito electrónico"
             ],
             correctIndex: 0,
-            explanation: "El pin TRIGGER es el disparador encargado de generar la rÃ¡faga ultrasÃ³nica para iniciar la mediciÃ³n."
+            explanation: "El pin TRIGGER es el disparador encargado de generar la ráfaga ultrasónica para iniciar la medición."
           },
           {
             id: 2,
-            question: "Â¿Por quÃ© en la fÃ³rmula de distancia se divide el tiempo entre 2?",
+            question: "¿Por qué en la fórmula de distancia se divide el tiempo entre 2?",
             options: [
-              "Porque la onda sonora viaja de ida hasta el obstÃ¡culo y de vuelta al sensor",
+              "Porque la onda sonora viaja de ida hasta el obstáculo y de vuelta al sensor",
               "Porque Arduino opera a la mitad de su frecuencia de reloj",
               "Para convertir milisegundos a microsegundos",
               "Porque el sensor posee dos receptores paralelos"
             ],
             correctIndex: 0,
-            explanation: "La onda realiza un trayecto doble (ida y vuelta), por lo que para conocer la distancia al obstÃ¡culo se debe dividir el recorrido total entre dos."
+            explanation: "La onda realiza un trayecto doble (ida y vuelta), por lo que para conocer la distancia al obstáculo se debe dividir el recorrido total entre dos."
           },
           {
             id: 3,
-            question: "Â¿QuÃ© valor aproximado tiene la velocidad del sonido en el aire a temperatura ambiente empleada en el cÃ³digo?",
+            question: "¿Qué valor aproximado tiene la velocidad del sonido en el aire a temperatura ambiente empleada en el código?",
             options: [
               "0.0343 cm / microsegundo (343 m/s)",
               "300,000 km / segundo",
               "1.5 cm / milisegundo",
-              "9.8 m / sÂ²"
+              "9.8 m / s²"
             ],
             correctIndex: 0,
-            explanation: "La velocidad del sonido en el aire es de aprox. 343 m/s, lo que equivale a 0.0343 centÃ­metros por microsegundo."
+            explanation: "La velocidad del sonido en el aire es de aprox. 343 m/s, lo que equivale a 0.0343 centímetros por microsegundo."
           },
           {
             id: 4,
-            question: "Â¿QuÃ© funciÃ³n nativa de Arduino se utiliza para medir la duraciÃ³n en microsegundos del pulso en el pin ECHO?",
+            question: "¿Qué función nativa de Arduino se utiliza para medir la duración en microsegundos del pulso en el pin ECHO?",
             options: [
               "pulseIn(pinEcho, HIGH)",
               "analogRead(pinEcho)",
@@ -1810,11 +1810,11 @@ const initialData = {
               "delayMicroseconds(pinEcho)"
             ],
             correctIndex: 0,
-            explanation: "La funciÃ³n pulseIn(pin, HIGH) espera a que el pin pase a nivel alto, inicia el cronÃ³metro y devuelve el tiempo transcurrido hasta que regrese a bajo."
+            explanation: "La función pulseIn(pin, HIGH) espera a que el pin pase a nivel alto, inicia el cronómetro y devuelve el tiempo transcurrido hasta que regrese a bajo."
           },
           {
             id: 5,
-            question: "En la funciÃ³n setup() de Arduino, Â¿cÃ³mo se deben configurar los pines TRIG y ECHO?",
+            question: "En la función setup() de Arduino, ¿cómo se deben configurar los pines TRIG y ECHO?",
             options: [
               "pinMode(TRIG, OUTPUT) y pinMode(ECHO, INPUT)",
               "pinMode(TRIG, INPUT) y pinMode(ECHO, OUTPUT)",
@@ -1822,11 +1822,11 @@ const initialData = {
               "Ambos configurados como INPUT"
             ],
             correctIndex: 0,
-            explanation: "TRIG envÃ­a seÃ±ales hacia afuera (OUTPUT) y ECHO lee las seÃ±ales entrantes (INPUT)."
+            explanation: "TRIG envía señales hacia afuera (OUTPUT) y ECHO lee las señales entrantes (INPUT)."
           },
           {
             id: 6,
-            question: "Â¿CuÃ¡l es el rango de detecciÃ³n Ã³ptimo y confiable del sensor HC-SR04?",
+            question: "¿Cuál es el rango de detección óptimo y confiable del sensor HC-SR04?",
             options: [
               "Entre 2 cm y 400 cm (4 metros)",
               "Entre 1 mm y 10 cm",
@@ -1834,11 +1834,11 @@ const initialData = {
               "Entre 50 cm y 1000 cm"
             ],
             correctIndex: 0,
-            explanation: "El sensor HC-SR04 tiene una distancia de mediciÃ³n efectiva estÃ¡ndar comprendida entre 2 cm y 400 cm."
+            explanation: "El sensor HC-SR04 tiene una distancia de medición efectiva estándar comprendida entre 2 cm y 400 cm."
           },
           {
             id: 7,
-            question: "Si queremos que un robot mÃ³vil frene cuando la distancia sea menor a 15 cm, Â¿cuÃ¡l es la condiciÃ³n adecuada en C++?",
+            question: "Si queremos que un robot móvil frene cuando la distancia sea menor a 15 cm, ¿cuál es la condición adecuada en C++?",
             options: [
               "if (distancia < 15) { detenerMotores(); }",
               "while (distancia > 15) { detenerMotores(); }",
@@ -1846,23 +1846,23 @@ const initialData = {
               "if (distancia == 0) { detenerMotores(); }"
             ],
             correctIndex: 0,
-            explanation: "La estructura condicional 'if (distancia < 15)' evalÃºa si el objeto estÃ¡ a menos de 15 cm y ejecuta la orden de parada."
+            explanation: "La estructura condicional 'if (distancia < 15)' evalúa si el objeto está a menos de 15 cm y ejecuta la orden de parada."
           },
           {
             id: 8,
-            question: "Â¿A quÃ© voltaje de alimentaciÃ³n opera normalmente la placa Arduino UNO y el sensor HC-SR04?",
+            question: "¿A qué voltaje de alimentación opera normalmente la placa Arduino UNO y el sensor HC-SR04?",
             options: [
               "5 Voltios (VCC)",
               "220 Voltios de corriente alterna",
-              "1.5 Voltios de pila comÃºn",
+              "1.5 Voltios de pila común",
               "24 Voltios industriales"
             ],
             correctIndex: 0,
-            explanation: "Tanto el microcontrolador ATmega328P de Arduino UNO como el mÃ³dulo ultrasÃ³nico trabajan con 5V DC regulados."
+            explanation: "Tanto el microcontrolador ATmega328P de Arduino UNO como el módulo ultrasónico trabajan con 5V DC regulados."
           },
           {
             id: 9,
-            question: "Â¿QuÃ© instrucciÃ³n se usa para enviar la distancia calculada a la pantalla de la computadora mediante el Monitor Serie?",
+            question: "¿Qué instrucción se usa para enviar la distancia calculada a la pantalla de la computadora mediante el Monitor Serie?",
             options: [
               "Serial.println(distancia);",
               "System.out.print(distancia);",
@@ -1870,11 +1870,11 @@ const initialData = {
               "echo distancia;"
             ],
             correctIndex: 0,
-            explanation: "En el entorno de Arduino, la clase Serial con su mÃ©todo Serial.println() imprime los datos por comunicaciÃ³n UART hacia la PC."
+            explanation: "En el entorno de Arduino, la clase Serial con su método Serial.println() imprime los datos por comunicación UART hacia la PC."
           },
           {
             id: 10,
-            question: "Â¿QuÃ© velocidad de comunicaciÃ³n en baudios se inicia habitualmente en Serial.begin()?",
+            question: "¿Qué velocidad de comunicación en baudios se inicia habitualmente en Serial.begin()?",
             options: [
               "Serial.begin(9600);",
               "Serial.begin(100);",
@@ -1882,51 +1882,51 @@ const initialData = {
               "Serial.begin(10000000);"
             ],
             correctIndex: 0,
-            explanation: "9600 baudios es la velocidad estÃ¡ndar mÃ¡s comÃºn para la comunicaciÃ³n serie entre Arduino y el monitor del IDE."
+            explanation: "9600 baudios es la velocidad estándar más común para la comunicación serie entre Arduino y el monitor del IDE."
           }
         ]
       },
       studentAttempts: [
         {
           studentId: "EST-2026-042",
-          studentName: "SofÃ­a MÃ©ndez Flores",
+          studentName: "Sofía Méndez Flores",
           score: 20,
           total: 20,
           date: "16/08/2026 19:10",
           status: "Excelente",
           correctCount: 10,
           timeSpent: "11 min",
-          feedback: "Â¡Puntaje perfecto! Dominio total del pinout, fÃ³rmulas y lÃ³gica de control con Arduino."
+          feedback: "¡Puntaje perfecto! Dominio total del pinout, fórmulas y lógica de control con Arduino."
         }
       ]
     },
     {
       id: "CTA-SEM-01",
       courseId: "CTA-403",
-      courseName: "Ciencia y TecnologÃ­a (FÃ­sica & QuÃ­mica)",
+      courseName: "Ciencia y Tecnología (Física & Química)",
       gradeId: "4sec",
       gradeName: "4to de Secundaria",
       teacherId: "DOC-2026-FIS",
       teacherName: "Miss Leyli Reyes Cerquen",
       weekNumber: 1,
       bimester: "III Bimestre",
-      title: "DinÃ¡mica Lineal y Segunda Ley de Newton en Sistemas de Fuerzas",
+      title: "Dinámica Lineal y Segunda Ley de Newton en Sistemas de Fuerzas",
       sessionDate: "17/08/2026",
-      summary: "Durante las prÃ¡cticas de laboratorio comprobamos experimentalmente que la aceleraciÃ³n que adquiere un cuerpo es directamente proporcional a la fuerza resultante e inversamente proporcional a su masa (F_res = m Â· a). Analizamos diagramas de cuerpo libre (DCL) y coeficientes de rozamiento estÃ¡tico y cinÃ©tico.",
+      summary: "Durante las prácticas de laboratorio comprobamos experimentalmente que la aceleración que adquiere un cuerpo es directamente proporcional a la fuerza resultante e inversamente proporcional a su masa (F_res = m · a). Analizamos diagramas de cuerpo libre (DCL) y coeficientes de rozamiento estático y cinético.",
       keyConcepts: [
-        "Segunda Ley de Newton (F = m Â· a)",
+        "Segunda Ley de Newton (F = m · a)",
         "Diagrama de Cuerpo Libre (DCL)",
-        "Fuerza de Rozamiento f_k = Î¼_k Â· N",
-        "Unidades en el Sistema Internacional (Newton, kg, m/sÂ²)"
+        "Fuerza de Rozamiento f_k = μ_k · N",
+        "Unidades en el Sistema Internacional (Newton, kg, m/s²)"
       ],
       attachments: [
-        { type: "pdf", name: "Guia_Laboratorio_Dinamica_S1.pdf", size: "2.1 MB", icon: "ðŸ“•" },
-        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "ðŸ“Š" },
-        { type: "worksheet", name: "Ficha_Diagramas_Cuerpo_Libre.pdf", size: "1.3 MB", icon: "ðŸ“" }
+        { type: "pdf", name: "Guia_Laboratorio_Dinamica_S1.pdf", size: "2.1 MB", icon: "📕" },
+        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "📊" },
+        { type: "worksheet", name: "Ficha_Diagramas_Cuerpo_Libre.pdf", size: "1.3 MB", icon: "📝" }
       ],
       evaluation: {
         id: "EVAL-CTA-S1",
-        title: "EvaluaciÃ³n DinÃ¡mica Semanal NÂ° 01: DinÃ¡mica Lineal",
+        title: "Evaluación Dinámica Semanal N° 01: Dinámica Lineal",
         timeLimitMinutes: 20,
         totalQuestions: 10,
         passingScore: 14,
@@ -1934,75 +1934,75 @@ const initialData = {
         questions: [
           {
             id: 1,
-            question: "Â¿CuÃ¡l es la expresiÃ³n fundamental de la Segunda Ley de Newton?",
+            question: "¿Cuál es la expresión fundamental de la Segunda Ley de Newton?",
             options: [
-              "Fuerza Resultante = masa Ã— aceleraciÃ³n (F_res = m Â· a)",
-              "Fuerza = masa / aceleraciÃ³n",
-              "EnergÃ­a = masa Ã— gravedad Ã— altura",
-              "Velocidad = distancia Ã— tiempo"
+              "Fuerza Resultante = masa × aceleración (F_res = m · a)",
+              "Fuerza = masa / aceleración",
+              "Energía = masa × gravedad × altura",
+              "Velocidad = distancia × tiempo"
             ],
             correctIndex: 0,
-            explanation: "La Segunda Ley de Newton establece que la aceleraciÃ³n de un cuerpo es proporcional a la fuerza neta aplicada e inversamente proporcional a su masa: F = m Â· a."
+            explanation: "La Segunda Ley de Newton establece que la aceleración de un cuerpo es proporcional a la fuerza neta aplicada e inversamente proporcional a su masa: F = m · a."
           },
           {
             id: 2,
-            question: "Â¿En quÃ© unidad del Sistema Internacional (SI) se mide la fuerza?",
+            question: "¿En qué unidad del Sistema Internacional (SI) se mide la fuerza?",
             options: [
-              "Newton (N), equivalente a kg Â· m / sÂ²",
+              "Newton (N), equivalente a kg · m / s²",
               "Joule (J)",
               "Watt (W)",
               "Pascal (Pa)"
             ],
             correctIndex: 0,
-            explanation: "1 Newton (N) se define como la fuerza necesaria para acelerar 1 kg de masa a razÃ³n de 1 m/sÂ²."
+            explanation: "1 Newton (N) se define como la fuerza necesaria para acelerar 1 kg de masa a razón de 1 m/s²."
           },
           {
             id: 3,
-            question: "Si a un bloque de 5 kg se le aplica una fuerza neta horizontal de 20 N, Â¿cuÃ¡l es su aceleraciÃ³n?",
+            question: "Si a un bloque de 5 kg se le aplica una fuerza neta horizontal de 20 N, ¿cuál es su aceleración?",
             options: [
-              "4 m/sÂ²",
-              "100 m/sÂ²",
-              "0.25 m/sÂ²",
-              "15 m/sÂ²"
+              "4 m/s²",
+              "100 m/s²",
+              "0.25 m/s²",
+              "15 m/s²"
             ],
             correctIndex: 0,
-            explanation: "Despejando la aceleraciÃ³n: a = F / m = 20 N / 5 kg = 4 m/sÂ²."
+            explanation: "Despejando la aceleración: a = F / m = 20 N / 5 kg = 4 m/s²."
           },
           {
             id: 4,
-            question: "Â¿QuÃ© representa el Diagrama de Cuerpo Libre (DCL)?",
+            question: "¿Qué representa el Diagrama de Cuerpo Libre (DCL)?",
             options: [
-              "La representaciÃ³n grÃ¡fica de todas las fuerzas externas que actÃºan sobre un cuerpo",
-              "El dibujo estÃ©tico del objeto en su entorno",
-              "La grÃ¡fica de velocidad en funciÃ³n del tiempo",
-              "La trayectoria geomÃ©trica del movimiento"
+              "La representación gráfica de todas las fuerzas externas que actúan sobre un cuerpo",
+              "El dibujo estético del objeto en su entorno",
+              "La gráfica de velocidad en función del tiempo",
+              "La trayectoria geométrica del movimiento"
             ],
             correctIndex: 0,
-            explanation: "El DCL aÃ­sla el cuerpo y dibuja vectorialmente todas las fuerzas que actÃºan sobre Ã©l (peso, normal, tensiÃ³n, fricciÃ³n, etc.)."
+            explanation: "El DCL aísla el cuerpo y dibuja vectorialmente todas las fuerzas que actúan sobre él (peso, normal, tensión, fricción, etc.)."
           },
           {
             id: 5,
-            question: "La fuerza con la que la Tierra atrae a un cuerpo se denomina Peso (P). Â¿CÃ³mo se calcula?",
+            question: "La fuerza con la que la Tierra atrae a un cuerpo se denomina Peso (P). ¿Cómo se calcula?",
             options: [
-              "P = masa Ã— gravedad (P = m Â· g)",
+              "P = masa × gravedad (P = m · g)",
               "P = masa / gravedad",
-              "P = fuerza Ã— distancia",
-              "P = aceleraciÃ³n / masa"
+              "P = fuerza × distancia",
+              "P = aceleración / masa"
             ],
             correctIndex: 0,
-            explanation: "El peso es una fuerza gravitatoria vectorial calculada como P = m Â· g, donde g â‰ˆ 9.8 o 10 m/sÂ²."
+            explanation: "El peso es una fuerza gravitatoria vectorial calculada como P = m · g, donde g ≈ 9.8 o 10 m/s²."
           },
           {
             id: 6,
-            question: "Â¿Hacia dÃ³nde apunta siempre la fuerza de rozamiento por fricciÃ³n?",
+            question: "¿Hacia dónde apunta siempre la fuerza de rozamiento por fricción?",
             options: [
               "En sentido opuesto al deslizamiento o tendencia de movimiento",
-              "Siempre en direcciÃ³n vertical hacia arriba",
-              "En la misma direcciÃ³n de la fuerza aplicada",
+              "Siempre en dirección vertical hacia arriba",
+              "En la misma dirección de la fuerza aplicada",
               "Hacia el centro de gravedad del planeta"
             ],
             correctIndex: 0,
-            explanation: "La fuerza de fricciÃ³n se opone al movimiento relativo entre las superficies en contacto."
+            explanation: "La fuerza de fricción se opone al movimiento relativo entre las superficies en contacto."
           },
           {
             id: 7,
@@ -2010,15 +2010,15 @@ const initialData = {
             options: [
               "La magnitud del Peso del bloque en sentido opuesto",
               "Cero",
-              "La aceleraciÃ³n de la gravedad",
+              "La aceleración de la gravedad",
               "El doble de la masa del bloque"
             ],
             correctIndex: 0,
-            explanation: "En equilibrio vertical sobre superficie horizontal (Î£Fy = 0), la fuerza Normal equilibra exactamente al peso: N = P = m Â· g."
+            explanation: "En equilibrio vertical sobre superficie horizontal (ΣFy = 0), la fuerza Normal equilibra exactamente al peso: N = P = m · g."
           },
           {
             id: 8,
-            question: "Si la masa de un objeto se duplica manteniendo constante la fuerza aplicada, Â¿quÃ© ocurre con su aceleraciÃ³n?",
+            question: "Si la masa de un objeto se duplica manteniendo constante la fuerza aplicada, ¿qué ocurre con su aceleración?",
             options: [
               "Se reduce a la mitad",
               "Se duplica",
@@ -2026,23 +2026,23 @@ const initialData = {
               "Se cuadruplica"
             ],
             correctIndex: 0,
-            explanation: "Al ser inversamente proporcionales (a = F/m), si la masa se duplica, la aceleraciÃ³n se divide entre 2."
+            explanation: "Al ser inversamente proporcionales (a = F/m), si la masa se duplica, la aceleración se divide entre 2."
           },
           {
             id: 9,
-            question: "Â¿QuÃ© establece la Primera Ley de Newton o Ley de la Inercia?",
+            question: "¿Qué establece la Primera Ley de Newton o Ley de la Inercia?",
             options: [
-              "Un cuerpo permanece en reposo o MRU a menos que una fuerza externa neta actÃºe sobre Ã©l",
-              "A toda acciÃ³n le corresponde una reacciÃ³n igual y contraria",
-              "La energÃ­a mecÃ¡nica siempre se disipa en calor",
-              "La masa de un cuerpo varÃ­a con su rapidez"
+              "Un cuerpo permanece en reposo o MRU a menos que una fuerza externa neta actúe sobre él",
+              "A toda acción le corresponde una reacción igual y contraria",
+              "La energía mecánica siempre se disipa en calor",
+              "La masa de un cuerpo varía con su rapidez"
             ],
             correctIndex: 0,
-            explanation: "La Primera Ley indica que si la fuerza neta es nula (Î£F = 0), el cuerpo mantiene su estado de reposo o velocidad constante en lÃ­nea recta."
+            explanation: "La Primera Ley indica que si la fuerza neta es nula (ΣF = 0), el cuerpo mantiene su estado de reposo o velocidad constante en línea recta."
           },
           {
             id: 10,
-            question: "Â¿CuÃ¡l es el valor de la fuerza necesaria para mover un cuerpo de 10 kg con una aceleraciÃ³n de 3 m/sÂ²?",
+            question: "¿Cuál es el valor de la fuerza necesaria para mover un cuerpo de 10 kg con una aceleración de 3 m/s²?",
             options: [
               "30 N",
               "3.33 N",
@@ -2050,7 +2050,7 @@ const initialData = {
               "0.3 N"
             ],
             correctIndex: 0,
-            explanation: "F = m Â· a = 10 kg Ã— 3 m/sÂ² = 30 Newtons (N)."
+            explanation: "F = m · a = 10 kg × 3 m/s² = 30 Newtons (N)."
           }
         ]
       },
@@ -2069,7 +2069,7 @@ if (window.initialData && window.initialData.schedules) {
 
 /* === store.js === */
 /**
- * Gestor de Estado y Base de Datos Central Sincronizada (v7.0 - Persistencia Blindada Anti-PÃ©rdida)
+ * Gestor de Estado y Base de Datos Central Sincronizada (v7.0 - Persistencia Blindada Anti-Pérdida)
  */
 class IntranetStore {
   constructor() {
@@ -2083,7 +2083,7 @@ class IntranetStore {
     // 1. Carga inicial del estado preservando todos los datos guardados
     this.state = this.loadState();
     
-    // 2. Guardado automÃ¡tico ante cierre de pestaÃ±a, cambio de visibilidad o recarga
+    // 2. Guardado automático ante cierre de pestaña, cambio de visibilidad o recarga
     if (typeof window !== "undefined") {
       window.addEventListener("beforeunload", () => {
         this.saveState();
@@ -2095,7 +2095,7 @@ class IntranetStore {
       });
     }
 
-    // 3. SincronizaciÃ³n inteligente con el servidor local si estÃ¡ en HTTP (sin sobreescritura destructiva)
+    // 3. Sincronización inteligente con el servidor local si está en HTTP (sin sobreescritura destructiva)
     if (typeof window !== "undefined" && window.location.protocol.startsWith("http")) {
       this.fetchServerState(true);
       setInterval(() => {
@@ -2107,7 +2107,7 @@ class IntranetStore {
     }
   }
 
-  // FusiÃ³n inteligente de colecciones por identificador Ãºnico (prioriza datos locales del usuario)
+  // Fusión inteligente de colecciones por identificador único (prioriza datos locales del usuario)
   mergeCollectionsById(localArr = [], serverArr = [], idKey = "id") {
     const map = new Map();
     // 1. Cargar del servidor
@@ -2152,7 +2152,7 @@ class IntranetStore {
       } catch (e) {}
     }
 
-    // 3. Si aÃºn no hay, rescatar de versiones previas (v6, v5, v4, v3) para no perder ningÃºn dato histÃ³rico
+    // 3. Si aún no hay, rescatar de versiones previas (v6, v5, v4, v3) para no perder ningún dato histórico
     if (!parsed) {
       const legacyKeys = [
         "colegio_el_educador_state_v6",
@@ -2262,7 +2262,7 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // SINCRONIZACIÃ“N INTELIGENTE CON EL MOTOR DE BASE DE DATOS CENTRAL (db.json)
+  // SINCRONIZACIÓN INTELIGENTE CON EL MOTOR DE BASE DE DATOS CENTRAL (db.json)
   // =========================================================================
   async fetchServerState(silent = false) {
     if (this.isSyncing) return;
@@ -2275,7 +2275,7 @@ class IntranetStore {
           const currentRole = this.state.currentRole;
           const currentView = this.state.currentView;
 
-          // UniÃ³n inteligente que NUNCA borra datos locales del usuario
+          // Unión inteligente que NUNCA borra datos locales del usuario
           this.state.notebookReviews = this.mergeCollectionsById(this.state.notebookReviews, serverData.notebookReviews, "id");
           this.state.attendanceRecords = this.mergeCollectionsById(this.state.attendanceRecords, serverData.attendanceRecords, "id");
           this.state.behaviorIncidents = this.mergeCollectionsById(this.state.behaviorIncidents, serverData.behaviorIncidents, "id");
@@ -2325,7 +2325,7 @@ class IntranetStore {
           // Enviar inmediatamente la base de datos unificada y enriquecida al servidor
           this.syncToServer();
 
-          // Solo notificar si estamos autenticados y no estamos con la cÃ¡mara activa o modal abierto
+          // Solo notificar si estamos autenticados y no estamos con la cámara activa o modal abierto
           const modalActive = document.querySelector(".modal-overlay.active");
           const isScanning = window.app && window.app.isCameraActive;
           if (this.state.isAuthenticated && !modalActive && !isScanning) {
@@ -2367,7 +2367,7 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // AUTENTICACIÃ“N Y ROLES
+  // AUTENTICACIÓN Y ROLES
   // =========================================================================
   login(identifier, password) {
     const rawTerm = (identifier || "").trim();
@@ -2410,7 +2410,7 @@ class IntranetStore {
           this.saveState();
           return { success: true, user: user };
         } else {
-          return { success: false, error: `ContraseÃ±a incorrecta. (Prueba con: ${validPassword})` };
+          return { success: false, error: `Contraseña incorrecta. (Prueba con: ${validPassword})` };
         }
       }
     }
@@ -2452,7 +2452,7 @@ class IntranetStore {
         this.saveState();
         return { success: true, user: systemUser };
       } else {
-        return { success: false, error: "ContraseÃ±a incorrecta." };
+        return { success: false, error: "Contraseña incorrecta." };
       }
     }
 
@@ -2494,7 +2494,7 @@ class IntranetStore {
   getEnrollments() {
     let list = Array.isArray(this.state.enrollments) ? [...this.state.enrollments] : (Array.isArray(initialData.enrollments) ? [...initialData.enrollments] : []);
     
-    // Sincronizar automÃ¡ticamente cualquier estudiante de systemUsers que no estÃ© aÃºn en enrollments
+    // Sincronizar automáticamente cualquier estudiante de systemUsers que no esté aún en enrollments
     const systemUsers = this.getSystemUsers();
     systemUsers.forEach(u => {
       if (u.role === "Estudiante" || u.role === "Alumno") {
@@ -2511,7 +2511,7 @@ class IntranetStore {
             studentName: u.name,
             dni: u.dni || "76543210",
             siagieCode: u.siagieCode || `2026-${u.dni || u.code || '76543210'}`,
-            grade: u.detail || u.gradeLevel || "4Â° de Secundaria",
+            grade: u.detail || u.gradeLevel || "4° de Secundaria",
             gradeId: "4sec",
             level: "Secundaria",
             guardian: u.guardian || "Apoderado Registrado",
@@ -2520,7 +2520,7 @@ class IntranetStore {
             bloodType: "O+",
             insurance: "EsSalud / SIS",
             allergies: "Sin alergias",
-            medicalCondition: "Apto para actividad fÃ­sica",
+            medicalCondition: "Apto para actividad física",
             documents: {
               dniStudent: true,
               dniParent: true,
@@ -2537,7 +2537,7 @@ class IntranetStore {
     return list;
   }
 
-  // --- GestiÃ³n de la Boleta Oficial DinÃ¡mica ---
+  // --- Gestión de la Boleta Oficial Dinámica ---
   getBoletaData(studentKey) {
     const all = this.state.boletaData || initialData.boletaData;
     return all[studentKey] || all.albujar;
@@ -2555,7 +2555,7 @@ class IntranetStore {
     this.notify();
   }
 
-  // --- GestiÃ³n de Hijos Matriculados del Apoderado ---
+  // --- Gestión de Hijos Matriculados del Apoderado ---
   getParentChildren() {
     const parentUser = this.state.users.padre || initialData.users.padre;
     if (parentUser && Array.isArray(parentUser.children)) {
@@ -2635,7 +2635,7 @@ class IntranetStore {
       name: userData.name,
       email: userData.email || `${cleanUser}@eleducador.edu.pe`,
       role: role,
-      detail: userData.detail || (role === "Docente" ? (userData.subject || "Docente de Asignatura") : role === "Estudiante" ? userData.gradeLevel : role === "Apoderado" ? `Apoderado de ${userData.studentName || 'Estudiante'}` : "CoordinaciÃ³n Institucional"),
+      detail: userData.detail || (role === "Docente" ? (userData.subject || "Docente de Asignatura") : role === "Estudiante" ? userData.gradeLevel : role === "Apoderado" ? `Apoderado de ${userData.studentName || 'Estudiante'}` : "Coordinación Institucional"),
       dni: userData.dni || "",
       phone: userData.phone || "",
       assignedGrades: userData.assignedGrades || [],
@@ -2651,7 +2651,7 @@ class IntranetStore {
     if (!this.state.systemUsers) this.state.systemUsers = [...initialData.systemUsers];
     this.state.systemUsers.unshift(newUser);
 
-    // Si es docente con carga horaria o asignaciÃ³n, agregarlo tambiÃ©n a teachersList si no existe
+    // Si es docente con carga horaria o asignación, agregarlo también a teachersList si no existe
     if (role === "Docente") {
       if (!this.state.teachersList) this.state.teachersList = [...initialData.teachersList];
       const existsInList = this.state.teachersList.some(t => t.id === newUser.code || t.name === newUser.name);
@@ -2660,16 +2660,16 @@ class IntranetStore {
           id: newUser.code,
           name: newUser.name,
           subject: userData.subject || "Asignatura Asignada",
-          department: "CoordinaciÃ³n PedagÃ³gica",
+          department: "Coordinación Pedagógica",
           weeklyHours: parseInt(userData.weeklyHours) || 24,
           courses: [userData.subject || "Asignatura"],
           assignedGrades: userData.assignedGrades && userData.assignedGrades.length > 0 ? userData.assignedGrades : ["4to de Secundaria"],
-          classrooms: ["Aula 204 - PabellÃ³n A"]
+          classrooms: ["Aula 204 - Pabellón A"]
         });
       }
     }
 
-    // Si es estudiante, agregarlo tambiÃ©n a enrollments para que tenga su QR y matrÃ­cula instantÃ¡nea
+    // Si es estudiante, agregarlo también a enrollments para que tenga su QR y matrícula instantánea
     if (role === "Estudiante" || role === "Alumno") {
       if (!this.state.enrollments) this.state.enrollments = JSON.parse(JSON.stringify(initialData.enrollments || []));
       const existsInEnrollment = this.state.enrollments.some(e => e.studentCode === newUser.code || (newUser.dni && e.dni === newUser.dni));
@@ -2680,7 +2680,7 @@ class IntranetStore {
           studentName: newUser.name,
           dni: newUser.dni || "76543210",
           siagieCode: `2026-${newUser.dni || newUser.code || Math.floor(10000000 + Math.random() * 90000000)}`,
-          grade: newUser.detail || "4Â° de Secundaria",
+          grade: newUser.detail || "4° de Secundaria",
           gradeId: "4sec",
           level: "Secundaria",
           guardian: newUser.guardian || "Apoderado Registrado",
@@ -2689,7 +2689,7 @@ class IntranetStore {
           bloodType: "O+",
           insurance: "EsSalud / SIS",
           allergies: "Sin alergias",
-          medicalCondition: "Apto para actividad fÃ­sica",
+          medicalCondition: "Apto para actividad física",
           documents: {
             dniStudent: true,
             dniParent: true,
@@ -2739,7 +2739,7 @@ class IntranetStore {
     return null;
   }
 
-  // --- ConfiguraciÃ³n DinÃ¡mica de PestaÃ±as y Espacios Visibles ---
+  // --- Configuración Dinámica de Pestañas y Espacios Visibles ---
   updateNavigationTabsConfig(role, tabs) {
     if (!this.state.navigationTabsConfig) {
       this.state.navigationTabsConfig = JSON.parse(JSON.stringify(initialData.navigationTabsConfig));
@@ -2807,7 +2807,7 @@ class IntranetStore {
       emergencyContact: data.emergencyContact || data.guardian || "Apoderado",
       emergencyPhone: data.emergencyPhone || data.guardianPhone || "987-654-321",
       level: data.level || "Secundaria",
-      grade: data.grade || "4Â° de Secundaria",
+      grade: data.grade || "4° de Secundaria",
       gradeId: data.gradeId || "4sec",
       guardian: data.guardian || "Apoderado Titular",
       guardianDni: data.guardianDni || "41982301",
@@ -2942,11 +2942,11 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // GESTIÃ“N DE ESTRUCTURA DE GRADOS Y SECCIONES (ADMINISTRADOR)
+  // GESTIÓN DE ESTRUCTURA DE GRADOS Y SECCIONES (ADMINISTRADOR)
   // =========================================================================
   toggleAcademicSections(hasSections) {
     if (!this.state.academicConfig) {
-      this.state.academicConfig = { hasSections: false, defaultSectionLabel: "Ãšnica" };
+      this.state.academicConfig = { hasSections: false, defaultSectionLabel: "Única" };
     }
     this.state.academicConfig.hasSections = !!hasSections;
     this.saveState();
@@ -2961,7 +2961,7 @@ class IntranetStore {
       label: gradeData.label || "Nuevo Grado",
       level: gradeData.level || "Secundaria",
       section: gradeData.section || "",
-      classroom: gradeData.classroom || "PabellÃ³n A - Aula 101",
+      classroom: gradeData.classroom || "Pabellón A - Aula 101",
       tutor: gradeData.tutor || "Por Asignar"
     };
     this.state.gradesCatalog.push(newGrade);
@@ -3012,7 +3012,7 @@ class IntranetStore {
       bimester: newSyllabusData.bimester || "III Bimestre 2026",
       competencies: newSyllabusData.competencies || ["Competencia formativa"],
       units: newSyllabusData.units || [
-        { unitNumber: "Unidad I", title: "Fundamentos Clave", duration: "4 semanas", topics: ["IntroducciÃ³n al curso"], evaluation: "EvaluaciÃ³n continua" }
+        { unitNumber: "Unidad I", title: "Fundamentos Clave", duration: "4 semanas", topics: ["Introducción al curso"], evaluation: "Evaluación continua" }
       ],
       bibliography: newSyllabusData.bibliography || "Textos oficiales Colegio El Educador."
     };
@@ -3032,9 +3032,9 @@ class IntranetStore {
       this.state.notebookReviews[index] = {
         ...this.state.notebookReviews[index],
         ...updatedData,
-        status: updatedData.score >= 19 ? "Excelente" : updatedData.score >= 15 ? "Al DÃ­a" : updatedData.score >= 12 ? "Incompleto" : "Firma Requerida",
+        status: updatedData.score >= 19 ? "Excelente" : updatedData.score >= 15 ? "Al Día" : updatedData.score >= 12 ? "Incompleto" : "Firma Requerida",
         stampType: updatedData.score >= 19 ? "stamp-gold" : updatedData.score >= 15 ? "stamp-blue" : "stamp-red",
-        stampText: updatedData.score >= 19 ? "LOGRO DESTACADO â˜…" : updatedData.score >= 15 ? "REVISADO âœ“" : "FALTA COMPLETAR âš "
+        stampText: updatedData.score >= 19 ? "LOGRO DESTACADO ★" : updatedData.score >= 15 ? "REVISADO ✓" : "FALTA COMPLETAR ⚠"
       };
       this.saveState();
       return true;
@@ -3095,41 +3095,41 @@ class IntranetStore {
 
   getNotebookSubjectsCatalog(gradeId = "4sec") {
     return [
-      { id: "MAT", name: "MatemÃ¡tica Avanzada (Ãlgebra / GeometrÃ­a)", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica" },
-      { id: "COM", name: "ComunicaciÃ³n & Literatura", teacher: "Miss MarÃ­a Daysi Reyes Milla", area: "ComunicaciÃ³n" },
-      { id: "CTA", name: "Ciencia y TecnologÃ­a (FÃ­sica / QuÃ­mica)", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencias" },
+      { id: "MAT", name: "Matemática Avanzada (Álgebra / Geometría)", teacher: "Prof. Roberto Silva", area: "Matemática" },
+      { id: "COM", name: "Comunicación & Literatura", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación" },
+      { id: "CTA", name: "Ciencia y Tecnología (Física / Química)", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencias" },
       { id: "SOC", name: "Ciencias Sociales & Historia", teacher: "Prof. Javier Vega", area: "Sociales" },
-      { id: "ING", name: "InglÃ©s Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas" },
-      { id: "EPT", name: "EPT (ComputaciÃ³n & RobÃ³tica)", teacher: "Prof. Fernando Rojas", area: "TecnologÃ­a" },
-      { id: "DPCC", name: "Desarrollo Personal, CiudadanÃ­a y CÃ­vica", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal" },
+      { id: "ING", name: "Inglés Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas" },
+      { id: "EPT", name: "EPT (Computación & Robótica)", teacher: "Prof. Fernando Rojas", area: "Tecnología" },
+      { id: "DPCC", name: "Desarrollo Personal, Ciudadanía y Cívica", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal" },
       { id: "ARTE", name: "Arte y Cultura", teacher: "Miss Claudia Mendoza", area: "Arte" }
     ];
   }
 
   getStudentBoletaCoursesCatalog(gradeId = "4sec") {
     return [
-      { id: "ARIT", name: "AritmÃ©tica", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica", icon: "ðŸ“" },
-      { id: "ALG", name: "Ãlgebra", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica", icon: "ðŸ“" },
-      { id: "GEOM", name: "GeometrÃ­a", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica", icon: "ðŸ“" },
-      { id: "TRIG", name: "TrigonometrÃ­a", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica", icon: "ðŸ“" },
-      { id: "RM", name: "Razonamiento MatemÃ¡tico", teacher: "Prof. Roberto Silva", area: "MatemÃ¡tica", icon: "ðŸ“" },
-      { id: "LENG", name: "Lenguaje y GramÃ¡tica", teacher: "Miss MarÃ­a Daysi Reyes Milla", area: "ComunicaciÃ³n", icon: "ðŸ“–" },
-      { id: "LIT", name: "Literatura Universal", teacher: "Miss MarÃ­a Daysi Reyes Milla", area: "ComunicaciÃ³n", icon: "ðŸ“–" },
-      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss MarÃ­a Daysi Reyes Milla", area: "ComunicaciÃ³n", icon: "ðŸ“–" },
-      { id: "BIO", name: "BiologÃ­a & AnatomÃ­a", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y TecnologÃ­a", icon: "ðŸ”¬" },
-      { id: "FIS", name: "FÃ­sica Elemental", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y TecnologÃ­a", icon: "ðŸ”¬" },
-      { id: "QUIM", name: "QuÃ­mica InorgÃ¡nica", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y TecnologÃ­a", icon: "ðŸ”¬" },
-      { id: "HP", name: "Historia del PerÃº", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "ðŸŒŽ" },
-      { id: "HU", name: "Historia Universal", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "ðŸŒŽ" },
-      { id: "GEO", name: "GeografÃ­a & EconomÃ­a", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "ðŸŒŽ" },
-      { id: "CIV", name: "EducaciÃ³n CÃ­vica & DPCC", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal Social", icon: "âš–ï¸" },
-      { id: "PSIC", name: "PsicologÃ­a & FilosofÃ­a", teacher: "Prof. Manuel Soto", area: "Personal Social", icon: "ðŸ§ " },
-      { id: "COMP", name: "ComputaciÃ³n & RobÃ³tica", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "ðŸ’»" },
-      { id: "GEST", name: "GestiÃ³n Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "ðŸ“Š" },
-      { id: "ING", name: "InglÃ©s Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas", icon: "ðŸ‡¬ðŸ‡§" },
-      { id: "ARTE", name: "Arte y Cultura", teacher: "Miss Claudia Mendoza", area: "Arte", icon: "ðŸŽ¨" },
-      { id: "REL", name: "EducaciÃ³n Religiosa", teacher: "Prof. Manuel Soto", area: "Valores", icon: "ðŸ•Šï¸" },
-      { id: "EDFIS", name: "EducaciÃ³n FÃ­sica & Deporte", teacher: "Prof. Dante Morales", area: "Deporte", icon: "âš½" }
+      { id: "ARIT", name: "Aritmética", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
+      { id: "ALG", name: "Álgebra", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
+      { id: "GEOM", name: "Geometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
+      { id: "TRIG", name: "Trigonometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
+      { id: "RM", name: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
+      { id: "LENG", name: "Lenguaje y Gramática", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
+      { id: "LIT", name: "Literatura Universal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
+      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
+      { id: "BIO", name: "Biología & Anatomía", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
+      { id: "FIS", name: "Física Elemental", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
+      { id: "QUIM", name: "Química Inorgánica", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
+      { id: "HP", name: "Historia del Perú", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "🌎" },
+      { id: "HU", name: "Historia Universal", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "🌎" },
+      { id: "GEO", name: "Geografía & Economía", teacher: "Prof. Javier Vega", area: "Ciencias Sociales", icon: "🌎" },
+      { id: "CIV", name: "Educación Cívica & DPCC", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal Social", icon: "⚖️" },
+      { id: "PSIC", name: "Psicología & Filosofía", teacher: "Prof. Manuel Soto", area: "Personal Social", icon: "🧠" },
+      { id: "COMP", name: "Computación & Robótica", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "💻" },
+      { id: "GEST", name: "Gestión Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "📊" },
+      { id: "ING", name: "Inglés Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas", icon: "🇬🇧" },
+      { id: "ARTE", name: "Arte y Cultura", teacher: "Miss Claudia Mendoza", area: "Arte", icon: "🎨" },
+      { id: "REL", name: "Educación Religiosa", teacher: "Prof. Manuel Soto", area: "Valores", icon: "🕊️" },
+      { id: "EDFIS", name: "Educación Física & Deporte", teacher: "Prof. Dante Morales", area: "Deporte", icon: "⚽" }
     ];
   }
 
@@ -3142,7 +3142,7 @@ class IntranetStore {
       (e.studentName && e.studentName.toLowerCase().includes(studentIdOrCode.toLowerCase()))
     );
     if (!student) {
-      student = enrollments[0] || { studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", gradeId: "4sec" };
+      student = enrollments[0] || { studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", grade: "4° de Secundaria", gradeId: "4sec" };
     }
 
     const boletaCourses = this.getStudentBoletaCoursesCatalog(student.gradeId || "4sec");
@@ -3150,14 +3150,14 @@ class IntranetStore {
 
     boletaCourses.forEach(c => {
       const rawCode = `QR-NB-${student.studentCode || student.dni}-${c.id}`;
-      const pipePayload = `QR-NB|${student.studentCode || student.dni}|${student.studentName}|${student.grade || '4Â° de Secundaria'}|${c.name}|${c.teacher}`;
+      const pipePayload = `QR-NB|${student.studentCode || student.dni}|${student.studentName}|${student.grade || '4° de Secundaria'}|${c.name}|${c.teacher}`;
 
       stickers.push({
         qrCode: rawCode,
         qrPayload: pipePayload,
         studentName: student.studentName,
         studentCode: student.studentCode || student.dni,
-        grade: student.grade || "4Â° de Secundaria",
+        grade: student.grade || "4° de Secundaria",
         gradeId: student.gradeId || "4sec",
         course: c.name,
         courseId: c.id,
@@ -3185,16 +3185,16 @@ class IntranetStore {
 
     studentsToProcess.forEach(st => {
       subjects.forEach(sb => {
-        // CÃ³digo formateado estandarizado: QR-NB|CodigoAlumno|NombreAlumno|Grado|Curso|Docente
+        // Código formateado estandarizado: QR-NB|CodigoAlumno|NombreAlumno|Grado|Curso|Docente
         const rawCode = `QR-NB-${st.studentCode || st.dni}-${sb.id}`;
-        const pipePayload = `QR-NB|${st.studentCode || st.dni}|${st.studentName}|${st.grade || '4Â° de Secundaria'}|${sb.name}|${sb.teacher}`;
+        const pipePayload = `QR-NB|${st.studentCode || st.dni}|${st.studentName}|${st.grade || '4° de Secundaria'}|${sb.name}|${sb.teacher}`;
 
         stickers.push({
           qrCode: rawCode,
           qrPayload: pipePayload,
           studentName: st.studentName,
           studentCode: st.studentCode || st.dni,
-          grade: st.grade || "4Â° de Secundaria",
+          grade: st.grade || "4° de Secundaria",
           gradeId: st.gradeId || "4sec",
           course: sb.name,
           courseId: sb.id,
@@ -3211,14 +3211,14 @@ class IntranetStore {
     if (!qrCode) qrCode = "QR-NB-EST042-MAT";
     const cleanCode = qrCode.trim();
 
-    // 1. Si el cÃ³digo QR utiliza el formato delimitado por pipes: QR-NB|CODIGO|ALUMNO|GRADO|CURSO|DOCENTE
+    // 1. Si el código QR utiliza el formato delimitado por pipes: QR-NB|CODIGO|ALUMNO|GRADO|CURSO|DOCENTE
     if (cleanCode.startsWith("QR-NB|") || cleanCode.includes("|")) {
       const parts = cleanCode.split("|");
       if (parts.length >= 5) {
         const stCode = parts[1] || "EST-2026-042";
-        const stName = parts[2] || "SofÃ­a MÃ©ndez Flores";
-        const grd = parts[3] || "4Â° de Secundaria";
-        const crs = parts[4] || "MatemÃ¡tica Avanzada";
+        const stName = parts[2] || "Sofía Méndez Flores";
+        const grd = parts[3] || "4° de Secundaria";
+        const crs = parts[4] || "Matemática Avanzada";
         const tch = parts[5] || "Prof. Roberto Silva";
 
         return {
@@ -3233,14 +3233,14 @@ class IntranetStore {
       }
     }
 
-    // 2. Si el cÃ³digo QR contiene un JSON estructurado
+    // 2. Si el código QR contiene un JSON estructurado
     if (cleanCode.startsWith("{") && cleanCode.endsWith("}")) {
       try {
         const parsed = JSON.parse(cleanCode);
-        const stName = parsed.alumno || parsed.studentName || parsed.student || "SofÃ­a MÃ©ndez Flores";
-        const crs = parsed.curso || parsed.course || "MatemÃ¡tica Avanzada";
+        const stName = parsed.alumno || parsed.studentName || parsed.student || "Sofía Méndez Flores";
+        const crs = parsed.curso || parsed.course || "Matemática Avanzada";
         const tch = parsed.profesor || parsed.teacher || "Prof. Roberto Silva";
-        const grd = parsed.grado || parsed.grade || "4Â° de Secundaria";
+        const grd = parsed.grado || parsed.grade || "4° de Secundaria";
 
         return {
           qrCode: cleanCode,
@@ -3254,7 +3254,7 @@ class IntranetStore {
       } catch (e) {}
     }
 
-    // 3. Si coincide con una revisiÃ³n previa registrada
+    // 3. Si coincide con una revisión previa registrada
     const matchedReview = this.state.notebookReviews.find(r => r.qrCode === cleanCode);
     if (matchedReview) {
       return {
@@ -3268,7 +3268,7 @@ class IntranetStore {
       };
     }
 
-    // 4. Resolver por catÃ¡logo dinÃ¡mico de alumnos, cursos y profesores
+    // 4. Resolver por catálogo dinámico de alumnos, cursos y profesores
     const enrollments = this.getEnrollments();
     const subjects = this.getNotebookSubjectsCatalog();
 
@@ -3278,7 +3278,7 @@ class IntranetStore {
       (e.studentName && cleanCode.toLowerCase().includes(e.studentName.toLowerCase().split(' ')[0]))
     );
     if (!matchedStudent) {
-      matchedStudent = enrollments[0] || { studentCode: "EST-2026-042", studentName: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria" };
+      matchedStudent = enrollments[0] || { studentCode: "EST-2026-042", studentName: "Sofía Méndez Flores", grade: "4° de Secundaria" };
     }
 
     let matchedSubject = subjects.find(s => cleanCode.includes(s.id) || cleanCode.toLowerCase().includes(s.name.toLowerCase().substring(0, 4)));
@@ -3297,7 +3297,7 @@ class IntranetStore {
       qrCode: cleanCode,
       studentId: matchedStudent.studentCode || matchedStudent.id || "EST-2026-042",
       studentName: matchedStudent.studentName,
-      grade: matchedStudent.grade || "4Â° de Secundaria",
+      grade: matchedStudent.grade || "4° de Secundaria",
       course: matchedSubject.name,
       teacher: matchedSubject.teacher,
       lastReview: this.state.notebookReviews.find(r => r.studentName === matchedStudent.studentName && r.course === matchedSubject.name) || null
@@ -3309,20 +3309,20 @@ class IntranetStore {
     const currentRole = this.getCurrentRole();
 
     const scoreNum = parseFloat(data.score) || 18;
-    const status = data.status || (scoreNum >= 15 ? "Al DÃ­a" : scoreNum >= 11 ? "Observado" : "No PresentÃ³");
-    const stampType = status === "Al DÃ­a" ? "stamp-al-dia" : status === "Observado" ? "stamp-observado" : "stamp-no-presento";
-    const stampText = status === "Al DÃ­a" ? "ðŸŸ¢ REVISADO & AL DÃA" : status === "Observado" ? "ðŸŸ¡ OBSERVADO" : "ðŸ”´ NO PRESENTÃ“";
+    const status = data.status || (scoreNum >= 15 ? "Al Día" : scoreNum >= 11 ? "Observado" : "No Presentó");
+    const stampType = status === "Al Día" ? "stamp-al-dia" : status === "Observado" ? "stamp-observado" : "stamp-no-presento";
+    const stampText = status === "Al Día" ? "🟢 REVISADO & AL DÍA" : status === "Observado" ? "🟡 OBSERVADO" : "🔴 NO PRESENTÓ";
 
     const newReview = {
       id: `REV-2026-${Math.floor(100 + Math.random() * 900)}`,
       qrCode: data.qrCode || `QR-CUAD-${data.studentId || 'EST042'}-${data.course || 'MAT'}`,
       studentId: data.studentId || "EST-2026-042",
-      studentName: data.studentName || "SofÃ­a MÃ©ndez Flores",
-      grade: data.grade || "4Â° de Secundaria",
-      course: data.course || "MatemÃ¡tica Avanzada",
+      studentName: data.studentName || "Sofía Méndez Flores",
+      grade: data.grade || "4° de Secundaria",
+      course: data.course || "Matemática Avanzada",
       teacher: data.teacher || "Prof. Roberto Silva",
       evaluator: currentUser.name || (currentRole === "auxiliar" ? "Lic. Carlos Medina (Auxiliar)" : "Docente Responsable"),
-      evaluatorRole: currentRole === "auxiliar" ? "Auxiliar de EducaciÃ³n" : currentRole === "docente" ? "Docente Titular" : "CoordinaciÃ³n",
+      evaluatorRole: currentRole === "auxiliar" ? "Auxiliar de Educación" : currentRole === "docente" ? "Docente Titular" : "Coordinación",
       date: new Date().toLocaleDateString("es-PE"),
       time: new Date().toLocaleTimeString("es-PE", { hour: "2-digit", minute: "2-digit" }),
       score: scoreNum,
@@ -3330,10 +3330,10 @@ class IntranetStore {
       stampType: stampType,
       stampText: stampText,
       checklist: data.checklist || { margenes: true, fechas: true, teoriaCompleta: true, ejerciciosAlDia: true, pulcritud: true },
-      teacherRemarks: data.teacherRemarks || (status === "Al DÃ­a" ? "Cuaderno completo y tareas al dÃ­a." : "Presentar regularizaciÃ³n en la siguiente sesiÃ³n.")
+      teacherRemarks: data.teacherRemarks || (status === "Al Día" ? "Cuaderno completo y tareas al día." : "Presentar regularización en la siguiente sesión.")
     };
 
-    // Actualizar si ya existÃ­a una revisiÃ³n previa para este alumno y curso en la misma fecha, o agregar nueva
+    // Actualizar si ya existía una revisión previa para este alumno y curso en la misma fecha, o agregar nueva
     const existingIndex = this.state.notebookReviews.findIndex(r => r.studentName === newReview.studentName && r.course === newReview.course && r.date === newReview.date);
     if (existingIndex >= 0) {
       this.state.notebookReviews[existingIndex] = newReview;
@@ -3372,13 +3372,13 @@ class IntranetStore {
     if (this.state.users.estudiante) {
       this.state.users.estudiante.isAccessLocked = false;
       this.state.users.estudiante.paymentsUpToDate = true;
-      this.state.users.estudiante.pensionStatus = "Al DÃ­a";
+      this.state.users.estudiante.pensionStatus = "Al Día";
       this.state.users.estudiante.pendingDebtAmount = 0.00;
     }
 
     if (this.state.users.padre) {
       this.state.users.padre.isAccessLocked = false;
-      this.state.users.padre.pensionStatus = "Al DÃ­a";
+      this.state.users.padre.pensionStatus = "Al Día";
       this.state.users.padre.pendingDebtAmount = 0.00;
     }
 
@@ -3394,7 +3394,7 @@ class IntranetStore {
       }
     }
 
-    // Sumar a la recaudaciÃ³n oficial institucional
+    // Sumar a la recaudación oficial institucional
     if (this.state.institution && this.state.institution.economicReport) {
       this.state.institution.economicReport.collectedAmount += amountPaid;
     }
@@ -3421,10 +3421,10 @@ class IntranetStore {
 
       if (familyId === "FAM-2026-108") {
         this.state.users.padre.isAccessLocked = fam.isAccessLocked;
-        this.state.users.padre.pensionStatus = fam.isAccessLocked ? "Bloqueado por Mora" : "Al DÃ­a";
+        this.state.users.padre.pensionStatus = fam.isAccessLocked ? "Bloqueado por Mora" : "Al Día";
         this.state.users.estudiante.isAccessLocked = fam.isAccessLocked;
         this.state.users.estudiante.paymentsUpToDate = !fam.isAccessLocked;
-        this.state.users.estudiante.pensionStatus = fam.isAccessLocked ? "Bloqueado por Mora" : "Al DÃ­a";
+        this.state.users.estudiante.pensionStatus = fam.isAccessLocked ? "Bloqueado por Mora" : "Al Día";
       }
 
       this.saveState();
@@ -3434,7 +3434,7 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // CONTROL DE ASISTENCIA BIOMÃ‰TRICO Y DIARIO
+  // CONTROL DE ASISTENCIA BIOMÉTRICO Y DIARIO
   // =========================================================================
   getAttendanceRecords(filterGradeId = null, filterDate = null) {
     if (!this.state.attendanceRecords) {
@@ -3482,7 +3482,7 @@ class IntranetStore {
       if ((r.gradeId === gradeId || (r.grade && r.grade.includes(gradeId))) && r.date === date) {
         r.status = "Presente";
         r.arrivalTime = (!r.arrivalTime || r.arrivalTime === "--:--") ? "07:40 AM" : r.arrivalTime;
-        r.observations = "Puntual (MarcaciÃ³n Masiva Aula)";
+        r.observations = "Puntual (Marcación Masiva Aula)";
       }
     });
     this.saveState();
@@ -3498,28 +3498,28 @@ class IntranetStore {
         id: `ATT-${Date.now().toString().slice(-4)}`,
         studentId: studentId,
         studentCode: studentId,
-        studentName: "SofÃ­a MÃ©ndez Flores",
+        studentName: "Sofía Méndez Flores",
         gradeId: "4sec",
-        grade: "4Â° de Secundaria",
+        grade: "4° de Secundaria",
         date: date,
-        day: "MiÃ©rcoles",
+        day: "Miércoles",
         status: "Justificada",
         arrivalTime: "--:--",
         exitTime: "--:--",
-        method: "JustificaciÃ³n de Apoderado",
-        observations: `JustificaciÃ³n: ${reason}`
+        method: "Justificación de Apoderado",
+        observations: `Justificación: ${reason}`
       };
       this.state.attendanceRecords.unshift(rec);
     } else {
       rec.status = "Justificada";
-      rec.observations = `JustificaciÃ³n aprobada: ${reason}`;
+      rec.observations = `Justificación aprobada: ${reason}`;
     }
     this.saveState();
     return rec;
   }
 
   // =========================================================================
-  // ESCÃNER QR EN PUERTA & INFORME DIARIO DE TARDANZAS / INASISTENCIAS
+  // ESCÁNER QR EN PUERTA & INFORME DIARIO DE TARDANZAS / INASISTENCIAS
   // =========================================================================
   registerStudentQRDoorScan(qrCodeOrDni, customTime = null) {
     if (!this.state.attendanceRecords) {
@@ -3528,7 +3528,7 @@ class IntranetStore {
     const enrollments = this.getEnrollments();
     const cleanQuery = (qrCodeOrDni || "").trim().toLowerCase();
 
-    // Buscar estudiante por cÃ³digo, DNI, SIAGIE o nombre
+    // Buscar estudiante por código, DNI, SIAGIE o nombre
     const matchedEnrollment = enrollments.find(e => 
       (e.studentCode && e.studentCode.toLowerCase() === cleanQuery) ||
       (e.dni && e.dni === cleanQuery) ||
@@ -3572,12 +3572,12 @@ class IntranetStore {
           isLate = true;
           status = "Tardanza";
           delayMinutes = (hour === 7) ? (min - 45) : (15 + min);
-          observations = `Tardanza en porterÃ­a (+${delayMinutes} min de retraso)`;
+          observations = `Tardanza en portería (+${delayMinutes} min de retraso)`;
         } else if (hour >= 8 && min > 30) {
           isDoorClosed = true;
           status = "Falta";
           delayMinutes = (hour === 8) ? (15 + min) : (75 + min);
-          observations = `Inasistencia (Puerta cerrada 08:30 AM - Ingreso ExtemporÃ¡neo +${delayMinutes} min)`;
+          observations = `Inasistencia (Puerta cerrada 08:30 AM - Ingreso Extemporáneo +${delayMinutes} min)`;
         }
       }
     }
@@ -3590,7 +3590,7 @@ class IntranetStore {
     if (existingRecord) {
       existingRecord.status = status;
       existingRecord.arrivalTime = scanTime;
-      existingRecord.method = "Fotocheck QR (PorterÃ­a Principal)";
+      existingRecord.method = "Fotocheck QR (Portería Principal)";
       existingRecord.observations = observations;
     } else {
       existingRecord = {
@@ -3602,11 +3602,11 @@ class IntranetStore {
         gradeId: matchedEnrollment.gradeId || "4sec",
         grade: matchedEnrollment.grade,
         date: todayDate,
-        day: "MiÃ©rcoles",
+        day: "Miércoles",
         status: status,
         arrivalTime: scanTime,
         exitTime: "03:30 PM",
-        method: "Fotocheck QR (PorterÃ­a Principal)",
+        method: "Fotocheck QR (Portería Principal)",
         observations: observations
       };
       this.state.attendanceRecords.unshift(existingRecord);
@@ -3628,7 +3628,7 @@ class IntranetStore {
     };
   }
 
-  // EscÃ¡ner Inteligente Contextual: Asistencia vs. Informe de Incidencias
+  // Escáner Inteligente Contextual: Asistencia vs. Informe de Incidencias
   handleSmartQRScan(qrCodeOrDni, customTime = null) {
     if (!this.state.attendanceRecords) {
       this.state.attendanceRecords = JSON.parse(JSON.stringify(initialData.attendanceRecords || []));
@@ -3651,7 +3651,7 @@ class IntranetStore {
       (r.status === "Presente" || r.status === "Tardanza")
     );
 
-    // Si el estudiante YA tiene registrado su ingreso el dÃ­a de hoy -> Modo Incidencias / Acciones RÃ¡pidas
+    // Si el estudiante YA tiene registrado su ingreso el día de hoy -> Modo Incidencias / Acciones Rápidas
     if (existingRecord) {
       const studentIncidents = this.getStudentIncidents(matchedEnrollment.studentCode);
       return {
@@ -3664,7 +3664,7 @@ class IntranetStore {
       };
     }
 
-    // Si es el PRIMER escaneo del dÃ­a -> Registrar Asistencia en Puerta
+    // Si es el PRIMER escaneo del día -> Registrar Asistencia en Puerta
     const attendanceResult = this.registerStudentQRDoorScan(qrCodeOrDni, customTime);
     return {
       isAlreadyEntered: false,
@@ -3679,8 +3679,8 @@ class IntranetStore {
     const enrollments = this.getEnrollments();
     const dayRecords = this.state.attendanceRecords.filter(r => r.date === date);
 
-    // Mapear cada estudiante matriculado con su marcaciÃ³n del dÃ­a
-    // Regla: Quien no marcÃ³ hasta las 08:30 AM es Inasistencia / Falta
+    // Mapear cada estudiante matriculado con su marcación del día
+    // Regla: Quien no marcó hasta las 08:30 AM es Inasistencia / Falta
     const fullList = enrollments.map(enr => {
       const rec = dayRecords.find(r => r.studentCode === enr.studentCode || r.studentId === enr.studentCode || r.dni === enr.dni);
       return {
@@ -3694,7 +3694,7 @@ class IntranetStore {
         guardianPhone: enr.guardianPhone,
         status: rec ? rec.status : "Falta",
         arrivalTime: rec ? rec.arrivalTime : "--:--",
-        method: rec ? rec.method : "No Registrado en PorterÃ­a",
+        method: rec ? rec.method : "No Registrado en Portería",
         observations: rec ? rec.observations : "Inasistencia (Puerta cerrada 08:30 AM sin registro)",
         delayMinutes: rec && rec.status === "Tardanza" ? (rec.observations.match(/\d+/) ? rec.observations.match(/\d+/)[0] : "7") : 0
       };
@@ -3718,7 +3718,7 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // GESTIÃ“N DEL LIBRO DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
+  // GESTIÓN DEL LIBRO DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
   // =========================================================================
   createBehaviorIncident(incidentData) {
     if (!this.state.behaviorIncidents) {
@@ -3727,12 +3727,12 @@ class IntranetStore {
     const enrollments = this.getEnrollments();
     const st = enrollments.find(e => e.studentCode === incidentData.studentCode || e.id === incidentData.studentCode || e.dni === incidentData.studentCode) || {
       studentCode: incidentData.studentCode || "EST-2026-055",
-      studentName: incidentData.studentName || "Gael Alessandro CÃ¡ceres Ramos",
+      studentName: incidentData.studentName || "Gael Alessandro Cáceres Ramos",
       dni: incidentData.dni || "76541298",
-      grade: incidentData.grade || "4Â° de Secundaria",
+      grade: incidentData.grade || "4° de Secundaria",
       gradeId: incidentData.gradeId || "4sec",
       level: incidentData.level || "Secundaria",
-      guardian: incidentData.guardian || "Sr. Juan Carlos CÃ¡ceres",
+      guardian: incidentData.guardian || "Sr. Juan Carlos Cáceres",
       guardianPhone: incidentData.guardianPhone || "984-777-888"
     };
 
@@ -3750,8 +3750,8 @@ class IntranetStore {
       severity: incidentData.severity || "Leve",
       category: incidentData.category || "Conducta en Aula",
       location: incidentData.location || "Aula 304",
-      description: incidentData.description || "Sin descripciÃ³n",
-      correctiveMeasure: incidentData.correctiveMeasure || "DiÃ¡logo reflexivo y compromiso formativo.",
+      description: incidentData.description || "Sin descripción",
+      correctiveMeasure: incidentData.correctiveMeasure || "Diálogo reflexivo y compromiso formativo.",
       guardian: st.guardian,
       guardianPhone: st.guardianPhone,
       parentMeetingRequired: !!incidentData.parentMeetingRequired,
@@ -3830,11 +3830,11 @@ class IntranetStore {
     const record = this.state.attendance.find(a => a.date === date);
     if (record) {
       record.status = "Justificada";
-      record.subject += ` (JustificaciÃ³n: ${reason})`;
+      record.subject += ` (Justificación: ${reason})`;
     } else {
       this.state.attendance.unshift({
         date: date,
-        day: "DÃ­a Registrado",
+        day: "Día Registrado",
         status: "Justificada",
         arrival: "--",
         subject: `Justificado: ${reason}`
@@ -3844,10 +3844,10 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // GESTIÃ“N DESCENTRALIZADA DE NOTAS Y BOLETAS OFICIALES
+  // GESTIÓN DESCENTRALIZADA DE NOTAS Y BOLETAS OFICIALES
   // =========================================================================
   
-  // Guardar notas de un curso especÃ­fico para mÃºltiples estudiantes
+  // Guardar notas de un curso específico para múltiples estudiantes
   saveSubjectGrades(subjectKey, studentsGradesMap) {
     if (!this.state.boletaData) {
       this.state.boletaData = JSON.parse(JSON.stringify(initialData.boletaData || {}));
@@ -3873,7 +3873,7 @@ class IntranetStore {
     return true;
   }
 
-  // Guardar evaluaciÃ³n de tutorÃ­a (ApreciaciÃ³n, Asistencia y Criterios Padres)
+  // Guardar evaluación de tutoría (Apreciación, Asistencia y Criterios Padres)
   saveTutorEvaluation(studentKey, tutorData) {
     if (!this.state.boletaData) {
       this.state.boletaData = JSON.parse(JSON.stringify(initialData.boletaData || {}));
@@ -3950,7 +3950,7 @@ class IntranetStore {
   }
 
   // =========================================================================
-  // MÃ“DULO DE AULA VIRTUAL Y EVALUACIONES DINÃMICAS (10 PREGUNTAS)
+  // MÓDULO DE AULA VIRTUAL Y EVALUACIONES DINÁMICAS (10 PREGUNTAS)
   // =========================================================================
   setSelectedVirtualCourse(courseId) {
     this.state.selectedVirtualCourseId = courseId;
@@ -3976,20 +3976,20 @@ class IntranetStore {
     const newMaterial = {
       id: newId,
       courseId: materialData.courseId || "MAT-401",
-      courseName: materialData.courseName || "MatemÃ¡tica Avanzada",
+      courseName: materialData.courseName || "Matemática Avanzada",
       gradeId: materialData.gradeId || "4sec",
       gradeName: materialData.gradeName || "4to de Secundaria",
       teacherId: materialData.teacherId || "DOC-2026-015",
       teacherName: materialData.teacherName || "Prof. Roberto Silva",
       weekNumber: parseInt(materialData.weekNumber) || (this.state.weeklyMaterials.length + 1),
       bimester: materialData.bimester || "III Bimestre",
-      title: materialData.title || "Nueva SesiÃ³n Semanal",
+      title: materialData.title || "Nueva Sesión Semanal",
       sessionDate: materialData.sessionDate || new Date().toLocaleDateString("es-PE"),
       summary: materialData.summary || "",
       keyConcepts: materialData.keyConcepts || [],
       attachments: materialData.attachments || [
-        { type: "pdf", name: "GuÃ­a_SesiÃ³n_Semanal.pdf", size: "2.1 MB", icon: "ðŸ“•" },
-        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "ðŸ“Š" }
+        { type: "pdf", name: "Guía_Sesión_Semanal.pdf", size: "2.1 MB", icon: "📕" },
+        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "📊" }
       ],
       evaluation: materialData.evaluation || null,
       studentAttempts: []
@@ -4003,13 +4003,13 @@ class IntranetStore {
     return newMaterial;
   }
 
-  // Motor Inteligente de AnÃ¡lisis y ExtracciÃ³n de Documentos (PDF, DOCX, PPTX, TXT, PNG, etc.)
+  // Motor Inteligente de Análisis y Extracción de Documentos (PDF, DOCX, PPTX, TXT, PNG, etc.)
   analyzeAndExtractMaterialFromDocument(fileInfo, courseId, manualNotes = "") {
     const availableCourses = [
-      { id: "MAT-401", name: "MatemÃ¡tica Avanzada", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria" },
-      { id: "EPT-402", name: "ComputaciÃ³n e InformÃ¡tica / RobÃ³tica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria" },
-      { id: "CTA-403", name: "Ciencia y TecnologÃ­a (FÃ­sica & QuÃ­mica)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria" },
-      { id: "COM-404", name: "ComunicaciÃ³n & Literatura", teacher: "Miss MarÃ­a Daysi Reyes", grade: "4to de Secundaria" }
+      { id: "MAT-401", name: "Matemática Avanzada", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria" },
+      { id: "EPT-402", name: "Computación e Informática / Robótica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria" },
+      { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria" },
+      { id: "COM-404", name: "Comunicación & Literatura", teacher: "Miss María Daysi Reyes", grade: "4to de Secundaria" }
     ];
     const course = availableCourses.find(c => c.id === courseId) || availableCourses[0];
     
@@ -4017,13 +4017,13 @@ class IntranetStore {
     const fileSize = (fileInfo && fileInfo.size) ? fileInfo.size : "2.8 MB";
     const fileExt = fileName.split('.').pop().toLowerCase();
     
-    let icon = "ðŸ“„";
-    if (fileExt === "pdf") icon = "ðŸ“•";
-    else if (fileExt === "doc" || fileExt === "docx") icon = "ðŸ“˜";
-    else if (fileExt === "ppt" || fileExt === "pptx") icon = "ðŸ“Š";
-    else if (fileExt === "txt" || fileExt === "md") icon = "ðŸ“";
-    else if (fileExt === "png" || fileExt === "jpg" || fileExt === "jpeg") icon = "ðŸ–¼ï¸";
-    else if (fileExt === "xls" || fileExt === "xlsx") icon = "ðŸ“—";
+    let icon = "📄";
+    if (fileExt === "pdf") icon = "📕";
+    else if (fileExt === "doc" || fileExt === "docx") icon = "📘";
+    else if (fileExt === "ppt" || fileExt === "pptx") icon = "📊";
+    else if (fileExt === "txt" || fileExt === "md") icon = "📝";
+    else if (fileExt === "png" || fileExt === "jpg" || fileExt === "jpeg") icon = "🖼️";
+    else if (fileExt === "xls" || fileExt === "xlsx") icon = "📗";
 
     const cleanFileName = fileName.replace(/\.[^/.]+$/, "").replace(/[-_]+/g, " ");
     const existingForCourse = (this.state.weeklyMaterials || []).filter(m => m.courseId === course.id);
@@ -4037,42 +4037,42 @@ class IntranetStore {
 
     if (course.id === "MAT-401") {
       if (lowerContent.includes("trigonometria") || lowerContent.includes("angul") || lowerContent.includes("seno") || lowerContent.includes("coseno")) {
-        detectedTitle = "Razones TrigonomÃ©tricas de Ãngulos Compuestos y Dobles";
-        detectedSummary = "Durante la sesiÃ³n presencial se desarrollaron las identidades trigonomÃ©tricas fundamentales para la suma y diferencia de arcos, deduciendo algebraicamente las fÃ³rmulas de Ã¡ngulo doble y mitad. Los alumnos resolvieron ejercicios de simplificaciÃ³n y cÃ¡lculo de alturas inaccesibles aplicando razones en el plano.";
-        detectedConcepts = ["Identidades de suma y diferencia de arcos", "FÃ³rmulas de Ã¡ngulo doble (sen 2x, cos 2x)", "Transformaciones a producto", "ResoluciÃ³n de triÃ¡ngulos y cÃ¡lculo de distancias"];
+        detectedTitle = "Razones Trigonométricas de Ángulos Compuestos y Dobles";
+        detectedSummary = "Durante la sesión presencial se desarrollaron las identidades trigonométricas fundamentales para la suma y diferencia de arcos, deduciendo algebraicamente las fórmulas de ángulo doble y mitad. Los alumnos resolvieron ejercicios de simplificación y cálculo de alturas inaccesibles aplicando razones en el plano.";
+        detectedConcepts = ["Identidades de suma y diferencia de arcos", "Fórmulas de ángulo doble (sen 2x, cos 2x)", "Transformaciones a producto", "Resolución de triángulos y cálculo de distancias"];
       } else if (lowerContent.includes("cardano") || lowerContent.includes("polinom") || lowerContent.includes("raiz") || lowerContent.includes("grado")) {
-        detectedTitle = "Ecuaciones PolinÃ³micas de Grado Superior y Teorema de Cardano-Vieta";
-        detectedSummary = "En la clase se profundizÃ³ en la relaciÃ³n entre los coeficientes y las raÃ­ces de un polinomio de tercer y cuarto grado mediante el Teorema de Cardano-Vieta. Se aplicÃ³ el mÃ©todo de Ruffini y la regla de los signos de Descartes para hallar soluciones complejas y reales.";
-        detectedConcepts = ["Teorema de Cardano-Vieta para grado 3 y 4", "RelaciÃ³n suma y producto de raÃ­ces", "FactorizaciÃ³n polinÃ³mica por Ruffini", "DeterminaciÃ³n de raÃ­ces complejas conjugadas"];
+        detectedTitle = "Ecuaciones Polinómicas de Grado Superior y Teorema de Cardano-Vieta";
+        detectedSummary = "En la clase se profundizó en la relación entre los coeficientes y las raíces de un polinomio de tercer y cuarto grado mediante el Teorema de Cardano-Vieta. Se aplicó el método de Ruffini y la regla de los signos de Descartes para hallar soluciones complejas y reales.";
+        detectedConcepts = ["Teorema de Cardano-Vieta para grado 3 y 4", "Relación suma y producto de raíces", "Factorización polinómica por Ruffini", "Determinación de raíces complejas conjugadas"];
       } else {
-        detectedTitle = `MatemÃ¡tica Avanzada: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
-        detectedSummary = `Se analizÃ³ el contenido del archivo ${fileName}, trabajando los fundamentos teÃ³ricos, mÃ©todos de resoluciÃ³n analÃ­tica y modelado algebraico con aplicaciones a situaciones reales del grado.`;
-        detectedConcepts = ["Fundamentos analÃ­ticos y teoremas del tema", "MÃ©todos de resoluciÃ³n paso a paso", "Modelado de problemas cuantitativos", "VerificaciÃ³n y anÃ¡lisis de consistencia de resultados"];
+        detectedTitle = `Matemática Avanzada: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
+        detectedSummary = `Se analizó el contenido del archivo ${fileName}, trabajando los fundamentos teóricos, métodos de resolución analítica y modelado algebraico con aplicaciones a situaciones reales del grado.`;
+        detectedConcepts = ["Fundamentos analíticos y teoremas del tema", "Métodos de resolución paso a paso", "Modelado de problemas cuantitativos", "Verificación y análisis de consistencia de resultados"];
       }
     } else if (course.id === "EPT-402") {
       if (lowerContent.includes("arduino") || lowerContent.includes("sensor") || lowerContent.includes("motor") || lowerContent.includes("robotica")) {
-        detectedTitle = "ProgramaciÃ³n de Servomotores y Sensores UltrasÃ³nicos con Arduino";
-        detectedSummary = "En el laboratorio de robÃ³tica los estudiantes conectaron sensores HC-SR04 y servomotores a microcontroladores Arduino UNO. Se programÃ³ el algoritmo en C++ para evitar obstÃ¡culos en tiempo real y regular la velocidad segÃºn la distancia medida.";
-        detectedConcepts = ["LibrerÃ­a Servo.h y control por pulsos PWM", "CÃ¡lculo de distancia con sensor HC-SR04 por ultrasonido", "Estructuras condicionales de control en bucle loop()", "CalibraciÃ³n y alimentaciÃ³n segura de circuitos mecatrÃ³nicos"];
+        detectedTitle = "Programación de Servomotores y Sensores Ultrasónicos con Arduino";
+        detectedSummary = "En el laboratorio de robótica los estudiantes conectaron sensores HC-SR04 y servomotores a microcontroladores Arduino UNO. Se programó el algoritmo en C++ para evitar obstáculos en tiempo real y regular la velocidad según la distancia medida.";
+        detectedConcepts = ["Librería Servo.h y control por pulsos PWM", "Cálculo de distancia con sensor HC-SR04 por ultrasonido", "Estructuras condicionales de control en bucle loop()", "Calibración y alimentación segura de circuitos mecatrónicos"];
       } else {
-        detectedTitle = `TecnologÃ­a & RobÃ³tica: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
-        detectedSummary = `AnÃ¡lisis pedagÃ³gico del archivo ${fileName} enfocado en arquitectura computacional, algoritmos de automatizaciÃ³n y desarrollo de proyectos tecnolÃ³gicos guiados.`;
-        detectedConcepts = ["LÃ³gica algorÃ­tmica y control de flujo", "IntegraciÃ³n hardware y software", "OptimizaciÃ³n de cÃ³digo fuente", "Pruebas de depuraciÃ³n y rendimiento"];
+        detectedTitle = `Tecnología & Robótica: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
+        detectedSummary = `Análisis pedagógico del archivo ${fileName} enfocado en arquitectura computacional, algoritmos de automatización y desarrollo de proyectos tecnológicos guiados.`;
+        detectedConcepts = ["Lógica algorítmica y control de flujo", "Integración hardware y software", "Optimización de código fuente", "Pruebas de depuración y rendimiento"];
       }
     } else if (course.id === "CTA-403") {
       if (lowerContent.includes("termo") || lowerContent.includes("calor") || lowerContent.includes("carnot") || lowerContent.includes("gas")) {
-        detectedTitle = "Primera y Segunda Ley de la TermodinÃ¡mica: Ciclo de Carnot";
-        detectedSummary = "En la sesiÃ³n de fÃ­sica se explicÃ³ la conservaciÃ³n de la energÃ­a en sistemas cerrados (Q = Î”U + W) y la irreversibilidad de los procesos tÃ©rmicos. Se analizÃ³ el rendimiento mÃ¡ximo teÃ³rico de una mÃ¡quina tÃ©rmica segÃºn el ciclo de Carnot.";
-        detectedConcepts = ["Primera Ley de la TermodinÃ¡mica (Q = Î”U + W)", "Procesos isotÃ©rmicos, isobÃ¡ricos y adiabÃ¡ticos", "Eficiencia tÃ©rmica y Ciclo de Carnot", "EntropÃ­a y degradaciÃ³n de la energÃ­a"];
+        detectedTitle = "Primera y Segunda Ley de la Termodinámica: Ciclo de Carnot";
+        detectedSummary = "En la sesión de física se explicó la conservación de la energía en sistemas cerrados (Q = ΔU + W) y la irreversibilidad de los procesos térmicos. Se analizó el rendimiento máximo teórico de una máquina térmica según el ciclo de Carnot.";
+        detectedConcepts = ["Primera Ley de la Termodinámica (Q = ΔU + W)", "Procesos isotérmicos, isobáricos y adiabáticos", "Eficiencia térmica y Ciclo de Carnot", "Entropía y degradación de la energía"];
       } else {
-        detectedTitle = `Ciencia & TecnologÃ­a: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
-        detectedSummary = `Estudio cientÃ­fico extraÃ­do del archivo ${fileName}, fundamentando las leyes fÃ­sicas/quÃ­micas observadas, el mÃ©todo experimental y el anÃ¡lisis riguroso de variables.`;
-        detectedConcepts = ["Leyes y principios fundamentales del tema", "Variables dependientes e independientes", "AnÃ¡lisis de datos experimentales", "Conclusiones cientÃ­ficas y aplicaciones tecnolÃ³gicas"];
+        detectedTitle = `Ciencia & Tecnología: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
+        detectedSummary = `Estudio científico extraído del archivo ${fileName}, fundamentando las leyes físicas/químicas observadas, el método experimental y el análisis riguroso de variables.`;
+        detectedConcepts = ["Leyes y principios fundamentales del tema", "Variables dependientes e independientes", "Análisis de datos experimentales", "Conclusiones científicas y aplicaciones tecnológicas"];
       }
     } else {
-      detectedTitle = `SesiÃ³n AcadÃ©mica: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
-      detectedSummary = `AnÃ¡lisis del documento ${fileName} orientado al fortalecimiento de competencias del Ã¡rea curricular, sÃ­ntesis crÃ­tica y resoluciÃ³n de casos prÃ¡cticos.`;
-      detectedConcepts = ["Marco conceptual rector", "MetodologÃ­a de anÃ¡lisis", "AplicaciÃ³n prÃ¡ctica guiada", "EvaluaciÃ³n de resultados"];
+      detectedTitle = `Sesión Académica: ${cleanFileName.charAt(0).toUpperCase() + cleanFileName.slice(1)}`;
+      detectedSummary = `Análisis del documento ${fileName} orientado al fortalecimiento de competencias del área curricular, síntesis crítica y resolución de casos prácticos.`;
+      detectedConcepts = ["Marco conceptual rector", "Metodología de análisis", "Aplicación práctica guiada", "Evaluación de resultados"];
     }
 
     if (manualNotes && manualNotes.length > 25) {
@@ -4094,8 +4094,8 @@ class IntranetStore {
       keyConcepts: detectedConcepts,
       attachments: [
         { type: fileExt, name: fileName, size: fileSize, icon: icon },
-        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "ðŸ“Š" },
-        { type: "pdf", name: `GuÃ­a_Evaluativa_Semana_${nextWeek}.pdf`, size: "1.8 MB", icon: "ðŸ“" }
+        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "📊" },
+        { type: "pdf", name: `Guía_Evaluativa_Semana_${nextWeek}.pdf`, size: "1.8 MB", icon: "📝" }
       ]
     };
   }
@@ -4125,60 +4125,60 @@ class IntranetStore {
     return true;
   }
 
-  // Generador Inteligente de 10 Preguntas DinÃ¡micas con IA basado en el Material Subido
+  // Generador Inteligente de 10 Preguntas Dinámicas con IA basado en el Material Subido
   generateDynamicEvaluation(materialId, customPrompt = "") {
     const material = (this.state.weeklyMaterials || []).find(m => m.id === materialId);
     if (!material) return null;
 
-    const topic = material.title || "Tema AcadÃ©mico";
+    const topic = material.title || "Tema Académico";
     const summary = material.summary || "";
-    const concepts = (material.keyConcepts && material.keyConcepts.length > 0) ? material.keyConcepts : ["Concepto Clave 1", "Concepto Clave 2", "AplicaciÃ³n PrÃ¡ctica", "ResoluciÃ³n de Problemas"];
+    const concepts = (material.keyConcepts && material.keyConcepts.length > 0) ? material.keyConcepts : ["Concepto Clave 1", "Concepto Clave 2", "Aplicación Práctica", "Resolución de Problemas"];
 
-    // GeneraciÃ³n dinÃ¡mica de 10 preguntas pedagÃ³gicas contextualizadas
+    // Generación dinámica de 10 preguntas pedagógicas contextualizadas
     const generatedQuestions = [
       {
         id: 1,
-        question: `Â¿CuÃ¡l es el objetivo principal del tema '${topic}' abordado en la sesiÃ³n de clase?`,
+        question: `¿Cuál es el objetivo principal del tema '${topic}' abordado en la sesión de clase?`,
         options: [
           `Comprender los fundamentos y aplicaciones de: ${concepts[0] || 'la materia estudiada'}`,
           `Memorizar definiciones sin aplicarlas a situaciones de la vida real`,
-          `Describir un fenÃ³meno no relacionado con el curso`,
-          `Omitir el anÃ¡lisis formal de los conceptos trabajados`
+          `Describir un fenómeno no relacionado con el curso`,
+          `Omitir el análisis formal de los conceptos trabajados`
         ],
         correctIndex: 0,
-        explanation: `La sesiÃ³n enfatiza el entendimiento conceptual y aplicativo de ${concepts[0] || topic} desarrollado por el docente.`
+        explanation: `La sesión enfatiza el entendimiento conceptual y aplicativo de ${concepts[0] || topic} desarrollado por el docente.`
       },
       {
         id: 2,
-        question: `En relaciÃ³n al concepto '${concepts[0] || 'propiedades fundamentales'}', Â¿cuÃ¡l es la proposiciÃ³n correcta?`,
+        question: `En relación al concepto '${concepts[0] || 'propiedades fundamentales'}', ¿cuál es la proposición correcta?`,
         options: [
-          `Es la base para modelar y resolver problemas analÃ­ticos y cuantitativos del tema`,
-          `Solo tiene validez teÃ³rica y no se utiliza en ejercicios prÃ¡cticos`,
+          `Es la base para modelar y resolver problemas analíticos y cuantitativos del tema`,
+          `Solo tiene validez teórica y no se utiliza en ejercicios prácticos`,
           `Contradice las leyes y principios demostrados en el aula`,
           `Es un elemento optativo que no incide en el resultado final`
         ],
         correctIndex: 0,
-        explanation: `El concepto '${concepts[0] || topic}' constituye el pilar para el anÃ¡lisis deductivo y resoluciÃ³n de situaciones problemÃ¡ticas.`
+        explanation: `El concepto '${concepts[0] || topic}' constituye el pilar para el análisis deductivo y resolución de situaciones problemáticas.`
       },
       {
         id: 3,
-        question: `Respecto a '${concepts[1] || 'anÃ¡lisis metodolÃ³gico'}', Â¿quÃ© procedimiento se debe seguir para su correcta aplicaciÃ³n?`,
+        question: `Respecto a '${concepts[1] || 'análisis metodológico'}', ¿qué procedimiento se debe seguir para su correcta aplicación?`,
         options: [
           `Identificar variables iniciales, plantear las relaciones y operar paso a paso con rigor`,
           `Asumir valores arbitrarios sin verificar condiciones de contorno`,
-          `Saltar la verificaciÃ³n de hipÃ³tesis pedagÃ³gicas`,
-          `Descartar el procedimiento sistemÃ¡tico propuesto en la guÃ­a`
+          `Saltar la verificación de hipótesis pedagógicas`,
+          `Descartar el procedimiento sistemático propuesto en la guía`
         ],
         correctIndex: 0,
-        explanation: `El procedimiento correcto requiere identificar datos, estructurar el planteamiento y ejecutar operaciones con verificaciÃ³n.`
+        explanation: `El procedimiento correcto requiere identificar datos, estructurar el planteamiento y ejecutar operaciones con verificación.`
       },
       {
         id: 4,
-        question: `SegÃºn el resumen de clase: "${summary.slice(0, 80)}...", Â¿quÃ© conclusiÃ³n pedagÃ³gica se deriva?`,
+        question: `Según el resumen de clase: "${summary.slice(0, 80)}...", ¿qué conclusión pedagógica se deriva?`,
         options: [
-          `El conocimiento adquirido permite interpretar y optimizar situaciones prÃ¡cticas con precisiÃ³n`,
-          `Los resultados obtenidos son aleatorios y no siguen ningÃºn patrÃ³n cientÃ­fico`,
-          `La teorÃ­a carece de sustento en la prÃ¡ctica presencial`,
+          `El conocimiento adquirido permite interpretar y optimizar situaciones prácticas con precisión`,
+          `Los resultados obtenidos son aleatorios y no siguen ningún patrón científico`,
+          `La teoría carece de sustento en la práctica presencial`,
           `No es posible predecir el comportamiento del sistema estudiado`
         ],
         correctIndex: 0,
@@ -4186,81 +4186,81 @@ class IntranetStore {
       },
       {
         id: 5,
-        question: `Â¿CuÃ¡l de las siguientes alternativas ejemplifica adecuadamente el principio de '${concepts[2] || 'transferencia y aplicaciÃ³n'}'?`,
+        question: `¿Cuál de las siguientes alternativas ejemplifica adecuadamente el principio de '${concepts[2] || 'transferencia y aplicación'}'?`,
         options: [
-          `La resoluciÃ³n de un caso prÃ¡ctico de la vida cotidiana empleando las herramientas del tema`,
-          `Copiar mecÃ¡nicamente el resultado sin justificar el proceso`,
-          `Desestimar el anÃ¡lisis crÃ­tico en las conclusiones`,
-          `Evitar el uso de fÃ³rmulas o esquemas de representaciÃ³n`
+          `La resolución de un caso práctico de la vida cotidiana empleando las herramientas del tema`,
+          `Copiar mecánicamente el resultado sin justificar el proceso`,
+          `Desestimar el análisis crítico en las conclusiones`,
+          `Evitar el uso de fórmulas o esquemas de representación`
         ],
         correctIndex: 0,
-        explanation: `La aplicaciÃ³n prÃ¡ctica consiste en transferir los conceptos a situaciones concretas del entorno demostrando dominio integral.`
+        explanation: `La aplicación práctica consiste en transferir los conceptos a situaciones concretas del entorno demostrando dominio integral.`
       },
       {
         id: 6,
-        question: `Si se modifican las condiciones iniciales del sistema estudiado en '${topic}', Â¿cÃ³mo responderÃ¡ el modelo?`,
+        question: `Si se modifican las condiciones iniciales del sistema estudiado en '${topic}', ¿cómo responderá el modelo?`,
         options: [
-          `Las variables dependientes se ajustarÃ¡n proporcionalmente segÃºn las leyes explicadas en clase`,
-          `El modelo dejarÃ¡ de tener sentido algebraico o fÃ­sico inmediatamente`,
-          `No existirÃ¡ ninguna variaciÃ³n en los resultados esperados`,
-          `Los coeficientes se anularÃ¡n sin justificaciÃ³n teÃ³rica`
+          `Las variables dependientes se ajustarán proporcionalmente según las leyes explicadas en clase`,
+          `El modelo dejará de tener sentido algebraico o físico inmediatamente`,
+          `No existirá ninguna variación en los resultados esperados`,
+          `Los coeficientes se anularán sin justificación teórica`
         ],
         correctIndex: 0,
-        explanation: `Los modelos matemÃ¡ticos y cientÃ­ficos responden de forma proporcional y predecible a las variaciones en las variables de entrada.`
+        explanation: `Los modelos matemáticos y científicos responden de forma proporcional y predecible a las variaciones en las variables de entrada.`
       },
       {
         id: 7,
-        question: `En la verificaciÃ³n de resultados para '${concepts[3] || 'anÃ¡lisis de resultados y conclusiones'}', Â¿quÃ© criterio garantiza la validez de la respuesta?`,
+        question: `En la verificación de resultados para '${concepts[3] || 'análisis de resultados y conclusiones'}', ¿qué criterio garantiza la validez de la respuesta?`,
         options: [
           `Comprobar que las unidades y el orden de magnitud concuerdan con el problema planteado`,
-          `Elegir la respuesta mÃ¡s larga sin calcular`,
-          `Asumir que cualquier nÃºmero positivo es correcto`,
+          `Elegir la respuesta más larga sin calcular`,
+          `Asumir que cualquier número positivo es correcto`,
           `Ignorar el contexto y las restricciones del enunciado`
         ],
         correctIndex: 0,
-        explanation: `La consistencia dimensional y el anÃ¡lisis de magnitud son indispensables para validar soluciones rigurosas.`
+        explanation: `La consistencia dimensional y el análisis de magnitud son indispensables para validar soluciones rigurosas.`
       },
       {
         id: 8,
-        question: `Â¿QuÃ© importancia tiene el material complementario (diapositivas y guÃ­as en PDF) subido por el profesor?`,
+        question: `¿Qué importancia tiene el material complementario (diapositivas y guías en PDF) subido por el profesor?`,
         options: [
-          `Reforzar los contenidos presenciales, profundizar ejercicios y guiar el estudio autÃ³nomo`,
+          `Reforzar los contenidos presenciales, profundizar ejercicios y guiar el estudio autónomo`,
           `Reemplazar la asistencia a las clases presenciales`,
-          `Contener Ãºnicamente datos decorativos sin relevancia evaluativa`,
-          `Servir solo como lectura opcional sin relaciÃ³n con las tareas`
+          `Contener únicamente datos decorativos sin relevancia evaluativa`,
+          `Servir solo como lectura opcional sin relación con las tareas`
         ],
         correctIndex: 0,
-        explanation: `El material semanal subido por el docente sintetiza la clase y proporciona herramientas de profundizaciÃ³n para el estudiante.`
+        explanation: `El material semanal subido por el docente sintetiza la clase y proporciona herramientas de profundización para el estudiante.`
       },
       {
         id: 9,
-        question: `Al contrastar '${concepts[0] || 'concepto principal'}' con '${concepts[1] || 'concepto secundario'}', Â¿cuÃ¡l es su relaciÃ³n pedagÃ³gica?`,
+        question: `Al contrastar '${concepts[0] || 'concepto principal'}' con '${concepts[1] || 'concepto secundario'}', ¿cuál es su relación pedagógica?`,
         options: [
           `Son complementarios: uno establece el principio rector y el otro define las condiciones operativas`,
           `Son conceptos mutuamente excluyentes que nunca coexisten`,
-          `Poseen significados idÃ©nticos y redundantes`,
-          `No tienen ninguna correlaciÃ³n curricular en el nivel secundario`
+          `Poseen significados idénticos y redundantes`,
+          `No tienen ninguna correlación curricular en el nivel secundario`
         ],
         correctIndex: 0,
-        explanation: `Ambos conceptos se complementan para conformar la competencia del Ã¡rea curricular.`
+        explanation: `Ambos conceptos se complementan para conformar la competencia del área curricular.`
       },
       {
         id: 10,
-        question: `Para consolidar un Logro Destacado (AD) en la evaluaciÃ³n de '${topic}', el estudiante debe:`,
+        question: `Para consolidar un Logro Destacado (AD) en la evaluación de '${topic}', el estudiante debe:`,
         options: [
-          `Demostrar solvencia conceptual, argumentaciÃ³n sÃ³lida y precisiÃ³n en la resoluciÃ³n de los 10 Ã­tems`,
-          `Responder Ãºnicamente las preguntas teÃ³ricas evitando los ejercicios`,
+          `Demostrar solvencia conceptual, argumentación sólida y precisión en la resolución de los 10 ítems`,
+          `Responder únicamente las preguntas teóricas evitando los ejercicios`,
           `Adivinar las alternativas sin leer las explicaciones formativas`,
           `Entregar la prueba sin revisar las operaciones realizadas`
         ],
         correctIndex: 0,
-        explanation: `El nivel de logro destacado (AD / 18-20) requiere dominio pleno de la teorÃ­a, rigor procedimental y argumentaciÃ³n lÃ³gica.`
+        explanation: `El nivel de logro destacado (AD / 18-20) requiere dominio pleno de la teoría, rigor procedimental y argumentación lógica.`
       }
     ];
 
     const newEvaluation = {
       id: `EVAL-${materialId}`,
-      title: `EvaluaciÃ³n DinÃ¡mica Semanal: ${material.title}`,
+      title: `Evaluación Dinámica Semanal: ${material.title}`,
       timeLimitMinutes: 20,
       totalQuestions: 10,
       passingScore: 14,
@@ -4275,7 +4275,7 @@ class IntranetStore {
     return newEvaluation;
   }
 
-  // Registrar intento de evaluaciÃ³n por parte de un estudiante
+  // Registrar intento de evaluación por parte de un estudiante
   recordQuizAttempt(materialId, attemptData) {
     const material = (this.state.weeklyMaterials || []).find(m => m.id === materialId);
     if (!material) return false;
@@ -4301,7 +4301,7 @@ class IntranetStore {
 
     const attempt = {
       studentId: attemptData.studentId || "EST-2026-042",
-      studentName: attemptData.studentName || "SofÃ­a MÃ©ndez Flores",
+      studentName: attemptData.studentName || "Sofía Méndez Flores",
       score: score,
       total: 20,
       date: new Date().toLocaleDateString("es-PE") + " " + new Date().toLocaleTimeString("es-PE", { hour: '2-digit', minute: '2-digit' }),
@@ -4310,9 +4310,9 @@ class IntranetStore {
       timeSpent: attemptData.timeSpent || "12 min",
       userAnswers: userAnswers,
       feedback: score >= 18 
-        ? "Â¡Excelente desempeÃ±o! Demuestras dominio integral de los conceptos trabajados en el aula." 
+        ? "¡Excelente desempeño! Demuestras dominio integral de los conceptos trabajados en el aula." 
         : (score >= 14 
-          ? "Â¡Buen trabajo! Has alcanzado los aprendizajes esperados de la sesiÃ³n semanal." 
+          ? "¡Buen trabajo! Has alcanzado los aprendizajes esperados de la sesión semanal." 
           : "Se recomienda revisar el material adjunto y las explicaciones de cada pregunta para reforzar el tema.")
     };
 
@@ -4349,10 +4349,10 @@ window.appStore = new IntranetStore();
 
 /* === components.js === */
 /**
- * Renderizador de Vistas y Componentes DinÃ¡micos (v5.4 - Con Lector de CÃ¡mara QR Real para Celulares)
+ * Renderizador de Vistas y Componentes Dinámicos (v5.4 - Con Lector de Cámara QR Real para Celulares)
  */
 const Components = {
-  // Helper para generar SVG de CÃ³digo QR estilizado
+  // Helper para generar SVG de Código QR estilizado
   generateQRSVG(code) {
     return `
       <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4385,7 +4385,7 @@ const Components = {
   },
 
   // =========================================================================
-  // NAVEGACIÃ“N DINÃMICA CON ESPACIOS SELECTOS POR PERFIL DE USUARIO
+  // NAVEGACIÓN DINÁMICA CON ESPACIOS SELECTOS POR PERFIL DE USUARIO
   // =========================================================================
   renderSidebarNav(role, currentView, state) {
     const iconMap = {
@@ -4412,7 +4412,7 @@ const Components = {
       boleta: `<svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>`
     };
 
-    // Si existe configuraciÃ³n de pestaÃ±as personalizada para este rol, renderizarla dinÃ¡micamente
+    // Si existe configuración de pestañas personalizada para este rol, renderizarla dinámicamente
     const roleTabsConfig = (state.navigationTabsConfig && state.navigationTabsConfig[role]) || null;
 
     if (roleTabsConfig && role !== "admin") {
@@ -4423,8 +4423,8 @@ const Components = {
           : role === "docente" 
             ? "Panel Docente" 
             : role === "auxiliar" 
-              ? "Turno de Auxiliar & PorterÃ­a" 
-              : "DirecciÃ³n General";
+              ? "Turno de Auxiliar & Portería" 
+              : "Dirección General";
       
       return `
         <div class="nav-section-title">${sectionTitle}</div>
@@ -4446,9 +4446,9 @@ const Components = {
       `;
     }
 
-    // Default: CoordinaciÃ³n General & DocumentaciÃ³n (Prof. Alex Lino / Admin)
+    // Default: Coordinación General & Documentación (Prof. Alex Lino / Admin)
     return `
-      <div class="nav-section-title">CoordinaciÃ³n & DirecciÃ³n</div>
+      <div class="nav-section-title">Coordinación & Dirección</div>
       
       <a class="nav-item ${currentView === 'dashboard' ? 'active' : ''}" data-view="dashboard" id="nav-dashboard">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
@@ -4463,16 +4463,16 @@ const Components = {
 
       <a class="nav-item ${currentView === 'usuarios-matriculas' ? 'active' : ''}" data-view="usuarios-matriculas" id="nav-usuarios-matriculas" style="background: rgba(220,38,38,0.12); border: 1px dashed rgba(220,38,38,0.3); color: #fca5a5;">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-        <span>Cuentas, Perfiles & PestaÃ±as</span>
+        <span>Cuentas, Perfiles & Pestañas</span>
         <span class="nav-badge badge-red">ADMIN</span>
       </a>
 
-      <div class="nav-section-title">GestiÃ³n AcadÃ©mica</div>
+      <div class="nav-section-title">Gestión Académica</div>
 
       <a class="nav-item ${currentView === 'cuadernos-qr' ? 'active' : ''}" data-view="cuadernos-qr" id="nav-cuadernos-qr" style="background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.4); color: #fde047; font-weight: bold;">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
         <span>Lector de Cuadernos QR</span>
-        <span class="nav-badge badge-yellow" style="background:#f59e0b; color:#0b132b;">CÃMARA VIVA</span>
+        <span class="nav-badge badge-yellow" style="background:#f59e0b; color:#0b132b;">CÁMARA VIVA</span>
       </a>
 
       <a class="nav-item ${currentView === 'calificaciones' ? 'active' : ''}" data-view="calificaciones" id="nav-calificaciones">
@@ -4488,7 +4488,7 @@ const Components = {
 
       <a class="nav-item ${currentView === 'silabus' ? 'active' : ''}" data-view="silabus" id="nav-silabus">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-        <span>SÃ­labus Curriculares</span>
+        <span>Sílabus Curriculares</span>
       </a>
 
       <a class="nav-item ${currentView === 'tareas' ? 'active' : ''}" data-view="tareas" id="nav-tareas">
@@ -4499,21 +4499,21 @@ const Components = {
 
       <a class="nav-item ${currentView === 'asistencia' ? 'active' : ''}" data-view="asistencia" id="nav-asistencia" onclick="window.app.navigate('asistencia')" style="background: rgba(34,197,94,0.12); border: 1px dashed rgba(34,197,94,0.4); color: #86efac; font-weight: bold; cursor: pointer;">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-        <span>ðŸšª Registro de Ingreso & QR</span>
+        <span>🚪 Registro de Ingreso & QR</span>
         <span class="nav-badge badge-yellow" style="background: #22c55e; color: #0b132b; font-weight: 800;">QR Puerta</span>
       </a>
 
-      <div class="nav-section-title">Institucional & EconomÃ­a</div>
+      <div class="nav-section-title">Institucional & Economía</div>
 
       <a class="nav-item ${currentView === 'comunicados' ? 'active' : ''}" data-view="comunicados" id="nav-comunicados">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         <span>Informes & Circulares</span>
-        <span class="nav-badge badge-yellow">NÂ°003</span>
+        <span class="nav-badge badge-yellow">N°003</span>
       </a>
 
       <a class="nav-item ${currentView === 'pagos' ? 'active' : ''}" data-view="pagos" id="nav-pagos">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-        <span>Pensiones & RecaudaciÃ³n</span>
+        <span>Pensiones & Recaudación</span>
       </a>
 
       <a class="nav-item ${currentView === 'boleta' ? 'active' : ''}" data-view="boleta" id="nav-boleta">
@@ -4524,20 +4524,20 @@ const Components = {
   },
 
   // Encabezado Oficial Institucional con Membrete y Cinta Dorada
-  renderOfficialInstitutionalHeader(docTitle = "INFORME OFICIAL DE PROGRESO", docSubtitle = "AÃ‘O LECTIVO 2026") {
+  renderOfficialInstitutionalHeader(docTitle = "INFORME OFICIAL DE PROGRESO", docSubtitle = "AÑO LECTIVO 2026") {
     return `
       <div class="official-letterhead-banner">
         <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #0b132b; padding-bottom: 8px;">
           <div style="display: flex; align-items: center; gap: 16px;">
             <img src="assets/logo.png" alt="Escudo I.E.P. El Educador S.J.L." style="width: 75px; height: 75px; object-fit: contain;" />
             <div>
-              <div style="font-size: 11px; font-weight: 800; color: #0b132b; letter-spacing: 0.1em; text-transform: uppercase;">INSTITUCIÃ“N EDUCATIVA PRIVADA</div>
-              <div style="font-size: 26px; font-weight: 900; color: #0b132b; font-family: 'Plus Jakarta Sans', serif; line-height: 1.1;">â€œEL EDUCADORâ€</div>
-              <div style="font-size: 12px; font-weight: 700; color: #dc2626; letter-spacing: 0.15em;">INICIAL â€“ PRIMARIA â€“ SECUNDARIA â€¢ UGEL 05</div>
+              <div style="font-size: 11px; font-weight: 800; color: #0b132b; letter-spacing: 0.1em; text-transform: uppercase;">INSTITUCIÓN EDUCATIVA PRIVADA</div>
+              <div style="font-size: 26px; font-weight: 900; color: #0b132b; font-family: 'Plus Jakarta Sans', serif; line-height: 1.1;">“EL EDUCADOR”</div>
+              <div style="font-size: 12px; font-weight: 700; color: #dc2626; letter-spacing: 0.15em;">INICIAL – PRIMARIA – SECUNDARIA • UGEL 05</div>
             </div>
           </div>
           <div class="official-gold-slogan-ribbon">
-            21 aÃ±os dejando huellas
+            21 años dejando huellas
           </div>
         </div>
         <div style="text-align: center; margin-top: 10px;">
@@ -4557,9 +4557,9 @@ const Components = {
             <img src="logo.png" alt="Colegio El Educador S.J.L." class="login-school-logo" style="object-fit: contain;" onerror="this.src='assets/logo.png'">
             <h2 class="login-title">I.E.P. "EL EDUCADOR"</h2>
             <div style="background: linear-gradient(90deg, #f59e0b, #fbbf24); color: #0b132b; font-size: 11px; font-weight: 800; padding: 3px 12px; border-radius: 20px; display: inline-block; margin: 4px 0 8px;">
-              21 aÃ±os dejando huellas â€¢ S.J.L. â€¢ UGEL 05
+              21 años dejando huellas • S.J.L. • UGEL 05
             </div>
-            <p class="login-subtitle">Intranet Institucional â€¢ Aula Virtual & Evaluaciones DinÃ¡micas</p>
+            <p class="login-subtitle">Intranet Institucional • Aula Virtual & Evaluaciones Dinámicas</p>
           </div>
 
           <div class="login-body">
@@ -4581,20 +4581,20 @@ const Components = {
               <div class="form-group" style="margin-bottom: 18px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 5px;">
                   <label class="form-label" for="login-password" style="font-weight: 800; font-size: 12.5px; color: var(--color-navy-900); margin: 0;">
-                    ContraseÃ±a:
+                    Contraseña:
                   </label>
-                  <a href="#" onclick="window.app.openForgotPasswordModal()" style="font-size: 11.5px; color: var(--color-red-600); font-weight: bold; text-decoration: none;">Â¿Olvidaste tu clave?</a>
+                  <a href="#" onclick="window.app.openForgotPasswordModal()" style="font-size: 11.5px; color: var(--color-red-600); font-weight: bold; text-decoration: none;">¿Olvidaste tu clave?</a>
                 </div>
                 <div class="password-input-group">
-                  <input type="password" id="login-password" class="form-control" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required style="border-radius: 22px; padding: 13px 44px 13px 20px; font-size: 14px; border: 1.5px solid #cbd5e1; background: #f8fafc; box-shadow: inset 0 1px 3px rgba(0,0,0,0.03);" />
-                  <button type="button" class="toggle-password-btn" onclick="window.app.togglePasswordVisibility()" aria-label="Mostrar contraseÃ±a" style="right: 14px;">
+                  <input type="password" id="login-password" class="form-control" placeholder="••••••••" required style="border-radius: 22px; padding: 13px 44px 13px 20px; font-size: 14px; border: 1.5px solid #cbd5e1; background: #f8fafc; box-shadow: inset 0 1px 3px rgba(0,0,0,0.03);" />
+                  <button type="button" class="toggle-password-btn" onclick="window.app.togglePasswordVisibility()" aria-label="Mostrar contraseña" style="right: 14px;">
                     <svg id="eye-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="13" r="3"></circle></svg>
                   </button>
                 </div>
               </div>
 
               <button type="submit" class="btn btn-navy" style="width: 100%; padding: 13px; font-size: 14px; font-weight: 900; border-radius: 22px; box-shadow: 0 4px 14px rgba(11,19,43,0.3); transition: all 0.2s ease;">
-                ðŸš€ Ingresar al Sistema
+                🚀 Ingresar al Sistema
               </button>
             </form>
 
@@ -4624,7 +4624,7 @@ const Components = {
     }
   },
 
-  // Dashboard - CoordinaciÃ³n
+  // Dashboard - Coordinación
   renderAdminDashboard(state, user) {
     const usersCount = (state.systemUsers || initialData.systemUsers).length;
     const enrollmentsCount = (state.enrollments || initialData.enrollments).length;
@@ -4635,18 +4635,18 @@ const Components = {
           <div class="welcome-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
               <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: #fde047; border: 1px solid var(--color-yellow-500);">
-                â­ COORDINACIÃ“N & DOCUMENTACIÃ“N â€¢ I.E.P. "EL EDUCADOR"
+                ⭐ COORDINACIÓN & DOCUMENTACIÓN • I.E.P. "EL EDUCADOR"
               </span>
               <span class="status-badge status-approved" style="background: rgba(34, 197, 94, 0.2); color: #86efac; border: 1px solid #22c55e;">
-                ðŸŸ¢ 21 aÃ±os dejando huellas (S.J.L. - UGEL 05)
+                🟢 21 años dejando huellas (S.J.L. - UGEL 05)
               </span>
             </div>
             <h1 class="welcome-title">Bienvenido, <span>${user.name}</span></h1>
-            <p class="welcome-subtitle">RecaudaciÃ³n del mes de Agosto: <strong>S/ 25,130.00</strong>. Lector Ã³ptico QR y persistencia multi-dispositivo habilitados.</p>
+            <p class="welcome-subtitle">Recaudación del mes de Agosto: <strong>S/ 25,130.00</strong>. Lector óptico QR y persistencia multi-dispositivo habilitados.</p>
 
             <div class="metrics-strip">
               <div class="metric-card-mini">
-                <span class="metric-label">RecaudaciÃ³n Agosto</span>
+                <span class="metric-label">Recaudación Agosto</span>
                 <span class="metric-val highlight-green">S/ 25,130.00</span>
               </div>
               <div class="metric-card-mini">
@@ -4654,8 +4654,8 @@ const Components = {
                 <span class="metric-val highlight-yellow">${usersCount}</span>
               </div>
               <div class="metric-card-mini">
-                <span class="metric-label">Lector CÃ¡mara QR</span>
-                <span class="metric-val highlight-yellow">ACTIVO ðŸ“·</span>
+                <span class="metric-label">Lector Cámara QR</span>
+                <span class="metric-val highlight-yellow">ACTIVO 📷</span>
               </div>
               <div class="metric-card-mini">
                 <span class="metric-label">Base de Datos</span>
@@ -4665,60 +4665,60 @@ const Components = {
           </div>
         </div>
 
-        <!-- MÃ³dulos Clave de CoordinaciÃ³n -->
+        <!-- Módulos Clave de Coordinación -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
           <!-- 0. Registro de Ingreso y Asistencia QR (Puerta) -->
           <div class="card" style="border-top: 4px solid #10b981; background: #f0fdf4;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
               <h4 style="font-size: var(--font-size-base); font-weight: 900; color: #065f46;">
-                ðŸšª Control de Asistencia & PorterÃ­a
+                🚪 Control de Asistencia & Portería
               </h4>
               <span class="status-badge status-approved">Auxiliar / Puerta</span>
             </div>
             <p style="font-size: 12px; color: #166534; margin-bottom: var(--space-4);">
-              Registro biomÃ©trico/QR en porterÃ­a, parte diario de inasistencias a las 08:30 AM y libro de incidencias.
+              Registro biométrico/QR en portería, parte diario de inasistencias a las 08:30 AM y libro de incidencias.
             </p>
             <button class="btn btn-sm" onclick="window.app.navigate('asistencia')" style="background: #047857; color: white; width: 100%; font-weight: 800; padding: 8px;">
               Acceder al Control de Asistencia
             </button>
           </div>
 
-          <!-- 1. Lector QR por CÃ¡mara -->
+          <!-- 1. Lector QR por Cámara -->
           <div class="card" style="border-top: 4px solid var(--color-yellow-500); background: #fffdf5;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
               <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900);">
-                ðŸ“· Lector de Cuadernos QR
+                📷 Lector de Cuadernos QR
               </h4>
               <span class="status-badge status-approved" style="background:#f59e0b; color:#0b132b;">En Vivo</span>
             </div>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
-              Abra la cÃ¡mara de su celular o computadora para escanear y calificar cuadernos escolares al instante.
+              Abra la cámara de su celular o computadora para escanear y calificar cuadernos escolares al instante.
             </p>
             <button class="btn btn-gold btn-sm" onclick="window.app.navigate('cuadernos-qr')" style="width: 100%; font-weight: 800;">
-              ðŸ“· Abrir EscÃ¡ner por CÃ¡mara
+              📷 Abrir Escáner por Cámara
             </button>
           </div>
 
           <!-- 2. Registro de Notas -->
           <div class="card" style="border-top: 4px solid var(--color-navy-700);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              ðŸ“Š Registro Oficial de Notas
+              📊 Registro Oficial de Notas
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
-              EdiciÃ³n de calificaciones del 1Â°, 2Â°, 3Â° y 4Â° Bimestre con promedios automÃ¡ticos.
+              Edición de calificaciones del 1°, 2°, 3° y 4° Bimestre con promedios automáticos.
             </p>
             <button class="btn btn-navy btn-sm" onclick="window.app.navigate('calificaciones')" style="width: 100%;">
               Ver y Modificar Calificaciones
             </button>
           </div>
 
-          <!-- 3. Informe NÂ° 003 -->
+          <!-- 3. Informe N° 003 -->
           <div class="card" style="border-top: 4px solid var(--color-red-500);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              ðŸ“„ Informe Oficial NÂ° 003/ED
+              📄 Informe Oficial N° 003/ED
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
-              RecaudaciÃ³n de agosto (S/ 25,130), 4ta categorÃ­a y expedientes ante la UGEL 05.
+              Recaudación de agosto (S/ 25,130), 4ta categoría y expedientes ante la UGEL 05.
             </p>
             <button class="btn btn-red btn-sm" onclick="window.app.showOfficialReportModal()" style="width: 100%;">
               Ver Documento Oficial
@@ -4727,25 +4727,25 @@ const Components = {
         </div>
 
         <!-- =========================================================================
-             GESTIÃ“N DE ESTRUCTURA DE GRADOS (EDITABLE POR EL ADMINISTRADOR)
+             GESTIÓN DE ESTRUCTURA DE GRADOS (EDITABLE POR EL ADMINISTRADOR)
              ========================================================================= -->
         <div class="card" style="margin-bottom: var(--space-6); border-top: 4px solid var(--color-navy-800);">
           <div class="card-header" style="flex-wrap: wrap; gap: 10px;">
             <div>
               <div style="display: flex; align-items: center; gap: 8px;">
-                <h3 class="card-title" style="margin: 0; font-size: 16px;">ðŸ›ï¸ Estructura de Grados Institucionales</h3>
+                <h3 class="card-title" style="margin: 0; font-size: 16px;">🏛️ Estructura de Grados Institucionales</h3>
                 <span class="status-badge status-approved" style="background: #e0e7ff; color: #3730a3; font-weight: 800; font-size: 11px;">
-                  ${(state.academicConfig && state.academicConfig.hasSections) ? 'Modo Multi-SecciÃ³n Habilitado' : 'Modelo Grados Ãšnicos (Sin Secciones)'}
+                  ${(state.academicConfig && state.academicConfig.hasSections) ? 'Modo Multi-Sección Habilitado' : 'Modelo Grados Únicos (Sin Secciones)'}
                 </span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                El colegio opera bajo el modelo de <strong>Grados Ãšnicos</strong> (sin divisiones paralelas A/B/C por defecto). Puede editar los grados, aulas fÃ­sicas, tutores o habilitar secciones si es requerido.
+                El colegio opera bajo el modelo de <strong>Grados Únicos</strong> (sin divisiones paralelas A/B/C por defecto). Puede editar los grados, aulas físicas, tutores o habilitar secciones si es requerido.
               </p>
             </div>
             
             <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
               <button class="btn btn-outline btn-sm" onclick="window.app.toggleAcademicSections(${!(state.academicConfig && state.academicConfig.hasSections)})" style="font-size: 11.5px; font-weight: 700;">
-                ${(state.academicConfig && state.academicConfig.hasSections) ? 'ðŸ”’ Desactivar Secciones' : 'âš™ï¸ Habilitar Secciones'}
+                ${(state.academicConfig && state.academicConfig.hasSections) ? '🔒 Desactivar Secciones' : '⚙️ Habilitar Secciones'}
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.openCreateGradeModal()" style="font-weight: 800; font-size: 11.5px;">
                 + Agregar Nuevo Grado
@@ -4759,8 +4759,8 @@ const Components = {
                 <tr>
                   <th style="width: 100px;">Nivel</th>
                   <th>Grado</th>
-                  <th style="width: 110px;">SecciÃ³n</th>
-                  <th>Aula / UbicaciÃ³n FÃ­sica</th>
+                  <th style="width: 110px;">Sección</th>
+                  <th>Aula / Ubicación Física</th>
                   <th>Tutor(a) de Aula</th>
                   <th style="text-align: right; width: 140px;">Acciones</th>
                 </tr>
@@ -4776,17 +4776,17 @@ const Components = {
                     <td><strong>${g.label}</strong></td>
                     <td>
                       <span style="color: ${g.section ? 'var(--color-navy-900)' : 'var(--text-muted)'}; font-weight: ${g.section ? '800' : 'normal'};">
-                        ${g.section ? g.section : ((state.academicConfig && state.academicConfig.hasSections) ? 'Sin asignar' : 'Ãšnica')}
+                        ${g.section ? g.section : ((state.academicConfig && state.academicConfig.hasSections) ? 'Sin asignar' : 'Única')}
                       </span>
                     </td>
-                    <td><code>${g.classroom || 'PabellÃ³n Central'}</code></td>
+                    <td><code>${g.classroom || 'Pabellón Central'}</code></td>
                     <td>${g.tutor || '<span style="color:#94a3b8; font-style:italic;">Por asignar</span>'}</td>
                     <td style="text-align: right;">
                       <button class="btn btn-sm btn-outline" onclick="window.app.openEditGradeModal('${g.id}')" title="Editar Grado" style="padding: 3px 8px; font-size: 11px;">
-                        âœï¸ Editar
+                        ✏️ Editar
                       </button>
                       <button class="btn btn-sm btn-red" onclick="window.app.confirmDeleteGrade('${g.id}')" title="Eliminar Grado" style="padding: 3px 8px; font-size: 11px;">
-                        ðŸ—‘ï¸
+                        🗑️
                       </button>
                     </td>
                   </tr>
@@ -4798,20 +4798,20 @@ const Components = {
 
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Plana Docente & GestiÃ³n de 4ta CategorÃ­a / Privilegios</h3>
+            <h3 class="card-title">Plana Docente & Gestión de 4ta Categoría / Privilegios</h3>
             <button class="btn btn-outline btn-sm" onclick="window.app.openCreateUserModal()">+ Agregar Personal</button>
           </div>
           <div class="table-container">
             <table class="data-table">
-              <thead><tr><th>CÃ³digo</th><th>Docente / Personal</th><th>Nivel / Asignatura</th><th>Renta 4ta Cat.</th><th>Privilegio EdiciÃ³n</th><th>AcciÃ³n</th></tr></thead>
+              <thead><tr><th>Código</th><th>Docente / Personal</th><th>Nivel / Asignatura</th><th>Renta 4ta Cat.</th><th>Privilegio Edición</th><th>Acción</th></tr></thead>
               <tbody>
                 ${(state.systemUsers || initialData.systemUsers).filter(u => u.role === 'Docente').map(u => `
                   <tr>
                     <td><code>${u.code}</code></td>
                     <td><strong>${u.name}</strong><br><span style="font-size:11px; color:var(--text-muted);">${u.email}</span></td>
                     <td>${u.detail}</td>
-                    <td><span class="status-badge status-approved">âœ“ Enviado Contador</span></td>
-                    <td><span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}">${u.hasAdminPrivilege ? 'â­ Permisos Admin' : 'Docente'}</span></td>
+                    <td><span class="status-badge status-approved">✓ Enviado Contador</span></td>
+                    <td><span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}">${u.hasAdminPrivilege ? '⭐ Permisos Admin' : 'Docente'}</span></td>
                     <td>
                       <button class="btn btn-sm ${u.hasAdminPrivilege ? 'btn-outline' : 'btn-red'}" onclick="window.app.toggleTeacherAdminPrivilege('${u.id}')">
                         ${u.hasAdminPrivilege ? 'Revocar' : 'Conceder Admin'}
@@ -4827,7 +4827,7 @@ const Components = {
     `;
   },
 
-  // Dashboard - Auxiliar de EducaciÃ³n & PorterÃ­a
+  // Dashboard - Auxiliar de Educación & Portería
   renderAuxiliarDashboard(state, user) {
     const records = state.attendanceRecords || (initialData && initialData.attendanceRecords) || [];
     const reviews = state.notebookReviews || (initialData && initialData.notebookReviews) || [];
@@ -4846,15 +4846,15 @@ const Components = {
           <div class="welcome-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
               <span class="status-badge status-approved" style="background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border: 1px solid #10b981; font-weight: 800;">
-                ðŸ‘® TURNO DE AUXILIAR & CONTROL ESCOLAR â€¢ I.E.P. "EL EDUCADOR"
+                👮 TURNO DE AUXILIAR & CONTROL ESCOLAR • I.E.P. "EL EDUCADOR"
               </span>
               <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: #fde047; border: 1px solid #f59e0b;">
-                ðŸšª PorterÃ­a Puerta 1 & PabellÃ³n Secundaria
+                🚪 Portería Puerta 1 & Pabellón Secundaria
               </span>
             </div>
             <h1 class="welcome-title">Bienvenido(a), <span>${user.name}</span></h1>
             <p class="welcome-subtitle">
-              MÃ³dulo exclusivo para <strong>Registro BiomÃ©trico / QR en PorterÃ­a</strong> y <strong>RevisiÃ³n y Sellado de Cuadernos Escolares</strong>.
+              Módulo exclusivo para <strong>Registro Biométrico / QR en Portería</strong> y <strong>Revisión y Sellado de Cuadernos Escolares</strong>.
             </p>
 
             <div class="metrics-strip">
@@ -4878,29 +4878,29 @@ const Components = {
           </div>
         </div>
 
-        <!-- MÃ³dulos Exclusivos del Auxiliar -->
+        <!-- Módulos Exclusivos del Auxiliar -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
           
           <!-- Tarjeta 1: Registro de Ingreso y Asistencia QR -->
           <div class="card" style="border-top: 5px solid #10b981; box-shadow: 0 4px 14px rgba(16,185,129,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #065f46; margin: 0;">
-                ðŸšª 1. Control de Asistencia & PorterÃ­a
+                🚪 1. Control de Asistencia & Portería
               </h3>
               <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight: 900;">07:00 - 08:30 AM</span>
             </div>
             <p style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 16px;">
-              Escaneo Ã³ptico de fotochecks QR en puerta, control automÃ¡tico de tolerancia (07:45 AM), inasistencias (08:30 AM) y libro de incidencias.
+              Escaneo óptico de fotochecks QR en puerta, control automático de tolerancia (07:45 AM), inasistencias (08:30 AM) y libro de incidencias.
             </p>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
               <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #047857; color: white; font-weight: 800; padding: 10px 8px; font-size: 12px;">
-                ðŸ“· EscÃ¡ner en Puerta
+                📷 Escáner en Puerta
               </button>
               <button class="btn btn-gold btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800; padding: 10px 8px; font-size: 12px;">
-                ðŸ–¨ï¸ Plancha QR (Sin Foto)
+                🖨️ Plancha QR (Sin Foto)
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('daily-report');" style="font-weight: 800; padding: 10px 8px; font-size: 12px; grid-column: span 2;">
-                ðŸ“Š Parte Diario de Tardanzas / Inasistencias (08:30 AM)
+                📊 Parte Diario de Tardanzas / Inasistencias (08:30 AM)
               </button>
             </div>
           </div>
@@ -4909,33 +4909,33 @@ const Components = {
           <div class="card" style="border-top: 5px solid #f59e0b; box-shadow: 0 4px 14px rgba(245,158,11,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #b45309; margin: 0;">
-                ðŸ“– 2. Lector de Cuadernos QR
+                📖 2. Lector de Cuadernos QR
               </h3>
-              <span class="status-badge" style="background:#f59e0b; color:#0b132b; font-weight: 900;">CÃMARA VIVA</span>
+              <span class="status-badge" style="background:#f59e0b; color:#0b132b; font-weight: 900;">CÁMARA VIVA</span>
             </div>
             <p style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 16px;">
-              SupervisiÃ³n de cuadernos escolares, sellado digital mediante lectura de cÃ³digo QR, verificaciÃ³n de tareas completas y registro de observaciones.
+              Supervisión de cuadernos escolares, sellado digital mediante lectura de código QR, verificación de tareas completas y registro de observaciones.
             </p>
             <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
               <button class="btn btn-gold btn-sm" onclick="window.app.navigate('cuadernos-qr')" style="font-weight: 900; padding: 10px; font-size: 13px;">
-                ðŸ“· Iniciar Lector de Cuadernos QR
+                📷 Iniciar Lector de Cuadernos QR
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.openStudentFullBoletaStickersModal('EST-2026-042')" style="font-weight: 800; padding: 9px; font-size: 12px; background: #0f172a; color: #fde047; border: 1px solid #f59e0b;">
-                âš¡ Plancha QR por Estudiante (Cursos Boleta)
+                ⚡ Plancha QR por Estudiante (Cursos Boleta)
               </button>
               <button class="btn btn-outline btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('incidents');" style="font-weight: 800; padding: 8px; font-size: 12px; color: #dc2626; border-color: #fca5a5;">
-                ðŸš¨ Registrar Incidencia Conductual
+                🚨 Registrar Incidencia Conductual
               </button>
             </div>
           </div>
 
         </div>
 
-        <!-- Tabla Resumen del PadrÃ³n de Aulas -->
+        <!-- Tabla Resumen del Padrón de Aulas -->
         <div class="card">
           <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
             <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-              ðŸ“‹ PadrÃ³n RÃ¡pido de Aulas a Cargo del Auxiliar
+              📋 Padrón Rápido de Aulas a Cargo del Auxiliar
             </h3>
             <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('classroom');">
               Ver Asistencia por Aula Completa
@@ -4947,10 +4947,10 @@ const Components = {
                 <tr>
                   <th>Nivel</th>
                   <th>Grado</th>
-                  <th>Aula / UbicaciÃ³n</th>
+                  <th>Aula / Ubicación</th>
                   <th>Tutor(a)</th>
                   <th>Hora de Inicio</th>
-                  <th style="text-align: right;">AcciÃ³n RÃ¡pida</th>
+                  <th style="text-align: right;">Acción Rápida</th>
                 </tr>
               </thead>
               <tbody>
@@ -4958,7 +4958,7 @@ const Components = {
                   <tr>
                     <td><span class="status-badge ${g.level === 'Inicial' ? 'status-pending' : g.level === 'Primaria' ? 'status-approved' : 'status-failed'}" style="font-size: 10px;">${g.level}</span></td>
                     <td><strong>${g.label}</strong></td>
-                    <td><code>${g.classroom || 'PabellÃ³n Central'}</code></td>
+                    <td><code>${g.classroom || 'Pabellón Central'}</code></td>
                     <td>${g.tutor || 'Docente Responsable'}</td>
                     <td><code>07:45 AM</code></td>
                     <td style="text-align: right;">
@@ -4978,7 +4978,7 @@ const Components = {
   },
 
   // =========================================================================
-  // MÃ“DULO DE CONTROL Y REVISIÃ“N DE CUADERNOS (DOCENTE / PADRE)
+  // MÓDULO DE CONTROL Y REVISIÓN DE CUADERNOS (DOCENTE / PADRE)
   // =========================================================================
   renderNotebookQRControl(state) {
     const role = state.currentRole;
@@ -4987,32 +4987,32 @@ const Components = {
     // --- VISTA EXCLUSIVA PARA EL PADRE DE FAMILIA: INFORME OFICIAL DE CUADERNOS ---
     if (role === "padre") {
       const parentUser = state.users.padre || initialData.users.padre;
-      const parentName = parentUser.name || "Dra. Carmen MÃ©ndez";
-      const studentName = "SofÃ­a MÃ©ndez Flores";
+      const parentName = parentUser.name || "Dra. Carmen Méndez";
+      const studentName = "Sofía Méndez Flores";
       const studentGrade = "4to de Secundaria";
       const studentCode = "EST-2026-042";
       const studentTutor = "Prof. Roberto Silva";
       
       const defaultNotebooks = [
-        { course: "ðŸ“ MatemÃ¡tica", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Tareas completas al 100%, mÃ¡rgenes impecables y esquemas en orden." },
-        { course: "ðŸ“– ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "17 (A)", remarks: "AnÃ¡lisis de textos y caligrafÃ­a Ã³ptima. Muy buen desarrollo." },
-        { course: "ðŸ”¬ Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "18 (AD)", remarks: "PrÃ¡cticas experimentales ilustradas y fichas de laboratorio selladas." },
-        { course: "ðŸŒŽ Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "16 (A)", remarks: "Mapas histÃ³ricos y resÃºmenes de Ã©poca bien estructurados." },
-        { course: "ðŸ‡¬ðŸ‡§ InglÃ©s", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramÃ¡tica avanzados completos." },
-        { course: "ðŸ’» EPT (ComputaciÃ³n)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "ðŸŸ¡ OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto tÃ©cnico NÂ° 3. Presentar este viernes." }
+        { course: "📐 Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+        { course: "📖 Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+        { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+        { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+        { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+        { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
       ];
 
       return `
         <div class="fade-in">
           <div class="card" style="margin-bottom: var(--space-6);">
             
-            ${this.renderOfficialInstitutionalHeader("INFORME OFICIAL DE REVISIÃ“N Y SELLADO DE CUADERNOS POR QR", "SEGUIMIENTO ACADÃ‰MICO BIMESTRAL 2026")}
+            ${this.renderOfficialInstitutionalHeader("INFORME OFICIAL DE REVISIÓN Y SELLADO DE CUADERNOS POR QR", "SEGUIMIENTO ACADÉMICO BIMESTRAL 2026")}
 
             <div style="background: var(--bg-surface-subtle); border-radius: 8px; padding: 16px; margin: 16px 0; border: 1px solid var(--border-subtle); display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
               <div>
                 <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Estudiante Matriculada:</span>
                 <div style="font-size: 16px; font-weight: 900; color: var(--color-navy-900);">${studentName}</div>
-                <span style="font-size: 12px; color: var(--color-red-600); font-weight: 700;">${studentGrade} â€¢ CÃ³digo: ${studentCode}</span>
+                <span style="font-size: 12px; color: var(--color-red-600); font-weight: 700;">${studentGrade} • Código: ${studentCode}</span>
               </div>
               <div>
                 <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Apoderada Responsable:</span>
@@ -5021,22 +5021,22 @@ const Components = {
               </div>
               <div style="display: flex; gap: 8px; align-items: center; justify-content: flex-end;">
                 <button class="btn btn-gold btn-sm" onclick="window.app.openPrintParentNotebookReportModal()" style="font-weight: 800; padding: 8px 16px;">
-                  ðŸ–¨ï¸ Imprimir / Guardar PDF
+                  🖨️ Imprimir / Guardar PDF
                 </button>
               </div>
             </div>
 
-            <!-- Resumen EstadÃ­stico de Sellos -->
+            <!-- Resumen Estadístico de Sellos -->
             <div class="dashboard-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: var(--space-6);">
               <div class="card metric-card" style="border-top: 4px solid #22c55e;">
-                <span class="metric-title">Cuadernos al DÃ­a</span>
+                <span class="metric-title">Cuadernos al Día</span>
                 <div class="metric-value highlight-green">5 / 6</div>
                 <span class="metric-trend up" style="font-size: 11px;">83.3% Cumplimiento</span>
               </div>
               <div class="card metric-card" style="border-top: 4px solid #f59e0b;">
                 <span class="metric-title">Observados / Incompletos</span>
                 <div class="metric-value highlight-yellow">1</div>
-                <span class="metric-trend" style="font-size: 11px; color: var(--color-yellow-600);">EPT (Falta ficha NÂ°3)</span>
+                <span class="metric-trend" style="font-size: 11px; color: var(--color-yellow-600);">EPT (Falta ficha N°3)</span>
               </div>
               <div class="card metric-card" style="border-top: 4px solid var(--color-navy-600);">
                 <span class="metric-title">Promedio de Cuadernos</span>
@@ -5048,9 +5048,9 @@ const Components = {
             <!-- Detalle por Curso y Sellos Oficiales -->
             <div class="card-header" style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border-subtle);">
               <h3 class="card-title" style="font-size: var(--font-size-base);">
-                ðŸ“– Detalle de Cuadernos de ${studentName}
+                📖 Detalle de Cuadernos de ${studentName}
               </h3>
-              <span class="status-badge status-approved">Actualizado al DÃ­a</span>
+              <span class="status-badge status-approved">Actualizado al Día</span>
             </div>
 
             <div class="table-container">
@@ -5059,10 +5059,10 @@ const Components = {
                   <tr>
                     <th>Curso / Asignatura</th>
                     <th>Docente</th>
-                    <th>Ãšltimo Sello QR</th>
+                    <th>Último Sello QR</th>
                     <th>Estado del Cuaderno</th>
-                    <th>CalificaciÃ³n</th>
-                    <th>ObservaciÃ³n del Docente</th>
+                    <th>Calificación</th>
+                    <th>Observación del Docente</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -5082,7 +5082,7 @@ const Components = {
 
             <div style="margin-top: var(--space-4); padding: 12px; background: rgba(30,58,138,0.05); border-radius: 6px; font-size: 11px; color: var(--color-navy-800); display: flex; align-items: center; gap: 8px;">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-              <span><strong>Nota para el Apoderado:</strong> Los sellos QR son colocados por los docentes en clase tras escanear el sticker fÃ­sico del cuaderno. Todo cuaderno observado cuenta con 3 dÃ­as hÃ¡biles para regularizaciÃ³n.</span>
+              <span><strong>Nota para el Apoderado:</strong> Los sellos QR son colocados por los docentes en clase tras escanear el sticker físico del cuaderno. Todo cuaderno observado cuenta con 3 días hábiles para regularización.</span>
             </div>
 
           </div>
@@ -5090,7 +5090,7 @@ const Components = {
       `;
     }
 
-    // --- VISTA DOCENTE / AUXILIAR / COORDINACIÃ“N / ADMINISTRADOR ---
+    // --- VISTA DOCENTE / AUXILIAR / COORDINACIÓN / ADMINISTRADOR ---
     const hasAdminEditPower = state.currentRole === "admin" || state.currentRole === "director" || (state.currentRole === "docente" && state.users.docente && state.users.docente.hasAdminPrivileges);
     const isDocenteOrAdmin = state.currentRole === "docente" || state.currentRole === "auxiliar" || state.currentRole === "admin" || state.currentRole === "director";
 
@@ -5117,9 +5117,9 @@ const Components = {
       filteredReviews = filteredReviews.filter(r => r.course === selectedCourseFilter);
     }
 
-    const alDiaCount = filteredReviews.filter(r => r.status === "Al DÃ­a" || r.status === "Excelente" || (r.stampType && r.stampType.includes("al-dia"))).length;
+    const alDiaCount = filteredReviews.filter(r => r.status === "Al Día" || r.status === "Excelente" || (r.stampType && r.stampType.includes("al-dia"))).length;
     const observadosCount = filteredReviews.filter(r => r.status === "Observado" || r.status === "Incompleto" || (r.stampType && r.stampType.includes("observado"))).length;
-    const noPresentoCount = filteredReviews.filter(r => r.status === "No PresentÃ³" || (r.stampType && r.stampType.includes("no-presento"))).length;
+    const noPresentoCount = filteredReviews.filter(r => r.status === "No Presentó" || (r.stampType && r.stampType.includes("no-presento"))).length;
     const totalReviews = filteredReviews.length;
     const pctAlDia = totalReviews > 0 ? Math.round((alDiaCount / totalReviews) * 100) : 100;
 
@@ -5127,69 +5127,69 @@ const Components = {
       <div class="fade-in">
         <div class="card" style="margin-bottom: var(--space-6);">
           
-          <!-- Encabezado Principal del MÃ³dulo -->
+          <!-- Encabezado Principal del Módulo -->
           <div class="card-header" style="flex-wrap: wrap; gap: 12px; align-items: center;">
             <div>
               <div style="display:flex; align-items:center; gap: 8px; flex-wrap: wrap;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl);">ðŸ“– Control y Sellado de Cuadernos Mediante QR</h2>
-                <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight:800;">CÃMARA BAJO DEMANDA</span>
-                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">ðŸ“¡ MULTI-DOCENTE EN VIVO</span>
+                <h2 class="card-title" style="font-size: var(--font-size-xl);">📖 Control y Sellado de Cuadernos Mediante QR</h2>
+                <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight:800;">CÁMARA BAJO DEMANDA</span>
+                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">📡 MULTI-DOCENTE EN VIVO</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                I.E.P. "El Educador" â€¢ Escaneo Ã³ptico de stickers de cuadernos. <strong>Varios profesores pueden escanear simultÃ¡neamente desde sus celulares</strong> sin sobreescritura de datos.
+                I.E.P. "El Educador" • Escaneo óptico de stickers de cuadernos. <strong>Varios profesores pueden escanear simultáneamente desde sus celulares</strong> sin sobreescritura de datos.
               </p>
             </div>
             
-            <!-- Barra de Sub-PestaÃ±as y BotÃ³n Conectar Celular -->
+            <!-- Barra de Sub-Pestañas y Botón Conectar Celular -->
             <div style="display:flex; gap: 8px; flex-wrap: wrap; align-items: center;">
               <button class="btn btn-outline btn-sm" onclick="window.app.openMultiDeviceConnectModal()" style="font-weight: 800; color: #1e3a8a; border-color: #3b82f6; background: #eff6ff; border-radius: 18px; padding: 6px 14px;">
-                ðŸ“± Conectar Celular
+                📱 Conectar Celular
               </button>
               <button class="btn btn-sm ${activeSubTab === 'scanner' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('scanner')" style="font-weight: 800;">
-                ðŸ“· 1. EscÃ¡ner en Vivo
+                📷 1. Escáner en Vivo
               </button>
               <button class="btn btn-sm ${activeSubTab === 'stickers' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('stickers')" style="font-weight: 800;">
-                ðŸ–¨ï¸ 2. Plancha de Stickers QR
+                🖨️ 2. Plancha de Stickers QR
               </button>
               <button class="btn btn-sm ${activeSubTab === 'report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('report')" style="font-weight: 800;">
-                ðŸ“Š 3. Informe de SupervisiÃ³n
+                📊 3. Informe de Supervisión
               </button>
             </div>
           </div>
 
           <!-- =================================================================== -->
-          <!-- SUB-PESTAÃ‘A 1: ESCÃNER EN VIVO Y CÃMARA PARA CUADERNOS -->
+          <!-- SUB-PESTAÑA 1: ESCÁNER EN VIVO Y CÁMARA PARA CUADERNOS -->
           <!-- =================================================================== -->
           ${activeSubTab === 'scanner' ? `
             
             <!-- Banner de Escaneo Protegido Bajo Demanda y Multi-Dispositivo -->
             <div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1.5px solid #93c5fd; border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div style="display: flex; align-items: center; gap: 12px;">
-                <span style="font-size: 26px;">ðŸ›¡ï¸</span>
+                <span style="font-size: 26px;">🛡️</span>
                 <div>
                   <div style="font-size: 13px; font-weight: 900; color: #1e3a8a;">
                     Modo Bajo Demanda & Concurrencia Multi-Dispositivo
                   </div>
                   <div style="font-size: 11.5px; color: #334155;">
-                    La cÃ¡mara solo se activa cuando presionas <strong>Encender CÃ¡mara</strong> para ahorrar baterÃ­a y evitar lecturas accidentales. Los sellos de todos los docentes se combinan en tiempo real.
+                    La cámara solo se activa cuando presionas <strong>Encender Cámara</strong> para ahorrar batería y evitar lecturas accidentales. Los sellos de todos los docentes se combinan en tiempo real.
                   </div>
                 </div>
               </div>
               <button class="btn btn-navy btn-sm" onclick="window.app.openMultiDeviceConnectModal()" style="font-weight: 800; border-radius: 16px; font-size: 11.5px; box-shadow: 0 4px 10px rgba(15,23,42,0.15);">
-                ðŸ“² Abrir QR para mi Celular
+                📲 Abrir QR para mi Celular
               </button>
             </div>
 
             <div class="dashboard-grid" style="margin-bottom: var(--space-6); align-items: stretch;">
               
-              <!-- Visor de CÃ¡mara Real para Celulares / PC -->
+              <!-- Visor de Cámara Real para Celulares / PC -->
               <div class="card" style="background: var(--color-navy-950); color: white; border: 2px solid var(--color-yellow-500); padding: var(--space-4); display:flex; flex-direction:column; align-items:center;">
                 <div style="display:flex; justify-content:space-between; width:100%; align-items:center; margin-bottom: 8px;">
                   <span style="font-size:12px; font-weight:800; color:var(--color-yellow-400); letter-spacing:0.05em;">
-                    ðŸ“¸ ESCÃNER POR CÃMARA (CELULAR / WEBCAM)
+                    📸 ESCÁNER POR CÁMARA (CELULAR / WEBCAM)
                   </span>
                   <span id="camera-status-tag" class="status-badge status-pending" style="font-size:10px;">
-                    CÃ¡mara Apagada (En Espera)
+                    Cámara Apagada (En Espera)
                   </span>
                 </div>
 
@@ -5197,63 +5197,63 @@ const Components = {
                 <div id="qr-live-camera-feed" style="width: 100%; max-width: 320px; min-height: 240px; background: #000; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; border: 1px dashed rgba(255,255,255,0.2);">
                   <div id="camera-placeholder-msg" style="text-align: center; padding: 20px; color: rgba(255,255,255,0.7);">
                     <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto 8px; display:block; color: var(--color-yellow-400);"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-                    <span style="font-size: 12px; font-weight: 700;">Presiona 'Encender CÃ¡mara' para iniciar el escaneo</span>
+                    <span style="font-size: 12px; font-weight: 700;">Presiona 'Encender Cámara' para iniciar el escaneo</span>
                   </div>
                 </div>
 
-                <!-- Botones de Control de CÃ¡mara -->
+                <!-- Botones de Control de Cámara -->
                 <div style="display: flex; gap: 8px; margin-top: 12px; width: 100%; justify-content: center; flex-wrap: wrap;">
                   <button id="btn-start-camera" class="btn btn-gold" onclick="window.app.startLiveCameraScanner()" style="font-weight:800; font-size:13px; border-radius: 20px; padding: 10px 20px;">
-                    ðŸ“· Encender CÃ¡mara
+                    📷 Encender Cámara
                   </button>
                   <button id="btn-stop-camera" class="btn btn-outline" onclick="window.app.stopLiveCameraScanner()" style="display:none; color:#fca5a5; border-color:rgba(220,38,38,0.4); border-radius: 20px;">
-                    â¹ï¸ Apagar CÃ¡mara
+                    ⏹️ Apagar Cámara
                   </button>
                 </div>
               </div>
 
-              <!-- Atajos de BÃºsqueda RÃ¡pida / SimulaciÃ³n con Alumno + Curso + Docente -->
+              <!-- Atajos de Búsqueda Rápida / Simulación con Alumno + Curso + Docente -->
               <div class="card" style="background-color: var(--bg-surface-subtle); display:flex; flex-direction:column; justify-content:space-between;">
                 <div>
                   <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
                     <h4 style="margin:0; color: var(--color-navy-900); font-weight: 800;">
-                      âš¡ Escaneo RÃ¡pido de Cuadernos (Demo Directo)
+                      ⚡ Escaneo Rápido de Cuadernos (Demo Directo)
                     </h4>
                     <span class="status-badge status-approved" style="font-size:10px;">Exclusivo por Alumno y Curso</span>
                   </div>
                   <p style="font-size: 11.5px; color: var(--text-muted); margin-bottom: 12px;">
-                    Al escanear el QR, el sistema identifica automÃ¡ticamente al <strong>Alumno, Grado, Curso y Profesor Titular</strong>:
+                    Al escanear el QR, el sistema identifica automáticamente al <strong>Alumno, Grado, Curso y Profesor Titular</strong>:
                   </p>
 
                   <div style="display: flex; flex-direction:column; gap: 6px; margin-bottom: 12px;">
-                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|SofÃ­a MÃ©ndez Flores|4Â° de Secundaria|MatemÃ¡tica Avanzada (Ãlgebra / GeometrÃ­a)|Prof. Roberto Silva')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
+                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Matemática Avanzada (Álgebra / Geometría)|Prof. Roberto Silva')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">ðŸ“ SofÃ­a MÃ©ndez Flores</strong>
-                        <div style="font-size: 10.5px; color: #047857;">MatemÃ¡tica Avanzada â€¢ Docente: Prof. Roberto Silva</div>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">📐 Sofía Méndez Flores</strong>
+                        <div style="font-size: 10.5px; color: #047857;">Matemática Avanzada • Docente: Prof. Roberto Silva</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
                     </button>
 
-                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|SofÃ­a MÃ©ndez Flores|4Â° de Secundaria|ComunicaciÃ³n & Literatura|Miss MarÃ­a Daysi Reyes Milla')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
+                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Comunicación & Literatura|Miss María Daysi Reyes Milla')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">ðŸ“– SofÃ­a MÃ©ndez Flores</strong>
-                        <div style="font-size: 10.5px; color: #1e3a8a;">ComunicaciÃ³n & Literatura â€¢ Docente: Miss MarÃ­a Daysi Reyes</div>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">📖 Sofía Méndez Flores</strong>
+                        <div style="font-size: 10.5px; color: #1e3a8a;">Comunicación & Literatura • Docente: Miss María Daysi Reyes</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
                     </button>
 
-                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-055|Gael Alessandro CÃ¡ceres|4Â° de Secundaria|Ciencia y TecnologÃ­a (FÃ­sica / QuÃ­mica)|Miss Leyli Graciela Reyes Cerquen')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
+                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-055|Gael Alessandro Cáceres|4° de Secundaria|Ciencia y Tecnología (Física / Química)|Miss Leyli Graciela Reyes Cerquen')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">ðŸ”¬ Gael Alessandro CÃ¡ceres</strong>
-                        <div style="font-size: 10.5px; color: #b45309;">Ciencia y TecnologÃ­a â€¢ Docente: Miss Leyli Reyes</div>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">🔬 Gael Alessandro Cáceres</strong>
+                        <div style="font-size: 10.5px; color: #b45309;">Ciencia y Tecnología • Docente: Miss Leyli Reyes</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
                     </button>
 
-                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-089|Marina del Carmen AlbÃºjar|4Â° de Secundaria|Ciencias Sociales & Historia|Prof. Javier Vega')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
+                    <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-089|Marina del Carmen Albújar|4° de Secundaria|Ciencias Sociales & Historia|Prof. Javier Vega')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">ðŸŒŽ Marina del Carmen AlbÃºjar</strong>
-                        <div style="font-size: 10.5px; color: #6b21a8;">Ciencias Sociales â€¢ Docente: Prof. Javier Vega</div>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">🌎 Marina del Carmen Albújar</strong>
+                        <div style="font-size: 10.5px; color: #6b21a8;">Ciencias Sociales • Docente: Prof. Javier Vega</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
                     </button>
@@ -5261,9 +5261,9 @@ const Components = {
                 </div>
 
                 <div style="border-top: 1px solid #e2e8f0; padding-top: 10px;">
-                  <label class="form-label" style="font-size: 11px; font-weight: 700;">Ingreso Manual de CÃ³digo QR:</label>
+                  <label class="form-label" style="font-size: 11px; font-weight: 700;">Ingreso Manual de Código QR:</label>
                   <div style="display:flex; gap: 8px;">
-                    <input type="text" id="manual-qr-input" class="form-control" value="QR-NB|EST-2026-042|SofÃ­a MÃ©ndez Flores|4Â° de Secundaria|MatemÃ¡tica Avanzada (Ãlgebra / GeometrÃ­a)|Prof. Roberto Silva" style="font-size: 11.5px; border-radius: 16px;" />
+                    <input type="text" id="manual-qr-input" class="form-control" value="QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Matemática Avanzada (Álgebra / Geometría)|Prof. Roberto Silva" style="font-size: 11.5px; border-radius: 16px;" />
                     <button class="btn btn-navy btn-sm" onclick="window.app.simulateQRScan(document.getElementById('manual-qr-input').value)" style="border-radius: 16px; font-weight: 800;">
                       Revisar
                     </button>
@@ -5273,10 +5273,10 @@ const Components = {
 
             </div>
 
-            <!-- Tabla de Revisiones Recientes del DÃ­a -->
+            <!-- Tabla de Revisiones Recientes del Día -->
             <div class="card-header" style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border-subtle);">
               <h3 class="card-title" style="font-size: var(--font-size-base);">
-                ðŸ“‘ Ãšltimos Cuadernos Sellados en este Turno
+                📑 Últimos Cuadernos Sellados en este Turno
               </h3>
               <span class="status-badge status-approved">${reviews.length} Evaluados</span>
             </div>
@@ -5304,7 +5304,7 @@ const Components = {
                       <td><span class="status-badge status-pending" style="font-size: 10px;">${r.grade}</span></td>
                       <td><strong>${r.course}</strong></td>
                       <td>${r.teacher || 'Prof. Roberto Silva'}</td>
-                      <td><span style="color:#047857; font-weight:700; font-size:11px;">${r.evaluator || 'Auxiliar de EducaciÃ³n'}</span></td>
+                      <td><span style="color:#047857; font-weight:700; font-size:11px;">${r.evaluator || 'Auxiliar de Educación'}</span></td>
                       <td><span class="digital-stamp ${r.stampType}">${r.stampText}</span></td>
                       <td><strong style="font-size:14px; color:${r.score >= 15 ? '#15803d' : '#b45309'};">${r.score}</strong></td>
                       <td style="font-size:11.5px; color:var(--text-secondary); max-width: 200px;">${r.teacherRemarks}</td>
@@ -5316,7 +5316,7 @@ const Components = {
           ` : ''}
 
           <!-- =================================================================== -->
-          <!-- SUB-PESTAÃ‘A 2: GENERADOR DE STICKERS QR PARA CUADERNOS -->
+          <!-- SUB-PESTAÑA 2: GENERADOR DE STICKERS QR PARA CUADERNOS -->
           <!-- =================================================================== -->
           ${activeSubTab === 'stickers' ? `
             <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 20px;">
@@ -5324,7 +5324,7 @@ const Components = {
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
                     <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0;">
-                      ðŸ–¨ï¸ Planchas de Stickers QR Exclusivos por Estudiante y Curso
+                      🖨️ Planchas de Stickers QR Exclusivos por Estudiante y Curso
                     </h3>
                     <span class="status-badge status-approved" style="font-size: 10.5px; font-weight: 800;">Boleta Oficial 2026</span>
                   </div>
@@ -5334,17 +5334,17 @@ const Components = {
                 </div>
                 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-                  <!-- BOTÃ“N PRINCIPAL SOLICITADO: GENERAR QR AUTOMÃTICO POR ESTUDIANTE CON TODOS LOS CURSOS DE LA BOLETA -->
+                  <!-- BOTÓN PRINCIPAL SOLICITADO: GENERAR QR AUTOMÁTICO POR ESTUDIANTE CON TODOS LOS CURSOS DE LA BOLETA -->
                   <button class="btn btn-gold btn-sm" onclick="window.app.openStudentFullBoletaStickersModal('${selectedStudentId !== 'all' ? selectedStudentId : 'EST-2026-042'}')" style="font-weight: 900; padding: 10px 18px; border-radius: 20px; font-size: 13px; box-shadow: 0 4px 14px rgba(245,158,11,0.4); background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: #0b132b; display: flex; align-items: center; gap: 6px;">
-                    <span>âš¡</span> <span>Generar QR por Estudiante (Todos los Cursos de Boleta)</span>
+                    <span>⚡</span> <span>Generar QR por Estudiante (Todos los Cursos de Boleta)</span>
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookStickerSheet()" style="font-weight: 800; padding: 10px 16px; border-radius: 20px; font-size: 12.5px;">
-                    ðŸ–¨ï¸ Imprimir SelecciÃ³n A4 (15 QR / Hoja)
+                    🖨️ Imprimir Selección A4 (15 QR / Hoja)
                   </button>
                 </div>
               </div>
 
-              <!-- Filtros para la GeneraciÃ³n de Stickers y SelecciÃ³n de Formato -->
+              <!-- Filtros para la Generación de Stickers y Selección de Formato -->
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; background: #ffffff; padding: 12px; border-radius: 10px; border: 1px solid #cbd5e1;">
                 <div class="form-group" style="margin:0;">
                   <label class="form-label" style="font-size: 11px;">1. Seleccionar Grado Escolar:</label>
@@ -5354,7 +5354,7 @@ const Components = {
                 </div>
 
                 <div class="form-group" style="margin:0;">
-                  <label class="form-label" style="font-size: 11px;">2. Filtrar por Estudiante EspecÃ­fico:</label>
+                  <label class="form-label" style="font-size: 11px;">2. Filtrar por Estudiante Específico:</label>
                   <select id="sticker-student-select" class="form-control" onchange="window.app.onNotebookStudentFilterChange(this.value)" style="font-size: 12.5px;">
                     <option value="all">-- Todos los Alumnos del Grado --</option>
                     ${enrollments.filter(e => e.gradeId === selectedGrade || !selectedGrade).map(e => `
@@ -5366,10 +5366,10 @@ const Components = {
                 </div>
 
                 <div class="form-group" style="margin:0;">
-                  <label class="form-label" style="font-size: 11px; font-weight: 700; color: #1e3a8a;">3. DistribuciÃ³n por Hoja A4:</label>
+                  <label class="form-label" style="font-size: 11px; font-weight: 700; color: #1e3a8a;">3. Distribución por Hoja A4:</label>
                   <select id="sticker-layout-select" class="form-control" style="font-size: 12.5px; font-weight: 800; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                    <option value="3x5" selected>ðŸ“Œ 3 Ã— 5 (15 QR por Hoja)</option>
-                    <option value="3x4">ðŸ“Œ 3 Ã— 4 (12 QR por Hoja)</option>
+                    <option value="3x5" selected>📌 3 × 5 (15 QR por Hoja)</option>
+                    <option value="3x4">📌 3 × 4 (12 QR por Hoja)</option>
                   </select>
                 </div>
               </div>
@@ -5388,20 +5388,20 @@ const Components = {
                     </div>
                     <div style="flex: 1; display: flex; flex-direction: column; gap: 2px;">
                       <span style="font-size: 8.5px; font-weight: 900; color: #dc2626; letter-spacing: 0.05em; text-transform: uppercase;">
-                        â­ I.E.P. EL EDUCADOR â€¢ SJL
+                        ⭐ I.E.P. EL EDUCADOR • SJL
                       </span>
                       <strong style="font-size: 13px; color: #0f172a; line-height: 1.2;">
                         ${st.course}
                       </strong>
                       <div style="font-size: 11px; font-weight: 700; color: #1e3a8a; margin-top: 2px;">
-                        ðŸ‘¤ ${st.studentName}
+                        👤 ${st.studentName}
                       </div>
                       <div style="font-size: 10px; color: #475569;">
-                        ðŸŽ“ ${st.grade} â€¢ CÃ³digo: ${st.studentCode}
+                        🎓 ${st.grade} • Código: ${st.studentCode}
                       </div>
                       <div style="margin-top: 6px;">
                         <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('${safePayload}')" style="font-size: 10px; padding: 3px 8px; border-radius: 12px; font-weight: 800;">
-                          ðŸ“· Probar Escaneo
+                          📷 Probar Escaneo
                         </button>
                       </div>
                     </div>
@@ -5412,14 +5412,14 @@ const Components = {
           ` : ''}
 
           <!-- =================================================================== -->
-          <!-- SUB-PESTAÃ‘A 3: INFORME DE SUPERVISIÃ“N Y SELLADO DE CUADERNOS -->
+          <!-- SUB-PESTAÑA 3: INFORME DE SUPERVISIÓN Y SELLADO DE CUADERNOS -->
           <!-- =================================================================== -->
           ${activeSubTab === 'report' ? `
             <div style="margin-bottom: 20px;">
               <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 12px; margin-bottom: 16px;">
                 <div>
                   <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 4px 0;">
-                    ðŸ“Š Informe General de Cuadernos Revisados & Sellos Otorgados
+                    📊 Informe General de Cuadernos Revisados & Sellos Otorgados
                   </h3>
                   <p style="font-size: 12px; color: var(--text-secondary); margin: 0;">
                     Consolidado de cumplimiento de tareas, cuadernos observados y sellos otorgados por el Auxiliar y Docentes.
@@ -5427,26 +5427,26 @@ const Components = {
                 </div>
                 
                 <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookGeneralReport()" style="font-weight: 800; padding: 8px 16px; border-radius: 18px;">
-                  ðŸ–¨ï¸ Imprimir Informe Oficial PDF
+                  🖨️ Imprimir Informe Oficial PDF
                 </button>
               </div>
 
-              <!-- Tarjetas de MÃ©tricas del Informe -->
+              <!-- Tarjetas de Métricas del Informe -->
               <div class="dashboard-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: 16px;">
                 <div class="card metric-card" style="border-top: 4px solid #10b981;">
-                  <span class="metric-title">Cuadernos al DÃ­a</span>
+                  <span class="metric-title">Cuadernos al Día</span>
                   <div class="metric-value highlight-green">${alDiaCount}</div>
                   <span class="metric-trend up" style="font-size: 11px;">${pctAlDia}% de Cumplimiento</span>
                 </div>
                 <div class="card metric-card" style="border-top: 4px solid #f59e0b;">
                   <span class="metric-title">Cuadernos Observados</span>
                   <div class="metric-value highlight-yellow">${observadosCount}</div>
-                  <span class="metric-trend" style="font-size: 11px; color: #b45309;">Requieren RegularizaciÃ³n</span>
+                  <span class="metric-trend" style="font-size: 11px; color: #b45309;">Requieren Regularización</span>
                 </div>
                 <div class="card metric-card" style="border-top: 4px solid #ef4444;">
                   <span class="metric-title">No Presentados</span>
                   <div class="metric-value highlight-red">${noPresentoCount}</div>
-                  <span class="metric-trend" style="font-size: 11px; color: #dc2626;">AmonestaciÃ³n / CitaciÃ³n</span>
+                  <span class="metric-trend" style="font-size: 11px; color: #dc2626;">Amonestación / Citación</span>
                 </div>
                 <div class="card metric-card" style="border-top: 4px solid var(--color-navy-800);">
                   <span class="metric-title">Total Evaluaciones</span>
@@ -5455,18 +5455,18 @@ const Components = {
                 </div>
               </div>
 
-              <!-- Filtro de BÃºsqueda en el Informe -->
+              <!-- Filtro de Búsqueda en el Informe -->
               <div style="display:flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
                 <div style="flex: 1; min-width: 200px;">
                   <label class="form-label" style="font-size: 11px;">Filtrar por Asignatura:</label>
                   <select class="form-control" onchange="window.app.onNotebookCourseFilterChange(this.value)" style="font-size: 12px;">
                     <option value="all">-- Todos los Cursos --</option>
-                    <option value="MatemÃ¡tica Avanzada" ${selectedCourseFilter === 'MatemÃ¡tica Avanzada' ? 'selected' : ''}>MatemÃ¡tica Avanzada (Prof. Roberto Silva)</option>
-                    <option value="ComunicaciÃ³n & Literatura" ${selectedCourseFilter === 'ComunicaciÃ³n & Literatura' ? 'selected' : ''}>ComunicaciÃ³n & Literatura (Miss MarÃ­a Daysi Reyes)</option>
-                    <option value="Ciencia y TecnologÃ­a" ${selectedCourseFilter === 'Ciencia y TecnologÃ­a' ? 'selected' : ''}>Ciencia y TecnologÃ­a (Miss Leyli Reyes)</option>
+                    <option value="Matemática Avanzada" ${selectedCourseFilter === 'Matemática Avanzada' ? 'selected' : ''}>Matemática Avanzada (Prof. Roberto Silva)</option>
+                    <option value="Comunicación & Literatura" ${selectedCourseFilter === 'Comunicación & Literatura' ? 'selected' : ''}>Comunicación & Literatura (Miss María Daysi Reyes)</option>
+                    <option value="Ciencia y Tecnología" ${selectedCourseFilter === 'Ciencia y Tecnología' ? 'selected' : ''}>Ciencia y Tecnología (Miss Leyli Reyes)</option>
                     <option value="Ciencias Sociales" ${selectedCourseFilter === 'Ciencias Sociales' ? 'selected' : ''}>Ciencias Sociales (Prof. Javier Vega)</option>
-                    <option value="InglÃ©s Institucional" ${selectedCourseFilter === 'InglÃ©s Institucional' ? 'selected' : ''}>InglÃ©s Institucional (Miss Andrea Ramos)</option>
-                    <option value="EPT (ComputaciÃ³n)" ${selectedCourseFilter === 'EPT (ComputaciÃ³n)' ? 'selected' : ''}>EPT (ComputaciÃ³n) (Prof. Fernando Rojas)</option>
+                    <option value="Inglés Institucional" ${selectedCourseFilter === 'Inglés Institucional' ? 'selected' : ''}>Inglés Institucional (Miss Andrea Ramos)</option>
+                    <option value="EPT (Computación)" ${selectedCourseFilter === 'EPT (Computación)' ? 'selected' : ''}>EPT (Computación) (Prof. Fernando Rojas)</option>
                   </select>
                 </div>
               </div>
@@ -5474,19 +5474,19 @@ const Components = {
               <!-- Matriz Resumen de Cuadernos por Alumno del Aula -->
               <div class="card" style="margin-bottom: 16px; background: #ffffff; border: 1px solid #cbd5e1; padding: 14px; border-radius: 10px;">
                 <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 10px 0;">
-                  ðŸ« Matriz de Estado de Cuadernos por Estudiante (4Â° de Secundaria "A")
+                  🏫 Matriz de Estado de Cuadernos por Estudiante (4° de Secundaria "A")
                 </h4>
                 <div class="table-container">
                   <table class="data-table" style="font-size: 11.5px;">
                     <thead>
                       <tr>
                         <th>Estudiante</th>
-                        <th>MatemÃ¡tica</th>
-                        <th>ComunicaciÃ³n</th>
+                        <th>Matemática</th>
+                        <th>Comunicación</th>
                         <th>Ciencias</th>
                         <th>Sociales</th>
-                        <th>InglÃ©s</th>
-                        <th>CÃ³mputo</th>
+                        <th>Inglés</th>
+                        <th>Cómputo</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -5496,7 +5496,7 @@ const Components = {
                           if (rev) {
                             return `<span class="digital-stamp ${rev.stampType}" style="font-size: 9.5px; padding: 2px 6px;">${rev.status} (${rev.score})</span>`;
                           }
-                          return `<span style="color: #94a3b8; font-size: 10px;">âšª Pendiente</span>`;
+                          return `<span style="color: #94a3b8; font-size: 10px;">⚪ Pendiente</span>`;
                         };
 
                         return `
@@ -5547,7 +5547,7 @@ const Components = {
                         <td style="font-size:11.5px; color:var(--text-secondary);">${r.teacherRemarks}</td>
                         <td style="text-align: right;">
                           <button class="btn btn-outline btn-sm" onclick="window.app.openEditReviewModal('${r.id}')" style="font-size: 11px; padding: 4px 8px;">
-                            âœï¸ Editar
+                            ✏️ Editar
                           </button>
                         </td>
                       </tr>
@@ -5578,28 +5578,28 @@ const Components = {
           <div class="card-header">
             <div>
               <div style="display: flex; align-items: center; gap: 8px;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl);">ðŸ—„ï¸ Motor de Base de Datos y Persistencia - I.E.P. "El Educador"</h2>
-                <span class="status-badge status-approved">ðŸŸ¢ Motor Activo (db.json)</span>
+                <h2 class="card-title" style="font-size: var(--font-size-xl);">🗄️ Motor de Base de Datos y Persistencia - I.E.P. "El Educador"</h2>
+                <span class="status-badge status-approved">🟢 Motor Activo (db.json)</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                S.J.L. â€¢ UGEL 05 â€¢ SincronizaciÃ³n multi-dispositivo en tiempo real y copias de seguridad garantizadas.
+                S.J.L. • UGEL 05 • Sincronización multi-dispositivo en tiempo real y copias de seguridad garantizadas.
               </p>
             </div>
             <div style="display: flex; gap: var(--space-2);">
               <a href="/api/backup" download="backup_colegio_educador.json" class="btn btn-navy btn-sm" style="text-decoration:none;">
-                ðŸ“¥ Descargar Backup (.JSON)
+                📥 Descargar Backup (.JSON)
               </a>
               <button class="btn btn-gold btn-sm" onclick="window.app.showSQLSchemaModal()">
-                ðŸ“„ Ver Esquema SQL (.SQL)
+                📄 Ver Esquema SQL (.SQL)
               </button>
             </div>
           </div>
 
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
             <div class="card" style="padding: var(--space-4); border-left: 4px solid var(--color-green-500); background: #f8faf9;">
-              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Estado de SincronizaciÃ³n</span>
-              <div style="font-size: 18px; font-weight: 800; color: var(--color-green-600); margin-top: 2px;">ðŸŸ¢ Multi-Dispositivo OK</div>
-              <span style="font-size: 10px; color: var(--text-muted);">SincronizaciÃ³n en vivo</span>
+              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Estado de Sincronización</span>
+              <div style="font-size: 18px; font-weight: 800; color: var(--color-green-600); margin-top: 2px;">🟢 Multi-Dispositivo OK</div>
+              <span style="font-size: 10px; color: var(--text-muted);">Sincronización en vivo</span>
             </div>
 
             <div class="card" style="padding: var(--space-4); border-left: 4px solid var(--color-navy-700); background: var(--bg-surface-subtle);">
@@ -5617,13 +5617,13 @@ const Components = {
 
           <div class="table-container">
             <table class="data-table">
-              <thead><tr><th>Tabla</th><th>DescripciÃ³n</th><th>Persistencia</th><th style="text-align:center;">Registros</th><th>Estado</th></tr></thead>
+              <thead><tr><th>Tabla</th><th>Descripción</th><th>Persistencia</th><th style="text-align:center;">Registros</th><th>Estado</th></tr></thead>
               <tbody>
-                <tr><td><code>tb_usuarios</code></td><td>Docentes, Personal, Alumnos y Padres</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${usersCount}</strong></td><td><span class="status-badge status-approved">Al DÃ­a</span></td></tr>
-                <tr><td><code>tb_matriculas</code></td><td>Expedientes y Seguimiento UGEL 05</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${enrollmentsCount}</strong></td><td><span class="status-badge status-approved">Al DÃ­a</span></td></tr>
-                <tr><td><code>tb_cuadernos_qr</code></td><td>Revisiones y sellos Ã³pticos QR</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${reviewsCount}</strong></td><td><span class="status-badge status-approved">Al DÃ­a</span></td></tr>
-                <tr><td><code>tb_calificaciones</code></td><td>Notas y Actas Oficiales 2026</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${coursesCount}</strong></td><td><span class="status-badge status-approved">Al DÃ­a</span></td></tr>
-                <tr><td><code>tb_pensiones</code></td><td>RecaudaciÃ³n acumulada (S/ 25,130.00)</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${state.payments.length}</strong></td><td><span class="status-badge status-approved">Al DÃ­a</span></td></tr>
+                <tr><td><code>tb_usuarios</code></td><td>Docentes, Personal, Alumnos y Padres</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${usersCount}</strong></td><td><span class="status-badge status-approved">Al Día</span></td></tr>
+                <tr><td><code>tb_matriculas</code></td><td>Expedientes y Seguimiento UGEL 05</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${enrollmentsCount}</strong></td><td><span class="status-badge status-approved">Al Día</span></td></tr>
+                <tr><td><code>tb_cuadernos_qr</code></td><td>Revisiones y sellos ópticos QR</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${reviewsCount}</strong></td><td><span class="status-badge status-approved">Al Día</span></td></tr>
+                <tr><td><code>tb_calificaciones</code></td><td>Notas y Actas Oficiales 2026</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${coursesCount}</strong></td><td><span class="status-badge status-approved">Al Día</span></td></tr>
+                <tr><td><code>tb_pensiones</code></td><td>Recaudación acumulada (S/ 25,130.00)</td><td>Servidor (db.json)</td><td style="text-align:center;"><strong>${state.payments.length}</strong></td><td><span class="status-badge status-approved">Al Día</span></td></tr>
               </tbody>
             </table>
           </div>
@@ -5632,7 +5632,7 @@ const Components = {
     `;
   },
 
-  // GestiÃ³n Integral de Usuarios, Perfiles y ConfiguraciÃ³n de PestaÃ±as (Administrador)
+  // Gestión Integral de Usuarios, Perfiles y Configuración de Pestañas (Administrador)
   renderUserAndEnrollmentManagement(state) {
     const allUsers = state.systemUsers || initialData.systemUsers || [];
     const enrollments = state.enrollments || initialData.enrollments || [];
@@ -5655,7 +5655,7 @@ const Components = {
     const estudiantesCount = allUsers.filter(u => u.role === "Estudiante" || u.role === "Alumno").length;
     const apoderadosCount = allUsers.filter(u => u.role === "Apoderado" || u.role === "Padre").length;
 
-    // Rol activo para el editor de pestaÃ±as
+    // Rol activo para el editor de pestañas
     const targetNavRole = state.selectedNavConfigRole || "docente";
     const currentRoleTabs = navConfigs[targetNavRole] || initialData.navigationTabsConfig[targetNavRole] || [];
 
@@ -5663,33 +5663,33 @@ const Components = {
       <div class="fade-in">
         <div class="card" style="margin-bottom: var(--space-6);">
           
-          <!-- Encabezado Principal del MÃ³dulo -->
+          <!-- Encabezado Principal del Módulo -->
           <div class="card-header" style="flex-wrap: wrap; gap: 12px; border-bottom: 2px solid #e2e8f0; padding-bottom: 16px;">
             <div>
               <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <h2 class="card-title" style="font-size: var(--font-size-xl); margin: 0; color: var(--color-navy-900);">
-                  ðŸ‘¥ Centro de Control de Cuentas, Perfiles & PestaÃ±as
+                  👥 Centro de Control de Cuentas, Perfiles & Pestañas
                 </h2>
                 <span class="status-badge status-approved" style="background: #e0e7ff; color: #3730a3; font-weight: 800;">
-                  â­ MÃ³dulo Exclusivo Administrador
+                  ⭐ Módulo Exclusivo Administrador
                 </span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                I.E.P. "El Educador" â€¢ UGEL 05 â€¢ CreaciÃ³n de cuentas institucionales, asignaciÃ³n de roles y control de menÃºs visibles.
+                I.E.P. "El Educador" • UGEL 05 • Creación de cuentas institucionales, asignación de roles y control de menús visibles.
               </p>
             </div>
 
             <div style="display: flex; gap: 8px; flex-wrap: wrap;">
               <button class="btn btn-navy btn-sm" onclick="window.app.openCreateUserModal()" style="font-weight: 800; display: flex; align-items: center; gap: 6px;">
-                <span>âž•</span> Crear Nuevo Usuario
+                <span>➕</span> Crear Nuevo Usuario
               </button>
               <button class="btn btn-gold btn-sm" onclick="window.app.openCreateEnrollmentModal()" style="font-weight: 800; display: flex; align-items: center; gap: 6px;">
-                <span>ðŸ“</span> Nueva MatrÃ­cula
+                <span>📝</span> Nueva Matrícula
               </button>
             </div>
           </div>
 
-          <!-- MÃ©tricas Resumen de Cuentas -->
+          <!-- Métricas Resumen de Cuentas -->
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 16px 0;">
             <div class="card" style="padding: 10px 14px; border-left: 4px solid var(--color-navy-700); background: #f8fafc;">
               <span style="font-size: 10.5px; font-weight: 700; color: #64748b; text-transform: uppercase;">Total Usuarios</span>
@@ -5713,16 +5713,16 @@ const Components = {
             </div>
           </div>
 
-          <!-- PestaÃ±as de NavegaciÃ³n del MÃ³dulo -->
+          <!-- Pestañas de Navegación del Módulo -->
           <div style="display: flex; gap: 8px; border-bottom: 2px solid #e2e8f0; margin-bottom: 16px; flex-wrap: wrap;">
             <button class="btn ${activeTab === 'users' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setUserManagementTab('users')" style="font-weight: 800; font-size: 12.5px;">
-              ðŸ‘¥ Directorio de Cuentas (${allUsers.length})
+              👥 Directorio de Cuentas (${allUsers.length})
             </button>
             <button class="btn ${activeTab === 'tabs' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setUserManagementTab('tabs')" style="font-weight: 800; font-size: 12.5px;">
-              âš™ï¸ Editor de PestaÃ±as & MenÃºs por Perfil
+              ⚙️ Editor de Pestañas & Menús por Perfil
             </button>
             <button class="btn ${activeTab === 'enrollments' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setUserManagementTab('enrollments')" style="font-weight: 800; font-size: 12.5px;">
-              ðŸ“ Expedientes de MatrÃ­cula UGEL 05 (${enrollments.length})
+              📝 Expedientes de Matrícula UGEL 05 (${enrollments.length})
             </button>
           </div>
 
@@ -5731,7 +5731,7 @@ const Components = {
                ========================================================================= -->
           ${activeTab === 'users' ? `
             <div>
-              <!-- Barra de Filtros por Rol y BÃºsqueda -->
+              <!-- Barra de Filtros por Rol y Búsqueda -->
               <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 10px 14px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
                 <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
                   <span style="font-size: 12px; font-weight: 800; color: #334155;">Filtrar Rol:</span>
@@ -5743,7 +5743,7 @@ const Components = {
                 </div>
 
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <input type="text" id="user-search-input" class="form-control" placeholder="ðŸ” Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
+                  <input type="text" id="user-search-input" class="form-control" placeholder="🔍 Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
                 </div>
               </div>
 
@@ -5752,11 +5752,11 @@ const Components = {
                 <table class="data-table" id="users-table-list">
                   <thead>
                     <tr>
-                      <th style="width: 140px;">CÃ³digo / Usuario</th>
+                      <th style="width: 140px;">Código / Usuario</th>
                       <th>Nombre & Correo</th>
                       <th>Perfil / Rol</th>
-                      <th>ContraseÃ±a</th>
-                      <th>Especialidad / Grado / VÃ­nculo</th>
+                      <th>Contraseña</th>
+                      <th>Especialidad / Grado / Vínculo</th>
                       <th>Privilegios</th>
                       <th style="text-align: center; width: 140px;">Acciones</th>
                     </tr>
@@ -5773,7 +5773,7 @@ const Components = {
                                              isEstudiante ? "background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0;" :
                                              "background: #fffbeb; color: #b45309; border: 1px solid #fde68a;";
                       
-                      const roleEmoji = isDirectivo ? "ðŸ›¡ï¸" : isDocente ? "ðŸ‘¨â€ðŸ«" : isEstudiante ? "ðŸŽ’" : "ðŸ‘¨â€ðŸ‘©â€ðŸ‘§";
+                      const roleEmoji = isDirectivo ? "🛡️" : isDocente ? "👨‍🏫" : isEstudiante ? "🎒" : "👨‍👩‍👧";
 
                       return `
                         <tr>
@@ -5798,14 +5798,14 @@ const Components = {
                           <td>
                             <div style="font-size: 12px; line-height: 1.3;">
                               <strong>${u.detail || (isDocente ? u.subject : isEstudiante ? u.gradeLevel : isApoderado ? u.studentName : '--') || '--'}</strong>
-                              ${u.weeklyHours ? `<br><span style="font-size: 10.5px; color: #64748b;">â±ï¸ ${u.weeklyHours}</span>` : ''}
-                              ${u.dni ? `<br><span style="font-size: 10.5px; color: #64748b;">ðŸ†” DNI: ${u.dni}</span>` : ''}
+                              ${u.weeklyHours ? `<br><span style="font-size: 10.5px; color: #64748b;">⏱️ ${u.weeklyHours}</span>` : ''}
+                              ${u.dni ? `<br><span style="font-size: 10.5px; color: #64748b;">🆔 DNI: ${u.dni}</span>` : ''}
                             </div>
                           </td>
                           <td>
                             ${isDocente || isDirectivo ? `
                               <span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}" style="${u.hasAdminPrivilege ? 'background:#fef08a; color:#854d0e; font-weight:800;' : ''}">
-                                ${u.hasAdminPrivilege ? 'â­ Permisos Admin' : 'EstÃ¡ndar'}
+                                ${u.hasAdminPrivilege ? '⭐ Permisos Admin' : 'Estándar'}
                               </span>
                             ` : `
                               <span style="font-size: 11px; color: #94a3b8;">--</span>
@@ -5815,19 +5815,19 @@ const Components = {
                             <div style="display: flex; gap: 4px; justify-content: center;">
                               ${isEstudiante ? `
                                 <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${u.code || u.id}')" title="Ver Tarjeta QR de Asistencia (Sin Foto)" style="padding: 4px 8px; font-size: 11px; font-weight: bold;">
-                                  ðŸ“± QR
+                                  📱 QR
                                 </button>
                               ` : ''}
-                              <button class="btn btn-outline btn-sm" onclick="window.app.openEditUserModal('${u.id}')" title="Editar datos y contraseÃ±a" style="padding: 4px 8px;">
-                                âœï¸
+                              <button class="btn btn-outline btn-sm" onclick="window.app.openEditUserModal('${u.id}')" title="Editar datos y contraseña" style="padding: 4px 8px;">
+                                ✏️
                               </button>
                               ${isDocente ? `
                                 <button class="btn btn-sm ${u.hasAdminPrivilege ? 'btn-outline' : 'btn-gold'}" onclick="window.app.toggleTeacherAdminPrivilege('${u.id}')" title="${u.hasAdminPrivilege ? 'Revocar Permiso Admin' : 'Conceder Permiso Admin'}" style="padding: 4px 8px; font-size: 11px;">
-                                  ${u.hasAdminPrivilege ? 'â­' : 'â˜†'}
+                                  ${u.hasAdminPrivilege ? '⭐' : '☆'}
                                 </button>
                               ` : ''}
                               <button class="btn btn-outline btn-sm" onclick="window.app.confirmDeleteUser('${u.id}')" title="Eliminar usuario" style="padding: 4px 8px; color: var(--color-red-600);">
-                                ðŸ—‘ï¸
+                                🗑️
                               </button>
                             </div>
                           </td>
@@ -5841,7 +5841,7 @@ const Components = {
           ` : ''}
 
           <!-- =========================================================================
-               VISTA 2: EDITOR DE PESTAÃ‘AS & MENÃšS POR PERFIL
+               VISTA 2: EDITOR DE PESTAÑAS & MENÚS POR PERFIL
                ========================================================================= -->
           ${activeTab === 'tabs' ? `
             <div>
@@ -5849,7 +5849,7 @@ const Components = {
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                   <div>
                     <h3 style="font-size: 14px; font-weight: 800; color: #1e3a8a; margin: 0 0 4px;">
-                      ðŸ› ï¸ ConfiguraciÃ³n de PestaÃ±as Visibles para Perfiles
+                      🛠️ Configuración de Pestañas Visibles para Perfiles
                     </h3>
                     <p style="font-size: 12px; color: #1e40af; margin: 0;">
                       Active, desactive o renombre los espacios y accesos directos que cada perfil (Docente, Estudiante, Padre de Familia, Director) puede visualizar en la barra lateral.
@@ -5859,16 +5859,16 @@ const Components = {
                   <div style="display: flex; gap: 8px; align-items: center;">
                     <label style="font-size: 12px; font-weight: 800; color: #1e3a8a;">Perfil a Editar:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold;" onchange="window.app.onSelectNavConfigRole(this.value)">
-                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>ðŸ‘¨â€ðŸ« Panel Docente</option>
-                      <option value="estudiante" ${targetNavRole === 'estudiante' ? 'selected' : ''}>ðŸŽ’ Portal del Estudiante</option>
-                      <option value="padre" ${targetNavRole === 'padre' ? 'selected' : ''}>ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ Portal de Familias (Apoderados)</option>
-                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>ðŸŽ“ DirecciÃ³n General</option>
+                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>👨‍🏫 Panel Docente</option>
+                      <option value="estudiante" ${targetNavRole === 'estudiante' ? 'selected' : ''}>🎒 Portal del Estudiante</option>
+                      <option value="padre" ${targetNavRole === 'padre' ? 'selected' : ''}>👨‍👩‍👧 Portal de Familias (Apoderados)</option>
+                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>🎓 Dirección General</option>
                     </select>
                   </div>
                 </div>
               </div>
 
-              <!-- Matriz de PestaÃ±as del Perfil Seleccionado -->
+              <!-- Matriz de Pestañas del Perfil Seleccionado -->
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; margin-bottom: 18px;">
                 ${currentRoleTabs.map(tab => {
                   const isEnabled = tab.enabled !== false;
@@ -5876,14 +5876,14 @@ const Components = {
                     <div class="card" style="padding: 14px; border: 1px solid ${isEnabled ? '#cbd5e1' : '#f1f5f9'}; background: ${isEnabled ? '#ffffff' : '#f8fafc'}; opacity: ${isEnabled ? '1' : '0.65'};">
                       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                         <div style="display: flex; align-items: center; gap: 8px;">
-                          <span style="font-size: 18px;">ðŸ“Œ</span>
+                          <span style="font-size: 18px;">📌</span>
                           <strong style="font-size: 13px; color: var(--color-navy-900);">${tab.id}</strong>
                         </div>
                         
                         <!-- Toggle Switch -->
                         <label style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; cursor: pointer; color: ${isEnabled ? '#047857' : '#94a3b8'};">
                           <input type="checkbox" ${isEnabled ? 'checked' : ''} onchange="window.app.toggleNavTab('${targetNavRole}', '${tab.id}', this.checked)" />
-                          <span>${isEnabled ? 'ðŸŸ¢ VISIBLE' : 'âšª OCULTO'}</span>
+                          <span>${isEnabled ? '🟢 VISIBLE' : '⚪ OCULTO'}</span>
                         </label>
                       </div>
 
@@ -5900,7 +5900,7 @@ const Components = {
 
                       <div style="margin-top: 8px; text-align: right;">
                         <button class="btn btn-outline btn-sm" onclick="window.app.saveSingleNavTab('${targetNavRole}', '${tab.id}')" style="font-size: 11px; padding: 2px 10px; font-weight: bold;">
-                          âœ“ Guardar Texto
+                          ✓ Guardar Texto
                         </button>
                       </div>
                     </div>
@@ -5908,39 +5908,39 @@ const Components = {
                 }).join('')}
               </div>
 
-              <!-- Acciones Globales del Editor de PestaÃ±as -->
+              <!-- Acciones Globales del Editor de Pestañas -->
               <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 12px 16px; border-radius: 8px; border: 1px solid #e2e8f0;">
                 <span style="font-size: 12px; color: #64748b;">
                   * Los cambios de visibilidad y nombres se aplican inmediatamente a todos los usuarios con el rol <strong>${targetNavRole.toUpperCase()}</strong>.
                 </span>
                 <button class="btn btn-outline btn-sm" onclick="window.app.resetNavTabsToDefault('${targetNavRole}')" style="color: var(--color-red-600); border-color: var(--color-red-200); font-weight: bold;">
-                  ðŸ”„ Restaurar MenÃºs por Defecto
+                  🔄 Restaurar Menús por Defecto
                 </button>
               </div>
             </div>
           ` : ''}
 
           <!-- =========================================================================
-               VISTA 3: EXPEDIENTES DE MATRÃCULA Y FICHA ÃšNICA (FUM - UGEL 05)
+               VISTA 3: EXPEDIENTES DE MATRÍCULA Y FICHA ÚNICA (FUM - UGEL 05)
                ========================================================================= -->
           ${activeTab === 'enrollments' ? `
             <div>
               <div class="card-header" style="margin-bottom: var(--space-3); border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px; flex-wrap: wrap; gap: 10px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">ðŸ“ PadrÃ³n Oficial de MatrÃ­culas & Fichas Ãšnicas (FUM - UGEL 05)</h3>
+                    <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">📝 Padrón Oficial de Matrículas & Fichas Únicas (FUM - UGEL 05)</h3>
                     <span class="status-badge status-approved">${enrollments.length} Expedientes</span>
                   </div>
                   <p style="font-size: 12px; color: var(--text-muted); margin: 4px 0 0 0;">
-                    Registro oficial de estudiantes, cÃ³digo SIAGIE, historial de salud y documentos digitales sustentatorios.
+                    Registro oficial de estudiantes, código SIAGIE, historial de salud y documentos digitales sustentatorios.
                   </p>
                 </div>
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-navy btn-sm" onclick="window.app.openCreateEnrollmentModal()" style="font-weight: 800; display: flex; align-items: center; gap: 6px;">
-                    <span>âž•</span> + Nueva MatrÃ­cula / Ficha FUM
+                    <span>➕</span> + Nueva Matrícula / Ficha FUM
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800;">
-                    ðŸ–¨ï¸ Imprimir PadrÃ³n
+                    🖨️ Imprimir Padrón
                   </button>
                 </div>
               </div>
@@ -5949,12 +5949,12 @@ const Components = {
                 <table class="data-table">
                   <thead>
                     <tr>
-                      <th>CÃ³digo / SIAGIE</th>
+                      <th>Código / SIAGIE</th>
                       <th>Estudiante / Nacimiento</th>
                       <th>Grado Escolar</th>
-                      <th>Ficha MÃ©dica & Salud</th>
+                      <th>Ficha Médica & Salud</th>
                       <th>Apoderado / Contacto</th>
-                      <th>Requisitos & TrÃ¡mite</th>
+                      <th>Requisitos & Trámite</th>
                       <th style="text-align:center;">Acciones FUM</th>
                     </tr>
                   </thead>
@@ -5973,7 +5973,7 @@ const Components = {
                           </td>
                           <td>
                             <strong>${m.studentName}</strong><br>
-                            <span style="font-size: 10.5px; color: #64748b;">DNI: ${m.dni} â€¢ ${m.gender || 'Femenino'} â€¢ ${m.birthDate || '--'}</span>
+                            <span style="font-size: 10.5px; color: #64748b;">DNI: ${m.dni} • ${m.gender || 'Femenino'} • ${m.birthDate || '--'}</span>
                           </td>
                           <td>
                             <span style="font-weight: 800; color: #0b132b;">${m.grade}</span><br>
@@ -5982,39 +5982,39 @@ const Components = {
                           <td>
                             <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 2px;">
                               <span style="font-size: 10.5px; font-weight: 800; background: #eff6ff; color: #1e40af; padding: 1px 5px; border-radius: 4px; border: 1px solid #bfdbfe;">
-                                ðŸ©¸ ${m.bloodType || 'O+'}
+                                🩸 ${m.bloodType || 'O+'}
                               </span>
                               <span style="font-size: 10.5px; font-weight: 700; background: #ecfdf5; color: #065f46; padding: 1px 5px; border-radius: 4px; border: 1px solid #a7f3d0;">
-                                ðŸ¥ ${m.insurance || 'SIS'}
+                                🏥 ${m.insurance || 'SIS'}
                               </span>
                             </div>
-                            <span style="font-size: 10px; color: #b45309;">âš ï¸ ${m.allergies || 'Sin alergias'}</span>
+                            <span style="font-size: 10px; color: #b45309;">⚠️ ${m.allergies || 'Sin alergias'}</span>
                           </td>
                           <td>
                             <strong>${m.guardian}</strong><br>
-                            <span style="font-size: 10.5px; color: #64748b;">ðŸ“ž ${m.guardianPhone || m.emergencyPhone || '987-654-321'}</span>
+                            <span style="font-size: 10.5px; color: #64748b;">📞 ${m.guardianPhone || m.emergencyPhone || '987-654-321'}</span>
                           </td>
                           <td>
                             <span class="status-badge ${m.status.includes('Matriculado') ? 'status-approved' : 'status-pending'}" style="font-size: 10.5px;">
                               ${m.status}
                             </span><br>
                             <span style="font-size: 10px; font-weight: 800; color: ${isComplete ? '#047857' : '#b45309'}; display: inline-block; margin-top: 3px;">
-                              ðŸ“Ž ${deliveredCount}/6 Requisitos Digitales
+                              📎 ${deliveredCount}/6 Requisitos Digitales
                             </span>
                           </td>
                           <td style="text-align:center; white-space: nowrap;">
                             <div style="display: flex; gap: 4px; justify-content: center;">
-                              <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${m.studentCode}')" title="Generar / Ver CÃ³digo QR de Asistencia (Sin Foto)" style="font-size: 11px; padding: 4px 8px; font-weight: bold;">
-                                ðŸ“± QR
+                              <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${m.studentCode}')" title="Generar / Ver Código QR de Asistencia (Sin Foto)" style="font-size: 11px; padding: 4px 8px; font-weight: bold;">
+                                📱 QR
                               </button>
                               <button class="btn btn-navy btn-sm" onclick="window.app.openEditEnrollmentFUMModal('${m.id}')" title="Editar Ficha FUM, Salud y Documentos" style="font-size: 11px; padding: 4px 8px;">
-                                âœï¸ FUM
+                                ✏️ FUM
                               </button>
-                              <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${m.id}')" title="Imprimir Ficha Ãšnica Oficial A4" style="font-size: 11px; padding: 4px 8px;">
-                                ðŸ“„ FUM A4
+                              <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${m.id}')" title="Imprimir Ficha Única Oficial A4" style="font-size: 11px; padding: 4px 8px;">
+                                📄 FUM A4
                               </button>
                               <button class="btn btn-outline btn-sm" onclick="window.app.openDocumentsChecklistModal('${m.id}')" title="Ver y Validar Documentos Digitales" style="font-size: 11px; padding: 4px 8px; color: #047857;">
-                                ðŸ“Ž Docs
+                                📎 Docs
                               </button>
                             </div>
                           </td>
@@ -6038,14 +6038,14 @@ const Components = {
       <div class="fade-in">
         <div class="welcome-banner" style="background: linear-gradient(135deg, var(--color-navy-950) 0%, var(--color-navy-900) 100%);">
           <div class="welcome-content">
-            <h1 class="welcome-title">DirecciÃ³n General: <span>${user.name}</span></h1>
-            <p class="welcome-subtitle">SupervisiÃ³n pedagÃ³gica institucional â€¢ I.E.P. "El Educador" (S.J.L. - 21 aÃ±os dejando huellas).</p>
+            <h1 class="welcome-title">Dirección General: <span>${user.name}</span></h1>
+            <p class="welcome-subtitle">Supervisión pedagógica institucional • I.E.P. "El Educador" (S.J.L. - 21 años dejando huellas).</p>
 
             <div class="metrics-strip">
-              <div class="metric-card-mini"><span class="metric-label">MatrÃ­cula Total</span><span class="metric-val highlight-yellow">${user.totalStudents}</span></div>
+              <div class="metric-card-mini"><span class="metric-label">Matrícula Total</span><span class="metric-val highlight-yellow">${user.totalStudents}</span></div>
               <div class="metric-card-mini"><span class="metric-label">Plana Docente</span><span class="metric-val highlight-green">${user.totalTeachers}</span></div>
               <div class="metric-card-mini"><span class="metric-label">Asistencia Promedio</span><span class="metric-val highlight-green">${user.avgAttendance}</span></div>
-              <div class="metric-card-mini"><span class="metric-label">RecaudaciÃ³n Agosto</span><span class="metric-val highlight-green">S/ 25,130.00</span></div>
+              <div class="metric-card-mini"><span class="metric-label">Recaudación Agosto</span><span class="metric-val highlight-green">S/ 25,130.00</span></div>
             </div>
           </div>
         </div>
@@ -6055,7 +6055,7 @@ const Components = {
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Muro de Circulares e Informes</h3>
-                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">ðŸ“„ Ver Informe NÂ° 003</button>
+                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">📄 Ver Informe N° 003</button>
               </div>
               <div class="announcement-list">
                 ${state.announcements.map(a => `
@@ -6070,16 +6070,16 @@ const Components = {
           </div>
           <div class="section-column">
             <div class="card">
-              <div class="card-header"><h3 class="card-title">SupervisiÃ³n AcadÃ©mica</h3></div>
+              <div class="card-header"><h3 class="card-title">Supervisión Académica</h3></div>
               <div style="display:flex; flex-direction:column; gap: var(--space-3);">
                 <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 800; padding: 10px; font-size: 13px; text-align: left; display: flex; align-items: center; gap: 8px;">
-                  <span>ðŸšª</span>
-                  <span>Registro de Ingreso & Asistencia QR (PorterÃ­a)</span>
+                  <span>🚪</span>
+                  <span>Registro de Ingreso & Asistencia QR (Portería)</span>
                 </button>
-                <button class="btn btn-navy" onclick="window.app.navigate('cuadernos-qr')">ðŸ“· EscÃ¡ner Cuadernos QR</button>
+                <button class="btn btn-navy" onclick="window.app.navigate('cuadernos-qr')">📷 Escáner Cuadernos QR</button>
                 <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">Registro de Notas Oficiales</button>
                 <button class="btn btn-navy" onclick="window.app.navigate('horarios')">Horarios Escolares</button>
-                <button class="btn btn-navy" onclick="window.app.navigate('silabus')">SÃ­labus AcadÃ©micos</button>
+                <button class="btn btn-navy" onclick="window.app.navigate('silabus')">Sílabus Académicos</button>
               </div>
             </div>
           </div>
@@ -6100,7 +6100,7 @@ const Components = {
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
               ${hasAdminPrivilege ? `
                 <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: var(--color-yellow-400); border: 1px solid var(--color-yellow-500);">
-                  â­ PRIVILEGIOS DE EDICIÃ“N HABILITADOS
+                  ⭐ PRIVILEGIOS DE EDICIÓN HABILITADOS
                 </span>
               ` : `
                 <span class="status-badge status-approved">PERFIL DOCENTE</span>
@@ -6108,7 +6108,7 @@ const Components = {
             </div>
             <h1 class="welcome-title">Panel Docente: <span>${user.name}</span></h1>
             <p class="welcome-subtitle">
-              Escaneo Ã³ptico de cuadernos con cÃ¡mara de celular, registro de notas y asistencia.
+              Escaneo óptico de cuadernos con cámara de celular, registro de notas y asistencia.
             </p>
 
             <div class="metrics-strip">
@@ -6121,29 +6121,29 @@ const Components = {
 
         <div style="display: flex; gap: var(--space-3); margin-bottom: var(--space-6); flex-wrap: wrap;">
           <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 900; font-size: 13px; padding: 9px 18px; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">
-            <span>ðŸšª</span>
+            <span>🚪</span>
             <span>Registro de Ingreso & Asistencia QR</span>
           </button>
           <button class="btn btn-gold" onclick="window.app.navigate('cuadernos-qr')" style="font-weight: 800;">
-            ðŸ“· Abrir EscÃ¡ner QR de Cuadernos
+            📷 Abrir Escáner QR de Cuadernos
           </button>
-          <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">âœï¸ Registrar Notas</button>
-          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">ðŸ“„ Boleta Oficial MINEDU 2026</button>
+          <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">✏️ Registrar Notas</button>
+          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">📄 Boleta Oficial MINEDU 2026</button>
           <button class="btn btn-outline" onclick="window.app.navigate('horarios')">Ver Horario</button>
         </div>
 
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Registro RÃ¡pido de Calificaciones - 4to Sec 'A'</h3>
+            <h3 class="card-title">Registro Rápido de Calificaciones - 4to Sec 'A'</h3>
           </div>
           <div class="table-container">
             <table class="data-table">
-              <thead><tr><th>CÃ³digo</th><th>Estudiante</th><th>Asistencia</th><th>Cuaderno QR</th><th>Nota 3er Bim</th><th>AcciÃ³n</th></tr></thead>
+              <thead><tr><th>Código</th><th>Estudiante</th><th>Asistencia</th><th>Cuaderno QR</th><th>Nota 3er Bim</th><th>Acción</th></tr></thead>
               <tbody>
                 ${students.map(s => `
                   <tr>
                     <td><code>${s.id}</code></td><td><strong>${s.name}</strong></td><td>${s.attendance}</td>
-                    <td><span class="status-badge ${s.notebookStatus && s.notebookStatus.includes('Al DÃ­a') ? 'status-approved' : 'status-failed'}">${s.notebookStatus}</span></td>
+                    <td><span class="status-badge ${s.notebookStatus && s.notebookStatus.includes('Al Día') ? 'status-approved' : 'status-failed'}">${s.notebookStatus}</span></td>
                     <td><input type="number" min="0" max="20" id="grade-input-${s.id}" value="${s.grade}" style="width: 70px; padding: 4px 8px; font-weight: bold;" /></td>
                     <td><button class="btn btn-navy btn-sm" onclick="window.app.saveStudentGrade('${s.id}')">Guardar</button></td>
                   </tr>
@@ -6159,7 +6159,7 @@ const Components = {
   // Dashboard - Padre
   renderParentDashboard(state, user) {
     const announcements = state.announcements || initialData.announcements;
-    const studentName = "SofÃ­a MÃ©ndez Flores";
+    const studentName = "Sofía Méndez Flores";
     const studentGrade = "4to de Secundaria 'A'";
 
     return `
@@ -6167,10 +6167,10 @@ const Components = {
         <div class="welcome-banner">
           <div class="welcome-content">
             <h1 class="welcome-title">Portal de Familias: <span>${user.name}</span></h1>
-            <p class="welcome-subtitle">I.E.P. "El Educador" (21 aÃ±os dejando huellas) â€¢ Seguimiento acadÃ©mico de <strong>${studentName}</strong> (${studentGrade}).</p>
+            <p class="welcome-subtitle">I.E.P. "El Educador" (21 años dejando huellas) • Seguimiento académico de <strong>${studentName}</strong> (${studentGrade}).</p>
             <div class="metrics-strip">
-              <div class="metric-card-mini"><span class="metric-label">Estudiante</span><span class="metric-val highlight-yellow">SofÃ­a MÃ©ndez</span></div>
-              <div class="metric-card-mini"><span class="metric-label">Cuadernos QR</span><span class="metric-val highlight-green">5/6 Al DÃ­a</span></div>
+              <div class="metric-card-mini"><span class="metric-label">Estudiante</span><span class="metric-val highlight-yellow">Sofía Méndez</span></div>
+              <div class="metric-card-mini"><span class="metric-label">Cuadernos QR</span><span class="metric-val highlight-green">5/6 Al Día</span></div>
               <div class="metric-card-mini"><span class="metric-label">Asistencia</span><span class="metric-val highlight-green">98.5%</span></div>
             </div>
           </div>
@@ -6178,30 +6178,30 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.showOfficialFUMPrintModal('MATR-2026-001')">
-            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">ðŸ“„ Ficha de MatrÃ­cula (FUM)</h4>
-            <span style="font-size:12px; color:#047857;">Expediente SIAGIE y ficha mÃ©dica oficial 2026</span>
+            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">📄 Ficha de Matrícula (FUM)</h4>
+            <span style="font-size:12px; color:#047857;">Expediente SIAGIE y ficha médica oficial 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">â° Horario de Clases</h4>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">⏰ Horario de Clases</h4>
             <span style="font-size:12px; color:var(--text-muted);">${studentName} (${studentGrade})</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-navy-600);" onclick="window.app.navigate('silabus')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">ðŸ“š SÃ­labus Curriculares</h4>
-            <span style="font-size:12px; color:var(--text-muted);">ProgramaciÃ³n y competencias 2026</span>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">📚 Sílabus Curriculares</h4>
+            <span style="font-size:12px; color:var(--text-muted);">Programación y competencias 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-600);" onclick="window.app.navigate('cuadernos-qr')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">ðŸ“– Cuadernos QR</h4>
-            <span style="font-size:12px; color:var(--text-muted);">5 de 6 cuadernos al dÃ­a</span>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">📖 Cuadernos QR</h4>
+            <span style="font-size:12px; color:var(--text-muted);">5 de 6 cuadernos al día</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-red-500);" onclick="window.app.navigate('asistencia')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">ðŸ“… Control de Asistencia</h4>
-            <span style="font-size:12px; color:var(--text-muted);">Puntualidad biomÃ©trica (98.5%)</span>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">📅 Control de Asistencia</h4>
+            <span style="font-size:12px; color:var(--text-muted);">Puntualidad biométrica (98.5%)</span>
           </div>
         </div>
 
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Ãšltimos Informes y Circulares Institucionales</h3>
+            <h3 class="card-title">Últimos Informes y Circulares Institucionales</h3>
             <button class="btn btn-outline btn-sm" onclick="window.app.navigate('comunicados')">Ver Todos</button>
           </div>
           <div class="announcement-list">
@@ -6227,8 +6227,8 @@ const Components = {
       <div class="fade-in">
         <div class="welcome-banner">
           <div class="welcome-content">
-            <h1 class="welcome-title">Â¡Bienvenida, <span>${user.name}</span>!</h1>
-            <p class="welcome-subtitle">I.E.P. "El Educador" â€¢ "21 aÃ±os dejando huellas" â€¢ 4to de Secundaria 'A'.</p>
+            <h1 class="welcome-title">¡Bienvenida, <span>${user.name}</span>!</h1>
+            <p class="welcome-subtitle">I.E.P. "El Educador" • "21 años dejando huellas" • 4to de Secundaria 'A'.</p>
             <div class="metrics-strip">
               <div class="metric-card-mini"><span class="metric-label">Promedio</span><span class="metric-val highlight-yellow">${user.generalAverage} / 20</span></div>
               <div class="metric-card-mini"><span class="metric-label">Asistencia</span><span class="metric-val highlight-green">${user.attendanceRate}</span></div>
@@ -6240,15 +6240,15 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.navigate('asistencia')">
-            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">ðŸšª Mi Asistencia & QR</h4>
-            <span style="font-size:11px; color:#047857;">Marcaciones y cÃ³digo QR</span>
+            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">🚪 Mi Asistencia & QR</h4>
+            <span style="font-size:11px; color:#047857;">Marcaciones y código QR</span>
           </div>
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
             <h4 style="font-size:13px; margin: 0 0 2px;">Horario de Clases</h4>
             <span style="font-size:11px; color:var(--text-muted);">4to Sec 'A'</span>
           </div>
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid var(--color-navy-600);" onclick="window.app.navigate('silabus')">
-            <h4 style="font-size:13px; margin: 0 0 2px;">SÃ­labus 2026</h4>
+            <h4 style="font-size:13px; margin: 0 0 2px;">Sílabus 2026</h4>
             <span style="font-size:11px; color:var(--text-muted);">Unidades y competencias</span>
           </div>
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid var(--color-red-500);" onclick="window.app.navigate('cuadernos-qr')">
@@ -6290,7 +6290,7 @@ const Components = {
   },
 
   // =========================================================================
-  // PORTAL DOCENTE: SISTEMA DESCENTRALIZADO DE CARGA DE CALIFICACIONES Y TUTORÃA
+  // PORTAL DOCENTE: SISTEMA DESCENTRALIZADO DE CARGA DE CALIFICACIONES Y TUTORÍA
   // =========================================================================
   renderGrades(state) {
     const activeTab = state.activeGradesTab || "subject";
@@ -6300,36 +6300,36 @@ const Components = {
     
     // Lista oficial de asignaturas y sus docentes responsables
     const subjectDirectory = [
-      { key: "computacion", name: "ComputaciÃ³n (EPT)", area: "EducaciÃ³n para el Trabajo", teacher: "Prof. Alex Lino", icon: "ðŸ’»" },
-      { key: "gestion_empresarial", name: "GestiÃ³n Empresarial", area: "EducaciÃ³n para el Trabajo", teacher: "Prof. Alex Lino", icon: "ðŸ“Š" },
-      { key: "algebra", name: "Ãlgebra", area: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", icon: "ðŸ“" },
-      { key: "aritmetica", name: "AritmÃ©tica", area: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", icon: "ðŸ”¢" },
-      { key: "geometria", name: "GeometrÃ­a", area: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", icon: "ðŸ“" },
-      { key: "trigonometria", name: "TrigonometrÃ­a", area: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", icon: "ðŸ“" },
-      { key: "raz_matematico", name: "Razonamiento MatemÃ¡tico", area: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", icon: "ðŸ§®" },
-      { key: "lenguaje", name: "Lenguaje", area: "ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", icon: "ðŸ“–" },
-      { key: "literatura", name: "Literatura", area: "ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", icon: "ðŸ“š" },
-      { key: "raz_verbal", name: "Razonamiento Verbal", area: "ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", icon: "âœï¸" },
-      { key: "biologia", name: "BiologÃ­a", area: "Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", icon: "ðŸ§¬" },
-      { key: "fisica", name: "FÃ­sica", area: "Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", icon: "âš¡" },
-      { key: "quimica", name: "QuÃ­mica", area: "Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", icon: "ðŸ§ª" },
-      { key: "geografia", name: "GeografÃ­a", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "ðŸŒ" },
-      { key: "filosofia", name: "FilosofÃ­a", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "ðŸ’¡" },
-      { key: "historia_peru", name: "Historia del PerÃº", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "ðŸ›ï¸" },
-      { key: "historia_universal", name: "Historia Universal", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "ðŸ“œ" },
-      { key: "civica", name: "CÃ­vica", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "âš–ï¸" },
-      { key: "psicologia", name: "PsicologÃ­a", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "ðŸ§ " },
-      { key: "arte_cultura", name: "Arte y Cultura", area: "Otras Ãreas", teacher: "Miss Carmen Vidal", icon: "ðŸŽ¨" },
-      { key: "religion", name: "EducaciÃ³n Religiosa (Valores y Lid.)", area: "Otras Ãreas", teacher: "Miss Carmen Vidal", icon: "ðŸ•Šï¸" },
-      { key: "educ_fisica", name: "EducaciÃ³n FÃ­sica", area: "Otras Ãreas", teacher: "Prof. Marco Soto", icon: "âš½" },
-      { key: "ingles", name: "InglÃ©s Avanzado", area: "Otras Ãreas", teacher: "Miss Andrea Ramos", icon: "ðŸ‡¬ðŸ‡§" },
-      { key: "conducta", name: "Conducta y Disciplina", area: "TutorÃ­a", teacher: "Prof. Roberto Silva (Tutor)", icon: "â­" }
+      { key: "computacion", name: "Computación (EPT)", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "💻" },
+      { key: "gestion_empresarial", name: "Gestión Empresarial", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "📊" },
+      { key: "algebra", name: "Álgebra", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📐" },
+      { key: "aritmetica", name: "Aritmética", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🔢" },
+      { key: "geometria", name: "Geometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📏" },
+      { key: "trigonometria", name: "Trigonometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📐" },
+      { key: "raz_matematico", name: "Razonamiento Matemático", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🧮" },
+      { key: "lenguaje", name: "Lenguaje", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "📖" },
+      { key: "literatura", name: "Literatura", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "📚" },
+      { key: "raz_verbal", name: "Razonamiento Verbal", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "✏️" },
+      { key: "biologia", name: "Biología", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧬" },
+      { key: "fisica", name: "Física", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "⚡" },
+      { key: "quimica", name: "Química", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧪" },
+      { key: "geografia", name: "Geografía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🌍" },
+      { key: "filosofia", name: "Filosofía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "💡" },
+      { key: "historia_peru", name: "Historia del Perú", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🏛️" },
+      { key: "historia_universal", name: "Historia Universal", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "📜" },
+      { key: "civica", name: "Cívica", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "⚖️" },
+      { key: "psicologia", name: "Psicología", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "🧠" },
+      { key: "arte_cultura", name: "Arte y Cultura", area: "Otras Áreas", teacher: "Miss Carmen Vidal", icon: "🎨" },
+      { key: "religion", name: "Educación Religiosa (Valores y Lid.)", area: "Otras Áreas", teacher: "Miss Carmen Vidal", icon: "🕊️" },
+      { key: "educ_fisica", name: "Educación Física", area: "Otras Áreas", teacher: "Prof. Marco Soto", icon: "⚽" },
+      { key: "ingles", name: "Inglés Avanzado", area: "Otras Áreas", teacher: "Miss Andrea Ramos", icon: "🇬🇧" },
+      { key: "conducta", name: "Conducta y Disciplina", area: "Tutoría", teacher: "Prof. Roberto Silva (Tutor)", icon: "⭐" }
     ];
 
     // Directorio de alumnos del aula (4to Sec 'A')
     const classroomStudents = [
-      { key: "mendez", name: "MÃ‰NDEZ FLORES, SOFÃA", dni: "74891230", code: "EST-2026-042" },
-      { key: "benitez", name: "BENÃTEZ RUIZ, CARLOS", dni: "74891255", code: "EST-2026-011" },
+      { key: "mendez", name: "MÉNDEZ FLORES, SOFÍA", dni: "74891230", code: "EST-2026-042" },
+      { key: "benitez", name: "BENÍTEZ RUIZ, CARLOS", dni: "74891255", code: "EST-2026-011" },
       { key: "albujar", name: "ALBUJAR ZEGARRA, MARINA DEL CARMEN", dni: "74891289", code: "EST-2026-089" }
     ];
 
@@ -6342,7 +6342,7 @@ const Components = {
     return `
       <div class="fade-in">
         
-        <!-- Cabecera Institucional del MÃ³dulo -->
+        <!-- Cabecera Institucional del Módulo -->
         <div class="card" style="margin-bottom: var(--space-6);">
           <div class="card-header" style="flex-wrap: wrap; gap: 12px;">
             <div>
@@ -6351,25 +6351,25 @@ const Components = {
                 <span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-700);">Periodo Lectivo 2026</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                I.E.P. "El Educador" â€¢ Cada docente ingresa sus cursos y el Tutor evalÃºa asistencias, apreciaciones y padres de familia para la boleta oficial.
+                I.E.P. "El Educador" • Cada docente ingresa sus cursos y el Tutor evalúa asistencias, apreciaciones y padres de familia para la boleta oficial.
               </p>
             </div>
             
             <button class="btn btn-gold" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-              ðŸ“„ Ver Boleta Oficial Consolidada
+              📄 Ver Boleta Oficial Consolidada
             </button>
           </div>
 
-          <!-- Selector de PestaÃ±as / Modalidades -->
+          <!-- Selector de Pestañas / Modalidades -->
           <div style="display: flex; border-top: 1px solid var(--border-subtle); background: var(--bg-surface-subtle); padding: 6px 12px; gap: 8px; flex-wrap: wrap;">
             <button class="btn btn-sm ${activeTab === 'subject' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('subject')" style="font-weight: 800;">
-              ðŸ‘¨â€ðŸ« 1. Carga por Docente de Curso
+              👨‍🏫 1. Carga por Docente de Curso
             </button>
             <button class="btn btn-sm ${activeTab === 'tutor' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('tutor')" style="font-weight: 800;">
-              ðŸŽ“ 2. MÃ³dulo de TutorÃ­a (Asistencia, Apreciaciones y Familias)
+              🎓 2. Módulo de Tutoría (Asistencia, Apreciaciones y Familias)
             </button>
             <button class="btn btn-sm ${activeTab === 'overview' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('overview')" style="font-weight: 800;">
-              ðŸ“Š 3. SÃ¡bana Consolidada del Aula
+              📊 3. Sábana Consolidada del Aula
             </button>
           </div>
         </div>
@@ -6387,7 +6387,7 @@ const Components = {
                 <select class="form-control" style="font-weight: bold; width: auto; font-size: 13px; min-width: 260px;" onchange="window.app.changeSelectedGradingSubject(this.value)">
                   ${subjectDirectory.map(s => `
                     <option value="${s.key}" ${s.key === selectedSubjectKey ? 'selected' : ''}>
-                      ${s.icon} ${s.name} â€¢ (${s.teacher})
+                      ${s.icon} ${s.name} • (${s.teacher})
                     </option>
                   `).join('')}
                 </select>
@@ -6396,7 +6396,7 @@ const Components = {
               <!-- Info del Curso & Aula -->
               <div style="font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 14px;">
                 <span><strong>Docente Responsable:</strong> <span style="color: var(--color-navy-900); font-weight: bold;">${currentSubject.teacher}</span></span>
-                <span><strong>Ãrea Curricular:</strong> ${currentSubject.area}</span>
+                <span><strong>Área Curricular:</strong> ${currentSubject.area}</span>
                 <span><strong>Grado:</strong> 4to de Secundaria</span>
               </div>
 
@@ -6405,14 +6405,14 @@ const Components = {
             <!-- Formulario de Calificaciones para los Alumnos del Aula en este Curso -->
             <form onsubmit="window.app.handleSaveSubjectGrades(event, '${selectedSubjectKey}')" style="padding: 16px;">
               <div style="margin-bottom: 12px; font-size: 12px; color: #475569;">
-                Ingrese las calificaciones para los estudiantes del aula en la materia <strong>${currentSubject.name}</strong>. Acepta letras (<strong>AD, A, B, C</strong>) o nÃºmeros (<strong>0-20</strong>).
+                Ingrese las calificaciones para los estudiantes del aula en la materia <strong>${currentSubject.name}</strong>. Acepta letras (<strong>AD, A, B, C</strong>) o números (<strong>0-20</strong>).
               </div>
 
               <div class="table-container">
                 <table class="data-table">
                   <thead>
                     <tr style="background: var(--color-navy-900); color: white;">
-                      <th style="width: 15%;">CÃ³digo / DNI</th>
+                      <th style="width: 15%;">Código / DNI</th>
                       <th style="width: 35%;">Apellidos y Nombres</th>
                       <th style="width: 12%; text-align:center;">I BIM</th>
                       <th style="width: 12%; text-align:center;">II BIM</th>
@@ -6449,7 +6449,7 @@ const Components = {
 
               <div style="display: flex; justify-content: flex-end; gap: 12px; margin-top: 16px;">
                 <button type="submit" class="btn btn-navy" style="font-weight: 800; padding: 10px 22px;">
-                  ðŸ’¾ Guardar Notas de ${currentSubject.name} (${currentSubject.teacher})
+                  💾 Guardar Notas de ${currentSubject.name} (${currentSubject.teacher})
                 </button>
               </div>
             </form>
@@ -6458,54 +6458,54 @@ const Components = {
 
         ${activeTab === 'tutor' ? `
           <!-- =====================================================================
-               MODO 2: MÃ“DULO EXCLUSIVO DEL TUTOR DE AULA
+               MODO 2: MÓDULO EXCLUSIVO DEL TUTOR DE AULA
                ===================================================================== -->
           <div class="card" style="margin-bottom: var(--space-6);">
             <div class="card-header" style="background: #eff6ff; border-bottom: 1px solid #bfdbfe; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h3 class="card-title" style="color: #1e3a8a;">MÃ³dulo de TutorÃ­a y Convivencia Escolar</h3>
+                <h3 class="card-title" style="color: #1e3a8a;">Módulo de Tutoría y Convivencia Escolar</h3>
                 <p style="font-size: 12px; color: #1e40af; margin-top: 2px;">
-                  <strong>Tutor a Cargo:</strong> Prof. Roberto Silva â€¢ <strong>Aula:</strong> 4to de Secundaria
+                  <strong>Tutor a Cargo:</strong> Prof. Roberto Silva • <strong>Aula:</strong> 4to de Secundaria
                 </p>
               </div>
 
-              <!-- Selector de Alumno a Evaluar por el Tutor y BotÃ³n de Stickers -->
+              <!-- Selector de Alumno a Evaluar por el Tutor y Botón de Stickers -->
               <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <span style="font-size: 12px; font-weight: 800; color: #1e3a8a;">Estudiante:</span>
                 <select class="form-control" style="font-weight: bold; width: auto; font-size: 12px;" onchange="window.app.changeBoletaStudent(this.value)">
-                  <option value="mendez" ${selectedStudentKey === 'mendez' ? 'selected' : ''}>MÃ‰NDEZ FLORES, SOFÃA</option>
-                  <option value="benitez" ${selectedStudentKey === 'benitez' ? 'selected' : ''}>BENÃTEZ RUIZ, CARLOS</option>
+                  <option value="mendez" ${selectedStudentKey === 'mendez' ? 'selected' : ''}>MÉNDEZ FLORES, SOFÍA</option>
+                  <option value="benitez" ${selectedStudentKey === 'benitez' ? 'selected' : ''}>BENÍTEZ RUIZ, CARLOS</option>
                   <option value="albujar" ${selectedStudentKey === 'albujar' ? 'selected' : ''}>ALBUJAR ZEGARRA, MARINA DEL CARMEN</option>
                 </select>
                 <button type="button" class="btn btn-gold btn-sm" onclick="window.app.openStudentFullBoletaStickersModal('${tutorStudentData.code || tutorStudentData.id || 'EST-2026-042'}')" style="font-weight: 900; font-size: 11.5px; padding: 6px 14px; border-radius: 16px; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: #0b132b;">
-                  âš¡ Stickers QR de Boleta
+                  ⚡ Stickers QR de Boleta
                 </button>
               </div>
             </div>
 
             <form onsubmit="window.app.handleSaveTutorEvaluation(event, '${selectedStudentKey}')" style="padding: 20px;">
               
-              <!-- 1. ApreciaciÃ³n PedagÃ³gica del Tutor -->
+              <!-- 1. Apreciación Pedagógica del Tutor -->
               <div style="margin-bottom: 24px;">
                 <h4 style="font-size: 14px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 10px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">
-                  1. ApreciaciÃ³n del Tutor (Observaciones Oficiales para la Boleta)
+                  1. Apreciación del Tutor (Observaciones Oficiales para la Boleta)
                 </h4>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
                   <div>
                     <label style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); display: block; margin-bottom: 4px;">I BIMESTRE:</label>
-                    <textarea class="form-control" name="app_b1" rows="3" placeholder="ApreciaciÃ³n del 1er Bimestre...">${tutorApp.b1 || ''}</textarea>
+                    <textarea class="form-control" name="app_b1" rows="3" placeholder="Apreciación del 1er Bimestre...">${tutorApp.b1 || ''}</textarea>
                   </div>
                   <div>
                     <label style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); display: block; margin-bottom: 4px;">II BIMESTRE:</label>
-                    <textarea class="form-control" name="app_b2" rows="3" placeholder="ApreciaciÃ³n del 2do Bimestre...">${tutorApp.b2 || ''}</textarea>
+                    <textarea class="form-control" name="app_b2" rows="3" placeholder="Apreciación del 2do Bimestre...">${tutorApp.b2 || ''}</textarea>
                   </div>
                   <div>
                     <label style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); display: block; margin-bottom: 4px;">III BIMESTRE:</label>
-                    <textarea class="form-control" name="app_b3" rows="3" placeholder="ApreciaciÃ³n del 3er Bimestre...">${tutorApp.b3 || ''}</textarea>
+                    <textarea class="form-control" name="app_b3" rows="3" placeholder="Apreciación del 3er Bimestre...">${tutorApp.b3 || ''}</textarea>
                   </div>
                   <div>
                     <label style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); display: block; margin-bottom: 4px;">IV BIMESTRE:</label>
-                    <textarea class="form-control" name="app_b4" rows="3" placeholder="ApreciaciÃ³n del 4to Bimestre...">${tutorApp.b4 || ''}</textarea>
+                    <textarea class="form-control" name="app_b4" rows="3" placeholder="Apreciación del 4to Bimestre...">${tutorApp.b4 || ''}</textarea>
                   </div>
                 </div>
               </div>
@@ -6533,7 +6533,7 @@ const Components = {
                     <tbody>
                       ${['b1', 'b2', 'b3', 'b4'].map((b, idx) => {
                         const rec = tutorAtt[b] || {};
-                        const bLabel = `${idx + 1}Â° BIMESTRE`;
+                        const bLabel = `${idx + 1}° BIMESTRE`;
                         return `
                           <tr>
                             <td style="font-weight:bold; text-align:center;">${bLabel}</td>
@@ -6549,16 +6549,16 @@ const Components = {
                 </div>
               </div>
 
-              <!-- 3. EvaluaciÃ³n de ParticipaciÃ³n de los Padres de Familia -->
+              <!-- 3. Evaluación de Participación de los Padres de Familia -->
               <div style="margin-bottom: 24px;">
                 <h4 style="font-size: 14px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 10px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">
-                  3. ParticipaciÃ³n de los Padres de Familia (6 Criterios MINEDU: AD, A, B, C)
+                  3. Participación de los Padres de Familia (6 Criterios MINEDU: AD, A, B, C)
                 </h4>
                 <div class="table-container">
                   <table class="data-table">
                     <thead>
                       <tr style="background: var(--color-navy-900); color: white;">
-                        <th style="width: 50%;">Criterio de EvaluaciÃ³n Formativa</th>
+                        <th style="width: 50%;">Criterio de Evaluación Formativa</th>
                         <th style="width: 12%; text-align:center;">I BIM</th>
                         <th style="width: 12%; text-align:center;">II BIM</th>
                         <th style="width: 12%; text-align:center;">III BIM</th>
@@ -6568,11 +6568,11 @@ const Components = {
                     <tbody>
                       ${[
                         { id: 1, text: "1. Se interesa por el aprendizaje de su hijo(a)." },
-                        { id: 2, text: "2. EnvÃ­a oportunamente sus materiales (Ãºtiles escolares)." },
-                        { id: 3, text: "3. Participa en actividades en el aula e InstituciÃ³n Educativa." },
-                        { id: 4, text: "4. EnvÃ­a puntualmente a su hijo(a) a la InstituciÃ³n Educativa." },
+                        { id: 2, text: "2. Envía oportunamente sus materiales (útiles escolares)." },
+                        { id: 3, text: "3. Participa en actividades en el aula e Institución Educativa." },
+                        { id: 4, text: "4. Envía puntualmente a su hijo(a) a la Institución Educativa." },
                         { id: 5, text: "5. Asiste a la Escuela de Padres." },
-                        { id: 6, text: "6. Padres / apoderados, se comunican con frecuencia para conocer la situaciÃ³n de su hijo(a)." }
+                        { id: 6, text: "6. Padres / apoderados, se comunican con frecuencia para conocer la situación de su hijo(a)." }
                       ].map(crit => {
                         const cVal = tutorPc[`c${crit.id}`] || {};
                         return `
@@ -6592,7 +6592,7 @@ const Components = {
 
               <div style="display: flex; justify-content: flex-end; gap: 12px;">
                 <button type="submit" class="btn btn-red" style="font-weight: 800; padding: 12px 24px;">
-                  ðŸ’¾ Guardar EvaluaciÃ³n de TutorÃ­a de ${tutorStudentData.name}
+                  💾 Guardar Evaluación de Tutoría de ${tutorStudentData.name}
                 </button>
               </div>
 
@@ -6602,14 +6602,14 @@ const Components = {
 
         ${activeTab === 'overview' ? `
           <!-- =====================================================================
-               MODO 3: SÃBANA GENERAL Y ESTADO DE AVANCE DE DOCENTES
+               MODO 3: SÁBANA GENERAL Y ESTADO DE AVANCE DE DOCENTES
                ===================================================================== -->
           <div class="card" style="margin-bottom: var(--space-6);">
             <div class="card-header">
               <div>
-                <h3 class="card-title">SÃ¡bana Consolidada de Calificaciones - 4to Sec 'A'</h3>
+                <h3 class="card-title">Sábana Consolidada de Calificaciones - 4to Sec 'A'</h3>
                 <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
-                  Consolidado automÃ¡tico con las notas subidas por cada docente de Ã¡rea y las evaluaciones del tutor.
+                  Consolidado automático con las notas subidas por cada docente de área y las evaluaciones del tutor.
                 </p>
               </div>
             </div>
@@ -6620,8 +6620,8 @@ const Components = {
                   <tr style="background: var(--color-navy-900); color: white;">
                     <th>Asignatura</th>
                     <th>Docente Responsable</th>
-                    <th style="text-align:center;">SofÃ­a MÃ©ndez</th>
-                    <th style="text-align:center;">Carlos BenÃ­tez</th>
+                    <th style="text-align:center;">Sofía Méndez</th>
+                    <th style="text-align:center;">Carlos Benítez</th>
                     <th style="text-align:center;">Marina Albujar</th>
                     <th style="text-align:center;">Estado</th>
                   </tr>
@@ -6641,7 +6641,7 @@ const Components = {
                         <td style="text-align:center; font-weight:bold; color:var(--color-navy-900);">${aVal}</td>
                         <td style="text-align:center;">
                           <span class="status-badge ${hasAll ? 'status-approved' : 'status-pending'}">
-                            ${hasAll ? 'ðŸŸ¢ Completo' : 'ðŸŸ¡ En Proceso'}
+                            ${hasAll ? '🟢 Completo' : '🟡 En Proceso'}
                           </span>
                         </td>
                       </tr>
@@ -6653,10 +6653,10 @@ const Components = {
 
             <div style="padding: 16px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <span style="font-size: 13px; font-weight: 700; color: #1e293b;">
-                ðŸ“„ El sistema ya tiene consolidadas todas las notas para la emisiÃ³n oficial.
+                📄 El sistema ya tiene consolidadas todas las notas para la emisión oficial.
               </span>
               <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-                ðŸ–¨ï¸ Generar Boleta Oficial MINEDU (PDF)
+                🖨️ Generar Boleta Oficial MINEDU (PDF)
               </button>
             </div>
           </div>
@@ -6667,7 +6667,7 @@ const Components = {
   },
 
   // =========================================================================
-  // BOLETA OFICIAL IMPRIMIBLE CON FORMATO MINEDU (2 PÃGINAS DINÃMICAS)
+  // BOLETA OFICIAL IMPRIMIBLE CON FORMATO MINEDU (2 PÁGINAS DINÁMICAS)
   // =========================================================================
   renderPrintableReport(state) {
     const selectedStudentKey = state.selectedBoletaStudent || "mendez";
@@ -6678,7 +6678,7 @@ const Components = {
     const att = student.attendance || {};
     const pc = student.parentCriteria || {};
 
-    // FunciÃ³n auxiliar para promedios literales
+    // Función auxiliar para promedios literales
     const calcAvg = (keys, bim) => {
       const vals = keys.map(k => (g[k] && g[k][bim]) || "").filter(Boolean);
       if (!vals.length) return "";
@@ -6704,12 +6704,12 @@ const Components = {
       return "C";
     };
 
-    // FunciÃ³n auxiliar para promedio final de un curso
+    // Función auxiliar para promedio final de un curso
     const calcPF = (key) => {
       return calcAvg([key], "b1") && calcAvg([key], "b2") ? calcAvg([key], "b1") : "";
     };
 
-    // Promedios por Ã¡reas
+    // Promedios por áreas
     const comB1 = calcAvg(["lenguaje", "literatura", "raz_verbal"], "b1");
     const comB2 = calcAvg(["lenguaje", "literatura", "raz_verbal"], "b2");
     const comB3 = calcAvg(["lenguaje", "literatura", "raz_verbal"], "b3");
@@ -6748,38 +6748,38 @@ const Components = {
         <!-- Barra Superior de Control (No Imprimible) -->
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px; background: white; padding: 14px 18px; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 2px 8px rgba(0,0,0,0.05);" class="no-print">
           <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-            <button class="btn btn-outline btn-sm" onclick="window.app.navigate('calificaciones')">â† Volver al Registro de Notas</button>
+            <button class="btn btn-outline btn-sm" onclick="window.app.navigate('calificaciones')">← Volver al Registro de Notas</button>
             
             <!-- Selector de Alumno -->
             <div style="display: flex; align-items: center; gap: 6px;">
               <span style="font-size: 12px; font-weight: 800; color: var(--color-navy-900);">Alumno(a):</span>
               <select class="form-control" style="font-size: 12px; font-weight: bold; width: auto; padding: 4px 10px;" onchange="window.app.changeBoletaStudent(this.value)">
-                <option value="mendez" ${selectedStudentKey === 'mendez' ? 'selected' : ''}>MÃ‰NDEZ FLORES, SOFÃA (4Â° de Secundaria)</option>
-                <option value="benitez" ${selectedStudentKey === 'benitez' ? 'selected' : ''}>BENÃTEZ RUIZ, CARLOS (4Â° de Secundaria)</option>
-                <option value="albujar" ${selectedStudentKey === 'albujar' ? 'selected' : ''}>ALBUJAR ZEGARRA, MARINA DEL CARMEN (2Â° de Secundaria)</option>
+                <option value="mendez" ${selectedStudentKey === 'mendez' ? 'selected' : ''}>MÉNDEZ FLORES, SOFÍA (4° de Secundaria)</option>
+                <option value="benitez" ${selectedStudentKey === 'benitez' ? 'selected' : ''}>BENÍTEZ RUIZ, CARLOS (4° de Secundaria)</option>
+                <option value="albujar" ${selectedStudentKey === 'albujar' ? 'selected' : ''}>ALBUJAR ZEGARRA, MARINA DEL CARMEN (2° de Secundaria)</option>
               </select>
             </div>
           </div>
           
           <div style="display: flex; gap: 8px; align-items: center;">
             <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; font-size: 13px; padding: 9px 20px;">
-              ðŸ–¨ï¸ Imprimir Boleta Oficial Completa (PDF / Doble Cara)
+              🖨️ Imprimir Boleta Oficial Completa (PDF / Doble Cara)
             </button>
           </div>
         </div>
 
         <!-- =========================================================================
-             PÃGINA 1: CALIFICATIVO DEL APRENDIZAJE & ASISTENCIA & APRECIACIÃ“N
+             PÁGINA 1: CALIFICATIVO DEL APRENDIZAJE & ASISTENCIA & APRECIACIÓN
              ========================================================================= -->
         <div class="official-boleta-page official-boleta-page-1" style="background-image: url('assets/boleta_document_bg.png'); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; padding: 12px 14px;">
           
           <div class="boleta-main-title">
-            BOLETA DE INFORMACIÃ“N DEL PROGRESO DEL APRENDIZAJE DEL ESTUDIANTE â€“ 2026
+            BOLETA DE INFORMACIÓN DEL PROGRESO DEL APRENDIZAJE DEL ESTUDIANTE – 2026
           </div>
 
           <div class="boleta-page-1-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; width: 100%;">
             
-            <!-- Columna Izquierda: Tabla de Calificaciones por Ãreas -->
+            <!-- Columna Izquierda: Tabla de Calificaciones por Áreas -->
             <div>
               <table class="boleta-table">
                 <thead>
@@ -6796,54 +6796,54 @@ const Components = {
                   </tr>
                 </thead>
                 <tbody>
-                  <!-- COMUNICACIÃ“N -->
+                  <!-- COMUNICACIÓN -->
                   <tr><td>LENGUAJE</td><td style="text-align:center;">${val("lenguaje","b1")}</td><td style="text-align:center;">${val("lenguaje","b2")}</td><td style="text-align:center;">${val("lenguaje","b3")}</td><td style="text-align:center;">${val("lenguaje","b4")}</td><td style="text-align:center;">${calcPF("lenguaje")}</td></tr>
                   <tr><td>LITERATURA</td><td style="text-align:center;">${val("literatura","b1")}</td><td style="text-align:center;">${val("literatura","b2")}</td><td style="text-align:center;">${val("literatura","b3")}</td><td style="text-align:center;">${val("literatura","b4")}</td><td style="text-align:center;">${calcPF("literatura")}</td></tr>
                   <tr><td>RAZONAMIENTO VERBAL</td><td style="text-align:center;">${val("raz_verbal","b1")}</td><td style="text-align:center;">${val("raz_verbal","b2")}</td><td style="text-align:center;">${val("raz_verbal","b3")}</td><td style="text-align:center;">${val("raz_verbal","b4")}</td><td style="text-align:center;">${calcPF("raz_verbal")}</td></tr>
-                  <tr class="boleta-yellow-row"><td>PROMEDIO DE COMUNICACIÃ“N</td><td style="text-align:center;">${comB1}</td><td style="text-align:center;">${comB2}</td><td style="text-align:center;">${comB3}</td><td style="text-align:center;">${comB4}</td><td style="text-align:center;">${comB1 && comB2 ? comB1 : ''}</td></tr>
+                  <tr class="boleta-yellow-row"><td>PROMEDIO DE COMUNICACIÓN</td><td style="text-align:center;">${comB1}</td><td style="text-align:center;">${comB2}</td><td style="text-align:center;">${comB3}</td><td style="text-align:center;">${comB4}</td><td style="text-align:center;">${comB1 && comB2 ? comB1 : ''}</td></tr>
 
-                  <!-- MATEMÃTICA -->
-                  <tr><td>ARITMÃ‰TICA</td><td style="text-align:center;">${val("aritmetica","b1")}</td><td style="text-align:center;">${val("aritmetica","b2")}</td><td style="text-align:center;">${val("aritmetica","b3")}</td><td style="text-align:center;">${val("aritmetica","b4")}</td><td style="text-align:center;">${calcPF("aritmetica")}</td></tr>
-                  <tr><td>ÃLGEBRA</td><td style="text-align:center;">${val("algebra","b1")}</td><td style="text-align:center;">${val("algebra","b2")}</td><td style="text-align:center;">${val("algebra","b3")}</td><td style="text-align:center;">${val("algebra","b4")}</td><td style="text-align:center;">${calcPF("algebra")}</td></tr>
-                  <tr><td>GEOMETRÃA</td><td style="text-align:center;">${val("geometria","b1")}</td><td style="text-align:center;">${val("geometria","b2")}</td><td style="text-align:center;">${val("geometria","b3")}</td><td style="text-align:center;">${val("geometria","b4")}</td><td style="text-align:center;">${calcPF("geometria")}</td></tr>
-                  <tr><td>TRIGONOMETRÃA</td><td style="text-align:center;">${val("trigonometria","b1")}</td><td style="text-align:center;">${val("trigonometria","b2")}</td><td style="text-align:center;">${val("trigonometria","b3")}</td><td style="text-align:center;">${val("trigonometria","b4")}</td><td style="text-align:center;">${calcPF("trigonometria")}</td></tr>
-                  <tr><td>RAZONAMIENTO MATEMÃTICO</td><td style="text-align:center;">${val("raz_matematico","b1")}</td><td style="text-align:center;">${val("raz_matematico","b2")}</td><td style="text-align:center;">${val("raz_matematico","b3")}</td><td style="text-align:center;">${val("raz_matematico","b4")}</td><td style="text-align:center;">${calcPF("raz_matematico")}</td></tr>
-                  <tr class="boleta-yellow-row"><td>PROMEDIO DE MATEMÃTICA</td><td style="text-align:center;">${matB1}</td><td style="text-align:center;">${matB2}</td><td style="text-align:center;">${matB3}</td><td style="text-align:center;">${matB4}</td><td style="text-align:center;">${matB1 && matB2 ? matB1 : ''}</td></tr>
+                  <!-- MATEMÁTICA -->
+                  <tr><td>ARITMÉTICA</td><td style="text-align:center;">${val("aritmetica","b1")}</td><td style="text-align:center;">${val("aritmetica","b2")}</td><td style="text-align:center;">${val("aritmetica","b3")}</td><td style="text-align:center;">${val("aritmetica","b4")}</td><td style="text-align:center;">${calcPF("aritmetica")}</td></tr>
+                  <tr><td>ÁLGEBRA</td><td style="text-align:center;">${val("algebra","b1")}</td><td style="text-align:center;">${val("algebra","b2")}</td><td style="text-align:center;">${val("algebra","b3")}</td><td style="text-align:center;">${val("algebra","b4")}</td><td style="text-align:center;">${calcPF("algebra")}</td></tr>
+                  <tr><td>GEOMETRÍA</td><td style="text-align:center;">${val("geometria","b1")}</td><td style="text-align:center;">${val("geometria","b2")}</td><td style="text-align:center;">${val("geometria","b3")}</td><td style="text-align:center;">${val("geometria","b4")}</td><td style="text-align:center;">${calcPF("geometria")}</td></tr>
+                  <tr><td>TRIGONOMETRÍA</td><td style="text-align:center;">${val("trigonometria","b1")}</td><td style="text-align:center;">${val("trigonometria","b2")}</td><td style="text-align:center;">${val("trigonometria","b3")}</td><td style="text-align:center;">${val("trigonometria","b4")}</td><td style="text-align:center;">${calcPF("trigonometria")}</td></tr>
+                  <tr><td>RAZONAMIENTO MATEMÁTICO</td><td style="text-align:center;">${val("raz_matematico","b1")}</td><td style="text-align:center;">${val("raz_matematico","b2")}</td><td style="text-align:center;">${val("raz_matematico","b3")}</td><td style="text-align:center;">${val("raz_matematico","b4")}</td><td style="text-align:center;">${calcPF("raz_matematico")}</td></tr>
+                  <tr class="boleta-yellow-row"><td>PROMEDIO DE MATEMÁTICA</td><td style="text-align:center;">${matB1}</td><td style="text-align:center;">${matB2}</td><td style="text-align:center;">${matB3}</td><td style="text-align:center;">${matB4}</td><td style="text-align:center;">${matB1 && matB2 ? matB1 : ''}</td></tr>
 
-                  <!-- CIENCIA Y TECNOLOGÃA -->
-                  <tr><td>BIOLOGÃA</td><td style="text-align:center;">${val("biologia","b1")}</td><td style="text-align:center;">${val("biologia","b2")}</td><td style="text-align:center;">${val("biologia","b3")}</td><td style="text-align:center;">${val("biologia","b4")}</td><td style="text-align:center;">${calcPF("biologia")}</td></tr>
-                  <tr><td>FÃSICA</td><td style="text-align:center;">${val("fisica","b1")}</td><td style="text-align:center;">${val("fisica","b2")}</td><td style="text-align:center;">${val("fisica","b3")}</td><td style="text-align:center;">${val("fisica","b4")}</td><td style="text-align:center;">${calcPF("fisica")}</td></tr>
-                  <tr><td>QUÃMICA</td><td style="text-align:center;">${val("quimica","b1")}</td><td style="text-align:center;">${val("quimica","b2")}</td><td style="text-align:center;">${val("quimica","b3")}</td><td style="text-align:center;">${val("quimica","b4")}</td><td style="text-align:center;">${calcPF("quimica")}</td></tr>
-                  <tr class="boleta-yellow-row"><td>PROMEDIO DE CIENCIA Y TECNOLOGÃA</td><td style="text-align:center;">${ctaB1}</td><td style="text-align:center;">${ctaB2}</td><td style="text-align:center;">${ctaB3}</td><td style="text-align:center;">${ctaB4}</td><td style="text-align:center;">${ctaB1 && ctaB2 ? ctaB1 : ''}</td></tr>
+                  <!-- CIENCIA Y TECNOLOGÍA -->
+                  <tr><td>BIOLOGÍA</td><td style="text-align:center;">${val("biologia","b1")}</td><td style="text-align:center;">${val("biologia","b2")}</td><td style="text-align:center;">${val("biologia","b3")}</td><td style="text-align:center;">${val("biologia","b4")}</td><td style="text-align:center;">${calcPF("biologia")}</td></tr>
+                  <tr><td>FÍSICA</td><td style="text-align:center;">${val("fisica","b1")}</td><td style="text-align:center;">${val("fisica","b2")}</td><td style="text-align:center;">${val("fisica","b3")}</td><td style="text-align:center;">${val("fisica","b4")}</td><td style="text-align:center;">${calcPF("fisica")}</td></tr>
+                  <tr><td>QUÍMICA</td><td style="text-align:center;">${val("quimica","b1")}</td><td style="text-align:center;">${val("quimica","b2")}</td><td style="text-align:center;">${val("quimica","b3")}</td><td style="text-align:center;">${val("quimica","b4")}</td><td style="text-align:center;">${calcPF("quimica")}</td></tr>
+                  <tr class="boleta-yellow-row"><td>PROMEDIO DE CIENCIA Y TECNOLOGÍA</td><td style="text-align:center;">${ctaB1}</td><td style="text-align:center;">${ctaB2}</td><td style="text-align:center;">${ctaB3}</td><td style="text-align:center;">${ctaB4}</td><td style="text-align:center;">${ctaB1 && ctaB2 ? ctaB1 : ''}</td></tr>
 
                   <!-- CIENCIAS SOCIALES -->
-                  <tr><td>GEOGRAFÃA</td><td style="text-align:center;">${val("geografia","b1")}</td><td style="text-align:center;">${val("geografia","b2")}</td><td style="text-align:center;">${val("geografia","b3")}</td><td style="text-align:center;">${val("geografia","b4")}</td><td style="text-align:center;">${calcPF("geografia")}</td></tr>
-                  <tr><td>FILOSOFÃA</td><td style="text-align:center;">${val("filosofia","b1")}</td><td style="text-align:center;">${val("filosofia","b2")}</td><td style="text-align:center;">${val("filosofia","b3")}</td><td style="text-align:center;">${val("filosofia","b4")}</td><td style="text-align:center;">${calcPF("filosofia")}</td></tr>
-                  <tr><td>HISTORIA DEL PERÃš</td><td style="text-align:center;">${val("historia_peru","b1")}</td><td style="text-align:center;">${val("historia_peru","b2")}</td><td style="text-align:center;">${val("historia_peru","b3")}</td><td style="text-align:center;">${val("historia_peru","b4")}</td><td style="text-align:center;">${calcPF("historia_peru")}</td></tr>
+                  <tr><td>GEOGRAFÍA</td><td style="text-align:center;">${val("geografia","b1")}</td><td style="text-align:center;">${val("geografia","b2")}</td><td style="text-align:center;">${val("geografia","b3")}</td><td style="text-align:center;">${val("geografia","b4")}</td><td style="text-align:center;">${calcPF("geografia")}</td></tr>
+                  <tr><td>FILOSOFÍA</td><td style="text-align:center;">${val("filosofia","b1")}</td><td style="text-align:center;">${val("filosofia","b2")}</td><td style="text-align:center;">${val("filosofia","b3")}</td><td style="text-align:center;">${val("filosofia","b4")}</td><td style="text-align:center;">${calcPF("filosofia")}</td></tr>
+                  <tr><td>HISTORIA DEL PERÚ</td><td style="text-align:center;">${val("historia_peru","b1")}</td><td style="text-align:center;">${val("historia_peru","b2")}</td><td style="text-align:center;">${val("historia_peru","b3")}</td><td style="text-align:center;">${val("historia_peru","b4")}</td><td style="text-align:center;">${calcPF("historia_peru")}</td></tr>
                   <tr><td>HISTORIA UNIVERSAL</td><td style="text-align:center;">${val("historia_universal","b1")}</td><td style="text-align:center;">${val("historia_universal","b2")}</td><td style="text-align:center;">${val("historia_universal","b3")}</td><td style="text-align:center;">${val("historia_universal","b4")}</td><td style="text-align:center;">${calcPF("historia_universal")}</td></tr>
                   <tr class="boleta-yellow-row"><td>PROMEDIO DE CIENCIAS SOCIALES</td><td style="text-align:center;">${ccB1}</td><td style="text-align:center;">${ccB2}</td><td style="text-align:center;">${ccB3}</td><td style="text-align:center;">${ccB4}</td><td style="text-align:center;">${ccB1 && ccB2 ? ccB1 : ''}</td></tr>
 
                   <!-- DPCC -->
-                  <tr><td>CÃVICA</td><td style="text-align:center;">${val("civica","b1")}</td><td style="text-align:center;">${val("civica","b2")}</td><td style="text-align:center;">${val("civica","b3")}</td><td style="text-align:center;">${val("civica","b4")}</td><td style="text-align:center;">${calcPF("civica")}</td></tr>
-                  <tr><td>PSICOLOGÃA</td><td style="text-align:center;">${val("psicologia","b1")}</td><td style="text-align:center;">${val("psicologia","b2")}</td><td style="text-align:center;">${val("psicologia","b3")}</td><td style="text-align:center;">${val("psicologia","b4")}</td><td style="text-align:center;">${calcPF("psicologia")}</td></tr>
-                  <tr class="boleta-yellow-row"><td>PROMEDIO DE DESARROLLO PERSONAL, CIUDADANÃA Y CÃVICA</td><td style="text-align:center;">${dpccB1}</td><td style="text-align:center;">${dpccB2}</td><td style="text-align:center;">${dpccB3}</td><td style="text-align:center;">${dpccB4}</td><td style="text-align:center;">${dpccB1 && dpccB2 ? dpccB1 : ''}</td></tr>
+                  <tr><td>CÍVICA</td><td style="text-align:center;">${val("civica","b1")}</td><td style="text-align:center;">${val("civica","b2")}</td><td style="text-align:center;">${val("civica","b3")}</td><td style="text-align:center;">${val("civica","b4")}</td><td style="text-align:center;">${calcPF("civica")}</td></tr>
+                  <tr><td>PSICOLOGÍA</td><td style="text-align:center;">${val("psicologia","b1")}</td><td style="text-align:center;">${val("psicologia","b2")}</td><td style="text-align:center;">${val("psicologia","b3")}</td><td style="text-align:center;">${val("psicologia","b4")}</td><td style="text-align:center;">${calcPF("psicologia")}</td></tr>
+                  <tr class="boleta-yellow-row"><td>PROMEDIO DE DESARROLLO PERSONAL, CIUDADANÍA Y CÍVICA</td><td style="text-align:center;">${dpccB1}</td><td style="text-align:center;">${dpccB2}</td><td style="text-align:center;">${dpccB3}</td><td style="text-align:center;">${dpccB4}</td><td style="text-align:center;">${dpccB1 && dpccB2 ? dpccB1 : ''}</td></tr>
 
-                  <!-- EDUCACIÃ“N PARA EL TRABAJO -->
-                  <tr><td>COMPUTACIÃ“N</td><td style="text-align:center;">${val("computacion","b1")}</td><td style="text-align:center;">${val("computacion","b2")}</td><td style="text-align:center;">${val("computacion","b3")}</td><td style="text-align:center;">${val("computacion","b4")}</td><td style="text-align:center;">${calcPF("computacion")}</td></tr>
-                  <tr><td>GESTIÃ“N EMPRESARIAL</td><td style="text-align:center;">${val("gestion_empresarial","b1")}</td><td style="text-align:center;">${val("gestion_empresarial","b2")}</td><td style="text-align:center;">${val("gestion_empresarial","b3")}</td><td style="text-align:center;">${val("gestion_empresarial","b4")}</td><td style="text-align:center;">${calcPF("gestion_empresarial")}</td></tr>
-                  <tr class="boleta-yellow-row"><td>PROMEDIO EDUCACIÃ“N PARA EL TRABAJO</td><td style="text-align:center;">${eptB1}</td><td style="text-align:center;">${eptB2}</td><td style="text-align:center;">${eptB3}</td><td style="text-align:center;">${eptB4}</td><td style="text-align:center;">${eptB1 && eptB2 ? eptB1 : ''}</td></tr>
+                  <!-- EDUCACIÓN PARA EL TRABAJO -->
+                  <tr><td>COMPUTACIÓN</td><td style="text-align:center;">${val("computacion","b1")}</td><td style="text-align:center;">${val("computacion","b2")}</td><td style="text-align:center;">${val("computacion","b3")}</td><td style="text-align:center;">${val("computacion","b4")}</td><td style="text-align:center;">${calcPF("computacion")}</td></tr>
+                  <tr><td>GESTIÓN EMPRESARIAL</td><td style="text-align:center;">${val("gestion_empresarial","b1")}</td><td style="text-align:center;">${val("gestion_empresarial","b2")}</td><td style="text-align:center;">${val("gestion_empresarial","b3")}</td><td style="text-align:center;">${val("gestion_empresarial","b4")}</td><td style="text-align:center;">${calcPF("gestion_empresarial")}</td></tr>
+                  <tr class="boleta-yellow-row"><td>PROMEDIO EDUCACIÓN PARA EL TRABAJO</td><td style="text-align:center;">${eptB1}</td><td style="text-align:center;">${eptB2}</td><td style="text-align:center;">${eptB3}</td><td style="text-align:center;">${eptB4}</td><td style="text-align:center;">${eptB1 && eptB2 ? eptB1 : ''}</td></tr>
 
-                  <!-- OTRAS ÃREAS -->
+                  <!-- OTRAS ÁREAS -->
                   <tr><td>ARTE Y CULTURA</td><td style="text-align:center;">${val("arte_cultura","b1")}</td><td style="text-align:center;">${val("arte_cultura","b2")}</td><td style="text-align:center;">${val("arte_cultura","b3")}</td><td style="text-align:center;">${val("arte_cultura","b4")}</td><td style="text-align:center;">${calcPF("arte_cultura")}</td></tr>
-                  <tr><td>EDUCACIÃ“N RELIGIOSA (VALORES Y LID.)</td><td style="text-align:center;">${val("religion","b1")}</td><td style="text-align:center;">${val("religion","b2")}</td><td style="text-align:center;">${val("religion","b3")}</td><td style="text-align:center;">${val("religion","b4")}</td><td style="text-align:center;">${calcPF("religion")}</td></tr>
-                  <tr><td>EDUCACIÃ“N FÃSICA</td><td style="text-align:center;">${val("educ_fisica","b1")}</td><td style="text-align:center;">${val("educ_fisica","b2")}</td><td style="text-align:center;">${val("educ_fisica","b3")}</td><td style="text-align:center;">${val("educ_fisica","b4")}</td><td style="text-align:center;">${calcPF("educ_fisica")}</td></tr>
-                  <tr><td>INGLÃ‰S</td><td style="text-align:center;">${val("ingles","b1")}</td><td style="text-align:center;">${val("ingles","b2")}</td><td style="text-align:center;">${val("ingles","b3")}</td><td style="text-align:center;">${val("ingles","b4")}</td><td style="text-align:center;">${calcPF("ingles")}</td></tr>
+                  <tr><td>EDUCACIÓN RELIGIOSA (VALORES Y LID.)</td><td style="text-align:center;">${val("religion","b1")}</td><td style="text-align:center;">${val("religion","b2")}</td><td style="text-align:center;">${val("religion","b3")}</td><td style="text-align:center;">${val("religion","b4")}</td><td style="text-align:center;">${calcPF("religion")}</td></tr>
+                  <tr><td>EDUCACIÓN FÍSICA</td><td style="text-align:center;">${val("educ_fisica","b1")}</td><td style="text-align:center;">${val("educ_fisica","b2")}</td><td style="text-align:center;">${val("educ_fisica","b3")}</td><td style="text-align:center;">${val("educ_fisica","b4")}</td><td style="text-align:center;">${calcPF("educ_fisica")}</td></tr>
+                  <tr><td>INGLÉS</td><td style="text-align:center;">${val("ingles","b1")}</td><td style="text-align:center;">${val("ingles","b2")}</td><td style="text-align:center;">${val("ingles","b3")}</td><td style="text-align:center;">${val("ingles","b4")}</td><td style="text-align:center;">${calcPF("ingles")}</td></tr>
                   
                   <!-- COMPETENCIAS TRANSVERSALES -->
                   <tr><td colspan="6" style="font-size: 9.5px; padding: 3px 5px;"><strong>SE DESENVUELVE EN ENTORNOS VIRTUALES GENERADOS POR LAS TIC</strong></td></tr>
                   <tr>
                     <td colspan="6" style="font-size: 8.5px; line-height: 1.25; padding: 3px 5px;">
-                      <strong>GESTIONA SU APRENDIZAJE DE MANERA AUTÃ“NOMA</strong>, permite que los estudiantes participen activamente en el logro de aprendizajes tomando en cuenta sus potencialidades y a organizarse por sÃ­ mismos frente a esta necesidad.
+                      <strong>GESTIONA SU APRENDIZAJE DE MANERA AUTÓNOMA</strong>, permite que los estudiantes participen activamente en el logro de aprendizajes tomando en cuenta sus potencialidades y a organizarse por sí mismos frente a esta necesidad.
                     </td>
                   </tr>
                   <tr class="boleta-yellow-row">
@@ -6858,7 +6858,7 @@ const Components = {
               </table>
             </div>
 
-            <!-- Columna Derecha: Asistencia, ApreciaciÃ³n y Escala -->
+            <!-- Columna Derecha: Asistencia, Apreciación y Escala -->
             <div>
               
               <!-- Resumen de Asistencia -->
@@ -6912,9 +6912,9 @@ const Components = {
                 </tbody>
               </table>
 
-              <!-- ApreciaciÃ³n del Docente -->
+              <!-- Apreciación del Docente -->
               <div style="text-align: center; margin-bottom: 6px;">
-                <div class="boleta-badge-title">APRECIACIÃ“N DEL DOCENTE</div>
+                <div class="boleta-badge-title">APRECIACIÓN DEL DOCENTE</div>
               </div>
 
               <div class="boleta-appreciation-box">
@@ -6922,7 +6922,7 @@ const Components = {
                   <div class="boleta-appreciation-item">
                     <span class="boleta-appreciation-tag">I BIM:</span>
                     <div>
-                      ${app.b1 || `Felicitaciones a <strong>${student.name}</strong> por su excelente rendimiento. Demuestra responsabilidad, participaciÃ³n activa y compromiso con su aprendizaje.`}
+                      ${app.b1 || `Felicitaciones a <strong>${student.name}</strong> por su excelente rendimiento. Demuestra responsabilidad, participación activa y compromiso con su aprendizaje.`}
                     </div>
                   </div>
                   <div class="boleta-appreciation-item">
@@ -6945,11 +6945,11 @@ const Components = {
                 </div>
               </div>
 
-              <!-- Escala de CalificaciÃ³n Literal Oficial -->
+              <!-- Escala de Calificación Literal Oficial -->
               <div class="boleta-scale-legend">
                 <div style="margin-bottom: 4px;">
                   <strong style="color: #1e3a8a;">AD &nbsp; LOGRO DESTACADO:</strong><br>
-                  Cuando el estudiante evidencia un nivel superior a lo esperado respecto a la competencia. Esto quiere decir que demuestra aprendizajes que van mÃ¡s allÃ¡ del nivel esperado.
+                  Cuando el estudiante evidencia un nivel superior a lo esperado respecto a la competencia. Esto quiere decir que demuestra aprendizajes que van más allá del nivel esperado.
                 </div>
                 <div style="margin-bottom: 4px;">
                   <strong style="color: #1e3a8a;">A &nbsp; LOGRO ESPERADO:</strong><br>
@@ -6957,11 +6957,11 @@ const Components = {
                 </div>
                 <div style="margin-bottom: 4px;">
                   <strong style="color: #1e3a8a;">B &nbsp; EN PROCESO:</strong><br>
-                  Cuando el estudiante estÃ¡ prÃ³ximo o cerca al nivel esperado respecto a la competencia, para lo cual requiere acompaÃ±amiento durante un tiempo razonable para lograrlo.
+                  Cuando el estudiante está próximo o cerca al nivel esperado respecto a la competencia, para lo cual requiere acompañamiento durante un tiempo razonable para lograrlo.
                 </div>
                 <div>
                   <strong style="color: #1e3a8a;">C &nbsp; EN INICIO:</strong><br>
-                  Cuando el estudiante muestra un progreso mÃ­nimo en una competencia de acuerdo al nivel esperado. Evidencia con frecuencia dificultades en el desarrollo de las tareas, por lo que necesita mayor tiempo de acompaÃ±amiento e intervenciÃ³n del docente.
+                  Cuando el estudiante muestra un progreso mínimo en una competencia de acuerdo al nivel esperado. Evidencia con frecuencia dificultades en el desarrollo de las tareas, por lo que necesita mayor tiempo de acompañamiento e intervención del docente.
                 </div>
               </div>
 
@@ -6972,23 +6972,23 @@ const Components = {
         </div>
 
         <!-- =========================================================================
-             PÃGINA 2: PARTICIPACIÃ“N DE PADRES & CARÃTULA OFICIAL
+             PÁGINA 2: PARTICIPACIÓN DE PADRES & CARÁTULA OFICIAL
              ========================================================================= -->
         <div class="official-boleta-page official-boleta-page-2" style="background-image: url('assets/boleta_document_bg.png'); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; padding: 12px 14px;">
           
           <div class="boleta-page-2-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: stretch; height: 100%;">
             
-            <!-- Columna Izquierda: ParticipaciÃ³n de Padres & Compromiso & Firmas -->
+            <!-- Columna Izquierda: Participación de Padres & Compromiso & Firmas -->
             <div class="boleta-page-2-left-box" style="display: flex; flex-direction: column; justify-content: space-between; border: 2px solid #000000; border-radius: 8px; padding: 14px 16px; box-sizing: border-box; height: 100%; background: rgba(255, 255, 255, 0.94);">
               <div>
                 <div style="text-align: center; margin-bottom: 8px;">
-                  <div class="boleta-badge-title" style="font-size: 8.5pt; padding: 3px 14px;">PARTICIPACIÃ“N DE LOS PADRES DE FAMILIA</div>
+                  <div class="boleta-badge-title" style="font-size: 8.5pt; padding: 3px 14px;">PARTICIPACIÓN DE LOS PADRES DE FAMILIA</div>
                 </div>
 
                 <table class="boleta-table" style="margin-bottom: 10px;">
                   <thead>
                     <tr>
-                      <th rowspan="2" style="width: 60%; text-align: left; padding: 4px 6px; background:#fef08a;">CRITERIOS DE EVALUACIÃ“N</th>
+                      <th rowspan="2" style="width: 60%; text-align: left; padding: 4px 6px; background:#fef08a;">CRITERIOS DE EVALUACIÓN</th>
                       <th colspan="4" style="background:#fef08a; padding: 4px;">BIMESTRES</th>
                       <th rowspan="2" style="background:#fef08a; width: 10%; padding: 4px;">P.F</th>
                     </tr>
@@ -7009,7 +7009,7 @@ const Components = {
                       <td style="text-align:center; font-weight:bold;">${(pc.c1 && pc.c1.b1) || 'A'}</td>
                     </tr>
                     <tr>
-                      <td style="padding: 4px 5px;">2. EnvÃ­a oportunamente sus materiales (Ãºtiles escolares).</td>
+                      <td style="padding: 4px 5px;">2. Envía oportunamente sus materiales (útiles escolares).</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c2 && pc.c2.b1) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c2 && pc.c2.b2) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c2 && pc.c2.b3) || ''}</td>
@@ -7017,7 +7017,7 @@ const Components = {
                       <td style="text-align:center; font-weight:bold;"></td>
                     </tr>
                     <tr>
-                      <td style="padding: 4px 5px;">3. Participa en actividades en el aula e InstituciÃ³n Educativa.</td>
+                      <td style="padding: 4px 5px;">3. Participa en actividades en el aula e Institución Educativa.</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c3 && pc.c3.b1) || 'A'}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c3 && pc.c3.b2) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c3 && pc.c3.b3) || ''}</td>
@@ -7025,7 +7025,7 @@ const Components = {
                       <td style="text-align:center; font-weight:bold;">${(pc.c3 && pc.c3.b1) || 'A'}</td>
                     </tr>
                     <tr>
-                      <td style="padding: 4px 5px;">4. EnvÃ­a puntualmente a su hijo(a) a la InstituciÃ³n Educativa.</td>
+                      <td style="padding: 4px 5px;">4. Envía puntualmente a su hijo(a) a la Institución Educativa.</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c4 && pc.c4.b1) || 'A'}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c4 && pc.c4.b2) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c4 && pc.c4.b3) || ''}</td>
@@ -7041,7 +7041,7 @@ const Components = {
                       <td style="text-align:center; font-weight:bold;"></td>
                     </tr>
                     <tr>
-                      <td style="padding: 4px 5px;">6. Padres / apoderados, se comunican con frecuencia para conocer la situaciÃ³n de su hijo(a).</td>
+                      <td style="padding: 4px 5px;">6. Padres / apoderados, se comunican con frecuencia para conocer la situación de su hijo(a).</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c6 && pc.c6.b1) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c6 && pc.c6.b2) || ''}</td>
                       <td style="text-align:center; font-weight:bold;">${(pc.c6 && pc.c6.b3) || ''}</td>
@@ -7054,7 +7054,7 @@ const Components = {
                 <!-- Compromiso Formativo del Apoderado -->
                 <div style="border: 1.2px solid #000000; border-radius: 6px; padding: 6px 8px; background: #f8fafc; font-size: 7.6pt; line-height: 1.3; margin-top: 8px;">
                   <strong style="color: #1e3a8a; display: block; margin-bottom: 2px;">COMPROMISO DEL APODERADO:</strong>
-                  El padre o tutor legal se compromete a acompaÃ±ar el desarrollo formativo y acadÃ©mico de su menor hijo(a), velando por su puntualidad y asistiendo a las reuniones pedagÃ³gicas convocadas por la InstituciÃ³n.
+                  El padre o tutor legal se compromete a acompañar el desarrollo formativo y académico de su menor hijo(a), velando por su puntualidad y asistiendo a las reuniones pedagógicas convocadas por la Institución.
                 </div>
               </div>
 
@@ -7064,18 +7064,18 @@ const Components = {
                   TUTOR(A) DE AULA
                 </div>
                 <div style="border-top: 1.5px solid #000000; width: 150px; padding-top: 4px; font-size: 10px; font-weight: 800;">
-                  DIRECCIÃ“N GENERAL
+                  DIRECCIÓN GENERAL
                 </div>
               </div>
             </div>
 
-            <!-- Columna Derecha: CarÃ¡tula Oficial Institucional (Fondo Oficial de la InstituciÃ³n) -->
+            <!-- Columna Derecha: Carátula Oficial Institucional (Fondo Oficial de la Institución) -->
             <div class="boleta-cover-container" style="position: relative; height: 100%; min-height: 198mm; box-sizing: border-box; overflow: hidden; border-radius: 4px; padding: 0; background: #ffffff;">
               
               <!-- Imagen Oficial como Fondo Completo -->
-              <img src="assets/boleta_cover_official_bg.png" alt="CarÃ¡tula Oficial El Educador" style="width: 100%; height: 100%; object-fit: fill; display: block;" />
+              <img src="assets/boleta_cover_official_bg.png" alt="Carátula Oficial El Educador" style="width: 100%; height: 100%; object-fit: fill; display: block;" />
 
-              <!-- CajetÃ­n DinÃ¡mico del Estudiante sobre el espacio amarillo de la plantilla -->
+              <!-- Cajetín Dinámico del Estudiante sobre el espacio amarillo de la plantilla -->
               <div style="position: absolute; bottom: 12.8%; left: 13.5%; width: 73%; height: 14.8%; display: flex; flex-direction: column; justify-content: center; font-size: 8.5pt; line-height: 1.35; color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; text-align: left; box-sizing: border-box; padding: 2px 6px;">
                 
                 <div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px;">
@@ -7093,7 +7093,7 @@ const Components = {
                 </div>
 
                 <div style="margin-bottom: 2px;">
-                  <span style="font-weight: 900; font-size: 8.2pt;">SECCIÃ“N:</span> <strong>${student.section ? student.section : 'Ãšnica'}</strong>
+                  <span style="font-weight: 900; font-size: 8.2pt;">SECCIÓN:</span> <strong>${student.section ? student.section : 'Única'}</strong>
                 </div>
 
                 <div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
@@ -7129,7 +7129,7 @@ const Components = {
         ? doc.assignedCourses
         : (Array.isArray(doc.courses) && doc.courses.length > 0
           ? doc.courses
-          : (doc.subject ? doc.subject.split(/,\s*/) : ["MatemÃ¡tica"]));
+          : (doc.subject ? doc.subject.split(/,\s*/) : ["Matemática"]));
       const docGrades = Array.isArray(doc.assignedGrades) && doc.assignedGrades.length > 0
         ? doc.assignedGrades
         : [];
@@ -7144,7 +7144,7 @@ const Components = {
           id: doc.id || `DOC-${Date.now().toString().slice(-4)}`,
           name: doc.name,
           subject: doc.subject || docCourses.join(', '),
-          department: "Ãrea PedagÃ³gica",
+          department: "Área Pedagógica",
           isTutor: false,
           tutoringGrade: null,
           weeklyHours: weeklyHrs,
@@ -7178,7 +7178,7 @@ const Components = {
         { time: "08:00 - 08:50", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "08:50 - 09:40", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "09:40 - 10:30", mon: null, tue: null, wed: null, thu: null, fri: null },
-        { time: "10:30 - 10:50", isBreak: true, title: "Receso PedagÃ³gico (10:30 - 10:50 AM)" },
+        { time: "10:30 - 10:50", isBreak: true, title: "Receso Pedagógico (10:30 - 10:50 AM)" },
         { time: "10:50 - 11:40", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "11:40 - 12:30", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "12:30 - 01:20", mon: null, tue: null, wed: null, thu: null, fri: null },
@@ -7198,7 +7198,7 @@ const Components = {
       // Escanear exclusivamente las clases reales asignadas por el administrador en las aulas
       Object.keys(allSchedules).forEach(gradeKey => {
         const gRows = allSchedules[gradeKey];
-        const gradeLabel = gradeLabelMap[gradeKey] || (gradeKey === "4sec" || gradeKey === "4sec-a" ? "4Â° de Secundaria" : gradeKey.toUpperCase());
+        const gradeLabel = gradeLabelMap[gradeKey] || (gradeKey === "4sec" || gradeKey === "4sec-a" ? "4° de Secundaria" : gradeKey.toUpperCase());
         
         if (Array.isArray(gRows)) {
           gRows.forEach((gRow, rIdx) => {
@@ -7258,7 +7258,7 @@ const Components = {
     return rawTeachers;
   },
 
-  // Horarios (GestiÃ³n Dual: Horario Docente Personal y Horario por Aula)
+  // Horarios (Gestión Dual: Horario Docente Personal y Horario por Aula)
   renderSchedules(state) {
     try {
       const role = state.currentRole || "admin";
@@ -7291,7 +7291,7 @@ const Components = {
 
       const teacherCourses = (currentTeacher.scheduledCourses && currentTeacher.scheduledCourses.length > 0)
         ? currentTeacher.scheduledCourses
-        : ((currentTeacher.courses && currentTeacher.courses.length > 0) ? currentTeacher.courses : [currentTeacher.subject || "MatemÃ¡tica"]);
+        : ((currentTeacher.courses && currentTeacher.courses.length > 0) ? currentTeacher.courses : [currentTeacher.subject || "Matemática"]);
 
       const teacherGrades = (currentTeacher.scheduledGrades && currentTeacher.scheduledGrades.length > 0)
         ? currentTeacher.scheduledGrades
@@ -7324,7 +7324,7 @@ const Components = {
 
       const currentGrade = catalog.find(g => g.id === currentGradeId) || catalog.find(g => g.id === "4sec") || catalog[0] || {
         id: "4sec",
-        label: "4Â° de Secundaria",
+        label: "4° de Secundaria",
         level: "Secundaria",
         classroom: "Aula 401",
         tutor: "Prof. Roberto Silva"
@@ -7338,7 +7338,7 @@ const Components = {
         { time: "08:00 - 08:50", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "08:50 - 09:40", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "09:40 - 10:30", mon: null, tue: null, wed: null, thu: null, fri: null },
-        { time: "10:30 - 10:50", isBreak: true, title: "Receso PedagÃ³gico (10:30 - 10:50 AM)" },
+        { time: "10:30 - 10:50", isBreak: true, title: "Receso Pedagógico (10:30 - 10:50 AM)" },
         { time: "10:50 - 11:40", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "11:40 - 12:30", mon: null, tue: null, wed: null, thu: null, fri: null },
         { time: "12:30 - 01:20", mon: null, tue: null, wed: null, thu: null, fri: null },
@@ -7352,20 +7352,20 @@ const Components = {
         : (Array.isArray(allSchedules["4sec"]) ? allSchedules["4sec"] : fallbackScheduleTemplate);
 
       const days = ['mon', 'tue', 'wed', 'thu', 'fri'];
-      const dayNames = ['Lunes', 'Martes', 'MiÃ©rcoles', 'Jueves', 'Viernes'];
+      const dayNames = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
 
       return `
         <div class="fade-in">
           
-          <!-- BANNER PRINCIPAL DE GESTIÃ“N Y CREACIÃ“N DE HORARIOS (ADMINISTRADOR) -->
+          <!-- BANNER PRINCIPAL DE GESTIÓN Y CREACIÓN DE HORARIOS (ADMINISTRADOR) -->
           ${hasAdminEditPower ? `
             <div style="background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); color: #ffffff; padding: 16px 20px; border-radius: 10px; margin-bottom: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border: 1px solid #3b82f6;">
               <div>
                 <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                  <span style="font-size: 24px;">ðŸ“…</span>
-                  <h2 style="font-size: 18px; font-weight: 900; margin: 0; color: #ffffff;">GestiÃ³n y CreaciÃ³n de Horarios Escolares</h2>
+                  <span style="font-size: 24px;">📅</span>
+                  <h2 style="font-size: 18px; font-weight: 900; margin: 0; color: #ffffff;">Gestión y Creación de Horarios Escolares</h2>
                   <span class="status-badge" style="background: #f59e0b; color: #78350f; font-weight: 900; font-size: 11px;">
-                    ðŸ›¡ï¸ Modo Administrador Activo
+                    🛡️ Modo Administrador Activo
                   </span>
                 </div>
                 <p style="font-size: 12px; color: #cbd5e1; margin: 4px 0 0 0;">
@@ -7373,36 +7373,36 @@ const Components = {
                 </p>
               </div>
 
-              <!-- BOTONES DE ACCIÃ“N PRINCIPALES CON MÃXIMA VISIBILIDAD -->
+              <!-- BOTONES DE ACCIÓN PRINCIPALES CON MÁXIMA VISIBILIDAD -->
               <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
                 <button class="btn" onclick="window.app.openCreateScheduleModal('${currentGradeId}')" style="background: #f59e0b; color: #0b132b; font-weight: 900; font-size: 13px; padding: 9px 18px; border: 2px solid #fbbf24; border-radius: 6px; box-shadow: 0 2px 10px rgba(245,158,11,0.5); display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                  <span style="font-size: 16px;">âž•</span>
+                  <span style="font-size: 16px;">➕</span>
                   <span>+ CREAR / ASIGNAR CLASE</span>
                 </button>
                 <button class="btn btn-outline" onclick="window.app.setTeacherScheduleTab('${activeTab === 'personal' ? 'classroom' : 'personal'}')" style="background: rgba(255,255,255,0.18); color: #ffffff; border-color: rgba(255,255,255,0.5); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  ${activeTab === 'personal' ? 'ðŸ« Ver Horario por Aula' : 'ðŸ‘¨â€ðŸ« Ver Horario Semanal Docente'}
+                  ${activeTab === 'personal' ? '🏫 Ver Horario por Aula' : '👨‍🏫 Ver Horario Semanal Docente'}
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openAutoScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  âš¡ Horario AutomÃ¡tico
+                  ⚡ Horario Automático
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  ðŸ“‹ Clonar Horario
+                  📋 Clonar Horario
                 </button>
                 <button class="btn btn-outline" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="background: rgba(239,68,68,0.25); color: #fca5a5; border-color: #ef4444; font-weight: 800; font-size: 12px; padding: 8px 12px;">
-                  ðŸ—‘ï¸ Limpiar
+                  🗑️ Limpiar
                 </button>
               </div>
             </div>
           ` : ''}
 
-          <!-- PestaÃ±as de NavegaciÃ³n Segmentada Dual (MÃ¡xima Claridad) -->
+          <!-- Pestañas de Navegación Segmentada Dual (Máxima Claridad) -->
           ${isTeacherOrAdmin ? `
             <div style="display: flex; gap: 8px; margin-bottom: 16px; background: #f1f5f9; padding: 6px; border-radius: 10px; border: 1px solid #cbd5e1; flex-wrap: wrap;">
               <button class="btn ${activeTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('classroom')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'classroom' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>ðŸ«</span> Horario General por Aula / Grado (Secciones)
+                <span>🏫</span> Horario General por Aula / Grado (Secciones)
               </button>
               <button class="btn ${activeTab === 'personal' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('personal')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'personal' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>ðŸ‘¨â€ðŸ«</span> Horario Semanal por Docente (Carga Horaria & Cursos)
+                <span>👨‍🏫</span> Horario Semanal por Docente (Carga Horaria & Cursos)
               </button>
             </div>
           ` : ''}
@@ -7415,14 +7415,14 @@ const Components = {
               <div class="teacher-schedule-banner" style="background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%); color: #ffffff; padding: 16px 20px; border-radius: 8px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <span style="font-size: 24px;">ðŸ‘¨â€ðŸ«</span>
+                    <span style="font-size: 24px;">👨‍🏫</span>
                     <h2 style="font-size: 19px; font-weight: 900; margin: 0; color: #ffffff;">${currentTeacher.name}</h2>
                     <span class="status-badge" style="background: #fef08a; color: #854d0e; font-weight: 900; font-size: 11px;">
                       Docente Curricular
                     </span>
                   </div>
                   <p style="font-size: 12.5px; opacity: 0.95; margin: 4px 0 0 0;">
-                    ${currentTeacher.department || 'Ãrea PedagÃ³gica'} â€¢ Especialidad: <strong>${currentTeacher.subject || teacherCourses.join(', ')}</strong>
+                    ${currentTeacher.department || 'Área Pedagógica'} • Especialidad: <strong>${currentTeacher.subject || teacherCourses.join(', ')}</strong>
                   </p>
                 </div>
 
@@ -7436,37 +7436,37 @@ const Components = {
                   </select>
                   ${hasAdminEditPower ? `
                     <button class="btn btn-gold btn-sm" onclick="window.app.openCreateScheduleModal('${currentGradeId}')" style="font-weight: 900; white-space: nowrap; padding: 6px 12px;">
-                      âž• + Asignar Clase
+                      ➕ + Asignar Clase
                     </button>
                   ` : ''}
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800; white-space: nowrap; color: #ffffff; border-color: rgba(255,255,255,0.4); padding: 6px 12px;">
-                    ðŸ–¨ï¸ Imprimir A4
+                    🖨️ Imprimir A4
                   </button>
                 </div>
               </div>
 
-              <!-- Resumen MÃ©trico de Carga Horaria Real Asignada -->
+              <!-- Resumen Métrico de Carga Horaria Real Asignada -->
               <div class="teacher-stat-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px;">
                 <div class="teacher-stat-card" style="background: #eff6ff; border-left: 4px solid #3b82f6; padding: 12px 14px; border-radius: 6px; border: 1px solid #bfdbfe;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #1e40af; display: block;">â±ï¸ Carga Real Asignada</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #1e40af; display: block;">⏱️ Carga Real Asignada</span>
                   <span class="teacher-stat-val" style="font-size: 18px; font-weight: 900; color: #1e3a8a; display: block; margin: 2px 0;">${teacherHours}</span>
                   <span style="font-size: 11px; color: #64748b;">${currentTeacher.assignedSlotCount || 0} bloque(s) lectivo(s) programados</span>
                 </div>
 
                 <div class="teacher-stat-card" style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 12px 14px; border-radius: 6px; border: 1px solid #a7f3d0;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #065f46; display: block;">ðŸ“š Asignaturas Dictadas</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #065f46; display: block;">📚 Asignaturas Dictadas</span>
                   <span class="teacher-stat-val" style="font-size: 18px; font-weight: 900; color: #047857; display: block; margin: 2px 0;">${teacherCourses.length} Cursos</span>
                   <span style="font-size: 11px; color: #64748b;">${teacherCourses.slice(0, 2).join(', ')}${teacherCourses.length > 2 ? '...' : ''}</span>
                 </div>
 
                 <div class="teacher-stat-card" style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 14px; border-radius: 6px; border: 1px solid #fde68a;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">ðŸ« Aulas / Grados Asignados</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">🏫 Aulas / Grados Asignados</span>
                   <span class="teacher-stat-val" style="font-size: 18px; font-weight: 900; color: #b45309; display: block; margin: 2px 0;">${teacherGrades.length} Grados</span>
                   <span style="font-size: 11px; color: #64748b;">${teacherGrades.slice(0, 2).join(', ')}${teacherGrades.length > 2 ? '...' : ''}</span>
                 </div>
 
                 <div class="teacher-stat-card" style="background: #faf5ff; border-left: 4px solid #8b5cf6; padding: 12px 14px; border-radius: 6px; border: 1px solid #e9d5ff;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #5b21b6; display: block;">ðŸ”¬ Ambientes Asignados</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #5b21b6; display: block;">🔬 Ambientes Asignados</span>
                   <span class="teacher-stat-val" style="font-size: 15px; font-weight: 900; color: #6b21a8; display: block; margin: 4px 0;">${teacherClassrooms[0] || 'Aula Principal'}</span>
                   <span style="font-size: 11px; color: #64748b;">${teacherClassrooms.length} ambiente(s)</span>
                 </div>
@@ -7475,7 +7475,7 @@ const Components = {
               <!-- Barra de Filtros por Curso y Alerta de Disponibilidad -->
               <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 10px 14px; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">ðŸ” Filtrar por Asignatura:</label>
+                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">🔍 Filtrar por Asignatura:</label>
                   <select class="form-control" style="width: auto; padding: 4px 10px; font-size: 12px; font-weight: bold;" onchange="window.app.onTeacherCourseFilterChange(this.value)">
                     <option value="all" ${courseFilter === 'all' ? 'selected' : ''}>Todos los cursos (${teacherCourses.length})</option>
                     ${teacherCourses.map(c => `<option value="${c}" ${courseFilter === c ? 'selected' : ''}>${c}</option>`).join('')}
@@ -7483,7 +7483,7 @@ const Components = {
                 </div>
 
                 <div style="font-size: 11.5px; color: #047857; font-weight: 700; background: #d1fae5; padding: 4px 12px; border-radius: 12px; border: 1px solid #a7f3d0;">
-                  âœ“ Mostrando Ãºnicamente las clases programadas por el Administrador â€¢ Periodo 2026
+                  ✓ Mostrando únicamente las clases programadas por el Administrador • Periodo 2026
                 </div>
               </div>
 
@@ -7495,7 +7495,7 @@ const Components = {
                       <th style="width: 120px;">Hora</th>
                       <th>Lunes</th>
                       <th>Martes</th>
-                      <th>MiÃ©rcoles</th>
+                      <th>Miércoles</th>
                       <th>Jueves</th>
                       <th>Viernes</th>
                     </tr>
@@ -7505,7 +7505,7 @@ const Components = {
                       if (row.isBreak) {
                         const isLunch = row.isLunch || (row.time && row.time.includes("01:20"));
                         const rowClass = isLunch ? "schedule-lunch-row" : "schedule-break-row";
-                        const icon = isLunch ? "ðŸ½ï¸" : "â˜•";
+                        const icon = isLunch ? "🍽️" : "☕";
                         return `<tr class="${rowClass}"><td class="time-slot-cell" style="font-weight: 900;">${row.time}</td><td colspan="5">${icon} ${row.title}</td></tr>`;
                       }
                       return `
@@ -7517,7 +7517,7 @@ const Components = {
                               return hasAdminEditPower ? `
                                 <td style="background:#fafafa; padding: 4px;">
                                   <div class="empty-schedule-slot" onclick="window.app.openCreateScheduleModal('${currentGradeId}', ${rIdx}, '${dayKey}')" style="border: 1px dashed #cbd5e1; border-radius: 6px; padding: 10px 4px; text-align: center; cursor: pointer; color: #94a3b8; font-size: 11px; font-weight: 700; transition: all 0.2s;" onmouseover="this.style.borderColor='#3b82f6'; this.style.color='#1e40af'; this.style.background='#eff6ff';" onmouseout="this.style.borderColor='#cbd5e1'; this.style.color='#94a3b8'; this.style.background='transparent';">
-                                    âž• Asignar Clase
+                                    ➕ Asignar Clase
                                   </div>
                                 </td>
                               ` : `<td style="background:#fafafa; text-align: center; color: #cbd5e1; font-size: 11px;"><em>Hora Libre</em></td>`;
@@ -7534,7 +7534,7 @@ const Components = {
                                     <span style="font-size: 9.5px; font-weight: 900; background: #1e3a8a; color: #ffffff; padding: 1px 6px; border-radius: 10px;">${slot.grade || 'Secundaria'}</span>
                                   </div>
                                   <div class="slot-room-badge" style="background: rgba(0,0,0,0.06); font-size: 10px; font-weight: 800; color: #0b132b; margin-top: 3px;">
-                                    ðŸ“ ${slot.room || 'Aula Principal'}
+                                    📍 ${slot.room || 'Aula Principal'}
                                   </div>
                                 </div>
                               </td>
@@ -7554,48 +7554,48 @@ const Components = {
               <div class="card-header">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <h2 class="card-title" style="font-size: var(--font-size-xl);">Horario AcadÃ©mico Escolar por Aulas - 2026</h2>
-                    ${hasAdminEditPower ? `<span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-700);">Modo EdiciÃ³n Habilitado</span>` : ''}
+                    <h2 class="card-title" style="font-size: var(--font-size-xl);">Horario Académico Escolar por Aulas - 2026</h2>
+                    ${hasAdminEditPower ? `<span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-700);">Modo Edición Habilitado</span>` : ''}
                   </div>
                   <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                    I.E.P. "El Educador" â€¢ "21 aÃ±os dejando huellas" (S.J.L. â€¢ UGEL 05) â€¢ Bloques de 50 min
+                    I.E.P. "El Educador" • "21 años dejando huellas" (S.J.L. • UGEL 05) • Bloques de 50 min
                   </p>
                 </div>
-                <button class="btn btn-navy btn-sm" onclick="window.print()">ðŸ–¨ï¸ Imprimir Horario de Aula</button>
+                <button class="btn btn-navy btn-sm" onclick="window.print()">🖨️ Imprimir Horario de Aula</button>
               </div>
 
               <div class="schedule-filter-bar" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                 ${isTeacherOrAdmin ? `
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">ðŸ« Seleccionar Aula / Grado:</label>
+                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">🏫 Seleccionar Aula / Grado:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold; border-color: #3b82f6;" onchange="window.app.onScheduleGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === currentGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
                     <span style="font-size: 11.5px; color: var(--color-navy-800); background: #f1f5f9; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">
-                      Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong> â€¢ Tutor: <strong>${currentGrade.tutor || 'Tutor Asignado'}</strong>
+                      Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong> • Tutor: <strong>${currentGrade.tutor || 'Tutor Asignado'}</strong>
                     </span>
                   </div>
                 ` : `
                   <div style="font-size: 13px; color: var(--color-navy-950); font-weight: 800; background: var(--color-yellow-100); padding: 8px 16px; border-radius: 6px; border: 1px solid var(--color-yellow-400); display: inline-flex; align-items: center; gap: 8px;">
-                    <span>ðŸ“ Horario Exclusivo: <strong>${currentGrade.label} (${currentGrade.level})</strong></span>
-                    <span>â€¢ Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong></span>
-                    <span>â€¢ Tutor: <strong>${currentGrade.tutor || 'Tutor Asignado'}</strong></span>
+                    <span>📍 Horario Exclusivo: <strong>${currentGrade.label} (${currentGrade.level})</strong></span>
+                    <span>• Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong></span>
+                    <span>• Tutor: <strong>${currentGrade.tutor || 'Tutor Asignado'}</strong></span>
                   </div>
                 `}
 
                 ${hasAdminEditPower ? `
                   <div style="display: flex; gap: 6px; flex-wrap: wrap;">
                     <button class="btn btn-navy btn-sm" onclick="window.app.openCreateScheduleModal('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px; background: #1e3a8a;">
-                      âž• + Crear / Asignar Clase
+                      ➕ + Crear / Asignar Clase
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openAutoScheduleModal('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-                      âš¡ Generar Horario AutomÃ¡tico
+                      ⚡ Generar Horario Automático
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                      ðŸ“‹ Clonar a Otra Aula
+                      📋 Clonar a Otra Aula
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px; color: var(--color-red-600);">
-                      ðŸ—‘ï¸ Limpiar
+                      🗑️ Limpiar
                     </button>
                   </div>
                 ` : ''}
@@ -7603,13 +7603,13 @@ const Components = {
 
               <div class="table-container">
                 <table class="schedule-grid-table">
-                  <thead><tr><th style="width: 120px;">Hora</th><th>Lunes</th><th>Martes</th><th>MiÃ©rcoles</th><th>Jueves</th><th>Viernes</th></tr></thead>
+                  <thead><tr><th style="width: 120px;">Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr></thead>
                   <tbody>
                     ${scheduleRows.map((row, rowIndex) => {
                       if (row.isBreak) {
                         const isLunch = row.isLunch || (row.time && row.time.includes("01:20"));
                         const rowClass = isLunch ? "schedule-lunch-row" : "schedule-break-row";
-                        const icon = isLunch ? "ðŸ½ï¸" : "â˜•";
+                        const icon = isLunch ? "🍽️" : "☕";
                         return `<tr class="${rowClass}"><td class="time-slot-cell" style="font-weight: 900;">${row.time}</td><td colspan="5">${icon} ${row.title}</td></tr>`;
                       }
                       return `
@@ -7621,7 +7621,7 @@ const Components = {
                               return hasAdminEditPower ? `
                                 <td style="background:#fafafa; padding: 4px;">
                                   <div class="empty-schedule-slot" onclick="window.app.openCreateScheduleModal('${currentGradeId}', ${rowIndex}, '${dayKey}')" style="border: 1px dashed #cbd5e1; border-radius: 6px; padding: 10px 4px; text-align: center; cursor: pointer; color: #94a3b8; font-size: 11px; font-weight: 700; transition: all 0.2s;" onmouseover="this.style.borderColor='#3b82f6'; this.style.color='#1e40af'; this.style.background='#eff6ff';" onmouseout="this.style.borderColor='#cbd5e1'; this.style.color='#94a3b8'; this.style.background='transparent';">
-                                    âž• Asignar Clase
+                                    ➕ Asignar Clase
                                   </div>
                                 </td>
                               ` : `<td style="background:#fafafa; text-align: center; color: #cbd5e1; font-size: 11px;"><em>Libre</em></td>`;
@@ -7631,10 +7631,10 @@ const Components = {
                                 <div class="schedule-slot-card slot-${slot.color || 'navy'}" ${hasAdminEditPower ? `onclick="window.app.openEditScheduleSlotModal('${currentGradeId}', ${rowIndex}, '${dayKey}')" style="cursor: pointer;"` : ''}>
                                   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2px;">
                                     <div class="slot-course-title">${slot.course}</div>
-                                    ${hasAdminEditPower ? `<span style="font-size: 10px; opacity: 0.8;">âœï¸</span>` : ''}
+                                    ${hasAdminEditPower ? `<span style="font-size: 10px; opacity: 0.8;">✏️</span>` : ''}
                                   </div>
-                                  <div class="slot-teacher-name">ðŸ‘¨â€ðŸ« ${slot.teacher}</div>
-                                  <div class="slot-room-badge">ðŸ“ ${slot.room || currentGrade.classroom || 'Aula Principal'}</div>
+                                  <div class="slot-teacher-name">👨‍🏫 ${slot.teacher}</div>
+                                  <div class="slot-room-badge">📍 ${slot.room || currentGrade.classroom || 'Aula Principal'}</div>
                                 </div>
                               </td>
                             `;
@@ -7654,17 +7654,17 @@ const Components = {
       console.error("Error al renderizar Horarios:", error);
       return `
         <div class="card" style="padding: 20px; text-align: center; background: #fff1f2; border: 1px solid #fecdd3;">
-          <h3 style="color: #9f1239; margin-bottom: 8px;">âš ï¸ Restableciendo visualizaciÃ³n de Horarios</h3>
-          <p style="color: #4b5563; font-size: 13px;">Se ha detectado una actualizaciÃ³n en la estructura de horarios. Pulse el botÃ³n inferior para sincronizar:</p>
+          <h3 style="color: #9f1239; margin-bottom: 8px;">⚠️ Restableciendo visualización de Horarios</h3>
+          <p style="color: #4b5563; font-size: 13px;">Se ha detectado una actualización en la estructura de horarios. Pulse el botón inferior para sincronizar:</p>
           <button class="btn btn-navy" onclick="window.app.render()" style="font-weight: 800; margin-top: 10px;">
-            ðŸ”„ Sincronizar y Ver Horarios
+            🔄 Sincronizar y Ver Horarios
           </button>
         </div>
       `;
     }
   },
 
-  // SÃ­labus
+  // Sílabus
   renderSyllabi(state) {
     const role = state.currentRole;
     const hasAdminEditPower = role === "admin" || (role === "docente" && state.users.docente && state.users.docente.hasAdminPrivileges);
@@ -7698,18 +7698,18 @@ const Components = {
         <div class="card" style="margin-bottom: var(--space-6);">
           <div class="card-header">
             <div>
-              <h2 class="card-title" style="font-size: var(--font-size-xl);">SÃ­labus Curriculares 2026</h2>
-              <p style="font-size: var(--font-size-xs); color: var(--text-muted);">Competencias y programaciÃ³n temÃ¡tica institucional.</p>
+              <h2 class="card-title" style="font-size: var(--font-size-xl);">Sílabus Curriculares 2026</h2>
+              <p style="font-size: var(--font-size-xs); color: var(--text-muted);">Competencias y programación temática institucional.</p>
             </div>
             <div style="display: flex; gap: var(--space-3); align-items: center;">
               ${canBrowseAllGrades ? `
                 <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold;" onchange="window.app.onSyllabusGradeChange(this.value)">
                   ${catalog.map(g => `<option value="${g.id}" ${g.id === currentGradeId ? 'selected' : ''}>${g.label}</option>`).join('')}
                 </select>
-                ${hasAdminEditPower ? `<button class="btn btn-red btn-sm" onclick="window.app.openCreateSyllabusModal()">+ Crear SÃ­labo</button>` : ''}
+                ${hasAdminEditPower ? `<button class="btn btn-red btn-sm" onclick="window.app.openCreateSyllabusModal()">+ Crear Sílabo</button>` : ''}
               ` : `
                 <div style="font-size: 13px; color: var(--color-navy-950); font-weight: 800; background: var(--color-yellow-100); padding: 6px 14px; border-radius: 6px; border: 1px solid var(--color-yellow-400);">
-                  ðŸ“š Cursos de: <strong>${currentGrade.label}</strong>
+                  📚 Cursos de: <strong>${currentGrade.label}</strong>
                 </div>
               `}
             </div>
@@ -7721,12 +7721,12 @@ const Components = {
                 <div>
                   <div class="syllabus-header"><span class="syllabus-code">${s.courseCode}</span><span class="status-badge status-approved">${s.bimester}</span></div>
                   <h3 class="syllabus-title">${s.courseName}</h3>
-                  <div class="syllabus-meta-list"><div>ðŸ‘¨â€ðŸ« Docente: ${s.teacher}</div><div>â±ï¸ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
-                  <div class="competency-tag-box">${(s.competencies || ['Competencia General']).map(c => `<span class="competency-pill">âœ“ ${c}</span>`).join('')}</div>
+                  <div class="syllabus-meta-list"><div>👨‍🏫 Docente: ${s.teacher}</div><div>⏱️ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
+                  <div class="competency-tag-box">${(s.competencies || ['Competencia General']).map(c => `<span class="competency-pill">✓ ${c}</span>`).join('')}</div>
                 </div>
                 <div style="border-top:1px solid var(--border-subtle); padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
                   <button class="btn btn-navy btn-sm" onclick="window.app.openSyllabusModal('${s.id}')">Ver Completo</button>
-                  ${hasAdminEditPower ? `<div><button class="btn btn-outline btn-sm" onclick="window.app.openEditSyllabusModal('${s.id}')">âœï¸</button> <button class="btn btn-outline btn-sm" style="color:var(--color-red-600);" onclick="window.app.confirmDeleteSyllabus('${s.id}')">ðŸ—‘ï¸</button></div>` : ''}
+                  ${hasAdminEditPower ? `<div><button class="btn btn-outline btn-sm" onclick="window.app.openEditSyllabusModal('${s.id}')">✏️</button> <button class="btn btn-outline btn-sm" style="color:var(--color-red-600);" onclick="window.app.confirmDeleteSyllabus('${s.id}')">🗑️</button></div>` : ''}
                 </div>
               </div>
             `).join('')}
@@ -7737,7 +7737,7 @@ const Components = {
   },
 
   // =========================================================================
-  // AULA VIRTUAL: MATERIALES SEMANALES Y EVALUACIONES DINÃMICAS (10 PREGUNTAS)
+  // AULA VIRTUAL: MATERIALES SEMANALES Y EVALUACIONES DINÁMICAS (10 PREGUNTAS)
   // =========================================================================
   renderTasks(state) {
     const role = state.currentRole;
@@ -7749,10 +7749,10 @@ const Components = {
     
     // Lista de cursos disponibles en el aula virtual
     const availableCourses = [
-      { id: "MAT-401", name: "MatemÃ¡tica Avanzada (Ãlgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "ðŸ“", color: "blue" },
-      { id: "EPT-402", name: "ComputaciÃ³n e InformÃ¡tica / RobÃ³tica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria", icon: "ðŸ¤–", color: "yellow" },
-      { id: "CTA-403", name: "Ciencia y TecnologÃ­a (FÃ­sica & QuÃ­mica)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria", icon: "ðŸ”¬", color: "green" },
-      { id: "COM-404", name: "ComunicaciÃ³n & Literatura", teacher: "Miss MarÃ­a Daysi Reyes", grade: "4to de Secundaria", icon: "ðŸ“š", color: "navy" }
+      { id: "MAT-401", name: "Matemática Avanzada (Álgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "📐", color: "blue" },
+      { id: "EPT-402", name: "Computación e Informática / Robótica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria", icon: "🤖", color: "yellow" },
+      { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria", icon: "🔬", color: "green" },
+      { id: "COM-404", name: "Comunicación & Literatura", teacher: "Miss María Daysi Reyes", grade: "4to de Secundaria", icon: "📚", color: "navy" }
     ];
 
     const selectedCourseId = state.selectedVirtualCourseId || availableCourses[0].id;
@@ -7771,7 +7771,7 @@ const Components = {
       ? activeMaterial.studentAttempts.find(a => a.studentId === currentStudentId) 
       : null;
 
-    // MÃ©tricas del aula para el docente
+    // Métricas del aula para el docente
     const totalWeeklySessions = courseMaterials.length;
     const totalEvaluations = courseMaterials.filter(m => m.evaluation && m.evaluation.questions && m.evaluation.questions.length > 0).length;
     const allAttemptsInCourse = courseMaterials.reduce((acc, m) => acc + (m.studentAttempts ? m.studentAttempts.length : 0), 0);
@@ -7784,27 +7784,27 @@ const Components = {
           <div class="card-header" style="flex-wrap: wrap; gap: 14px;">
             <div>
               <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl); margin: 0;">ðŸ’» Aula Virtual & Evaluaciones DinÃ¡micas Semanales</h2>
+                <h2 class="card-title" style="font-size: var(--font-size-xl); margin: 0;">💻 Aula Virtual & Evaluaciones Dinámicas Semanales</h2>
                 <span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-800); font-weight: 800;">
-                  Periodo Lectivo 2026 â€¢ III Bimestre
+                  Periodo Lectivo 2026 • III Bimestre
                 </span>
-                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">ðŸ‘¨â€ðŸ« Modo GestiÃ³n Docente</span>` : ''}
-                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">ðŸŽ“ Alumno(a): SofÃ­a MÃ©ndez</span>` : ''}
+                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">👨‍🏫 Modo Gestión Docente</span>` : ''}
+                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">🎓 Alumno(a): Sofía Méndez</span>` : ''}
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                I.E.P. "El Educador" â€¢ PublicaciÃ³n continua del trabajo realizado en el aula y generaciÃ³n automÃ¡tica de evaluaciones dinÃ¡micas de 10 preguntas con retroalimentaciÃ³n inmediata.
+                I.E.P. "El Educador" • Publicación continua del trabajo realizado en el aula y generación automática de evaluaciones dinámicas de 10 preguntas con retroalimentación inmediata.
               </p>
             </div>
 
-            <!-- Botones de AcciÃ³n para el Docente -->
+            <!-- Botones de Acción para el Docente -->
             ${isTeacherOrAdmin ? `
               <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
                 <button class="btn btn-navy btn-sm" onclick="window.app.openUploadMaterialModal('${selectedCourseId}')" style="font-weight: 800;">
-                  âž• Subir Material Semanal
+                  ➕ Subir Material Semanal
                 </button>
                 ${activeMaterial ? `
                   <button class="btn btn-gold btn-sm" onclick="window.app.openGenerateQuizModal('${activeMaterial.id}')" style="font-weight: 800;">
-                    âš¡ Generar EvaluaciÃ³n (10 Preguntas)
+                    ⚡ Generar Evaluación (10 Preguntas)
                   </button>
                 ` : ''}
               </div>
@@ -7825,43 +7825,43 @@ const Components = {
             </div>
 
             <div style="font-size: 12px; color: var(--text-muted);">
-              <strong>Docente Responsable:</strong> <span style="color: var(--color-navy-900); font-weight: bold;">${currentCourse.teacher}</span> â€¢ <span>${currentCourse.grade}</span>
+              <strong>Docente Responsable:</strong> <span style="color: var(--color-navy-900); font-weight: bold;">${currentCourse.teacher}</span> • <span>${currentCourse.grade}</span>
             </div>
           </div>
         </div>
 
-        <!-- Panel de MÃ©tricas RÃ¡pidas del Curso (Visible para Docente y Admin) -->
+        <!-- Panel de Métricas Rápidas del Curso (Visible para Docente y Admin) -->
         ${isTeacherOrAdmin ? `
           <div class="teacher-stat-grid" style="margin-bottom: var(--space-6);">
             <div class="teacher-stat-card" style="border-left: 4px solid #3b82f6;">
-              <span class="teacher-stat-lbl">ðŸ“ Sesiones Semanales</span>
+              <span class="teacher-stat-lbl">📁 Sesiones Semanales</span>
               <span class="teacher-stat-val" style="color: #1e40af;">${totalWeeklySessions} Semanas</span>
               <span style="font-size: 10.5px; color: #64748b;">Materiales de clase subidos</span>
             </div>
             <div class="teacher-stat-card" style="border-left: 4px solid #f59e0b;">
-              <span class="teacher-stat-lbl">âš¡ Evaluaciones DinÃ¡micas</span>
+              <span class="teacher-stat-lbl">⚡ Evaluaciones Dinámicas</span>
               <span class="teacher-stat-val" style="color: #b45309;">${totalEvaluations} Quizzes (10 Preg.)</span>
-              <span style="font-size: 10.5px; color: #64748b;">Con retroalimentaciÃ³n IA</span>
+              <span style="font-size: 10.5px; color: #64748b;">Con retroalimentación IA</span>
             </div>
             <div class="teacher-stat-card" style="border-left: 4px solid #10b981;">
-              <span class="teacher-stat-lbl">ðŸ‘¥ Evaluaciones Rendidas</span>
+              <span class="teacher-stat-lbl">👥 Evaluaciones Rendidas</span>
               <span class="teacher-stat-val" style="color: #065f46;">${allAttemptsInCourse} Intentos</span>
               <span style="font-size: 10.5px; color: #64748b;">Estudiantes evaluados</span>
             </div>
             <div class="teacher-stat-card" style="border-left: 4px solid #8b5cf6;">
-              <span class="teacher-stat-lbl">ðŸ“Š Promedio de Logro</span>
+              <span class="teacher-stat-lbl">📊 Promedio de Logro</span>
               <span class="teacher-stat-val" style="color: #5b21b6;">17.8 / 20</span>
               <span style="font-size: 10.5px; color: #64748b;">Nivel Logro Destacado (AD)</span>
             </div>
           </div>
         ` : ''}
 
-        <!-- PestaÃ±as de NavegaciÃ³n por Semanas del Curso -->
+        <!-- Pestañas de Navegación por Semanas del Curso -->
         <div style="display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 6px;">
           ${courseMaterials.map((m, idx) => `
             <button class="btn btn-sm ${m.id === (activeMaterial && activeMaterial.id) ? 'btn-gold' : 'btn-outline'}" onclick="window.app.onVirtualWeekChange('${m.id}')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 6px 14px; display: flex; align-items: center; gap: 6px;">
-              <span>ðŸ—“ï¸ Semana ${m.weekNumber}</span>
-              ${m.evaluation ? `<span style="background:#1e3a8a; color:white; font-size:9px; padding:1px 5px; border-radius:10px;">âš¡ 10P</span>` : ''}
+              <span>🗓️ Semana ${m.weekNumber}</span>
+              ${m.evaluation ? `<span style="background:#1e3a8a; color:white; font-size:9px; padding:1px 5px; border-radius:10px;">⚡ 10P</span>` : ''}
             </button>
           `).join('')}
           ${isTeacherOrAdmin ? `
@@ -7873,10 +7873,10 @@ const Components = {
 
         ${!activeMaterial ? `
           <div class="card" style="text-align: center; padding: 40px 20px;">
-            <div style="font-size: 40px; margin-bottom: 10px;">ðŸ“š</div>
-            <h3 style="font-size: 18px; color: var(--color-navy-900); font-weight: 800;">No hay sesiones registradas aÃºn en este curso</h3>
+            <div style="font-size: 40px; margin-bottom: 10px;">📚</div>
+            <h3 style="font-size: 18px; color: var(--color-navy-900); font-weight: 800;">No hay sesiones registradas aún en este curso</h3>
             <p style="font-size: 13px; color: var(--text-muted); max-width: 500px; margin: 0 auto 16px;">
-              El docente responsable publicarÃ¡ cada semana el resumen de la clase presencial, diapositivas y la evaluaciÃ³n dinÃ¡mica de 10 preguntas.
+              El docente responsable publicará cada semana el resumen de la clase presencial, diapositivas y la evaluación dinámica de 10 preguntas.
             </p>
             ${isTeacherOrAdmin ? `
               <button class="btn btn-navy" onclick="window.app.openUploadMaterialModal('${selectedCourseId}')">
@@ -7886,7 +7886,7 @@ const Components = {
           </div>
         ` : `
           <!-- =====================================================================
-               DETALLE DE LA SESIÃ“N SEMANAL ACTIVA
+               DETALLE DE LA SESIÓN SEMANAL ACTIVA
                ===================================================================== -->
           <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; align-items: start;">
             
@@ -7899,9 +7899,9 @@ const Components = {
                   <div>
                     <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 2px;">
                       <span class="status-badge" style="background: #e0e7ff; color: #3730a3; font-weight: 800; font-size: 10.5px;">
-                        Semana ${activeMaterial.weekNumber} â€¢ ${activeMaterial.bimester}
+                        Semana ${activeMaterial.weekNumber} • ${activeMaterial.bimester}
                       </span>
-                      <span style="font-size: 11px; color: var(--text-muted);">ðŸ—“ï¸ Fecha de Clase: ${activeMaterial.sessionDate}</span>
+                      <span style="font-size: 11px; color: var(--text-muted);">🗓️ Fecha de Clase: ${activeMaterial.sessionDate}</span>
                     </div>
                     <h3 style="font-size: 17px; font-weight: 900; color: var(--color-navy-900); margin: 0;">
                       ${activeMaterial.title}
@@ -7910,20 +7910,20 @@ const Components = {
 
                   ${isTeacherOrAdmin ? `
                     <div style="display: flex; gap: 6px;">
-                      <button class="btn btn-outline btn-sm" onclick="window.app.openEditMaterialModal('${activeMaterial.id}')" title="Editar SesiÃ³n" style="padding: 4px 8px; font-size: 11px;">
-                        âœï¸ Editar
+                      <button class="btn btn-outline btn-sm" onclick="window.app.openEditMaterialModal('${activeMaterial.id}')" title="Editar Sesión" style="padding: 4px 8px; font-size: 11px;">
+                        ✏️ Editar
                       </button>
-                      <button class="btn btn-red btn-sm" onclick="window.app.confirmDeleteMaterial('${activeMaterial.id}')" title="Eliminar SesiÃ³n" style="padding: 4px 8px; font-size: 11px;">
-                        ðŸ—‘ï¸
+                      <button class="btn btn-red btn-sm" onclick="window.app.confirmDeleteMaterial('${activeMaterial.id}')" title="Eliminar Sesión" style="padding: 4px 8px; font-size: 11px;">
+                        🗑️
                       </button>
                     </div>
                   ` : ''}
                 </div>
 
                 <div style="padding: 20px;">
-                  <!-- Resumen PedagÃ³gico del Trabajo en el Aula -->
+                  <!-- Resumen Pedagógico del Trabajo en el Aula -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-                    <span>ðŸ‘¨â€ðŸ« Resumen del Trabajo Realizado en el Aula:</span>
+                    <span>👨‍🏫 Resumen del Trabajo Realizado en el Aula:</span>
                   </h4>
                   <div style="background: #f1f5f9; border-left: 4px solid var(--color-navy-800); padding: 14px 16px; border-radius: 6px; font-size: 13px; line-height: 1.6; color: #334155; margin-bottom: 18px;">
                     ${activeMaterial.summary}
@@ -7931,26 +7931,26 @@ const Components = {
 
                   <!-- Conceptos Clave Trabajados -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px;">
-                    ðŸ“Œ Conceptos Clave Abordados en Clase:
+                    📌 Conceptos Clave Abordados en Clase:
                   </h4>
                   <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
                     ${(activeMaterial.keyConcepts || []).map(c => `
                       <span style="font-size: 11.5px; font-weight: 700; background: #e2e8f0; color: #1e293b; padding: 4px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
-                        âœ“ ${c}
+                        ✓ ${c}
                       </span>
                     `).join('')}
                   </div>
 
                   <!-- Materiales y Recursos Adjuntos para Descargar -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
-                    <span>ðŸ“Ž Materiales de Estudio y Recursos de la Clase:</span>
+                    <span>📎 Materiales de Estudio y Recursos de la Clase:</span>
                     <span style="font-size: 11px; color: var(--text-muted); font-weight: normal;">${(activeMaterial.attachments || []).length} archivos adjuntos</span>
                   </h4>
                   
                   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
                     ${(activeMaterial.attachments || []).map(att => `
                       <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; display: flex; align-items: center; gap: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: transform 0.2s;" class="hover-shadow">
-                        <div style="font-size: 24px;">${att.icon || 'ðŸ“„'}</div>
+                        <div style="font-size: 24px;">${att.icon || '📄'}</div>
                         <div style="flex: 1; min-width: 0;">
                           <div style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                             ${att.name}
@@ -7960,7 +7960,7 @@ const Components = {
                           </div>
                         </div>
                         <button class="btn btn-outline btn-sm" onclick="window.app.downloadMaterialAttachment('${att.name}')" style="padding: 4px 8px; font-size: 11px; font-weight: 800;" title="Descargar Material">
-                          â¬‡ï¸
+                          ⬇️
                         </button>
                       </div>
                     `).join('')}
@@ -7970,61 +7970,61 @@ const Components = {
 
             </div>
 
-            <!-- Columna Derecha: MÃ“DULO DE EVALUACIÃ“N DINÃMICA (10 PREGUNTAS) -->
+            <!-- Columna Derecha: MÓDULO DE EVALUACIÓN DINÁMICA (10 PREGUNTAS) -->
             <div>
               
               <div class="card" style="border: 2px solid ${activeMaterial.evaluation ? '#3b82f6' : '#cbd5e1'}; box-shadow: 0 4px 12px rgba(59,130,246,0.08);">
                 <div class="card-header" style="background: ${activeMaterial.evaluation ? 'linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)' : '#f8fafc'}; color: ${activeMaterial.evaluation ? '#ffffff' : '#0b132b'};">
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 20px;">âš¡</span>
+                    <span style="font-size: 20px;">⚡</span>
                     <div>
                       <h3 style="font-size: 15px; font-weight: 900; margin: 0; color: ${activeMaterial.evaluation ? '#ffffff' : '#0b132b'};">
-                        EvaluaciÃ³n DinÃ¡mica Semanal
+                        Evaluación Dinámica Semanal
                       </h3>
-                      <span style="font-size: 11px; opacity: 0.9;">10 Preguntas con RetroalimentaciÃ³n</span>
+                      <span style="font-size: 11px; opacity: 0.9;">10 Preguntas con Retroalimentación</span>
                     </div>
                   </div>
                 </div>
 
                 <div style="padding: 18px;">
                   ${!activeMaterial.evaluation ? `
-                    <!-- Caso: AÃºn no se ha generado la evaluaciÃ³n -->
+                    <!-- Caso: Aún no se ha generado la evaluación -->
                     <div style="text-align: center; padding: 20px 10px;">
-                      <div style="font-size: 32px; margin-bottom: 8px;">ðŸ¤–</div>
-                      <h4 style="font-size: 14px; font-weight: 800; color: var(--color-navy-900);">EvaluaciÃ³n no generada</h4>
+                      <div style="font-size: 32px; margin-bottom: 8px;">🤖</div>
+                      <h4 style="font-size: 14px; font-weight: 800; color: var(--color-navy-900);">Evaluación no generada</h4>
                       <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 14px;">
-                        El sistema puede generar un cuestionario dinÃ¡mico de 10 preguntas calibrado automÃ¡ticamente sobre el tema de esta semana.
+                        El sistema puede generar un cuestionario dinámico de 10 preguntas calibrado automáticamente sobre el tema de esta semana.
                       </p>
                       ${isTeacherOrAdmin ? `
                         <button class="btn btn-gold btn-sm" onclick="window.app.openGenerateQuizModal('${activeMaterial.id}')" style="width: 100%; font-weight: 800;">
-                          âš¡ Generar 10 Preguntas con IA
+                          ⚡ Generar 10 Preguntas con IA
                         </button>
                       ` : `
-                        <span class="status-badge status-pending" style="font-size: 11px;">Pendiente de publicaciÃ³n por el profesor</span>
+                        <span class="status-badge status-pending" style="font-size: 11px;">Pendiente de publicación por el profesor</span>
                       `}
                     </div>
                   ` : `
-                    <!-- Caso: EvaluaciÃ³n de 10 preguntas Lista -->
+                    <!-- Caso: Evaluación de 10 preguntas Lista -->
                     <div style="margin-bottom: 14px;">
                       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                         <span style="font-size: 12px; font-weight: 800; color: #1e293b;">Estructura del Test:</span>
-                        <span class="status-badge status-approved" style="font-size: 10.5px; font-weight: 800;">10 Ãtems â€¢ 20 Puntos</span>
+                        <span class="status-badge status-approved" style="font-size: 10.5px; font-weight: 800;">10 Ítems • 20 Puntos</span>
                       </div>
                       
                       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; font-size: 11.5px; color: #475569; display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
-                        <div>â±ï¸ <strong>Tiempo:</strong> 20 min</div>
-                        <div>ðŸŽ¯ <strong>MÃ­nimo:</strong> 14 pts</div>
-                        <div>ðŸ“Š <strong>Puntaje:</strong> 2 pts c/u</div>
-                        <div>ðŸ¤– <strong>IA Feedback:</strong> Activo</div>
+                        <div>⏱️ <strong>Tiempo:</strong> 20 min</div>
+                        <div>🎯 <strong>Mínimo:</strong> 14 pts</div>
+                        <div>📊 <strong>Puntaje:</strong> 2 pts c/u</div>
+                        <div>🤖 <strong>IA Feedback:</strong> Activo</div>
                       </div>
                     </div>
 
                     <!-- ESTADO PARA EL ALUMNO LOGUEADO -->
                     ${isEstudiante ? `
                       ${studentAttempt ? `
-                        <!-- Alumno ya rindiÃ³ la prueba -->
+                        <!-- Alumno ya rindió la prueba -->
                         <div style="background: ${studentAttempt.score >= 14 ? '#ecfdf5' : '#fff1f2'}; border: 2px solid ${studentAttempt.score >= 14 ? '#10b981' : '#f43f5e'}; border-radius: 8px; padding: 14px; margin-bottom: 14px; text-align: center;">
-                          <span style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: ${studentAttempt.score >= 14 ? '#047857' : '#be123c'};">Tu CalificaciÃ³n Obtenida:</span>
+                          <span style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: ${studentAttempt.score >= 14 ? '#047857' : '#be123c'};">Tu Calificación Obtenida:</span>
                           <div style="font-size: 28px; font-weight: 900; color: ${studentAttempt.score >= 14 ? '#047857' : '#be123c'}; margin: 4px 0;">
                             ${studentAttempt.score} / 20
                           </div>
@@ -8032,27 +8032,27 @@ const Components = {
                             ${studentAttempt.status} (${studentAttempt.correctCount} / 10 correctas)
                           </span>
                           <p style="font-size: 11px; color: #475569; margin-top: 8px; line-height: 1.4; text-align: left; background: rgba(255,255,255,0.7); padding: 8px; border-radius: 4px;">
-                            ðŸ’¡ <strong>RetroalimentaciÃ³n del Sistema:</strong> ${studentAttempt.feedback}
+                            💡 <strong>Retroalimentación del Sistema:</strong> ${studentAttempt.feedback}
                           </p>
                         </div>
 
                         <div style="display: flex; flex-direction: column; gap: 8px;">
                           <button class="btn btn-navy btn-sm" onclick="window.app.openQuizResultsModal('${activeMaterial.id}')" style="width: 100%; font-weight: 800;">
-                            ðŸ‘ï¸ Revisar Respuestas y Explicaciones
+                            👁️ Revisar Respuestas y Explicaciones
                           </button>
                           <button class="btn btn-outline btn-sm" onclick="window.app.startStudentQuiz('${activeMaterial.id}')" style="width: 100%; font-weight: 700; font-size: 11px;">
-                            ðŸ”„ Rendir Nuevo Intento de Refuerzo
+                            🔄 Rendir Nuevo Intento de Refuerzo
                           </button>
                         </div>
                       ` : `
-                        <!-- Alumno no ha rendido la prueba aÃºn -->
+                        <!-- Alumno no ha rendido la prueba aún -->
                         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 14px; margin-bottom: 14px; text-align: center;">
                           <span style="font-size: 11px; font-weight: 800; color: #1e40af; text-transform: uppercase;">Estado: Pendiente</span>
                           <p style="font-size: 12px; color: #1e3a8a; margin: 6px 0 12px;">
-                            Pon a prueba lo aprendido en la clase de <strong>${activeMaterial.title}</strong> con esta evaluaciÃ³n de 10 preguntas.
+                            Pon a prueba lo aprendido en la clase de <strong>${activeMaterial.title}</strong> con esta evaluación de 10 preguntas.
                           </p>
                           <button class="btn btn-gold" onclick="window.app.startStudentQuiz('${activeMaterial.id}')" style="width: 100%; font-weight: 900; font-size: 13px; padding: 10px;">
-                            ðŸ“ Iniciar EvaluaciÃ³n (10 Preguntas)
+                            📝 Iniciar Evaluación (10 Preguntas)
                           </button>
                         </div>
                       `}
@@ -8062,10 +8062,10 @@ const Components = {
                     ${isTeacherOrAdmin ? `
                       <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px;">
                         <button class="btn btn-navy btn-sm" onclick="window.app.openPreviewQuizModal('${activeMaterial.id}')" style="width: 100%; font-weight: 800;">
-                          ðŸ‘ï¸ Previsualizar / Editar 10 Preguntas
+                          👁️ Previsualizar / Editar 10 Preguntas
                         </button>
                         <button class="btn btn-outline btn-sm" onclick="window.app.confirmRegenerateQuiz('${activeMaterial.id}')" style="width: 100%; font-weight: 700; font-size: 11.5px;">
-                          âš¡ Regenerar Cuestionario con IA
+                          ⚡ Regenerar Cuestionario con IA
                         </button>
                       </div>
 
@@ -8103,7 +8103,7 @@ const Components = {
                             `).join('') : `
                               <tr>
                                 <td colspan="3" style="text-align: center; padding: 14px; color: #94a3b8;">
-                                  NingÃºn alumno ha rendido la evaluaciÃ³n aÃºn.
+                                  Ningún alumno ha rendido la evaluación aún.
                                 </td>
                               </tr>
                             `}
@@ -8116,21 +8116,21 @@ const Components = {
                     ${isPadre ? `
                       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
                         <h4 style="font-size: 12px; font-weight: 800; color: #1e3a8a; margin-bottom: 6px;">
-                          Informe de EvaluaciÃ³n para el Apoderado
+                          Informe de Evaluación para el Apoderado
                         </h4>
                         ${studentAttempt ? `
                           <div style="font-size: 13px; margin-bottom: 6px;">
-                            CalificaciÃ³n de su menor hija(o): <strong style="color: #047857; font-size: 15px;">${studentAttempt.score} / 20</strong> (${studentAttempt.status})
+                            Calificación de su menor hija(o): <strong style="color: #047857; font-size: 15px;">${studentAttempt.score} / 20</strong> (${studentAttempt.status})
                           </div>
                           <p style="font-size: 11.5px; color: #475569; margin: 0 0 10px; line-height: 1.4;">
                             ${studentAttempt.feedback}
                           </p>
                           <button class="btn btn-navy btn-sm" onclick="window.app.openQuizResultsModal('${activeMaterial.id}')" style="width: 100%; font-size: 11px;">
-                            ðŸ‘ï¸ Ver Respuestas y RetroalimentaciÃ³n
+                            👁️ Ver Respuestas y Retroalimentación
                           </button>
                         ` : `
                           <p style="font-size: 12px; color: #94a3b8; margin: 0;">
-                            Su menor hija(o) aÃºn no ha rendido la evaluaciÃ³n de esta semana.
+                            Su menor hija(o) aún no ha rendido la evaluación de esta semana.
                           </p>
                         `}
                       </div>
@@ -8150,7 +8150,7 @@ const Components = {
   },
 
   // =========================================================================
-  // CONTROL DE ASISTENCIA BIOMÃ‰TRICO Y DIARIO (TARDANZAS, INASISTENCIAS & QR)
+  // CONTROL DE ASISTENCIA BIOMÉTRICO Y DIARIO (TARDANZAS, INASISTENCIAS & QR)
   // =========================================================================
   renderAttendance(state) {
     const role = state.currentRole;
@@ -8168,8 +8168,8 @@ const Components = {
     }
 
     // Si es padre de familia, obtener datos del estudiante a su cargo
-    let studentName = "SofÃ­a MÃ©ndez Flores";
-    let studentGrade = "4Â° de Secundaria";
+    let studentName = "Sofía Méndez Flores";
+    let studentGrade = "4° de Secundaria";
     let studentCode = "EST-2026-042";
     if (isPadre) {
       const parentUser = (state.users && state.users.padre) || initialData.users.padre;
@@ -8184,11 +8184,11 @@ const Components = {
     } else if (isEstudiante) {
       const studentUser = (state.users && state.users.estudiante) || initialData.users.estudiante;
       studentName = studentUser.name;
-      studentGrade = studentUser.gradeLevel || "4to AÃ±o - Secundaria 'A'";
+      studentGrade = studentUser.gradeLevel || "4to Año - Secundaria 'A'";
       studentCode = studentUser.id;
     }
 
-    const currentGrade = (catalog && catalog.find(g => g && (g.id === selectedGradeId || g.id === "4sec"))) || (catalog && catalog[0]) || { id: "4sec", label: "4Â° de Secundaria", level: "Secundaria", tutor: "Prof. Roberto Silva", classroom: "Aula 401" };
+    const currentGrade = (catalog && catalog.find(g => g && (g.id === selectedGradeId || g.id === "4sec"))) || (catalog && catalog[0]) || { id: "4sec", label: "4° de Secundaria", level: "Secundaria", tutor: "Prof. Roberto Silva", classroom: "Aula 401" };
     const records = (state && state.attendanceRecords) || (initialData && initialData.attendanceRecords) || [];
     const enrollments = (state && state.enrollments) || (initialData && initialData.enrollments) || [];
     
@@ -8197,11 +8197,11 @@ const Components = {
       if (!r) return false;
       const matchesGrade = (r.gradeId && r.gradeId === selectedGradeId) || 
                            (r.grade && currentGrade && currentGrade.label && typeof r.grade === 'string' && r.grade.includes(currentGrade.label)) || 
-                           (r.grade && typeof r.grade === 'string' && r.grade.includes("4Â°"));
+                           (r.grade && typeof r.grade === 'string' && r.grade.includes("4°"));
       return matchesGrade && r.date === selectedDate;
     });
     
-    // MÃ©tricas de aula
+    // Métricas de aula
     const totalStudents = classroomRecords.length > 0 ? classroomRecords.length : 4;
     const presentCount = classroomRecords.filter(r => r && r.status === "Presente").length;
     const lateCount = classroomRecords.filter(r => r && r.status === "Tardanza").length;
@@ -8231,7 +8231,7 @@ const Components = {
     if (!Array.isArray(dayReport.justifiedList)) dayReport.justifiedList = [];
 
     // Historial del estudiante individual (para Padre o Estudiante)
-    const studentHistory = records.filter(r => r && ((studentCode && r.studentCode === studentCode) || (r.studentName && typeof r.studentName === 'string' && r.studentName.includes("SofÃ­a"))));
+    const studentHistory = records.filter(r => r && ((studentCode && r.studentCode === studentCode) || (r.studentName && typeof r.studentName === 'string' && r.studentName.includes("Sofía"))));
 
     return `
       <div class="fade-in">
@@ -8241,34 +8241,34 @@ const Components = {
           <div class="welcome-content">
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
               <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800;">
-                ðŸŸ¢ SISTEMA QR & BIOMÃ‰TRICO EN PUERTA ACTIVO
+                🟢 SISTEMA QR & BIOMÉTRICO EN PUERTA ACTIVO
               </span>
-              <span style="font-size: 11.5px; opacity: 0.9;">Tolerancia Oficial: 07:45 AM â€¢ UGEL 05 S.J.L.</span>
+              <span style="font-size: 11.5px; opacity: 0.9;">Tolerancia Oficial: 07:45 AM • UGEL 05 S.J.L.</span>
             </div>
             <h1 class="welcome-title">
-              ${isTeacherOrAdmin ? 'Control de Asistencia Escolar & EstaciÃ³n de PorterÃ­a' : (isPadre ? 'RÃ©cord de Asistencia de mi Hijo(a)' : 'Mi Historial de Asistencia & Fotocheck')}
+              ${isTeacherOrAdmin ? 'Control de Asistencia Escolar & Estación de Portería' : (isPadre ? 'Récord de Asistencia de mi Hijo(a)' : 'Mi Historial de Asistencia & Fotocheck')}
             </h1>
             <p class="welcome-subtitle">
               ${isTeacherOrAdmin 
-                ? 'MÃ³dulo exclusivo de Auxiliares y Docentes para registro biomÃ©trico/QR en puerta, parte diario de inasistencias y reportes oficiales.' 
-                : 'Consulta de marcaciones de ingreso, justificaciÃ³n de tardanzas y credencial escolar con cÃ³digo QR.'}
+                ? 'Módulo exclusivo de Auxiliares y Docentes para registro biométrico/QR en puerta, parte diario de inasistencias y reportes oficiales.' 
+                : 'Consulta de marcaciones de ingreso, justificación de tardanzas y credencial escolar con código QR.'}
             </p>
           </div>
         </div>
 
         ${isTeacherOrAdmin ? `
           <!-- =========================================================================
-               SUB-PESTAÃ‘AS DE CONTROL DE ASISTENCIA Y PORTERÃA (EXCLUSIVO PROFESORES / AUXILIARES / DIRECCIÃ“N)
+               SUB-PESTAÑAS DE CONTROL DE ASISTENCIA Y PORTERÍA (EXCLUSIVO PROFESORES / AUXILIARES / DIRECCIÓN)
                ========================================================================= -->
           <div style="display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; overflow-x: auto;">
             <button class="btn btn-sm ${activeSubTab === 'door-scanner' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('door-scanner')" style="font-weight: 900; font-size: 12.5px; white-space: nowrap; padding: 8px 16px; border: 2px solid #f59e0b; box-shadow: ${activeSubTab === 'door-scanner' ? '0 2px 8px rgba(245,158,11,0.4)' : 'none'};">
-              ðŸšª 1. Registro de Ingreso (EscÃ¡ner QR en PorterÃ­a)
+              🚪 1. Registro de Ingreso (Escáner QR en Portería)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'id-cards' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('id-cards')" style="font-weight: 900; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              ðŸ–¨ï¸ 2. Generador de CÃ³digos QR (Sin Fotos)
+              🖨️ 2. Generador de Códigos QR (Sin Fotos)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'daily-report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('daily-report')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>ðŸ“Š 3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
+              <span>📊 3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
               ${dayReport.tardinessList.length > 0 || dayReport.absenceList.length > 0 ? `
                 <span style="background: #ef4444; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                   ${dayReport.tardinessList.length + dayReport.absenceList.length}
@@ -8276,10 +8276,10 @@ const Components = {
               ` : ''}
             </button>
             <button class="btn btn-sm ${activeSubTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('classroom')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              ðŸ“‹ 4. Lista y MarcaciÃ³n por Aula
+              📋 4. Lista y Marcación por Aula
             </button>
             <button class="btn btn-sm ${activeSubTab === 'incidents' ? 'btn-red' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('incidents')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>ðŸš¨ 5. Libro de Incidencias Conductuales</span>
+              <span>🚨 5. Libro de Incidencias Conductuales</span>
               <span style="background: #dc2626; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                 ${(state.behaviorIncidents || initialData.behaviorIncidents || []).length}
               </span>
@@ -8288,7 +8288,7 @@ const Components = {
         ` : ''}
 
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 1: LISTA Y MARCACIÃ“N POR AULA
+               SUB-PESTAÑA 1: LISTA Y MARCACIÓN POR AULA
                ===================================================================== -->
           ${activeSubTab === 'classroom' ? `
             
@@ -8298,72 +8298,72 @@ const Components = {
                 
                 <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                   <div>
-                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">ðŸ« Grado / Aula:</label>
+                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">🏫 Grado / Aula:</label>
                     <select class="form-control" style="font-weight: bold; font-size: 12px; border-color: #3b82f6; width: auto;" onchange="window.app.onAttendanceGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === selectedGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
                   </div>
 
                   <div>
-                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">ðŸ“… Fecha de Control:</label>
+                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">📅 Fecha de Control:</label>
                     <select class="form-control" style="font-weight: bold; font-size: 12px; border-color: #3b82f6; width: auto;" onchange="window.app.onAttendanceDateChange(this.value)">
-                      <option value="19/08/2026" ${selectedDate === '19/08/2026' ? 'selected' : ''}>Hoy - MiÃ©rcoles 19/08/2026</option>
+                      <option value="19/08/2026" ${selectedDate === '19/08/2026' ? 'selected' : ''}>Hoy - Miércoles 19/08/2026</option>
                       <option value="18/08/2026" ${selectedDate === '18/08/2026' ? 'selected' : ''}>Ayer - Martes 18/08/2026</option>
                       <option value="15/08/2026" ${selectedDate === '15/08/2026' ? 'selected' : ''}>Viernes 15/08/2026</option>
                     </select>
                   </div>
 
                   <div style="font-size: 11.5px; color: #475569; background: #f1f5f9; padding: 6px 12px; border-radius: 6px; border: 1px solid #cbd5e1; margin-top: 14px;">
-                    Tutor de Aula: <strong>${currentGrade.tutor || 'Prof. Roberto Silva'}</strong> â€¢ Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong>
+                    Tutor de Aula: <strong>${currentGrade.tutor || 'Prof. Roberto Silva'}</strong> • Aula: <strong>${currentGrade.classroom || 'Aula Principal'}</strong>
                   </div>
                 </div>
 
-                <!-- BOTONES DE ACCIÃ“N RÃPIDA -->
+                <!-- BOTONES DE ACCIÓN RÁPIDA -->
                 <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px;">
                   <button class="btn btn-gold btn-sm" onclick="window.app.markAllClassroomPresent('${selectedGradeId}', '${selectedDate}')" style="font-weight: 800; font-size: 11.5px;">
-                    âš¡ Marcar Todos Presentes
+                    ⚡ Marcar Todos Presentes
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.setAttendanceSubTab('door-scanner')" style="font-weight: 800; font-size: 11.5px;">
-                    ðŸ“· Escanear QR en Puerta
+                    📷 Escanear QR en Puerta
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.app.openMonthlyAttendanceReportModal('${selectedGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                    ðŸ“„ Consolidado UGEL 05
+                    📄 Consolidado UGEL 05
                   </button>
                 </div>
 
               </div>
             </div>
 
-            <!-- MÃ‰TRICAS RESUMEN DEL DÃA -->
+            <!-- MÉTRICAS RESUMEN DEL DÍA -->
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin-bottom: var(--space-4);">
               <div class="card" style="padding: 12px; border-left: 4px solid #3b82f6; background: #eff6ff;">
-                <span style="font-size: 11px; font-weight: 800; color: #1e40af;">ðŸ‘¥ MATRICULADOS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #1e40af;">👥 MATRICULADOS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #1e3a8a; margin: 2px 0;">${totalStudents} Alumnos</div>
-                <span style="font-size: 10px; color: #64748b;">PadrÃ³n de Aula</span>
+                <span style="font-size: 10px; color: #64748b;">Padrón de Aula</span>
               </div>
               
               <div class="card" style="padding: 12px; border-left: 4px solid #10b981; background: #ecfdf5;">
-                <span style="font-size: 11px; font-weight: 800; color: #065f46;">ðŸŸ¢ PRESENTES</span>
+                <span style="font-size: 11px; font-weight: 800; color: #065f46;">🟢 PRESENTES</span>
                 <div style="font-size: 22px; font-weight: 900; color: #047857; margin: 2px 0;">${presentCount} (${attendancePct}%)</div>
-                <span style="font-size: 10px; color: #047857;">A tiempo en porterÃ­a</span>
+                <span style="font-size: 10px; color: #047857;">A tiempo en portería</span>
               </div>
 
               <div class="card" style="padding: 12px; border-left: 4px solid #f59e0b; background: #fffbeb;">
-                <span style="font-size: 11px; font-weight: 800; color: #92400e;">ðŸŸ¡ TARDANZAS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #92400e;">🟡 TARDANZAS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #b45309; margin: 2px 0;">${lateCount}</div>
-                <span style="font-size: 10px; color: #b45309;">DespuÃ©s de 07:45 am</span>
+                <span style="font-size: 10px; color: #b45309;">Después de 07:45 am</span>
               </div>
 
               <div class="card" style="padding: 12px; border-left: 4px solid #ef4444; background: #fef2f2;">
-                <span style="font-size: 11px; font-weight: 800; color: #991b1b;">ðŸ”´ INASISTENCIAS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #991b1b;">🔴 INASISTENCIAS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #dc2626; margin: 2px 0;">${absentCount}</div>
-                <span style="font-size: 10px; color: #dc2626;">Sin registro biomÃ©trico</span>
+                <span style="font-size: 10px; color: #dc2626;">Sin registro biométrico</span>
               </div>
 
               <div class="card" style="padding: 12px; border-left: 4px solid #8b5cf6; background: #f5f3ff;">
-                <span style="font-size: 11px; font-weight: 800; color: #5b21b6;">ðŸ”µ JUSTIFICADAS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #5b21b6;">🔵 JUSTIFICADAS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #6d28d9; margin: 2px 0;">${justifiedCount}</div>
-                <span style="font-size: 10px; color: #6d28d9;">Con certificado mÃ©dico</span>
+                <span style="font-size: 10px; color: #6d28d9;">Con certificado médico</span>
               </div>
             </div>
 
@@ -8372,7 +8372,7 @@ const Components = {
               <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                 <div>
                   <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-                    ðŸ“‹ Registro y MarcaciÃ³n de Asistencia: ${currentGrade.label} â€¢ Fecha: ${selectedDate}
+                    📋 Registro y Marcación de Asistencia: ${currentGrade.label} • Fecha: ${selectedDate}
                   </h3>
                   <span style="font-size: 11px; color: var(--text-muted);">
                     Haga clic en los botones de estado para cambiar la asistencia del estudiante al instante.
@@ -8385,12 +8385,12 @@ const Components = {
                   <thead>
                     <tr>
                       <th>Estudiante</th>
-                      <th>DNI / CÃ³digo</th>
-                      <th>Hora BiometrÃ­a</th>
-                      <th>MarcaciÃ³n de Estado (1 Clic)</th>
-                      <th>MÃ©todo de Registro</th>
+                      <th>DNI / Código</th>
+                      <th>Hora Biometría</th>
+                      <th>Marcación de Estado (1 Clic)</th>
+                      <th>Método de Registro</th>
                       <th>Observaciones</th>
-                      <th style="text-align: center;">AcciÃ³n</th>
+                      <th style="text-align: center;">Acción</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -8411,16 +8411,16 @@ const Components = {
                         <td>
                           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Presente')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Presente' ? '#10b981' : '#f1f5f9'}; color: ${r.status === 'Presente' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Presente' ? '#059669' : '#cbd5e1'};">
-                              ðŸŸ¢ Presente
+                              🟢 Presente
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Tardanza')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Tardanza' ? '#f59e0b' : '#f1f5f9'}; color: ${r.status === 'Tardanza' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Tardanza' ? '#d97706' : '#cbd5e1'};">
-                              ðŸŸ¡ Tardanza
+                              🟡 Tardanza
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Falta')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Falta' ? '#ef4444' : '#f1f5f9'}; color: ${r.status === 'Falta' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Falta' ? '#dc2626' : '#cbd5e1'};">
-                              ðŸ”´ Falta
+                              🔴 Falta
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Justificada')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Justificada' ? '#8b5cf6' : '#f1f5f9'}; color: ${r.status === 'Justificada' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Justificada' ? '#7c3aed' : '#cbd5e1'};">
-                              ðŸ”µ Justificada
+                              🔵 Justificada
                             </button>
                           </div>
                         </td>
@@ -8436,7 +8436,7 @@ const Components = {
                         </td>
                         <td style="text-align: center;">
                           <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${r.studentId}', '${r.date}')" style="font-size: 10.5px; padding: 3px 8px;">
-                            âœï¸ Justificar
+                            ✏️ Justificar
                           </button>
                         </td>
                       </tr>
@@ -8448,7 +8448,7 @@ const Components = {
           ` : ''}
 
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 2: PARTE DIARIO DE TARDANZAS E INASISTENCIAS (AUTOMATIZADO)
+               SUB-PESTAÑA 2: PARTE DIARIO DE TARDANZAS E INASISTENCIAS (AUTOMATIZADO)
                ===================================================================== -->
           ${activeSubTab === 'daily-report' ? `
             
@@ -8456,13 +8456,13 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 20px;">ðŸ“Š</span>
+                    <span style="font-size: 20px;">📊</span>
                     <div>
                       <h2 style="font-size: 17px; font-weight: 900; color: #0b132b; margin: 0;">
                         Parte Diario Oficial de Tardanzas e Inasistencias
                       </h2>
                       <span style="font-size: 11.5px; color: #64748b;">
-                        Fecha: <strong>${selectedDate}</strong> â€¢ Hora de Corte Oficial: <strong>08:15 AM</strong> â€¢ I.E.P. "El Educador" (UGEL 05)
+                        Fecha: <strong>${selectedDate}</strong> • Hora de Corte Oficial: <strong>08:15 AM</strong> • I.E.P. "El Educador" (UGEL 05)
                       </span>
                     </div>
                   </div>
@@ -8470,10 +8470,10 @@ const Components = {
 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-navy btn-sm" onclick="window.app.openOfficialDailyReportPrintModal('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
-                    ðŸ–¨ï¸ Imprimir Parte Diario A4 (UGEL 05)
+                    🖨️ Imprimir Parte Diario A4 (UGEL 05)
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.notifyAllAbsencesAndTardinessWhatsApp('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
-                    ðŸ“² Notificar a Todos los Apoderados (WhatsApp)
+                    📲 Notificar a Todos los Apoderados (WhatsApp)
                   </button>
                 </div>
               </div>
@@ -8494,29 +8494,29 @@ const Components = {
               </div>
 
               <div class="card" style="padding: 14px; border-left: 4px solid #ef4444; background: #fef2f2;">
-                <span style="font-size: 11px; font-weight: 800; color: #991b1b;">INASISTENCIAS DEL DÃA</span>
+                <span style="font-size: 11px; font-weight: 800; color: #991b1b;">INASISTENCIAS DEL DÍA</span>
                 <div style="font-size: 24px; font-weight: 900; color: #dc2626; margin: 2px 0;">${dayReport.absenceList.length} Alumnos</div>
-                <span style="font-size: 10.5px; color: #dc2626;">Sin marcaciÃ³n de ingreso</span>
+                <span style="font-size: 10.5px; color: #dc2626;">Sin marcación de ingreso</span>
               </div>
 
               <div class="card" style="padding: 14px; border-left: 4px solid #8b5cf6; background: #f5f3ff;">
                 <span style="font-size: 11px; font-weight: 800; color: #5b21b6;">FALTAS JUSTIFICADAS</span>
                 <div style="font-size: 24px; font-weight: 900; color: #6d28d9; margin: 2px 0;">${dayReport.justifiedList.length} Casos</div>
-                <span style="font-size: 10.5px; color: #6d28d9;">Con aviso / descanso mÃ©dico</span>
+                <span style="font-size: 10.5px; color: #6d28d9;">Con aviso / descanso médico</span>
               </div>
             </div>
 
-            <!-- SECCIÃ“N A: TABLA DE TARDANZAS -->
+            <!-- SECCIÓN A: TABLA DE TARDANZAS -->
             <div class="card" style="margin-bottom: var(--space-5); border: 1px solid #fde68a;">
               <div class="card-header" style="background: #fffbeb; border-bottom: 1px solid #fef3c7;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="font-size: 18px;">ðŸŸ¡</span>
+                  <span style="font-size: 18px;">🟡</span>
                   <div>
                     <h3 style="font-size: 14px; font-weight: 900; color: #92400e; margin: 0;">
-                      1. Registro Detallado de Tardanzas en PorterÃ­a (${dayReport.tardinessList.length} casos)
+                      1. Registro Detallado de Tardanzas en Portería (${dayReport.tardinessList.length} casos)
                     </h3>
                     <span style="font-size: 11px; color: #b45309;">
-                      Estudiantes que ingresaron despuÃ©s de las 07:45 AM mediante escaneo de cÃ³digo QR o torniquete.
+                      Estudiantes que ingresaron después de las 07:45 AM mediante escaneo de código QR o torniquete.
                     </span>
                   </div>
                 </div>
@@ -8526,13 +8526,13 @@ const Components = {
                 <table class="data-table">
                   <thead>
                     <tr>
-                      <th>NÂ°</th>
+                      <th>N°</th>
                       <th>Estudiante</th>
                       <th>Grado / Nivel</th>
                       <th>Hora Ingreso QR</th>
                       <th>Demora</th>
                       <th>Apoderado Responsable</th>
-                      <th>TelÃ©fono</th>
+                      <th>Teléfono</th>
                       <th style="text-align: center;">Acciones Inmediatas</th>
                     </tr>
                   </thead>
@@ -8542,7 +8542,7 @@ const Components = {
                         <td><strong>${String(idx + 1).padStart(2, '0')}</strong></td>
                         <td>
                           <strong>${t.studentName}</strong><br>
-                          <span style="font-size: 10.5px; color: #64748b;">CÃ³digo: ${t.studentCode} â€¢ DNI: ${t.dni}</span>
+                          <span style="font-size: 10.5px; color: #64748b;">Código: ${t.studentCode} • DNI: ${t.dni}</span>
                         </td>
                         <td><span class="status-badge" style="background:#e0e7ff; color:#3730a3; font-weight:bold;">${t.grade}</span></td>
                         <td><strong style="color: #b45309; font-size: 13px;">${t.arrivalTime}</strong></td>
@@ -8551,11 +8551,11 @@ const Components = {
                         <td><code>${t.guardianPhone || '984-123-456'}</code></td>
                         <td style="text-align: center;">
                           <div style="display: flex; gap: 4px; justify-content: center;">
-                            <button class="btn btn-sm" onclick="window.app.sendTardinessWhatsApp('${t.studentName}', '${t.arrivalTime}', '${t.delayMinutes || '7'}', '${t.guardianPhone || '984-123-456'}', '${t.guardian || 'Apoderado'}')" style="background: #22c55e; color: white; font-weight: 800; font-size: 10.5px; padding: 4px 8px;" title="Enviar notificaciÃ³n a WhatsApp">
-                              ðŸ’¬ WhatsApp
+                            <button class="btn btn-sm" onclick="window.app.sendTardinessWhatsApp('${t.studentName}', '${t.arrivalTime}', '${t.delayMinutes || '7'}', '${t.guardianPhone || '984-123-456'}', '${t.guardian || 'Apoderado'}')" style="background: #22c55e; color: white; font-weight: 800; font-size: 10.5px; padding: 4px 8px;" title="Enviar notificación a WhatsApp">
+                              💬 WhatsApp
                             </button>
                             <button class="btn btn-outline btn-sm" onclick="window.app.showTardinessPassModal('${t.studentCode}')" style="font-size: 10.5px; padding: 4px 8px;" title="Emitir Pase de Tardanza">
-                              ðŸ“„ Pase
+                              📄 Pase
                             </button>
                           </div>
                         </td>
@@ -8563,7 +8563,7 @@ const Components = {
                     `).join('') : `
                       <tr>
                         <td colspan="8" style="text-align: center; padding: 18px; color: #047857; font-weight: bold;">
-                          âœ“ No se registraron tardanzas en el control de puerta en esta fecha.
+                          ✓ No se registraron tardanzas en el control de puerta en esta fecha.
                         </td>
                       </tr>
                     `}
@@ -8572,17 +8572,17 @@ const Components = {
               </div>
             </div>
 
-            <!-- SECCIÃ“N B: TABLA DE INASISTENCIAS -->
+            <!-- SECCIÓN B: TABLA DE INASISTENCIAS -->
             <div class="card" style="border: 1px solid #fecaca;">
               <div class="card-header" style="background: #fef2f2; border-bottom: 1px solid #fee2e2;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="font-size: 18px;">ðŸ”´</span>
+                  <span style="font-size: 18px;">🔴</span>
                   <div>
                     <h3 style="font-size: 14px; font-weight: 900; color: #991b1b; margin: 0;">
-                      2. Registro de Inasistencias del DÃ­a (${dayReport.absenceList.length} casos)
+                      2. Registro de Inasistencias del Día (${dayReport.absenceList.length} casos)
                     </h3>
                     <span style="font-size: 11px; color: #dc2626;">
-                      Alumnos sin registro biomÃ©trico ni escaneo de fotocheck al cierre de puerta.
+                      Alumnos sin registro biométrico ni escaneo de fotocheck al cierre de puerta.
                     </span>
                   </div>
                 </div>
@@ -8592,12 +8592,12 @@ const Components = {
                 <table class="data-table">
                   <thead>
                     <tr>
-                      <th>NÂ°</th>
+                      <th>N°</th>
                       <th>Estudiante</th>
                       <th>Grado / Aula</th>
                       <th>Tutor Asignado</th>
                       <th>Apoderado</th>
-                      <th>TelÃ©fono de Contacto</th>
+                      <th>Teléfono de Contacto</th>
                       <th>Estado de Inasistencia</th>
                       <th style="text-align: center;">Acciones</th>
                     </tr>
@@ -8608,20 +8608,20 @@ const Components = {
                         <td><strong>${String(idx + 1).padStart(2, '0')}</strong></td>
                         <td>
                           <strong>${a.studentName}</strong><br>
-                          <span style="font-size: 10.5px; color: #64748b;">DNI: ${a.dni} â€¢ ${a.studentCode}</span>
+                          <span style="font-size: 10.5px; color: #64748b;">DNI: ${a.dni} • ${a.studentCode}</span>
                         </td>
                         <td><span class="status-badge" style="background:#e0e7ff; color:#3730a3; font-weight:bold;">${a.grade}</span></td>
                         <td>${currentGrade.tutor || 'Prof. Roberto Silva'}</td>
                         <td>${a.guardian || 'Apoderado'}</td>
                         <td><code>${a.guardianPhone || '984-123-456'}</code></td>
-                        <td><span class="status-badge status-failed" style="font-weight: 800;">ðŸ”´ Inasistencia Injustificada</span></td>
+                        <td><span class="status-badge status-failed" style="font-weight: 800;">🔴 Inasistencia Injustificada</span></td>
                         <td style="text-align: center;">
                           <div style="display: flex; gap: 4px; justify-content: center;">
                             <button class="btn btn-sm" onclick="window.app.sendAbsenceWhatsApp('${a.studentName}', '${a.guardianPhone || '984-123-456'}', '${a.guardian || 'Apoderado'}')" style="background: #22c55e; color: white; font-weight: 800; font-size: 10.5px; padding: 4px 8px;" title="Notificar Inasistencia por WhatsApp">
-                              ðŸ’¬ WhatsApp
+                              💬 WhatsApp
                             </button>
-                            <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${a.studentCode}', '${selectedDate}')" style="font-size: 10.5px; padding: 4px 8px;" title="Registrar JustificaciÃ³n">
-                              ðŸ“ Justificar
+                            <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${a.studentCode}', '${selectedDate}')" style="font-size: 10.5px; padding: 4px 8px;" title="Registrar Justificación">
+                              📝 Justificar
                             </button>
                           </div>
                         </td>
@@ -8629,7 +8629,7 @@ const Components = {
                     `).join('') : `
                       <tr>
                         <td colspan="8" style="text-align: center; padding: 18px; color: #047857; font-weight: bold;">
-                          âœ“ Asistencia al 100%. No hay alumnos inasistentes registrados.
+                          ✓ Asistencia al 100%. No hay alumnos inasistentes registrados.
                         </td>
                       </tr>
                     `}
@@ -8641,26 +8641,26 @@ const Components = {
           ` : ''}
 
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 3: ESCÃNER QR EN PORTERÃA (MODO DUAL INTELIGENTE)
+               SUB-PESTAÑA 3: ESCÁNER QR EN PORTERÍA (MODO DUAL INTELIGENTE)
                ===================================================================== -->
           ${activeSubTab === 'door-scanner' ? `
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start;">
               
-              <!-- Columna Izquierda: Visor de CÃ¡mara y Botones de Escaneo -->
+              <!-- Columna Izquierda: Visor de Cámara y Botones de Escaneo -->
               <div class="card" style="border: 2px solid #3b82f6; box-shadow: 0 4px 12px rgba(59,130,246,0.1);">
                 <div class="card-header" style="background: #0f172a; color: white;">
                   <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
                     <div style="display: flex; align-items: center; gap: 8px;">
-                      <span style="font-size: 20px;">ðŸ“·</span>
+                      <span style="font-size: 20px;">📷</span>
                       <div>
                         <h3 style="font-size: 15px; font-weight: 900; color: white; margin: 0;">
-                          EstaciÃ³n de PorterÃ­a & Auxiliar: EscÃ¡ner QR Inteligente
+                          Estación de Portería & Auxiliar: Escáner QR Inteligente
                         </h3>
-                        <span style="font-size: 11px; color: #94a3b8;">Asistencia en Puerta (07:00 - 08:30 AM) â€¢ Incidencias durante la jornada</span>
+                        <span style="font-size: 11px; color: #94a3b8;">Asistencia en Puerta (07:00 - 08:30 AM) • Incidencias durante la jornada</span>
                       </div>
                     </div>
-                    <span id="camera-door-status" class="status-badge status-approved" style="font-size: 10px;">ðŸŸ¢ LISTO</span>
+                    <span id="camera-door-status" class="status-badge status-approved" style="font-size: 10px;">🟢 LISTO</span>
                   </div>
                 </div>
 
@@ -8668,38 +8668,38 @@ const Components = {
                   
                   <div id="qr-door-camera-feed" style="width: 100%; max-width: 320px; height: 240px; margin: 0 auto 16px; border: 3px dashed #3b82f6; border-radius: 12px; background: #0f172a; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;">
                     <div style="color: white; text-align: center;">
-                      <div style="font-size: 48px; margin-bottom: 6px;">âš¡ðŸ“±</div>
+                      <div style="font-size: 48px; margin-bottom: 6px;">⚡📱</div>
                       <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
                       <div style="font-size: 10.5px; opacity: 0.8;">Muestra el fotocheck frente al lente</div>
                     </div>
                   </div>
 
-                  <!-- Botones de Control de CÃ¡mara -->
+                  <!-- Botones de Control de Cámara -->
                   <div style="display: flex; gap: 8px; justify-content: center; margin-bottom: 20px;">
                     <button id="btn-start-door-cam" class="btn btn-navy btn-sm" onclick="window.app.startDoorCameraScanner()" style="font-weight: 800;">
-                      ðŸ“¹ Encender CÃ¡mara en Vivo
+                      📹 Encender Cámara en Vivo
                     </button>
                     <button id="btn-stop-door-cam" class="btn btn-red btn-sm" onclick="window.app.stopDoorCameraScanner()" style="font-weight: 800; display: none;">
-                      â¹ï¸ Detener CÃ¡mara
+                      ⏹️ Detener Cámara
                     </button>
                   </div>
 
                   <!-- Simulador de Escaneo Inteligente -->
                   <h4 style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px;">
-                    âš¡ SimulaciÃ³n de Lecturas QR (Asistencia vs. Incidencias):
+                    ⚡ Simulación de Lecturas QR (Asistencia vs. Incidencias):
                   </h4>
                   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-042', '07:38 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      ðŸŸ¢ <strong>SofÃ­a MÃ©ndez</strong><br><span style="font-size: 9.5px; color: #047857;">1er Escaneo: Puntual (07:38 AM)</span>
+                      🟢 <strong>Sofía Méndez</strong><br><span style="font-size: 9.5px; color: #047857;">1er Escaneo: Puntual (07:38 AM)</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-011', '08:10 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      ðŸŸ¡ <strong>Carlos BenÃ­tez</strong><br><span style="font-size: 9.5px; color: #b45309;">1er Escaneo: Tardanza (08:10 AM)</span>
+                      🟡 <strong>Carlos Benítez</strong><br><span style="font-size: 9.5px; color: #b45309;">1er Escaneo: Tardanza (08:10 AM)</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-055')" style="font-size: 11px; text-align: left; padding: 8px; border: 2px solid #ef4444; background: #fff5f5;">
-                      ðŸš¨ <strong>Gael CÃ¡ceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
+                      🚨 <strong>Gael Cáceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-025', '08:45 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      ðŸ”´ <strong>Mateo Ramos</strong><br><span style="font-size: 9.5px; color: #dc2626;">08:45 AM (Puerta Cerrada / Falta)</span>
+                      🔴 <strong>Mateo Ramos</strong><br><span style="font-size: 9.5px; color: #dc2626;">08:45 AM (Puerta Cerrada / Falta)</span>
                     </button>
                   </div>
 
@@ -8711,12 +8711,12 @@ const Components = {
                 <div class="card" style="border: 2px solid var(--border-subtle); margin-bottom: 16px;">
                   <div class="card-header" style="background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
                     <h3 style="font-size: 14px; font-weight: 800; color: #1e293b; margin: 0;">
-                      ðŸ–¥ï¸ Pantalla de ValidaciÃ³n de Puerta & Auxiliar
+                      🖥️ Pantalla de Validación de Puerta & Auxiliar
                     </h3>
                   </div>
                   
                   <div id="door-last-scan-display" style="padding: 20px; text-align: center;">
-                    <div style="font-size: 40px; margin-bottom: 6px;">ðŸŽ“</div>
+                    <div style="font-size: 40px; margin-bottom: 6px;">🎓</div>
                     <h4 style="font-size: 15px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 4px;">
                       Esperando lectura de fotocheck escolar...
                     </h4>
@@ -8726,10 +8726,10 @@ const Components = {
                   </div>
                 </div>
 
-                <!-- Feed de Ãšltimos Ingresos -->
+                <!-- Feed de Últimos Ingresos -->
                 <div class="card">
                   <div class="card-header" style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0;">
-                    <strong style="font-size: 12px; color: #1e3a8a;">â±ï¸ Ãšltimos Alumnos validados por QR:</strong>
+                    <strong style="font-size: 12px; color: #1e3a8a;">⏱️ Últimos Alumnos validados por QR:</strong>
                   </div>
                   <div style="max-height: 180px; overflow-y: auto; font-size: 11.5px; padding: 6px;">
                     ${classroomRecords.slice(0, 5).map(r => `
@@ -8755,10 +8755,10 @@ const Components = {
           ` : ''}
 
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 4: PLANCHA DE FOTOCHECKS QR ESTUDIANTILES
+               SUB-PESTAÑA 4: PLANCHA DE FOTOCHECKS QR ESTUDIANTILES
                ===================================================================== -->
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 4: GENERADOR DE CÃ“DIGOS QR ESTUDIANTILES (SIN FOTOS)
+               SUB-PESTAÑA 4: GENERADOR DE CÓDIGOS QR ESTUDIANTILES (SIN FOTOS)
                ===================================================================== -->
           ${activeSubTab === 'id-cards' ? `
             
@@ -8766,13 +8766,13 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 24px;">ðŸ–¨ï¸</span>
+                    <span style="font-size: 24px;">🖨️</span>
                     <div>
                       <h3 style="font-size: 16px; font-weight: 900; color: #0b132b; margin: 0;">
-                        Generador de CÃ³digos QR Estudiantiles (Solo CÃ³digo QR, Nombres y Grado)
+                        Generador de Códigos QR Estudiantiles (Solo Código QR, Nombres y Grado)
                       </h3>
                       <span style="font-size: 11.5px; color: #64748b;">
-                        Plancha oficial de credenciales y stickers QR listos para imprimir y recortar. <strong>Sin fotos</strong>, optimizado para lectura rÃ¡pida en porterÃ­a.
+                        Plancha oficial de credenciales y stickers QR listos para imprimir y recortar. <strong>Sin fotos</strong>, optimizado para lectura rápida en portería.
                       </span>
                     </div>
                   </div>
@@ -8780,13 +8780,13 @@ const Components = {
 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-sm" onclick="window.app.openCreateEnrollmentModal()" style="background: #10b981; color: white; font-weight: 900; font-size: 12px; display: flex; align-items: center; gap: 6px; padding: 7px 14px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">
-                    <span>âž•</span> + Matricular Nuevo Alumno y Generar QR
+                    <span>➕</span> + Matricular Nuevo Alumno y Generar QR
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    ðŸ–¨ï¸ Imprimir Plancha A4 de CÃ³digos QR
+                    🖨️ Imprimir Plancha A4 de Códigos QR
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.downloadAllQRSheets()" style="font-weight: 800; font-size: 12px;">
-                    ðŸ“¥ Descargar Plancha QR
+                    📥 Descargar Plancha QR
                   </button>
                 </div>
               </div>
@@ -8806,15 +8806,15 @@ const Components = {
                     </div>
                   </div>
 
-                  <!-- Cuerpo de la Tarjeta QR: CÃ³digo QR Grande + Nombres Completos + Grado -->
+                  <!-- Cuerpo de la Tarjeta QR: Código QR Grande + Nombres Completos + Grado -->
                   <div style="padding: 16px 12px;">
                     
-                    <!-- CÃ³digo QR Grande en Alta ResoluciÃ³n -->
+                    <!-- Código QR Grande en Alta Resolución -->
                     <div style="width: 140px; height: 140px; margin: 0 auto 12px; border: 2px solid #0b132b; border-radius: 8px; padding: 6px; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
                       ${Components.generateQRSVG(st.studentCode)}
                     </div>
 
-                    <!-- Nombres y Apellidos Completos en MayÃºsculas y Negrita -->
+                    <!-- Nombres y Apellidos Completos en Mayúsculas y Negrita -->
                     <div style="font-size: 13.5px; font-weight: 900; color: #0b132b; text-transform: uppercase; line-height: 1.25; margin-bottom: 4px;">
                       ${st.studentName}
                     </div>
@@ -8824,23 +8824,23 @@ const Components = {
                       ${st.grade}
                     </div>
 
-                    <!-- CÃ³digo y DNI -->
+                    <!-- Código y DNI -->
                     <div style="font-size: 10.5px; color: #475569; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 4px; padding: 3px 8px; display: inline-block;">
-                      <strong>CÃ“D:</strong> <code>${st.studentCode}</code> â€¢ <strong>DNI:</strong> <code>${st.dni}</code>
+                      <strong>CÓD:</strong> <code>${st.studentCode}</code> • <strong>DNI:</strong> <code>${st.dni}</code>
                     </div>
 
                   </div>
 
-                  <!-- Pie de Tarjeta con Botones de AcciÃ³n -->
+                  <!-- Pie de Tarjeta con Botones de Acción -->
                   <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; gap: 6px;">
                     <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 10px; flex: 1;" title="Ver Tarjeta QR Individual en Grande">
-                      ðŸ“± Ver QR
+                      📱 Ver QR
                     </button>
-                    <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px;" title="Descargar CÃ³digo QR">
-                      ðŸ“¥ Guardar
+                    <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px;" title="Descargar Código QR">
+                      📥 Guardar
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCreateIncidentModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px; color: #dc2626; border-color: #fca5a5;" title="Registrar Incidencia Conductual">
-                      ðŸš¨ Informe
+                      🚨 Informe
                     </button>
                   </div>
 
@@ -8851,22 +8851,22 @@ const Components = {
           ` : ''}
 
           <!-- =====================================================================
-               SUB-PESTAÃ‘A 5: LIBRO OFICIAL DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
+               SUB-PESTAÑA 5: LIBRO OFICIAL DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
                ===================================================================== -->
           ${activeSubTab === 'incidents' ? `
             
-            <!-- Encabezado de la Sub-PestaÃ±a -->
+            <!-- Encabezado de la Sub-Pestaña -->
             <div class="card" style="margin-bottom: var(--space-4); background: #f8fafc; border: 1px solid #cbd5e1;">
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 22px;">ðŸš¨</span>
+                    <span style="font-size: 22px;">🚨</span>
                     <div>
                       <h2 style="font-size: 16px; font-weight: 900; color: #991b1b; margin: 0;">
                         Libro Oficial de Registro de Incidencias & Convivencia Escolar
                       </h2>
                       <span style="font-size: 11.5px; color: #64748b;">
-                        I.E.P. "El Educador" â€¢ Conforme a la Ley NÂ° 29719 / MINEDU y D.S. NÂ° 004-2018-MINEDU
+                        I.E.P. "El Educador" • Conforme a la Ley N° 29719 / MINEDU y D.S. N° 004-2018-MINEDU
                       </span>
                     </div>
                   </div>
@@ -8874,51 +8874,51 @@ const Components = {
 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-red btn-sm" onclick="window.app.openCreateIncidentModal()" style="font-weight: 800; font-size: 12px;">
-                    + Registrar Nuevo Informe de Incidencia / MÃ©rito
+                    + Registrar Nuevo Informe de Incidencia / Mérito
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    ðŸ–¨ï¸ Imprimir Libro de Incidencias
+                    🖨️ Imprimir Libro de Incidencias
                   </button>
                 </div>
               </div>
             </div>
 
-            <!-- Resumen EstadÃ­stico de Incidencias -->
+            <!-- Resumen Estadístico de Incidencias -->
             ${(() => {
               const allInc = state.behaviorIncidents || initialData.behaviorIncidents || [];
               const leves = allInc.filter(i => i.severity === 'Leve').length;
               const graves = allInc.filter(i => i.severity === 'Grave').length;
               const muyGraves = allInc.filter(i => i.severity === 'Muy Grave').length;
-              const meritos = allInc.filter(i => i.severity === 'MÃ©rito').length;
+              const meritos = allInc.filter(i => i.severity === 'Mérito').length;
 
               return `
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: var(--space-4);">
                   <div class="card" style="padding: 12px; border-left: 4px solid #3b82f6; background: #eff6ff;">
                     <span style="font-size: 11px; font-weight: 800; color: #1e40af;">TOTAL REGISTRADOS</span>
                     <div style="font-size: 22px; font-weight: 900; color: #1e3a8a; margin: 2px 0;">${allInc.length} Informes</div>
-                    <span style="font-size: 10px; color: #64748b;">AÃ±o Lectivo 2026</span>
+                    <span style="font-size: 10px; color: #64748b;">Año Lectivo 2026</span>
                   </div>
                   
                   <div class="card" style="padding: 12px; border-left: 4px solid #f59e0b; background: #fffbeb;">
-                    <span style="font-size: 11px; font-weight: 800; color: #92400e;">ðŸŸ¡ FALTAS LEVES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #92400e;">🟡 FALTAS LEVES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #b45309; margin: 2px 0;">${leves}</div>
                     <span style="font-size: 10px; color: #b45309;">Uniforme, tardanza aula</span>
                   </div>
 
                   <div class="card" style="padding: 12px; border-left: 4px solid #ef4444; background: #fef2f2;">
-                    <span style="font-size: 11px; font-weight: 800; color: #991b1b;">ðŸ”´ FALTAS GRAVES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #991b1b;">🔴 FALTAS GRAVES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #dc2626; margin: 2px 0;">${graves}</div>
                     <span style="font-size: 10px; color: #dc2626;">Desobediencia, celulares</span>
                   </div>
 
                   <div class="card" style="padding: 12px; border-left: 4px solid #991b1b; background: #ffe4e6;">
-                    <span style="font-size: 11px; font-weight: 800; color: #881337;">â›” MUY GRAVES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #881337;">⛔ MUY GRAVES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #9f1239; margin: 2px 0;">${muyGraves}</div>
-                    <span style="font-size: 10px; color: #9f1239;">Agresiones, daÃ±os</span>
+                    <span style="font-size: 10px; color: #9f1239;">Agresiones, daños</span>
                   </div>
 
                   <div class="card" style="padding: 12px; border-left: 4px solid #10b981; background: #ecfdf5;">
-                    <span style="font-size: 11px; font-weight: 800; color: #065f46;">â­ MÃ‰RITOS / FELICITACIONES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #065f46;">⭐ MÉRITOS / FELICITACIONES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #047857; margin: 2px 0;">${meritos}</div>
                     <span style="font-size: 10px; color: #047857;">Conducta destacada</span>
                   </div>
@@ -8929,15 +8929,15 @@ const Components = {
                   <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
                     <div>
                       <h3 class="card-title" style="font-size: 14px; margin: 0;">
-                        ðŸ“‹ Expediente Conductual & Registro de Casos
+                        📋 Expediente Conductual & Registro de Casos
                       </h3>
                       <span style="font-size: 11px; color: var(--text-muted);">
-                        Cada reporte estÃ¡ amarrado al cÃ³digo QR y perfil del estudiante con notificaciÃ³n inmediata a su apoderado.
+                        Cada reporte está amarrado al código QR y perfil del estudiante con notificación inmediata a su apoderado.
                       </span>
                     </div>
 
                     <div style="display: flex; gap: 8px;">
-                      <input type="text" id="incident-search-input" class="form-control" placeholder="ðŸ” Buscar por estudiante (ej: Gael CÃ¡ceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
+                      <input type="text" id="incident-search-input" class="form-control" placeholder="🔍 Buscar por estudiante (ej: Gael Cáceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
                     </div>
                   </div>
 
@@ -8945,21 +8945,21 @@ const Components = {
                     <table class="data-table" id="incidents-main-table">
                       <thead>
                         <tr>
-                          <th>NÂ° / CÃ³digo</th>
+                          <th>N° / Código</th>
                           <th>Estudiante</th>
                           <th>Grado</th>
                           <th>Fecha & Hora</th>
                           <th>Gravedad</th>
-                          <th>Motivo / CategorÃ­a</th>
+                          <th>Motivo / Categoría</th>
                           <th>Lugar</th>
                           <th>Reportado Por</th>
-                          <th>Medida PedagÃ³gica</th>
+                          <th>Medida Pedagógica</th>
                           <th style="text-align: center;">Acciones</th>
                         </tr>
                       </thead>
                       <tbody>
                         ${allInc.length > 0 ? allInc.map((inc, idx) => {
-                          const badgeColor = inc.severity === 'MÃ©rito' ? '#10b981' : inc.severity === 'Leve' ? '#f59e0b' : inc.severity === 'Grave' ? '#ef4444' : '#991b1b';
+                          const badgeColor = inc.severity === 'Mérito' ? '#10b981' : inc.severity === 'Leve' ? '#f59e0b' : inc.severity === 'Grave' ? '#ef4444' : '#991b1b';
                           return `
                             <tr>
                               <td>
@@ -8968,7 +8968,7 @@ const Components = {
                               </td>
                               <td>
                                 <strong>${inc.studentName}</strong><br>
-                                <span style="font-size: 10.5px; color: #64748b;">DNI: ${inc.dni} â€¢ ${inc.studentCode}</span>
+                                <span style="font-size: 10.5px; color: #64748b;">DNI: ${inc.dni} • ${inc.studentCode}</span>
                               </td>
                               <td><span class="status-badge" style="background:#e0e7ff; color:#3730a3; font-weight:bold;">${inc.grade}</span></td>
                               <td>
@@ -8977,7 +8977,7 @@ const Components = {
                               </td>
                               <td>
                                 <span class="status-badge" style="background: ${badgeColor}; color: white; font-weight: 800; font-size: 10px;">
-                                  ${inc.severity === 'MÃ©rito' ? 'â­ MÃ©rito' : inc.severity === 'Leve' ? 'ðŸŸ¡ Leve' : inc.severity === 'Grave' ? 'ðŸ”´ Grave' : 'â›” Muy Grave'}
+                                  ${inc.severity === 'Mérito' ? '⭐ Mérito' : inc.severity === 'Leve' ? '🟡 Leve' : inc.severity === 'Grave' ? '🔴 Grave' : '⛔ Muy Grave'}
                                 </span>
                               </td>
                               <td><strong>${inc.category}</strong></td>
@@ -8987,10 +8987,10 @@ const Components = {
                               <td style="text-align: center;">
                                 <div style="display: flex; gap: 4px; justify-content: center;">
                                   <button class="btn btn-sm" onclick="window.app.sendIncidentWhatsApp('${inc.id}')" style="background: #22c55e; color: white; font-weight: 800; font-size: 10.5px; padding: 3px 8px;" title="Notificar a Apoderado por WhatsApp">
-                                    ðŸ’¬ WhatsApp
+                                    💬 WhatsApp
                                   </button>
                                   <button class="btn btn-navy btn-sm" onclick="window.app.openIncidentOfficialPrintModal('${inc.id}')" style="font-size: 10.5px; padding: 3px 8px;" title="Imprimir Acta A4 de Compromiso">
-                                    ðŸ“„ Acta A4
+                                    📄 Acta A4
                                   </button>
                                 </div>
                               </td>
@@ -9013,7 +9013,7 @@ const Components = {
           ` : ''}
 
         <!-- =========================================================================
-             SUB-PESTAÃ‘A 6: PADRE DE FAMILIA O ESTUDIANTE (HISTORIAL Y SEGUIMIENTO)
+             SUB-PESTAÑA 6: PADRE DE FAMILIA O ESTUDIANTE (HISTORIAL Y SEGUIMIENTO)
              ========================================================================= -->
         ${activeSubTab === 'student-history' ? `
           
@@ -9022,47 +9022,47 @@ const Components = {
             <div class="card" style="padding: 14px; border-left: 4px solid #10b981; background: #ecfdf5;">
               <span style="font-size: 11px; font-weight: 800; color: #065f46;">PORCENTAJE DE ASISTENCIA</span>
               <div style="font-size: 26px; font-weight: 900; color: #047857; margin: 4px 0;">98.5%</div>
-              <span class="status-badge status-approved" style="font-size: 10px;">â˜… RÃ©cord Destacado</span>
+              <span class="status-badge status-approved" style="font-size: 10px;">★ Récord Destacado</span>
             </div>
 
             <div class="card" style="padding: 14px; border-left: 4px solid #3b82f6; background: #eff6ff;">
-              <span style="font-size: 11px; font-weight: 800; color: #1e40af;">DÃAS ASISTIDOS PUNTUAL</span>
-              <div style="font-size: 26px; font-weight: 900; color: #1e3a8a; margin: 4px 0;">22 DÃ­as</div>
+              <span style="font-size: 11px; font-weight: 800; color: #1e40af;">DÍAS ASISTIDOS PUNTUAL</span>
+              <div style="font-size: 26px; font-weight: 900; color: #1e3a8a; margin: 4px 0;">22 Días</div>
               <span style="font-size: 10.5px; color: #64748b;">En el presente bimestre</span>
             </div>
 
             <div class="card" style="padding: 14px; border-left: 4px solid #f59e0b; background: #fffbeb;">
               <span style="font-size: 11px; font-weight: 800; color: #92400e;">TARDANZAS REGISTRADAS</span>
-              <div style="font-size: 26px; font-weight: 900; color: #b45309; margin: 4px 0;">1 DÃ­a</div>
+              <div style="font-size: 26px; font-weight: 900; color: #b45309; margin: 4px 0;">1 Día</div>
               <span style="font-size: 10.5px; color: #b45309;">(Tardanza justificada)</span>
             </div>
 
             <div class="card" style="padding: 14px; border-left: 4px solid #8b5cf6; background: #f5f3ff;">
               <span style="font-size: 11px; font-weight: 800; color: #5b21b6;">FALTAS JUSTIFICADAS</span>
               <div style="font-size: 26px; font-weight: 900; color: #6d28d9; margin: 4px 0;">1 Falta</div>
-              <span style="font-size: 10.5px; color: #6d28d9;">Con constancia mÃ©dica</span>
+              <span style="font-size: 10.5px; color: #6d28d9;">Con constancia médica</span>
             </div>
           </div>
 
-          <!-- HISTORIAL BIOMÃ‰TRICO DETALLADO -->
+          <!-- HISTORIAL BIOMÉTRICO DETALLADO -->
           <div class="card" style="margin-bottom: var(--space-4);">
             <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px; flex-wrap: wrap; gap: 8px;">
               <div>
                 <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-                  â±ï¸ Historial de MarcaciÃ³n QR en Puerta: ${studentName} (${studentGrade})
+                  ⏱️ Historial de Marcación QR en Puerta: ${studentName} (${studentGrade})
                 </h3>
                 <span style="font-size: 11px; color: var(--text-muted);">
-                  Registro automÃ¡tico del escÃ¡ner en porterÃ­a y molinete de acceso.
+                  Registro automático del escáner en portería y molinete de acceso.
                 </span>
               </div>
               
               <div style="display: flex; gap: 6px;">
                 <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${studentCode}')" style="font-weight: 800; font-size: 11.5px;">
-                  ðŸ“± Ver Mi CÃ³digo QR
+                  📱 Ver Mi Código QR
                 </button>
                 ${isPadre ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${studentCode}', '19/08/2026')" style="font-weight: 800; font-size: 11.5px;">
-                    ðŸ“ Enviar JustificaciÃ³n
+                    📝 Enviar Justificación
                   </button>
                 ` : ''}
               </div>
@@ -9073,11 +9073,11 @@ const Components = {
                 <thead>
                   <tr>
                     <th>Fecha</th>
-                    <th>DÃ­a</th>
+                    <th>Día</th>
                     <th>Hora de Ingreso</th>
                     <th>Hora de Salida</th>
                     <th>Puntualidad & Estado</th>
-                    <th>MÃ©todo de ValidaciÃ³n</th>
+                    <th>Método de Validación</th>
                     <th>Observaciones</th>
                   </tr>
                 </thead>
@@ -9094,12 +9094,12 @@ const Components = {
                       <td><code>${h.exitTime || '03:30 PM'}</code></td>
                       <td>
                         <span class="status-badge ${h.status === 'Presente' ? 'status-approved' : h.status === 'Tardanza' ? 'status-pending' : 'status-approved'}" style="font-weight: 800;">
-                          ${h.status === 'Presente' ? 'ðŸŸ¢ Presente a Tiempo' : h.status === 'Tardanza' ? 'ðŸŸ¡ Tardanza' : 'ðŸ”µ Justificada'}
+                          ${h.status === 'Presente' ? '🟢 Presente a Tiempo' : h.status === 'Tardanza' ? '🟡 Tardanza' : '🔵 Justificada'}
                         </span>
                       </td>
                       <td>
                         <span style="font-size: 11px; color: #475569;">
-                          ${h.method || 'Fotocheck QR (PorterÃ­a)'}
+                          ${h.method || 'Fotocheck QR (Portería)'}
                         </span>
                       </td>
                       <td>
@@ -9114,7 +9114,7 @@ const Components = {
             </div>
           </div>
 
-          <!-- SECCIÃ“N: REGISTRO CONDUCTUAL & ANECDOTARIO ESCOLAR DEL ALUMNO -->
+          <!-- SECCIÓN: REGISTRO CONDUCTUAL & ANECDOTARIO ESCOLAR DEL ALUMNO -->
           ${(() => {
             const studentInc = (state.behaviorIncidents || initialData.behaviorIncidents || []).filter(i => 
               (i.studentCode && i.studentCode === studentCode) ||
@@ -9126,7 +9126,7 @@ const Components = {
                 <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                   <div>
                     <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0; color: #1e3a8a;">
-                      ðŸ“– Registro Conductual & Anecdotario Escolar de ${studentName}
+                      📖 Registro Conductual & Anecdotario Escolar de ${studentName}
                     </h3>
                     <span style="font-size: 11px; color: var(--text-muted);">
                       Seguimiento formativo, reconocimientos e informes disciplinarios registrados institucionalmente.
@@ -9140,7 +9140,7 @@ const Components = {
                       <tr>
                         <th>Fecha</th>
                         <th>Gravedad</th>
-                        <th>CategorÃ­a / Motivo</th>
+                        <th>Categoría / Motivo</th>
                         <th>Lugar</th>
                         <th>Docente / Auxiliar</th>
                         <th>Detalle & Compromiso</th>
@@ -9152,7 +9152,7 @@ const Components = {
                         <tr>
                           <td><strong>${inc.date}</strong><br><span style="font-size: 10.5px; color:#64748b;">${inc.time}</span></td>
                           <td>
-                            <span class="status-badge" style="background: ${inc.severity === 'MÃ©rito' ? '#10b981' : inc.severity === 'Leve' ? '#f59e0b' : '#ef4444'}; color: white; font-weight: 800;">
+                            <span class="status-badge" style="background: ${inc.severity === 'Mérito' ? '#10b981' : inc.severity === 'Leve' ? '#f59e0b' : '#ef4444'}; color: white; font-weight: 800;">
                               ${inc.severity}
                             </span>
                           </td>
@@ -9164,13 +9164,13 @@ const Components = {
                             <div style="color: #1e3a8a; font-weight: bold; margin-top: 2px;">Compromiso: ${inc.correctiveMeasure}</div>
                           </td>
                           <td style="text-align: center;">
-                            <span class="status-badge status-approved" style="font-size: 10px;">âœ“ ${inc.status}</span>
+                            <span class="status-badge status-approved" style="font-size: 10px;">✓ ${inc.status}</span>
                           </td>
                         </tr>
                       `).join('') : `
                         <tr>
                           <td colspan="7" style="text-align: center; padding: 18px; color: #047857; font-weight: bold;">
-                            ðŸŒŸ Â¡Excelente conducta! No registra ninguna observaciÃ³n disciplinaria en su expediente escolar.
+                            🌟 ¡Excelente conducta! No registra ninguna observación disciplinaria en su expediente escolar.
                           </td>
                         </tr>
                       `}
@@ -9204,7 +9204,7 @@ const Components = {
                 <h3>${a.title}</h3>
                 <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">${a.content}</p>
                 <div style="margin-top: 8px;">
-                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">ðŸ“„ Ver Documento Completo</button>
+                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">📄 Ver Documento Completo</button>
                 </div>
               </div>
             `).join('')}
@@ -9215,11 +9215,11 @@ const Components = {
   },
 
   // =========================================================================
-  // PANTALLA DE BLOQUEO DE INTRANET POR PENSIÃ“N PENDIENTE
+  // PANTALLA DE BLOQUEO DE INTRANET POR PENSIÓN PENDIENTE
   // =========================================================================
   renderLockedAccessScreen(state, user) {
     const debtAmount = user.pendingDebtAmount || 480.00;
-    const concept = user.pendingConcept || "PensiÃ³n Escolar - Agosto 2026";
+    const concept = user.pendingConcept || "Pensión Escolar - Agosto 2026";
 
     return `
       <div class="fade-in" style="max-width: 780px; margin: 0 auto; padding: var(--space-4);">
@@ -9229,20 +9229,20 @@ const Components = {
           <div style="background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%); color: white; padding: 24px; text-align: center;">
             <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 8px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));" />
             <div style="font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: var(--color-yellow-300); text-transform: uppercase;">
-              I.E.P. "EL EDUCADOR" â€¢ 21 AÃ‘OS DEJANDO HUELLAS (S.J.L.)
+              I.E.P. "EL EDUCADOR" • 21 AÑOS DEJANDO HUELLAS (S.J.L.)
             </div>
             <h2 style="font-size: 22px; font-weight: 900; margin: 6px 0 4px; color: white;">
-              ðŸ”’ ACCESO A LA INTRANET RESTRINGIDO
+              🔒 ACCESO A LA INTRANET RESTRINGIDO
             </h2>
             <p style="font-size: 13px; color: #fecaca; margin: 0;">
-              ValidaciÃ³n de PensiÃ³n Escolar Requerida para el Alumno(a) y Apoderado(a)
+              Validación de Pensión Escolar Requerida para el Alumno(a) y Apoderado(a)
             </p>
           </div>
 
           <div style="padding: 24px;">
             <div style="background: #fff5f5; border-left: 4px solid var(--color-red-500); padding: 14px 18px; border-radius: 6px; margin-bottom: 20px;">
               <div style="font-weight: 800; color: #991b1b; font-size: 14px; margin-bottom: 4px;">
-                âš ï¸ NotificaciÃ³n de CoordinaciÃ³n y TesorerÃ­a
+                ⚠️ Notificación de Coordinación y Tesorería
               </div>
               <p style="font-size: 13px; color: #7f1d1d; margin: 0; line-height: 1.5;">
                 Estimado(a) <strong>${user.name}</strong>, el acceso a las notas bimestrales, horario de clases, control de cuadernos QR y aula virtual se encuentra temporalmente bloqueado debido a una cuota pendiente de pago.
@@ -9261,49 +9261,49 @@ const Components = {
               </div>
               <div>
                 <span style="font-size: 11px; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">Estado Actual</span>
-                <div><span class="status-badge status-failed" style="font-weight: bold;">ðŸ”´ Bloqueado por Mora</span></div>
+                <div><span class="status-badge status-failed" style="font-weight: bold;">🔴 Bloqueado por Mora</span></div>
               </div>
             </div>
 
-            <!-- MÃ©todos de Pago y Desbloqueo Inmediato -->
+            <!-- Métodos de Pago y Desbloqueo Inmediato -->
             <h3 style="font-size: 15px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              âš¡ Realizar Pago y Desbloquear Intranet en Tiempo Real:
+              ⚡ Realizar Pago y Desbloquear Intranet en Tiempo Real:
             </h3>
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 20px;">
               
-              <!-- OpciÃ³n 1: Tarjeta DÃ©bito / CrÃ©dito -->
+              <!-- Opción 1: Tarjeta Débito / Crédito -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')">
-                <div style="font-size: 24px; margin-bottom: 4px;">ðŸ’³</div>
-                <strong style="font-size: 13px; color: var(--color-navy-900);">Tarjeta DÃ©bito / CrÃ©dito</strong>
-                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Visa, Mastercard, DÃ©bito</p>
+                <div style="font-size: 24px; margin-bottom: 4px;">💳</div>
+                <strong style="font-size: 13px; color: var(--color-navy-900);">Tarjeta Débito / Crédito</strong>
+                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Visa, Mastercard, Débito</p>
                 <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Desbloqueo Inmediato</span>
               </div>
 
-              <!-- OpciÃ³n 2: Yape / Plin -->
+              <!-- Opción 2: Yape / Plin -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openYapePayModal('PEN-08', ${debtAmount})">
-                <div style="font-size: 24px; margin-bottom: 4px;">ðŸ“±</div>
+                <div style="font-size: 24px; margin-bottom: 4px;">📱</div>
                 <strong style="font-size: 13px; color: #6d28d9;">Yape / Plin Institucional</strong>
                 <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">987-654-321 (I.E.P. El Educador)</p>
-                <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">ValidaciÃ³n AutomÃ¡tica</span>
+                <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Validación Automática</span>
               </div>
 
-              <!-- OpciÃ³n 3: Transferencia BCP / BBVA -->
+              <!-- Opción 3: Transferencia BCP / BBVA -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openBankTransferModal('PEN-08', ${debtAmount})">
-                <div style="font-size: 24px; margin-bottom: 4px;">ðŸ¦</div>
-                <strong style="font-size: 13px; color: var(--color-navy-900);">DepÃ³sito Bancario / Agente</strong>
-                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">BCP / BBVA / Banco NaciÃ³n</p>
+                <div style="font-size: 24px; margin-bottom: 4px;">🏦</div>
+                <strong style="font-size: 13px; color: var(--color-navy-900);">Depósito Bancario / Agente</strong>
+                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">BCP / BBVA / Banco Nación</p>
                 <span class="status-badge status-approved" style="background: #f59e0b; color: #0b132b; font-weight: 800; margin-top: 6px;">Ingresar Voucher</span>
               </div>
             </div>
 
-            <!-- BotÃ³n de Pago RÃ¡pido Principal -->
+            <!-- Botón de Pago Rápido Principal -->
             <button class="btn btn-red" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')" style="width: 100%; padding: 14px; font-size: 15px; font-weight: 900; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
-              <span>ðŸ’³ Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
+              <span>💳 Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
             </button>
 
             <div style="text-align: center; margin-top: 14px; font-size: 11px; color: var(--text-muted);">
-              ðŸ”’ Al confirmar el pago, la base de datos central emitirÃ¡ su recibo digital y se habilitarÃ¡ el acceso en todos sus dispositivos al instante.
+              🔒 Al confirmar el pago, la base de datos central emitirá su recibo digital y se habilitará el acceso en todos sus dispositivos al instante.
             </div>
           </div>
         </div>
@@ -9311,7 +9311,7 @@ const Components = {
     `;
   },
 
-  // Pagos y Panel de TesorerÃ­a
+  // Pagos y Panel de Tesorería
   renderPayments(state) {
     const isCoordination = state.currentRole === "admin" || state.currentRole === "director";
     const families = state.familiesFinancial || initialData.familiesFinancial;
@@ -9323,41 +9323,41 @@ const Components = {
           <div class="card-header">
             <div>
               <div style="display: flex; align-items: center; gap: 8px;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl);">Control de Pensiones & ValidaciÃ³n AutomÃ¡tica de Intranet</h2>
-                <span class="status-badge status-approved">ðŸŸ¢ Sistema de Pago Online Activo</span>
+                <h2 class="card-title" style="font-size: var(--font-size-xl);">Control de Pensiones & Validación Automática de Intranet</h2>
+                <span class="status-badge status-approved">🟢 Sistema de Pago Online Activo</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
-                I.E.P. "El Educador" â€¢ "21 aÃ±os dejando huellas" (S.J.L. â€¢ UGEL 05)
+                I.E.P. "El Educador" • "21 años dejando huellas" (S.J.L. • UGEL 05)
               </p>
             </div>
             ${isCoordination ? `
               <button class="btn btn-gold btn-sm" onclick="window.app.openManualPaymentModal()">
-                ðŸ’µ + Registrar Pago en Caja (Efectivo/Banco)
+                💵 + Registrar Pago en Caja (Efectivo/Banco)
               </button>
             ` : ''}
           </div>
 
-          <!-- MÃ©tricas de RecaudaciÃ³n -->
+          <!-- Métricas de Recaudación -->
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
             <div class="card" style="padding: var(--space-4); border-left: 4px solid var(--color-green-500); background: #f8faf9;">
-              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">RecaudaciÃ³n Acumulada Agosto</span>
+              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Recaudación Acumulada Agosto</span>
               <div style="font-size: 22px; font-weight: 900; color: var(--color-green-600); margin-top: 2px;">S/ ${collected.toFixed(2)}</div>
               <span style="font-size: 10px; color: var(--text-muted);">Meta mensual: S/ 24,000.00</span>
             </div>
 
             <div class="card" style="padding: var(--space-4); border-left: 4px solid var(--color-navy-700); background: var(--bg-surface-subtle);">
-              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">ValidaciÃ³n AutomÃ¡tica</span>
-              <div style="font-size: 18px; font-weight: 800; color: var(--color-navy-900); margin-top: 2px;">Habilitada âš¡</div>
+              <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Validación Automática</span>
+              <div style="font-size: 18px; font-weight: 800; color: var(--color-navy-900); margin-top: 2px;">Habilitada ⚡</div>
               <span style="font-size: 10px; color: var(--text-muted);">Desbloqueo inmediato con pago</span>
             </div>
           </div>
 
           ${isCoordination ? `
-            <!-- Panel Exclusivo para CoordinaciÃ³n y DirecciÃ³n: Control de Familias y Bloqueos -->
+            <!-- Panel Exclusivo para Coordinación y Dirección: Control de Familias y Bloqueos -->
             <div style="margin-bottom: var(--space-6);">
               <div class="card-header" style="margin-bottom: 8px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
                 <h3 class="card-title" style="font-size: var(--font-size-base);">
-                  ðŸ‘¥ Estado Financiero por Familia y Bloqueo de Acceso a Intranet
+                  👥 Estado Financiero por Familia y Bloqueo de Acceso a Intranet
                 </h3>
                 <span class="status-badge status-approved">${families.length} Familias Monitoreadas</span>
               </div>
@@ -9365,7 +9365,7 @@ const Components = {
                 <table class="data-table">
                   <thead>
                     <tr>
-                      <th>CÃ³digo</th><th>Apoderado / Familia</th><th>Estudiante</th><th>Grado</th><th>Monto Deuda</th><th>Acceso a Intranet</th><th style="text-align:center;">Acciones de Control</th>
+                      <th>Código</th><th>Apoderado / Familia</th><th>Estudiante</th><th>Grado</th><th>Monto Deuda</th><th>Acceso a Intranet</th><th style="text-align:center;">Acciones de Control</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -9375,15 +9375,15 @@ const Components = {
                         <td><strong>${f.guardian}</strong></td>
                         <td>${f.studentName}</td>
                         <td>${f.grade}</td>
-                        <td><strong style="color: ${f.pendingAmount > 0 ? 'var(--color-red-600)' : 'var(--color-green-600)'};">${f.pendingAmount > 0 ? `S/ ${f.pendingAmount.toFixed(2)}` : 'S/ 0.00 (Al DÃ­a)'}</strong></td>
+                        <td><strong style="color: ${f.pendingAmount > 0 ? 'var(--color-red-600)' : 'var(--color-green-600)'};">${f.pendingAmount > 0 ? `S/ ${f.pendingAmount.toFixed(2)}` : 'S/ 0.00 (Al Día)'}</strong></td>
                         <td>
                           <span class="status-badge ${f.isAccessLocked ? 'status-failed' : 'status-approved'}" style="font-weight: bold;">
-                            ${f.isAccessLocked ? 'ðŸ”´ BLOQUEADO POR MORA' : 'ðŸŸ¢ ACCESO HABILITADO'}
+                            ${f.isAccessLocked ? '🔴 BLOQUEADO POR MORA' : '🟢 ACCESO HABILITADO'}
                           </span>
                         </td>
                         <td style="text-align:center; white-space: nowrap;">
                           <button class="btn btn-sm ${f.isAccessLocked ? 'btn-gold' : 'btn-outline'}" onclick="window.app.toggleFamilyLock('${f.familyId}')">
-                            ${f.isAccessLocked ? 'ðŸŸ¢ Desbloquear / PrÃ³rroga' : 'ðŸ”´ Bloquear Acceso'}
+                            ${f.isAccessLocked ? '🟢 Desbloquear / Prórroga' : '🔴 Bloquear Acceso'}
                           </button>
                         </td>
                       </tr>
@@ -9397,7 +9397,7 @@ const Components = {
           <!-- Lista de Pagos del Usuario -->
           <div class="card-header" style="margin-bottom: 8px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
             <h3 class="card-title" style="font-size: var(--font-size-base);">
-              ðŸ“„ Cronograma de Cuotas y Recibos Oficiales
+              📄 Cronograma de Cuotas y Recibos Oficiales
             </h3>
           </div>
 
@@ -9405,7 +9405,7 @@ const Components = {
             <div class="payment-card ${p.status}">
               <div>
                 <h4 style="margin-bottom: 2px;">${p.concept}</h4>
-                <span style="font-size:12px; color:var(--text-muted);">Vencimiento: ${p.dueDate} ${p.paidDate ? `â€¢ Cancelado: ${p.paidDate}` : ''}</span>
+                <span style="font-size:12px; color:var(--text-muted);">Vencimiento: ${p.dueDate} ${p.paidDate ? `• Cancelado: ${p.paidDate}` : ''}</span>
               </div>
               <div style="display:flex; align-items:center; gap:var(--space-4); flex-wrap: wrap;">
                 <span class="payment-amount" style="color: ${p.status === 'paid' ? 'var(--color-green-600)' : 'var(--color-red-600)'};">
@@ -9413,11 +9413,11 @@ const Components = {
                 </span>
                 ${p.status === 'paid' ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.showReceiptModal('${p.id}')">
-                    ðŸ“„ Ver Recibo (${p.receiptNo || 'REC-2026'})
+                    📄 Ver Recibo (${p.receiptNo || 'REC-2026'})
                   </button>
                 ` : `
                   <button class="btn btn-red btn-sm" onclick="window.app.openPayModal('${p.id}', ${p.amount}, '${p.concept}')" style="font-weight: 800;">
-                    ðŸ’³ Pagar y Validar Intranet
+                    💳 Pagar y Validar Intranet
                   </button>
                 `}
               </div>
@@ -9433,8 +9433,8 @@ const Components = {
 
 /* === app.js === */
 /**
- * Controlador Principal y AplicaciÃ³n - I.E.P. "EL EDUCADOR" S.J.L. (v5.4 con Lector de CÃ¡mara QR Real)
- * "21 aÃ±os dejando huellas" â€¢ UGEL 05
+ * Controlador Principal y Aplicación - I.E.P. "EL EDUCADOR" S.J.L. (v5.4 con Lector de Cámara QR Real)
+ * "21 años dejando huellas" • UGEL 05
  */
 class IntranetApp {
   constructor() {
@@ -9447,13 +9447,13 @@ class IntranetApp {
   }
 
   init() {
-    // Suscribirse a cambios en el almacÃ©n de datos
+    // Suscribirse a cambios en el almacén de datos
     this.store.subscribe(() => {
       this.render();
       this.updateHeaderUserInfo();
     });
 
-    // Escuchador de navegaciÃ³n de la sidebar
+    // Escuchador de navegación de la sidebar
     document.querySelectorAll(".nav-item[data-view]").forEach(item => {
       item.addEventListener("click", (e) => {
         e.preventDefault();
@@ -9462,7 +9462,7 @@ class IntranetApp {
       });
     });
 
-    // Toggle Sidebar MÃ³vil
+    // Toggle Sidebar Móvil
     const toggleBtn = document.getElementById("sidebar-toggle");
     if (toggleBtn) {
       toggleBtn.addEventListener("click", () => {
@@ -9470,7 +9470,7 @@ class IntranetApp {
       });
     }
 
-    // Cerrar sidebar al hacer clic fuera en mÃ³viles
+    // Cerrar sidebar al hacer clic fuera en móviles
     document.addEventListener("click", (e) => {
       if (window.innerWidth <= 1024 && this.sidebar && this.sidebar.classList.contains("open")) {
         if (!this.sidebar.contains(e.target) && !e.target.closest("#sidebar-toggle")) {
@@ -9486,7 +9486,7 @@ class IntranetApp {
   }
 
   // =========================================================================
-  // CONTROLADOR DE LOGIN Y AUTENTICACIÃ“N
+  // CONTROLADOR DE LOGIN Y AUTENTICACIÓN
   // =========================================================================
   handleLogin(e) {
     if (e) e.preventDefault();
@@ -9501,7 +9501,7 @@ class IntranetApp {
     const result = this.store.login(username, password);
     if (result.success) {
       this.loginErrorMessage = null;
-      this.showToast(`Â¡Bienvenido(a), ${result.user.name}!`, "success");
+      this.showToast(`¡Bienvenido(a), ${result.user.name}!`, "success");
     } else {
       this.loginErrorMessage = result.error;
       this.render();
@@ -9512,7 +9512,7 @@ class IntranetApp {
     const result = this.store.login(roleKey, password);
     if (result.success) {
       this.loginErrorMessage = null;
-      this.showToast(`Â¡Acceso concedido como ${result.user.name}!`, "success");
+      this.showToast(`¡Acceso concedido como ${result.user.name}!`, "success");
     }
   }
 
@@ -9520,7 +9520,7 @@ class IntranetApp {
     this.stopLiveCameraScanner();
     this.store.logout();
     this.loginErrorMessage = null;
-    this.showToast("SesiÃ³n cerrada correctamente", "info");
+    this.showToast("Sesión cerrada correctamente", "info");
   }
 
   togglePasswordVisibility() {
@@ -9544,19 +9544,19 @@ class IntranetApp {
   openForgotPasswordModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>RecuperaciÃ³n de ContraseÃ±a</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>Recuperación de Contraseña</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: var(--space-6);">
-        <h4 style="color: var(--color-navy-900); font-weight: 800; margin-bottom: 8px;">CoordinaciÃ³n y DocumentaciÃ³n (Prof. Alex Lino)</h4>
+        <h4 style="color: var(--color-navy-900); font-weight: 800; margin-bottom: 8px;">Coordinación y Documentación (Prof. Alex Lino)</h4>
         <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
-          Para restablecimiento de credenciales, comunÃ­quese con la oficina de CoordinaciÃ³n:
+          Para restablecimiento de credenciales, comuníquese con la oficina de Coordinación:
         </p>
         <div style="background: var(--color-navy-50); padding: 10px; border-radius: 6px; font-weight: bold; color: var(--color-red-600); margin: 12px 0;">
           coordinacion@eleducador.edu.pe
         </div>
         <p style="font-size: 11px; color: var(--text-muted);">
-          * ContraseÃ±as de prueba: <code>admin2026</code>, <code>director2026</code>, <code>docente2026</code>, <code>estudiante2026</code>, <code>padre2026</code>.
+          * Contraseñas de prueba: <code>admin2026</code>, <code>director2026</code>, <code>docente2026</code>, <code>estudiante2026</code>, <code>padre2026</code>.
         </p>
       </div>
       <div class="modal-footer">
@@ -9566,7 +9566,7 @@ class IntranetApp {
   }
 
   // =========================================================================
-  // CONEXIÃ“N MULTI-DISPOSITIVO & ESCANEO SIMULTÃNEO (CELULARES Y PCS)
+  // CONEXIÓN MULTI-DISPOSITIVO & ESCANEO SIMULTÁNEO (CELULARES Y PCS)
   // =========================================================================
   openMultiDeviceConnectModal() {
     const isHttp = typeof window !== "undefined" && window.location.protocol.startsWith("http");
@@ -9588,37 +9588,37 @@ class IntranetApp {
       <div class="modal-header" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: #fde047;">
-            ðŸ“± Conectar Celular para Escaneo SimultÃ¡neo
+            📱 Conectar Celular para Escaneo Simultáneo
           </h3>
           <span style="font-size: 11px; opacity: 0.9;">Acceso Multi-Dispositivo en Tiempo Real (Varios Profesores a la Vez)</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color:white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color:white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 20px; background: #f8fafc;">
         
         <div style="background: white; border: 2px solid #3b82f6; border-radius: 16px; padding: 20px; display: inline-block; box-shadow: 0 8px 24px rgba(59,130,246,0.15); margin-bottom: 16px;">
-          <img src="${qrApiUrl}" alt="QR ConexiÃ³n MÃ³vil" style="width: 200px; height: 200px; display: block; border-radius: 8px; margin: 0 auto;" onerror="this.src='https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=${encodeURIComponent(targetUrl)}'" />
+          <img src="${qrApiUrl}" alt="QR Conexión Móvil" style="width: 200px; height: 200px; display: block; border-radius: 8px; margin: 0 auto;" onerror="this.src='https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=${encodeURIComponent(targetUrl)}'" />
           <div style="margin-top: 10px; font-size: 13px; font-weight: 900; color: #1e3a8a;">
-            ðŸ“¡ ${targetUrl}
+            📡 ${targetUrl}
           </div>
         </div>
 
         <div style="text-align: left; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px;">
           <h4 style="margin: 0 0 8px 0; font-size: 13px; color: #0f172a; font-weight: 800;">
-            ðŸš€ Â¿CÃ³mo escanear con varios celulares al mismo tiempo sin perder datos?
+            🚀 ¿Cómo escanear con varios celulares al mismo tiempo sin perder datos?
           </h4>
           <ol style="margin: 0; padding-left: 20px; font-size: 12px; color: #475569; line-height: 1.6;">
             <li>Conecta tu celular a la <strong>misma red Wi-Fi</strong> del colegio.</li>
-            <li>Apunta la <strong>cÃ¡mara de tu celular</strong> a este cÃ³digo QR o abre en el navegador: <code>${targetUrl}</code>.</li>
-            <li>Inicia sesiÃ³n con tu cuenta de <strong>Docente</strong> o <strong>Auxiliar</strong>.</li>
-            <li><strong>Escaneo On-Demand:</strong> La cÃ¡mara solo se enciende cuando tÃº presionas el botÃ³n para no gastar baterÃ­a ni escanear por accidente.</li>
-            <li><strong>SincronizaciÃ³n en Vivo:</strong> Cuando tÃº calificas un cuaderno, aparece al instante en la pantalla de los demÃ¡s profesores y de la direcciÃ³n.</li>
+            <li>Apunta la <strong>cámara de tu celular</strong> a este código QR o abre en el navegador: <code>${targetUrl}</code>.</li>
+            <li>Inicia sesión con tu cuenta de <strong>Docente</strong> o <strong>Auxiliar</strong>.</li>
+            <li><strong>Escaneo On-Demand:</strong> La cámara solo se enciende cuando tú presionas el botón para no gastar batería ni escanear por accidente.</li>
+            <li><strong>Sincronización en Vivo:</strong> Cuando tú calificas un cuaderno, aparece al instante en la pantalla de los demás profesores y de la dirección.</li>
           </ol>
         </div>
 
         <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
           <button class="btn btn-outline btn-sm" onclick="navigator.clipboard.writeText('${targetUrl}'); window.app.showToast('Enlace copiado al portapapeles: ${targetUrl}', 'success');" style="font-weight: 700;">
-            ðŸ“‹ Copiar Enlace Directo
+            📋 Copiar Enlace Directo
           </button>
         </div>
       </div>
@@ -9645,7 +9645,7 @@ class IntranetApp {
   }
 
   // =========================================================================
-  // LECTOR DE CÃMARA QR REAL PARA CELULARES Y COMPUTADORAS (BAJO DEMANDA)
+  // LECTOR DE CÁMARA QR REAL PARA CELULARES Y COMPUTADORAS (BAJO DEMANDA)
   // =========================================================================
   playScanBeep() {
     try {
@@ -9674,12 +9674,12 @@ class IntranetApp {
     if (!feedContainer) return;
 
     if (typeof Html5Qrcode === "undefined") {
-      this.showToast("Cargando motor de cÃ¡mara QR, intente en 1 segundo...", "info");
+      this.showToast("Cargando motor de cámara QR, intente en 1 segundo...", "info");
       return;
     }
 
     if (statusTag) {
-      statusTag.textContent = "Conectando cÃ¡mara...";
+      statusTag.textContent = "Conectando cámara...";
       statusTag.className = "status-badge status-pending";
     }
 
@@ -9693,7 +9693,7 @@ class IntranetApp {
 
       this.isScanProcessing = false;
 
-      // Preferir cÃ¡mara trasera en celulares (facingMode: environment)
+      // Preferir cámara trasera en celulares (facingMode: environment)
       this.html5QrScanner.start(
         { facingMode: "environment" },
         config,
@@ -9705,7 +9705,7 @@ class IntranetApp {
           this.playScanBeep();
           if (navigator.vibrate) navigator.vibrate(150);
 
-          this.showToast(`âœ“ QR Reconocido: ${decodedText}`, "success");
+          this.showToast(`✓ QR Reconocido: ${decodedText}`, "success");
           this.stopLiveCameraScanner();
 
           const notebookData = this.store.findNotebookByQR(decodedText);
@@ -9720,23 +9720,23 @@ class IntranetApp {
       ).then(() => {
         this.isCameraActive = true;
         if (statusTag) {
-          statusTag.textContent = "ðŸŸ¢ CÃMARA ACTIVA";
+          statusTag.textContent = "🟢 CÁMARA ACTIVA";
           statusTag.className = "status-badge status-approved";
         }
         if (btnStart) btnStart.style.display = "none";
         if (btnStop) btnStop.style.display = "inline-block";
-        this.showToast("ðŸ“· CÃ¡mara encendida. Apunta hacia el sticker QR del cuaderno.", "info");
+        this.showToast("📷 Cámara encendida. Apunta hacia el sticker QR del cuaderno.", "info");
       }).catch((err) => {
-        console.error("Error al acceder a la cÃ¡mara:", err);
+        console.error("Error al acceder a la cámara:", err);
         if (statusTag) {
           statusTag.textContent = "Permiso Denegado / Error";
           statusTag.className = "status-badge status-failed";
         }
-        this.showToast("No se pudo acceder a la cÃ¡mara. Verifique los permisos en el navegador.", "danger");
+        this.showToast("No se pudo acceder a la cámara. Verifique los permisos en el navegador.", "danger");
       });
     } catch (e) {
       console.error(e);
-      this.showToast("Error al inicializar el lector de cÃ¡mara QR", "danger");
+      this.showToast("Error al inicializar el lector de cámara QR", "danger");
     }
   }
 
@@ -9751,7 +9751,7 @@ class IntranetApp {
         const feedContainer = document.getElementById("qr-live-camera-feed");
 
         if (statusTag) {
-          statusTag.textContent = "CÃ¡mara Apagada (En Espera)";
+          statusTag.textContent = "Cámara Apagada (En Espera)";
           statusTag.className = "status-badge status-pending";
         }
         if (btnStart) btnStart.style.display = "inline-block";
@@ -9760,7 +9760,7 @@ class IntranetApp {
           feedContainer.innerHTML = `
             <div style="text-align: center; padding: 20px; color: rgba(255,255,255,0.7);">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto 8px; display:block; color: var(--color-yellow-400);"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-              <span style="font-size: 12px; font-weight: 700;">Presiona 'Encender CÃ¡mara' para iniciar el escaneo</span>
+              <span style="font-size: 12px; font-weight: 700;">Presiona 'Encender Cámara' para iniciar el escaneo</span>
             </div>
           `;
         }
@@ -9773,7 +9773,7 @@ class IntranetApp {
     this.isScanProcessing = true;
     this.playScanBeep();
     const notebookData = this.store.findNotebookByQR(qrCode);
-    this.showToast(`ðŸ” QR Reconocido: ${qrCode}`, "info");
+    this.showToast(`🔍 QR Reconocido: ${qrCode}`, "info");
     setTimeout(() => {
       this.openNotebookReviewModal(notebookData);
       this.isScanProcessing = false;
@@ -9816,26 +9816,26 @@ class IntranetApp {
     const evaluatorName = currentUser.name || (currentRole === "auxiliar" ? "Lic. Carlos Medina (Auxiliar)" : "Docente Responsable");
 
     const defaultScore = data.lastReview ? data.lastReview.score : 18;
-    const defaultStatus = data.lastReview ? data.lastReview.status : "Al DÃ­a";
-    const defaultRemarks = data.lastReview ? data.lastReview.teacherRemarks : "Tareas completas al 100% y cuaderno al dÃ­a.";
+    const defaultStatus = data.lastReview ? data.lastReview.status : "Al Día";
+    const defaultRemarks = data.lastReview ? data.lastReview.teacherRemarks : "Tareas completas al 100% y cuaderno al día.";
 
     this.showModal(`
       <div class="modal-header">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: var(--color-navy-900);">
-            ðŸ“– Calificar & Sellar Cuaderno Escolar
+            📖 Calificar & Sellar Cuaderno Escolar
           </h3>
-          <span style="font-size: 11px; color: var(--text-secondary);">Escaneo de CÃ³digo QR Verificado</span>
+          <span style="font-size: 11px; color: var(--text-secondary);">Escaneo de Código QR Verificado</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         
-        <!-- Ficha de IdentificaciÃ³n del Cuaderno (Alumno + Curso + Profesor) -->
+        <!-- Ficha de Identificación del Cuaderno (Alumno + Curso + Profesor) -->
         <div style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 14px; border-radius: 12px; margin-bottom: 16px; border-left: 6px solid #f59e0b; box-shadow: 0 4px 12px rgba(15,23,42,0.15);">
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
             <span style="font-size: 10px; font-weight: 900; color: #fde047; letter-spacing: 0.05em; text-transform: uppercase;">
-              â­ I.E.P. EL EDUCADOR â€¢ CUADERNO OFICIAL 2026
+              ⭐ I.E.P. EL EDUCADOR • CUADERNO OFICIAL 2026
             </span>
             <span style="font-size: 10px; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 10px;">
               <code>${data.qrCode}</code>
@@ -9843,14 +9843,14 @@ class IntranetApp {
           </div>
 
           <div style="font-size: 17px; font-weight: 900; margin-bottom: 4px; color: #ffffff;">
-            ðŸ“š ${data.course}
+            📚 ${data.course}
           </div>
 
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; margin-top: 8px; font-size: 12px; background: rgba(255,255,255,0.08); padding: 8px 12px; border-radius: 8px;">
             <div>
               <span style="color: rgba(255,255,255,0.7); display: block; font-size: 10px; text-transform: uppercase;">Estudiante:</span>
               <strong style="color: #fde047;">${data.studentName}</strong>
-              <div style="font-size: 10.5px; color: rgba(255,255,255,0.8);">${data.grade} â€¢ ${data.studentId}</div>
+              <div style="font-size: 10.5px; color: rgba(255,255,255,0.8);">${data.grade} • ${data.studentId}</div>
             </div>
             <div>
               <span style="color: rgba(255,255,255,0.7); display: block; font-size: 10px; text-transform: uppercase;">Docente Titular:</span>
@@ -9867,71 +9867,71 @@ class IntranetApp {
           </label>
           <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
             <label style="border: 2px solid #10b981; background: #ecfdf5; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
-              <input type="radio" name="nb-status-radio" value="Al DÃ­a" ${defaultStatus === 'Al DÃ­a' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'Al DÃ­a'; document.getElementById('nb-score-input').value = '18';" />
-              <span style="font-size: 16px;">ðŸŸ¢</span>
-              <strong style="font-size: 11px; color: #065f46;">AL DÃA</strong>
+              <input type="radio" name="nb-status-radio" value="Al Día" ${defaultStatus === 'Al Día' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'Al Día'; document.getElementById('nb-score-input').value = '18';" />
+              <span style="font-size: 16px;">🟢</span>
+              <strong style="font-size: 11px; color: #065f46;">AL DÍA</strong>
               <span style="font-size: 9.5px; color: #047857;">Tareas 100%</span>
             </label>
 
             <label style="border: 2px solid #f59e0b; background: #fffbeb; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
               <input type="radio" name="nb-status-radio" value="Observado" ${defaultStatus === 'Observado' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'Observado'; document.getElementById('nb-score-input').value = '13';" />
-              <span style="font-size: 16px;">ðŸŸ¡</span>
+              <span style="font-size: 16px;">🟡</span>
               <strong style="font-size: 11px; color: #b45309;">OBSERVADO</strong>
               <span style="font-size: 9.5px; color: #92400e;">Incompleto / Atraso</span>
             </label>
 
             <label style="border: 2px solid #ef4444; background: #fef2f2; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
-              <input type="radio" name="nb-status-radio" value="No PresentÃ³" ${defaultStatus === 'No PresentÃ³' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'No PresentÃ³'; document.getElementById('nb-score-input').value = '05';" />
-              <span style="font-size: 16px;">ðŸ”´</span>
-              <strong style="font-size: 11px; color: #b91c1c;">NO PRESENTÃ“</strong>
+              <input type="radio" name="nb-status-radio" value="No Presentó" ${defaultStatus === 'No Presentó' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'No Presentó'; document.getElementById('nb-score-input').value = '05';" />
+              <span style="font-size: 16px;">🔴</span>
+              <strong style="font-size: 11px; color: #b91c1c;">NO PRESENTÓ</strong>
               <span style="font-size: 9.5px; color: #dc2626;">Sin entrega</span>
             </label>
           </div>
           <input type="hidden" id="nb-status-val" value="${defaultStatus}" />
         </div>
 
-        <!-- 2. CalificaciÃ³n Formativa Vigesimal -->
+        <!-- 2. Calificación Formativa Vigesimal -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;">
           <div class="form-group" style="margin: 0;">
-            <label class="form-label" style="font-weight: 800; font-size: 12px;">CalificaciÃ³n (0 a 20):</label>
+            <label class="form-label" style="font-weight: 800; font-size: 12px;">Calificación (0 a 20):</label>
             <input type="number" min="0" max="20" id="nb-score-input" class="form-control" value="${defaultScore}" style="font-size: 18px; font-weight: 900; color: var(--color-navy-900); text-align: center;" />
           </div>
           <div class="form-group" style="margin: 0; display:flex; flex-direction:column; justify-content:center;">
             <span style="font-size: 11px; color: var(--text-muted);">Escala Nacional:</span>
             <div style="font-size: 12px; font-weight: 800; color: #047857; margin-top: 4px;">
-              â­ 18-20: AD (Destacado)<br>âœ“ 14-17: A (Esperado)
+              ⭐ 18-20: AD (Destacado)<br>✓ 14-17: A (Esperado)
             </div>
           </div>
         </div>
 
-        <!-- 3. Criterios de EvaluaciÃ³n -->
+        <!-- 3. Criterios de Evaluación -->
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" style="font-weight: 800; font-size: 12px;">Criterios Verificados:</label>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px; background: #f8fafc; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> ðŸ“ MÃ¡rgenes y Fechas</label>
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> ðŸ“– TeorÃ­a Completa</label>
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-ejercicios" checked /> âœï¸ Tareas / Ejercicios al DÃ­a</label>
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-pulcritud" checked /> âœ¨ Pulcritud y Limpieza</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> 📐 Márgenes y Fechas</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> 📖 Teoría Completa</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-ejercicios" checked /> ✍️ Tareas / Ejercicios al Día</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-pulcritud" checked /> ✨ Pulcritud y Limpieza</label>
           </div>
         </div>
 
-        <!-- 4. Observaciones con Atajos RÃ¡pidos -->
+        <!-- 4. Observaciones con Atajos Rápidos -->
         <div class="form-group" style="margin-bottom: 8px;">
           <label class="form-label" style="font-weight: 800; font-size: 12px;">Observaciones para el Estudiante y Apoderado:</label>
           <input type="text" id="nb-remarks-input" class="form-control" value="${defaultRemarks}" style="margin-bottom: 8px;" />
           
           <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Tareas completas al 100% y presentaciÃ³n impecable.')" style="font-size: 10.5px; padding: 4px 8px;">
-              âœ“ Al DÃ­a 100%
+            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Tareas completas al 100% y presentación impecable.')" style="font-size: 10.5px; padding: 4px 8px;">
+              ✓ Al Día 100%
             </button>
-            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Falta desarrollar la tarea de la Ãºltima sesiÃ³n. Presentar regularizaciÃ³n.')" style="font-size: 10.5px; padding: 4px 8px;">
-              âš  Falta Tarea
+            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Falta desarrollar la tarea de la última sesión. Presentar regularización.')" style="font-size: 10.5px; padding: 4px 8px;">
+              ⚠ Falta Tarea
             </button>
-            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Cuaderno atrasado en 2 temas. Debe ponerse al dÃ­a.')" style="font-size: 10.5px; padding: 4px 8px;">
-              âš  Atrasado 2 temas
+            <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Cuaderno atrasado en 2 temas. Debe ponerse al día.')" style="font-size: 10.5px; padding: 4px 8px;">
+              ⚠ Atrasado 2 temas
             </button>
             <button type="button" class="btn btn-outline btn-sm" onclick="window.app.setNotebookQuickRemark('Requiere firma de compromiso del padre/apoderado.')" style="font-size: 10.5px; padding: 4px 8px;">
-              âœï¸ Firma de Padre
+              ✍️ Firma de Padre
             </button>
           </div>
         </div>
@@ -9940,7 +9940,7 @@ class IntranetApp {
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold" onclick="window.app.confirmRegisterNotebookReview('${data.qrCode}', '${data.studentId}', '${data.studentName}', '${data.grade}', '${data.course}', '${data.teacher || 'Prof. Responsable'}')" style="font-weight: 900; padding: 10px 20px;">
-          â­ Guardar Sello Digital & Actualizar Informe
+          ⭐ Guardar Sello Digital & Actualizar Informe
         </button>
       </div>
     `);
@@ -9948,8 +9948,8 @@ class IntranetApp {
 
   confirmRegisterNotebookReview(qrCode, studentId, studentName, grade, course, teacher) {
     const score = parseFloat(document.getElementById("nb-score-input").value) || 18;
-    const status = document.getElementById("nb-status-val") ? document.getElementById("nb-status-val").value : "Al DÃ­a";
-    const teacherRemarks = document.getElementById("nb-remarks-input") ? document.getElementById("nb-remarks-input").value : "RevisiÃ³n conforme";
+    const status = document.getElementById("nb-status-val") ? document.getElementById("nb-status-val").value : "Al Día";
+    const teacherRemarks = document.getElementById("nb-remarks-input") ? document.getElementById("nb-remarks-input").value : "Revisión conforme";
 
     const chkMargenes = document.getElementById("chk-margenes") ? document.getElementById("chk-margenes").checked : true;
     const chkTeoria = document.getElementById("chk-teoria") ? document.getElementById("chk-teoria").checked : true;
@@ -9970,7 +9970,7 @@ class IntranetApp {
     });
 
     this.closeModal();
-    this.showToast(`âœ“ Cuaderno de ${studentName} (${course}) sellado como: ${status} [Nota: ${score}]`, "success");
+    this.showToast(`✓ Cuaderno de ${studentName} (${course}) sellado como: ${status} [Nota: ${score}]`, "success");
     this.render();
   }
 
@@ -9986,17 +9986,17 @@ class IntranetApp {
       return;
     }
 
-    // Resolver layout: parÃ¡metro explÃ­cito o selector activo (3x5 o 3x4)
+    // Resolver layout: parámetro explícito o selector activo (3x5 o 3x4)
     const effectiveLayout = layout || 
       document.getElementById('modal-sticker-layout-select')?.value || 
       document.getElementById('sticker-layout-select')?.value || 
       '3x5';
 
-    // Remover cualquier contenedor de impresiÃ³n previo
+    // Remover cualquier contenedor de impresión previo
     const existing = document.getElementById("dedicated-print-container");
     if (existing) existing.remove();
 
-    // Crear contenedor exclusivo para la impresiÃ³n
+    // Crear contenedor exclusivo para la impresión
     const printContainer = document.createElement("div");
     printContainer.id = "dedicated-print-container";
     printContainer.className = "dedicated-print-container";
@@ -10038,28 +10038,28 @@ class IntranetApp {
         <div>
           <div style="display:flex; align-items:center; gap: 8px;">
             <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: #fde047;">
-              âš¡ Plancha Oficial de Stickers QR para Cuadernos (Cursos de Boleta)
+              ⚡ Plancha Oficial de Stickers QR para Cuadernos (Cursos de Boleta)
             </h3>
             <span class="status-badge status-approved" style="background:#22c55e; color:#0b132b; font-weight:900; font-size:10px;">
               ${stickers.length} Cursos Oficiales
             </span>
           </div>
           <span style="font-size: 11px; color: rgba(255,255,255,0.85);">
-            I.E.P. El Educador â€¢ GeneraciÃ³n automÃ¡tica (DistribuciÃ³n configurable: 3x5 [15 QR] o 3x4 [12 QR])
+            I.E.P. El Educador • Generación automática (Distribución configurable: 3x5 [15 QR] o 3x4 [12 QR])
           </span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color:white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color:white;">✕</button>
       </div>
 
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; background: #f8fafc; padding: 20px;">
         
-        <!-- Ficha de SelecciÃ³n del Estudiante y Selector de DistribuciÃ³n -->
+        <!-- Ficha de Selección del Estudiante y Selector de Distribución -->
         <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
           <div>
             <span style="font-size: 10.5px; font-weight: 800; color: #64748b; text-transform: uppercase;">Estudiante Seleccionado:</span>
-            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">ðŸ‘¤ ${student.studentName}</div>
+            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">👤 ${student.studentName}</div>
             <div style="font-size: 12px; color: #1e3a8a; font-weight: 700;">
-              ðŸŽ“ ${student.grade} â€¢ CÃ³digo / DNI: ${student.studentCode || student.dni} â€¢ Tutor: ${student.tutor || 'Prof. Titular'}
+              🎓 ${student.grade} • Código / DNI: ${student.studentCode || student.dni} • Tutor: ${student.tutor || 'Prof. Titular'}
             </div>
           </div>
 
@@ -10076,10 +10076,10 @@ class IntranetApp {
             </div>
 
             <div>
-              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">ðŸ“ Formato por Hoja A4:</label>
+              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">📐 Formato por Hoja A4:</label>
               <select id="modal-sticker-layout-select" class="form-control" style="font-size: 12px; font-weight: 800; max-width: 210px; border-radius: 16px; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                <option value="3x5" selected>ðŸ“Œ 3 Ã— 5 (15 QR por Hoja)</option>
-                <option value="3x4">ðŸ“Œ 3 Ã— 4 (12 QR por Hoja)</option>
+                <option value="3x5" selected>📌 3 × 5 (15 QR por Hoja)</option>
+                <option value="3x4">📌 3 × 4 (12 QR por Hoja)</option>
               </select>
             </div>
           </div>
@@ -10090,7 +10090,7 @@ class IntranetApp {
             Mostrando los <strong>${stickers.length} stickers adhesivos</strong> para cada cuaderno curricular de la boleta:
           </span>
           <button class="btn btn-navy btn-sm" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px; border-radius: 18px; box-shadow: 0 4px 12px rgba(15,23,42,0.2);">
-            ðŸ–¨ï¸ Imprimir Plancha A4
+            🖨️ Imprimir Plancha A4
           </button>
         </div>
 
@@ -10107,20 +10107,20 @@ class IntranetApp {
                 </div>
                 <div style="flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0;">
                   <span style="font-size: 8px; font-weight: 900; color: #dc2626; letter-spacing: 0.05em; text-transform: uppercase;">
-                    â­ I.E.P. EL EDUCADOR â€¢ SJL
+                    ⭐ I.E.P. EL EDUCADOR • SJL
                   </span>
                   <strong style="font-size: 12px; color: #0f172a; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${st.course}">
-                    ${st.icon || 'ðŸ“š'} ${st.course}
+                    ${st.icon || '📚'} ${st.course}
                   </strong>
                   <div style="font-size: 10.5px; font-weight: 700; color: #1e3a8a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                    ðŸ‘¤ ${st.studentName}
+                    👤 ${st.studentName}
                   </div>
                   <div style="font-size: 9.5px; color: #64748b;">
-                    ðŸŽ“ ${st.grade} â€¢ ${st.area}
+                    🎓 ${st.grade} • ${st.area}
                   </div>
                   <div style="margin-top: 4px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); setTimeout(() => window.app.simulateQRScan('${safePayload}'), 150);" style="font-size: 9.5px; padding: 2px 6px; border-radius: 10px; font-weight: 800;">
-                      ðŸ“· Probar Escaneo
+                      📷 Probar Escaneo
                     </button>
                   </div>
                 </div>
@@ -10132,12 +10132,12 @@ class IntranetApp {
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <span style="font-size: 12px; color: var(--text-muted);">
-          Total: <strong>${stickers.length} stickers</strong> listos para pegar en carÃ¡tulas.
+          Total: <strong>${stickers.length} stickers</strong> listos para pegar en carátulas.
         </span>
         <div style="display: flex; gap: 8px;">
           <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
           <button class="btn btn-gold" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px;">
-            ðŸ–¨ï¸ Imprimir Plancha A4
+            🖨️ Imprimir Plancha A4
           </button>
         </div>
       </div>
@@ -10145,20 +10145,20 @@ class IntranetApp {
   }
 
   // =========================================================================
-  // VISTA DEL INFORME OFICIAL NÂ° 003 /ED - COORDINACIÃ“N Y DOCUMENTACIÃ“N
+  // VISTA DEL INFORME OFICIAL N° 003 /ED - COORDINACIÓN Y DOCUMENTACIÓN
   // =========================================================================
   showOfficialReportModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ“„ INFORME NÂ°003 /ED - COORDINACIÃ“N Y DOCUMENTACIÃ“N</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>📄 INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; background: #ffffff; padding: 24px;">
         
-        ${Components.renderOfficialInstitutionalHeader("INFORME- NÂ°003 /ED - COORDINACIÃ“N Y DOCUMENTACIÃ“N", "Informe del dÃ­a 15/08/2026")}
+        ${Components.renderOfficialInstitutionalHeader("INFORME- N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN", "Informe del día 15/08/2026")}
 
         <div style="font-size: 13px; color: #0b132b; line-height: 1.6; margin-top: 16px;">
-          <p><strong>Asunto:</strong> Informe de actualizaciÃ³n econÃ³mica, gestiones administrativas y seguimiento de casos de estudiantes</p>
+          <p><strong>Asunto:</strong> Informe de actualización económica, gestiones administrativas y seguimiento de casos de estudiantes</p>
           <p style="margin-top: 8px;">Por medio del presente, se informa lo siguiente:</p>
 
           <div style="margin-top: 14px; padding-left: 8px; border-left: 3px solid var(--color-yellow-500);">
@@ -10169,31 +10169,31 @@ class IntranetApp {
           </div>
 
           <div style="margin-top: 14px; padding-left: 8px; border-left: 3px solid var(--color-navy-700);">
-            <strong>2. GESTIÃ“N DE RENTA DE CUARTA CATEGORÃA:</strong><br>
-            Se realizÃ³ la gestiÃ³n correspondiente a la activaciÃ³n de la Renta de Cuarta CategorÃ­a de la <strong>Miss Maritza</strong>, efectuÃ¡ndose las acciones necesarias para su regularizaciÃ³n.<br>
-            Asimismo, se estÃ¡ adjuntando el envÃ­o al contador de los archivos PDF correspondientes a la Renta de Cuarta CategorÃ­a realizada al siguiente personal:
+            <strong>2. GESTIÓN DE RENTA DE CUARTA CATEGORÍA:</strong><br>
+            Se realizó la gestión correspondiente a la activación de la Renta de Cuarta Categoría de la <strong>Miss Maritza</strong>, efectuándose las acciones necesarias para su regularización.<br>
+            Asimismo, se está adjuntando el envío al contador de los archivos PDF correspondientes a la Renta de Cuarta Categoría realizada al siguiente personal:
             <ul style="margin: 6px 0 6px 20px;">
-              <li>â– Arroyo Araujo, Julisa Magali</li>
-              <li>â– Reyes Milla, MarÃ­a Daysi</li>
-              <li>â– Reyes Cerquen, Leyli Graciela</li>
+              <li>❖ Arroyo Araujo, Julisa Magali</li>
+              <li>❖ Reyes Milla, María Daysi</li>
+              <li>❖ Reyes Cerquen, Leyli Graciela</li>
             </ul>
           </div>
 
           <div style="margin-top: 14px; padding-left: 8px; border-left: 3px solid var(--color-red-500);">
-            <strong>3. ESTUDIANTES PENDIENTES DE MATRÃCULA:</strong><br>
-            De la revisiÃ³n realizada, se informa que actualmente se encuentra pendiente de matrÃ­cula la siguiente estudiante:
+            <strong>3. ESTUDIANTES PENDIENTES DE MATRÍCULA:</strong><br>
+            De la revisión realizada, se informa que actualmente se encuentra pendiente de matrícula la siguiente estudiante:
             <div class="table-container" style="margin-top: 8px;">
               <table class="data-table" style="font-size: 11px;">
                 <thead>
-                  <tr><th>Estudiante</th><th>Grado</th><th>DNI</th><th>Lugar de procedencia</th><th>SituaciÃ³n</th></tr>
+                  <tr><th>Estudiante</th><th>Grado</th><th>DNI</th><th>Lugar de procedencia</th><th>Situación</th></tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td><strong>Pocomo Oropeza, Brini Yuneyli</strong></td>
-                    <td>5 aÃ±os</td>
+                    <td>5 años</td>
                     <td><span class="status-badge status-pending">Pendiente de obtener</span></td>
                     <td>Pendiente de obtener</td>
-                    <td>Falta completar informaciÃ³n para proceder con la regularizaciÃ³n de la matrÃ­cula.</td>
+                    <td>Falta completar información para proceder con la regularización de la matrícula.</td>
                   </tr>
                 </tbody>
               </table>
@@ -10202,24 +10202,24 @@ class IntranetApp {
 
           <div style="margin-top: 14px; padding-left: 8px; border-left: 3px solid var(--color-navy-700);">
             <strong>4. CASO DEL CERTIFICADO DE LA EXESTUDIANTE:</strong><br>
-            Se realizÃ³ la gestiÃ³n correspondiente al caso del certificado de la exestudiante:
+            Se realizó la gestión correspondiente al caso del certificado de la exestudiante:
             <ul style="margin: 6px 0 6px 20px;">
-              <li>â– <strong>DÃ­az Chirre, Evelin EstefanÃ­a</strong></li>
+              <li>❖ <strong>Díaz Chirre, Evelin Estefanía</strong></li>
             </ul>
-            Al respecto, se informa que el trÃ¡mite ha sido rechazado por segunda vez. Ante esta situaciÃ³n, se procederÃ¡ a realizar la consulta correspondiente ante la <strong>UGEL 05</strong>.
+            Al respecto, se informa que el trámite ha sido rechazado por segunda vez. Ante esta situación, se procederá a realizar la consulta correspondiente ante la <strong>UGEL 05</strong>.
           </div>
 
           <div style="margin-top: 14px; padding-left: 8px; border-left: 3px solid var(--color-yellow-500);">
-            <strong>5. COORDINACIÃ“N Y SEGUIMIENTO DE CASOS DE ESTUDIANTES:</strong><br>
-            Se ha realizado la coordinaciÃ³n con el <strong>Prof. Lino</strong> respecto a los casos de estudiantes con regularizaciÃ³n documentaria (Urbizagasti y Fabian).
+            <strong>5. COORDINACIÓN Y SEGUIMIENTO DE CASOS DE ESTUDIANTES:</strong><br>
+            Se ha realizado la coordinación con el <strong>Prof. Lino</strong> respecto a los casos de estudiantes con regularización documentaria (Urbizagasti y Fabian).
           </div>
 
           <div style="margin-top: 16px; background: #f8fafc; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
             <strong>6. CONCLUSIONES:</strong>
             <ul style="margin: 6px 0 0 20px; font-size: 12px;">
-              <li>â€¢ Al 15 de agosto de 2026, el monto acumulado de recibos generados asciende a <strong>S/ 25,130.00</strong>.</li>
-              <li>â€¢ Renta de 4ta CategorÃ­a de Miss Maritza y docentes enviada al contador.</li>
-              <li>â€¢ Estudiante pendiente de matrÃ­cula: <strong>Pocomo Oropeza, Brini Yuneyli (5 aÃ±os)</strong>.</li>
+              <li>• Al 15 de agosto de 2026, el monto acumulado de recibos generados asciende a <strong>S/ 25,130.00</strong>.</li>
+              <li>• Renta de 4ta Categoría de Miss Maritza y docentes enviada al contador.</li>
+              <li>• Estudiante pendiente de matrícula: <strong>Pocomo Oropeza, Brini Yuneyli (5 años)</strong>.</li>
             </ul>
           </div>
 
@@ -10227,13 +10227,13 @@ class IntranetApp {
             <div style="display: inline-block; text-align: center; border-top: 1px solid #0b132b; padding-top: 6px; width: 200px;">
               <strong>Atentamente,</strong><br>
               <span style="font-weight: 800; color: #0b132b;">Alex Lino</span><br>
-              <span style="font-size: 11px; color: var(--text-muted);">CoordinaciÃ³n y DocumentaciÃ³n</span>
+              <span style="font-size: 11px; color: var(--text-muted);">Coordinación y Documentación</span>
             </div>
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">ðŸ–¨ï¸ Imprimir Documento</button>
+        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -10242,8 +10242,8 @@ class IntranetApp {
   showSQLSchemaModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ“„ Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>📄 Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
         <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">
@@ -10287,7 +10287,7 @@ CREATE TABLE tb_cuadernos_qr (
     `);
   }
 
-  // NavegaciÃ³n DinÃ¡mica sin Bloqueos
+  // Navegación Dinámica sin Bloqueos
   navigate(viewName) {
     if (this.store.getCurrentView() === "cuadernos-qr" && viewName !== "cuadernos-qr") {
       this.stopLiveCameraScanner();
@@ -10302,7 +10302,7 @@ CREATE TABLE tb_cuadernos_qr (
     }
   }
 
-  // Actualizar datos del usuario y Renderizar MenÃº de Espacios Selectos por Rol
+  // Actualizar datos del usuario y Renderizar Menú de Espacios Selectos por Rol
   updateHeaderUserInfo() {
     if (!this.store.isUserAuthenticated()) return;
 
@@ -10318,12 +10318,12 @@ CREATE TABLE tb_cuadernos_qr (
     if (roleEl) roleEl.textContent = user.roleLabel;
     if (avatarEl) avatarEl.src = user.avatar;
 
-    // Renderizar MenÃº Lateral DinÃ¡mico segÃºn el Perfil del Usuario
+    // Renderizar Menú Lateral Dinámico según el Perfil del Usuario
     const sidebarNav = document.querySelector(".sidebar-nav");
     if (sidebarNav) {
       sidebarNav.innerHTML = Components.renderSidebarNav(role, currentView, this.store.state);
       
-      // Re-vincular eventos de navegaciÃ³n en los enlaces dinÃ¡micos
+      // Re-vincular eventos de navegación en los enlaces dinámicos
       sidebarNav.querySelectorAll(".nav-item[data-view]").forEach(item => {
         item.addEventListener("click", (e) => {
           e.preventDefault();
@@ -10373,7 +10373,7 @@ CREATE TABLE tb_cuadernos_qr (
     const state = this.store.state;
     const currentUser = this.store.getCurrentUser();
 
-    // VerificaciÃ³n de Bloqueo por PensiÃ³n Pendiente (Mora)
+    // Verificación de Bloqueo por Pensión Pendiente (Mora)
     const isLocked = this.store.isAccessLockedForCurrentUser();
     if (isLocked && currentView !== "pagos" && currentView !== "comunicados") {
       if (this.contentArea) {
@@ -10429,12 +10429,12 @@ CREATE TABLE tb_cuadernos_qr (
       html = `
         <div class="fade-in">
           <div class="card" style="padding: 24px; border-top: 4px solid var(--color-red-500);">
-            <h3 style="color: var(--color-red-600); margin-bottom: 8px;">âš ï¸ Aviso de Carga en Vista: ${currentView}</h3>
+            <h3 style="color: var(--color-red-600); margin-bottom: 8px;">⚠️ Aviso de Carga en Vista: ${currentView}</h3>
             <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 16px;">
               Detalle: ${err.message}
             </p>
             <button class="btn btn-navy btn-sm" onclick="window.app.navigate('dashboard')">
-              ðŸ  Regresar al Inicio
+              🏠 Regresar al Inicio
             </button>
           </div>
         </div>
@@ -10459,10 +10459,10 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // GESTIÃ“N DE USUARIOS, MATRÃCULAS Y PRIVILEGIOS
+  // GESTIÓN DE USUARIOS, MATRÍCULAS Y PRIVILEGIOS
   // =========================================================================
   // =========================================================================
-  // GESTIÃ“N DE USUARIOS, MATRÃCULAS, PERFILES Y CONFIGURACIÃ“N DE PESTAÃ‘AS
+  // GESTIÓN DE USUARIOS, MATRÍCULAS, PERFILES Y CONFIGURACIÓN DE PESTAÑAS
   // =========================================================================
   setUserManagementTab(tabName) {
     this.store.setUsersManagementTab(tabName);
@@ -10488,7 +10488,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   toggleNavTab(role, tabId, isChecked) {
     this.store.toggleNavigationTab(role, tabId, isChecked);
-    this.showToast(`PestaÃ±a "${tabId}" ${isChecked ? 'ðŸŸ¢ ACTIVADA' : 'âšª OCULTADA'} para ${role.toUpperCase()}`, isChecked ? "success" : "info");
+    this.showToast(`Pestaña "${tabId}" ${isChecked ? '🟢 ACTIVADA' : '⚪ OCULTADA'} para ${role.toUpperCase()}`, isChecked ? "success" : "info");
     this.updateHeaderUserInfo();
   }
 
@@ -10498,18 +10498,18 @@ CREATE TABLE tb_cuadernos_qr (
     const newLabel = labelInput ? labelInput.value.trim() : "";
     const newBadge = badgeInput ? badgeInput.value.trim() : "";
     if (!newLabel) {
-      this.showToast("El nombre de la pestaÃ±a no puede estar vacÃ­o", "danger");
+      this.showToast("El nombre de la pestaña no puede estar vacío", "danger");
       return;
     }
     this.store.renameNavigationTab(role, tabId, newLabel, newBadge);
-    this.showToast(`âœ“ PestaÃ±a "${newLabel}" guardada para ${role.toUpperCase()}`, "success");
+    this.showToast(`✓ Pestaña "${newLabel}" guardada para ${role.toUpperCase()}`, "success");
     this.updateHeaderUserInfo();
   }
 
   resetNavTabsToDefault(role) {
-    if (confirm(`Â¿Restaurar todas las pestaÃ±as por defecto para el perfil ${role.toUpperCase()}?`)) {
+    if (confirm(`¿Restaurar todas las pestañas por defecto para el perfil ${role.toUpperCase()}?`)) {
       this.store.resetNavigationTabsToDefault(role);
-      this.showToast(`MenÃºs de ${role.toUpperCase()} restaurados por defecto`, "info");
+      this.showToast(`Menús de ${role.toUpperCase()} restaurados por defecto`, "info");
       this.updateHeaderUserInfo();
       this.render();
     }
@@ -10518,8 +10518,8 @@ CREATE TABLE tb_cuadernos_qr (
   openCreateUserModal(defaultRole = "Docente") {
     this.showModal(`
       <div class="modal-header">
-        <h3>âž• Crear Nuevo Usuario & Asignar Perfil</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>➕ Crear Nuevo Usuario & Asignar Perfil</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         
@@ -10531,31 +10531,31 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;">
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-docente">
               <input type="radio" name="new-user-role-radio" value="Docente" ${defaultRole === 'Docente' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">ðŸ‘¨â€ðŸ«</span>
+              <span style="font-size: 16px;">👨‍🏫</span>
               <strong style="font-size: 12px; color: #1e3a8a;">Docente</strong>
             </label>
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-auxiliar">
               <input type="radio" name="new-user-role-radio" value="Auxiliar" ${defaultRole === 'Auxiliar' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">ðŸ‘®</span>
+              <span style="font-size: 16px;">👮</span>
               <strong style="font-size: 12px; color: #0f766e;">Auxiliar</strong>
             </label>
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-estudiante">
               <input type="radio" name="new-user-role-radio" value="Estudiante" ${defaultRole === 'Estudiante' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">ðŸŽ’</span>
+              <span style="font-size: 16px;">🎒</span>
               <strong style="font-size: 12px; color: #047857;">Estudiante</strong>
             </label>
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-apoderado">
               <input type="radio" name="new-user-role-radio" value="Apoderado" ${defaultRole === 'Apoderado' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">ðŸ‘¨â€ðŸ‘©â€ðŸ‘§</span>
+              <span style="font-size: 16px;">👨‍👩‍👧</span>
               <strong style="font-size: 12px; color: #b45309;">Apoderado</strong>
             </label>
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-directivo">
               <input type="radio" name="new-user-role-radio" value="Directivo" ${defaultRole === 'Directivo' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">ðŸ›¡ï¸</span>
+              <span style="font-size: 16px;">🛡️</span>
               <strong style="font-size: 12px; color: #6b21a8;">Directivo</strong>
             </label>
           </div>
@@ -10567,10 +10567,10 @@ CREATE TABLE tb_cuadernos_qr (
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-3);">
           <div class="form-group">
             <label class="form-label">Nombre Completo:</label>
-            <input type="text" id="new-user-name" class="form-control" placeholder="Ej: Lic. Carmen Rosa HuamÃ¡n" oninput="window.app.autoGenerateUserCredentials()" />
+            <input type="text" id="new-user-name" class="form-control" placeholder="Ej: Lic. Carmen Rosa Huamán" oninput="window.app.autoGenerateUserCredentials()" />
           </div>
           <div class="form-group">
-            <label class="form-label">DNI (8 dÃ­gitos):</label>
+            <label class="form-label">DNI (8 dígitos):</label>
             <input type="text" id="new-user-dni" class="form-control" placeholder="45891204" maxlength="10" />
           </div>
         </div>
@@ -10588,17 +10588,17 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3);">
           <div class="form-group">
-            <label class="form-label">ContraseÃ±a de Acceso:</label>
+            <label class="form-label">Contraseña de Acceso:</label>
             <input type="text" id="new-user-pass" class="form-control" value="docente2026" />
           </div>
           <div class="form-group" style="display: flex; align-items: flex-end;">
             <button type="button" class="btn btn-outline" onclick="window.app.autoGenerateUserCredentials()" style="width: 100%; font-size: 11.5px; font-weight: bold; margin-bottom: 8px;">
-              âš¡ Autogenerar Credenciales
+              ⚡ Autogenerar Credenciales
             </button>
           </div>
         </div>
 
-        <!-- SECCIÃ“N DINÃMICA SEGÃšN EL ROL -->
+        <!-- SECCIÓN DINÁMICA SEGÚN EL ROL -->
         <div id="dynamic-role-fields-container" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; margin: 12px 0;">
           ${this.getDynamicRoleFieldsHTML(defaultRole)}
         </div>
@@ -10607,7 +10607,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" id="admin-privilege-checkbox-box">
           <label style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: var(--color-navy-900); cursor: pointer; background: var(--color-yellow-50); padding: 10px; border: 1px dashed var(--color-yellow-500); border-radius: 8px; font-size: 12.5px;">
             <input type="checkbox" id="new-user-has-admin" />
-            <span>â­ Conceder Privilegios de EdiciÃ³n (Horarios, SÃ­labus, Notas y Carga de Materiales)</span>
+            <span>⭐ Conceder Privilegios de Edición (Horarios, Sílabus, Notas y Carga de Materiales)</span>
           </label>
         </div>
 
@@ -10615,7 +10615,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmCreateUser()" style="font-weight: 800;">
-          âœ“ Guardar y Registrar en Base de Datos
+          ✓ Guardar y Registrar en Base de Datos
         </button>
       </div>
     `);
@@ -10641,20 +10641,20 @@ CREATE TABLE tb_cuadernos_qr (
     }
   }
 
-  getBoletaCoursesSelectOptions(selectedSubject = "AritmÃ©tica") {
+  getBoletaCoursesSelectOptions(selectedSubject = "Aritmética") {
     const categories = [
       {
-        area: "ðŸ“ Ãrea de MatemÃ¡tica",
+        area: "📐 Área de Matemática",
         courses: [
-          "AritmÃ©tica",
-          "Ãlgebra",
-          "GeometrÃ­a",
-          "TrigonometrÃ­a",
-          "Razonamiento MatemÃ¡tico"
+          "Aritmética",
+          "Álgebra",
+          "Geometría",
+          "Trigonometría",
+          "Razonamiento Matemático"
         ]
       },
       {
-        area: "ðŸ“– Ãrea de ComunicaciÃ³n",
+        area: "📖 Área de Comunicación",
         courses: [
           "Lenguaje",
           "Literatura",
@@ -10662,43 +10662,43 @@ CREATE TABLE tb_cuadernos_qr (
         ]
       },
       {
-        area: "ðŸ”¬ Ãrea de Ciencia y TecnologÃ­a",
+        area: "🔬 Área de Ciencia y Tecnología",
         courses: [
-          "BiologÃ­a",
-          "FÃ­sica",
-          "QuÃ­mica"
+          "Biología",
+          "Física",
+          "Química"
         ]
       },
       {
-        area: "ðŸŒŽ Ãrea de Ciencias Sociales",
+        area: "🌎 Área de Ciencias Sociales",
         courses: [
-          "Historia del PerÃº",
+          "Historia del Perú",
           "Historia Universal",
-          "GeografÃ­a",
-          "FilosofÃ­a"
+          "Geografía",
+          "Filosofía"
         ]
       },
       {
-        area: "âš–ï¸ Ãrea de DPCC",
+        area: "⚖️ Área de DPCC",
         courses: [
-          "CÃ­vica",
-          "PsicologÃ­a"
+          "Cívica",
+          "Psicología"
         ]
       },
       {
-        area: "ðŸ’» Ãrea de EducaciÃ³n para el Trabajo (EPT)",
+        area: "💻 Área de Educación para el Trabajo (EPT)",
         courses: [
-          "ComputaciÃ³n / InformÃ¡tica",
-          "GestiÃ³n Empresarial"
+          "Computación / Informática",
+          "Gestión Empresarial"
         ]
       },
       {
-        area: "ðŸŽ¨ Otras Ãreas Curriculares",
+        area: "🎨 Otras Áreas Curriculares",
         courses: [
-          "InglÃ©s",
+          "Inglés",
           "Arte y Cultura",
-          "EducaciÃ³n FÃ­sica",
-          "EducaciÃ³n Religiosa"
+          "Educación Física",
+          "Educación Religiosa"
         ]
       }
     ];
@@ -10715,36 +10715,36 @@ CREATE TABLE tb_cuadernos_qr (
     `).join('');
   }
 
-  renderGradesChecklistHTML(prefix = "new-user-grades", selectedList = ["1Â° de Secundaria", "2Â° de Secundaria", "3Â° de Secundaria", "4Â° de Secundaria", "5Â° de Secundaria"]) {
+  renderGradesChecklistHTML(prefix = "new-user-grades", selectedList = ["1° de Secundaria", "2° de Secundaria", "3° de Secundaria", "4° de Secundaria", "5° de Secundaria"]) {
     const gradesStructure = [
       {
         level: "Secundaria",
         color: "#1e40af",
         bg: "#eff6ff",
         border: "#bfdbfe",
-        grades: ["1Â° de Secundaria", "2Â° de Secundaria", "3Â° de Secundaria", "4Â° de Secundaria", "5Â° de Secundaria"]
+        grades: ["1° de Secundaria", "2° de Secundaria", "3° de Secundaria", "4° de Secundaria", "5° de Secundaria"]
       },
       {
         level: "Primaria",
         color: "#047857",
         bg: "#ecfdf5",
         border: "#a7f3d0",
-        grades: ["1Â° de Primaria", "2Â° de Primaria", "3Â° de Primaria", "4Â° de Primaria", "5Â° de Primaria", "6Â° de Primaria"]
+        grades: ["1° de Primaria", "2° de Primaria", "3° de Primaria", "4° de Primaria", "5° de Primaria", "6° de Primaria"]
       },
       {
         level: "Inicial",
         color: "#b45309",
         bg: "#fffbeb",
         border: "#fde68a",
-        grades: ["Inicial 3 aÃ±os", "Inicial 4 aÃ±os", "Inicial 5 aÃ±os"]
+        grades: ["Inicial 3 años", "Inicial 4 años", "Inicial 5 años"]
       }
     ];
 
     const isSelected = (g) => {
       if (!selectedList || selectedList.length === 0) return false;
-      const clean = g.toLowerCase().replace(/['Â°\s]/g, '');
+      const clean = g.toLowerCase().replace(/['°\s]/g, '');
       return selectedList.some(s => {
-        const sClean = (typeof s === 'string' ? s : '').toLowerCase().replace(/['Â°\s]/g, '');
+        const sClean = (typeof s === 'string' ? s : '').toLowerCase().replace(/['°\s]/g, '');
         return sClean.includes(clean) || clean.includes(sClean);
       });
     };
@@ -10753,7 +10753,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div style="margin-top: 8px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 6px;">
           <label class="form-label" style="font-size: 11.5px; font-weight: 800; color: #1e3a8a; margin: 0;">
-            ðŸ« Grados a Cargo (Checklist - Marque los grados asignados):
+            🏫 Grados a Cargo (Checklist - Marque los grados asignados):
           </label>
           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
             <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectGrades('${prefix}', 'secundaria')" style="font-size: 10.5px; padding: 2px 6px; font-weight: bold;">+ Toda Secundaria</button>
@@ -10807,27 +10807,27 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // SELECCIÃ“N MÃšLTIPLE DE CURSOS PARA EL DOCENTE (CHECKLIST POR ÃREAS)
+  // SELECCIÓN MÚLTIPLE DE CURSOS PARA EL DOCENTE (CHECKLIST POR ÁREAS)
   // =========================================================================
 
-  renderCoursesChecklistHTML(prefix = "new-user-courses", selectedCourses = ["AritmÃ©tica", "Ãlgebra"]) {
+  renderCoursesChecklistHTML(prefix = "new-user-courses", selectedCourses = ["Aritmética", "Álgebra"]) {
     const courseCategories = [
       {
-        category: "ðŸ“ Ãrea de MatemÃ¡tica",
+        category: "📐 Área de Matemática",
         color: "#1e40af",
         bg: "#eff6ff",
         border: "#bfdbfe",
         courses: [
-          "AritmÃ©tica",
-          "Ãlgebra",
-          "GeometrÃ­a",
-          "TrigonometrÃ­a",
-          "Razonamiento MatemÃ¡tico",
-          "MatemÃ¡tica Avanzada"
+          "Aritmética",
+          "Álgebra",
+          "Geometría",
+          "Trigonometría",
+          "Razonamiento Matemático",
+          "Matemática Avanzada"
         ]
       },
       {
-        category: "ðŸ“š Ãrea de ComunicaciÃ³n",
+        category: "📚 Área de Comunicación",
         color: "#854d0e",
         bg: "#fefce8",
         border: "#fde047",
@@ -10835,60 +10835,60 @@ CREATE TABLE tb_cuadernos_qr (
           "Lenguaje",
           "Literatura",
           "Razonamiento Verbal",
-          "ComunicaciÃ³n y Literatura (General)",
-          "Idioma Extranjero: InglÃ©s"
+          "Comunicación y Literatura (General)",
+          "Idioma Extranjero: Inglés"
         ]
       },
       {
-        category: "ðŸ”¬ Ãrea de Ciencia y TecnologÃ­a",
+        category: "🔬 Área de Ciencia y Tecnología",
         color: "#065f46",
         bg: "#ecfdf5",
         border: "#a7f3d0",
         courses: [
-          "FÃ­sica",
-          "QuÃ­mica",
-          "BiologÃ­a",
-          "Ciencia y TecnologÃ­a (General)"
+          "Física",
+          "Química",
+          "Biología",
+          "Ciencia y Tecnología (General)"
         ]
       },
       {
-        category: "ðŸ›ï¸ Ciencias Sociales & DPCC",
+        category: "🏛️ Ciencias Sociales & DPCC",
         color: "#581c87",
         bg: "#faf5ff",
         border: "#e9d5ff",
         courses: [
-          "Historia del PerÃº",
+          "Historia del Perú",
           "Historia Universal",
-          "GeografÃ­a",
-          "EconomÃ­a",
-          "FilosofÃ­a",
-          "PsicologÃ­a",
+          "Geografía",
+          "Economía",
+          "Filosofía",
+          "Psicología",
           "Ciencias Sociales (General)",
-          "Desarrollo Personal, CiudadanÃ­a y CÃ­vica (DPCC)"
+          "Desarrollo Personal, Ciudadanía y Cívica (DPCC)"
         ]
       },
       {
-        category: "ðŸ’» TecnologÃ­a, EPT, Arte & TutorÃ­a",
+        category: "💻 Tecnología, EPT, Arte & Tutoría",
         color: "#0f766e",
         bg: "#f0fdfa",
         border: "#99f6e4",
         courses: [
-          "ComputaciÃ³n & RobÃ³tica",
-          "EducaciÃ³n para el Trabajo (EPT)",
+          "Computación & Robótica",
+          "Educación para el Trabajo (EPT)",
           "Arte y Cultura",
-          "EducaciÃ³n FÃ­sica",
-          "EducaciÃ³n Religiosa",
-          "TutorÃ­a y OrientaciÃ³n"
+          "Educación Física",
+          "Educación Religiosa",
+          "Tutoría y Orientación"
         ]
       },
       {
-        category: "ðŸŽ’ Especialidades de Nivel",
+        category: "🎒 Especialidades de Nivel",
         color: "#9a3412",
         bg: "#fff7ed",
         border: "#fed7aa",
         courses: [
           "Polidocente Nivel Primaria",
-          "Nivel Inicial (3, 4 y 5 aÃ±os)"
+          "Nivel Inicial (3, 4 y 5 años)"
         ]
       }
     ];
@@ -10911,24 +10911,24 @@ CREATE TABLE tb_cuadernos_qr (
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 6px;">
           <div>
             <label class="form-label" style="font-weight: 800; color: #1e3a8a; font-size: 12px; margin-bottom: 0;">
-              ðŸ“š Cursos y Asignaturas a Cargo (Seleccione todos los cursos del docente):
+              📚 Cursos y Asignaturas a Cargo (Seleccione todos los cursos del docente):
             </label>
             <div style="font-size: 11px; color: #64748b;">
-              * Puede marcar mÃºltiples cursos de los cuales el profesor se harÃ¡ responsable.
+              * Puede marcar múltiples cursos de los cuales el profesor se hará responsable.
             </div>
           </div>
           <span class="status-badge" style="background: #dbeafe; color: #1e40af; font-weight: 800; font-size: 11px;" id="${prefix}-count-badge">
-            ðŸ“‹ <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
+            📋 <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
           </span>
         </div>
 
-        <!-- Botones de SelecciÃ³n RÃ¡pida por Ãrea -->
+        <!-- Botones de Selección Rápida por Área -->
         <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 10px;">
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectCourses('${prefix}', 'matematica')" style="font-size: 10.5px; padding: 2px 7px; color: #1e40af; border-color: #93c5fd; background: #ffffff; font-weight: bold;">
-            + Toda MatemÃ¡tica
+            + Toda Matemática
           </button>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectCourses('${prefix}', 'comunicacion')" style="font-size: 10.5px; padding: 2px 7px; color: #854d0e; border-color: #fde047; background: #ffffff; font-weight: bold;">
-            + Toda ComunicaciÃ³n
+            + Toda Comunicación
           </button>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectCourses('${prefix}', 'ciencia')" style="font-size: 10.5px; padding: 2px 7px; color: #065f46; border-color: #86efac; background: #ffffff; font-weight: bold;">
             + Toda Ciencia
@@ -10937,14 +10937,14 @@ CREATE TABLE tb_cuadernos_qr (
             + Todos Sociales
           </button>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectCourses('${prefix}', 'all')" style="font-size: 10.5px; padding: 2px 7px; color: #15803d; border-color: #86efac; background: #ffffff; font-weight: bold;">
-            âœ“ Todos
+            ✓ Todos
           </button>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectCourses('${prefix}', 'clear')" style="font-size: 10.5px; padding: 2px 7px; color: #dc2626; border-color: #fca5a5; background: #ffffff; font-weight: bold;">
-            âœ• Desmarcar
+            ✕ Desmarcar
           </button>
         </div>
 
-        <!-- CuadrÃ­cula de Cursos Agrupados por Ãrea -->
+        <!-- Cuadrícula de Cursos Agrupados por Área -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; max-height: 220px; overflow-y: auto; background: #ffffff; padding: 10px; border-radius: 6px; border: 1px solid #e2e8f0;">
           ${courseCategories.map(cat => `
             <div style="background: ${cat.bg}; border: 1px solid ${cat.border}; border-radius: 6px; padding: 8px;">
@@ -10985,19 +10985,19 @@ CREATE TABLE tb_cuadernos_qr (
       } else if (area === "clear") {
         cb.checked = false;
       } else if (area === "matematica") {
-        if (dataArea.includes("matemÃ¡tica") || val.includes("aritmÃ©tica") || val.includes("Ã¡lgebra") || val.includes("geometrÃ­a") || val.includes("trigonometrÃ­a") || val.includes("matemÃ¡tico") || val.includes("avanzada")) {
+        if (dataArea.includes("matemática") || val.includes("aritmética") || val.includes("álgebra") || val.includes("geometría") || val.includes("trigonometría") || val.includes("matemático") || val.includes("avanzada")) {
           cb.checked = true;
         }
       } else if (area === "comunicacion") {
-        if (dataArea.includes("comunicaciÃ³n") || val.includes("lenguaje") || val.includes("literatura") || val.includes("verbal") || val.includes("inglÃ©s")) {
+        if (dataArea.includes("comunicación") || val.includes("lenguaje") || val.includes("literatura") || val.includes("verbal") || val.includes("inglés")) {
           cb.checked = true;
         }
       } else if (area === "ciencia") {
-        if (dataArea.includes("ciencia") || val.includes("fÃ­sica") || val.includes("quÃ­mica") || val.includes("biologÃ­a")) {
+        if (dataArea.includes("ciencia") || val.includes("física") || val.includes("química") || val.includes("biología")) {
           cb.checked = true;
         }
       } else if (area === "sociales") {
-        if (dataArea.includes("sociales") || val.includes("historia") || val.includes("geografÃ­a") || val.includes("cÃ­vica") || val.includes("filosofÃ­a") || val.includes("psicologÃ­a") || val.includes("dpcc") || val.includes("economÃ­a")) {
+        if (dataArea.includes("sociales") || val.includes("historia") || val.includes("geografía") || val.includes("cívica") || val.includes("filosofía") || val.includes("psicología") || val.includes("dpcc") || val.includes("economía")) {
           cb.checked = true;
         }
       }
@@ -11017,16 +11017,16 @@ CREATE TABLE tb_cuadernos_qr (
       }));
 
     const baseStudents = [
-      { id: "EST-042", name: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", dni: "74891230", code: "EST-2026-042" },
-      { id: "EST-011", name: "Carlos BenÃ­tez DÃ­az", grade: "4Â° de Secundaria", dni: "75129034", code: "EST-2026-011" },
-      { id: "EST-025", name: "Mateo Ramos Quispe", grade: "3Â° de Secundaria", dni: "76891209", code: "EST-2026-025" },
-      { id: "EST-089", name: "Marina del Carmen AlbÃºjar Zegarra", grade: "2Â° de Secundaria", dni: "75849301", code: "EST-2026-089" },
-      { id: "EST-PEND-01", name: "Brini Yuneyli Pocomo Oropeza", grade: "Inicial 5 aÃ±os", dni: "Pendiente", code: "EST-2026-PEND-01" },
-      { id: "EST-089-EX", name: "Evelin EstefanÃ­a DÃ­az Chirre", grade: "5Â° de Secundaria", dni: "71290384", code: "EX-EST-2025-089" },
-      { id: "EST-PRIM-01", name: "JoaquÃ­n Urbizagasti", grade: "1Â° de Primaria", dni: "78912345", code: "EST-2026-012" },
-      { id: "EST-PRIM-02", name: "Valentina Fabian", grade: "3Â° de Primaria", dni: "79123456", code: "EST-2026-013" },
-      { id: "EST-PRIM-03", name: "Camila Andrea Silva", grade: "5Â° de Primaria", dni: "74567890", code: "EST-2026-014" },
-      { id: "EST-PRIM-04", name: "Diego Alejandro Torres", grade: "6Â° de Primaria", dni: "75678901", code: "EST-2026-015" }
+      { id: "EST-042", name: "Sofía Méndez Flores", grade: "4° de Secundaria", dni: "74891230", code: "EST-2026-042" },
+      { id: "EST-011", name: "Carlos Benítez Díaz", grade: "4° de Secundaria", dni: "75129034", code: "EST-2026-011" },
+      { id: "EST-025", name: "Mateo Ramos Quispe", grade: "3° de Secundaria", dni: "76891209", code: "EST-2026-025" },
+      { id: "EST-089", name: "Marina del Carmen Albújar Zegarra", grade: "2° de Secundaria", dni: "75849301", code: "EST-2026-089" },
+      { id: "EST-PEND-01", name: "Brini Yuneyli Pocomo Oropeza", grade: "Inicial 5 años", dni: "Pendiente", code: "EST-2026-PEND-01" },
+      { id: "EST-089-EX", name: "Evelin Estefanía Díaz Chirre", grade: "5° de Secundaria", dni: "71290384", code: "EX-EST-2025-089" },
+      { id: "EST-PRIM-01", name: "Joaquín Urbizagasti", grade: "1° de Primaria", dni: "78912345", code: "EST-2026-012" },
+      { id: "EST-PRIM-02", name: "Valentina Fabian", grade: "3° de Primaria", dni: "79123456", code: "EST-2026-013" },
+      { id: "EST-PRIM-03", name: "Camila Andrea Silva", grade: "5° de Primaria", dni: "74567890", code: "EST-2026-014" },
+      { id: "EST-PRIM-04", name: "Diego Alejandro Torres", grade: "6° de Primaria", dni: "75678901", code: "EST-2026-015" }
     ];
 
     const merged = [...studentsFromUsers];
@@ -11040,8 +11040,8 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   getSingleParentStudentRowHTML(prefix, rowId, index, data = {}) {
-    const currentName = data.name || (index === 0 ? "SofÃ­a MÃ©ndez Flores" : "");
-    const currentGrade = data.grade || (index === 0 ? "4Â° de Secundaria" : "1Â° de Secundaria");
+    const currentName = data.name || (index === 0 ? "Sofía Méndez Flores" : "");
+    const currentGrade = data.grade || (index === 0 ? "4° de Secundaria" : "1° de Secundaria");
     const currentDni = data.dni || (index === 0 ? "74891230" : "");
 
     const clean = currentName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9\s]/g, '');
@@ -11051,15 +11051,15 @@ CREATE TABLE tb_cuadernos_qr (
     const gradeOptions = [
       {
         group: "Nivel Secundaria",
-        grades: ["1Â° de Secundaria", "2Â° de Secundaria", "3Â° de Secundaria", "4Â° de Secundaria", "5Â° de Secundaria"]
+        grades: ["1° de Secundaria", "2° de Secundaria", "3° de Secundaria", "4° de Secundaria", "5° de Secundaria"]
       },
       {
         group: "Nivel Primaria",
-        grades: ["1Â° de Primaria", "2Â° de Primaria", "3Â° de Primaria", "4Â° de Primaria", "5Â° de Primaria", "6Â° de Primaria"]
+        grades: ["1° de Primaria", "2° de Primaria", "3° de Primaria", "4° de Primaria", "5° de Primaria", "6° de Primaria"]
       },
       {
         group: "Nivel Inicial",
-        grades: ["Inicial 3 aÃ±os", "Inicial 4 aÃ±os", "Inicial 5 aÃ±os"]
+        grades: ["Inicial 3 años", "Inicial 4 años", "Inicial 5 años"]
       }
     ];
 
@@ -11067,10 +11067,10 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="card parent-student-row" id="${rowId}" style="padding: 12px; margin-bottom: 10px; border: 1px solid #fdba74; background: #fffaf0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-bottom: 1px solid #ffedd5; padding-bottom: 4px;">
           <span style="font-size: 12px; font-weight: 800; color: #9a3412;">
-            ðŸŽ“ Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
+            🎓 Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
           </span>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.removeParentStudentRow('${prefix}', '${rowId}')" style="font-size: 11px; padding: 2px 8px; color: var(--color-red-600); border-color: #fca5a5;" title="Quitar estudiante">
-            ðŸ—‘ï¸ Quitar
+            🗑️ Quitar
           </button>
         </div>
 
@@ -11080,13 +11080,13 @@ CREATE TABLE tb_cuadernos_qr (
             <label class="form-label" style="font-size: 11px; font-weight: 700; margin-bottom: 2px; color: #9a3412;">
               Nombre Completo del Estudiante:
             </label>
-            <input type="text" class="form-control parent-student-name" placeholder="Ej: SofÃ­a MÃ©ndez Flores" value="${currentName}" oninput="window.app.updateStudentCredentialPreview('${rowId}')" style="font-size: 12px; font-weight: bold; border-color: #ea580c; background: #ffffff;" />
+            <input type="text" class="form-control parent-student-name" placeholder="Ej: Sofía Méndez Flores" value="${currentName}" oninput="window.app.updateStudentCredentialPreview('${rowId}')" style="font-size: 12px; font-weight: bold; border-color: #ea580c; background: #ffffff;" />
           </div>
 
           <!-- DNI -->
           <div class="form-group" style="margin-bottom: 0;">
             <label class="form-label" style="font-size: 11px; font-weight: 700; margin-bottom: 2px; color: #9a3412;">
-              DNI (8 dÃ­gitos):
+              DNI (8 dígitos):
             </label>
             <input type="text" class="form-control parent-student-dni" placeholder="74891230" value="${currentDni}" style="font-size: 12px; font-weight: bold;" maxlength="8" />
           </div>
@@ -11122,12 +11122,12 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Credenciales Autogeneradas del Estudiante para la Intranet -->
         <div style="display: flex; justify-content: space-between; align-items: center; background: #ecfdf5; padding: 6px 12px; border-radius: 6px; border: 1px dashed #a7f3d0; flex-wrap: wrap; gap: 8px;">
           <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: #065f46; font-weight: 700;">
-            <span>ðŸ”‘ Acceso Intranet:</span>
+            <span>🔑 Acceso Intranet:</span>
             <span>Usuario: <strong class="student-user-preview" style="background: #ffffff; padding: 2px 8px; border-radius: 4px; border: 1px solid #6ee7b7; font-family: monospace; color: #047857;">@${initialUser}</strong></span>
-            <span>ContraseÃ±a: <strong style="background: #ffffff; padding: 2px 8px; border-radius: 4px; border: 1px solid #6ee7b7; color: #047857;">estudiante2026</strong></span>
+            <span>Contraseña: <strong style="background: #ffffff; padding: 2px 8px; border-radius: 4px; border: 1px solid #6ee7b7; color: #047857;">estudiante2026</strong></span>
           </div>
           <span style="font-size: 11px; color: #047857; font-weight: 800;">
-            âœ“ Perfil de estudiante se crearÃ¡ automÃ¡ticamente
+            ✓ Perfil de estudiante se creará automáticamente
           </span>
         </div>
       </div>
@@ -11152,22 +11152,22 @@ CREATE TABLE tb_cuadernos_qr (
     }
   }
 
-  renderParentStudentsLinkerHTML(prefix = "new-parent", initialStudents = [{ name: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }]) {
-    const list = (initialStudents && initialStudents.length > 0) ? initialStudents : [{ name: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }];
+  renderParentStudentsLinkerHTML(prefix = "new-parent", initialStudents = [{ name: "Sofía Méndez Flores", grade: "4° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }]) {
+    const list = (initialStudents && initialStudents.length > 0) ? initialStudents : [{ name: "Sofía Méndez Flores", grade: "4° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }];
     
     return `
       <div style="background: #fff7ed; border: 1px solid #ffedd5; border-radius: 8px; padding: 12px; margin-top: 6px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 6px;">
           <div>
             <div style="font-size: 12px; font-weight: 800; color: #9a3412;">
-              ðŸŽ’ Registro y CreaciÃ³n de Perfiles de Estudiantes a Cargo (MÃ­nimo 1, MÃ¡ximo 9):
+              🎒 Registro y Creación de Perfiles de Estudiantes a Cargo (Mínimo 1, Máximo 9):
             </div>
             <div style="font-size: 11px; color: #c2410c;">
-              * Ingrese los datos de cada hijo o familiar. El sistema generarÃ¡ automÃ¡ticamente sus cuentas de Estudiante con su usuario y contraseÃ±a para ingresar a la Intranet.
+              * Ingrese los datos de cada hijo o familiar. El sistema generará automáticamente sus cuentas de Estudiante con su usuario y contraseña para ingresar a la Intranet.
             </div>
           </div>
           <span class="status-badge" style="background: #ffedd5; color: #9a3412; font-weight: 800; font-size: 11px;" id="${prefix}-counter-badge">
-            ðŸŽ’ <span id="${prefix}-count-val">${list.length}</span> / 9 Estudiantes a Crear
+            🎒 <span id="${prefix}-count-val">${list.length}</span> / 9 Estudiantes a Crear
           </span>
         </div>
 
@@ -11177,10 +11177,10 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; padding-top: 8px; border-top: 1px dashed #fed7aa; flex-wrap: wrap; gap: 8px;">
           <span style="font-size: 11px; color: #7c2d12;">
-            â„¹ï¸ Puede registrar hasta 9 estudiantes por apoderado con creaciÃ³n instantÃ¡nea de sus credenciales escolares.
+            ℹ️ Puede registrar hasta 9 estudiantes por apoderado con creación instantánea de sus credenciales escolares.
           </span>
           <button type="button" class="btn btn-navy btn-sm" onclick="window.app.addParentStudentRow('${prefix}')" style="font-size: 11px; font-weight: 800; padding: 4px 12px;">
-            âž• + Agregar y Crear Otro Estudiante (Hasta 9)
+            ➕ + Agregar y Crear Otro Estudiante (Hasta 9)
           </button>
         </div>
       </div>
@@ -11192,17 +11192,17 @@ CREATE TABLE tb_cuadernos_qr (
     if (!container) return;
     const currentRows = container.querySelectorAll(".parent-student-row");
     if (currentRows.length >= 9) {
-      this.showToast("âš ï¸ LÃ­mite alcanzado: Un apoderado puede tener como mÃ¡ximo 9 estudiantes registrados.", "warning");
+      this.showToast("⚠️ Límite alcanzado: Un apoderado puede tener como máximo 9 estudiantes registrados.", "warning");
       return;
     }
     const newIdx = currentRows.length;
     const rowId = `${prefix}-row-${Date.now()}`;
-    const rowHTML = this.getSingleParentStudentRowHTML(prefix, rowId, newIdx, { name: "", grade: "1Â° de Secundaria", relationship: "Hijo/Hija", dni: "" });
+    const rowHTML = this.getSingleParentStudentRowHTML(prefix, rowId, newIdx, { name: "", grade: "1° de Secundaria", relationship: "Hijo/Hija", dni: "" });
     const temp = document.createElement("div");
     temp.innerHTML = rowHTML;
     container.appendChild(temp.firstElementChild);
     this.updateParentStudentsCounter(prefix);
-    this.showToast(`Estudiante #${newIdx + 1} aÃ±adido para registro (Total: ${newIdx + 1}/9)`, "info");
+    this.showToast(`Estudiante #${newIdx + 1} añadido para registro (Total: ${newIdx + 1}/9)`, "info");
   }
 
   removeParentStudentRow(prefix, rowId) {
@@ -11210,7 +11210,7 @@ CREATE TABLE tb_cuadernos_qr (
     if (!container) return;
     const currentRows = container.querySelectorAll(".parent-student-row");
     if (currentRows.length <= 1) {
-      this.showToast("âš ï¸ Requerido: El perfil de apoderado debe tener como mÃ­nimo 1 estudiante registrado.", "warning");
+      this.showToast("⚠️ Requerido: El perfil de apoderado debe tener como mínimo 1 estudiante registrado.", "warning");
       return;
     }
     const rowElem = document.getElementById(rowId);
@@ -11230,7 +11230,7 @@ CREATE TABLE tb_cuadernos_qr (
     // Re-index titles
     currentRows.forEach((r, i) => {
       const headerSpan = r.querySelector("span");
-      if (headerSpan) headerSpan.innerText = `ðŸŽ“ Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
+      if (headerSpan) headerSpan.innerText = `🎓 Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
     });
   }
 
@@ -11238,44 +11238,44 @@ CREATE TABLE tb_cuadernos_qr (
     if (role === "Docente") {
       return `
         <div style="font-size: 12px; font-weight: 800; color: #1e3a8a; margin-bottom: 8px;">
-          ðŸ“š Carga PedagÃ³gica, Asignaturas Curriculares y Horas Semanales:
+          📚 Carga Pedagógica, Asignaturas Curriculares y Horas Semanales:
         </div>
         
-        ${this.renderCoursesChecklistHTML("new-user-courses", ["AritmÃ©tica", "Ãlgebra"])}
+        ${this.renderCoursesChecklistHTML("new-user-courses", ["Aritmética", "Álgebra"])}
 
         <div class="form-group" style="margin-bottom: 8px;">
           <label class="form-label" style="font-size: 11.5px; font-weight: 700; color: #1e3a8a;">Carga Horaria Semanal:</label>
           <select id="new-user-hours" class="form-control" style="font-size: 12px; font-weight: bold; width: 100%;">
             <option value="30 hrs (Tiempo Completo)">30 hrs (Tiempo Completo)</option>
-            <option value="24 hrs (Jornada EstÃ¡ndar)" selected>24 hrs (Jornada EstÃ¡ndar)</option>
+            <option value="24 hrs (Jornada Estándar)" selected>24 hrs (Jornada Estándar)</option>
             <option value="18 hrs (Tiempo Parcial)">18 hrs (Tiempo Parcial)</option>
             <option value="12 hrs (Por Horas)">12 hrs (Por Horas)</option>
           </select>
         </div>
 
-        ${this.renderGradesChecklistHTML("new-user-grades", ["1Â° de Secundaria", "2Â° de Secundaria", "3Â° de Secundaria", "4Â° de Secundaria", "5Â° de Secundaria"])}
+        ${this.renderGradesChecklistHTML("new-user-grades", ["1° de Secundaria", "2° de Secundaria", "3° de Secundaria", "4° de Secundaria", "5° de Secundaria"])}
       `;
     } else if (role === "Estudiante") {
       return `
-        <div style="font-size: 12px; font-weight: 800; color: #065f46; margin-bottom: 8px;">ðŸŽ’ Datos Escolares del Alumno:</div>
+        <div style="font-size: 12px; font-weight: 800; color: #065f46; margin-bottom: 8px;">🎒 Datos Escolares del Alumno:</div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
           <div class="form-group" style="margin-bottom: 6px;">
             <label class="form-label" style="font-size: 11.5px;">Grado / Nivel:</label>
             <select id="new-user-grade-select" class="form-control">
-              <option value="Inicial 3 aÃ±os">Inicial 3 aÃ±os</option>
-              <option value="Inicial 4 aÃ±os">Inicial 4 aÃ±os</option>
-              <option value="Inicial 5 aÃ±os">Inicial 5 aÃ±os</option>
-              <option value="1Â° de Primaria">1Â° de Primaria</option>
-              <option value="2Â° de Primaria">2Â° de Primaria</option>
-              <option value="3Â° de Primaria">3Â° de Primaria</option>
-              <option value="4Â° de Primaria">4Â° de Primaria</option>
-              <option value="5Â° de Primaria">5Â° de Primaria</option>
-              <option value="6Â° de Primaria">6Â° de Primaria</option>
-              <option value="1Â° de Secundaria">1Â° de Secundaria</option>
-              <option value="2Â° de Secundaria">2Â° de Secundaria</option>
-              <option value="3Â° de Secundaria">3Â° de Secundaria</option>
-              <option value="4Â° de Secundaria" selected>4Â° de Secundaria</option>
-              <option value="5Â° de Secundaria">5Â° de Secundaria</option>
+              <option value="Inicial 3 años">Inicial 3 años</option>
+              <option value="Inicial 4 años">Inicial 4 años</option>
+              <option value="Inicial 5 años">Inicial 5 años</option>
+              <option value="1° de Primaria">1° de Primaria</option>
+              <option value="2° de Primaria">2° de Primaria</option>
+              <option value="3° de Primaria">3° de Primaria</option>
+              <option value="4° de Primaria">4° de Primaria</option>
+              <option value="5° de Primaria">5° de Primaria</option>
+              <option value="6° de Primaria">6° de Primaria</option>
+              <option value="1° de Secundaria">1° de Secundaria</option>
+              <option value="2° de Secundaria">2° de Secundaria</option>
+              <option value="3° de Secundaria">3° de Secundaria</option>
+              <option value="4° de Secundaria" selected>4° de Secundaria</option>
+              <option value="5° de Secundaria">5° de Secundaria</option>
             </select>
           </div>
           <div class="form-group" style="margin-bottom: 6px;">
@@ -11285,52 +11285,52 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-size: 11.5px;">Apoderado Responsable:</label>
-          <input type="text" id="new-user-guardian" class="form-control" placeholder="Ej: Dra. Carmen MÃ©ndez" />
+          <input type="text" id="new-user-guardian" class="form-control" placeholder="Ej: Dra. Carmen Méndez" />
         </div>
       `;
     } else if (role === "Apoderado") {
       return `
-        <div style="font-size: 12px; font-weight: 800; color: #92400e; margin-bottom: 6px;">ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ Datos de Contacto y Familia:</div>
+        <div style="font-size: 12px; font-weight: 800; color: #92400e; margin-bottom: 6px;">👨‍👩‍👧 Datos de Contacto y Familia:</div>
         <div class="form-group" style="margin-bottom: 6px;">
-          <label class="form-label" style="font-size: 11.5px; font-weight: 700;">TelÃ©fono / Celular de Contacto (9 dÃ­gitos):</label>
+          <label class="form-label" style="font-size: 11.5px; font-weight: 700;">Teléfono / Celular de Contacto (9 dígitos):</label>
           <input type="text" id="new-user-phone" class="form-control" placeholder="987-654-321" value="987-654-321" />
         </div>
         
-        ${this.renderParentStudentsLinkerHTML("new-parent", [{ name: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }])}
+        ${this.renderParentStudentsLinkerHTML("new-parent", [{ name: "Sofía Méndez Flores", grade: "4° de Secundaria", relationship: "Hijo/Hija", dni: "74891230" }])}
       `;
     } else if (role === "Auxiliar") {
       return `
         <div style="font-size: 12px; font-weight: 800; color: #0f766e; margin-bottom: 8px;">
-          ðŸ‘® AsignaciÃ³n de Turno & Zonas de SupervisiÃ³n:
+          👮 Asignación de Turno & Zonas de Supervisión:
         </div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
           <div class="form-group" style="margin-bottom: 6px;">
             <label class="form-label" style="font-size: 11.5px;">Turno Asignado:</label>
             <select id="new-user-shift" class="form-control" style="font-size: 12px;">
-              <option value="Turno MaÃ±ana (07:00 AM - 02:30 PM)" selected>Turno MaÃ±ana (07:00 AM - 02:30 PM)</option>
+              <option value="Turno Mañana (07:00 AM - 02:30 PM)" selected>Turno Mañana (07:00 AM - 02:30 PM)</option>
               <option value="Turno Tarde (12:30 PM - 07:00 PM)">Turno Tarde (12:30 PM - 07:00 PM)</option>
               <option value="Jornada Completa">Jornada Completa</option>
             </select>
           </div>
           <div class="form-group" style="margin-bottom: 6px;">
             <label class="form-label" style="font-size: 11.5px;">Zona / Puerta Principal:</label>
-            <input type="text" id="new-user-zone" class="form-control" value="PorterÃ­a Puerta 1 & PabellÃ³n Secundaria" />
+            <input type="text" id="new-user-zone" class="form-control" value="Portería Puerta 1 & Pabellón Secundaria" />
           </div>
         </div>
         <div style="font-size: 11px; color: #047857; background: #ecfdf5; padding: 6px 10px; border-radius: 6px; border: 1px solid #a7f3d0; margin-top: 4px;">
-          âœ“ Este perfil tendrÃ¡ acceso <strong>exclusivo</strong> al EscÃ¡ner QR de PorterÃ­a, Generador de Planchas QR, Parte Diario 08:30 AM y Lector de Cuadernos QR.
+          ✓ Este perfil tendrá acceso <strong>exclusivo</strong> al Escáner QR de Portería, Generador de Planchas QR, Parte Diario 08:30 AM y Lector de Cuadernos QR.
         </div>
       `;
     } else {
       return `
-        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">ðŸ›¡ï¸ Cargo Institucional & Despacho:</div>
+        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">🛡️ Cargo Institucional & Despacho:</div>
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-size: 11.5px;">Cargo o Dependencia:</label>
           <select id="new-user-directivo-pos" class="form-control">
-            <option value="DirecciÃ³n General">DirecciÃ³n General</option>
-            <option value="CoordinaciÃ³n General & DocumentaciÃ³n">CoordinaciÃ³n General & DocumentaciÃ³n</option>
-            <option value="SecretarÃ­a General & MatrÃ­culas">SecretarÃ­a General & MatrÃ­culas</option>
-            <option value="TesorerÃ­a & Finanzas">TesorerÃ­a & Finanzas</option>
+            <option value="Dirección General">Dirección General</option>
+            <option value="Coordinación General & Documentación">Coordinación General & Documentación</option>
+            <option value="Secretaría General & Matrículas">Secretaría General & Matrículas</option>
+            <option value="Tesorería & Finanzas">Tesorería & Finanzas</option>
           </select>
         </div>
       `;
@@ -11390,15 +11390,15 @@ CREATE TABLE tb_cuadernos_qr (
 
     if (role === "Docente") {
       const checkedCourses = Array.from(document.querySelectorAll("input[name='new-user-courses-check']:checked")).map(cb => cb.value);
-      assignedCourses = checkedCourses.length > 0 ? checkedCourses : ["AritmÃ©tica"];
+      assignedCourses = checkedCourses.length > 0 ? checkedCourses : ["Aritmética"];
       subject = assignedCourses.join(", ");
 
       weeklyHours = document.getElementById("new-user-hours") ? document.getElementById("new-user-hours").value.trim() : "24 hrs";
       const checkedBoxes = Array.from(document.querySelectorAll("input[name='new-user-grades-check']:checked")).map(cb => cb.value);
       assignedGrades = checkedBoxes.length > 0 ? checkedBoxes : ["4to de Secundaria"];
       
-      const coursesSummary = assignedCourses.length <= 2 ? assignedCourses.join(', ') : `${assignedCourses.slice(0, 2).join(', ')} (+${assignedCourses.length - 2} mÃ¡s)`;
-      detail = `${coursesSummary} â€¢ ${assignedGrades.length} grados / ${weeklyHours}`;
+      const coursesSummary = assignedCourses.length <= 2 ? assignedCourses.join(', ') : `${assignedCourses.slice(0, 2).join(', ')} (+${assignedCourses.length - 2} más)`;
+      detail = `${coursesSummary} • ${assignedGrades.length} grados / ${weeklyHours}`;
     } else if (role === "Estudiante") {
       const gSel = document.getElementById("new-user-grade-select");
       detail = gSel ? gSel.value : "4to de Secundaria";
@@ -11415,12 +11415,12 @@ CREATE TABLE tb_cuadernos_qr (
         const dniInp = r.querySelector(".parent-student-dni");
 
         const stName = nameInp ? nameInp.value.trim() : "";
-        const stGrade = gradeSel ? gradeSel.value : "4Â° de Secundaria";
+        const stGrade = gradeSel ? gradeSel.value : "4° de Secundaria";
         const stRel = relSel ? relSel.value : "Hijo/Hija";
         const stDni = dniInp ? dniInp.value.trim() : "";
 
         if (!stName) {
-          this.showToast("âš ï¸ Debe ingresar el nombre completo de todos los estudiantes a registrar.", "danger");
+          this.showToast("⚠️ Debe ingresar el nombre completo de todos los estudiantes a registrar.", "danger");
           return;
         }
 
@@ -11431,7 +11431,7 @@ CREATE TABLE tb_cuadernos_qr (
         const stEmail = `${stUsername}@eleducador.edu.pe`;
         const stPass = "estudiante2026";
 
-        // Determinar tutor segÃºn nivel
+        // Determinar tutor según nivel
         let defaultTutor = "Prof. Roberto Silva";
         if (stGrade.includes("Primaria")) defaultTutor = "Miss Julisa Arroyo";
         if (stGrade.includes("Inicial")) defaultTutor = "Miss Maritza";
@@ -11470,11 +11470,11 @@ CREATE TABLE tb_cuadernos_qr (
       }
 
       if (linkedStudents.length < 1) {
-        this.showToast("âš ï¸ Debe registrar como mÃ­nimo 1 estudiante para el perfil de apoderado.", "danger");
+        this.showToast("⚠️ Debe registrar como mínimo 1 estudiante para el perfil de apoderado.", "danger");
         return;
       }
       if (linkedStudents.length > 9) {
-        this.showToast("âš ï¸ Un apoderado puede tener como mÃ¡ximo 9 estudiantes vinculados.", "danger");
+        this.showToast("⚠️ Un apoderado puede tener como máximo 9 estudiantes vinculados.", "danger");
         return;
       }
 
@@ -11483,7 +11483,7 @@ CREATE TABLE tb_cuadernos_qr (
       detail = `Apoderado de ${linkedStudents.length} estudiante(s): ${linkedStudents.map(s => `${s.name} (${s.grade} - ${s.relationship})`).join(', ')}`;
     } else {
       const posSel = document.getElementById("new-user-directivo-pos");
-      detail = posSel ? posSel.value : "CoordinaciÃ³n General";
+      detail = posSel ? posSel.value : "Coordinación General";
     }
 
     const created = this.store.createSystemUser({
@@ -11512,24 +11512,24 @@ CREATE TABLE tb_cuadernos_qr (
     if (role === "Apoderado") {
       this.showModal(`
         <div class="modal-header" style="background: #065f46; color: #ffffff;">
-          <h3 style="color: #ffffff;">ðŸŽ‰ Â¡Cuentas Creadas Exitosamente!</h3>
-          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+          <h3 style="color: #ffffff;">🎉 ¡Cuentas Creadas Exitosamente!</h3>
+          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
         </div>
         <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
           <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 12px; margin-bottom: 14px;">
             <div style="font-weight: 800; color: #1e3a8a; font-size: 13px; margin-bottom: 4px;">
-              ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ Cuenta del Apoderado Registrada:
+              👨‍👩‍👧 Cuenta del Apoderado Registrada:
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px;">
               <div><strong>Nombre:</strong> ${name}</div>
-              <div><strong>TelÃ©fono:</strong> ${phone || '987-654-321'}</div>
+              <div><strong>Teléfono:</strong> ${phone || '987-654-321'}</div>
               <div><strong>Usuario (@):</strong> <code>@${created.username}</code></div>
-              <div><strong>ContraseÃ±a:</strong> <code>${created.password}</code></div>
+              <div><strong>Contraseña:</strong> <code>${created.password}</code></div>
             </div>
           </div>
 
           <div style="font-weight: 800; color: #065f46; font-size: 13px; margin-bottom: 8px;">
-            ðŸŽ’ ${createdStudentsList.length} Perfil(es) de Estudiante Creado(s) con Acceso a Intranet:
+            🎒 ${createdStudentsList.length} Perfil(es) de Estudiante Creado(s) con Acceso a Intranet:
           </div>
 
           <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -11542,7 +11542,7 @@ CREATE TABLE tb_cuadernos_qr (
                 <div style="display: flex; gap: 12px; font-size: 11.5px; color: #1f2937; flex-wrap: wrap;">
                   <span>DNI: <strong>${st.dni || 'N/A'}</strong></span>
                   <span>Usuario: <strong style="color: #047857;">@${st.username}</strong></span>
-                  <span>ContraseÃ±a: <strong>${st.password}</strong></span>
+                  <span>Contraseña: <strong>${st.password}</strong></span>
                 </div>
               </div>
             `).join('')}
@@ -11550,14 +11550,14 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
         <div class="modal-footer">
           <button class="btn btn-navy" onclick="window.app.closeModal()" style="font-weight: 800; width: 100%;">
-            âœ“ Entendido y Guardado en Base de Datos
+            ✓ Entendido y Guardado en Base de Datos
           </button>
         </div>
       `);
     } else if (role === "Docente") {
-      this.showToast(`âœ“ Docente "${name}" registrado con ${assignedCourses.length} curso(s) y ${assignedGrades.length} grado(s) asignados`, "success");
+      this.showToast(`✓ Docente "${name}" registrado con ${assignedCourses.length} curso(s) y ${assignedGrades.length} grado(s) asignados`, "success");
     } else {
-      this.showToast(`âœ“ Usuario "${name}" (${role}) registrado con Ã©xito`, "success");
+      this.showToast(`✓ Usuario "${name}" (${role}) registrado con éxito`, "success");
     }
   }
 
@@ -11568,12 +11568,12 @@ CREATE TABLE tb_cuadernos_qr (
     const isDocente = user.role === 'Docente' || user.role === 'Profesor';
     const isApoderado = user.role === 'Apoderado' || user.role === 'Padre';
 
-    const existingCourses = user.assignedCourses || user.courses || (user.subject ? user.subject.split(/,\s*/) : ["AritmÃ©tica"]);
+    const existingCourses = user.assignedCourses || user.courses || (user.subject ? user.subject.split(/,\s*/) : ["Aritmética"]);
 
     this.showModal(`
       <div class="modal-header">
-        <h3>âœï¸ Editar Usuario: ${user.name}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>✏️ Editar Usuario: ${user.name}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-3);">
@@ -11584,10 +11584,10 @@ CREATE TABLE tb_cuadernos_qr (
           <div class="form-group">
             <label class="form-label">Rol / Perfil:</label>
             <select id="edit-user-role" class="form-control">
-              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>ðŸ›¡ï¸ Directivo</option>
-              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>ðŸ‘¨â€ðŸ« Docente</option>
-              <option value="Estudiante" ${user.role === 'Estudiante' ? 'selected' : ''}>ðŸŽ’ Estudiante</option>
-              <option value="Apoderado" ${user.role === 'Apoderado' ? 'selected' : ''}>ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ Apoderado</option>
+              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>🛡️ Directivo</option>
+              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>👨‍🏫 Docente</option>
+              <option value="Estudiante" ${user.role === 'Estudiante' ? 'selected' : ''}>🎒 Estudiante</option>
+              <option value="Apoderado" ${user.role === 'Apoderado' ? 'selected' : ''}>👨‍👩‍👧 Apoderado</option>
             </select>
           </div>
         </div>
@@ -11605,7 +11605,7 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3);">
           <div class="form-group">
-            <label class="form-label">ContraseÃ±a de Acceso:</label>
+            <label class="form-label">Contraseña de Acceso:</label>
             <input type="text" id="edit-user-pass" class="form-control" value="${user.password || 'educador2026'}" />
           </div>
           <div class="form-group">
@@ -11617,34 +11617,34 @@ CREATE TABLE tb_cuadernos_qr (
         ${isDocente ? `
           <div class="form-group" style="background: #eff6ff; border: 1px solid #bfdbfe; padding: 10px; border-radius: 8px;">
             ${this.renderCoursesChecklistHTML("edit-user-courses", existingCourses)}
-            ${this.renderGradesChecklistHTML("edit-user-grades", user.assignedGrades || ["1Â° de Secundaria", "2Â° de Secundaria", "3Â° de Secundaria", "4Â° de Secundaria", "5Â° de Secundaria"])}
+            ${this.renderGradesChecklistHTML("edit-user-grades", user.assignedGrades || ["1° de Secundaria", "2° de Secundaria", "3° de Secundaria", "4° de Secundaria", "5° de Secundaria"])}
           </div>
         ` : ''}
 
         ${isApoderado ? `
           <div class="form-group" style="margin-bottom: 6px;">
-            <label class="form-label" style="font-size: 11.5px; font-weight: 700;">TelÃ©fono / Celular de Contacto:</label>
+            <label class="form-label" style="font-size: 11.5px; font-weight: 700;">Teléfono / Celular de Contacto:</label>
             <input type="text" id="edit-user-phone" class="form-control" value="${user.phone || '987-654-321'}" />
           </div>
-          ${this.renderParentStudentsLinkerHTML("edit-parent", user.linkedStudents || (user.studentName ? [{ name: user.studentName, grade: "4Â° de Secundaria", relationship: "Hijo/Hija" }] : [{ name: "SofÃ­a MÃ©ndez Flores", grade: "4Â° de Secundaria", relationship: "Hijo/Hija" }]))}
+          ${this.renderParentStudentsLinkerHTML("edit-parent", user.linkedStudents || (user.studentName ? [{ name: user.studentName, grade: "4° de Secundaria", relationship: "Hijo/Hija" }] : [{ name: "Sofía Méndez Flores", grade: "4° de Secundaria", relationship: "Hijo/Hija" }]))}
         ` : ''}
 
         <div class="form-group">
-          <label class="form-label">Detalle Adicional / AsignaciÃ³n:</label>
+          <label class="form-label">Detalle Adicional / Asignación:</label>
           <input type="text" id="edit-user-detail" class="form-control" value="${user.detail || ''}" />
         </div>
 
         <div class="form-group">
           <label style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: var(--color-navy-900); cursor: pointer; background: var(--color-yellow-50); padding: 10px; border: 1px dashed var(--color-yellow-500); border-radius: 8px;">
             <input type="checkbox" id="edit-user-has-admin" ${user.hasAdminPrivilege ? 'checked' : ''} />
-            <span>â­ Conceder Privilegios de Administrador (EdiciÃ³n de Horarios, SÃ­labus, Notas)</span>
+            <span>⭐ Conceder Privilegios de Administrador (Edición de Horarios, Sílabus, Notas)</span>
           </label>
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmUpdateUser('${user.id}')" style="font-weight: 800;">
-          âœ“ Guardar Cambios en Servidor
+          ✓ Guardar Cambios en Servidor
         </button>
       </div>
     `);
@@ -11666,14 +11666,14 @@ CREATE TABLE tb_cuadernos_qr (
 
     if (role === "Docente" || role === "Profesor") {
       const checkedCourses = Array.from(document.querySelectorAll("input[name='edit-user-courses-check']:checked")).map(cb => cb.value);
-      assignedCourses = checkedCourses.length > 0 ? checkedCourses : ["AritmÃ©tica"];
+      assignedCourses = checkedCourses.length > 0 ? checkedCourses : ["Aritmética"];
       subject = assignedCourses.join(", ");
 
       const checkedBoxes = Array.from(document.querySelectorAll("input[name='edit-user-grades-check']:checked")).map(cb => cb.value);
       assignedGrades = checkedBoxes.length > 0 ? checkedBoxes : undefined;
 
-      const coursesSummary = assignedCourses.length <= 2 ? assignedCourses.join(', ') : `${assignedCourses.slice(0, 2).join(', ')} (+${assignedCourses.length - 2} mÃ¡s)`;
-      detail = `${coursesSummary} â€¢ ${assignedGrades ? assignedGrades.length : 1} grados`;
+      const coursesSummary = assignedCourses.length <= 2 ? assignedCourses.join(', ') : `${assignedCourses.slice(0, 2).join(', ')} (+${assignedCourses.length - 2} más)`;
+      detail = `${coursesSummary} • ${assignedGrades ? assignedGrades.length : 1} grados`;
     }
 
     let phone = undefined;
@@ -11691,7 +11691,7 @@ CREATE TABLE tb_cuadernos_qr (
         const dniInp = r.querySelector(".parent-student-dni");
 
         const stName = nameInp ? nameInp.value.trim() : "";
-        const stGrade = gradeSel ? gradeSel.value : "4Â° de Secundaria";
+        const stGrade = gradeSel ? gradeSel.value : "4° de Secundaria";
         const stRel = relSel ? relSel.value : "Hijo/Hija";
         const stDni = dniInp ? dniInp.value.trim() : "";
 
@@ -11736,11 +11736,11 @@ CREATE TABLE tb_cuadernos_qr (
       }
 
       if (linkedStudents.length < 1) {
-        this.showToast("âš ï¸ Debe registrar como mÃ­nimo 1 estudiante para el apoderado.", "danger");
+        this.showToast("⚠️ Debe registrar como mínimo 1 estudiante para el apoderado.", "danger");
         return;
       }
       if (linkedStudents.length > 9) {
-        this.showToast("âš ï¸ El mÃ¡ximo permitido es de 9 estudiantes por apoderado.", "danger");
+        this.showToast("⚠️ El máximo permitido es de 9 estudiantes por apoderado.", "danger");
         return;
       }
 
@@ -11751,7 +11751,7 @@ CREATE TABLE tb_cuadernos_qr (
     }
 
     if (!name) {
-      this.showToast("El nombre no puede estar vacÃ­o", "danger");
+      this.showToast("El nombre no puede estar vacío", "danger");
       return;
     }
 
@@ -11774,50 +11774,50 @@ CREATE TABLE tb_cuadernos_qr (
     });
 
     this.closeModal();
-    this.showToast(`âœ“ Datos del usuario "${name}" actualizados con Ã©xito`, "success");
+    this.showToast(`✓ Datos del usuario "${name}" actualizados con éxito`, "success");
   }
 
   toggleTeacherAdminPrivilege(userId) {
     const res = this.store.toggleTeacherAdminPrivilege(userId);
     if (res !== null) {
-      this.showToast(res ? "â­ Privilegios de EdiciÃ³n CONCEDIDOS" : "Privilegios revocados", res ? "success" : "info");
+      this.showToast(res ? "⭐ Privilegios de Edición CONCEDIDOS" : "Privilegios revocados", res ? "success" : "info");
     }
   }
 
   confirmDeleteUser(userId) {
     const user = (this.store.state.systemUsers || []).find(u => u.id === userId);
     const name = user ? user.name : "este usuario";
-    if (confirm(`Â¿EstÃ¡ seguro de eliminar a ${name} de la base de datos?`)) {
+    if (confirm(`¿Está seguro de eliminar a ${name} de la base de datos?`)) {
       this.store.deleteSystemUser(userId);
       this.showToast(`Usuario "${name}" eliminado de la base de datos`, "info");
     }
   }
 
   // =========================================================================
-  // GESTIÃ“N INTEGRAL DE MATRÃCULAS, FICHA ÃšNICA (FUM), SALUD Y DOCUMENTOS
+  // GESTIÓN INTEGRAL DE MATRÍCULAS, FICHA ÚNICA (FUM), SALUD Y DOCUMENTOS
   // =========================================================================
 
   openCreateEnrollmentModal() {
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“ Nueva MatrÃ­cula & Ficha Ãšnica de MatrÃ­cula (FUM 2026)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📝 Nueva Matrícula & Ficha Única de Matrícula (FUM 2026)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         
-        <!-- PestaÃ±as del Formulario FUM -->
+        <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="fum-tab-btn-1" onclick="window.app.switchFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            ðŸŽ“ 1. Datos del Alumno & SIAGIE
+            🎓 1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="fum-tab-btn-2" onclick="window.app.switchFUMTab('2')" style="font-weight: 800; font-size: 11px;">
-            ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ 2. Apoderado & Emergencia
+            👨‍👩‍👧 2. Apoderado & Emergencia
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="fum-tab-btn-3" onclick="window.app.switchFUMTab('3')" style="font-weight: 800; font-size: 11px;">
-            ðŸ©º 3. Ficha MÃ©dica & Salud
+            🩺 3. Ficha Médica & Salud
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="fum-tab-btn-4" onclick="window.app.switchFUMTab('4')" style="font-weight: 800; font-size: 11px;">
-            ðŸ“Ž 4. Documentos Digitales
+            📎 4. Documentos Digitales
           </button>
         </div>
 
@@ -11826,17 +11826,17 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Nombres y Apellidos Completos:</label>
-              <input type="text" id="new-matr-name" class="form-control" placeholder="Ej: JoaquÃ­n Urbizagasti HuamÃ¡n" />
+              <input type="text" id="new-matr-name" class="form-control" placeholder="Ej: Joaquín Urbizagasti Huamán" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DNI (8 dÃ­gitos):</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DNI (8 dígitos):</label>
               <input type="text" id="new-matr-dni" class="form-control" placeholder="78912345" maxlength="8" />
             </div>
           </div>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">CÃ³digo SIAGIE:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Código SIAGIE:</label>
               <input type="text" id="new-matr-siagie" class="form-control" placeholder="2026-78912345" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
@@ -11857,30 +11857,30 @@ CREATE TABLE tb_cuadernos_qr (
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Nivel & Grado a Matricular:</label>
               <select id="new-matr-grade" class="form-control" style="font-weight: bold; border-color: #3b82f6;">
                 <optgroup label="Secundaria">
-                  <option value="1Â° de Secundaria">1Â° de Secundaria</option>
-                  <option value="2Â° de Secundaria">2Â° de Secundaria</option>
-                  <option value="3Â° de Secundaria">3Â° de Secundaria</option>
-                  <option value="4Â° de Secundaria" selected>4Â° de Secundaria</option>
-                  <option value="5Â° de Secundaria">5Â° de Secundaria</option>
+                  <option value="1° de Secundaria">1° de Secundaria</option>
+                  <option value="2° de Secundaria">2° de Secundaria</option>
+                  <option value="3° de Secundaria">3° de Secundaria</option>
+                  <option value="4° de Secundaria" selected>4° de Secundaria</option>
+                  <option value="5° de Secundaria">5° de Secundaria</option>
                 </optgroup>
                 <optgroup label="Primaria">
-                  <option value="1Â° de Primaria">1Â° de Primaria</option>
-                  <option value="2Â° de Primaria">2Â° de Primaria</option>
-                  <option value="3Â° de Primaria">3Â° de Primaria</option>
-                  <option value="4Â° de Primaria">4Â° de Primaria</option>
-                  <option value="5Â° de Primaria">5Â° de Primaria</option>
-                  <option value="6Â° de Primaria">6Â° de Primaria</option>
+                  <option value="1° de Primaria">1° de Primaria</option>
+                  <option value="2° de Primaria">2° de Primaria</option>
+                  <option value="3° de Primaria">3° de Primaria</option>
+                  <option value="4° de Primaria">4° de Primaria</option>
+                  <option value="5° de Primaria">5° de Primaria</option>
+                  <option value="6° de Primaria">6° de Primaria</option>
                 </optgroup>
                 <optgroup label="Inicial">
-                  <option value="Inicial 3 aÃ±os">Inicial 3 aÃ±os</option>
-                  <option value="Inicial 4 aÃ±os">Inicial 4 aÃ±os</option>
-                  <option value="Inicial 5 aÃ±os">Inicial 5 aÃ±os</option>
+                  <option value="Inicial 3 años">Inicial 3 años</option>
+                  <option value="Inicial 4 años">Inicial 4 años</option>
+                  <option value="Inicial 5 años">Inicial 5 años</option>
                 </optgroup>
               </select>
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DirecciÃ³n de Residencia:</label>
-              <input type="text" id="new-matr-address" class="form-control" placeholder="Av. Los TusÃ­lagos 450, S.J.L." value="San Juan de Lurigancho, Lima" />
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Dirección de Residencia:</label>
+              <input type="text" id="new-matr-address" class="form-control" placeholder="Av. Los Tusílagos 450, S.J.L." value="San Juan de Lurigancho, Lima" />
             </div>
           </div>
         </div>
@@ -11890,7 +11890,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Apoderado / Tutor Legal:</label>
-              <input type="text" id="new-matr-guardian" class="form-control" placeholder="Ej: Dra. Carmen MÃ©ndez" />
+              <input type="text" id="new-matr-guardian" class="form-control" placeholder="Ej: Dra. Carmen Méndez" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DNI del Apoderado:</label>
@@ -11900,29 +11900,29 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">TelÃ©fono Celular / WhatsApp:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Teléfono Celular / WhatsApp:</label>
               <input type="text" id="new-matr-guardianphone" class="form-control" placeholder="987-654-321" value="987-654-321" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Correo ElectrÃ³nico:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Correo Electrónico:</label>
               <input type="email" id="new-matr-guardianemail" class="form-control" placeholder="apoderado@gmail.com" />
             </div>
           </div>
 
           <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 10px;">
-            <div style="font-size: 11.5px; font-weight: 800; color: #92400e; margin-bottom: 6px;">ðŸ“ž Contacto Secundario de Emergencia:</div>
+            <div style="font-size: 11.5px; font-weight: 800; color: #92400e; margin-bottom: 6px;">📞 Contacto Secundario de Emergencia:</div>
             <div style="display: grid; grid-template-columns: 2fr 1.2fr; gap: 10px;">
-              <input type="text" id="new-matr-emergencycontact" class="form-control" placeholder="Familiar de contacto (ej: TÃ­o/Abuela)" value="Familiar de Emergencia" style="font-size: 11.5px;" />
+              <input type="text" id="new-matr-emergencycontact" class="form-control" placeholder="Familiar de contacto (ej: Tío/Abuela)" value="Familiar de Emergencia" style="font-size: 11.5px;" />
               <input type="text" id="new-matr-emergencyphone" class="form-control" placeholder="981-555-444" value="981-555-444" style="font-size: 11.5px;" />
             </div>
           </div>
         </div>
 
-        <!-- TAB 3: FICHA MÃ‰DICA Y SALUD -->
+        <!-- TAB 3: FICHA MÉDICA Y SALUD -->
         <div id="fum-tab-content-3" class="fum-tab-pane" style="display: none;">
           <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Grupo SanguÃ­neo & Factor:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Grupo Sanguíneo & Factor:</label>
               <select id="new-matr-blood" class="form-control" style="font-weight: bold;">
                 <option value="O+">O Positivo (O+)</option>
                 <option value="O-">O Negativo (O-)</option>
@@ -11939,8 +11939,8 @@ CREATE TABLE tb_cuadernos_qr (
               <select id="new-matr-insurance" class="form-control">
                 <option value="EsSalud (Activo)">EsSalud (Activo)</option>
                 <option value="SIS Escolar (MINSA)">SIS Escolar (MINSA)</option>
-                <option value="Seguro Particular (RÃ­mac / PacÃ­fico / Mapfre)">Seguro Particular (RÃ­mac / PacÃ­fico / Mapfre)</option>
-                <option value="Sin Seguro / En TrÃ¡mite">Sin Seguro / En TrÃ¡mite</option>
+                <option value="Seguro Particular (Rímac / Pacífico / Mapfre)">Seguro Particular (Rímac / Pacífico / Mapfre)</option>
+                <option value="Sin Seguro / En Trámite">Sin Seguro / En Trámite</option>
               </select>
             </div>
           </div>
@@ -11951,45 +11951,45 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <div class="form-group" style="margin-bottom: 0;">
-            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">CondiciÃ³n MÃ©dica / Apto para EducaciÃ³n FÃ­sica:</label>
-            <input type="text" id="new-matr-medical" class="form-control" placeholder="Ej: Apto para educaciÃ³n fÃ­sica y deportes / Asma leve controlada" value="Apto para actividad fÃ­sica y talleres" />
+            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Condición Médica / Apto para Educación Física:</label>
+            <input type="text" id="new-matr-medical" class="form-control" placeholder="Ej: Apto para educación física y deportes / Asma leve controlada" value="Apto para actividad física y talleres" />
           </div>
         </div>
 
         <!-- TAB 4: REQUISITOS Y DOCUMENTOS DIGITALES -->
         <div id="fum-tab-content-4" class="fum-tab-pane" style="display: none;">
           <div style="font-size: 12px; font-weight: 800; color: #1e3a8a; margin-bottom: 8px;">
-            ðŸ“Ž Checklist de Requisitos Documentarios (UGEL 05 - MINEDU):
+            📎 Checklist de Requisitos Documentarios (UGEL 05 - MINEDU):
           </div>
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Copia de DNI del Estudiante</span>
               <input type="checkbox" id="chk-doc-dnistudent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="chk-doc-dniparent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
               <input type="checkbox" id="chk-doc-birthcert" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Ficha Ãšnica de MatrÃ­cula SIAGIE (Traslado / Continuidad)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Ficha Única de Matrícula SIAGIE (Traslado / Continuidad)</span>
               <input type="checkbox" id="chk-doc-siagiefum" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Certificado de Estudios / Libreta de Notas 2025</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Certificado de Estudios / Libreta de Notas 2025</span>
               <input type="checkbox" id="chk-doc-reportcard" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">ðŸ“„ Cartilla de VacunaciÃ³n Completa (Nivel Inicial/Primaria)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Cartilla de Vacunación Completa (Nivel Inicial/Primaria)</span>
               <input type="checkbox" id="chk-doc-vaccine" checked style="transform: scale(1.2);" />
             </label>
           </div>
@@ -11999,7 +11999,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmCreateEnrollment()" style="font-weight: 800; padding: 8px 20px;">
-          âœ“ Guardar MatrÃ­cula & Generar Ficha FUM
+          ✓ Guardar Matrícula & Generar Ficha FUM
         </button>
       </div>
     `);
@@ -12047,7 +12047,7 @@ CREATE TABLE tb_cuadernos_qr (
     };
 
     if (!studentName) {
-      this.showToast("âš ï¸ Ingrese el nombre completo del estudiante", "danger");
+      this.showToast("⚠️ Ingrese el nombre completo del estudiante", "danger");
       return;
     }
 
@@ -12075,28 +12075,28 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.closeModal();
     this.render();
-    this.showToast(`âœ“ Estudiante "${studentName}" matriculado y CÃ³digo QR generado.`, "success");
+    this.showToast(`✓ Estudiante "${studentName}" matriculado y Código QR generado.`, "success");
 
-    // Desplegar modal inmediato con el CÃ³digo QR Generado
+    // Desplegar modal inmediato con el Código QR Generado
     setTimeout(() => {
       this.showModal(`
         <div class="modal-header" style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white;">
           <div>
             <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-              ðŸŽ‰ Â¡Estudiante Matriculado & CÃ³digo QR Generado AutomÃ¡ticamente!
+              🎉 ¡Estudiante Matriculado & Código QR Generado Automáticamente!
             </h3>
-            <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" â€¢ AÃ±o Lectivo 2026</span>
+            <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" • Año Lectivo 2026</span>
           </div>
-          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
         </div>
 
         <div class="modal-body" style="padding: 20px; text-align: center; background: #f8fafc;">
           
           <div style="background: #ecfdf5; border: 1px solid #a7f3d0; padding: 8px 12px; border-radius: 6px; margin-bottom: 14px; font-size: 12px; color: #065f46; font-weight: bold;">
-            âœ“ El cÃ³digo QR oficial ha sido generado y vinculado al sistema de asistencia en puerta e informes.
+            ✓ El código QR oficial ha sido generado y vinculado al sistema de asistencia en puerta e informes.
           </div>
 
-          <!-- Tarjeta Oficial de CÃ³digo QR Escolar (Sin Foto) -->
+          <!-- Tarjeta Oficial de Código QR Escolar (Sin Foto) -->
           <div style="max-width: 300px; margin: 0 auto; background: #ffffff; border: 3px solid #1e3a8a; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
             <div style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white; padding: 10px; border-bottom: 3px solid #f59e0b;">
               <div style="display: flex; align-items: center; justify-content: center; gap: 6px;">
@@ -12120,7 +12120,7 @@ CREATE TABLE tb_cuadernos_qr (
                 ${created.grade}
               </div>
               <div style="font-size: 10.5px; color: #475569; background: #f1f5f9; padding: 3px 8px; border-radius: 4px; display: inline-block;">
-                <strong>CÃ“D:</strong> <code>${created.studentCode}</code> â€¢ <strong>DNI:</strong> <code>${created.dni}</code>
+                <strong>CÓD:</strong> <code>${created.studentCode}</code> • <strong>DNI:</strong> <code>${created.dni}</code>
               </div>
             </div>
           </div>
@@ -12131,13 +12131,13 @@ CREATE TABLE tb_cuadernos_qr (
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
           <div style="display: flex; gap: 6px;">
             <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-              ðŸ–¨ï¸ Imprimir Tarjeta QR
+              🖨️ Imprimir Tarjeta QR
             </button>
             <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${created.id}')" style="font-size: 11px;">
-              ðŸ“„ Ver Ficha FUM A4
+              📄 Ver Ficha FUM A4
             </button>
             <button class="btn btn-gold btn-sm" onclick="window.app.closeModal(); window.app.navigate('attendance'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800;">
-              ðŸ–¨ï¸ Ir a Plancha de QR
+              🖨️ Ir a Plancha de QR
             </button>
           </div>
         </div>
@@ -12154,24 +12154,24 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">âœï¸ Expediente FUM & Ficha MÃ©dica: ${m.studentName}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">✏️ Expediente FUM & Ficha Médica: ${m.studentName}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         
-        <!-- PestaÃ±as del Formulario FUM -->
+        <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="edit-fum-tab-btn-1" onclick="window.app.switchEditFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            ðŸŽ“ 1. Datos del Alumno & SIAGIE
+            🎓 1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="edit-fum-tab-btn-2" onclick="window.app.switchEditFUMTab('2')" style="font-weight: 800; font-size: 11px;">
-            ðŸ‘¨â€ðŸ‘©â€ðŸ‘§ 2. Apoderado & Emergencia
+            👨‍👩‍👧 2. Apoderado & Emergencia
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="edit-fum-tab-btn-3" onclick="window.app.switchEditFUMTab('3')" style="font-weight: 800; font-size: 11px;">
-            ðŸ©º 3. Ficha MÃ©dica & Salud
+            🩺 3. Ficha Médica & Salud
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="edit-fum-tab-btn-4" onclick="window.app.switchEditFUMTab('4')" style="font-weight: 800; font-size: 11px;">
-            ðŸ“Ž 4. Documentos Digitales
+            📎 4. Documentos Digitales
           </button>
         </div>
 
@@ -12190,7 +12190,7 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">CÃ³digo SIAGIE:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Código SIAGIE:</label>
               <input type="text" id="edit-matr-siagie" class="form-control" value="${m.siagieCode || m.dni || ''}" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
@@ -12212,7 +12212,7 @@ CREATE TABLE tb_cuadernos_qr (
               <input type="text" id="edit-matr-grade" class="form-control" value="${m.grade}" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DirecciÃ³n:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Dirección:</label>
               <input type="text" id="edit-matr-address" class="form-control" value="${m.address || 'San Juan de Lurigancho'}" />
             </div>
           </div>
@@ -12233,7 +12233,7 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">TelÃ©fono Celular:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Teléfono Celular:</label>
               <input type="text" id="edit-matr-guardianphone" class="form-control" value="${m.guardianPhone || '987-654-321'}" />
             </div>
             <div class="form-group" style="margin-bottom: 0;">
@@ -12243,10 +12243,10 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 10px;">
-            <div style="font-size: 11.5px; font-weight: 800; color: #92400e; margin-bottom: 6px;">ðŸ“ž Contacto Secundario de Emergencia:</div>
+            <div style="font-size: 11.5px; font-weight: 800; color: #92400e; margin-bottom: 6px;">📞 Contacto Secundario de Emergencia:</div>
             <div style="display: grid; grid-template-columns: 2fr 1.2fr; gap: 10px;">
               <input type="text" id="edit-matr-emergencycontact" class="form-control" value="${m.emergencyContact || ''}" placeholder="Nombre de familiar" />
-              <input type="text" id="edit-matr-emergencyphone" class="form-control" value="${m.emergencyPhone || ''}" placeholder="TelÃ©fono" />
+              <input type="text" id="edit-matr-emergencyphone" class="form-control" value="${m.emergencyPhone || ''}" placeholder="Teléfono" />
             </div>
           </div>
         </div>
@@ -12255,7 +12255,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div id="edit-fum-tab-content-3" class="fum-tab-pane" style="display: none;">
           <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 10px; margin-bottom: 10px;">
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Grupo SanguÃ­neo:</label>
+              <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Grupo Sanguíneo:</label>
               <select id="edit-matr-blood" class="form-control" style="font-weight: bold;">
                 <option value="O+" ${m.bloodType === 'O+' ? 'selected' : ''}>O Positivo (O+)</option>
                 <option value="O-" ${m.bloodType === 'O-' ? 'selected' : ''}>O Negativo (O-)</option>
@@ -12279,45 +12279,45 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <div class="form-group" style="margin-bottom: 0;">
-            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">CondiciÃ³n MÃ©dica / Actividad FÃ­sica:</label>
-            <input type="text" id="edit-matr-medical" class="form-control" value="${m.medicalCondition || 'Apto para actividad fÃ­sica'}" />
+            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Condición Médica / Actividad Física:</label>
+            <input type="text" id="edit-matr-medical" class="form-control" value="${m.medicalCondition || 'Apto para actividad física'}" />
           </div>
         </div>
 
         <!-- TAB 4: DOCUMENTOS -->
         <div id="edit-fum-tab-content-4" class="fum-tab-pane" style="display: none;">
           <div style="font-size: 12px; font-weight: 800; color: #1e3a8a; margin-bottom: 8px;">
-            ðŸ“Ž Estado de Requisitos y DocumentaciÃ³n Sustentatoria:
+            📎 Estado de Requisitos y Documentación Sustentatoria:
           </div>
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Copia de DNI del Estudiante</span>
               <input type="checkbox" id="edit-chk-dnistudent" ${docs.dniStudent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="edit-chk-dniparent" ${docs.dniParent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Partida / Acta de Nacimiento</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Partida / Acta de Nacimiento</span>
               <input type="checkbox" id="edit-chk-birthcert" ${docs.birthCertificate ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Ficha Ãšnica de MatrÃ­cula SIAGIE</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Ficha Única de Matrícula SIAGIE</span>
               <input type="checkbox" id="edit-chk-siagiefum" ${docs.siagieFUM ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Certificado de Estudios / Libreta de Notas</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Certificado de Estudios / Libreta de Notas</span>
               <input type="checkbox" id="edit-chk-reportcard" ${docs.reportCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">ðŸ“„ Cartilla de VacunaciÃ³n</span>
+              <span style="font-size: 12px; font-weight: 700;">📄 Cartilla de Vacunación</span>
               <input type="checkbox" id="edit-chk-vaccine" ${docs.vaccinationCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
           </div>
@@ -12327,7 +12327,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmUpdateEnrollmentFUM('${m.id}')" style="font-weight: 800; padding: 8px 20px;">
-          âœ“ Guardar Cambios en FUM
+          ✓ Guardar Cambios en FUM
         </button>
       </div>
     `);
@@ -12397,7 +12397,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.closeModal();
     this.render();
-    this.showToast(`âœ“ Ficha FUM de "${studentName}" actualizada exitosamente.`, "success");
+    this.showToast(`✓ Ficha FUM de "${studentName}" actualizada exitosamente.`, "success");
   }
 
   showOfficialFUMPrintModal(enrollmentId) {
@@ -12409,8 +12409,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“„ Ficha Ãšnica de MatrÃ­cula Oficial (F.U.M. 2026)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📄 Ficha Única de Matrícula Oficial (F.U.M. 2026)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: #ffffff;">
         
@@ -12419,47 +12419,47 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: flex; align-items: center; gap: 12px;">
             <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain;" />
             <div>
-              <div style="font-size: 11px; font-weight: 900; color: #1e3a8a; text-transform: uppercase;">REPÃšBLICA DEL PERÃš â€¢ MINISTERIO DE EDUCACIÃ“N</div>
-              <div style="font-size: 10px; color: #64748b;">DRELM â€¢ UGEL 05 SAN JUAN DE LURIGANCHO</div>
+              <div style="font-size: 11px; font-weight: 900; color: #1e3a8a; text-transform: uppercase;">REPÚBLICA DEL PERÚ • MINISTERIO DE EDUCACIÓN</div>
+              <div style="font-size: 10px; color: #64748b;">DRELM • UGEL 05 SAN JUAN DE LURIGANCHO</div>
               <h2 style="font-size: 17px; font-weight: 900; margin: 2px 0; color: #0b132b;">I.E.P. "EL EDUCADOR"</h2>
-              <div style="font-size: 10.5px; color: #b45309; font-weight: 700;">"21 aÃ±os dejando huellas en la formaciÃ³n de lÃ­deres"</div>
+              <div style="font-size: 10.5px; color: #b45309; font-weight: 700;">"21 años dejando huellas en la formación de líderes"</div>
             </div>
           </div>
           <div style="text-align: right; border-left: 2px solid #e2e8f0; padding-left: 12px;">
-            <div style="font-size: 10px; font-weight: 800; color: #475569;">CÃ“DIGO MODULAR:</div>
+            <div style="font-size: 10px; font-weight: 800; color: #475569;">CÓDIGO MODULAR:</div>
             <div style="font-size: 10px;">Inicial: <strong>0614826</strong></div>
             <div style="font-size: 10px;">Primaria: <strong>0614834</strong></div>
             <div style="font-size: 10px;">Secundaria: <strong>0729483</strong></div>
-            <div style="font-size: 11px; font-weight: 900; color: #1e40af; margin-top: 2px;">AÃ‘O LECTIVO 2026</div>
+            <div style="font-size: 11px; font-weight: 900; color: #1e40af; margin-top: 2px;">AÑO LECTIVO 2026</div>
           </div>
         </div>
 
         <div style="text-align: center; margin-bottom: 16px;">
           <h3 style="font-size: 15px; font-weight: 900; color: #0b132b; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">
-            FICHA ÃšNICA DE MATRÃCULA - F.U.M. NÂ° ${m.studentCode}
+            FICHA ÚNICA DE MATRÍCULA - F.U.M. N° ${m.studentCode}
           </h3>
           <span style="font-size: 11px; color: #047857; font-weight: 800; background: #d1fae5; padding: 2px 10px; border-radius: 10px; border: 1px solid #a7f3d0; display: inline-block; margin-top: 4px;">
-            âœ“ ESTADO: MATRICULADO OFICIALMENTE EN SIAGIE
+            ✓ ESTADO: MATRICULADO OFICIALMENTE EN SIAGIE
           </span>
         </div>
 
-        <!-- SECCIÃ“N I: DATOS DEL ESTUDIANTE -->
+        <!-- SECCIÓN I: DATOS DEL ESTUDIANTE -->
         <div style="border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 12px; overflow: hidden;">
           <div style="background: #f1f5f9; padding: 6px 12px; font-size: 11.5px; font-weight: 900; color: #1e3a8a; border-bottom: 1px solid #cbd5e1;">
-            I. DATOS DE IDENTIFICACIÃ“N DEL ESTUDIANTE
+            I. DATOS DE IDENTIFICACIÓN DEL ESTUDIANTE
           </div>
           <div style="padding: 10px 12px; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; font-size: 12px;">
             <div><strong>Apellidos y Nombres:</strong> <br><span style="font-size: 13px; color: #0b132b; font-weight: bold;">${m.studentName}</span></div>
             <div><strong>DNI:</strong> <br><span>${m.dni}</span></div>
-            <div><strong>CÃ³d. SIAGIE:</strong> <br><span style="font-family: monospace; font-weight: bold; color: #1e40af;">${m.siagieCode || m.dni}</span></div>
+            <div><strong>Cód. SIAGIE:</strong> <br><span style="font-family: monospace; font-weight: bold; color: #1e40af;">${m.siagieCode || m.dni}</span></div>
             <div><strong>Grado y Nivel:</strong> <br><span style="font-weight: bold;">${m.grade}</span> (${m.level || 'Secundaria'})</div>
             <div><strong>Fecha de Nacimiento:</strong> <br><span>${m.birthDate || '14/05/2010'}</span></div>
             <div><strong>Sexo:</strong> <br><span>${m.gender || 'Femenino'}</span></div>
-            <div style="grid-column: span 3;"><strong>Domicilio Actual:</strong> <br><span>${m.address || 'Av. PrÃ³ceres de la Independencia 1420, San Juan de Lurigancho, Lima'}</span></div>
+            <div style="grid-column: span 3;"><strong>Domicilio Actual:</strong> <br><span>${m.address || 'Av. Próceres de la Independencia 1420, San Juan de Lurigancho, Lima'}</span></div>
           </div>
         </div>
 
-        <!-- SECCIÃ“N II: DATOS DEL APODERADO -->
+        <!-- SECCIÓN II: DATOS DEL APODERADO -->
         <div style="border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 12px; overflow: hidden;">
           <div style="background: #f1f5f9; padding: 6px 12px; font-size: 11.5px; font-weight: 900; color: #1e3a8a; border-bottom: 1px solid #cbd5e1;">
             II. DATOS DEL PADRE, MADRE O APODERADO LEGAL
@@ -12467,45 +12467,45 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="padding: 10px 12px; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; font-size: 12px;">
             <div><strong>Nombre del Apoderado:</strong> <br><span style="font-weight: bold;">${m.guardian}</span></div>
             <div><strong>DNI Apoderado:</strong> <br><span>${m.guardianDni || '41982301'}</span></div>
-            <div><strong>TelÃ©fono / Celular:</strong> <br><span>${m.guardianPhone || '987-654-321'}</span></div>
-            <div style="grid-column: span 2;"><strong>Correo ElectrÃ³nico:</strong> <br><span>${m.guardianEmail || 'apoderado@eleducador.edu.pe'}</span></div>
-            <div><strong>Fecha de MatrÃ­cula:</strong> <br><span>${m.enrollmentDate || '15/02/2026'}</span></div>
+            <div><strong>Teléfono / Celular:</strong> <br><span>${m.guardianPhone || '987-654-321'}</span></div>
+            <div style="grid-column: span 2;"><strong>Correo Electrónico:</strong> <br><span>${m.guardianEmail || 'apoderado@eleducador.edu.pe'}</span></div>
+            <div><strong>Fecha de Matrícula:</strong> <br><span>${m.enrollmentDate || '15/02/2026'}</span></div>
           </div>
         </div>
 
-        <!-- SECCIÃ“N III: FICHA MÃ‰DICA Y SALUD -->
+        <!-- SECCIÓN III: FICHA MÉDICA Y SALUD -->
         <div style="border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 12px; overflow: hidden;">
           <div style="background: #f1f5f9; padding: 6px 12px; font-size: 11.5px; font-weight: 900; color: #1e3a8a; border-bottom: 1px solid #cbd5e1;">
-            III. ANTECEDENTES MÃ‰DICOS Y ATENCIÃ“N DE SALUD ESCOLAR
+            III. ANTECEDENTES MÉDICOS Y ATENCIÓN DE SALUD ESCOLAR
           </div>
           <div style="padding: 10px 12px; display: grid; grid-template-columns: 1fr 1.5fr 1.5fr; gap: 8px; font-size: 12px;">
-            <div><strong>Grupo SanguÃ­neo:</strong> <br><span style="font-weight: 900; color: #dc2626; font-size: 13px;">ðŸ©¸ ${m.bloodType || 'O+'}</span></div>
-            <div><strong>Seguro de Salud:</strong> <br><span>ðŸ¥ ${m.insurance || 'EsSalud / SIS'}</span></div>
-            <div><strong>Alergias Conocidas:</strong> <br><span style="color: #b45309; font-weight: bold;">âš ï¸ ${m.allergies || 'Ninguna'}</span></div>
-            <div style="grid-column: span 2;"><strong>CondiciÃ³n MÃ©dica / EducaciÃ³n FÃ­sica:</strong> <br><span>${m.medicalCondition || 'Apto para toda actividad fÃ­sica escolar'}</span></div>
-            <div><strong>TelÃ©fono de Emergencia:</strong> <br><span style="font-weight: bold; color: #047857;">ðŸ“ž ${m.emergencyPhone || m.guardianPhone || '987-654-321'}</span></div>
+            <div><strong>Grupo Sanguíneo:</strong> <br><span style="font-weight: 900; color: #dc2626; font-size: 13px;">🩸 ${m.bloodType || 'O+'}</span></div>
+            <div><strong>Seguro de Salud:</strong> <br><span>🏥 ${m.insurance || 'EsSalud / SIS'}</span></div>
+            <div><strong>Alergias Conocidas:</strong> <br><span style="color: #b45309; font-weight: bold;">⚠️ ${m.allergies || 'Ninguna'}</span></div>
+            <div style="grid-column: span 2;"><strong>Condición Médica / Educación Física:</strong> <br><span>${m.medicalCondition || 'Apto para toda actividad física escolar'}</span></div>
+            <div><strong>Teléfono de Emergencia:</strong> <br><span style="font-weight: bold; color: #047857;">📞 ${m.emergencyPhone || m.guardianPhone || '987-654-321'}</span></div>
           </div>
         </div>
 
-        <!-- SECCIÃ“N IV: REQUISITOS Y DOCUMENTOS VERIFICADOS -->
+        <!-- SECCIÓN IV: REQUISITOS Y DOCUMENTOS VERIFICADOS -->
         <div style="border: 1px solid #cbd5e1; border-radius: 6px; margin-bottom: 16px; overflow: hidden;">
           <div style="background: #f1f5f9; padding: 6px 12px; font-size: 11.5px; font-weight: 900; color: #1e3a8a; border-bottom: 1px solid #cbd5e1;">
-            IV. DOCUMENTACIÃ“N SUSTENTATORIA VERIFICADA POR SECRETARÃA
+            IV. DOCUMENTACIÓN SUSTENTATORIA VERIFICADA POR SECRETARÍA
           </div>
           <div style="padding: 10px 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 11.5px;">
-            <div>${docs.dniStudent ? 'â˜‘ï¸' : 'â¬œ'} Copia de DNI del Estudiante</div>
-            <div>${docs.dniParent ? 'â˜‘ï¸' : 'â¬œ'} Copia de DNI del Apoderado</div>
-            <div>${docs.birthCertificate ? 'â˜‘ï¸' : 'â¬œ'} Partida de Nacimiento</div>
-            <div>${docs.siagieFUM ? 'â˜‘ï¸' : 'â¬œ'} Ficha Ãšnica de MatrÃ­cula SIAGIE</div>
-            <div>${docs.reportCard ? 'â˜‘ï¸' : 'â¬œ'} Certificado de Estudios / Libreta 2025</div>
-            <div>${docs.vaccinationCard ? 'â˜‘ï¸' : 'â¬œ'} Cartilla de VacunaciÃ³n</div>
+            <div>${docs.dniStudent ? '☑️' : '⬜'} Copia de DNI del Estudiante</div>
+            <div>${docs.dniParent ? '☑️' : '⬜'} Copia de DNI del Apoderado</div>
+            <div>${docs.birthCertificate ? '☑️' : '⬜'} Partida de Nacimiento</div>
+            <div>${docs.siagieFUM ? '☑️' : '⬜'} Ficha Única de Matrícula SIAGIE</div>
+            <div>${docs.reportCard ? '☑️' : '⬜'} Certificado de Estudios / Libreta 2025</div>
+            <div>${docs.vaccinationCard ? '☑️' : '⬜'} Cartilla de Vacunación</div>
           </div>
         </div>
 
-        <!-- SECCIÃ“N V: COMPROMISO Y FIRMAS -->
+        <!-- SECCIÓN V: COMPROMISO Y FIRMAS -->
         <div style="margin-top: 24px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
           <p style="font-size: 10.5px; color: #475569; text-align: justify; line-height: 1.4; margin-bottom: 28px;">
-            <strong>DECLARACIÃ“N JURADA Y COMPROMISO:</strong> El padre de familia o apoderado declara bajo juramento que los datos consignados en la presente Ficha Ãšnica de MatrÃ­cula son fidedignos y se compromete a respetar el Reglamento Interno y apoyar el proceso formativo de su menor hijo(a) durante el AÃ±o Lectivo 2026.
+            <strong>DECLARACIÓN JURADA Y COMPROMISO:</strong> El padre de familia o apoderado declara bajo juramento que los datos consignados en la presente Ficha Única de Matrícula son fidedignos y se compromete a respetar el Reglamento Interno y apoyar el proceso formativo de su menor hijo(a) durante el Año Lectivo 2026.
           </p>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; text-align: center;">
@@ -12518,8 +12518,8 @@ CREATE TABLE tb_cuadernos_qr (
             <div>
               <div style="border-top: 1px solid #000000; width: 80%; margin: 0 auto 4px;"></div>
               <div style="font-size: 11px; font-weight: bold;">Lic. Manuel Cornejo / Prof. Alex Lino</div>
-              <div style="font-size: 10px; color: #64748b;">DirecciÃ³n General & SecretarÃ­a AcadÃ©mica</div>
-              <div style="font-size: 9.5px; color: #64748b;">I.E.P. "El Educador" â€¢ UGEL 05</div>
+              <div style="font-size: 10px; color: #64748b;">Dirección General & Secretaría Académica</div>
+              <div style="font-size: 9.5px; color: #64748b;">I.E.P. "El Educador" • UGEL 05</div>
             </div>
           </div>
         </div>
@@ -12532,7 +12532,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 900; padding: 8px 24px;">
-          ðŸ–¨ï¸ Imprimir Ficha Ãšnica Oficial (A4)
+          🖨️ Imprimir Ficha Única Oficial (A4)
         </button>
       </div>
     `);
@@ -12545,22 +12545,22 @@ CREATE TABLE tb_cuadernos_qr (
 
     const docs = m.documents || {};
     const reqList = [
-      { key: 'dniStudent', label: 'Copia de DNI del Estudiante', icon: 'ðŸ†”', required: true },
-      { key: 'dniParent', label: 'Copia de DNI del Padre / Madre / Apoderado', icon: 'ðŸ‘¨â€ðŸ‘©â€ðŸ‘§', required: true },
-      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: 'ðŸ“„', required: true },
-      { key: 'siagieFUM', label: 'Ficha Ãšnica de MatrÃ­cula SIAGIE', icon: 'ðŸ«', required: true },
-      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: 'ðŸ“Š', required: false },
-      { key: 'vaccinationCard', label: 'Cartilla de VacunaciÃ³n Completa', icon: 'ðŸ’‰', required: false }
+      { key: 'dniStudent', label: 'Copia de DNI del Estudiante', icon: '🆔', required: true },
+      { key: 'dniParent', label: 'Copia de DNI del Padre / Madre / Apoderado', icon: '👨‍👩‍👧', required: true },
+      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: '📄', required: true },
+      { key: 'siagieFUM', label: 'Ficha Única de Matrícula SIAGIE', icon: '🏫', required: true },
+      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: '📊', required: false },
+      { key: 'vaccinationCard', label: 'Cartilla de Vacunación Completa', icon: '💉', required: false }
     ];
 
     this.showModal(`
       <div class="modal-header" style="background: #065f46; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“Ž Documentos Digitales & Requisitos: ${m.studentName}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📎 Documentos Digitales & Requisitos: ${m.studentName}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #ecfdf5; border: 1px solid #a7f3d0; padding: 10px 14px; border-radius: 6px; margin-bottom: 14px; font-size: 12px; color: #065f46;">
-          Expediente digital oficial de matrÃ­cula para <strong>${m.studentName}</strong> (${m.grade}). Marque los documentos recibidos o cargue copias digitales.
+          Expediente digital oficial de matrícula para <strong>${m.studentName}</strong> (${m.grade}). Marque los documentos recibidos o cargue copias digitales.
         </div>
 
         <div style="display: flex; flex-direction: column; gap: 10px;">
@@ -12575,16 +12575,16 @@ CREATE TABLE tb_cuadernos_qr (
                     ${req.required ? `<span style="font-size: 10px; color: #dc2626; font-weight: 800;">* Obligatorio</span>` : ''}
                   </div>
                   <span style="font-size: 11px; color: ${isDelivered ? '#047857' : '#b45309'}; font-weight: 700; margin-top: 2px; display: block;">
-                    ${isDelivered ? 'âœ“ Documento recibido y verificado' : 'â³ Pendiente de entrega por el apoderado'}
+                    ${isDelivered ? '✓ Documento recibido y verificado' : '⏳ Pendiente de entrega por el apoderado'}
                   </span>
                 </div>
 
                 <div style="display: flex; gap: 6px; align-items: center;">
                   <button class="btn btn-sm ${isDelivered ? 'btn-gold' : 'btn-outline'}" onclick="window.app.toggleDocumentItem('${m.id}', '${req.key}', ${!isDelivered})" style="font-size: 11px; font-weight: 800;">
-                    ${isDelivered ? 'âœ“ Marcado Conforme' : 'Marcar como Recibido'}
+                    ${isDelivered ? '✓ Marcado Conforme' : 'Marcar como Recibido'}
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.simulateUploadDocument('${m.id}', '${req.key}', '${req.label}')" style="font-size: 11px;">
-                    ðŸ“¤ Cargar Archivo
+                    📤 Cargar Archivo
                   </button>
                 </div>
               </div>
@@ -12620,7 +12620,7 @@ CREATE TABLE tb_cuadernos_qr (
         this.store.saveState();
       }
       this.openDocumentsChecklistModal(enrollmentId);
-      this.showToast(`âœ“ Documento digital "${docTitle}" cargado y verificado con Ã©xito.`, "success");
+      this.showToast(`✓ Documento digital "${docTitle}" cargado y verificado con éxito.`, "success");
     }, 400);
   }
 
@@ -12629,7 +12629,7 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // GESTIÃ“N Y EVENTOS DE ASISTENCIA BIOMÃ‰TRICA & QR EN PUERTA
+  // GESTIÓN Y EVENTOS DE ASISTENCIA BIOMÉTRICA & QR EN PUERTA
   // =========================================================================
 
   setAttendanceSubTab(subTab) {
@@ -12650,7 +12650,7 @@ CREATE TABLE tb_cuadernos_qr (
   setStudentAttendanceStatus(recordId, newStatus) {
     const updated = this.store.updateStudentAttendanceStatus(recordId, newStatus);
     if (updated) {
-      const icon = newStatus === 'Presente' ? 'ðŸŸ¢' : newStatus === 'Tardanza' ? 'ðŸŸ¡' : newStatus === 'Falta' ? 'ðŸ”´' : 'ðŸ”µ';
+      const icon = newStatus === 'Presente' ? '🟢' : newStatus === 'Tardanza' ? '🟡' : newStatus === 'Falta' ? '🔴' : '🔵';
       this.showToast(`${icon} ${updated.studentName} marcado como "${newStatus}"`, "info");
       this.render();
     }
@@ -12658,48 +12658,48 @@ CREATE TABLE tb_cuadernos_qr (
 
   markAllClassroomPresent(gradeId, date) {
     this.store.markAllStudentsPresent(gradeId, date);
-    this.showToast(`âœ“ Todos los estudiantes del aula marcados como "Presente a Tiempo"`, "success");
+    this.showToast(`✓ Todos los estudiantes del aula marcados como "Presente a Tiempo"`, "success");
     this.render();
   }
 
   openJustifyAttendanceModal(studentId, date = "19/08/2026") {
     const enrollments = this.store.getEnrollments();
-    const st = enrollments.find(e => e.id === studentId || e.studentCode === studentId) || { studentName: "SofÃ­a MÃ©ndez Flores" };
+    const st = enrollments.find(e => e.id === studentId || e.studentCode === studentId) || { studentName: "Sofía Méndez Flores" };
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“ JustificaciÃ³n de Inasistencia / Tardanza</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📝 Justificación de Inasistencia / Tardanza</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; margin-bottom: 12px; font-size: 12px;">
-          Estudiante: <strong>${st.studentName}</strong> â€¢ Fecha: <strong>${date}</strong>
+          Estudiante: <strong>${st.studentName}</strong> • Fecha: <strong>${date}</strong>
         </div>
 
         <div class="form-group">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Motivo de la Inasistencia:</label>
           <select id="just-reason-type" class="form-control" style="font-weight: bold; margin-bottom: 8px;">
-            <option value="Cita mÃ©dica pediÃ¡trica / Tratamiento de salud">Cita mÃ©dica / Tratamiento de salud</option>
-            <option value="Descanso mÃ©dico prescrito (Reposo)">Descanso mÃ©dico prescrito (Reposo)</option>
+            <option value="Cita médica pediátrica / Tratamiento de salud">Cita médica / Tratamiento de salud</option>
+            <option value="Descanso médico prescrito (Reposo)">Descanso médico prescrito (Reposo)</option>
             <option value="Emergencia o calamidad familiar">Emergencia o calamidad familiar</option>
-            <option value="RepresentaciÃ³n institucional / Deportiva / AcadÃ©mica">RepresentaciÃ³n institucional / AcadÃ©mica</option>
-            <option value="TrÃ¡mite legal documentario / RENIEC">TrÃ¡mite documentario / RENIEC</option>
+            <option value="Representación institucional / Deportiva / Académica">Representación institucional / Académica</option>
+            <option value="Trámite legal documentario / RENIEC">Trámite documentario / RENIEC</option>
           </select>
-          <textarea id="just-reason-detail" class="form-control" rows="3" placeholder="Detalle la justificaciÃ³n para conocimiento de CoordinaciÃ³n y TutorÃ­a..."></textarea>
+          <textarea id="just-reason-detail" class="form-control" rows="3" placeholder="Detalle la justificación para conocimiento de Coordinación y Tutoría..."></textarea>
         </div>
 
         <div class="form-group" style="margin-bottom: 0;">
-          <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Documento Sustentatorio (Constancia MÃ©dica / Receta):</label>
+          <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Documento Sustentatorio (Constancia Médica / Receta):</label>
           <div style="border: 2px dashed #cbd5e1; border-radius: 6px; padding: 12px; text-align: center; background: #f8fafc;">
-            <span style="font-size: 12px; color: #475569;">ðŸ“„ Constancia_Medica_Atencion_19082026.pdf</span>
-            <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 4px;">âœ“ Documento adjunto verificado</div>
+            <span style="font-size: 12px; color: #475569;">📄 Constancia_Medica_Atencion_19082026.pdf</span>
+            <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 4px;">✓ Documento adjunto verificado</div>
           </div>
         </div>
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmSubmitJustification('${studentId}', '${date}')" style="font-weight: 800;">
-          âœ“ Aprobar y Registrar JustificaciÃ³n
+          ✓ Aprobar y Registrar Justificación
         </button>
       </div>
     `);
@@ -12713,11 +12713,11 @@ CREATE TABLE tb_cuadernos_qr (
     this.store.submitAttendanceJustification(studentId, date, fullReason);
     this.closeModal();
     this.render();
-    this.showToast(`âœ“ Inasistencia justificada y registrada en el sistema.`, "success");
+    this.showToast(`✓ Inasistencia justificada y registrada en el sistema.`, "success");
   }
 
   // =========================================================================
-  // CONTROLADOR DE CÃMARA QR EN PORTERÃA
+  // CONTROLADOR DE CÁMARA QR EN PORTERÍA
   // =========================================================================
   startDoorCameraScanner() {
     const feedContainer = document.getElementById("qr-door-camera-feed");
@@ -12728,7 +12728,7 @@ CREATE TABLE tb_cuadernos_qr (
     if (!feedContainer) return;
 
     if (typeof Html5Qrcode === "undefined") {
-      this.showToast("Cargando motor de cÃ¡mara QR, intente en un momento...", "info");
+      this.showToast("Cargando motor de cámara QR, intente en un momento...", "info");
       return;
     }
 
@@ -12751,23 +12751,23 @@ CREATE TABLE tb_cuadernos_qr (
       ).then(() => {
         this.isDoorCamActive = true;
         if (statusTag) {
-          statusTag.textContent = "ðŸŸ¢ CÃMARA ACTIVA";
+          statusTag.textContent = "🟢 CÁMARA ACTIVA";
           statusTag.className = "status-badge status-approved";
         }
         if (btnStart) btnStart.style.display = "none";
         if (btnStop) btnStop.style.display = "inline-block";
-        this.showToast("ðŸ“· CÃ¡mara de porterÃ­a activa. Apunte los fotochecks QR al lente.", "info");
+        this.showToast("📷 Cámara de portería activa. Apunte los fotochecks QR al lente.", "info");
       }).catch((err) => {
-        console.error("Error al acceder a la cÃ¡mara:", err);
+        console.error("Error al acceder a la cámara:", err);
         if (statusTag) {
           statusTag.textContent = "Error / Permiso Denegado";
           statusTag.className = "status-badge status-failed";
         }
-        this.showToast("No se pudo iniciar la cÃ¡mara en este dispositivo. Use los botones de simulaciÃ³n rÃ¡pida.", "warning");
+        this.showToast("No se pudo iniciar la cámara en este dispositivo. Use los botones de simulación rápida.", "warning");
       });
     } catch (e) {
       console.error(e);
-      this.showToast("Error al inicializar cÃ¡mara de porterÃ­a", "danger");
+      this.showToast("Error al inicializar cámara de portería", "danger");
     }
   }
 
@@ -12781,7 +12781,7 @@ CREATE TABLE tb_cuadernos_qr (
         const feedContainer = document.getElementById("qr-door-camera-feed");
 
         if (statusTag) {
-          statusTag.textContent = "CÃ¡mara Apagada";
+          statusTag.textContent = "Cámara Apagada";
           statusTag.className = "status-badge status-pending";
         }
         if (btnStart) btnStart.style.display = "inline-block";
@@ -12789,9 +12789,9 @@ CREATE TABLE tb_cuadernos_qr (
         if (feedContainer) {
           feedContainer.innerHTML = `
             <div style="color: white; text-align: center;">
-              <div style="font-size: 48px; margin-bottom: 6px;">âš¡ðŸ“±</div>
+              <div style="font-size: 48px; margin-bottom: 6px;">⚡📱</div>
               <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
-              <div style="font-size: 10.5px; opacity: 0.8;">Presiona 'Encender CÃ¡mara' o usa simulaciÃ³n</div>
+              <div style="font-size: 10.5px; opacity: 0.8;">Presiona 'Encender Cámara' o usa simulación</div>
             </div>
           `;
         }
@@ -12807,7 +12807,7 @@ CREATE TABLE tb_cuadernos_qr (
     const display = document.getElementById("door-last-scan-display");
 
     if (result.isAlreadyEntered) {
-      // Estudiante ya ingresÃ³ -> Modo Incidencia Conductual / Acciones RÃ¡pidas
+      // Estudiante ya ingresó -> Modo Incidencia Conductual / Acciones Rápidas
       if (display && result.student) {
         const studentPhoto = result.student.avatar || (result.student.gender === 'Femenino' ? 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80' : 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80');
         display.innerHTML = `
@@ -12817,36 +12817,36 @@ CREATE TABLE tb_cuadernos_qr (
               <div style="text-align: left;">
                 <div style="font-size: 15px; font-weight: 900; color: #991b1b;">${result.student.studentName}</div>
                 <div style="font-size: 12px; font-weight: bold; color: #1e3a8a;">${result.student.grade}</div>
-                <div style="font-size: 10.5px; color: #64748b;">DNI: ${result.student.dni} â€¢ CÃ³digo: ${result.student.studentCode}</div>
-                <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 2px;">ðŸŸ¢ Ingreso registrado hoy a las ${result.previousScanTime}</div>
+                <div style="font-size: 10.5px; color: #64748b;">DNI: ${result.student.dni} • Código: ${result.student.studentCode}</div>
+                <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 2px;">🟢 Ingreso registrado hoy a las ${result.previousScanTime}</div>
               </div>
             </div>
 
             <div style="background: #fef2f2; border: 1px dashed #f87171; border-radius: 8px; padding: 10px; margin-bottom: 12px; font-size: 12px; color: #991b1b;">
-              âš ï¸ <strong>LECTURA QR POSTERIOR AL INGRESO:</strong> El estudiante ya se encuentra dentro del colegio. Seleccione la acciÃ³n correspondiente:
+              ⚠️ <strong>LECTURA QR POSTERIOR AL INGRESO:</strong> El estudiante ya se encuentra dentro del colegio. Seleccione la acción correspondiente:
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <button class="btn btn-red btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Grave')" style="font-weight: 900; font-size: 12px; padding: 8px 14px;">
-                ðŸš¨ Registrar Nuevo Informe de Incidencia Conductual
+                🚨 Registrar Nuevo Informe de Incidencia Conductual
               </button>
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
-                <button class="btn btn-gold btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'MÃ©rito')" style="font-weight: 800; font-size: 11px;">
-                  â­ Anotar MÃ©rito / Reconocimiento
+                <button class="btn btn-gold btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Mérito')" style="font-weight: 800; font-size: 11px;">
+                  ⭐ Anotar Mérito / Reconocimiento
                 </button>
                 <button class="btn btn-outline btn-sm" onclick="window.app.openStudentQRModal('${result.student.studentCode}')" style="font-size: 11px;">
-                  ðŸ‘¤ Ver Fotocheck QR
+                  👤 Ver Fotocheck QR
                 </button>
               </div>
             </div>
           </div>
         `;
       }
-      this.showToast(`ðŸš¨ QR Detectado: ${result.student.studentName} ya ingresÃ³ (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
+      this.showToast(`🚨 QR Detectado: ${result.student.studentName} ya ingresó (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
       return;
     }
 
-    // Primer Escaneo -> MarcaciÃ³n de Asistencia en Puerta
+    // Primer Escaneo -> Marcación de Asistencia en Puerta
     if (display && result && result.student) {
       const isLate = result.isLate;
       const isDoorClosed = result.isDoorClosed;
@@ -12859,21 +12859,21 @@ CREATE TABLE tb_cuadernos_qr (
             <div style="text-align: left;">
               <div style="font-size: 15px; font-weight: 900; color: #0b132b;">${result.student.studentName}</div>
               <div style="font-size: 12px; font-weight: bold; color: #1e3a8a;">${result.student.grade}</div>
-              <div style="font-size: 10.5px; color: #64748b;">DNI: ${result.student.dni} â€¢ CÃ³d: ${result.student.studentCode}</div>
+              <div style="font-size: 10.5px; color: #64748b;">DNI: ${result.student.dni} • Cód: ${result.student.studentCode}</div>
             </div>
           </div>
 
           <div style="display: inline-block; padding: 6px 14px; border-radius: 20px; font-size: 12.5px; font-weight: 900; background: ${isDoorClosed ? '#dc2626' : isLate ? '#f59e0b' : '#10b981'}; color: white; margin-bottom: 8px;">
-            ${isDoorClosed ? `â›” PUERTA CERRADA (08:30 AM) â€¢ FALTA REGISTRADA` : isLate ? `âš ï¸ TARDANZA EN PUERTA (+${result.delayMinutes} MIN)` : `âœ“ INGRESO PUNTUAL`} â€¢ ${result.scanTime}
+            ${isDoorClosed ? `⛔ PUERTA CERRADA (08:30 AM) • FALTA REGISTRADA` : isLate ? `⚠️ TARDANZA EN PUERTA (+${result.delayMinutes} MIN)` : `✓ INGRESO PUNTUAL`} • ${result.scanTime}
           </div>
 
           <div style="font-size: 11.5px; color: #475569;">
             ${isDoorClosed ? `
-              ðŸ”´ <strong>Corte de Asistencia Aplicado:</strong> Notificando inasistencia al apoderado ${result.guardianName} (${result.guardianPhone}).
+              🔴 <strong>Corte de Asistencia Aplicado:</strong> Notificando inasistencia al apoderado ${result.guardianName} (${result.guardianPhone}).
             ` : isLate ? `
-              ðŸ”” <strong>NotificaciÃ³n de Tardanza despachada:</strong> ${result.guardianName} (${result.guardianPhone})
+              🔔 <strong>Notificación de Tardanza despachada:</strong> ${result.guardianName} (${result.guardianPhone})
             ` : `
-              ðŸŒŸ <strong>Â¡Bienvenido(a) a clase!</strong> Que tengas una excelente jornada escolar.
+              🌟 <strong>¡Bienvenido(a) a clase!</strong> Que tengas una excelente jornada escolar.
             `}
           </div>
         </div>
@@ -12881,11 +12881,11 @@ CREATE TABLE tb_cuadernos_qr (
     }
 
     if (result.isDoorClosed) {
-      this.showToast(`â›” INASISTENCIA (Puerta Cerrada 08:30 AM): ${result.student.studentName} (${result.scanTime})`, "danger");
+      this.showToast(`⛔ INASISTENCIA (Puerta Cerrada 08:30 AM): ${result.student.studentName} (${result.scanTime})`, "danger");
     } else if (result.isLate) {
-      this.showToast(`âš ï¸ TARDANZA: ${result.student.studentName} ingresÃ³ a las ${result.scanTime} (+${result.delayMinutes} min)`, "warning");
+      this.showToast(`⚠️ TARDANZA: ${result.student.studentName} ingresó a las ${result.scanTime} (+${result.delayMinutes} min)`, "warning");
     } else {
-      this.showToast(`âœ“ INGRESO PUNTUAL: ${result.student.studentName} (${result.scanTime})`, "success");
+      this.showToast(`✓ INGRESO PUNTUAL: ${result.student.studentName} (${result.scanTime})`, "success");
     }
 
     if (!this.isDoorCamActive) {
@@ -12898,7 +12898,7 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // GENERADOR Y VISOR DE CÃ“DIGO QR INDIVIDUAL POR ESTUDIANTE (SIN FOTOS)
+  // GENERADOR Y VISOR DE CÓDIGO QR INDIVIDUAL POR ESTUDIANTE (SIN FOTOS)
   // =========================================================================
   openStudentQRModal(studentCode) {
     const enrollments = this.store.getEnrollments();
@@ -12908,16 +12908,16 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            ðŸ“± Tarjeta Oficial de Asistencia QR (Sin Foto)
+            📱 Tarjeta Oficial de Asistencia QR (Sin Foto)
           </h3>
-          <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" â€¢ AÃ±o Lectivo 2026</span>
+          <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" • Año Lectivo 2026</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
 
       <div class="modal-body" style="padding: 24px; text-align: center; background: #f8fafc;">
         
-        <!-- Tarjeta Oficial de CÃ³digo QR Escolar -->
+        <!-- Tarjeta Oficial de Código QR Escolar -->
         <div style="max-width: 320px; margin: 0 auto; background: #ffffff; border: 3px solid #1e3a8a; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.12);">
           
           <!-- Encabezado -->
@@ -12926,20 +12926,20 @@ CREATE TABLE tb_cuadernos_qr (
               <img src="assets/logo.png" alt="Escudo" style="width: 32px; height: 32px; object-fit: contain;" />
               <div style="text-align: center;">
                 <div style="font-size: 11px; font-weight: 900; letter-spacing: 0.05em; color: #fde047;">I.E.P. "EL EDUCADOR"</div>
-                <div style="font-size: 8.5px; opacity: 0.9;">CONTROL DE ASISTENCIA QR 2026 â€¢ UGEL 05</div>
+                <div style="font-size: 8.5px; opacity: 0.9;">CONTROL DE ASISTENCIA QR 2026 • UGEL 05</div>
               </div>
             </div>
           </div>
 
-          <!-- Cuerpo: CÃ³digo QR Grande + Nombres Completos + Grado (SIN FOTO) -->
+          <!-- Cuerpo: Código QR Grande + Nombres Completos + Grado (SIN FOTO) -->
           <div style="padding: 20px 16px;">
             
-            <!-- CÃ³digo QR Grande en Alta ResoluciÃ³n -->
+            <!-- Código QR Grande en Alta Resolución -->
             <div style="width: 175px; height: 175px; margin: 0 auto 14px; border: 3px solid #0b132b; border-radius: 10px; padding: 8px; background: white; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
               ${Components.generateQRSVG(st.studentCode)}
             </div>
 
-            <!-- Nombres y Apellidos Completos en MayÃºsculas y Negrita -->
+            <!-- Nombres y Apellidos Completos en Mayúsculas y Negrita -->
             <div style="font-size: 14.5px; font-weight: 900; color: #0b132b; text-transform: uppercase; line-height: 1.25; margin-bottom: 6px;">
               ${st.studentName}
             </div>
@@ -12949,19 +12949,19 @@ CREATE TABLE tb_cuadernos_qr (
               ${st.grade}
             </div>
 
-            <!-- CÃ³digo y DNI -->
+            <!-- Código y DNI -->
             <div style="font-size: 11px; color: #475569; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 4px; padding: 4px 10px; display: inline-block; margin-bottom: 12px;">
-              <strong>CÃ“D:</strong> <code>${st.studentCode}</code> â€¢ <strong>DNI:</strong> <code>${st.dni}</code>
+              <strong>CÓD:</strong> <code>${st.studentCode}</code> • <strong>DNI:</strong> <code>${st.dni}</code>
             </div>
 
             <div style="font-size: 10px; color: #64748b; line-height: 1.3;">
-              Presente este cÃ³digo QR en porterÃ­a (07:00 a 08:30 AM) para registrar asistencia o ante el auxiliar para incidencias conductuales.
+              Presente este código QR en portería (07:00 a 08:30 AM) para registrar asistencia o ante el auxiliar para incidencias conductuales.
             </div>
           </div>
 
           <!-- Pie de Tarjeta -->
           <div style="background: #0b132b; color: white; padding: 6px; font-size: 9px; letter-spacing: 0.05em; font-weight: bold;">
-            SAN JUAN DE LURIGANCHO â€¢ LIMA - PERÃš
+            SAN JUAN DE LURIGANCHO • LIMA - PERÚ
           </div>
         </div>
 
@@ -12971,13 +12971,13 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <div style="display: flex; gap: 6px;">
           <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-            ðŸ–¨ï¸ Imprimir Tarjeta / Sticker
+            🖨️ Imprimir Tarjeta / Sticker
           </button>
           <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-weight: 800;">
-            ðŸ“¥ Descargar QR
+            📥 Descargar QR
           </button>
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); window.app.openCreateIncidentModal('${st.studentCode}')" style="color: #dc2626; border-color: #fca5a5; font-weight: bold;">
-            ðŸš¨ Informe
+            🚨 Informe
           </button>
         </div>
       </div>
@@ -12985,18 +12985,18 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   downloadStudentQR(studentCode) {
-    this.showToast(`â¬‡ï¸ CÃ³digo QR oficial (${studentCode}) generado y listo para imprimir/guardar`, "success");
+    this.showToast(`⬇️ Código QR oficial (${studentCode}) generado y listo para imprimir/guardar`, "success");
   }
 
   downloadAllQRSheets() {
-    this.showToast("â¬‡ï¸ Preparando exportaciÃ³n e impresiÃ³n de plancha de cÃ³digos QR de todos los estudiantes...", "info");
+    this.showToast("⬇️ Preparando exportación e impresión de plancha de códigos QR de todos los estudiantes...", "info");
     setTimeout(() => {
       window.print();
     }, 400);
   }
 
   // =========================================================================
-  // GESTIÃ“N DEL LIBRO DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
+  // GESTIÓN DEL LIBRO DE INCIDENCIAS & CONVIVENCIA ESCOLAR (MINEDU)
   // =========================================================================
   openCreateIncidentModal(preselectedStudentCode = null, defaultSeverity = "Grave") {
     const enrollments = this.store.getEnrollments();
@@ -13006,11 +13006,11 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            ðŸš¨ Registrar Nuevo Informe de Incidencia Conductual / Convivencia
+            🚨 Registrar Nuevo Informe de Incidencia Conductual / Convivencia
           </h3>
-          <span style="font-size: 11px; color: #fee2e2;">I.E.P. "El Educador" â€¢ Conforme a Ley NÂ° 29719</span>
+          <span style="font-size: 11px; color: #fee2e2;">I.E.P. "El Educador" • Conforme a Ley N° 29719</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
 
       <form onsubmit="window.app.saveBehaviorIncident(event)">
@@ -13024,7 +13024,7 @@ CREATE TABLE tb_cuadernos_qr (
             <select name="studentCode" class="form-control" style="font-weight: bold; font-size: 12.5px; border-color: #ef4444;" required>
               ${enrollments.map(st => `
                 <option value="${st.studentCode}" ${st.studentCode === preselectedStudentCode ? 'selected' : ''}>
-                  ${st.studentName} (${st.grade}) â€¢ CÃ³d: ${st.studentCode} â€¢ DNI: ${st.dni}
+                  ${st.studentName} (${st.grade}) • Cód: ${st.studentCode} • DNI: ${st.dni}
                 </option>
               `).join('')}
             </select>
@@ -13045,10 +13045,10 @@ CREATE TABLE tb_cuadernos_qr (
             <div class="form-group" style="margin-bottom: 0;">
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Nivel de Gravedad / Tipo:</label>
               <select name="severity" class="form-control" style="font-weight: bold;" required>
-                <option value="Leve" ${defaultSeverity === 'Leve' ? 'selected' : ''}>ðŸŸ¡ Falta Leve (Uniforme, tardanza a aula)</option>
-                <option value="Grave" ${defaultSeverity === 'Grave' ? 'selected' : ''}>ðŸ”´ Falta Grave (Desobediencia, uso de celular)</option>
-                <option value="Muy Grave" ${defaultSeverity === 'Muy Grave' ? 'selected' : ''}>â›” Muy Grave (AgresiÃ³n, daÃ±o material)</option>
-                <option value="MÃ©rito" ${defaultSeverity === 'MÃ©rito' ? 'selected' : ''}>â­ Reconocimiento / MÃ©rito AcadÃ©mico</option>
+                <option value="Leve" ${defaultSeverity === 'Leve' ? 'selected' : ''}>🟡 Falta Leve (Uniforme, tardanza a aula)</option>
+                <option value="Grave" ${defaultSeverity === 'Grave' ? 'selected' : ''}>🔴 Falta Grave (Desobediencia, uso de celular)</option>
+                <option value="Muy Grave" ${defaultSeverity === 'Muy Grave' ? 'selected' : ''}>⛔ Muy Grave (Agresión, daño material)</option>
+                <option value="Mérito" ${defaultSeverity === 'Mérito' ? 'selected' : ''}>⭐ Reconocimiento / Mérito Académico</option>
               </select>
             </div>
             <div class="form-group" style="margin-bottom: 0;">
@@ -13058,8 +13058,8 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <div class="form-group" style="margin-bottom: 12px;">
-            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">CategorÃ­a / Motivo:</label>
-            <input type="text" name="category" class="form-control" value="Desobediencia e interrupciÃ³n de clase" placeholder="Ej. Desobediencia, conducta en aula, agresiÃ³n verbal" required />
+            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Categoría / Motivo:</label>
+            <input type="text" name="category" class="form-control" value="Desobediencia e interrupción de clase" placeholder="Ej. Desobediencia, conducta en aula, agresión verbal" required />
           </div>
 
           <div class="form-group" style="margin-bottom: 12px;">
@@ -13068,19 +13068,19 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <div class="form-group" style="margin-bottom: 12px;">
-            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">DescripciÃ³n Detallada de los Hechos:</label>
-            <textarea name="description" rows="3" class="form-control" placeholder="Describa con objetividad lo acontecido con el estudiante..." required>Durante la clase, el estudiante incurriÃ³ en falta a las normas de convivencia acordadas.</textarea>
+            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Descripción Detallada de los Hechos:</label>
+            <textarea name="description" rows="3" class="form-control" placeholder="Describa con objetividad lo acontecido con el estudiante..." required>Durante la clase, el estudiante incurrió en falta a las normas de convivencia acordadas.</textarea>
           </div>
 
           <div class="form-group" style="margin-bottom: 14px;">
-            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Medida Formativa / PedagÃ³gica Aplicada:</label>
-            <textarea name="correctiveMeasure" rows="2" class="form-control" placeholder="Compromiso suscrito, diÃ¡logo formativo, etc." required>DiÃ¡logo formativo reflexivo, firma de compromiso en anecdotario y comunicaciÃ³n inmediata al apoderado.</textarea>
+            <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Medida Formativa / Pedagógica Aplicada:</label>
+            <textarea name="correctiveMeasure" rows="2" class="form-control" placeholder="Compromiso suscrito, diálogo formativo, etc." required>Diálogo formativo reflexivo, firma de compromiso en anecdotario y comunicación inmediata al apoderado.</textarea>
           </div>
 
           <div style="background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px;">
             <input type="checkbox" id="send-whatsapp-check" name="notifyWhatsApp" checked style="width: 18px; height: 18px; cursor: pointer;" />
             <label for="send-whatsapp-check" style="font-size: 12px; font-weight: bold; color: #065f46; cursor: pointer; margin: 0;">
-              ðŸ“² Notificar inmediatamente al Apoderado vÃ­a WhatsApp Oficial
+              📲 Notificar inmediatamente al Apoderado vía WhatsApp Oficial
             </label>
           </div>
 
@@ -13089,7 +13089,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
           <button type="submit" class="btn btn-red btn-sm" style="font-weight: 900; padding: 8px 20px;">
-            ðŸ’¾ Guardar en Libro de Incidencias
+            💾 Guardar en Libro de Incidencias
           </button>
         </div>
       </form>
@@ -13116,7 +13116,7 @@ CREATE TABLE tb_cuadernos_qr (
     });
 
     this.closeModal();
-    this.showToast(`âœ“ Informe ${newInc.id} registrado para ${newInc.studentName}`, "success");
+    this.showToast(`✓ Informe ${newInc.id} registrado para ${newInc.studentName}`, "success");
     this.render();
 
     if (formData.get("notifyWhatsApp") === "on") {
@@ -13133,17 +13133,17 @@ CREATE TABLE tb_cuadernos_qr (
     const phone = inc.guardianPhone || "984-777-888";
     const guardian = inc.guardian || "Sr(a). Apoderado";
 
-    const msg = `*COMUNICADO DE CONVIVENCIA ESCOLAR - I.E.P. "EL EDUCADOR"*\n\nEstimado(a) *${guardian}*,\nLe saludamos cordialmente de la DirecciÃ³n y CoordinaciÃ³n de Convivencia Escolar.\n\nLe informamos que el dÃ­a de hoy *${inc.date}* a las *${inc.time}* se ha registrado una incidencia disciplinaria respecto a su menor hijo(a) *${inc.studentName}* (${inc.grade}):\n\nâ€¢ *Tipo de Falta:* ${inc.severity}\nâ€¢ *Motivo:* ${inc.category}\nâ€¢ *Lugar:* ${inc.location}\nâ€¢ *Reportado por:* ${inc.reportedBy}\nâ€¢ *Detalle:* ${inc.description}\nâ€¢ *Medida PedagÃ³gica:* ${inc.correctiveMeasure}\n\nLe agradecemos reforzar las normas de conducta en el hogar para el bienestar y formaciÃ³n integral de su menor hijo(a).\n\nAtentamente,\n*ComitÃ© de GestiÃ³n de la Convivencia Escolar*\nI.E.P. "El Educador" - S.J.L. â€¢ UGEL 05`;
+    const msg = `*COMUNICADO DE CONVIVENCIA ESCOLAR - I.E.P. "EL EDUCADOR"*\n\nEstimado(a) *${guardian}*,\nLe saludamos cordialmente de la Dirección y Coordinación de Convivencia Escolar.\n\nLe informamos que el día de hoy *${inc.date}* a las *${inc.time}* se ha registrado una incidencia disciplinaria respecto a su menor hijo(a) *${inc.studentName}* (${inc.grade}):\n\n• *Tipo de Falta:* ${inc.severity}\n• *Motivo:* ${inc.category}\n• *Lugar:* ${inc.location}\n• *Reportado por:* ${inc.reportedBy}\n• *Detalle:* ${inc.description}\n• *Medida Pedagógica:* ${inc.correctiveMeasure}\n\nLe agradecemos reforzar las normas de conducta en el hogar para el bienestar y formación integral de su menor hijo(a).\n\nAtentamente,\n*Comité de Gestión de la Convivencia Escolar*\nI.E.P. "El Educador" - S.J.L. • UGEL 05`;
 
     this.showModal(`
       <div class="modal-header" style="background: #047857; color: white;">
-        <h3 style="color: white; font-size: 15px;">ðŸ’¬ Enviar NotificaciÃ³n de Incidencia por WhatsApp</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white; font-size: 15px;">💬 Enviar Notificación de Incidencia por WhatsApp</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px; margin-bottom: 12px;">
           <div style="font-size: 11px; font-weight: bold; color: #166534; text-transform: uppercase;">Apoderado Destinatario:</div>
-          <div style="font-size: 13.5px; font-weight: 900; color: #065f46;">${guardian} â€¢ TelÃ©fono: ${phone}</div>
+          <div style="font-size: 13.5px; font-weight: 900; color: #065f46;">${guardian} • Teléfono: ${phone}</div>
           <div style="font-size: 11.5px; color: #15803d; margin-top: 2px;">Estudiante: <strong>${inc.studentName}</strong> (${inc.grade})</div>
         </div>
 
@@ -13154,8 +13154,8 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
-        <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('âœ“ NotificaciÃ³n enviada a WhatsApp', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 18px;">
-          ðŸš€ Abrir WhatsApp y Enviar Mensaje
+        <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Notificación enviada a WhatsApp', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 18px;">
+          🚀 Abrir WhatsApp y Enviar Mensaje
         </button>
       </div>
     `);
@@ -13167,8 +13167,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white; font-size: 15px;">ðŸ“„ Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white; font-size: 15px;">📄 Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
         
@@ -13177,13 +13177,13 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: flex; align-items: center; gap: 12px;">
             <img src="assets/logo.png" alt="Escudo" style="width: 55px; height: 55px; object-fit: contain;" />
             <div>
-              <div style="font-size: 10px; font-weight: 800; color: #0b132b; text-transform: uppercase;">REPÃšBLICA DEL PERÃš â€¢ MINISTERIO DE EDUCACIÃ“N â€¢ UGEL 05</div>
+              <div style="font-size: 10px; font-weight: 800; color: #0b132b; text-transform: uppercase;">REPÚBLICA DEL PERÚ • MINISTERIO DE EDUCACIÓN • UGEL 05</div>
               <div style="font-size: 18px; font-weight: 900; color: #0b132b; font-family: 'Plus Jakarta Sans', serif;">I.E.P. "EL EDUCADOR"</div>
-              <div style="font-size: 10px; color: #dc2626; font-weight: bold;">INICIAL - PRIMARIA - SECUNDARIA â€¢ 21 AÃ‘OS DEJANDO HUELLAS</div>
+              <div style="font-size: 10px; color: #dc2626; font-weight: bold;">INICIAL - PRIMARIA - SECUNDARIA • 21 AÑOS DEJANDO HUELLAS</div>
             </div>
           </div>
           <div style="text-align: right; font-size: 11px;">
-            <span class="status-badge status-failed" style="font-size: 11px; font-weight: 900;">ACTA NÂ° ${inc.id}</span>
+            <span class="status-badge status-failed" style="font-size: 11px; font-weight: 900;">ACTA N° ${inc.id}</span>
           </div>
         </div>
 
@@ -13191,14 +13191,14 @@ CREATE TABLE tb_cuadernos_qr (
           <h2 style="font-size: 16px; font-weight: 900; text-decoration: underline; color: #0b132b; margin: 0 0 4px;">
             ACTA OFICIAL DE COMPROMISO Y REGISTRO DE CONVIVENCIA ESCOLAR
           </h2>
-          <span style="font-size: 11px; color: #64748b;">Conforme a la Ley NÂ° 29719 y D.S. NÂ° 004-2018-MINEDU</span>
+          <span style="font-size: 11px; color: #64748b;">Conforme a la Ley N° 29719 y D.S. N° 004-2018-MINEDU</span>
         </div>
 
         <div style="border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; margin-bottom: 14px; font-size: 12px; line-height: 1.6;">
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
             <div><strong>Estudiante:</strong> ${inc.studentName}</div>
-            <div><strong>Grado y SecciÃ³n:</strong> ${inc.grade}</div>
-            <div><strong>DNI:</strong> ${inc.dni} â€¢ <strong>CÃ³digo:</strong> ${inc.studentCode}</div>
+            <div><strong>Grado y Sección:</strong> ${inc.grade}</div>
+            <div><strong>DNI:</strong> ${inc.dni} • <strong>Código:</strong> ${inc.studentCode}</div>
             <div><strong>Fecha y Hora:</strong> ${inc.date} - ${inc.time}</div>
             <div><strong>Gravedad:</strong> <span style="font-weight: 900; color: #dc2626;">${inc.severity}</span></div>
             <div><strong>Lugar:</strong> ${inc.location}</div>
@@ -13208,14 +13208,14 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
 
         <div style="margin-bottom: 14px; font-size: 12px;">
-          <div style="font-weight: 800; color: #0b132b; margin-bottom: 4px;">I. DESCRIPCIÃ“N DE LOS HECHOS:</div>
+          <div style="font-weight: 800; color: #0b132b; margin-bottom: 4px;">I. DESCRIPCIÓN DE LOS HECHOS:</div>
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; line-height: 1.5;">
             ${inc.description}
           </div>
         </div>
 
         <div style="margin-bottom: 20px; font-size: 12px;">
-          <div style="font-weight: 800; color: #0b132b; margin-bottom: 4px;">II. ACUERDOS Y MEDIDAS PEDAGÃ“GICAS FORMATIVAS:</div>
+          <div style="font-weight: 800; color: #0b132b; margin-bottom: 4px;">II. ACUERDOS Y MEDIDAS PEDAGÓGICAS FORMATIVAS:</div>
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; line-height: 1.5;">
             ${inc.correctiveMeasure}
           </div>
@@ -13243,7 +13243,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-          ðŸ–¨ï¸ Imprimir Acta Oficial A4
+          🖨️ Imprimir Acta Oficial A4
         </button>
       </div>
     `);
@@ -13259,17 +13259,17 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   sendTardinessWhatsApp(studentName, arrivalTime, delayMin, phone, guardian) {
-    const msg = `Estimado(a) ${guardian || 'Apoderado'},\n\nLe saluda la DirecciÃ³n de la I.E.P. "El Educador". Le informamos que su menor hijo(a) *${studentName}* registrÃ³ su ingreso al plantel con *TARDANZA* el dÃ­a de hoy a las *${arrivalTime}* (+${delayMin} minutos de retraso).\n\nLe agradecemos conversar con su menor y tomar las previsiones correspondientes para fomentar el valor de la puntualidad escolar.\n\nAtentamente,\n*CoordinaciÃ³n de Normas y Asistencia*\nI.E.P. "El Educador" - UGEL 05`;
+    const msg = `Estimado(a) ${guardian || 'Apoderado'},\n\nLe saluda la Dirección de la I.E.P. "El Educador". Le informamos que su menor hijo(a) *${studentName}* registró su ingreso al plantel con *TARDANZA* el día de hoy a las *${arrivalTime}* (+${delayMin} minutos de retraso).\n\nLe agradecemos conversar con su menor y tomar las previsiones correspondientes para fomentar el valor de la puntualidad escolar.\n\nAtentamente,\n*Coordinación de Normas y Asistencia*\nI.E.P. "El Educador" - UGEL 05`;
 
     this.showModal(`
       <div class="modal-header" style="background: #047857; color: white;">
-        <h3 style="color: white;">ðŸ’¬ NotificaciÃ³n de Tardanza por WhatsApp</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white;">💬 Notificación de Tardanza por WhatsApp</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px; margin-bottom: 12px;">
           <div style="font-size: 11px; font-weight: bold; color: #166534; text-transform: uppercase;">Destinatario:</div>
-          <div style="font-size: 13px; font-weight: 800; color: #065f46;">${guardian} â€¢ TelÃ©fono: ${phone}</div>
+          <div style="font-size: 13px; font-weight: 800; color: #065f46;">${guardian} • Teléfono: ${phone}</div>
           <div style="font-size: 11px; color: #15803d;">Estudiante: <strong>${studentName}</strong> (Tardanza: ${arrivalTime})</div>
         </div>
 
@@ -13280,25 +13280,25 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
-        <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('âœ“ Mensaje WhatsApp enviado al apoderado', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 16px;">
-          ðŸš€ Enviar por WhatsApp Oficial
+        <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 16px;">
+          🚀 Enviar por WhatsApp Oficial
         </button>
       </div>
     `);
   }
 
   sendAbsenceWhatsApp(studentName, phone, guardian) {
-    const msg = `Estimado(a) ${guardian || 'Apoderado'},\n\nLe saluda la DirecciÃ³n de la I.E.P. "El Educador". Le informamos que su menor hijo(a) *${studentName}* *NO HA REGISTRADO INGRESO* al colegio el dÃ­a de hoy hasta el cierre de puerta.\n\nPor favor confirmar el motivo de la inasistencia o comunicarse a la brevedad con la tutorÃ­a de aula.\n\nAtentamente,\n*DirecciÃ³n y CoordinaciÃ³n PedagÃ³gica*\nI.E.P. "El Educador" - S.J.L.`;
+    const msg = `Estimado(a) ${guardian || 'Apoderado'},\n\nLe saluda la Dirección de la I.E.P. "El Educador". Le informamos que su menor hijo(a) *${studentName}* *NO HA REGISTRADO INGRESO* al colegio el día de hoy hasta el cierre de puerta.\n\nPor favor confirmar el motivo de la inasistencia o comunicarse a la brevedad con la tutoría de aula.\n\nAtentamente,\n*Dirección y Coordinación Pedagógica*\nI.E.P. "El Educador" - S.J.L.`;
 
     this.showModal(`
       <div class="modal-header" style="background: #dc2626; color: white;">
-        <h3 style="color: white;">ðŸ’¬ NotificaciÃ³n de Inasistencia por WhatsApp</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white;">💬 Notificación de Inasistencia por WhatsApp</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 12px; margin-bottom: 12px;">
           <div style="font-size: 11px; font-weight: bold; color: #991b1b; text-transform: uppercase;">Destinatario:</div>
-          <div style="font-size: 13px; font-weight: 800; color: #7f1d1d;">${guardian} â€¢ TelÃ©fono: ${phone}</div>
+          <div style="font-size: 13px; font-weight: 800; color: #7f1d1d;">${guardian} • Teléfono: ${phone}</div>
           <div style="font-size: 11px; color: #991b1b;">Estudiante: <strong>${studentName}</strong> (Inasistencia Injustificada)</div>
         </div>
 
@@ -13309,8 +13309,8 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
-        <button class="btn btn-red btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('âœ“ Mensaje WhatsApp enviado al apoderado', 'success');" style="font-weight: 800; padding: 8px 16px;">
-          ðŸš€ Enviar Alerta de Inasistencia
+        <button class="btn btn-red btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="font-weight: 800; padding: 8px 16px;">
+          🚀 Enviar Alerta de Inasistencia
         </button>
       </div>
     `);
@@ -13322,29 +13322,29 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white;">ðŸ“² EnvÃ­o Masivo de Avisos a Apoderados (WhatsApp)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white;">📲 Envío Masivo de Avisos a Apoderados (WhatsApp)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 20px;">
-        <div style="font-size: 40px; margin-bottom: 8px;">ðŸ“±âš¡</div>
+        <div style="font-size: 40px; margin-bottom: 8px;">📱⚡</div>
         <h4 style="font-size: 15px; font-weight: 800; color: #0b132b; margin-bottom: 6px;">
-          NotificaciÃ³n Automatizada del Parte Diario (${date})
+          Notificación Automatizada del Parte Diario (${date})
         </h4>
         <p style="font-size: 12.5px; color: #475569; margin-bottom: 16px;">
-          Se enviarÃ¡n ${totalToNotify} mensajes oficiales por la API de WhatsApp de la I.E.P. "El Educador":<br>
-          â€¢ <strong>${report.tardinessList.length}</strong> avisos de tardanza con hora de ingreso y minutos de retraso.<br>
-          â€¢ <strong>${report.absenceList.length}</strong> alertas de inasistencia sin justificaciÃ³n.
+          Se enviarán ${totalToNotify} mensajes oficiales por la API de WhatsApp de la I.E.P. "El Educador":<br>
+          • <strong>${report.tardinessList.length}</strong> avisos de tardanza con hora de ingreso y minutos de retraso.<br>
+          • <strong>${report.absenceList.length}</strong> alertas de inasistencia sin justificación.
         </p>
 
         <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; font-size: 11.5px; text-align: left; max-height: 140px; overflow-y: auto;">
-          ${report.tardinessList.map(t => `<div style="color:#b45309; padding:2px 0;">ðŸŸ¡ <strong>${t.studentName}</strong>: Tardanza ${t.arrivalTime} â†’ Notificando a ${t.guardian} (${t.guardianPhone})</div>`).join('')}
-          ${report.absenceList.map(a => `<div style="color:#dc2626; padding:2px 0;">ðŸ”´ <strong>${a.studentName}</strong>: Inasistencia â†’ Notificando a ${a.guardian} (${a.guardianPhone})</div>`).join('')}
+          ${report.tardinessList.map(t => `<div style="color:#b45309; padding:2px 0;">🟡 <strong>${t.studentName}</strong>: Tardanza ${t.arrivalTime} → Notificando a ${t.guardian} (${t.guardianPhone})</div>`).join('')}
+          ${report.absenceList.map(a => `<div style="color:#dc2626; padding:2px 0;">🔴 <strong>${a.studentName}</strong>: Inasistencia → Notificando a ${a.guardian} (${a.guardianPhone})</div>`).join('')}
         </div>
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
-        <button class="btn btn-navy" onclick="window.app.closeModal(); window.app.showToast('âœ“ ${totalToNotify} notificaciones de WhatsApp despachadas con Ã©xito a los apoderados', 'success');" style="font-weight: 800;">
-          ðŸš€ Confirmar y Enviar Todo
+        <button class="btn btn-navy" onclick="window.app.closeModal(); window.app.showToast('✓ ${totalToNotify} notificaciones de WhatsApp despachadas con éxito a los apoderados', 'success');" style="font-weight: 800;">
+          🚀 Confirmar y Enviar Todo
         </button>
       </div>
     `);
@@ -13357,21 +13357,21 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #f59e0b; color: #0b132b;">
-        <h3 style="color: #0b132b; font-weight: 900;">ðŸ“„ Pase Oficial de Tardanza (PorterÃ­a)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3 style="color: #0b132b; font-weight: 900;">📄 Pase Oficial de Tardanza (Portería)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="padding: 20px; background: white;">
         <div style="border: 2px dashed #0b132b; padding: 16px; border-radius: 8px;">
           <div style="text-align: center; border-bottom: 2px solid #0b132b; padding-bottom: 8px; margin-bottom: 12px;">
-            <div style="font-size: 10px; font-weight: 900; letter-spacing: 0.1em; color: #1e3a8a;">I.E.P. "EL EDUCADOR" â€¢ UGEL 05</div>
+            <div style="font-size: 10px; font-weight: 900; letter-spacing: 0.1em; color: #1e3a8a;">I.E.P. "EL EDUCADOR" • UGEL 05</div>
             <h3 style="font-size: 16px; font-weight: 900; margin: 2px 0;">BOLETA DE INGRESO CON TARDANZA</h3>
-            <div style="font-size: 11px; color: #64748b;">Fecha: <strong>19/08/2026</strong> â€¢ Hora de EmisiÃ³n: <strong>${timeNow}</strong></div>
+            <div style="font-size: 11px; color: #64748b;">Fecha: <strong>19/08/2026</strong> • Hora de Emisión: <strong>${timeNow}</strong></div>
           </div>
 
           <div style="font-size: 12.5px; line-height: 1.6; margin-bottom: 14px;">
             <div>Estudiante: <strong>${st.studentName}</strong></div>
-            <div>Grado y SecciÃ³n: <strong>${st.grade}</strong></div>
-            <div>DNI: <strong>${st.dni}</strong> â€¢ CÃ³digo: <strong>${st.studentCode}</strong></div>
+            <div>Grado y Sección: <strong>${st.grade}</strong></div>
+            <div>DNI: <strong>${st.dni}</strong> • Código: <strong>${st.studentCode}</strong></div>
             <div>Motivo: <strong>Tardanza registrada por lectura de fotocheck QR en puerta.</strong></div>
             <div>Apoderado Notificado: <strong>${st.guardian} (${st.guardianPhone})</strong></div>
           </div>
@@ -13379,11 +13379,11 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: center; margin-top: 24px; font-size: 10.5px;">
             <div>
               <div style="border-top: 1px solid #000; width: 80%; margin: 0 auto 2px;"></div>
-              Auxiliar de PorterÃ­a
+              Auxiliar de Portería
             </div>
             <div>
               <div style="border-top: 1px solid #000; width: 80%; margin: 0 auto 2px;"></div>
-              Docente de Aula (RecepciÃ³n)
+              Docente de Aula (Recepción)
             </div>
           </div>
         </div>
@@ -13391,7 +13391,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800;">
-          ðŸ–¨ï¸ Imprimir Pase de Tardanza
+          🖨️ Imprimir Pase de Tardanza
         </button>
       </div>
     `);
@@ -13402,8 +13402,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white;">ðŸ“„ Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white;">📄 Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
         
@@ -13413,24 +13413,24 @@ CREATE TABLE tb_cuadernos_qr (
             <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain;" />
             <div>
               <div style="font-size: 10px; font-weight: 900; letter-spacing: 0.05em; color: #1e3a8a;">
-                MINISTERIO DE EDUCACIÃ“N â€¢ DRELM â€¢ UGEL 05 SAN JUAN DE LURIGANCHO
+                MINISTERIO DE EDUCACIÓN • DRELM • UGEL 05 SAN JUAN DE LURIGANCHO
               </div>
               <h2 style="font-size: 16px; font-weight: 900; margin: 2px 0; color: #0b132b;">
-                I.E.P. "EL EDUCADOR" â€¢ PARTE DIARIO DE ASISTENCIA & PUNTUALIDAD
+                I.E.P. "EL EDUCADOR" • PARTE DIARIO DE ASISTENCIA & PUNTUALIDAD
               </h2>
               <div style="font-size: 11px; color: #475569;">
-                CÃ³digos Modulares: Inicial: 0614826 â€¢ Primaria: 0614834 â€¢ Secundaria: 0729483
+                Códigos Modulares: Inicial: 0614826 • Primaria: 0614834 • Secundaria: 0729483
               </div>
             </div>
           </div>
           <div style="text-align: right; font-size: 11px;">
             <div>Fecha: <strong>${date}</strong></div>
-            <div>Hora LÃ­mite: <strong>07:45 AM</strong></div>
+            <div>Hora Límite: <strong>07:45 AM</strong></div>
             <div>Corte Puerta: <strong>08:15 AM</strong></div>
           </div>
         </div>
 
-        <!-- EstadÃ­sticas del Parte Diario -->
+        <!-- Estadísticas del Parte Diario -->
         <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; background: #f8fafc; border: 1px solid #cbd5e1; padding: 10px; border-radius: 6px; margin-bottom: 16px; font-size: 11px; text-align: center;">
           <div>Matriculados: <strong>${report.totalEnrolled}</strong></div>
           <div>Puntuales: <strong style="color: #047857;">${report.presentList.length}</strong></div>
@@ -13445,7 +13445,7 @@ CREATE TABLE tb_cuadernos_qr (
         <table style="width: 100%; border-collapse: collapse; font-size: 10.5px; margin-bottom: 16px;">
           <thead>
             <tr style="background: #fffbeb; border: 1px solid #cbd5e1;">
-              <th style="padding: 5px; border: 1px solid #cbd5e1;">NÂ°</th>
+              <th style="padding: 5px; border: 1px solid #cbd5e1;">N°</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1; text-align: left;">Estudiante</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1;">DNI</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1;">Grado</th>
@@ -13476,12 +13476,12 @@ CREATE TABLE tb_cuadernos_qr (
         <table style="width: 100%; border-collapse: collapse; font-size: 10.5px; margin-bottom: 24px;">
           <thead>
             <tr style="background: #fef2f2; border: 1px solid #cbd5e1;">
-              <th style="padding: 5px; border: 1px solid #cbd5e1;">NÂ°</th>
+              <th style="padding: 5px; border: 1px solid #cbd5e1;">N°</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1; text-align: left;">Estudiante</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1;">DNI</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1;">Grado</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1; text-align: left;">Apoderado</th>
-              <th style="padding: 5px; border: 1px solid #cbd5e1;">TelÃ©fono</th>
+              <th style="padding: 5px; border: 1px solid #cbd5e1;">Teléfono</th>
               <th style="padding: 5px; border: 1px solid #cbd5e1;">Estado</th>
             </tr>
           </thead>
@@ -13504,11 +13504,11 @@ CREATE TABLE tb_cuadernos_qr (
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-top: 40px; font-size: 10px;">
           <div>
             <div style="border-top: 1px solid #000; width: 80%; margin: 0 auto 2px;"></div>
-            <strong>Sr. Auxiliar de PorterÃ­a</strong><br>Control BiomÃ©trico y QR
+            <strong>Sr. Auxiliar de Portería</strong><br>Control Biométrico y QR
           </div>
           <div>
             <div style="border-top: 1px solid #000; width: 80%; margin: 0 auto 2px;"></div>
-            <strong>Prof. Alex Lino</strong><br>CoordinaciÃ³n PedagÃ³gica
+            <strong>Prof. Alex Lino</strong><br>Coordinación Pedagógica
           </div>
           <div>
             <div style="border-top: 1px solid #000; width: 80%; margin: 0 auto 2px;"></div>
@@ -13520,7 +13520,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          ðŸ–¨ï¸ Imprimir Parte Diario A4
+          🖨️ Imprimir Parte Diario A4
         </button>
       </div>
     `);
@@ -13532,8 +13532,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“„ Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📄 Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 20px; background: #ffffff;">
         
@@ -13541,21 +13541,21 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: flex; align-items: center; gap: 10px;">
             <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 55px; height: 55px; object-fit: contain;" />
             <div>
-              <div style="font-size: 11px; font-weight: 900; color: #1e3a8a;">I.E.P. "EL EDUCADOR" â€¢ UGEL 05 S.J.L.</div>
+              <div style="font-size: 11px; font-weight: 900; color: #1e3a8a;">I.E.P. "EL EDUCADOR" • UGEL 05 S.J.L.</div>
               <h3 style="font-size: 15px; font-weight: 900; margin: 0; color: #0b132b;">CONSOLIDADO MENSUAL DE ASISTENCIA ESCOLAR</h3>
-              <div style="font-size: 11px; color: #64748b;">Mes: <strong>Agosto 2026</strong> â€¢ Aula: <strong>${currentGrade.label}</strong></div>
+              <div style="font-size: 11px; color: #64748b;">Mes: <strong>Agosto 2026</strong> • Aula: <strong>${currentGrade.label}</strong></div>
             </div>
           </div>
           <div style="text-align: right; font-size: 10.5px;">
             <div>Tutor: <strong>${currentGrade.tutor || 'Prof. Roberto Silva'}</strong></div>
-            <div>CÃ³digo Modular: <strong>0729483</strong></div>
+            <div>Código Modular: <strong>0729483</strong></div>
           </div>
         </div>
 
         <table style="width: 100%; border-collapse: collapse; font-size: 11.5px; margin-bottom: 16px;">
           <thead>
             <tr style="background: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
-              <th style="padding: 6px; text-align: left; border: 1px solid #cbd5e1;">NÂ°</th>
+              <th style="padding: 6px; text-align: left; border: 1px solid #cbd5e1;">N°</th>
               <th style="padding: 6px; text-align: left; border: 1px solid #cbd5e1;">Apellidos y Nombres</th>
               <th style="padding: 6px; text-align: center; border: 1px solid #cbd5e1;">DNI</th>
               <th style="padding: 6px; text-align: center; border: 1px solid #cbd5e1;">Asistencias</th>
@@ -13568,7 +13568,7 @@ CREATE TABLE tb_cuadernos_qr (
           <tbody>
             <tr>
               <td style="padding: 6px; border: 1px solid #e2e8f0;">01</td>
-              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>MÃ‰NDEZ FLORES, SOFÃA</strong></td>
+              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>MÉNDEZ FLORES, SOFÍA</strong></td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">74891230</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">22</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">1</td>
@@ -13578,7 +13578,7 @@ CREATE TABLE tb_cuadernos_qr (
             </tr>
             <tr>
               <td style="padding: 6px; border: 1px solid #e2e8f0;">02</td>
-              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>BENÃTEZ DÃAZ, CARLOS</strong></td>
+              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>BENÍTEZ DÍAZ, CARLOS</strong></td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">75129034</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">20</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">2</td>
@@ -13588,7 +13588,7 @@ CREATE TABLE tb_cuadernos_qr (
             </tr>
             <tr>
               <td style="padding: 6px; border: 1px solid #e2e8f0;">03</td>
-              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>ALBÃšJAR ZEGARRA, MARINA</strong></td>
+              <td style="padding: 6px; border: 1px solid #e2e8f0;"><strong>ALBÚJAR ZEGARRA, MARINA</strong></td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">75849301</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">23</td>
               <td style="padding: 6px; text-align: center; border: 1px solid #e2e8f0;">0</td>
@@ -13618,7 +13618,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div>
             <div style="border-top: 1px solid #000000; width: 75%; margin: 0 auto 4px;"></div>
             <div style="font-size: 11px; font-weight: bold;">Lic. Manuel Cornejo</div>
-            <div style="font-size: 10px; color: #64748b;">Director General â€¢ I.E.P. El Educador</div>
+            <div style="font-size: 10px; color: #64748b;">Director General • I.E.P. El Educador</div>
           </div>
         </div>
 
@@ -13626,25 +13626,25 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          ðŸ–¨ï¸ Imprimir Consolidado Oficial
+          🖨️ Imprimir Consolidado Oficial
         </button>
       </div>
     `);
   }
 
   // =========================================================================
-  // GESTIÃ“N DE ESTRUCTURA DE GRADOS Y SECCIONES (ADMINISTRADOR)
+  // GESTIÓN DE ESTRUCTURA DE GRADOS Y SECCIONES (ADMINISTRADOR)
   // =========================================================================
   openCreateGradeModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ›ï¸ Agregar Nuevo Grado Institucional</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>🏛️ Agregar Nuevo Grado Institucional</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div class="form-group">
           <label class="form-label">Nombre del Grado:</label>
-          <input type="text" id="new-grd-label" class="form-control" placeholder="Ej: 3Â° de Secundaria" />
+          <input type="text" id="new-grd-label" class="form-control" placeholder="Ej: 3° de Secundaria" />
         </div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
           <div class="form-group">
@@ -13656,13 +13656,13 @@ CREATE TABLE tb_cuadernos_qr (
             </select>
           </div>
           <div class="form-group">
-            <label class="form-label">SecciÃ³n (Opcional):</label>
-            <input type="text" id="new-grd-sec" class="form-control" placeholder="Dejar en blanco si es Ãºnica" />
+            <label class="form-label">Sección (Opcional):</label>
+            <input type="text" id="new-grd-sec" class="form-control" placeholder="Dejar en blanco si es única" />
           </div>
         </div>
         <div class="form-group">
-          <label class="form-label">Aula / UbicaciÃ³n FÃ­sica:</label>
-          <input type="text" id="new-grd-room" class="form-control" placeholder="Ej: PabellÃ³n B - Aula 302" value="PabellÃ³n B - Aula 302" />
+          <label class="form-label">Aula / Ubicación Física:</label>
+          <input type="text" id="new-grd-room" class="form-control" placeholder="Ej: Pabellón B - Aula 302" value="Pabellón B - Aula 302" />
         </div>
         <div class="form-group">
           <label class="form-label">Tutor(a) Asignado:</label>
@@ -13691,7 +13691,7 @@ CREATE TABLE tb_cuadernos_qr (
     const id = `grd-${Date.now().toString().slice(-4)}`;
     this.store.addGrade({ id, label, level, section, classroom, tutor });
     this.closeModal();
-    this.showToast(`âœ“ Grado "${label}" agregado al catÃ¡logo del colegio.`, "success");
+    this.showToast(`✓ Grado "${label}" agregado al catálogo del colegio.`, "success");
     this.render();
   }
 
@@ -13702,8 +13702,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header">
-        <h3>âœï¸ Editar Grado / Aula: ${g.label}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>✏️ Editar Grado / Aula: ${g.label}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div class="form-group">
@@ -13720,12 +13720,12 @@ CREATE TABLE tb_cuadernos_qr (
             </select>
           </div>
           <div class="form-group">
-            <label class="form-label">SecciÃ³n (Opcional):</label>
+            <label class="form-label">Sección (Opcional):</label>
             <input type="text" id="edit-grd-sec" class="form-control" value="${g.section || ''}" placeholder="Dejar en blanco si no tiene" />
           </div>
         </div>
         <div class="form-group">
-          <label class="form-label">Aula / UbicaciÃ³n FÃ­sica:</label>
+          <label class="form-label">Aula / Ubicación Física:</label>
           <input type="text" id="edit-grd-room" class="form-control" value="${g.classroom || ''}" />
         </div>
         <div class="form-group">
@@ -13735,7 +13735,7 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
-        <button class="btn btn-navy" onclick="window.app.confirmUpdateGrade('${g.id}')">âœ“ Guardar Cambios</button>
+        <button class="btn btn-navy" onclick="window.app.confirmUpdateGrade('${g.id}')">✓ Guardar Cambios</button>
       </div>
     `);
   }
@@ -13748,32 +13748,32 @@ CREATE TABLE tb_cuadernos_qr (
     const tutor = document.getElementById("edit-grd-tutor").value.trim();
 
     if (!label) {
-      this.showToast("El nombre del grado no puede estar vacÃ­o", "danger");
+      this.showToast("El nombre del grado no puede estar vacío", "danger");
       return;
     }
 
     this.store.updateGrade(gradeId, { label, level, section, classroom, tutor });
     this.closeModal();
-    this.showToast(`âœ“ Grado "${label}" actualizado exitosamente.`, "success");
+    this.showToast(`✓ Grado "${label}" actualizado exitosamente.`, "success");
     this.render();
   }
 
   confirmDeleteGrade(gradeId) {
-    if (confirm("Â¿EstÃ¡ seguro de eliminar este grado del catÃ¡logo institucional?")) {
+    if (confirm("¿Está seguro de eliminar este grado del catálogo institucional?")) {
       this.store.deleteGrade(gradeId);
-      this.showToast("Grado eliminado del catÃ¡logo.", "info");
+      this.showToast("Grado eliminado del catálogo.", "info");
       this.render();
     }
   }
 
   toggleAcademicSections(hasSections) {
     this.store.toggleAcademicSections(hasSections);
-    this.showToast(hasSections ? "âœ“ Modo con Secciones Habilitado" : "âœ“ Modo Grados Ãšnicos (Sin Secciones) Activado", "info");
+    this.showToast(hasSections ? "✓ Modo con Secciones Habilitado" : "✓ Modo Grados Únicos (Sin Secciones) Activado", "info");
     this.render();
   }
 
   // =========================================================================
-  // GESTIÃ“N Y CREACIÃ“N DE HORARIOS ESCOLARES (ADMINISTRADOR)
+  // GESTIÓN Y CREACIÓN DE HORARIOS ESCOLARES (ADMINISTRADOR)
   // =========================================================================
 
   getTeachersSelectOptions(selectedTeacherName = "") {
@@ -13782,10 +13782,10 @@ CREATE TABLE tb_cuadernos_qr (
       .map(u => ({ name: u.name, subject: u.subject || u.detail || "Docente" }));
 
     const defaultTeachers = [
-      { name: "Prof. Fernando Rojas", subject: "ComputaciÃ³n & RobÃ³tica" },
-      { name: "Miss Leyli Graciela Reyes Cerquen", subject: "Ciencia y TecnologÃ­a" },
-      { name: "Miss MarÃ­a Daysi Reyes Milla", subject: "ComunicaciÃ³n & Literatura" },
-      { name: "Prof. Roberto Silva", subject: "MatemÃ¡tica (Ãlgebra / TrigonometrÃ­a)" },
+      { name: "Prof. Fernando Rojas", subject: "Computación & Robótica" },
+      { name: "Miss Leyli Graciela Reyes Cerquen", subject: "Ciencia y Tecnología" },
+      { name: "Miss María Daysi Reyes Milla", subject: "Comunicación & Literatura" },
+      { name: "Prof. Roberto Silva", subject: "Matemática (Álgebra / Trigonometría)" },
       { name: "Miss Julisa Magali Arroyo Araujo", subject: "Nivel Primaria" },
       { name: "Miss Maritza", subject: "Nivel Inicial" }
     ];
@@ -13805,14 +13805,14 @@ CREATE TABLE tb_cuadernos_qr (
 
   getPeriodIndexOptions(selectedIndex = 0) {
     const periodOptions = [
-      { index: 0, time: "08:00 - 08:50", label: "1Â° Bloque (08:00 - 08:50 am)" },
-      { index: 1, time: "08:50 - 09:40", label: "2Â° Bloque (08:50 - 09:40 am)" },
-      { index: 2, time: "09:40 - 10:30", label: "3Â° Bloque (09:40 - 10:30 am)" },
-      { index: 4, time: "10:50 - 11:40", label: "4Â° Bloque (10:50 - 11:40 am)" },
-      { index: 5, time: "11:40 - 12:30", label: "5Â° Bloque (11:40 - 12:30 pm)" },
-      { index: 6, time: "12:30 - 01:20", label: "6Â° Bloque (12:30 - 01:20 pm)" },
-      { index: 8, time: "01:50 - 02:40", label: "7Â° Bloque (01:50 - 02:40 pm)" },
-      { index: 9, time: "02:40 - 03:30", label: "8Â° Bloque (02:40 - 03:30 pm)" }
+      { index: 0, time: "08:00 - 08:50", label: "1° Bloque (08:00 - 08:50 am)" },
+      { index: 1, time: "08:50 - 09:40", label: "2° Bloque (08:50 - 09:40 am)" },
+      { index: 2, time: "09:40 - 10:30", label: "3° Bloque (09:40 - 10:30 am)" },
+      { index: 4, time: "10:50 - 11:40", label: "4° Bloque (10:50 - 11:40 am)" },
+      { index: 5, time: "11:40 - 12:30", label: "5° Bloque (11:40 - 12:30 pm)" },
+      { index: 6, time: "12:30 - 01:20", label: "6° Bloque (12:30 - 01:20 pm)" },
+      { index: 8, time: "01:50 - 02:40", label: "7° Bloque (01:50 - 02:40 pm)" },
+      { index: 9, time: "02:40 - 03:30", label: "8° Bloque (02:40 - 03:30 pm)" }
     ];
 
     return periodOptions.map(p => {
@@ -13828,12 +13828,12 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">âž• Crear / Asignar Clase a Horario Escolar</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">➕ Crear / Asignar Clase a Horario Escolar</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          ðŸ« AsignaciÃ³n de Bloque Lectivo â€¢ DuraciÃ³n: 50 min â€¢ Periodo Lectivo 2026
+          🏫 Asignación de Bloque Lectivo • Duración: 50 min • Periodo Lectivo 2026
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-bottom: 10px;">
@@ -13844,11 +13844,11 @@ CREATE TABLE tb_cuadernos_qr (
             </select>
           </div>
           <div class="form-group" style="margin-bottom: 0;">
-            <label class="form-label" style="font-weight: 700; font-size: 11.5px;">DÃ­a de la Semana:</label>
+            <label class="form-label" style="font-weight: 700; font-size: 11.5px;">Día de la Semana:</label>
             <select id="sched-create-day" class="form-control" style="font-weight: bold;">
               <option value="mon" ${defaultDayKey === 'mon' ? 'selected' : ''}>Lunes</option>
               <option value="tue" ${defaultDayKey === 'tue' ? 'selected' : ''}>Martes</option>
-              <option value="wed" ${defaultDayKey === 'wed' ? 'selected' : ''}>MiÃ©rcoles</option>
+              <option value="wed" ${defaultDayKey === 'wed' ? 'selected' : ''}>Miércoles</option>
               <option value="thu" ${defaultDayKey === 'thu' ? 'selected' : ''}>Jueves</option>
               <option value="fri" ${defaultDayKey === 'fri' ? 'selected' : ''}>Viernes</option>
             </select>
@@ -13864,10 +13864,10 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            ðŸ“‹ Asignatura / Curso (Boleta Oficial de Notas):
+            📋 Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="sched-create-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6; background: #ffffff;">
-            ${this.getBoletaCoursesSelectOptions("AritmÃ©tica")}
+            ${this.getBoletaCoursesSelectOptions("Aritmética")}
           </select>
         </div>
 
@@ -13887,18 +13887,18 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-weight: 700; font-size: 11.5px;">Color de la Tarjeta en Horario:</label>
           <select id="sched-create-color" class="form-control" style="font-size: 12px; font-weight: bold;">
-            <option value="navy">ðŸ”µ Azul Institucional (MatemÃ¡ticas / Ciencias)</option>
-            <option value="gold">ðŸŸ¡ Dorado / Amarillo (ComunicaciÃ³n / Letras)</option>
-            <option value="emerald">ðŸŸ¢ Verde Esmeralda (Ciencia / BiologÃ­a / EPT)</option>
-            <option value="purple">ðŸŸ£ Morado / PÃºrpura (Ciencias Sociales / FilosofÃ­a)</option>
-            <option value="red">ðŸ”´ Rojo (CÃ­vica / Tutoria)</option>
+            <option value="navy">🔵 Azul Institucional (Matemáticas / Ciencias)</option>
+            <option value="gold">🟡 Dorado / Amarillo (Comunicación / Letras)</option>
+            <option value="emerald">🟢 Verde Esmeralda (Ciencia / Biología / EPT)</option>
+            <option value="purple">🟣 Morado / Púrpura (Ciencias Sociales / Filosofía)</option>
+            <option value="red">🔴 Rojo (Cívica / Tutoria)</option>
           </select>
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmSaveCreatedScheduleSlot()" style="font-weight: 800;">
-          âœ“ Guardar y Publicar en Horario
+          ✓ Guardar y Publicar en Horario
         </button>
       </div>
     `);
@@ -13921,7 +13921,7 @@ CREATE TABLE tb_cuadernos_qr (
     });
 
     this.closeModal();
-    this.showToast(`âœ“ Clase de "${course}" (${teacher}) programada con Ã©xito en el horario`, "success");
+    this.showToast(`✓ Clase de "${course}" (${teacher}) programada con éxito en el horario`, "success");
     this.render();
   }
 
@@ -13934,21 +13934,21 @@ CREATE TABLE tb_cuadernos_qr (
     const catalog = this.store.state.gradesCatalog || initialData.gradesCatalog;
     const currentGrade = catalog.find(g => g.id === targetGradeId) || catalog[4];
 
-    const dayNameMap = { mon: 'Lunes', tue: 'Martes', wed: 'MiÃ©rcoles', thu: 'Jueves', fri: 'Viernes' };
+    const dayNameMap = { mon: 'Lunes', tue: 'Martes', wed: 'Miércoles', thu: 'Jueves', fri: 'Viernes' };
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">âœï¸ Editar Bloque de Horario (${dayNameMap[dayKey]} â€¢ ${row.time})</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">✏️ Editar Bloque de Horario (${dayNameMap[dayKey]} • ${row.time})</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          ðŸ« ${currentGrade.label} â€¢ Bloque: ${row.time} â€¢ ${dayNameMap[dayKey]}
+          🏫 ${currentGrade.label} • Bloque: ${row.time} • ${dayNameMap[dayKey]}
         </div>
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            ðŸ“‹ Asignatura / Curso (Boleta Oficial de Notas):
+            📋 Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="edit-slot-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6;">
             ${this.getBoletaCoursesSelectOptions(slot.course)}
@@ -13971,22 +13971,22 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-weight: 700; font-size: 11.5px;">Color de la Tarjeta:</label>
           <select id="edit-slot-color" class="form-control" style="font-size: 12px; font-weight: bold;">
-            <option value="navy" ${slot.color === 'navy' ? 'selected' : ''}>ðŸ”µ Azul Institucional</option>
-            <option value="gold" ${slot.color === 'gold' ? 'selected' : ''}>ðŸŸ¡ Dorado / Amarillo</option>
-            <option value="emerald" ${slot.color === 'emerald' ? 'selected' : ''}>ðŸŸ¢ Verde Esmeralda</option>
-            <option value="purple" ${slot.color === 'purple' ? 'selected' : ''}>ðŸŸ£ Morado</option>
-            <option value="red" ${slot.color === 'red' ? 'selected' : ''}>ðŸ”´ Rojo</option>
+            <option value="navy" ${slot.color === 'navy' ? 'selected' : ''}>🔵 Azul Institucional</option>
+            <option value="gold" ${slot.color === 'gold' ? 'selected' : ''}>🟡 Dorado / Amarillo</option>
+            <option value="emerald" ${slot.color === 'emerald' ? 'selected' : ''}>🟢 Verde Esmeralda</option>
+            <option value="purple" ${slot.color === 'purple' ? 'selected' : ''}>🟣 Morado</option>
+            <option value="red" ${slot.color === 'red' ? 'selected' : ''}>🔴 Rojo</option>
           </select>
         </div>
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline btn-sm" onclick="window.app.deleteScheduleSlot('${targetGradeId}', ${rowIndex}, '${dayKey}')" style="color: var(--color-red-600); border-color: #fca5a5; font-weight: 800;">
-          ðŸ—‘ï¸ Eliminar Clase de este Bloque
+          🗑️ Eliminar Clase de este Bloque
         </button>
         <div style="display: flex; gap: 6px;">
           <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
           <button class="btn btn-navy" onclick="window.app.saveScheduleSlot('${targetGradeId}', ${rowIndex}, '${dayKey}')" style="font-weight: 800;">
-            âœ“ Guardar Cambios
+            ✓ Guardar Cambios
           </button>
         </div>
       </div>
@@ -14001,14 +14001,14 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.store.updateScheduleSlot(gradeId, rowIndex, dayKey, { course, teacher, room, color });
     this.closeModal();
-    this.showToast(`âœ“ Horario de "${course}" actualizado en la base de datos`, "success");
+    this.showToast(`✓ Horario de "${course}" actualizado en la base de datos`, "success");
     this.render();
   }
 
   deleteScheduleSlot(gradeId, rowIndex, dayKey) {
     this.store.deleteScheduleSlot(gradeId, rowIndex, dayKey);
     this.closeModal();
-    this.showToast("âœ“ Clase eliminada del bloque horario (Hora liberada)", "info");
+    this.showToast("✓ Clase eliminada del bloque horario (Hora liberada)", "info");
     this.render();
   }
 
@@ -14019,29 +14019,29 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">âš¡ Generador de Horario AutomÃ¡tico Balanceado</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">⚡ Generador de Horario Automático Balanceado</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body">
         <div style="font-size: 13px; color: #1e293b; margin-bottom: 12px;">
-          Â¿Desea generar automÃ¡ticamente la matriz semanal de horario curricular para <strong>${currentGrade.label} (${currentGrade.level})</strong>?
+          ¿Desea generar automáticamente la matriz semanal de horario curricular para <strong>${currentGrade.label} (${currentGrade.level})</strong>?
         </div>
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; font-size: 12px; color: #475569;">
-          <div style="font-weight: 800; color: #1e3a8a; margin-bottom: 4px;">DistribuciÃ³n PedagÃ³gica 2026:</div>
+          <div style="font-weight: 800; color: #1e3a8a; margin-bottom: 4px;">Distribución Pedagógica 2026:</div>
           <ul style="margin: 0; padding-left: 18px; line-height: 1.6;">
-            <li>MatemÃ¡ticas (AritmÃ©tica, Ãlgebra, GeometrÃ­a, TrigonometrÃ­a, RM)</li>
-            <li>ComunicaciÃ³n (Lenguaje, Literatura, Razonamiento Verbal)</li>
-            <li>Ciencia y TecnologÃ­a (FÃ­sica, QuÃ­mica, BiologÃ­a)</li>
-            <li>Ciencias Sociales (Historia del PerÃº, GeografÃ­a, FilosofÃ­a)</li>
-            <li>ComputaciÃ³n & RobÃ³tica, InglÃ©s, Arte y DPCC</li>
-            <li>Recesos automÃ¡ticos de 10:30 a 10:50 am y Almuerzo de 01:20 a 01:50 pm.</li>
+            <li>Matemáticas (Aritmética, Álgebra, Geometría, Trigonometría, RM)</li>
+            <li>Comunicación (Lenguaje, Literatura, Razonamiento Verbal)</li>
+            <li>Ciencia y Tecnología (Física, Química, Biología)</li>
+            <li>Ciencias Sociales (Historia del Perú, Geografía, Filosofía)</li>
+            <li>Computación & Robótica, Inglés, Arte y DPCC</li>
+            <li>Recesos automáticos de 10:30 a 10:50 am y Almuerzo de 01:20 a 01:50 pm.</li>
           </ul>
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmGenerateAutoSchedule('${targetGradeId}')" style="font-weight: 800;">
-          âš¡ Generar y Publicar Horario Balanceado
+          ⚡ Generar y Publicar Horario Balanceado
         </button>
       </div>
     `);
@@ -14056,75 +14056,75 @@ CREATE TABLE tb_cuadernos_qr (
     const autoSchedule = [
       {
         time: "08:00 - 08:50",
-        mon: { course: "AritmÃ©tica", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "Lenguaje", teacher: "Miss MarÃ­a Daysi Reyes", room: room, color: "gold" },
-        wed: { course: "Ãlgebra", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        thu: { course: "FÃ­sica", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
-        fri: { course: "InglÃ©s", teacher: "Prof. Carlos Mendoza", room: room, color: "purple" }
+        mon: { course: "Aritmética", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Lenguaje", teacher: "Miss María Daysi Reyes", room: room, color: "gold" },
+        wed: { course: "Álgebra", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        thu: { course: "Física", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
+        fri: { course: "Inglés", teacher: "Prof. Carlos Mendoza", room: room, color: "purple" }
       },
       {
         time: "08:50 - 09:40",
-        mon: { course: "AritmÃ©tica", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "Lenguaje", teacher: "Miss MarÃ­a Daysi Reyes", room: room, color: "gold" },
-        wed: { course: "Ãlgebra", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        thu: { course: "FÃ­sica", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
-        fri: { course: "InglÃ©s", teacher: "Prof. Carlos Mendoza", room: room, color: "purple" }
+        mon: { course: "Aritmética", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Lenguaje", teacher: "Miss María Daysi Reyes", room: room, color: "gold" },
+        wed: { course: "Álgebra", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        thu: { course: "Física", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
+        fri: { course: "Inglés", teacher: "Prof. Carlos Mendoza", room: room, color: "purple" }
       },
       {
         time: "09:40 - 10:30",
-        mon: { course: "GeometrÃ­a", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "Literatura", teacher: "Miss MarÃ­a Daysi Reyes", room: room, color: "gold" },
-        wed: { course: "BiologÃ­a", teacher: "Miss Leyli Graciela Reyes", room: room, color: "emerald" },
-        thu: { course: "QuÃ­mica", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
-        fri: { course: "Historia del PerÃº", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" }
+        mon: { course: "Geometría", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Literatura", teacher: "Miss María Daysi Reyes", room: room, color: "gold" },
+        wed: { course: "Biología", teacher: "Miss Leyli Graciela Reyes", room: room, color: "emerald" },
+        thu: { course: "Química", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
+        fri: { course: "Historia del Perú", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" }
       },
       { time: "10:30 - 10:50", isBreak: true, title: "Receso Matutino" },
       {
         time: "10:50 - 11:40",
-        mon: { course: "TrigonometrÃ­a", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "Razonamiento Verbal", teacher: "Miss MarÃ­a Daysi Reyes", room: room, color: "gold" },
-        wed: { course: "QuÃ­mica", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
-        thu: { course: "ComputaciÃ³n & RobÃ³tica", teacher: "Prof. Fernando Rojas", room: "Lab. CÃ³mputo", color: "emerald" },
+        mon: { course: "Trigonometría", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes", room: room, color: "gold" },
+        wed: { course: "Química", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
+        thu: { course: "Computación & Robótica", teacher: "Prof. Fernando Rojas", room: "Lab. Cómputo", color: "emerald" },
         fri: { course: "Historia Universal", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" }
       },
       {
         time: "11:40 - 12:30",
-        mon: { course: "Razonamiento MatemÃ¡tico", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "CÃ­vica", teacher: "Prof. Manuel Soto", room: room, color: "red" },
-        wed: { course: "GeografÃ­a", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" },
-        thu: { course: "ComputaciÃ³n & RobÃ³tica", teacher: "Prof. Fernando Rojas", room: "Lab. CÃ³mputo", color: "emerald" },
-        fri: { course: "EducaciÃ³n FÃ­sica", teacher: "Prof. Dante Morales", room: "Patio Techado", color: "red" }
+        mon: { course: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Cívica", teacher: "Prof. Manuel Soto", room: room, color: "red" },
+        wed: { course: "Geografía", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" },
+        thu: { course: "Computación & Robótica", teacher: "Prof. Fernando Rojas", room: "Lab. Cómputo", color: "emerald" },
+        fri: { course: "Educación Física", teacher: "Prof. Dante Morales", room: "Patio Techado", color: "red" }
       },
       {
         time: "12:30 - 01:20",
-        mon: { course: "Razonamiento MatemÃ¡tico", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "PsicologÃ­a", teacher: "Prof. Manuel Soto", room: room, color: "red" },
-        wed: { course: "FilosofÃ­a", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" },
+        mon: { course: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
+        tue: { course: "Psicología", teacher: "Prof. Manuel Soto", room: room, color: "red" },
+        wed: { course: "Filosofía", teacher: "Prof. Alejandro Vargas", room: room, color: "purple" },
         thu: { course: "Arte y Cultura", teacher: "Miss Rosa Linares", room: "Taller Arte", color: "gold" },
-        fri: { course: "EducaciÃ³n FÃ­sica", teacher: "Prof. Dante Morales", room: "Patio Techado", color: "red" }
+        fri: { course: "Educación Física", teacher: "Prof. Dante Morales", room: "Patio Techado", color: "red" }
       },
       { time: "01:20 - 01:50", isBreak: true, isLunch: true, title: "Almuerzo Escolar" },
       {
         time: "01:50 - 02:40",
-        mon: { course: "ComputaciÃ³n", teacher: "Prof. Fernando Rojas", room: "Lab. CÃ³mputo", color: "emerald" },
-        tue: { course: "BiologÃ­a", teacher: "Miss Leyli Graciela Reyes", room: room, color: "emerald" },
-        wed: { course: "GestiÃ³n Empresarial", teacher: "Prof. Fernando Rojas", room: room, color: "gold" },
-        thu: { course: "TutorÃ­a & OrientaciÃ³n", teacher: currentGrade.tutor || "Prof. Roberto Silva", room: room, color: "red" },
-        fri: { course: "EducaciÃ³n Religiosa", teacher: "Prof. Manuel Soto", room: room, color: "purple" }
+        mon: { course: "Computación", teacher: "Prof. Fernando Rojas", room: "Lab. Cómputo", color: "emerald" },
+        tue: { course: "Biología", teacher: "Miss Leyli Graciela Reyes", room: room, color: "emerald" },
+        wed: { course: "Gestión Empresarial", teacher: "Prof. Fernando Rojas", room: room, color: "gold" },
+        thu: { course: "Tutoría & Orientación", teacher: currentGrade.tutor || "Prof. Roberto Silva", room: room, color: "red" },
+        fri: { course: "Educación Religiosa", teacher: "Prof. Manuel Soto", room: room, color: "purple" }
       },
       {
         time: "02:40 - 03:30",
         mon: { course: "Taller de Refuerzo", teacher: "Prof. Roberto Silva", room: room, color: "navy" },
-        tue: { course: "CÃ­rculo de Lectura", teacher: "Miss MarÃ­a Daysi Reyes", room: room, color: "gold" },
+        tue: { course: "Círculo de Lectura", teacher: "Miss María Daysi Reyes", room: room, color: "gold" },
         wed: { course: "Taller de Ciencias", teacher: "Miss Leyli Graciela Reyes", room: "Lab. Ciencias", color: "emerald" },
-        thu: { course: "Club de RobÃ³tica", teacher: "Prof. Fernando Rojas", room: "Lab. CÃ³mputo", color: "emerald" },
-        fri: { course: "EvaluaciÃ³n & RetroalimentaciÃ³n", teacher: currentGrade.tutor || "Prof. Roberto Silva", room: room, color: "red" }
+        thu: { course: "Club de Robótica", teacher: "Prof. Fernando Rojas", room: "Lab. Cómputo", color: "emerald" },
+        fri: { course: "Evaluación & Retroalimentación", teacher: currentGrade.tutor || "Prof. Roberto Silva", room: room, color: "red" }
       }
     ];
 
     this.store.setFullGradeSchedule(targetGradeId, autoSchedule);
     this.closeModal();
-    this.showToast(`âœ“ Horario automÃ¡tico balanceado generado y publicado para ${currentGrade.label}`, "success");
+    this.showToast(`✓ Horario automático balanceado generado y publicado para ${currentGrade.label}`, "success");
     this.render();
   }
 
@@ -14134,12 +14134,12 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">ðŸ“‹ Clonar Horario a Otra Aula / SecciÃ³n</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">âœ•</button>
+        <h3 style="color: #ffffff;">📋 Clonar Horario a Otra Aula / Sección</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body">
         <div style="font-size: 13px; color: #1e293b; margin-bottom: 12px;">
-          Copiar la estructura y distribuciÃ³n horaria de <strong>${currentGrade.label}</strong> hacia:
+          Copiar la estructura y distribución horaria de <strong>${currentGrade.label}</strong> hacia:
         </div>
         <div class="form-group">
           <label class="form-label" style="font-weight: 800;">Aula de Destino:</label>
@@ -14151,7 +14151,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmCloneSchedule('${sourceGradeId}')" style="font-weight: 800;">
-          ðŸ“‹ Confirmar y Clonar Horario
+          📋 Confirmar y Clonar Horario
         </button>
       </div>
     `);
@@ -14164,7 +14164,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.store.cloneSchedule(sourceGradeId, targetGradeId);
     this.closeModal();
-    this.showToast(`âœ“ Horario clonado exitosamente a ${targetGrade ? targetGrade.label : targetGradeId}`, "success");
+    this.showToast(`✓ Horario clonado exitosamente a ${targetGrade ? targetGrade.label : targetGradeId}`, "success");
     this.store.setSelectedScheduleGrade(targetGradeId);
     this.render();
   }
@@ -14173,17 +14173,17 @@ CREATE TABLE tb_cuadernos_qr (
     const catalog = this.store.state.gradesCatalog || initialData.gradesCatalog;
     const currentGrade = catalog.find(g => g.id === gradeId) || catalog[4];
 
-    if (confirm(`Â¿EstÃ¡ seguro de que desea limpiar todos los bloques lectivos del horario de ${currentGrade.label}? Los recesos se mantendrÃ¡n.`)) {
+    if (confirm(`¿Está seguro de que desea limpiar todos los bloques lectivos del horario de ${currentGrade.label}? Los recesos se mantendrán.`)) {
       this.store.clearGradeSchedule(gradeId);
-      this.showToast(`âœ“ Horario de ${currentGrade.label} reseteado a plantilla vacÃ­a`, "info");
+      this.showToast(`✓ Horario de ${currentGrade.label} reseteado a plantilla vacía`, "info");
       this.render();
     }
   }
 
-  // SÃ­labus
+  // Sílabus
   openCreateSyllabusModal() {
     this.showModal(`
-      <div class="modal-header"><h3>+ Crear SÃ­labo</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>+ Crear Sílabo</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body">
         <div class="form-group"><label class="form-label">Curso:</label><input type="text" id="new-sil-name" class="form-control" /></div>
         <div class="form-group"><label class="form-label">Docente:</label><input type="text" id="new-sil-teacher" class="form-control" /></div>
@@ -14198,14 +14198,14 @@ CREATE TABLE tb_cuadernos_qr (
     if (!courseName) return;
     this.store.createSyllabus({ courseName, teacher: teacher || "Docente Asignado" });
     this.closeModal();
-    this.showToast("âœ“ SÃ­labo guardado en el servidor", "success");
+    this.showToast("✓ Sílabo guardado en el servidor", "success");
   }
 
   openEditSyllabusModal(syllabusId) {
     const syllabus = this.store.state.syllabi.find(s => s.id === syllabusId);
     if (!syllabus) return;
     this.showModal(`
-      <div class="modal-header"><h3>âœï¸ Editar SÃ­labo</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>✏️ Editar Sílabo</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body">
         <div class="form-group"><label class="form-label">Curso:</label><input type="text" id="edit-sil-name" class="form-control" value="${syllabus.courseName}" /></div>
         <div class="form-group"><label class="form-label">Docente:</label><input type="text" id="edit-sil-teacher" class="form-control" value="${syllabus.teacher}" /></div>
@@ -14219,13 +14219,13 @@ CREATE TABLE tb_cuadernos_qr (
     const teacher = document.getElementById("edit-sil-teacher").value;
     this.store.updateSyllabus(syllabusId, { courseName, teacher });
     this.closeModal();
-    this.showToast("âœ“ SÃ­labo actualizado en base de datos", "success");
+    this.showToast("✓ Sílabo actualizado en base de datos", "success");
   }
 
   confirmDeleteSyllabus(syllabusId) {
-    if (confirm("Â¿Eliminar sÃ­labo de la base de datos?")) {
+    if (confirm("¿Eliminar sílabo de la base de datos?")) {
       this.store.deleteSyllabus(syllabusId);
-      this.showToast("SÃ­labo eliminado de la base de datos", "info");
+      this.showToast("Sílabo eliminado de la base de datos", "info");
     }
   }
 
@@ -14233,7 +14233,7 @@ CREATE TABLE tb_cuadernos_qr (
     const review = this.store.state.notebookReviews.find(r => r.id === reviewId);
     if (!review) return;
     this.showModal(`
-      <div class="modal-header"><h3>âœï¸ Modificar RevisiÃ³n QR</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>✏️ Modificar Revisión QR</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body">
         <div class="form-group"><label class="form-label">Nota (0-20):</label><input type="number" id="edit-rev-score" class="form-control" value="${review.score}" /></div>
       </div>
@@ -14245,21 +14245,21 @@ CREATE TABLE tb_cuadernos_qr (
     const score = parseFloat(document.getElementById("edit-rev-score").value) || 0;
     this.store.updateNotebookReview(reviewId, { score });
     this.closeModal();
-    this.showToast("âœ“ Registro de cuaderno actualizado en DB", "success");
+    this.showToast("✓ Registro de cuaderno actualizado en DB", "success");
   }
 
   openStickerSheetModal() {
     this.setNotebookActiveSubTab('stickers');
   }
 
-  // Cambiar pestaÃ±a del MÃ³dulo de Calificaciones
+  // Cambiar pestaña del Módulo de Calificaciones
   setGradesActiveTab(tab) {
     this.store.state.activeGradesTab = tab;
     this.store.saveState();
     this.render();
   }
 
-  // Cambiar Asignatura Activa para Calificar (Docente de Ãrea)
+  // Cambiar Asignatura Activa para Calificar (Docente de Área)
   changeSelectedGradingSubject(subjectKey) {
     this.store.state.selectedGradingSubject = subjectKey;
     this.store.saveState();
@@ -14302,11 +14302,11 @@ CREATE TABLE tb_cuadernos_qr (
     }
 
     this.store.saveSubjectGrades(subjectKey, studentsGradesMap);
-    this.showToast(`âœ“ Calificaciones de ${subjectKey.toUpperCase().replace(/_/g, ' ')} guardadas y consolidadas en las boletas.`, "success");
+    this.showToast(`✓ Calificaciones de ${subjectKey.toUpperCase().replace(/_/g, ' ')} guardadas y consolidadas en las boletas.`, "success");
     this.render();
   }
 
-  // Guardar EvaluaciÃ³n de TutorÃ­a (Apreciaciones, Asistencias y Familias) por el Tutor de Aula
+  // Guardar Evaluación de Tutoría (Apreciaciones, Asistencias y Familias) por el Tutor de Aula
   handleSaveTutorEvaluation(e, studentKey) {
     if (e) e.preventDefault();
     const form = e.target;
@@ -14364,7 +14364,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     const allBoletas = this.store.state.boletaData || initialData.boletaData;
     const student = allBoletas[studentKey] || allBoletas.mendez;
-    this.showToast(`âœ“ EvaluaciÃ³n de TutorÃ­a de ${student.name} guardada exitosamente.`, "success");
+    this.showToast(`✓ Evaluación de Tutoría de ${student.name} guardada exitosamente.`, "success");
     this.render();
   }
 
@@ -14419,7 +14419,7 @@ CREATE TABLE tb_cuadernos_qr (
       appreciations: updatedAppreciations
     });
 
-    this.showToast(`âœ“ Calificaciones de ${currentStudent.name} guardadas y boleta oficial sincronizada.`, "success");
+    this.showToast(`✓ Calificaciones de ${currentStudent.name} guardadas y boleta oficial sincronizada.`, "success");
   }
 
   // Cambiar el Estudiante para la Boleta Oficial
@@ -14429,7 +14429,7 @@ CREATE TABLE tb_cuadernos_qr (
     this.render();
   }
 
-  // MÃ©todos de Control para el Horario Docente y Horario por Aula
+  // Métodos de Control para el Horario Docente y Horario por Aula
   setTeacherScheduleTab(tab) {
     this.store.setTeacherScheduleTab(tab);
     this.render();
@@ -14462,33 +14462,33 @@ CREATE TABLE tb_cuadernos_qr (
 
   // Modal Imprimible del Informe de Cuadernos para Apoderados
   openPrintParentNotebookReportModal() {
-    const studentName = "SofÃ­a MÃ©ndez Flores";
+    const studentName = "Sofía Méndez Flores";
     const studentIdCode = "EST-2026-042";
     const studentGrade = "4to de Secundaria";
     const studentDni = "74891230";
     const studentTutor = "Prof. Roberto Silva";
-    const parentName = (this.store.state.users.padre && this.store.state.users.padre.name) || "Dra. Carmen MÃ©ndez";
+    const parentName = (this.store.state.users.padre && this.store.state.users.padre.name) || "Dra. Carmen Méndez";
 
     const notebooks = [
-      { course: "MatemÃ¡tica", teacher: "Prof. Roberto Silva", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Tareas completas al 100%, mÃ¡rgenes impecables y esquemas en orden." },
-      { course: "ComunicaciÃ³n", teacher: "Miss MarÃ­a Daysi Reyes", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "17 (A)", remarks: "AnÃ¡lisis de textos y caligrafÃ­a Ã³ptima. Muy buen desarrollo." },
-      { course: "Ciencia y TecnologÃ­a", teacher: "Miss Leyli Reyes", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "18 (AD)", remarks: "PrÃ¡cticas experimentales ilustradas y fichas de laboratorio selladas." },
-      { course: "Ciencias Sociales", teacher: "Prof. Javier Vega", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "16 (A)", remarks: "Mapas histÃ³ricos y resÃºmenes de Ã©poca bien estructurados." },
-      { course: "InglÃ©s", teacher: "Miss Andrea Ramos", statusLabel: "ðŸŸ¢ REVISADO & AL DÃA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramÃ¡tica avanzados completos." },
-      { course: "EPT (ComputaciÃ³n)", teacher: "Prof. Alex Lino", statusLabel: "ðŸŸ¡ OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto tÃ©cnico NÂ° 3. Presentar este viernes." }
+      { course: "Matemática", teacher: "Prof. Roberto Silva", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+      { course: "Comunicación", teacher: "Miss María Daysi Reyes", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+      { course: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+      { course: "Ciencias Sociales", teacher: "Prof. Javier Vega", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+      { course: "Inglés", teacher: "Miss Andrea Ramos", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+      { course: "EPT (Computación)", teacher: "Prof. Alex Lino", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
     ];
 
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ“„ Informe Oficial de RevisiÃ³n de Cuadernos - ${studentName}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>📄 Informe Oficial de Revisión de Cuadernos - ${studentName}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         ${Components.renderOfficialInstitutionalHeader("INFORME OFICIAL DE SELLADO DE CUADERNOS POR QR", "SEGUIMIENTO BIMESTRAL 2026")}
         
         <div style="margin: 16px 0; font-size: 13px; line-height: 1.6; background: #f8fafc; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
           <p style="margin: 2px 0;"><strong>Estudiante Matriculada:</strong> ${studentName} (<code>${studentIdCode}</code>)</p>
-          <p style="margin: 2px 0;"><strong>Grado y SecciÃ³n:</strong> ${studentGrade} â€¢ <strong>DNI:</strong> ${studentDni}</p>
+          <p style="margin: 2px 0;"><strong>Grado y Sección:</strong> ${studentGrade} • <strong>DNI:</strong> ${studentDni}</p>
           <p style="margin: 2px 0;"><strong>Apoderada Responsable:</strong> ${parentName}</p>
           <p style="margin: 2px 0;"><strong>Tutor de Aula:</strong> ${studentTutor}</p>
           <p style="margin: 2px 0;"><strong>Estado de Cuadernos:</strong> 5 de 6 Cuadernos Sellados y Aprobados (83.3% de Cumplimiento)</p>
@@ -14501,7 +14501,7 @@ CREATE TABLE tb_cuadernos_qr (
               <th>Docente</th>
               <th>Sello QR</th>
               <th style="text-align:center;">Nota</th>
-              <th>ObservaciÃ³n del Docente</th>
+              <th>Observación del Docente</th>
             </tr>
           </thead>
           <tbody>
@@ -14510,7 +14510,7 @@ CREATE TABLE tb_cuadernos_qr (
                 <td><strong>${n.course}</strong></td>
                 <td>${n.teacher}</td>
                 <td>${n.statusLabel}</td>
-                <td style="text-align:center;"><strong style="color: ${n.statusLabel.includes('AL DÃA') ? '#15803d' : '#b45309'};">${n.score}</strong></td>
+                <td style="text-align:center;"><strong style="color: ${n.statusLabel.includes('AL DÍA') ? '#15803d' : '#b45309'};">${n.score}</strong></td>
                 <td style="font-size: 11px;">${n.remarks}</td>
               </tr>
             `).join('')}
@@ -14522,12 +14522,12 @@ CREATE TABLE tb_cuadernos_qr (
             <strong>${studentTutor}</strong><br>Tutor de 4to Sec. 'A'
           </div>
           <div style="border-top: 1px solid #000; width: 40%; padding-top: 6px;">
-            <strong>Prof. Alex Lino</strong><br>CoordinaciÃ³n AcadÃ©mica S.J.L.
+            <strong>Prof. Alex Lino</strong><br>Coordinación Académica S.J.L.
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-gold" onclick="window.print()">ðŸ–¨ï¸ Imprimir Documento</button>
+        <button class="btn btn-gold" onclick="window.print()">🖨️ Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14537,7 +14537,7 @@ CREATE TABLE tb_cuadernos_qr (
     const s = this.store.state.syllabi.find(x => x.id === syllabusId) || this.store.state.syllabi[0];
     if (!s) return;
     this.showModal(`
-      <div class="modal-header"><h3>${s.courseName}</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>${s.courseName}</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body"><p>Docente: ${s.teacher}</p></div>
       <div class="modal-footer"><button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button></div>
     `);
@@ -14545,7 +14545,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   openSubmitModal(taskId) {
     this.showModal(`
-      <div class="modal-header"><h3>Entregar Tarea</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>Entregar Tarea</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body"><p>Selecciona tu archivo para enviar</p></div>
       <div class="modal-footer"><button class="btn btn-red" onclick="window.app.confirmSubmitTask('${taskId}')">Enviar</button></div>
     `);
@@ -14558,13 +14558,13 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // PASARELA DE PAGO ONLINE Y DESBLOQUEO AUTOMÃTICO DE INTRANET
+  // PASARELA DE PAGO ONLINE Y DESBLOQUEO AUTOMÁTICO DE INTRANET
   // =========================================================================
-  openPayModal(paymentId, amount = 480.00, concept = "PensiÃ³n Escolar - Agosto 2026") {
+  openPayModal(paymentId, amount = 480.00, concept = "Pensión Escolar - Agosto 2026") {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ’³ Pagar con Tarjeta & Desbloquear Intranet</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>💳 Pagar con Tarjeta & Desbloquear Intranet</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: var(--color-navy-50); padding: 12px; border-radius: 8px; margin-bottom: 16px;">
@@ -14576,8 +14576,8 @@ CREATE TABLE tb_cuadernos_qr (
 
         <form id="card-payment-form" onsubmit="window.app.processCardPayment(event, '${paymentId}', ${amount})">
           <div class="form-group">
-            <label class="form-label">NÃºmero de Tarjeta (CrÃ©dito / DÃ©bito):</label>
-            <input type="text" id="pay-card-number" class="form-control" placeholder="4557 â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢ 1234" required value="4557 8921 3456 1234" />
+            <label class="form-label">Número de Tarjeta (Crédito / Débito):</label>
+            <input type="text" id="pay-card-number" class="form-control" placeholder="4557 •••• •••• 1234" required value="4557 8921 3456 1234" />
           </div>
           
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
@@ -14586,18 +14586,18 @@ CREATE TABLE tb_cuadernos_qr (
               <input type="text" id="pay-card-expiry" class="form-control" placeholder="08/28" required value="08/28" />
             </div>
             <div class="form-group">
-              <label class="form-label">CVV (3 dÃ­gitos):</label>
-              <input type="password" id="pay-card-cvv" class="form-control" placeholder="â€¢â€¢â€¢" required value="789" maxlength="4" />
+              <label class="form-label">CVV (3 dígitos):</label>
+              <input type="password" id="pay-card-cvv" class="form-control" placeholder="•••" required value="789" maxlength="4" />
             </div>
           </div>
 
           <div class="form-group">
             <label class="form-label">Titular de la Tarjeta:</label>
-            <input type="text" id="pay-card-name" class="form-control" placeholder="Nombre como figura en la tarjeta" required value="Dra. Carmen MÃ©ndez" />
+            <input type="text" id="pay-card-name" class="form-control" placeholder="Nombre como figura en la tarjeta" required value="Dra. Carmen Méndez" />
           </div>
 
           <button type="submit" class="btn btn-red" style="width: 100%; padding: 12px; font-weight: 900; font-size: 14px; margin-top: 8px;">
-            ðŸ”’ Pagar S/ ${amount.toFixed(2)} y Validar Acceso
+            🔒 Pagar S/ ${amount.toFixed(2)} y Validar Acceso
           </button>
         </form>
       </div>
@@ -14612,7 +14612,7 @@ CREATE TABLE tb_cuadernos_qr (
     this.showToast("Procesando pago con pasarela bancaria segura...", "info");
     
     setTimeout(() => {
-      const res = this.store.payAndUnlockIntranet(paymentId, "Tarjeta Visa / DÃ©bito");
+      const res = this.store.payAndUnlockIntranet(paymentId, "Tarjeta Visa / Débito");
       this.closeModal();
       this.showPaymentSuccessReceiptModal(res);
     }, 450);
@@ -14621,14 +14621,14 @@ CREATE TABLE tb_cuadernos_qr (
   openYapePayModal(paymentId, amount = 480.00) {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ“± Pagar con Yape / Plin Institucional</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>📱 Pagar con Yape / Plin Institucional</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="text-align: center;">
         <div style="background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%); color: white; padding: 14px; border-radius: 8px; margin-bottom: 14px;">
-          <div style="font-size: 12px; font-weight: bold; opacity: 0.9;">I.E.P. "EL EDUCADOR" - TESORERÃA</div>
+          <div style="font-size: 12px; font-weight: bold; opacity: 0.9;">I.E.P. "EL EDUCADOR" - TESORERÍA</div>
           <div style="font-size: 20px; font-weight: 900; margin: 4px 0;">987-654-321</div>
-          <div style="font-size: 11px;">Titular: Prof. Alex Lino (CoordinaciÃ³n)</div>
+          <div style="font-size: 11px;">Titular: Prof. Alex Lino (Coordinación)</div>
         </div>
 
         <div style="display: flex; justify-content: center; margin-bottom: 12px;">
@@ -14642,12 +14642,12 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
 
         <div class="form-group" style="text-align: left;">
-          <label class="form-label">CÃ³digo de AprobaciÃ³n o NÂ° de Celular Emisor:</label>
+          <label class="form-label">Código de Aprobación o N° de Celular Emisor:</label>
           <input type="text" id="yape-code-input" class="form-control" placeholder="Ej: 849201" value="849201" />
         </div>
 
         <button class="btn btn-red" onclick="window.app.processYapePayment('${paymentId}', ${amount})" style="width: 100%; font-weight: 800;">
-          âœ“ Validar Yape y Desbloquear Intranet
+          ✓ Validar Yape y Desbloquear Intranet
         </button>
       </div>
       <div class="modal-footer">
@@ -14659,12 +14659,12 @@ CREATE TABLE tb_cuadernos_qr (
   processYapePayment(paymentId, amount) {
     const code = document.getElementById("yape-code-input").value;
     if (!code) {
-      this.showToast("Ingrese el cÃ³digo de aprobaciÃ³n de Yape", "danger");
+      this.showToast("Ingrese el código de aprobación de Yape", "danger");
       return;
     }
-    this.showToast("Verificando operaciÃ³n Yape en lÃ­nea...", "info");
+    this.showToast("Verificando operación Yape en línea...", "info");
     setTimeout(() => {
-      const res = this.store.payAndUnlockIntranet(paymentId, "Yape MÃ³vil");
+      const res = this.store.payAndUnlockIntranet(paymentId, "Yape Móvil");
       this.closeModal();
       this.showPaymentSuccessReceiptModal(res);
     }, 450);
@@ -14673,24 +14673,24 @@ CREATE TABLE tb_cuadernos_qr (
   openBankTransferModal(paymentId, amount = 480.00) {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ¦ DepÃ³sito Bancario / Agente BCP</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>🏦 Depósito Bancario / Agente BCP</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: var(--bg-surface-subtle); padding: 12px; border-radius: 6px; font-size: 12px; line-height: 1.6; margin-bottom: 12px;">
           <strong>Cuentas Recaudadoras I.E.P. "El Educador":</strong><br>
-          â€¢ <strong>BCP Cta Cte:</strong> 191-89347291-0-45 (CCI: 002-191-0089347291045)<br>
-          â€¢ <strong>BBVA Continental:</strong> 0011-0238-0100049281<br>
-          â€¢ <strong>Banco de la NaciÃ³n:</strong> 04-018-492819
+          • <strong>BCP Cta Cte:</strong> 191-89347291-0-45 (CCI: 002-191-0089347291045)<br>
+          • <strong>BBVA Continental:</strong> 0011-0238-0100049281<br>
+          • <strong>Banco de la Nación:</strong> 04-018-492819
         </div>
 
         <div class="form-group">
-          <label class="form-label">NÃºmero de OperaciÃ³n del Voucher:</label>
+          <label class="form-label">Número de Operación del Voucher:</label>
           <input type="text" id="bank-op-input" class="form-control" placeholder="Ej: OP-9482104" value="OP-9482104" />
         </div>
 
         <button class="btn btn-red" onclick="window.app.processBankPayment('${paymentId}', ${amount})" style="width: 100%; font-weight: 800;">
-          âœ“ Validar DepÃ³sito y Desbloquear Intranet
+          ✓ Validar Depósito y Desbloquear Intranet
         </button>
       </div>
       <div class="modal-footer">
@@ -14702,12 +14702,12 @@ CREATE TABLE tb_cuadernos_qr (
   processBankPayment(paymentId, amount) {
     const op = document.getElementById("bank-op-input").value;
     if (!op) {
-      this.showToast("Ingrese el nÃºmero de operaciÃ³n bancaria", "danger");
+      this.showToast("Ingrese el número de operación bancaria", "danger");
       return;
     }
-    this.showToast("Validando voucher con tesorerÃ­a...", "info");
+    this.showToast("Validando voucher con tesorería...", "info");
     setTimeout(() => {
-      const res = this.store.payAndUnlockIntranet(paymentId, "DepÃ³sito Bancario BCP");
+      const res = this.store.payAndUnlockIntranet(paymentId, "Depósito Bancario BCP");
       this.closeModal();
       this.showPaymentSuccessReceiptModal(res);
     }, 450);
@@ -14716,12 +14716,12 @@ CREATE TABLE tb_cuadernos_qr (
   showPaymentSuccessReceiptModal(res) {
     this.showModal(`
       <div class="modal-header" style="background: #22c55e; color: white;">
-        <h3 style="color: white;">ðŸŽ‰ Â¡PAGO VALIDADO CON Ã‰XITO!</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <h3 style="color: white;">🎉 ¡PAGO VALIDADO CON ÉXITO!</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 24px;">
         <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain; margin-bottom: 8px;" />
-        <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" â€¢ S.J.L. â€¢ UGEL 05</div>
+        <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" • S.J.L. • UGEL 05</div>
         <h3 style="color: #0b132b; margin: 8px 0 4px;">RECIBO OFICIAL DE PAGO</h3>
         <div style="font-size: 14px; font-weight: bold; color: #22c55e;">${res.receiptNo}</div>
 
@@ -14729,42 +14729,42 @@ CREATE TABLE tb_cuadernos_qr (
           <div><strong>Monto Cancelado:</strong> S/ ${res.amount.toFixed(2)}</div>
           <div><strong>Medio de Pago:</strong> ${res.method}</div>
           <div><strong>Fecha & Hora:</strong> ${res.date}</div>
-          <div><strong>Estado de Intranet:</strong> <span class="status-badge status-approved" style="background:#22c55e; color:#0b132b; font-weight:800;">ðŸŸ¢ DESBLOQUEADO Y AL DÃA</span></div>
+          <div><strong>Estado de Intranet:</strong> <span class="status-badge status-approved" style="background:#22c55e; color:#0b132b; font-weight:800;">🟢 DESBLOQUEADO Y AL DÍA</span></div>
         </div>
 
         <div style="background: #ecfdf5; border: 1px solid #a7f3d0; padding: 10px; border-radius: 6px; color: #065f46; font-size: 12px; font-weight: bold;">
-          âœ“ Ya puede consultar libremente el Registro de Notas, Horarios, Boletas y Control de Cuadernos QR.
+          ✓ Ya puede consultar libremente el Registro de Notas, Horarios, Boletas y Control de Cuadernos QR.
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">ðŸ–¨ï¸ Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Recibo</button>
         <button class="btn btn-gold" onclick="window.app.closeModal()">Continuar a la Intranet</button>
       </div>
     `);
-    this.showToast("âœ“ Â¡Intranet validada y desbloqueada automÃ¡ticamente!", "success");
+    this.showToast("✓ ¡Intranet validada y desbloqueada automáticamente!", "success");
   }
 
-  // Control de Bloqueo por CoordinaciÃ³n
+  // Control de Bloqueo por Coordinación
   toggleFamilyLock(familyId) {
     const isLocked = this.store.toggleFamilyAccessLock(familyId);
     if (isLocked !== null) {
-      this.showToast(isLocked ? "ðŸ”´ Acceso a Intranet BLOQUEADO por mora" : "ðŸŸ¢ Acceso a Intranet DESBLOQUEADO / PrÃ³rroga concedida", isLocked ? "danger" : "success");
+      this.showToast(isLocked ? "🔴 Acceso a Intranet BLOQUEADO por mora" : "🟢 Acceso a Intranet DESBLOQUEADO / Prórroga concedida", isLocked ? "danger" : "success");
     }
   }
 
   openManualPaymentModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>ðŸ’µ Registrar Pago en Caja (CoordinaciÃ³n / TesorerÃ­a)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>💵 Registrar Pago en Caja (Coordinación / Tesorería)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div class="form-group">
           <label class="form-label">Seleccionar Familia / Estudiante:</label>
           <select id="man-family-select" class="form-control">
-            <option value="FAM-2026-108">Dra. Carmen MÃ©ndez (SofÃ­a MÃ©ndez - 4to Sec A) - S/ 480.00</option>
-            <option value="FAM-2026-044">Sr. Roberto DÃ­az (Carlos BenÃ­tez - 4to Sec A) - S/ 0.00</option>
-            <option value="FAM-2026-092">Sra. Teresa Oropeza (Brini Pocomo - 5 aÃ±os) - S/ 0.00</option>
+            <option value="FAM-2026-108">Dra. Carmen Méndez (Sofía Méndez - 4to Sec A) - S/ 480.00</option>
+            <option value="FAM-2026-044">Sr. Roberto Díaz (Carlos Benítez - 4to Sec A) - S/ 0.00</option>
+            <option value="FAM-2026-092">Sra. Teresa Oropeza (Brini Pocomo - 5 años) - S/ 0.00</option>
           </select>
         </div>
 
@@ -14777,7 +14777,7 @@ CREATE TABLE tb_cuadernos_qr (
             <label class="form-label">Medio de Pago:</label>
             <select id="man-method" class="form-control">
               <option value="Efectivo (Caja Colegio)">Efectivo (Caja Colegio)</option>
-              <option value="DepÃ³sito Agente BCP">DepÃ³sito Agente BCP</option>
+              <option value="Depósito Agente BCP">Depósito Agente BCP</option>
               <option value="POS Tarjeta">POS Tarjeta</option>
             </select>
           </div>
@@ -14785,13 +14785,13 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div class="form-group">
           <label class="form-label">Concepto:</label>
-          <input type="text" id="man-concept" class="form-control" value="PensiÃ³n Escolar - Agosto 2026" />
+          <input type="text" id="man-concept" class="form-control" value="Pensión Escolar - Agosto 2026" />
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold" onclick="window.app.confirmManualPayment()">
-          âœ“ Registrar en Caja y Desbloquear Familia
+          ✓ Registrar en Caja y Desbloquear Familia
         </button>
       </div>
     `);
@@ -14804,7 +14804,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     const res = this.store.payAndUnlockIntranet("PEN-08", method);
     this.closeModal();
-    this.showToast(`âœ“ Pago de S/ ${amount.toFixed(2)} registrado en caja. Familia desbloqueada en tiempo real.`, "success");
+    this.showToast(`✓ Pago de S/ ${amount.toFixed(2)} registrado en caja. Familia desbloqueada en tiempo real.`, "success");
     setTimeout(() => this.showPaymentSuccessReceiptModal(res), 350);
   }
 
@@ -14812,21 +14812,21 @@ CREATE TABLE tb_cuadernos_qr (
     const p = this.store.getPayments().find(x => x.id === paymentId) || this.store.getPayments()[1];
     if (!p) return;
     this.showModal(`
-      <div class="modal-header"><h3>ðŸ“„ Recibo Oficial de TesorerÃ­a</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>📄 Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body" style="text-align:center; padding:20px;">
         <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 6px;" />
-        <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" (S.J.L.) â€¢ 21 aÃ±os dejando huellas</div>
+        <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" (S.J.L.) • 21 años dejando huellas</div>
         <h3 style="color:#0b132b; margin:6px 0;">${p.receiptNo || 'REC-2026-7890'}</h3>
         <div style="background:var(--bg-surface-subtle); padding:12px; border-radius:6px; text-align:left; font-size:13px; margin:12px 0;">
           <div><strong>Concepto:</strong> ${p.concept}</div>
           <div><strong>Monto:</strong> S/ ${p.amount.toFixed(2)}</div>
-          <div><strong>Fecha de CancelaciÃ³n:</strong> ${p.paidDate || '25/07/2026'}</div>
-          <div><strong>Medio:</strong> ${p.paymentMethod || 'Pago ElectrÃ³nico'}</div>
+          <div><strong>Fecha de Cancelación:</strong> ${p.paidDate || '25/07/2026'}</div>
+          <div><strong>Medio:</strong> ${p.paymentMethod || 'Pago Electrónico'}</div>
           <div><strong>Estado:</strong> <span class="status-badge status-approved">CANCELADO</span></div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">ðŸ–¨ï¸ Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Recibo</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14834,7 +14834,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   openJustificationModal() {
     this.showModal(`
-      <div class="modal-header"><h3>Justificar Inasistencia</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>Justificar Inasistencia</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body"><textarea id="just-reason-input" class="form-control" placeholder="Motivo..."></textarea></div>
       <div class="modal-footer"><button class="btn btn-gold" onclick="window.app.confirmJustification()">Enviar</button></div>
     `);
@@ -14843,14 +14843,14 @@ CREATE TABLE tb_cuadernos_qr (
   confirmJustification() {
     this.store.submitJustification("15/08/2026", document.getElementById("just-reason-input").value);
     this.closeModal();
-    this.showToast("JustificaciÃ³n enviada al servidor", "success");
+    this.showToast("Justificación enviada al servidor", "success");
   }
 
   openNewAnnouncementModal() {
     this.showModal(`
-      <div class="modal-header"><h3>Publicar Aviso</h3><button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button></div>
+      <div class="modal-header"><h3>Publicar Aviso</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body">
-        <input type="text" id="ann-title-input" class="form-control" placeholder="TÃ­tulo" style="margin-bottom:8px;" />
+        <input type="text" id="ann-title-input" class="form-control" placeholder="Título" style="margin-bottom:8px;" />
         <textarea id="ann-content-input" class="form-control" placeholder="Contenido..."></textarea>
       </div>
       <div class="modal-footer"><button class="btn btn-red" onclick="window.app.confirmAddAnnouncement()">Publicar</button></div>
@@ -14872,34 +14872,34 @@ CREATE TABLE tb_cuadernos_qr (
     if (!course) return;
     this.showModal(`
       <div class="modal-header">
-        <h3>âœï¸ Modificar Registro de Notas: ${course.name}</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3>✏️ Modificar Registro de Notas: ${course.name}</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div style="display:flex; justify-content:space-between; margin-bottom: 12px; font-size: 13px;">
           <div><strong>Docente:</strong> ${course.teacher}</div>
-          <div><strong>CÃ³digo:</strong> <code>${course.code}</code></div>
+          <div><strong>Código:</strong> <code>${course.code}</code></div>
         </div>
         <div class="form-group">
-          <label class="form-label">Nombre del Ãrea Curricular:</label>
+          <label class="form-label">Nombre del Área Curricular:</label>
           <input type="text" id="edit-c-name" class="form-control" value="${course.name}" />
         </div>
         <label class="form-label">Calificaciones Bimestrales (0 a 20):</label>
         <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:8px;">
           <div>
-            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">1Â° Bim</span>
+            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">1° Bim</span>
             <input type="number" min="0" max="20" id="edit-b1" class="form-control" value="${course.b1}" />
           </div>
           <div>
-            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">2Â° Bim</span>
+            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">2° Bim</span>
             <input type="number" min="0" max="20" id="edit-b2" class="form-control" value="${course.b2}" />
           </div>
           <div>
-            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">3Â° Bim</span>
+            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">3° Bim</span>
             <input type="number" min="0" max="20" id="edit-b3" class="form-control" value="${course.b3}" />
           </div>
           <div>
-            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">4Â° Bim</span>
+            <span style="font-size:11px; font-weight:bold; color:var(--text-muted);">4° Bim</span>
             <input type="number" min="0" max="20" id="edit-b4" class="form-control" value="${course.b4}" />
           </div>
         </div>
@@ -14919,7 +14919,7 @@ CREATE TABLE tb_cuadernos_qr (
     const b4 = document.getElementById("edit-b4").value;
     this.store.updateCourse(courseId, { name, b1, b2, b3, b4 });
     this.closeModal();
-    this.showToast("âœ“ Calificaciones actualizadas y guardadas en el servidor", "success");
+    this.showToast("✓ Calificaciones actualizadas y guardadas en el servidor", "success");
   }
 
   saveStudentGrade(studentId) {
@@ -14931,7 +14931,7 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   // =========================================================================
-  // CONTROLADORES DE AULA VIRTUAL Y EVALUACIONES DINÃMICAS (10 PREGUNTAS)
+  // CONTROLADORES DE AULA VIRTUAL Y EVALUACIONES DINÁMICAS (10 PREGUNTAS)
   // =========================================================================
   onVirtualCourseChange(courseId) {
     this.store.setSelectedVirtualCourse(courseId);
@@ -14945,10 +14945,10 @@ CREATE TABLE tb_cuadernos_qr (
 
   openUploadMaterialModal(courseId) {
     const courses = [
-      { id: "MAT-401", name: "MatemÃ¡tica Avanzada", icon: "ðŸ“" },
-      { id: "EPT-402", name: "ComputaciÃ³n e InformÃ¡tica / RobÃ³tica", icon: "ðŸ¤–" },
-      { id: "CTA-403", name: "Ciencia y TecnologÃ­a (FÃ­sica & QuÃ­mica)", icon: "ðŸ”¬" },
-      { id: "COM-404", name: "ComunicaciÃ³n & Literatura", icon: "ðŸ“š" }
+      { id: "MAT-401", name: "Matemática Avanzada", icon: "📐" },
+      { id: "EPT-402", name: "Computación e Informática / Robótica", icon: "🤖" },
+      { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", icon: "🔬" },
+      { id: "COM-404", name: "Comunicación & Literatura", icon: "📚" }
     ];
     const course = courses.find(c => c.id === courseId) || courses[0];
     const existingCount = (this.store.state.weeklyMaterials || []).filter(m => m.courseId === course.id).length;
@@ -14958,13 +14958,13 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            ðŸ“‚ Subir Archivo de Clase & Analizar con IA
+            📂 Subir Archivo de Clase & Analizar con IA
           </h3>
           <span style="font-size: 11px; color: var(--color-yellow-400);">
-            Soporta PDF, Word (.docx), PowerPoint (.pptx), Texto (.txt), ImÃ¡genes de Pizarra y Excel
+            Soporta PDF, Word (.docx), PowerPoint (.pptx), Texto (.txt), Imágenes de Pizarra y Excel
           </span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
 
       <form onsubmit="window.app.confirmUploadMaterial(event)">
@@ -14973,7 +14973,7 @@ CREATE TABLE tb_cuadernos_qr (
           <!-- Banner de Asignatura -->
           <div style="background: #eff6ff; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 6px; margin-bottom: 16px; font-size: 12px; color: #1e40af; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
             <div>
-              <strong>Asignatura:</strong> ${course.icon} ${course.name} â€¢ <strong>Grado:</strong> 4to de Secundaria
+              <strong>Asignatura:</strong> ${course.icon} ${course.name} • <strong>Grado:</strong> 4to de Secundaria
             </div>
             <span class="status-badge" style="background: #dbeafe; color: #1e40af; font-weight: 800; font-size: 10.5px;">
               Docente: Prof. Roberto Silva
@@ -14986,14 +14986,14 @@ CREATE TABLE tb_cuadernos_qr (
           <!-- ZONA DE CARGA DE ARCHIVO INTELIGENTE -->
           <div style="margin-bottom: 18px;">
             <label style="font-size: 12.5px; font-weight: 900; color: var(--color-navy-900); display: block; margin-bottom: 6px;">
-              1. Seleccione o Arrastre el Archivo de su ElecciÃ³n (El sistema lo analizarÃ¡ en tiempo real):
+              1. Seleccione o Arrastre el Archivo de su Elección (El sistema lo analizará en tiempo real):
             </label>
 
             <!-- Dropzone Interactivo -->
             <div id="ai-dropzone" class="smart-dropzone" onclick="document.getElementById('smart-file-input').click()" style="border: 2px dashed #3b82f6; background: #f8fafc; border-radius: 8px; padding: 22px 16px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-              <div style="font-size: 36px; margin-bottom: 6px;">ðŸ“ âš¡ ðŸ“„</div>
+              <div style="font-size: 36px; margin-bottom: 6px;">📁 ⚡ 📄</div>
               <div style="font-weight: 800; font-size: 13.5px; color: #1e3a8a; margin-bottom: 4px;">
-                Haga clic para seleccionar archivo o arrÃ¡strelo aquÃ­
+                Haga clic para seleccionar archivo o arrástrelo aquí
               </div>
               <div style="font-size: 11px; color: #64748b;">
                 Formatos compatibles: <strong>PDF, Word (.docx), PowerPoint (.pptx), Texto (.txt), PNG/JPG, Excel</strong>
@@ -15002,75 +15002,75 @@ CREATE TABLE tb_cuadernos_qr (
 
             <input type="file" id="smart-file-input" style="display: none;" accept=".pdf,.doc,.docx,.ppt,.pptx,.txt,.md,.png,.jpg,.jpeg,.xlsx" onchange="window.app.processUploadedFileForAnalysis(event, '${course.id}')" />
 
-            <!-- Indicador de Carga y AnÃ¡lisis IA -->
+            <!-- Indicador de Carga y Análisis IA -->
             <div id="ai-analysis-indicator" style="display: none; background: #f1f5f9; border: 2px solid #3b82f6; border-radius: 8px; padding: 18px; text-align: center; margin-top: 10px;">
-              <div style="font-size: 26px; margin-bottom: 6px;" class="scanning-pulse">ðŸ¤– âš¡ ðŸ§ </div>
+              <div style="font-size: 26px; margin-bottom: 6px;" class="scanning-pulse">🤖 ⚡ 🧠</div>
               <div id="ai-step-text" style="font-weight: 800; font-size: 12.5px; color: #1e40af; margin-bottom: 8px;">
-                Iniciando anÃ¡lisis semÃ¡ntico del documento...
+                Iniciando análisis semántico del documento...
               </div>
               <div style="width: 100%; background: #cbd5e1; height: 8px; border-radius: 4px; overflow: hidden;">
                 <div id="ai-progress-bar" style="width: 20%; height: 100%; background: linear-gradient(90deg, #3b82f6, #10b981); transition: width 0.4s ease;"></div>
               </div>
             </div>
 
-            <!-- Botones de Archivos de DemostraciÃ³n RÃ¡pida -->
+            <!-- Botones de Archivos de Demostración Rápida -->
             <div style="margin-top: 10px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap;">
               <span style="font-size: 11px; font-weight: 700; color: #64748b;">O probar con documento de muestra:</span>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Guia_Trigonometria_Angulos_Dobles.pdf', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
-                ðŸ“• GuÃ­a_Trigonometria.pdf
+                📕 Guía_Trigonometria.pdf
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Sesion_Arduino_Servomotores_S3.pptx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
-                ðŸ“Š Arduino_RobÃ³tica.pptx
+                📊 Arduino_Robótica.pptx
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Laboratorio_Leyes_Termodinamica_Carnot.docx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
-                ðŸ“˜ Termodinamica_Carnot.docx
+                📘 Termodinamica_Carnot.docx
               </button>
             </div>
           </div>
 
-          <!-- Alerta de Ã‰xito de AnÃ¡lisis -->
+          <!-- Alerta de Éxito de Análisis -->
           <div id="ai-success-alert" style="display: none; background: #ecfdf5; border-left: 4px solid #10b981; padding: 12px 14px; border-radius: 6px; font-size: 12px; color: #065f46; margin-bottom: 16px;">
           </div>
 
-          <!-- 2. CAMPOS EDITABLES RESULTANTES DEL ANÃLISIS -->
+          <!-- 2. CAMPOS EDITABLES RESULTANTES DEL ANÁLISIS -->
           <div style="border-top: 1px solid #e2e8f0; padding-top: 14px;">
             <div style="font-size: 12.5px; font-weight: 900; color: var(--color-navy-900); margin-bottom: 10px;">
-              2. RevisiÃ³n de Contenido y ParÃ¡metros Semanales:
+              2. Revisión de Contenido y Parámetros Semanales:
             </div>
 
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;">
               <div>
-                <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">NÃºmero de Semana:</label>
+                <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Número de Semana:</label>
                 <input type="number" name="weekNumber" id="field-material-week" value="${nextWeek}" min="1" max="40" class="form-control" required />
               </div>
               <div>
-                <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Fecha de la SesiÃ³n:</label>
+                <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Fecha de la Sesión:</label>
                 <input type="text" name="sessionDate" value="${new Date().toLocaleDateString('es-PE')}" class="form-control" required />
               </div>
             </div>
 
             <div style="margin-bottom: 14px;">
-              <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">TÃ­tulo del Tema Detectado:</label>
-              <input type="text" name="title" id="field-material-title" placeholder="Ej. Razones TrigonomÃ©tricas de Ãngulos Compuestos" class="form-control" required />
+              <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Título del Tema Detectado:</label>
+              <input type="text" name="title" id="field-material-title" placeholder="Ej. Razones Trigonométricas de Ángulos Compuestos" class="form-control" required />
             </div>
 
             <div style="margin-bottom: 14px;">
               <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Resumen del Trabajo Realizado en el Aula:</label>
-              <textarea name="summary" id="field-material-summary" rows="4" class="form-control" placeholder="El sistema extraerÃ¡ automÃ¡ticamente el resumen pedagÃ³gico del archivo cargado..." required></textarea>
+              <textarea name="summary" id="field-material-summary" rows="4" class="form-control" placeholder="El sistema extraerá automáticamente el resumen pedagógico del archivo cargado..." required></textarea>
             </div>
 
             <div style="margin-bottom: 14px;">
               <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Conceptos Clave Identificados (Separados por coma):</label>
-              <input type="text" name="keyConcepts" id="field-material-concepts" placeholder="Ej. Identidades fundamentales, Ãngulo doble, Teorema de Cardano" class="form-control" />
+              <input type="text" name="keyConcepts" id="field-material-concepts" placeholder="Ej. Identidades fundamentales, Ángulo doble, Teorema de Cardano" class="form-control" />
             </div>
 
             <div style="margin-bottom: 14px;">
               <label style="font-size: 11.5px; font-weight: 800; display: block; margin-bottom: 4px;">Archivo Principal Vinculado:</label>
-              <input type="text" name="attachmentName" id="field-material-attachment" value="GuÃ­a_Sesion_Semanal_${nextWeek}.pdf" class="form-control" />
+              <input type="text" name="attachmentName" id="field-material-attachment" value="Guía_Sesion_Semanal_${nextWeek}.pdf" class="form-control" />
             </div>
 
             <div style="background: #fefce8; border: 1px solid #fef08a; padding: 10px; border-radius: 6px; font-size: 11.5px; color: #854d0e;">
-              âš¡ <strong>GeneraciÃ³n AutomÃ¡tica:</strong> Al guardar, el sistema dejarÃ¡ formulada la evaluaciÃ³n dinÃ¡mica de 10 preguntas basada en el archivo analizado.
+              ⚡ <strong>Generación Automática:</strong> Al guardar, el sistema dejará formulada la evaluación dinámica de 10 preguntas basada en el archivo analizado.
             </div>
           </div>
 
@@ -15079,7 +15079,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
           <button type="submit" class="btn btn-navy btn-sm" style="font-weight: 800; padding: 8px 20px;">
-            ðŸ’¾ Publicar SesiÃ³n & Activar EvaluaciÃ³n (10 Preguntas)
+            💾 Publicar Sesión & Activar Evaluación (10 Preguntas)
           </button>
         </div>
       </form>
@@ -15116,15 +15116,15 @@ CREATE TABLE tb_cuadernos_qr (
     const stepText = document.getElementById("ai-step-text");
     const progressBar = document.getElementById("ai-progress-bar");
 
-    if (stepText) stepText.innerText = "ðŸ” Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
+    if (stepText) stepText.innerText = "🔍 Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
     if (progressBar) progressBar.style.width = "35%";
 
     setTimeout(() => {
-      if (stepText) stepText.innerText = "ðŸ§  Paso 2/3: Sintetizando resumen de clase y conceptos clave del tema...";
+      if (stepText) stepText.innerText = "🧠 Paso 2/3: Sintetizando resumen de clase y conceptos clave del tema...";
       if (progressBar) progressBar.style.width = "70%";
 
       setTimeout(() => {
-        if (stepText) stepText.innerText = "âš¡ Paso 3/3: Calibrando 10 preguntas de opciÃ³n mÃºltiple y explicaciones...";
+        if (stepText) stepText.innerText = "⚡ Paso 3/3: Calibrando 10 preguntas de opción múltiple y explicaciones...";
         if (progressBar) progressBar.style.width = "100%";
 
         setTimeout(() => {
@@ -15145,10 +15145,10 @@ CREATE TABLE tb_cuadernos_qr (
           if (attachInput) attachInput.value = fileInfo.name;
           if (alertBox) {
             alertBox.style.display = "block";
-            alertBox.innerHTML = `âœ“ <strong>Documento Analizado con Ã‰xito:</strong> Se detectÃ³ el tema <em>"${analyzed.title}"</em> con ${analyzed.keyConcepts.length} conceptos clave y se preparÃ³ la evaluaciÃ³n de 10 preguntas.`;
+            alertBox.innerHTML = `✓ <strong>Documento Analizado con Éxito:</strong> Se detectó el tema <em>"${analyzed.title}"</em> con ${analyzed.keyConcepts.length} conceptos clave y se preparó la evaluación de 10 preguntas.`;
           }
 
-          this.showToast(`âœ“ Documento "${fileInfo.name}" analizado con IA`, "success");
+          this.showToast(`✓ Documento "${fileInfo.name}" analizado con IA`, "success");
         }, 300);
       }, 400);
     }, 400);
@@ -15169,11 +15169,11 @@ CREATE TABLE tb_cuadernos_qr (
       title: formData.get("title"),
       sessionDate: formData.get("sessionDate"),
       summary: formData.get("summary"),
-      keyConcepts: keyConcepts.length > 0 ? keyConcepts : ["Fundamentos TeÃ³ricos", "Procedimientos de CÃ¡lculo", "AplicaciÃ³n PrÃ¡ctica"],
+      keyConcepts: keyConcepts.length > 0 ? keyConcepts : ["Fundamentos Teóricos", "Procedimientos de Cálculo", "Aplicación Práctica"],
       attachments: [
-        { type: "pdf", name: formData.get("attachmentName") || "Guia_Semanal.pdf", size: "2.5 MB", icon: "ðŸ“•" },
-        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "ðŸ“Š" },
-        { type: "worksheet", name: `Ficha_Practica_Semana_${formData.get("weekNumber")}.pdf`, size: "1.1 MB", icon: "ðŸ“" }
+        { type: "pdf", name: formData.get("attachmentName") || "Guia_Semanal.pdf", size: "2.5 MB", icon: "📕" },
+        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "📊" },
+        { type: "worksheet", name: `Ficha_Practica_Semana_${formData.get("weekNumber")}.pdf`, size: "1.1 MB", icon: "📝" }
       ]
     };
 
@@ -15182,7 +15182,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.closeModal();
     this.render();
-    this.showToast(`âœ“ Material de la Semana ${materialData.weekNumber} publicado y evaluaciÃ³n de 10 preguntas generada.`, "success");
+    this.showToast(`✓ Material de la Semana ${materialData.weekNumber} publicado y evaluación de 10 preguntas generada.`, "success");
   }
 
   openEditMaterialModal(materialId) {
@@ -15191,13 +15191,13 @@ CREATE TABLE tb_cuadernos_qr (
 
     const html = `
       <div class="modal-header">
-        <h3 class="modal-title">âœï¸ Editar SesiÃ³n Semanal</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3 class="modal-title">✏️ Editar Sesión Semanal</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <form onsubmit="window.app.confirmUpdateMaterial(event, '${material.id}')">
         <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
           <div style="margin-bottom: 14px;">
-            <label style="font-size: 12px; font-weight: 800; display: block; margin-bottom: 4px;">TÃ­tulo de la SesiÃ³n:</label>
+            <label style="font-size: 12px; font-weight: 800; display: block; margin-bottom: 4px;">Título de la Sesión:</label>
             <input type="text" name="title" value="${material.title}" class="form-control" required />
           </div>
           <div style="margin-bottom: 14px;">
@@ -15211,7 +15211,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
-          <button type="submit" class="btn btn-navy btn-sm" style="font-weight: 800;">ðŸ’¾ Guardar Cambios</button>
+          <button type="submit" class="btn btn-navy btn-sm" style="font-weight: 800;">💾 Guardar Cambios</button>
         </div>
       </form>
     `;
@@ -15232,14 +15232,14 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.closeModal();
     this.render();
-    this.showToast("âœ“ SesiÃ³n semanal actualizada correctamente.", "success");
+    this.showToast("✓ Sesión semanal actualizada correctamente.", "success");
   }
 
   confirmDeleteMaterial(materialId) {
-    if (confirm("Â¿EstÃ¡ seguro de que desea eliminar este material semanal y su evaluaciÃ³n?")) {
+    if (confirm("¿Está seguro de que desea eliminar este material semanal y su evaluación?")) {
       this.store.deleteWeeklyMaterial(materialId);
       this.render();
-      this.showToast("âœ“ Material semanal eliminado.", "info");
+      this.showToast("✓ Material semanal eliminado.", "info");
     }
   }
 
@@ -15249,8 +15249,8 @@ CREATE TABLE tb_cuadernos_qr (
 
     const html = `
       <div class="modal-header">
-        <h3 class="modal-title">âš¡ Generador Inteligente de Evaluaciones (10 Preguntas)</h3>
-        <button class="modal-close-btn" onclick="window.app.closeModal()">âœ•</button>
+        <h3 class="modal-title">⚡ Generador Inteligente de Evaluaciones (10 Preguntas)</h3>
+        <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 16px;">
@@ -15258,24 +15258,24 @@ CREATE TABLE tb_cuadernos_qr (
             ${material.title} (Semana ${material.weekNumber})
           </div>
           <div style="font-size: 12px; color: var(--text-muted);">
-            ${material.courseName} â€¢ ${material.teacherName}
+            ${material.courseName} • ${material.teacherName}
           </div>
         </div>
 
         <p style="font-size: 12.5px; color: #334155; line-height: 1.5; margin-bottom: 14px;">
-          El motor pedagÃ³gico analizarÃ¡ el resumen de clase, los <strong>conceptos clave</strong> (${(material.keyConcepts || []).join(', ')}) y formularÃ¡ <strong>10 preguntas de opciÃ³n mÃºltiple</strong> calibradas con alternativas verosÃ­miles, claves exactas y retroalimentaciÃ³n explicativa para los estudiantes.
+          El motor pedagógico analizará el resumen de clase, los <strong>conceptos clave</strong> (${(material.keyConcepts || []).join(', ')}) y formulará <strong>10 preguntas de opción múltiple</strong> calibradas con alternativas verosímiles, claves exactas y retroalimentación explicativa para los estudiantes.
         </p>
 
         <div style="background: #f0fdf4; border-left: 4px solid #16a34a; padding: 10px 14px; border-radius: 4px; font-size: 12px; color: #166534; margin-bottom: 16px;">
-          âœ“ PonderaciÃ³n oficial: 2 puntos por pregunta (Total 20 puntos).<br>
-          âœ“ RetroalimentaciÃ³n automÃ¡tica explicativa para cada Ã­tem.<br>
-          âœ“ Registro directo en el historial de progreso del aula virtual.
+          ✓ Ponderación oficial: 2 puntos por pregunta (Total 20 puntos).<br>
+          ✓ Retroalimentación automática explicativa para cada ítem.<br>
+          ✓ Registro directo en el historial de progreso del aula virtual.
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold btn-sm" onclick="window.app.confirmGenerateQuiz('${material.id}')" style="font-weight: 900;">
-          ðŸš€ Iniciar GeneraciÃ³n de 10 Preguntas
+          🚀 Iniciar Generación de 10 Preguntas
         </button>
       </div>
     `;
@@ -15286,17 +15286,17 @@ CREATE TABLE tb_cuadernos_qr (
     this.store.generateDynamicEvaluation(materialId);
     this.closeModal();
     this.render();
-    this.showToast("âœ“ EvaluaciÃ³n de 10 preguntas generada exitosamente.", "success");
+    this.showToast("✓ Evaluación de 10 preguntas generada exitosamente.", "success");
     setTimeout(() => {
       this.openPreviewQuizModal(materialId);
     }, 400);
   }
 
   confirmRegenerateQuiz(materialId) {
-    if (confirm("Â¿Desea volver a generar las 10 preguntas con IA basÃ¡ndose en el contenido de la clase?")) {
+    if (confirm("¿Desea volver a generar las 10 preguntas con IA basándose en el contenido de la clase?")) {
       this.store.generateDynamicEvaluation(materialId);
       this.render();
-      this.showToast("âœ“ 10 nuevas preguntas generadas.", "success");
+      this.showToast("✓ 10 nuevas preguntas generadas.", "success");
       setTimeout(() => {
         this.openPreviewQuizModal(materialId);
       }, 300);
@@ -15314,15 +15314,15 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: var(--color-navy-900); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            ðŸ“‹ PrevisualizaciÃ³n: ${evalObj.title}
+            📋 Previsualización: ${evalObj.title}
           </h3>
-          <span style="font-size: 11px; color: var(--color-yellow-400);">10 Preguntas Generadas DinÃ¡micamente â€¢ 2 Puntos c/u (Total 20 Pts)</span>
+          <span style="font-size: 11px; color: var(--color-yellow-400);">10 Preguntas Generadas Dinámicamente • 2 Puntos c/u (Total 20 Pts)</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; padding: 18px;">
         <div style="margin-bottom: 16px; font-size: 12px; color: #64748b;">
-          Estas son las 10 preguntas formuladas sobre el material de la <strong>Semana ${material.weekNumber} (${material.title})</strong>. Cada pregunta incluye su clave oficial y retroalimentaciÃ³n pedagÃ³gica.
+          Estas son las 10 preguntas formuladas sobre el material de la <strong>Semana ${material.weekNumber} (${material.title})</strong>. Cada pregunta incluye su clave oficial y retroalimentación pedagógica.
         </div>
 
         ${questions.map((q, idx) => `
@@ -15343,21 +15343,21 @@ CREATE TABLE tb_cuadernos_qr (
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
               ${q.options.map((opt, oIdx) => `
                 <div style="font-size: 12px; padding: 8px 10px; border-radius: 6px; border: 1px solid ${oIdx === q.correctIndex ? '#10b981' : '#e2e8f0'}; background: ${oIdx === q.correctIndex ? '#ecfdf5' : '#f8fafc'}; color: ${oIdx === q.correctIndex ? '#065f46' : '#334155'}; font-weight: ${oIdx === q.correctIndex ? '800' : 'normal'};">
-                  <strong>${String.fromCharCode(65 + oIdx)})</strong> ${opt} ${oIdx === q.correctIndex ? 'âœ“ (Clave Correcta)' : ''}
+                  <strong>${String.fromCharCode(65 + oIdx)})</strong> ${opt} ${oIdx === q.correctIndex ? '✓ (Clave Correcta)' : ''}
                 </div>
               `).join('')}
             </div>
 
             <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11px; color: #475569; border-left: 3px solid #3b82f6;">
-              ðŸ’¡ <strong>ExplicaciÃ³n Formativa:</strong> ${q.explanation}
+              💡 <strong>Explicación Formativa:</strong> ${q.explanation}
             </div>
           </div>
         `).join('')}
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
-        <button class="btn btn-navy btn-sm" onclick="window.app.closeModal(); window.app.showToast('âœ“ EvaluaciÃ³n aprobada y disponible para los estudiantes.', 'success');">
-          âœ“ Aprobar y Publicar EvaluaciÃ³n
+        <button class="btn btn-navy btn-sm" onclick="window.app.closeModal(); window.app.showToast('✓ Evaluación aprobada y disponible para los estudiantes.', 'success');">
+          ✓ Aprobar y Publicar Evaluación
         </button>
       </div>
     `;
@@ -15379,11 +15379,11 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-header" style="background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%); color: white;">
           <div>
             <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-              ðŸ“ ${evalObj.title}
+              📝 ${evalObj.title}
             </h3>
-            <span style="font-size: 11px; color: #fef08a;">10 Preguntas â€¢ PonderaciÃ³n: 2 Pts c/u â€¢ Total: 20 Puntos</span>
+            <span style="font-size: 11px; color: #fef08a;">10 Preguntas • Ponderación: 2 Pts c/u • Total: 20 Puntos</span>
           </div>
-          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+          <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
         </div>
 
         <div class="modal-body" style="max-height: 75vh; overflow-y: auto; padding: 20px;">
@@ -15393,7 +15393,7 @@ CREATE TABLE tb_cuadernos_qr (
               Preguntas Respondidas: <span id="quiz-answered-count" style="color: #2563eb;">${answeredCount}</span> de 10
             </div>
             <div style="font-size: 12px; font-weight: 800; color: #047857; background: #d1fae5; padding: 3px 10px; border-radius: 12px;">
-              â±ï¸ Tiempo Restante: 20:00 min
+              ⏱️ Tiempo Restante: 20:00 min
             </div>
           </div>
 
@@ -15436,7 +15436,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar Examen</button>
           <button class="btn btn-gold btn-sm" onclick="window.app.submitStudentQuiz('${material.id}')" style="font-weight: 900; font-size: 13px; padding: 8px 24px;">
-            ðŸš€ Finalizar y Enviar EvaluaciÃ³n
+            🚀 Finalizar y Enviar Evaluación
           </button>
         </div>
       `;
@@ -15462,12 +15462,12 @@ CREATE TABLE tb_cuadernos_qr (
     const answeredCount = Object.keys(userAnswers).length;
 
     if (answeredCount < 10) {
-      if (!confirm(`Has respondido ${answeredCount} de 10 preguntas. Â¿Deseas enviar la evaluaciÃ³n de todas formas?`)) {
+      if (!confirm(`Has respondido ${answeredCount} de 10 preguntas. ¿Deseas enviar la evaluación de todas formas?`)) {
         return;
       }
     }
 
-    const currentStudent = this.store.state.users.estudiante || { id: "EST-2026-042", name: "SofÃ­a MÃ©ndez Flores" };
+    const currentStudent = this.store.state.users.estudiante || { id: "EST-2026-042", name: "Sofía Méndez Flores" };
     
     const attempt = this.store.recordQuizAttempt(materialId, {
       studentId: currentStudent.id,
@@ -15478,7 +15478,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.closeModal();
     this.render();
-    this.showToast(`âœ“ EvaluaciÃ³n enviada. Nota: ${attempt.score} / 20 (${attempt.status})`, "success");
+    this.showToast(`✓ Evaluación enviada. Nota: ${attempt.score} / 20 (${attempt.status})`, "success");
 
     setTimeout(() => {
       this.openQuizResultsModal(materialId);
@@ -15500,17 +15500,17 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: ${attempt.score >= 14 ? 'linear-gradient(135deg, #065f46 0%, #047857 100%)' : 'linear-gradient(135deg, #991b1b 0%, #dc2626 100%)'}; color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            ðŸ“Š Resultados Oficiales de la EvaluaciÃ³n
+            📊 Resultados Oficiales de la Evaluación
           </h3>
-          <span style="font-size: 11px; opacity: 0.9;">Estudiante: ${attempt.studentName} â€¢ Fecha: ${attempt.date}</span>
+          <span style="font-size: 11px; opacity: 0.9;">Estudiante: ${attempt.studentName} • Fecha: ${attempt.date}</span>
         </div>
-        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">âœ•</button>
+        <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
 
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; padding: 20px;">
-        <!-- Banner de CalificaciÃ³n y Logro -->
+        <!-- Banner de Calificación y Logro -->
         <div style="background: #ffffff; border: 2px solid ${attempt.score >= 14 ? '#10b981' : '#f43f5e'}; border-radius: 10px; padding: 18px; margin-bottom: 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-          <span style="font-size: 12px; font-weight: 800; text-transform: uppercase; color: #64748b;">CalificaciÃ³n Final Obtenida:</span>
+          <span style="font-size: 12px; font-weight: 800; text-transform: uppercase; color: #64748b;">Calificación Final Obtenida:</span>
           <div style="font-size: 38px; font-weight: 900; color: ${attempt.score >= 14 ? '#047857' : '#be123c'}; margin: 4px 0;">
             ${attempt.score} / 20
           </div>
@@ -15519,16 +15519,16 @@ CREATE TABLE tb_cuadernos_qr (
           </span>
 
           <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 12px 14px; border-radius: 6px; font-size: 12.5px; color: #334155; margin-top: 14px; text-align: left; line-height: 1.5;">
-            ðŸ’¡ <strong>RetroalimentaciÃ³n PedagÃ³gica del Sistema:</strong><br>
+            💡 <strong>Retroalimentación Pedagógica del Sistema:</strong><br>
             ${attempt.feedback}
           </div>
         </div>
 
         <h4 style="font-size: 14px; font-weight: 900; color: var(--color-navy-900); margin-bottom: 12px;">
-          Desglose Ãtem por Ãtem con Respuestas y Explicaciones:
+          Desglose Ítem por Ítem con Respuestas y Explicaciones:
         </h4>
 
-        <!-- Desglose de las 10 Preguntas con retroalimentaciÃ³n formativa -->
+        <!-- Desglose de las 10 Preguntas con retroalimentación formativa -->
         ${questions.map((q, idx) => {
           const userAns = userAnswers[q.id];
           const isCorrect = userAns !== undefined && userAns === q.correctIndex;
@@ -15539,7 +15539,7 @@ CREATE TABLE tb_cuadernos_qr (
                   Pregunta ${q.id || (idx + 1)}:
                 </span>
                 <span class="status-badge ${isCorrect ? 'status-approved' : 'status-failed'}" style="font-size: 11px; font-weight: 800;">
-                  ${isCorrect ? 'âœ“ Correcto (+2 pts)' : 'âœ• Incorrecto (0 pts)'}
+                  ${isCorrect ? '✓ Correcto (+2 pts)' : '✕ Incorrecto (0 pts)'}
                 </span>
               </div>
 
@@ -15555,14 +15555,14 @@ CREATE TABLE tb_cuadernos_qr (
                     <div style="font-size: 11.5px; padding: 6px 10px; border-radius: 6px; border: 1px solid ${isTheCorrectOne ? '#10b981' : (wasSelected ? '#f43f5e' : '#e2e8f0')}; background: ${isTheCorrectOne ? '#ecfdf5' : (wasSelected ? '#fff1f2' : '#f8fafc')}; color: ${isTheCorrectOne ? '#065f46' : (wasSelected ? '#9f1239' : '#475569')}; font-weight: ${isTheCorrectOne || wasSelected ? '800' : 'normal'};">
                       ${String.fromCharCode(65 + oIdx)}) ${opt}
                       ${isTheCorrectOne ? ' <strong>(Respuesta Correcta)</strong>' : ''}
-                      ${wasSelected && !isTheCorrectOne ? ' <strong>(Tu ElecciÃ³n)</strong>' : ''}
+                      ${wasSelected && !isTheCorrectOne ? ' <strong>(Tu Elección)</strong>' : ''}
                     </div>
                   `;
                 }).join('')}
               </div>
 
               <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11.5px; color: #475569; border-left: 3px solid #3b82f6;">
-                ðŸ’¡ <strong>Por quÃ© es correcta:</strong> ${q.explanation}
+                💡 <strong>Por qué es correcta:</strong> ${q.explanation}
               </div>
             </div>
           `;
@@ -15579,7 +15579,7 @@ CREATE TABLE tb_cuadernos_qr (
   }
 
   downloadMaterialAttachment(fileName) {
-    this.showToast(`â¬‡ï¸ Descargando archivo oficial: ${fileName}`, "success");
+    this.showToast(`⬇️ Descargando archivo oficial: ${fileName}`, "success");
   }
 
   showModal(contentHtml) {

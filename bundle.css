@@ -1,4 +1,4 @@
-﻿/* === variables.css === */
+/* === variables.css === */
 :root {
   /* --- Paleta Principal Institucional --- */
   /* Azul Noche (Primary Midnight Blue) */
@@ -28,7 +28,7 @@
   --color-yellow-100: #fef3c7;
   --color-yellow-50:  #fffbeb;
 
-  /* Verdes de AprobaciÃ³n & Ã‰xito */
+  /* Verdes de Aprobación & Éxito */
   --color-green-600: #16a34a;
   --color-green-500: #22c55e;
   --color-green-100: #dcfce7;
@@ -60,7 +60,7 @@
   --shadow-lg: 0 12px 24px -4px rgba(11, 19, 43, 0.12), 0 4px 8px -2px rgba(11, 19, 43, 0.06);
   --shadow-xl: 0 20px 32px -6px rgba(11, 19, 43, 0.18), 0 8px 16px -4px rgba(11, 19, 43, 0.08);
 
-  /* TipografÃ­a */
+  /* Tipografía */
   --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-heading: 'Plus Jakarta Sans', sans-serif;
   
@@ -510,7 +510,7 @@ body {
   font-weight: var(--font-weight-medium);
 }
 
-/* --- Ãrea de Contenido DinÃ¡mico --- */
+/* --- Área de Contenido Dinámico --- */
 .content-area {
   flex: 1;
   padding: var(--space-8);
@@ -684,7 +684,7 @@ body {
 .highlight-red { color: var(--color-red-400); }
 .highlight-green { color: var(--color-green-400); }
 
-/* --- PÃ­ldoras de Cursos y Calificaciones --- */
+/* --- Píldoras de Cursos y Calificaciones --- */
 .grades-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -964,7 +964,7 @@ body {
   border-left: 4px solid #16a34a;
 }
 
-/* --- MÃ³dulo de Horario Docente Personal --- */
+/* --- Módulo de Horario Docente Personal --- */
 .teacher-schedule-banner {
   background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%);
   color: #ffffff;
@@ -1055,7 +1055,7 @@ body {
   text-align: center;
 }
 
-/* --- SÃ­labus --- */
+/* --- Sílabus --- */
 .syllabus-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -1408,7 +1408,7 @@ body {
 }
 
 /* ==========================================================================
-   PANTALLA DE IDENTIFICACIÃ“N Y LOGIN (AUTENTICACIÃ“N POR CONTRASEÃ‘A)
+   PANTALLA DE IDENTIFICACIÓN Y LOGIN (AUTENTICACIÓN POR CONTRASEÑA)
    ========================================================================== */
 .login-screen-wrapper {
   position: fixed;
@@ -1926,7 +1926,7 @@ textarea.form-control:focus {
 }
 
 /* =========================================================================
-   ESTILOS DEL AULA VIRTUAL Y EVALUACIONES DINÃMICAS (10 PREGUNTAS)
+   ESTILOS DEL AULA VIRTUAL Y EVALUACIONES DINÁMICAS (10 PREGUNTAS)
    ========================================================================= */
 .hover-shadow {
   transition: all 0.2s ease-in-out;
@@ -1960,7 +1960,7 @@ textarea.form-control:focus {
 
 /* === print.css === */
 /* ==========================================================================
-   Estilos de ImpresiÃ³n - Boleta Oficial Colegio El Educador (LLENADO TOTAL A4)
+   Estilos de Impresión - Boleta Oficial Colegio El Educador (LLENADO TOTAL A4)
    ========================================================================== */
 
 @page {
@@ -2006,7 +2006,7 @@ textarea.form-control:focus {
     display: none !important;
   }
 
-  /* Cuando el modal estÃ¡ abierto, ocultar completamente el fondo de la intranet */
+  /* Cuando el modal está abierto, ocultar completamente el fondo de la intranet */
   .modal-overlay.active ~ .app-container .main-wrapper,
   .app-container:has(.modal-overlay.active) .main-wrapper {
     display: none !important;
@@ -2057,7 +2057,7 @@ textarea.form-control:focus {
   }
 
   /* =========================================================================
-     ESTRUCTURA DE PÃGINAS A4 HORIZONTAL (297mm x 210mm) - LLENADO TOTAL
+     ESTRUCTURA DE PÁGINAS A4 HORIZONTAL (297mm x 210mm) - LLENADO TOTAL
      ========================================================================= */
   .official-boleta-page {
     width: 100% !important;
@@ -2103,7 +2103,7 @@ textarea.form-control:focus {
     break-inside: avoid !important;
   }
 
-  /* --- TÃTULO PRINCIPAL (PÃGINA 1) --- */
+  /* --- TÍTULO PRINCIPAL (PÁGINA 1) --- */
   .boleta-main-title {
     background: #1e3a8a !important;
     color: #ffffff !important;
@@ -2135,7 +2135,7 @@ textarea.form-control:focus {
     width: 100% !important;
   }
 
-  /* --- TABLA DE NOTAS (PÃGINA 1 - OCUPA TODO EL ALTO) --- */
+  /* --- TABLA DE NOTAS (PÁGINA 1 - OCUPA TODO EL ALTO) --- */
   .boleta-table {
     width: 100% !important;
     font-size: 8pt !important;
@@ -2169,7 +2169,7 @@ textarea.form-control:focus {
     color: #000000 !important;
   }
 
-  /* --- APRECIACIÃ“N DEL DOCENTE (PÃGINA 1) --- */
+  /* --- APRECIACIÓN DEL DOCENTE (PÁGINA 1) --- */
   .boleta-appreciation-box {
     border: 1.2px solid #000000 !important;
     display: flex !important;
@@ -2218,7 +2218,7 @@ textarea.form-control:focus {
     letter-spacing: 0.08em !important;
   }
 
-  /* --- ESCALA DE CALIFICACIÃ“N (PÃGINA 1) --- */
+  /* --- ESCALA DE CALIFICACIÓN (PÁGINA 1) --- */
   .boleta-scale-legend {
     font-size: 6.8pt !important;
     line-height: 1.2 !important;
@@ -2230,7 +2230,7 @@ textarea.form-control:focus {
   }
 
   /* =========================================================================
-     PÃGINA 2: DISTRIBUCIÃ“N TOTAL EN 2 COLUMNAS DE 198mm DE ALTO
+     PÁGINA 2: DISTRIBUCIÓN TOTAL EN 2 COLUMNAS DE 198mm DE ALTO
      ========================================================================= */
   .boleta-page-2-grid {
     display: grid !important;
@@ -2269,7 +2269,7 @@ textarea.form-control:focus {
   }
 
   /* =========================================================================
-     ESTILOS DE IMPRESIÃ“N PARA HORARIOS ESCOLARES (8 HORAS + RECESO + ALMUERZO)
+     ESTILOS DE IMPRESIÓN PARA HORARIOS ESCOLARES (8 HORAS + RECESO + ALMUERZO)
      ========================================================================= */
   .schedule-grid-table {
     width: 100% !important;
@@ -2339,7 +2339,7 @@ textarea.form-control:focus {
 }
 
 /* =========================================================================
-   CONTENEDOR EXCLUSIVO PARA IMPRESIÃ“N LIMPIA DE STICKERS QR (15 POR HOJA A4)
+   CONTENEDOR EXCLUSIVO PARA IMPRESIÓN LIMPIA DE STICKERS QR (15 POR HOJA A4)
    ========================================================================= */
 #dedicated-print-container {
   display: none;
@@ -2382,7 +2382,7 @@ textarea.form-control:focus {
     visibility: visible !important;
   }
 
-  /* OPCIÃ“N 1: 3 x 5 (15 QR por Hoja A4) */
+  /* OPCIÓN 1: 3 x 5 (15 QR por Hoja A4) */
   body.printing-stickers-mode #dedicated-print-container,
   body.printing-stickers-mode.print-layout-3x5 #dedicated-print-container {
     gap: 2.2mm !important;
@@ -2420,7 +2420,7 @@ textarea.form-control:focus {
     padding: 1px !important;
   }
 
-  /* OPCIÃ“N 2: 3 x 4 (12 QR por Hoja A4) */
+  /* OPCIÓN 2: 3 x 4 (12 QR por Hoja A4) */
   body.printing-stickers-mode.print-layout-3x4 #dedicated-print-container {
     gap: 3mm !important;
   }
