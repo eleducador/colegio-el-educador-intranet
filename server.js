@@ -113,6 +113,23 @@ app.get('/api/backup', (req, res) => {
   }
 });
 
+// Rutas de compatibilidad de imágenes del colegio (raíz y /assets)
+app.get(['/logo.png', '/assets/logo.png'], (req, res) => {
+  const p1 = path.join(__dirname, 'logo.png');
+  const p2 = path.join(__dirname, 'assets', 'logo.png');
+  if (fs.existsSync(p1)) return res.sendFile(p1);
+  if (fs.existsSync(p2)) return res.sendFile(p2);
+  res.status(404).send('Logo no encontrado');
+});
+
+app.get(['/login_bg_official.jpg', '/assets/login_bg_official.jpg'], (req, res) => {
+  const p1 = path.join(__dirname, 'login_bg_official.jpg');
+  const p2 = path.join(__dirname, 'assets', 'login_bg_official.jpg');
+  if (fs.existsSync(p1)) return res.sendFile(p1);
+  if (fs.existsSync(p2)) return res.sendFile(p2);
+  res.status(404).send('Fondo no encontrado');
+});
+
 // Servir archivos estaticos del frontend (HTML, CSS, JS, Assets) con UTF-8 explicito
 app.use(express.static(__dirname, {
   etag: true,

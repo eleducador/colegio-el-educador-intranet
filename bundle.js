@@ -2095,15 +2095,9 @@ class IntranetStore {
       });
     }
 
-    // 3. Sincronización inteligente con el servidor local si está en HTTP (sin sobreescritura destructiva)
+    // 3. Sincronización inicial limpia con el servidor si está en HTTP
     if (typeof window !== "undefined" && window.location.protocol.startsWith("http")) {
       this.fetchServerState(true);
-      setInterval(() => {
-        this.fetchServerState(true);
-      }, 15000);
-      window.addEventListener("focus", () => {
-        this.fetchServerState(true);
-      });
     }
   }
 
@@ -2325,10 +2319,8 @@ class IntranetStore {
           // Enviar inmediatamente la base de datos unificada y enriquecida al servidor
           this.syncToServer();
 
-          // Solo notificar si estamos autenticados y no estamos con la cámara activa o modal abierto
-          const modalActive = document.querySelector(".modal-overlay.active");
-          const isScanning = window.app && window.app.isCameraActive;
-          if (this.state.isAuthenticated && !modalActive && !isScanning) {
+          // Solo notificar si NO es silencioso (evita parpadeos y reconstrucción de pantalla en segundo plano)
+          if (!silent) {
             this.notify();
           }
         }
@@ -4529,7 +4521,7 @@ const Components = {
       <div class="official-letterhead-banner">
         <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #0b132b; padding-bottom: 8px;">
           <div style="display: flex; align-items: center; gap: 16px;">
-            <img src="assets/logo.png" alt="Escudo I.E.P. El Educador S.J.L." style="width: 75px; height: 75px; object-fit: contain;" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador S.J.L." style="width: 75px; height: 75px; object-fit: contain;" />
             <div>
               <div style="font-size: 11px; font-weight: 800; color: #0b132b; letter-spacing: 0.1em; text-transform: uppercase;">INSTITUCIÓN EDUCATIVA PRIVADA</div>
               <div style="font-size: 26px; font-weight: 900; color: #0b132b; font-family: 'Plus Jakarta Sans', serif; line-height: 1.1;">“EL EDUCADOR”</div>
@@ -8799,7 +8791,7 @@ const Components = {
                   
                   <!-- Cabecera de la Tarjeta QR -->
                   <div style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white; padding: 8px 12px; display: flex; align-items: center; justify-content: center; gap: 6px; border-bottom: 3px solid #f59e0b;">
-                    <img src="assets/logo.png" alt="Escudo" style="width: 22px; height: 22px; object-fit: contain;" />
+                    <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo" style="width: 22px; height: 22px; object-fit: contain;" />
                     <div style="text-align: center;">
                       <div style="font-size: 10px; font-weight: 900; letter-spacing: 0.05em; color: #fde047;">I.E.P. "EL EDUCADOR"</div>
                       <div style="font-size: 8px; opacity: 0.9;">CONTROL DE ASISTENCIA QR 2026</div>
@@ -9227,7 +9219,7 @@ const Components = {
           
           <!-- Encabezado de Alerta Institucional -->
           <div style="background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%); color: white; padding: 24px; text-align: center;">
-            <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 8px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 8px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));" />
             <div style="font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: var(--color-yellow-300); text-transform: uppercase;">
               I.E.P. "EL EDUCADOR" • 21 AÑOS DEJANDO HUELLAS (S.J.L.)
             </div>
@@ -12100,7 +12092,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="max-width: 300px; margin: 0 auto; background: #ffffff; border: 3px solid #1e3a8a; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
             <div style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white; padding: 10px; border-bottom: 3px solid #f59e0b;">
               <div style="display: flex; align-items: center; justify-content: center; gap: 6px;">
-                <img src="assets/logo.png" alt="Escudo" style="width: 26px; height: 26px; object-fit: contain;" />
+                <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo" style="width: 26px; height: 26px; object-fit: contain;" />
                 <div style="text-align: center;">
                   <div style="font-size: 10.5px; font-weight: 900; color: #fde047;">I.E.P. "EL EDUCADOR"</div>
                   <div style="font-size: 8px; opacity: 0.9;">ASISTENCIA & CONVIVENCIA 2026</div>
@@ -12417,7 +12409,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- MEMBRETE OFICIAL MINEDU / UGEL 05 -->
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0b132b; padding-bottom: 12px; margin-bottom: 16px;">
           <div style="display: flex; align-items: center; gap: 12px;">
-            <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain;" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain;" />
             <div>
               <div style="font-size: 11px; font-weight: 900; color: #1e3a8a; text-transform: uppercase;">REPÚBLICA DEL PERÚ • MINISTERIO DE EDUCACIÓN</div>
               <div style="font-size: 10px; color: #64748b;">DRELM • UGEL 05 SAN JUAN DE LURIGANCHO</div>
@@ -12923,7 +12915,7 @@ CREATE TABLE tb_cuadernos_qr (
           <!-- Encabezado -->
           <div style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white; padding: 12px; border-bottom: 3px solid #f59e0b;">
             <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-              <img src="assets/logo.png" alt="Escudo" style="width: 32px; height: 32px; object-fit: contain;" />
+              <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo" style="width: 32px; height: 32px; object-fit: contain;" />
               <div style="text-align: center;">
                 <div style="font-size: 11px; font-weight: 900; letter-spacing: 0.05em; color: #fde047;">I.E.P. "EL EDUCADOR"</div>
                 <div style="font-size: 8.5px; opacity: 0.9;">CONTROL DE ASISTENCIA QR 2026 • UGEL 05</div>
@@ -13175,7 +13167,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Membrete Institucional -->
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0b132b; padding-bottom: 12px; margin-bottom: 16px;">
           <div style="display: flex; align-items: center; gap: 12px;">
-            <img src="assets/logo.png" alt="Escudo" style="width: 55px; height: 55px; object-fit: contain;" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo" style="width: 55px; height: 55px; object-fit: contain;" />
             <div>
               <div style="font-size: 10px; font-weight: 800; color: #0b132b; text-transform: uppercase;">REPÚBLICA DEL PERÚ • MINISTERIO DE EDUCACIÓN • UGEL 05</div>
               <div style="font-size: 18px; font-weight: 900; color: #0b132b; font-family: 'Plus Jakarta Sans', serif;">I.E.P. "EL EDUCADOR"</div>
@@ -13410,7 +13402,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Membrete Oficial -->
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0b132b; padding-bottom: 12px; margin-bottom: 16px;">
           <div style="display: flex; align-items: center; gap: 12px;">
-            <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain;" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain;" />
             <div>
               <div style="font-size: 10px; font-weight: 900; letter-spacing: 0.05em; color: #1e3a8a;">
                 MINISTERIO DE EDUCACIÓN • DRELM • UGEL 05 SAN JUAN DE LURIGANCHO
@@ -13539,7 +13531,7 @@ CREATE TABLE tb_cuadernos_qr (
         
         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0b132b; padding-bottom: 10px; margin-bottom: 14px;">
           <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 55px; height: 55px; object-fit: contain;" />
+            <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 55px; height: 55px; object-fit: contain;" />
             <div>
               <div style="font-size: 11px; font-weight: 900; color: #1e3a8a;">I.E.P. "EL EDUCADOR" • UGEL 05 S.J.L.</div>
               <h3 style="font-size: 15px; font-weight: 900; margin: 0; color: #0b132b;">CONSOLIDADO MENSUAL DE ASISTENCIA ESCOLAR</h3>
@@ -14720,7 +14712,7 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 24px;">
-        <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain; margin-bottom: 8px;" />
+        <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 70px; height: 70px; object-fit: contain; margin-bottom: 8px;" />
         <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" • S.J.L. • UGEL 05</div>
         <h3 style="color: #0b132b; margin: 8px 0 4px;">RECIBO OFICIAL DE PAGO</h3>
         <div style="font-size: 14px; font-weight: bold; color: #22c55e;">${res.receiptNo}</div>
@@ -14814,7 +14806,7 @@ CREATE TABLE tb_cuadernos_qr (
     this.showModal(`
       <div class="modal-header"><h3>📄 Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body" style="text-align:center; padding:20px;">
-        <img src="assets/logo.png" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 6px;" />
+        <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 6px;" />
         <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" (S.J.L.) • 21 años dejando huellas</div>
         <h3 style="color:#0b132b; margin:6px 0;">${p.receiptNo || 'REC-2026-7890'}</h3>
         <div style="background:var(--bg-surface-subtle); padding:12px; border-radius:6px; text-align:left; font-size:13px; margin:12px 0;">
