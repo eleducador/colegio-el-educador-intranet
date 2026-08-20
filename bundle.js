@@ -2325,10 +2325,10 @@ class IntranetStore {
           // Enviar inmediatamente la base de datos unificada y enriquecida al servidor
           this.syncToServer();
 
-          // Solo notificar si no estamos con la cÃ¡mara activa o modal abierto
+          // Solo notificar si estamos autenticados y no estamos con la cÃ¡mara activa o modal abierto
           const modalActive = document.querySelector(".modal-overlay.active");
           const isScanning = window.app && window.app.isCameraActive;
-          if (!modalActive && !isScanning) {
+          if (this.state.isAuthenticated && !modalActive && !isScanning) {
             this.notify();
           }
         }
@@ -4554,7 +4554,7 @@ const Components = {
       <div class="login-screen-wrapper">
         <div class="login-card-container">
           <div class="login-card-header">
-            <img src="assets/logo.png" alt="Colegio El Educador S.J.L." class="login-school-logo" style="object-fit: contain;">
+            <img src="logo.png" alt="Colegio El Educador S.J.L." class="login-school-logo" style="object-fit: contain;" onerror="this.src='assets/logo.png'">
             <h2 class="login-title">I.E.P. "EL EDUCADOR"</h2>
             <div style="background: linear-gradient(90deg, #f59e0b, #fbbf24); color: #0b132b; font-size: 11px; font-weight: 800; padding: 3px 12px; border-radius: 20px; display: inline-block; margin: 4px 0 8px;">
               21 aÃ±os dejando huellas â€¢ S.J.L. â€¢ UGEL 05
@@ -9633,13 +9633,15 @@ class IntranetApp {
   startRealtimeSync() {
     if (this.syncInterval) clearInterval(this.syncInterval);
     this.syncInterval = setInterval(() => {
+      // NUNCA hacer sondeo en la pantalla de login (evita reinicios de input)
+      if (!this.store.isUserAuthenticated()) return;
       const currentView = this.store.getCurrentView();
       if (currentView === "cuadernos-qr" || currentView === "asistencia" || currentView === "dashboard") {
         if (typeof window !== "undefined" && window.location.protocol.startsWith("http")) {
           this.store.fetchServerState(true);
         }
       }
-    }, 4000);
+    }, 5000);
   }
 
   // =========================================================================
@@ -10354,7 +10356,13 @@ CREATE TABLE tb_cuadernos_qr (
         document.body.appendChild(loginRoot);
       }
       loginRoot.style.display = "block";
-      loginRoot.innerHTML = Components.renderLogin(this.loginErrorMessage);
+      
+      // Preservar el formulario y los inputs mientras el usuario escribe
+      const existingForm = document.getElementById("login-form");
+      if (!existingForm || this.lastRenderedError !== this.loginErrorMessage) {
+        this.lastRenderedError = this.loginErrorMessage;
+        loginRoot.innerHTML = Components.renderLogin(this.loginErrorMessage);
+      }
       return;
     }
 

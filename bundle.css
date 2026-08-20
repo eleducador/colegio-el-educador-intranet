@@ -1416,13 +1416,13 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(11, 19, 43, 0.40) 0%, rgba(15, 23, 42, 0.55) 100%), url('../assets/login_bg_official.jpg') no-repeat center center fixed;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.75) 0%, rgba(30, 58, 138, 0.80) 100%), url('login_bg_official.jpg') no-repeat center center fixed, url('assets/login_bg_official.jpg') no-repeat center center fixed, #0f172a;
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Colocar la tarjeta hacia la derecha para que el logo y 'BIENVENIDO A TU INTRANET' de la imagen sean protagonistas a la izquierda */
+  justify-content: center;
   z-index: 9999;
-  padding: var(--space-6) 6vw;
+  padding: 20px;
   overflow-y: auto;
   box-sizing: border-box;
 }
@@ -1430,8 +1430,8 @@ body {
 @media (max-width: 960px) {
   .login-screen-wrapper {
     justify-content: center;
-    padding: var(--space-4);
-    background: linear-gradient(135deg, rgba(11, 19, 43, 0.65) 0%, rgba(15, 23, 42, 0.75) 100%), url('../assets/login_bg_official.jpg') no-repeat center center fixed;
+    padding: 16px;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 58, 138, 0.90) 100%), url('login_bg_official.jpg') no-repeat center center fixed, url('assets/login_bg_official.jpg') no-repeat center center fixed, #0f172a;
     background-size: cover;
   }
 }
