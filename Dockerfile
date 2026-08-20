@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8080
 
 # Iniciar servidor
-CMD [npm, start]
+CMD ["npm", "start"]
