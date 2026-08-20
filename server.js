@@ -25,7 +25,7 @@ function readDatabase() {
   return {};
 }
 
-// Helper de escritura atómica segura de base de datos
+// Helper de escritura atÃ³mica segura de base de datos
 let isWriting = false;
 const writeQueue = [];
 
@@ -37,15 +37,15 @@ function safeWriteDatabase(data, callback) {
 function processWriteQueue() {
   if (isWriting || writeQueue.length === 0) return;
   isWriting = true;
-  const { data, callback } = writeQueue.shift();
+  const item = writeQueue.shift();
 
   try {
-    const jsonStr = JSON.stringify(data, null, 2);
+    const jsonStr = JSON.stringify(item.data, null, 2);
     fs.writeFileSync(DB_PATH, jsonStr, 'utf-8');
-    if (callback) callback(null, true);
+    if (item.callback) item.callback(null, true);
   } catch (err) {
     console.error('Error al escribir en db.json:', err);
-    if (callback) callback(err, false);
+    if (item.callback) item.callback(err, false);
   } finally {
     isWriting = false;
     if (writeQueue.length > 0) {
@@ -55,21 +55,25 @@ function processWriteQueue() {
 }
 
 // =========================================================================
-// RUTAS DE LA API REST (SINCRONIZACIÓN Y PERSISTENCIA)
+// RUTAS DE LA API REST (SINCRONIZACIÃ“N Y PERSISTENCIA)
 // =========================================================================
 
 // Health check para Render
 app.get(['/health', '/api/health'], (req, res) => {
-  res.status(200).json({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() });
+  res.status(200).json({
+    status: 'ok',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString()
+  });
 });
 
-// Información del servidor
+// InformaciÃ³n del servidor
 app.get('/api/server-info', (req, res) => {
   res.json({
     status: 'online',
     platform: 'Render Cloud Web Service',
     environment: process.env.NODE_ENV || 'production',
-    uptime: ${Math.floor(process.uptime())}s,
+    uptime: Math.floor(process.uptime()) + 's',
     timestamp: new Date().toISOString()
   });
 });
@@ -85,15 +89,12 @@ app.get(['/api/state', '/api/db'], (req, res) => {
 app.post('/api/sync', (req, res) => {
   const incomingData = req.body;
   if (!incomingData || typeof incomingData !== 'object') {
-    return res.status(400).json({ success: false, error: 'Cuerpo de datos inválido' });
+    return res.status(400).json({ success: false, error: 'Cuerpo de datos invÃ¡lido' });
   }
 
   // Leer estado existente y fusionar de manera no destructiva
   const currentDb = readDatabase();
-  const mergedDb = {
-    ...currentDb,
-    ...incomingData
-  };
+  const mergedDb = Object.assign({}, currentDb, incomingData);
 
   safeWriteDatabase(mergedDb, (err) => {
     if (err) {
@@ -112,7 +113,7 @@ app.get('/api/backup', (req, res) => {
   }
 });
 
-// Servir archivos estáticos del frontend (HTML, CSS, JS, Assets)
+// Servir archivos estÃ¡ticos del frontend (HTML, CSS, JS, Assets)
 app.use(express.static(__dirname, {
   etag: true,
   maxAge: '1h',
@@ -128,10 +129,10 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Iniciar servidor
+// Iniciar servidor en 0.0.0.0
 app.listen(PORT, '0.0.0.0', () => {
   console.log('=================================================================');
-  console.log(  🚀 INTRANET I.E.P. EL EDUCADOR ACTIVA EN PUERTO: );
-  console.log(  🌐 Listo para producción en Render (Multi-Dispositivo con SSL));
+  console.log('  ðŸš€ INTRANET I.E.P. EL EDUCADOR ACTIVA EN PUERTO: ' + PORT);
+  console.log('  ðŸŒ Listo para producciÃ³n en Render (Multi-Dispositivo con SSL)');
   console.log('=================================================================');
 });
