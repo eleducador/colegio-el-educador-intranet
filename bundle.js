@@ -133,8 +133,8 @@ const initialData = {
           pendingTasksCount: 1,
           avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
           notebooks: [
-            { course: "[Formato] Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
-            { course: "[Cuaderno] Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+            { course: "Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+            { course: "Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
             { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
             { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
             { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
@@ -430,7 +430,7 @@ const initialData = {
   navigationTabsConfig: {
     auxiliar: [
       { id: "dashboard", label: "Inicio / Turno Auxiliar", icon: "dashboard", enabled: true },
-      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "Portería", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "Registro de Ingreso & QR", badge: "Portería", icon: "attendance", enabled: true },
       { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÁMARA", icon: "qr", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true }
     ],
@@ -441,7 +441,7 @@ const initialData = {
       { id: "horarios", label: "Horario de Clases", icon: "schedule", enabled: true },
       { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual / Quizzes", badge: "10P", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", badge: "2026", icon: "boleta", enabled: true }
     ],
@@ -475,7 +475,7 @@ const initialData = {
       { id: "horarios", label: "Horarios Institucionales", icon: "schedule", enabled: true },
       { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", badge: "N°003", icon: "announcements", enabled: true },
       { id: "pagos", label: "Reportes Económicos & Caja", badge: "S/ 25,130", icon: "payments", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", icon: "boleta", enabled: true }
@@ -1561,7 +1561,7 @@ const initialData = {
       ],
       attachments: [
         { type: "pdf", name: "Guía_Teorica_Funciones_Cuadraticas_S1.pdf", size: "2.8 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "[Reporte]" },
+        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "" },
         { type: "worksheet", name: "Ficha_Problemas_Optimizacion_S1.pdf", size: "1.4 MB", icon: "📝" },
         { type: "video", name: "Video_Demostracion_GeoGebra_Parabolas.mp4", duration: "18 min", icon: "🎬" }
       ],
@@ -1753,7 +1753,7 @@ const initialData = {
       attachments: [
         { type: "pdf", name: "Manual_Montaje_HC_SR04_Arduino.pdf", size: "3.2 MB", icon: "📕" },
         { type: "code", name: "Codigo_Sensor_Ultrasonico.ino", size: "45 KB", icon: "💻" },
-        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "[Reporte]" },
+        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "" },
         { type: "worksheet", name: "Ficha_Circuito_Tinkercad_S1.pdf", size: "1.1 MB", icon: "📝" }
       ],
       evaluation: {
@@ -1921,7 +1921,7 @@ const initialData = {
       ],
       attachments: [
         { type: "pdf", name: "Guia_Laboratorio_Dinamica_S1.pdf", size: "2.1 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "[Reporte]" },
+        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "" },
         { type: "worksheet", name: "Ficha_Diagramas_Cuerpo_Libre.pdf", size: "1.3 MB", icon: "📝" }
       ],
       evaluation: {
@@ -3112,14 +3112,14 @@ class IntranetStore {
 
   getStudentBoletaCoursesCatalog(gradeId = "4sec") {
     return [
-      { id: "ARIT", name: "Aritmética", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
-      { id: "ALG", name: "Álgebra", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
-      { id: "GEOM", name: "Geometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
-      { id: "TRIG", name: "Trigonometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
-      { id: "RM", name: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
-      { id: "LENG", name: "Lenguaje y Gramática", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
-      { id: "LIT", name: "Literatura Universal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
-      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
+      { id: "ARIT", name: "Aritmética", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "" },
+      { id: "ALG", name: "Álgebra", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "" },
+      { id: "GEOM", name: "Geometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "" },
+      { id: "TRIG", name: "Trigonometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "" },
+      { id: "RM", name: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "" },
+      { id: "LENG", name: "Lenguaje y Gramática", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "" },
+      { id: "LIT", name: "Literatura Universal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "" },
+      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "" },
       { id: "BIO", name: "Biología & Anatomía", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
       { id: "FIS", name: "Física Elemental", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
       { id: "QUIM", name: "Química Inorgánica", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
@@ -3129,7 +3129,7 @@ class IntranetStore {
       { id: "CIV", name: "Educación Cívica & DPCC", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal Social", icon: "⚖️" },
       { id: "PSIC", name: "Psicología & Filosofía", teacher: "Prof. Manuel Soto", area: "Personal Social", icon: "🧠" },
       { id: "COMP", name: "Computación & Robótica", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "💻" },
-      { id: "GEST", name: "Gestión Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "[Reporte]" },
+      { id: "GEST", name: "Gestión Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "" },
       { id: "ING", name: "Inglés Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas", icon: "🇬🇧" },
       { id: "ARTE", name: "Arte y Cultura", teacher: "Miss Claudia Mendoza", area: "Arte", icon: "🎨" },
       { id: "REL", name: "Educación Religiosa", teacher: "Prof. Manuel Soto", area: "Valores", icon: "🕊️" },
@@ -3993,7 +3993,7 @@ class IntranetStore {
       keyConcepts: materialData.keyConcepts || [],
       attachments: materialData.attachments || [
         { type: "pdf", name: "Guía_Sesión_Semanal.pdf", size: "2.1 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "[Reporte]" }
+        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "" }
       ],
       evaluation: materialData.evaluation || null,
       studentAttempts: []
@@ -4021,10 +4021,10 @@ class IntranetStore {
     const fileSize = (fileInfo && fileInfo.size) ? fileInfo.size : "2.8 MB";
     const fileExt = fileName.split('.').pop().toLowerCase();
     
-    let icon = "[Documento]";
+    let icon = "";
     if (fileExt === "pdf") icon = "📕";
     else if (fileExt === "doc" || fileExt === "docx") icon = "📘";
-    else if (fileExt === "ppt" || fileExt === "pptx") icon = "[Reporte]";
+    else if (fileExt === "ppt" || fileExt === "pptx") icon = "";
     else if (fileExt === "txt" || fileExt === "md") icon = "📝";
     else if (fileExt === "png" || fileExt === "jpg" || fileExt === "jpeg") icon = "🖼️";
     else if (fileExt === "xls" || fileExt === "xlsx") icon = "📗";
@@ -4098,7 +4098,7 @@ class IntranetStore {
       keyConcepts: detectedConcepts,
       attachments: [
         { type: fileExt, name: fileName, size: fileSize, icon: icon },
-        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "[Reporte]" },
+        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "" },
         { type: "pdf", name: `Guía_Evaluativa_Semana_${nextWeek}.pdf`, size: "1.8 MB", icon: "📝" }
       ]
     };
@@ -4503,7 +4503,7 @@ const Components = {
 
       <a class="nav-item ${currentView === 'asistencia' ? 'active' : ''}" data-view="asistencia" id="nav-asistencia" onclick="window.app.navigate('asistencia')" style="background: rgba(34,197,94,0.12); border: 1px dashed rgba(34,197,94,0.4); color: #86efac; font-weight: bold; cursor: pointer;">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-        <span>[Portería] Registro de Ingreso & QR</span>
+        <span>Registro de Ingreso & QR</span>
         <span class="nav-badge badge-yellow" style="background: #22c55e; color: #0b132b; font-weight: 800;">QR Puerta</span>
       </a>
 
@@ -4598,7 +4598,7 @@ const Components = {
               </div>
 
               <button type="submit" class="btn btn-navy" style="width: 100%; padding: 13px; font-size: 14px; font-weight: 900; border-radius: 22px; box-shadow: 0 4px 14px rgba(11,19,43,0.3); transition: all 0.2s ease;">
-                [Evaluación] Ingresar al Sistema
+                Ingresar al Sistema
               </button>
             </form>
 
@@ -4675,7 +4675,7 @@ const Components = {
           <div class="card" style="border-top: 4px solid #10b981; background: #f0fdf4;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
               <h4 style="font-size: var(--font-size-base); font-weight: 900; color: #065f46;">
-                [Portería] Control de Asistencia & Portería
+                Control de Asistencia & Portería
               </h4>
               <span class="status-badge status-approved">Auxiliar / Puerta</span>
             </div>
@@ -4706,7 +4706,7 @@ const Components = {
           <!-- 2. Registro de Notas -->
           <div class="card" style="border-top: 4px solid var(--color-navy-700);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              [Reporte] Registro Oficial de Notas
+              Registro Oficial de Notas
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
               Edición de calificaciones del 1°, 2°, 3° y 4° Bimestre con promedios automáticos.
@@ -4719,7 +4719,7 @@ const Components = {
           <!-- 3. Informe N° 003 -->
           <div class="card" style="border-top: 4px solid var(--color-red-500);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              [Documento] Informe Oficial N° 003/ED
+              Informe Oficial N° 003/ED
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
               Recaudación de agosto (S/ 25,130), 4ta categoría y expedientes ante la UGEL 05.
@@ -4749,7 +4749,7 @@ const Components = {
             
             <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
               <button class="btn btn-outline btn-sm" onclick="window.app.toggleAcademicSections(${!(state.academicConfig && state.academicConfig.hasSections)})" style="font-size: 11.5px; font-weight: 700;">
-                ${(state.academicConfig && state.academicConfig.hasSections) ? '[Bloqueado] Desactivar Secciones' : '⚙️ Habilitar Secciones'}
+                ${(state.academicConfig && state.academicConfig.hasSections) ? 'Desactivar Secciones' : '⚙️ Habilitar Secciones'}
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.openCreateGradeModal()" style="font-weight: 800; font-size: 11.5px;">
                 + Agregar Nuevo Grado
@@ -4853,7 +4853,7 @@ const Components = {
                 👮 TURNO DE AUXILIAR & CONTROL ESCOLAR • I.E.P. "EL EDUCADOR"
               </span>
               <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: #fde047; border: 1px solid #f59e0b;">
-                [Portería] Portería Puerta 1 & Pabellón Secundaria
+                Portería Puerta 1 & Pabellón Secundaria
               </span>
             </div>
             <h1 class="welcome-title">Bienvenido(a), <span>${user.name}</span></h1>
@@ -4889,7 +4889,7 @@ const Components = {
           <div class="card" style="border-top: 5px solid #10b981; box-shadow: 0 4px 14px rgba(16,185,129,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #065f46; margin: 0;">
-                [Portería] 1. Control de Asistencia & Portería
+                1. Control de Asistencia & Portería
               </h3>
               <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight: 900;">07:00 - 08:30 AM</span>
             </div>
@@ -4901,10 +4901,10 @@ const Components = {
                 [Cámara] Escáner en Puerta
               </button>
               <button class="btn btn-gold btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800; padding: 10px 8px; font-size: 12px;">
-                [Imprimir] Plancha QR (Sin Foto)
+                Plancha QR (Sin Foto)
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('daily-report');" style="font-weight: 800; padding: 10px 8px; font-size: 12px; grid-column: span 2;">
-                [Reporte] Parte Diario de Tardanzas / Inasistencias (08:30 AM)
+                Parte Diario de Tardanzas / Inasistencias (08:30 AM)
               </button>
             </div>
           </div>
@@ -4913,7 +4913,7 @@ const Components = {
           <div class="card" style="border-top: 5px solid #f59e0b; box-shadow: 0 4px 14px rgba(245,158,11,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #b45309; margin: 0;">
-                [Cuaderno] 2. Lector de Cuadernos QR
+                2. Lector de Cuadernos QR
               </h3>
               <span class="status-badge" style="background:#f59e0b; color:#0b132b; font-weight: 900;">CÁMARA VIVA</span>
             </div>
@@ -4928,7 +4928,7 @@ const Components = {
                 ⚡ Plancha QR por Estudiante (Cursos Boleta)
               </button>
               <button class="btn btn-outline btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('incidents');" style="font-weight: 800; padding: 8px; font-size: 12px; color: #dc2626; border-color: #fca5a5;">
-                [Alerta] Registrar Incidencia Conductual
+                Registrar Incidencia Conductual
               </button>
             </div>
           </div>
@@ -4939,7 +4939,7 @@ const Components = {
         <div class="card">
           <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
             <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-              [Lista] Padrón Rápido de Aulas a Cargo del Auxiliar
+              Padrón Rápido de Aulas a Cargo del Auxiliar
             </h3>
             <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('classroom');">
               Ver Asistencia por Aula Completa
@@ -4998,8 +4998,8 @@ const Components = {
       const studentTutor = "Prof. Roberto Silva";
       
       const defaultNotebooks = [
-        { course: "[Formato] Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
-        { course: "[Cuaderno] Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+        { course: "Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+        { course: "Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
         { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
         { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
         { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
@@ -5025,7 +5025,7 @@ const Components = {
               </div>
               <div style="display: flex; gap: 8px; align-items: center; justify-content: flex-end;">
                 <button class="btn btn-gold btn-sm" onclick="window.app.openPrintParentNotebookReportModal()" style="font-weight: 800; padding: 8px 16px;">
-                  [Imprimir] Imprimir / Guardar PDF
+                  Imprimir / Guardar PDF
                 </button>
               </div>
             </div>
@@ -5052,7 +5052,7 @@ const Components = {
             <!-- Detalle por Curso y Sellos Oficiales -->
             <div class="card-header" style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border-subtle);">
               <h3 class="card-title" style="font-size: var(--font-size-base);">
-                [Cuaderno] Detalle de Cuadernos de ${studentName}
+                Detalle de Cuadernos de ${studentName}
               </h3>
               <span class="status-badge status-approved">Actualizado al Día</span>
             </div>
@@ -5135,9 +5135,9 @@ const Components = {
           <div class="card-header" style="flex-wrap: wrap; gap: 12px; align-items: center;">
             <div>
               <div style="display:flex; align-items:center; gap: 8px; flex-wrap: wrap;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl);">[Cuaderno] Control y Sellado de Cuadernos Mediante QR</h2>
+                <h2 class="card-title" style="font-size: var(--font-size-xl);">Control y Sellado de Cuadernos Mediante QR</h2>
                 <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight:800;">CÁMARA BAJO DEMANDA</span>
-                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">[WiFi] MULTI-DOCENTE EN VIVO</span>
+                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">MULTI-DOCENTE EN VIVO</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 I.E.P. "El Educador" • Escaneo óptico de stickers de cuadernos. <strong>Varios profesores pueden escanear simultáneamente desde sus celulares</strong> sin sobreescritura de datos.
@@ -5147,16 +5147,16 @@ const Components = {
             <!-- Barra de Sub-Pestañas y Botón Conectar Celular -->
             <div style="display:flex; gap: 8px; flex-wrap: wrap; align-items: center;">
               <button class="btn btn-outline btn-sm" onclick="window.app.openMultiDeviceConnectModal()" style="font-weight: 800; color: #1e3a8a; border-color: #3b82f6; background: #eff6ff; border-radius: 18px; padding: 6px 14px;">
-                [Móvil] Conectar Celular
+                Conectar Celular
               </button>
               <button class="btn btn-sm ${activeSubTab === 'scanner' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('scanner')" style="font-weight: 800;">
                 [Cámara] 1. Escáner en Vivo
               </button>
               <button class="btn btn-sm ${activeSubTab === 'stickers' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('stickers')" style="font-weight: 800;">
-                [Imprimir] 2. Plancha de Stickers QR
+                2. Plancha de Stickers QR
               </button>
               <button class="btn btn-sm ${activeSubTab === 'report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('report')" style="font-weight: 800;">
-                [Reporte] 3. Informe de Supervisión
+                3. Informe de Supervisión
               </button>
             </div>
           </div>
@@ -5169,7 +5169,7 @@ const Components = {
             <!-- Banner de Escaneo Protegido Bajo Demanda y Multi-Dispositivo -->
             <div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1.5px solid #93c5fd; border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div style="display: flex; align-items: center; gap: 12px;">
-                <span style="font-size: 26px;">[Seguridad]️</span>
+                <span style="font-size: 26px;">️</span>
                 <div>
                   <div style="font-size: 13px; font-weight: 900; color: #1e3a8a;">
                     Modo Bajo Demanda & Concurrencia Multi-Dispositivo
@@ -5232,7 +5232,7 @@ const Components = {
                   <div style="display: flex; flex-direction:column; gap: 6px; margin-bottom: 12px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Matemática Avanzada (Álgebra / Geometría)|Prof. Roberto Silva')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">[Formato] Sofía Méndez Flores</strong>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">Sofía Méndez Flores</strong>
                         <div style="font-size: 10.5px; color: #047857;">Matemática Avanzada • Docente: Prof. Roberto Silva</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
@@ -5240,7 +5240,7 @@ const Components = {
 
                     <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Comunicación & Literatura|Miss María Daysi Reyes Milla')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">[Cuaderno] Sofía Méndez Flores</strong>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">Sofía Méndez Flores</strong>
                         <div style="font-size: 10.5px; color: #1e3a8a;">Comunicación & Literatura • Docente: Miss María Daysi Reyes</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
@@ -5328,7 +5328,7 @@ const Components = {
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
                     <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0;">
-                      [Imprimir] Planchas de Stickers QR Exclusivos por Estudiante y Curso
+                      Planchas de Stickers QR Exclusivos por Estudiante y Curso
                     </h3>
                     <span class="status-badge status-approved" style="font-size: 10.5px; font-weight: 800;">Boleta Oficial 2026</span>
                   </div>
@@ -5343,7 +5343,7 @@ const Components = {
                     <span>⚡</span> <span>Generar QR por Estudiante (Todos los Cursos de Boleta)</span>
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookStickerSheet()" style="font-weight: 800; padding: 10px 16px; border-radius: 20px; font-size: 12.5px;">
-                    [Imprimir] Imprimir Selección A4 (15 QR / Hoja)
+                    Imprimir Selección A4 (15 QR / Hoja)
                   </button>
                 </div>
               </div>
@@ -5372,8 +5372,8 @@ const Components = {
                 <div class="form-group" style="margin:0;">
                   <label class="form-label" style="font-size: 11px; font-weight: 700; color: #1e3a8a;">3. Distribución por Hoja A4:</label>
                   <select id="sticker-layout-select" class="form-control" style="font-size: 12.5px; font-weight: 800; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                    <option value="3x5" selected>[Fijado] 3 × 5 (15 QR por Hoja)</option>
-                    <option value="3x4">[Fijado] 3 × 4 (12 QR por Hoja)</option>
+                    <option value="3x5" selected>3 × 5 (15 QR por Hoja)</option>
+                    <option value="3x4">3 × 4 (12 QR por Hoja)</option>
                   </select>
                 </div>
               </div>
@@ -5398,10 +5398,10 @@ const Components = {
                         ${st.course}
                       </strong>
                       <div style="font-size: 11px; font-weight: 700; color: #1e3a8a; margin-top: 2px;">
-                        [Usuario] ${st.studentName}
+                        ${st.studentName}
                       </div>
                       <div style="font-size: 10px; color: #475569;">
-                        [Expediente] ${st.grade} • Código: ${st.studentCode}
+                        ${st.grade} • Código: ${st.studentCode}
                       </div>
                       <div style="margin-top: 6px;">
                         <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('${safePayload}')" style="font-size: 10px; padding: 3px 8px; border-radius: 12px; font-weight: 800;">
@@ -5423,7 +5423,7 @@ const Components = {
               <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 12px; margin-bottom: 16px;">
                 <div>
                   <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 4px 0;">
-                    [Reporte] Informe General de Cuadernos Revisados & Sellos Otorgados
+                    Informe General de Cuadernos Revisados & Sellos Otorgados
                   </h3>
                   <p style="font-size: 12px; color: var(--text-secondary); margin: 0;">
                     Consolidado de cumplimiento de tareas, cuadernos observados y sellos otorgados por el Auxiliar y Docentes.
@@ -5431,7 +5431,7 @@ const Components = {
                 </div>
                 
                 <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookGeneralReport()" style="font-weight: 800; padding: 8px 16px; border-radius: 18px;">
-                  [Imprimir] Imprimir Informe Oficial PDF
+                  Imprimir Informe Oficial PDF
                 </button>
               </div>
 
@@ -5478,7 +5478,7 @@ const Components = {
               <!-- Matriz Resumen de Cuadernos por Alumno del Aula -->
               <div class="card" style="margin-bottom: 16px; background: #ffffff; border: 1px solid #cbd5e1; padding: 14px; border-radius: 10px;">
                 <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 10px 0;">
-                  [Colegio] Matriz de Estado de Cuadernos por Estudiante (4° de Secundaria "A")
+                  Matriz de Estado de Cuadernos por Estudiante (4° de Secundaria "A")
                 </h4>
                 <div class="table-container">
                   <table class="data-table" style="font-size: 11.5px;">
@@ -5591,10 +5591,10 @@ const Components = {
             </div>
             <div style="display: flex; gap: var(--space-2);">
               <a href="/api/backup" download="backup_colegio_educador.json" class="btn btn-navy btn-sm" style="text-decoration:none;">
-                [Descargar] Descargar Backup (.JSON)
+                Descargar Backup (.JSON)
               </a>
               <button class="btn btn-gold btn-sm" onclick="window.app.showSQLSchemaModal()">
-                [Documento] Ver Esquema SQL (.SQL)
+                Ver Esquema SQL (.SQL)
               </button>
             </div>
           </div>
@@ -5747,7 +5747,7 @@ const Components = {
                 </div>
 
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <input type="text" id="user-search-input" class="form-control" placeholder="[Buscar] Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
+                  <input type="text" id="user-search-input" class="form-control" placeholder="Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
                 </div>
               </div>
 
@@ -5777,7 +5777,7 @@ const Components = {
                                              isEstudiante ? "background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0;" :
                                              "background: #fffbeb; color: #b45309; border: 1px solid #fde68a;";
                       
-                      const roleEmoji = isDirectivo ? "[Seguridad]️" : isDocente ? "👨‍[Colegio]" : isEstudiante ? "🎒" : "👨‍👩‍👧";
+                      const roleEmoji = isDirectivo ? "️" : isDocente ? "👨‍" : isEstudiante ? "🎒" : "👨‍👩‍👧";
 
                       return `
                         <tr>
@@ -5819,7 +5819,7 @@ const Components = {
                             <div style="display: flex; gap: 4px; justify-content: center;">
                               ${isEstudiante ? `
                                 <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${u.code || u.id}')" title="Ver Tarjeta QR de Asistencia (Sin Foto)" style="padding: 4px 8px; font-size: 11px; font-weight: bold;">
-                                  [Móvil] QR
+                                  QR
                                 </button>
                               ` : ''}
                               <button class="btn btn-outline btn-sm" onclick="window.app.openEditUserModal('${u.id}')" title="Editar datos y contraseña" style="padding: 4px 8px;">
@@ -5863,10 +5863,10 @@ const Components = {
                   <div style="display: flex; gap: 8px; align-items: center;">
                     <label style="font-size: 12px; font-weight: 800; color: #1e3a8a;">Perfil a Editar:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold;" onchange="window.app.onSelectNavConfigRole(this.value)">
-                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>👨‍[Colegio] Panel Docente</option>
+                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>👨‍Panel Docente</option>
                       <option value="estudiante" ${targetNavRole === 'estudiante' ? 'selected' : ''}>🎒 Portal del Estudiante</option>
                       <option value="padre" ${targetNavRole === 'padre' ? 'selected' : ''}>👨‍👩‍👧 Portal de Familias (Apoderados)</option>
-                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>[Expediente] Dirección General</option>
+                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>Dirección General</option>
                     </select>
                   </div>
                 </div>
@@ -5880,7 +5880,7 @@ const Components = {
                     <div class="card" style="padding: 14px; border: 1px solid ${isEnabled ? '#cbd5e1' : '#f1f5f9'}; background: ${isEnabled ? '#ffffff' : '#f8fafc'}; opacity: ${isEnabled ? '1' : '0.65'};">
                       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                         <div style="display: flex; align-items: center; gap: 8px;">
-                          <span style="font-size: 18px;">[Fijado]</span>
+                          <span style="font-size: 18px;"></span>
                           <strong style="font-size: 13px; color: var(--color-navy-900);">${tab.id}</strong>
                         </div>
                         
@@ -5918,7 +5918,7 @@ const Components = {
                   * Los cambios de visibilidad y nombres se aplican inmediatamente a todos los usuarios con el rol <strong>${targetNavRole.toUpperCase()}</strong>.
                 </span>
                 <button class="btn btn-outline btn-sm" onclick="window.app.resetNavTabsToDefault('${targetNavRole}')" style="color: var(--color-red-600); border-color: var(--color-red-200); font-weight: bold;">
-                  [Sincronizar] Restaurar Menús por Defecto
+                  Restaurar Menús por Defecto
                 </button>
               </div>
             </div>
@@ -5944,7 +5944,7 @@ const Components = {
                     <span>➕</span> + Nueva Matrícula / Ficha FUM
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800;">
-                    [Imprimir] Imprimir Padrón
+                    Imprimir Padrón
                   </button>
                 </div>
               </div>
@@ -6009,13 +6009,13 @@ const Components = {
                           <td style="text-align:center; white-space: nowrap;">
                             <div style="display: flex; gap: 4px; justify-content: center;">
                               <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${m.studentCode}')" title="Generar / Ver Código QR de Asistencia (Sin Foto)" style="font-size: 11px; padding: 4px 8px; font-weight: bold;">
-                                [Móvil] QR
+                                QR
                               </button>
                               <button class="btn btn-navy btn-sm" onclick="window.app.openEditEnrollmentFUMModal('${m.id}')" title="Editar Ficha FUM, Salud y Documentos" style="font-size: 11px; padding: 4px 8px;">
                                 ✏️ FUM
                               </button>
                               <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${m.id}')" title="Imprimir Ficha Única Oficial A4" style="font-size: 11px; padding: 4px 8px;">
-                                [Documento] FUM A4
+                                FUM A4
                               </button>
                               <button class="btn btn-outline btn-sm" onclick="window.app.openDocumentsChecklistModal('${m.id}')" title="Ver y Validar Documentos Digitales" style="font-size: 11px; padding: 4px 8px; color: #047857;">
                                 📎 Docs
@@ -6059,7 +6059,7 @@ const Components = {
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Muro de Circulares e Informes</h3>
-                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">[Documento] Ver Informe N° 003</button>
+                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">Ver Informe N° 003</button>
               </div>
               <div class="announcement-list">
                 ${state.announcements.map(a => `
@@ -6077,7 +6077,7 @@ const Components = {
               <div class="card-header"><h3 class="card-title">Supervisión Académica</h3></div>
               <div style="display:flex; flex-direction:column; gap: var(--space-3);">
                 <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 800; padding: 10px; font-size: 13px; text-align: left; display: flex; align-items: center; gap: 8px;">
-                  <span>[Portería]</span>
+                  <span></span>
                   <span>Registro de Ingreso & Asistencia QR (Portería)</span>
                 </button>
                 <button class="btn btn-navy" onclick="window.app.navigate('cuadernos-qr')">[Cámara] Escáner Cuadernos QR</button>
@@ -6125,14 +6125,14 @@ const Components = {
 
         <div style="display: flex; gap: var(--space-3); margin-bottom: var(--space-6); flex-wrap: wrap;">
           <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 900; font-size: 13px; padding: 9px 18px; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">
-            <span>[Portería]</span>
+            <span></span>
             <span>Registro de Ingreso & Asistencia QR</span>
           </button>
           <button class="btn btn-gold" onclick="window.app.navigate('cuadernos-qr')" style="font-weight: 800;">
             [Cámara] Abrir Escáner QR de Cuadernos
           </button>
           <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">✏️ Registrar Notas</button>
-          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">[Documento] Boleta Oficial MINEDU 2026</button>
+          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">Boleta Oficial MINEDU 2026</button>
           <button class="btn btn-outline" onclick="window.app.navigate('horarios')">Ver Horario</button>
         </div>
 
@@ -6182,7 +6182,7 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.showOfficialFUMPrintModal('MATR-2026-001')">
-            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">[Documento] Ficha de Matrícula (FUM)</h4>
+            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">Ficha de Matrícula (FUM)</h4>
             <span style="font-size:12px; color:#047857;">Expediente SIAGIE y ficha médica oficial 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
@@ -6194,7 +6194,7 @@ const Components = {
             <span style="font-size:12px; color:var(--text-muted);">Programación y competencias 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-600);" onclick="window.app.navigate('cuadernos-qr')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">[Cuaderno] Cuadernos QR</h4>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">Cuadernos QR</h4>
             <span style="font-size:12px; color:var(--text-muted);">5 de 6 cuadernos al día</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-red-500);" onclick="window.app.navigate('asistencia')">
@@ -6244,7 +6244,7 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.navigate('asistencia')">
-            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">[Portería] Mi Asistencia & QR</h4>
+            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">Mi Asistencia & QR</h4>
             <span style="font-size:11px; color:#047857;">Marcaciones y código QR</span>
           </div>
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
@@ -6305,20 +6305,20 @@ const Components = {
     // Lista oficial de asignaturas y sus docentes responsables
     const subjectDirectory = [
       { key: "computacion", name: "Computación (EPT)", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "💻" },
-      { key: "gestion_empresarial", name: "Gestión Empresarial", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "[Reporte]" },
-      { key: "algebra", name: "Álgebra", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "[Formato]" },
+      { key: "gestion_empresarial", name: "Gestión Empresarial", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "" },
+      { key: "algebra", name: "Álgebra", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "" },
       { key: "aritmetica", name: "Aritmética", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🔢" },
       { key: "geometria", name: "Geometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📏" },
-      { key: "trigonometria", name: "Trigonometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "[Formato]" },
+      { key: "trigonometria", name: "Trigonometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "" },
       { key: "raz_matematico", name: "Razonamiento Matemático", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🧮" },
-      { key: "lenguaje", name: "Lenguaje", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "[Cuaderno]" },
+      { key: "lenguaje", name: "Lenguaje", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "" },
       { key: "literatura", name: "Literatura", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "📚" },
       { key: "raz_verbal", name: "Razonamiento Verbal", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "✏️" },
       { key: "biologia", name: "Biología", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧬" },
       { key: "fisica", name: "Física", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "⚡" },
       { key: "quimica", name: "Química", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧪" },
       { key: "geografia", name: "Geografía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🌍" },
-      { key: "filosofia", name: "Filosofía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "[Nota]" },
+      { key: "filosofia", name: "Filosofía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "" },
       { key: "historia_peru", name: "Historia del Perú", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🏛️" },
       { key: "historia_universal", name: "Historia Universal", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "📜" },
       { key: "civica", name: "Cívica", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "⚖️" },
@@ -6360,20 +6360,20 @@ const Components = {
             </div>
             
             <button class="btn btn-gold" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-              [Documento] Ver Boleta Oficial Consolidada
+              Ver Boleta Oficial Consolidada
             </button>
           </div>
 
           <!-- Selector de Pestañas / Modalidades -->
           <div style="display: flex; border-top: 1px solid var(--border-subtle); background: var(--bg-surface-subtle); padding: 6px 12px; gap: 8px; flex-wrap: wrap;">
             <button class="btn btn-sm ${activeTab === 'subject' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('subject')" style="font-weight: 800;">
-              👨‍[Colegio] 1. Carga por Docente de Curso
+              👨‍1. Carga por Docente de Curso
             </button>
             <button class="btn btn-sm ${activeTab === 'tutor' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('tutor')" style="font-weight: 800;">
-              [Expediente] 2. Módulo de Tutoría (Asistencia, Apreciaciones y Familias)
+              2. Módulo de Tutoría (Asistencia, Apreciaciones y Familias)
             </button>
             <button class="btn btn-sm ${activeTab === 'overview' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('overview')" style="font-weight: 800;">
-              [Reporte] 3. Sábana Consolidada del Aula
+              3. Sábana Consolidada del Aula
             </button>
           </div>
         </div>
@@ -6657,10 +6657,10 @@ const Components = {
 
             <div style="padding: 16px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <span style="font-size: 13px; font-weight: 700; color: #1e293b;">
-                [Documento] El sistema ya tiene consolidadas todas las notas para la emisión oficial.
+                El sistema ya tiene consolidadas todas las notas para la emisión oficial.
               </span>
               <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-                [Imprimir] Generar Boleta Oficial MINEDU (PDF)
+                Generar Boleta Oficial MINEDU (PDF)
               </button>
             </div>
           </div>
@@ -6767,7 +6767,7 @@ const Components = {
           
           <div style="display: flex; gap: 8px; align-items: center;">
             <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; font-size: 13px; padding: 9px 20px;">
-              [Imprimir] Imprimir Boleta Oficial Completa (PDF / Doble Cara)
+              Imprimir Boleta Oficial Completa (PDF / Doble Cara)
             </button>
           </div>
         </div>
@@ -7369,7 +7369,7 @@ const Components = {
                   <span style="font-size: 24px;">📅</span>
                   <h2 style="font-size: 18px; font-weight: 900; margin: 0; color: #ffffff;">Gestión y Creación de Horarios Escolares</h2>
                   <span class="status-badge" style="background: #f59e0b; color: #78350f; font-weight: 900; font-size: 11px;">
-                    [Seguridad]️ Modo Administrador Activo
+                    ️ Modo Administrador Activo
                   </span>
                 </div>
                 <p style="font-size: 12px; color: #cbd5e1; margin: 4px 0 0 0;">
@@ -7384,13 +7384,13 @@ const Components = {
                   <span>+ CREAR / ASIGNAR CLASE</span>
                 </button>
                 <button class="btn btn-outline" onclick="window.app.setTeacherScheduleTab('${activeTab === 'personal' ? 'classroom' : 'personal'}')" style="background: rgba(255,255,255,0.18); color: #ffffff; border-color: rgba(255,255,255,0.5); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  ${activeTab === 'personal' ? '[Colegio] Ver Horario por Aula' : '👨‍[Colegio] Ver Horario Semanal Docente'}
+                  ${activeTab === 'personal' ? 'Ver Horario por Aula' : '👨‍Ver Horario Semanal Docente'}
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openAutoScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
                   ⚡ Horario Automático
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  [Lista] Clonar Horario
+                  Clonar Horario
                 </button>
                 <button class="btn btn-outline" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="background: rgba(239,68,68,0.25); color: #fca5a5; border-color: #ef4444; font-weight: 800; font-size: 12px; padding: 8px 12px;">
                   🗑️ Limpiar
@@ -7403,10 +7403,10 @@ const Components = {
           ${isTeacherOrAdmin ? `
             <div style="display: flex; gap: 8px; margin-bottom: 16px; background: #f1f5f9; padding: 6px; border-radius: 10px; border: 1px solid #cbd5e1; flex-wrap: wrap;">
               <button class="btn ${activeTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('classroom')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'classroom' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>[Colegio]</span> Horario General por Aula / Grado (Secciones)
+                <span></span> Horario General por Aula / Grado (Secciones)
               </button>
               <button class="btn ${activeTab === 'personal' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('personal')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'personal' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>👨‍[Colegio]</span> Horario Semanal por Docente (Carga Horaria & Cursos)
+                <span>👨‍</span> Horario Semanal por Docente (Carga Horaria & Cursos)
               </button>
             </div>
           ` : ''}
@@ -7419,7 +7419,7 @@ const Components = {
               <div class="teacher-schedule-banner" style="background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%); color: #ffffff; padding: 16px 20px; border-radius: 8px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <span style="font-size: 24px;">👨‍[Colegio]</span>
+                    <span style="font-size: 24px;">👨‍</span>
                     <h2 style="font-size: 19px; font-weight: 900; margin: 0; color: #ffffff;">${currentTeacher.name}</h2>
                     <span class="status-badge" style="background: #fef08a; color: #854d0e; font-weight: 900; font-size: 11px;">
                       Docente Curricular
@@ -7444,7 +7444,7 @@ const Components = {
                     </button>
                   ` : ''}
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800; white-space: nowrap; color: #ffffff; border-color: rgba(255,255,255,0.4); padding: 6px 12px;">
-                    [Imprimir] Imprimir A4
+                    Imprimir A4
                   </button>
                 </div>
               </div>
@@ -7464,7 +7464,7 @@ const Components = {
                 </div>
 
                 <div class="teacher-stat-card" style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 14px; border-radius: 6px; border: 1px solid #fde68a;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">[Colegio] Aulas / Grados Asignados</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">Aulas / Grados Asignados</span>
                   <span class="teacher-stat-val" style="font-size: 18px; font-weight: 900; color: #b45309; display: block; margin: 2px 0;">${teacherGrades.length} Grados</span>
                   <span style="font-size: 11px; color: #64748b;">${teacherGrades.slice(0, 2).join(', ')}${teacherGrades.length > 2 ? '...' : ''}</span>
                 </div>
@@ -7479,7 +7479,7 @@ const Components = {
               <!-- Barra de Filtros por Curso y Alerta de Disponibilidad -->
               <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 10px 14px; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">[Buscar] Filtrar por Asignatura:</label>
+                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">Filtrar por Asignatura:</label>
                   <select class="form-control" style="width: auto; padding: 4px 10px; font-size: 12px; font-weight: bold;" onchange="window.app.onTeacherCourseFilterChange(this.value)">
                     <option value="all" ${courseFilter === 'all' ? 'selected' : ''}>Todos los cursos (${teacherCourses.length})</option>
                     ${teacherCourses.map(c => `<option value="${c}" ${courseFilter === c ? 'selected' : ''}>${c}</option>`).join('')}
@@ -7565,13 +7565,13 @@ const Components = {
                     I.E.P. "El Educador" • "21 años dejando huellas" (S.J.L. • UGEL 05) • Bloques de 50 min
                   </p>
                 </div>
-                <button class="btn btn-navy btn-sm" onclick="window.print()">[Imprimir] Imprimir Horario de Aula</button>
+                <button class="btn btn-navy btn-sm" onclick="window.print()">Imprimir Horario de Aula</button>
               </div>
 
               <div class="schedule-filter-bar" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                 ${isTeacherOrAdmin ? `
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">[Colegio] Seleccionar Aula / Grado:</label>
+                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">Seleccionar Aula / Grado:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold; border-color: #3b82f6;" onchange="window.app.onScheduleGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === currentGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
@@ -7596,7 +7596,7 @@ const Components = {
                       ⚡ Generar Horario Automático
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                      [Lista] Clonar a Otra Aula
+                      Clonar a Otra Aula
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px; color: var(--color-red-600);">
                       🗑️ Limpiar
@@ -7637,7 +7637,7 @@ const Components = {
                                     <div class="slot-course-title">${slot.course}</div>
                                     ${hasAdminEditPower ? `<span style="font-size: 10px; opacity: 0.8;">✏️</span>` : ''}
                                   </div>
-                                  <div class="slot-teacher-name">👨‍[Colegio] ${slot.teacher}</div>
+                                  <div class="slot-teacher-name">👨‍${slot.teacher}</div>
                                   <div class="slot-room-badge">📍 ${slot.room || currentGrade.classroom || 'Aula Principal'}</div>
                                 </div>
                               </td>
@@ -7661,7 +7661,7 @@ const Components = {
           <h3 style="color: #9f1239; margin-bottom: 8px;">⚠️ Restableciendo visualización de Horarios</h3>
           <p style="color: #4b5563; font-size: 13px;">Se ha detectado una actualización en la estructura de horarios. Pulse el botón inferior para sincronizar:</p>
           <button class="btn btn-navy" onclick="window.app.render()" style="font-weight: 800; margin-top: 10px;">
-            [Sincronizar] Sincronizar y Ver Horarios
+            Sincronizar y Ver Horarios
           </button>
         </div>
       `;
@@ -7725,7 +7725,7 @@ const Components = {
                 <div>
                   <div class="syllabus-header"><span class="syllabus-code">${s.courseCode}</span><span class="status-badge status-approved">${s.bimester}</span></div>
                   <h3 class="syllabus-title">${s.courseName}</h3>
-                  <div class="syllabus-meta-list"><div>👨‍[Colegio] Docente: ${s.teacher}</div><div>⏱️ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
+                  <div class="syllabus-meta-list"><div>👨‍Docente: ${s.teacher}</div><div>⏱️ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
                   <div class="competency-tag-box">${(s.competencies || ['Competencia General']).map(c => `<span class="competency-pill">✓ ${c}</span>`).join('')}</div>
                 </div>
                 <div style="border-top:1px solid var(--border-subtle); padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
@@ -7753,7 +7753,7 @@ const Components = {
     
     // Lista de cursos disponibles en el aula virtual
     const availableCourses = [
-      { id: "MAT-401", name: "Matemática Avanzada (Álgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "[Formato]", color: "blue" },
+      { id: "MAT-401", name: "Matemática Avanzada (Álgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "", color: "blue" },
       { id: "EPT-402", name: "Computación e Informática / Robótica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria", icon: "🤖", color: "yellow" },
       { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria", icon: "🔬", color: "green" },
       { id: "COM-404", name: "Comunicación & Literatura", teacher: "Miss María Daysi Reyes", grade: "4to de Secundaria", icon: "📚", color: "navy" }
@@ -7792,8 +7792,8 @@ const Components = {
                 <span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-800); font-weight: 800;">
                   Periodo Lectivo 2026 • III Bimestre
                 </span>
-                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">👨‍[Colegio] Modo Gestión Docente</span>` : ''}
-                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">[Expediente] Alumno(a): Sofía Méndez</span>` : ''}
+                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">👨‍Modo Gestión Docente</span>` : ''}
+                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">Alumno(a): Sofía Méndez</span>` : ''}
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 I.E.P. "El Educador" • Publicación continua del trabajo realizado en el aula y generación automática de evaluaciones dinámicas de 10 preguntas con retroalimentación inmediata.
@@ -7853,7 +7853,7 @@ const Components = {
               <span style="font-size: 10.5px; color: #64748b;">Estudiantes evaluados</span>
             </div>
             <div class="teacher-stat-card" style="border-left: 4px solid #8b5cf6;">
-              <span class="teacher-stat-lbl">[Reporte] Promedio de Logro</span>
+              <span class="teacher-stat-lbl">Promedio de Logro</span>
               <span class="teacher-stat-val" style="color: #5b21b6;">17.8 / 20</span>
               <span style="font-size: 10.5px; color: #64748b;">Nivel Logro Destacado (AD)</span>
             </div>
@@ -7927,7 +7927,7 @@ const Components = {
                 <div style="padding: 20px;">
                   <!-- Resumen Pedagógico del Trabajo en el Aula -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-                    <span>👨‍[Colegio] Resumen del Trabajo Realizado en el Aula:</span>
+                    <span>👨‍Resumen del Trabajo Realizado en el Aula:</span>
                   </h4>
                   <div style="background: #f1f5f9; border-left: 4px solid var(--color-navy-800); padding: 14px 16px; border-radius: 6px; font-size: 13px; line-height: 1.6; color: #334155; margin-bottom: 18px;">
                     ${activeMaterial.summary}
@@ -7935,7 +7935,7 @@ const Components = {
 
                   <!-- Conceptos Clave Trabajados -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px;">
-                    [Fijado] Conceptos Clave Abordados en Clase:
+                    Conceptos Clave Abordados en Clase:
                   </h4>
                   <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
                     ${(activeMaterial.keyConcepts || []).map(c => `
@@ -7954,7 +7954,7 @@ const Components = {
                   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
                     ${(activeMaterial.attachments || []).map(att => `
                       <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; display: flex; align-items: center; gap: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: transform 0.2s;" class="hover-shadow">
-                        <div style="font-size: 24px;">${att.icon || '[Documento]'}</div>
+                        <div style="font-size: 24px;">${att.icon || ''}</div>
                         <div style="flex: 1; min-width: 0;">
                           <div style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                             ${att.name}
@@ -8018,7 +8018,7 @@ const Components = {
                       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; font-size: 11.5px; color: #475569; display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
                         <div>⏱️ <strong>Tiempo:</strong> 20 min</div>
                         <div>🎯 <strong>Mínimo:</strong> 14 pts</div>
-                        <div>[Reporte] <strong>Puntaje:</strong> 2 pts c/u</div>
+                        <div><strong>Puntaje:</strong> 2 pts c/u</div>
                         <div>🤖 <strong>IA Feedback:</strong> Activo</div>
                       </div>
                     </div>
@@ -8036,7 +8036,7 @@ const Components = {
                             ${studentAttempt.status} (${studentAttempt.correctCount} / 10 correctas)
                           </span>
                           <p style="font-size: 11px; color: #475569; margin-top: 8px; line-height: 1.4; text-align: left; background: rgba(255,255,255,0.7); padding: 8px; border-radius: 4px;">
-                            [Nota] <strong>Retroalimentación del Sistema:</strong> ${studentAttempt.feedback}
+                            <strong>Retroalimentación del Sistema:</strong> ${studentAttempt.feedback}
                           </p>
                         </div>
 
@@ -8045,7 +8045,7 @@ const Components = {
                             👁️ Revisar Respuestas y Explicaciones
                           </button>
                           <button class="btn btn-outline btn-sm" onclick="window.app.startStudentQuiz('${activeMaterial.id}')" style="width: 100%; font-weight: 700; font-size: 11px;">
-                            [Sincronizar] Rendir Nuevo Intento de Refuerzo
+                            Rendir Nuevo Intento de Refuerzo
                           </button>
                         </div>
                       ` : `
@@ -8266,13 +8266,13 @@ const Components = {
                ========================================================================= -->
           <div style="display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; overflow-x: auto;">
             <button class="btn btn-sm ${activeSubTab === 'door-scanner' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('door-scanner')" style="font-weight: 900; font-size: 12.5px; white-space: nowrap; padding: 8px 16px; border: 2px solid #f59e0b; box-shadow: ${activeSubTab === 'door-scanner' ? '0 2px 8px rgba(245,158,11,0.4)' : 'none'};">
-              [Portería] 1. Registro de Ingreso (Escáner QR en Portería)
+              1. Registro de Ingreso (Escáner QR en Portería)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'id-cards' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('id-cards')" style="font-weight: 900; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              [Imprimir] 2. Generador de Códigos QR (Sin Fotos)
+              2. Generador de Códigos QR (Sin Fotos)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'daily-report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('daily-report')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>[Reporte] 3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
+              <span>3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
               ${dayReport.tardinessList.length > 0 || dayReport.absenceList.length > 0 ? `
                 <span style="background: #ef4444; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                   ${dayReport.tardinessList.length + dayReport.absenceList.length}
@@ -8280,10 +8280,10 @@ const Components = {
               ` : ''}
             </button>
             <button class="btn btn-sm ${activeSubTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('classroom')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              [Lista] 4. Lista y Marcación por Aula
+              4. Lista y Marcación por Aula
             </button>
             <button class="btn btn-sm ${activeSubTab === 'incidents' ? 'btn-red' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('incidents')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>[Alerta] 5. Libro de Incidencias Conductuales</span>
+              <span>5. Libro de Incidencias Conductuales</span>
               <span style="background: #dc2626; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                 ${(state.behaviorIncidents || initialData.behaviorIncidents || []).length}
               </span>
@@ -8302,7 +8302,7 @@ const Components = {
                 
                 <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                   <div>
-                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">[Colegio] Grado / Aula:</label>
+                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">Grado / Aula:</label>
                     <select class="form-control" style="font-weight: bold; font-size: 12px; border-color: #3b82f6; width: auto;" onchange="window.app.onAttendanceGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === selectedGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
@@ -8331,7 +8331,7 @@ const Components = {
                     [Cámara] Escanear QR en Puerta
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.app.openMonthlyAttendanceReportModal('${selectedGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                    [Documento] Consolidado UGEL 05
+                    Consolidado UGEL 05
                   </button>
                 </div>
 
@@ -8376,7 +8376,7 @@ const Components = {
               <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                 <div>
                   <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-                    [Lista] Registro y Marcación de Asistencia: ${currentGrade.label} • Fecha: ${selectedDate}
+                    Registro y Marcación de Asistencia: ${currentGrade.label} • Fecha: ${selectedDate}
                   </h3>
                   <span style="font-size: 11px; color: var(--text-muted);">
                     Haga clic en los botones de estado para cambiar la asistencia del estudiante al instante.
@@ -8460,7 +8460,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 20px;">[Reporte]</span>
+                    <span style="font-size: 20px;"></span>
                     <div>
                       <h2 style="font-size: 17px; font-weight: 900; color: #0b132b; margin: 0;">
                         Parte Diario Oficial de Tardanzas e Inasistencias
@@ -8474,7 +8474,7 @@ const Components = {
 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-navy btn-sm" onclick="window.app.openOfficialDailyReportPrintModal('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
-                    [Imprimir] Imprimir Parte Diario A4 (UGEL 05)
+                    Imprimir Parte Diario A4 (UGEL 05)
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.notifyAllAbsencesAndTardinessWhatsApp('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
                     📲 Notificar a Todos los Apoderados (WhatsApp)
@@ -8559,7 +8559,7 @@ const Components = {
                               💬 WhatsApp
                             </button>
                             <button class="btn btn-outline btn-sm" onclick="window.app.showTardinessPassModal('${t.studentCode}')" style="font-size: 10.5px; padding: 4px 8px;" title="Emitir Pase de Tardanza">
-                              [Documento] Pase
+                              Pase
                             </button>
                           </div>
                         </td>
@@ -8672,7 +8672,7 @@ const Components = {
                   
                   <div id="qr-door-camera-feed" style="width: 100%; max-width: 320px; height: 240px; margin: 0 auto 16px; border: 3px dashed #3b82f6; border-radius: 12px; background: #0f172a; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;">
                     <div style="color: white; text-align: center;">
-                      <div style="font-size: 48px; margin-bottom: 6px;">⚡[Móvil]</div>
+                      <div style="font-size: 48px; margin-bottom: 6px;">⚡</div>
                       <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
                       <div style="font-size: 10.5px; opacity: 0.8;">Muestra el fotocheck frente al lente</div>
                     </div>
@@ -8700,7 +8700,7 @@ const Components = {
                       <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> <strong>Carlos Benítez</strong><br><span style="font-size: 9.5px; color: #b45309;">1er Escaneo: Tardanza (08:10 AM)</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-055')" style="font-size: 11px; text-align: left; padding: 8px; border: 2px solid #ef4444; background: #fff5f5;">
-                      [Alerta] <strong>Gael Cáceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
+                      <strong>Gael Cáceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-025', '08:45 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
                       <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> <strong>Mateo Ramos</strong><br><span style="font-size: 9.5px; color: #dc2626;">08:45 AM (Puerta Cerrada / Falta)</span>
@@ -8720,7 +8720,7 @@ const Components = {
                   </div>
                   
                   <div id="door-last-scan-display" style="padding: 20px; text-align: center;">
-                    <div style="font-size: 40px; margin-bottom: 6px;">[Expediente]</div>
+                    <div style="font-size: 40px; margin-bottom: 6px;"></div>
                     <h4 style="font-size: 15px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 4px;">
                       Esperando lectura de fotocheck escolar...
                     </h4>
@@ -8770,7 +8770,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 24px;">[Imprimir]</span>
+                    <span style="font-size: 24px;"></span>
                     <div>
                       <h3 style="font-size: 16px; font-weight: 900; color: #0b132b; margin: 0;">
                         Generador de Códigos QR Estudiantiles (Solo Código QR, Nombres y Grado)
@@ -8787,10 +8787,10 @@ const Components = {
                     <span>➕</span> + Matricular Nuevo Alumno y Generar QR
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    [Imprimir] Imprimir Plancha A4 de Códigos QR
+                    Imprimir Plancha A4 de Códigos QR
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.downloadAllQRSheets()" style="font-weight: 800; font-size: 12px;">
-                    [Descargar] Descargar Plancha QR
+                    Descargar Plancha QR
                   </button>
                 </div>
               </div>
@@ -8838,13 +8838,13 @@ const Components = {
                   <!-- Pie de Tarjeta con Botones de Acción -->
                   <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; gap: 6px;">
                     <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 10px; flex: 1;" title="Ver Tarjeta QR Individual en Grande">
-                      [Móvil] Ver QR
+                      Ver QR
                     </button>
                     <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px;" title="Descargar Código QR">
-                      [Descargar] Guardar
+                      Guardar
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCreateIncidentModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px; color: #dc2626; border-color: #fca5a5;" title="Registrar Incidencia Conductual">
-                      [Alerta] Informe
+                      Informe
                     </button>
                   </div>
 
@@ -8864,7 +8864,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 22px;">[Alerta]</span>
+                    <span style="font-size: 22px;"></span>
                     <div>
                       <h2 style="font-size: 16px; font-weight: 900; color: #991b1b; margin: 0;">
                         Libro Oficial de Registro de Incidencias & Convivencia Escolar
@@ -8881,7 +8881,7 @@ const Components = {
                     + Registrar Nuevo Informe de Incidencia / Mérito
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    [Imprimir] Imprimir Libro de Incidencias
+                    Imprimir Libro de Incidencias
                   </button>
                 </div>
               </div>
@@ -8933,7 +8933,7 @@ const Components = {
                   <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
                     <div>
                       <h3 class="card-title" style="font-size: 14px; margin: 0;">
-                        [Lista] Expediente Conductual & Registro de Casos
+                        Expediente Conductual & Registro de Casos
                       </h3>
                       <span style="font-size: 11px; color: var(--text-muted);">
                         Cada reporte está amarrado al código QR y perfil del estudiante con notificación inmediata a su apoderado.
@@ -8941,7 +8941,7 @@ const Components = {
                     </div>
 
                     <div style="display: flex; gap: 8px;">
-                      <input type="text" id="incident-search-input" class="form-control" placeholder="[Buscar] Buscar por estudiante (ej: Gael Cáceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
+                      <input type="text" id="incident-search-input" class="form-control" placeholder="Buscar por estudiante (ej: Gael Cáceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
                     </div>
                   </div>
 
@@ -8994,7 +8994,7 @@ const Components = {
                                     💬 WhatsApp
                                   </button>
                                   <button class="btn btn-navy btn-sm" onclick="window.app.openIncidentOfficialPrintModal('${inc.id}')" style="font-size: 10.5px; padding: 3px 8px;" title="Imprimir Acta A4 de Compromiso">
-                                    [Documento] Acta A4
+                                    Acta A4
                                   </button>
                                 </div>
                               </td>
@@ -9062,7 +9062,7 @@ const Components = {
               
               <div style="display: flex; gap: 6px;">
                 <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${studentCode}')" style="font-weight: 800; font-size: 11.5px;">
-                  [Móvil] Ver Mi Código QR
+                  Ver Mi Código QR
                 </button>
                 ${isPadre ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${studentCode}', '19/08/2026')" style="font-weight: 800; font-size: 11.5px;">
@@ -9130,7 +9130,7 @@ const Components = {
                 <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                   <div>
                     <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0; color: #1e3a8a;">
-                      [Cuaderno] Registro Conductual & Anecdotario Escolar de ${studentName}
+                      Registro Conductual & Anecdotario Escolar de ${studentName}
                     </h3>
                     <span style="font-size: 11px; color: var(--text-muted);">
                       Seguimiento formativo, reconocimientos e informes disciplinarios registrados institucionalmente.
@@ -9208,7 +9208,7 @@ const Components = {
                 <h3>${a.title}</h3>
                 <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">${a.content}</p>
                 <div style="margin-top: 8px;">
-                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">[Documento] Ver Documento Completo</button>
+                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">Ver Documento Completo</button>
                 </div>
               </div>
             `).join('')}
@@ -9236,7 +9236,7 @@ const Components = {
               I.E.P. "EL EDUCADOR" • 21 AÑOS DEJANDO HUELLAS (S.J.L.)
             </div>
             <h2 style="font-size: 22px; font-weight: 900; margin: 6px 0 4px; color: white;">
-              [Bloqueado] ACCESO A LA INTRANET RESTRINGIDO
+              ACCESO A LA INTRANET RESTRINGIDO
             </h2>
             <p style="font-size: 13px; color: #fecaca; margin: 0;">
               Validación de Pensión Escolar Requerida para el Alumno(a) y Apoderado(a)
@@ -9278,7 +9278,7 @@ const Components = {
               
               <!-- Opción 1: Tarjeta Débito / Crédito -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')">
-                <div style="font-size: 24px; margin-bottom: 4px;">[Pago]</div>
+                <div style="font-size: 24px; margin-bottom: 4px;"></div>
                 <strong style="font-size: 13px; color: var(--color-navy-900);">Tarjeta Débito / Crédito</strong>
                 <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Visa, Mastercard, Débito</p>
                 <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Desbloqueo Inmediato</span>
@@ -9286,7 +9286,7 @@ const Components = {
 
               <!-- Opción 2: Yape / Plin -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openYapePayModal('PEN-08', ${debtAmount})">
-                <div style="font-size: 24px; margin-bottom: 4px;">[Móvil]</div>
+                <div style="font-size: 24px; margin-bottom: 4px;"></div>
                 <strong style="font-size: 13px; color: #6d28d9;">Yape / Plin Institucional</strong>
                 <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">987-654-321 (I.E.P. El Educador)</p>
                 <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Validación Automática</span>
@@ -9303,11 +9303,11 @@ const Components = {
 
             <!-- Botón de Pago Rápido Principal -->
             <button class="btn btn-red" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')" style="width: 100%; padding: 14px; font-size: 15px; font-weight: 900; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
-              <span>[Pago] Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
+              <span>Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
             </button>
 
             <div style="text-align: center; margin-top: 14px; font-size: 11px; color: var(--text-muted);">
-              [Bloqueado] Al confirmar el pago, la base de datos central emitirá su recibo digital y se habilitará el acceso en todos sus dispositivos al instante.
+              Al confirmar el pago, la base de datos central emitirá su recibo digital y se habilitará el acceso en todos sus dispositivos al instante.
             </div>
           </div>
         </div>
@@ -9336,7 +9336,7 @@ const Components = {
             </div>
             ${isCoordination ? `
               <button class="btn btn-gold btn-sm" onclick="window.app.openManualPaymentModal()">
-                [Pensiones] + Registrar Pago en Caja (Efectivo/Banco)
+                + Registrar Pago en Caja (Efectivo/Banco)
               </button>
             ` : ''}
           </div>
@@ -9401,7 +9401,7 @@ const Components = {
           <!-- Lista de Pagos del Usuario -->
           <div class="card-header" style="margin-bottom: 8px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
             <h3 class="card-title" style="font-size: var(--font-size-base);">
-              [Documento] Cronograma de Cuotas y Recibos Oficiales
+              Cronograma de Cuotas y Recibos Oficiales
             </h3>
           </div>
 
@@ -9417,11 +9417,11 @@ const Components = {
                 </span>
                 ${p.status === 'paid' ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.showReceiptModal('${p.id}')">
-                    [Documento] Ver Recibo (${p.receiptNo || 'REC-2026'})
+                    Ver Recibo (${p.receiptNo || 'REC-2026'})
                   </button>
                 ` : `
                   <button class="btn btn-red btn-sm" onclick="window.app.openPayModal('${p.id}', ${p.amount}, '${p.concept}')" style="font-weight: 800;">
-                    [Pago] Pagar y Validar Intranet
+                    Pagar y Validar Intranet
                   </button>
                 `}
               </div>
@@ -9592,7 +9592,7 @@ class IntranetApp {
       <div class="modal-header" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: #fde047;">
-            [Móvil] Conectar Celular para Escaneo Simultáneo
+            Conectar Celular para Escaneo Simultáneo
           </h3>
           <span style="font-size: 11px; opacity: 0.9;">Acceso Multi-Dispositivo en Tiempo Real (Varios Profesores a la Vez)</span>
         </div>
@@ -9603,13 +9603,13 @@ class IntranetApp {
         <div style="background: white; border: 2px solid #3b82f6; border-radius: 16px; padding: 20px; display: inline-block; box-shadow: 0 8px 24px rgba(59,130,246,0.15); margin-bottom: 16px;">
           <img src="${qrApiUrl}" alt="QR Conexión Móvil" style="width: 200px; height: 200px; display: block; border-radius: 8px; margin: 0 auto;" onerror="this.src='https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=${encodeURIComponent(targetUrl)}'" />
           <div style="margin-top: 10px; font-size: 13px; font-weight: 900; color: #1e3a8a;">
-            [WiFi] ${targetUrl}
+            ${targetUrl}
           </div>
         </div>
 
         <div style="text-align: left; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px;">
           <h4 style="margin: 0 0 8px 0; font-size: 13px; color: #0f172a; font-weight: 800;">
-            [Evaluación] ¿Cómo escanear con varios celulares al mismo tiempo sin perder datos?
+            ¿Cómo escanear con varios celulares al mismo tiempo sin perder datos?
           </h4>
           <ol style="margin: 0; padding-left: 20px; font-size: 12px; color: #475569; line-height: 1.6;">
             <li>Conecta tu celular a la <strong>misma red Wi-Fi</strong> del colegio.</li>
@@ -9622,7 +9622,7 @@ class IntranetApp {
 
         <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
           <button class="btn btn-outline btn-sm" onclick="navigator.clipboard.writeText('${targetUrl}'); window.app.showToast('Enlace copiado al portapapeles: ${targetUrl}', 'success');" style="font-weight: 700;">
-            [Lista] Copiar Enlace Directo
+            Copiar Enlace Directo
           </button>
         </div>
       </div>
@@ -9777,7 +9777,7 @@ class IntranetApp {
     this.isScanProcessing = true;
     this.playScanBeep();
     const notebookData = this.store.findNotebookByQR(qrCode);
-    this.showToast(`[Buscar] QR Reconocido: ${qrCode}`, "info");
+    this.showToast(`QR Reconocido: ${qrCode}`, "info");
     setTimeout(() => {
       this.openNotebookReviewModal(notebookData);
       this.isScanProcessing = false;
@@ -9827,7 +9827,7 @@ class IntranetApp {
       <div class="modal-header">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: var(--color-navy-900);">
-            [Cuaderno] Calificar & Sellar Cuaderno Escolar
+            Calificar & Sellar Cuaderno Escolar
           </h3>
           <span style="font-size: 11px; color: var(--text-secondary);">Escaneo de Código QR Verificado</span>
         </div>
@@ -9912,8 +9912,8 @@ class IntranetApp {
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" style="font-weight: 800; font-size: 12px;">Criterios Verificados:</label>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px; background: #f8fafc; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> [Formato] Márgenes y Fechas</label>
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> [Cuaderno] Teoría Completa</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> Márgenes y Fechas</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> Teoría Completa</label>
             <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-ejercicios" checked /> ✍️ Tareas / Ejercicios al Día</label>
             <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-pulcritud" checked /> ✨ Pulcritud y Limpieza</label>
           </div>
@@ -10061,9 +10061,9 @@ class IntranetApp {
         <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
           <div>
             <span style="font-size: 10.5px; font-weight: 800; color: #64748b; text-transform: uppercase;">Estudiante Seleccionado:</span>
-            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">[Usuario] ${student.studentName}</div>
+            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">${student.studentName}</div>
             <div style="font-size: 12px; color: #1e3a8a; font-weight: 700;">
-              [Expediente] ${student.grade} • Código / DNI: ${student.studentCode || student.dni} • Tutor: ${student.tutor || 'Prof. Titular'}
+              ${student.grade} • Código / DNI: ${student.studentCode || student.dni} • Tutor: ${student.tutor || 'Prof. Titular'}
             </div>
           </div>
 
@@ -10080,10 +10080,10 @@ class IntranetApp {
             </div>
 
             <div>
-              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">[Formato] Formato por Hoja A4:</label>
+              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">Formato por Hoja A4:</label>
               <select id="modal-sticker-layout-select" class="form-control" style="font-size: 12px; font-weight: 800; max-width: 210px; border-radius: 16px; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                <option value="3x5" selected>[Fijado] 3 × 5 (15 QR por Hoja)</option>
-                <option value="3x4">[Fijado] 3 × 4 (12 QR por Hoja)</option>
+                <option value="3x5" selected>3 × 5 (15 QR por Hoja)</option>
+                <option value="3x4">3 × 4 (12 QR por Hoja)</option>
               </select>
             </div>
           </div>
@@ -10094,7 +10094,7 @@ class IntranetApp {
             Mostrando los <strong>${stickers.length} stickers adhesivos</strong> para cada cuaderno curricular de la boleta:
           </span>
           <button class="btn btn-navy btn-sm" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px; border-radius: 18px; box-shadow: 0 4px 12px rgba(15,23,42,0.2);">
-            [Imprimir] Imprimir Plancha A4
+            Imprimir Plancha A4
           </button>
         </div>
 
@@ -10117,10 +10117,10 @@ class IntranetApp {
                     ${st.icon || '📚'} ${st.course}
                   </strong>
                   <div style="font-size: 10.5px; font-weight: 700; color: #1e3a8a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                    [Usuario] ${st.studentName}
+                    ${st.studentName}
                   </div>
                   <div style="font-size: 9.5px; color: #64748b;">
-                    [Expediente] ${st.grade} • ${st.area}
+                    ${st.grade} • ${st.area}
                   </div>
                   <div style="margin-top: 4px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); setTimeout(() => window.app.simulateQRScan('${safePayload}'), 150);" style="font-size: 9.5px; padding: 2px 6px; border-radius: 10px; font-weight: 800;">
@@ -10141,7 +10141,7 @@ class IntranetApp {
         <div style="display: flex; gap: 8px;">
           <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
           <button class="btn btn-gold" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px;">
-            [Imprimir] Imprimir Plancha A4
+            Imprimir Plancha A4
           </button>
         </div>
       </div>
@@ -10154,7 +10154,7 @@ class IntranetApp {
   showOfficialReportModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>[Documento] INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN</h3>
+        <h3>INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; background: #ffffff; padding: 24px;">
@@ -10237,7 +10237,7 @@ class IntranetApp {
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Documento</button>
+        <button class="btn btn-navy" onclick="window.print()">Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -10246,7 +10246,7 @@ class IntranetApp {
   showSQLSchemaModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>[Documento] Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
+        <h3>Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
@@ -10535,7 +10535,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;">
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-docente">
               <input type="radio" name="new-user-role-radio" value="Docente" ${defaultRole === 'Docente' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">👨‍[Colegio]</span>
+              <span style="font-size: 16px;">👨‍</span>
               <strong style="font-size: 12px; color: #1e3a8a;">Docente</strong>
             </label>
 
@@ -10559,7 +10559,7 @@ CREATE TABLE tb_cuadernos_qr (
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-directivo">
               <input type="radio" name="new-user-role-radio" value="Directivo" ${defaultRole === 'Directivo' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">[Seguridad]️</span>
+              <span style="font-size: 16px;">️</span>
               <strong style="font-size: 12px; color: #6b21a8;">Directivo</strong>
             </label>
           </div>
@@ -10648,7 +10648,7 @@ CREATE TABLE tb_cuadernos_qr (
   getBoletaCoursesSelectOptions(selectedSubject = "Aritmética") {
     const categories = [
       {
-        area: "[Formato] Área de Matemática",
+        area: "Área de Matemática",
         courses: [
           "Aritmética",
           "Álgebra",
@@ -10658,7 +10658,7 @@ CREATE TABLE tb_cuadernos_qr (
         ]
       },
       {
-        area: "[Cuaderno] Área de Comunicación",
+        area: "Área de Comunicación",
         courses: [
           "Lenguaje",
           "Literatura",
@@ -10757,7 +10757,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div style="margin-top: 8px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 6px;">
           <label class="form-label" style="font-size: 11.5px; font-weight: 800; color: #1e3a8a; margin: 0;">
-            [Colegio] Grados a Cargo (Checklist - Marque los grados asignados):
+            Grados a Cargo (Checklist - Marque los grados asignados):
           </label>
           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
             <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectGrades('${prefix}', 'secundaria')" style="font-size: 10.5px; padding: 2px 6px; font-weight: bold;">+ Toda Secundaria</button>
@@ -10817,7 +10817,7 @@ CREATE TABLE tb_cuadernos_qr (
   renderCoursesChecklistHTML(prefix = "new-user-courses", selectedCourses = ["Aritmética", "Álgebra"]) {
     const courseCategories = [
       {
-        category: "[Formato] Área de Matemática",
+        category: "Área de Matemática",
         color: "#1e40af",
         bg: "#eff6ff",
         border: "#bfdbfe",
@@ -10922,7 +10922,7 @@ CREATE TABLE tb_cuadernos_qr (
             </div>
           </div>
           <span class="status-badge" style="background: #dbeafe; color: #1e40af; font-weight: 800; font-size: 11px;" id="${prefix}-count-badge">
-            [Lista] <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
+            <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
           </span>
         </div>
 
@@ -11071,7 +11071,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="card parent-student-row" id="${rowId}" style="padding: 12px; margin-bottom: 10px; border: 1px solid #fdba74; background: #fffaf0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-bottom: 1px solid #ffedd5; padding-bottom: 4px;">
           <span style="font-size: 12px; font-weight: 800; color: #9a3412;">
-            [Expediente] Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
+            Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
           </span>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.removeParentStudentRow('${prefix}', '${rowId}')" style="font-size: 11px; padding: 2px 8px; color: var(--color-red-600); border-color: #fca5a5;" title="Quitar estudiante">
             🗑️ Quitar
@@ -11234,7 +11234,7 @@ CREATE TABLE tb_cuadernos_qr (
     // Re-index titles
     currentRows.forEach((r, i) => {
       const headerSpan = r.querySelector("span");
-      if (headerSpan) headerSpan.innerText = `[Expediente] Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
+      if (headerSpan) headerSpan.innerText = `Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
     });
   }
 
@@ -11327,7 +11327,7 @@ CREATE TABLE tb_cuadernos_qr (
       `;
     } else {
       return `
-        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">[Seguridad]️ Cargo Institucional & Despacho:</div>
+        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">️ Cargo Institucional & Despacho:</div>
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-size: 11.5px;">Cargo o Dependencia:</label>
           <select id="new-user-directivo-pos" class="form-control">
@@ -11588,8 +11588,8 @@ CREATE TABLE tb_cuadernos_qr (
           <div class="form-group">
             <label class="form-label">Rol / Perfil:</label>
             <select id="edit-user-role" class="form-control">
-              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>[Seguridad]️ Directivo</option>
-              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>👨‍[Colegio] Docente</option>
+              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>️ Directivo</option>
+              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>👨‍Docente</option>
               <option value="Estudiante" ${user.role === 'Estudiante' ? 'selected' : ''}>🎒 Estudiante</option>
               <option value="Apoderado" ${user.role === 'Apoderado' ? 'selected' : ''}>👨‍👩‍👧 Apoderado</option>
             </select>
@@ -11812,7 +11812,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="fum-tab-btn-1" onclick="window.app.switchFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            [Expediente] 1. Datos del Alumno & SIAGIE
+            1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="fum-tab-btn-2" onclick="window.app.switchFUMTab('2')" style="font-weight: 800; font-size: 11px;">
             👨‍👩‍👧 2. Apoderado & Emergencia
@@ -11968,32 +11968,32 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Copia de DNI del Estudiante</span>
               <input type="checkbox" id="chk-doc-dnistudent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="chk-doc-dniparent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
               <input type="checkbox" id="chk-doc-birthcert" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Ficha Única de Matrícula SIAGIE (Traslado / Continuidad)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Ficha Única de Matrícula SIAGIE (Traslado / Continuidad)</span>
               <input type="checkbox" id="chk-doc-siagiefum" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Certificado de Estudios / Libreta de Notas 2025</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Certificado de Estudios / Libreta de Notas 2025</span>
               <input type="checkbox" id="chk-doc-reportcard" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Cartilla de Vacunación Completa (Nivel Inicial/Primaria)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">Cartilla de Vacunación Completa (Nivel Inicial/Primaria)</span>
               <input type="checkbox" id="chk-doc-vaccine" checked style="transform: scale(1.2);" />
             </label>
           </div>
@@ -12135,13 +12135,13 @@ CREATE TABLE tb_cuadernos_qr (
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
           <div style="display: flex; gap: 6px;">
             <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-              [Imprimir] Imprimir Tarjeta QR
+              Imprimir Tarjeta QR
             </button>
             <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${created.id}')" style="font-size: 11px;">
-              [Documento] Ver Ficha FUM A4
+              Ver Ficha FUM A4
             </button>
             <button class="btn btn-gold btn-sm" onclick="window.app.closeModal(); window.app.navigate('attendance'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800;">
-              [Imprimir] Ir a Plancha de QR
+              Ir a Plancha de QR
             </button>
           </div>
         </div>
@@ -12166,7 +12166,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="edit-fum-tab-btn-1" onclick="window.app.switchEditFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            [Expediente] 1. Datos del Alumno & SIAGIE
+            1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="edit-fum-tab-btn-2" onclick="window.app.switchEditFUMTab('2')" style="font-weight: 800; font-size: 11px;">
             👨‍👩‍👧 2. Apoderado & Emergencia
@@ -12296,32 +12296,32 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700;">Copia de DNI del Estudiante</span>
               <input type="checkbox" id="edit-chk-dnistudent" ${docs.dniStudent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700;">Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="edit-chk-dniparent" ${docs.dniParent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Partida / Acta de Nacimiento</span>
+              <span style="font-size: 12px; font-weight: 700;">Partida / Acta de Nacimiento</span>
               <input type="checkbox" id="edit-chk-birthcert" ${docs.birthCertificate ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Ficha Única de Matrícula SIAGIE</span>
+              <span style="font-size: 12px; font-weight: 700;">Ficha Única de Matrícula SIAGIE</span>
               <input type="checkbox" id="edit-chk-siagiefum" ${docs.siagieFUM ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Certificado de Estudios / Libreta de Notas</span>
+              <span style="font-size: 12px; font-weight: 700;">Certificado de Estudios / Libreta de Notas</span>
               <input type="checkbox" id="edit-chk-reportcard" ${docs.reportCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">[Documento] Cartilla de Vacunación</span>
+              <span style="font-size: 12px; font-weight: 700;">Cartilla de Vacunación</span>
               <input type="checkbox" id="edit-chk-vaccine" ${docs.vaccinationCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
           </div>
@@ -12413,7 +12413,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">[Documento] Ficha Única de Matrícula Oficial (F.U.M. 2026)</h3>
+        <h3 style="color: #ffffff;">Ficha Única de Matrícula Oficial (F.U.M. 2026)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: #ffffff;">
@@ -12536,7 +12536,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 900; padding: 8px 24px;">
-          [Imprimir] Imprimir Ficha Única Oficial (A4)
+          Imprimir Ficha Única Oficial (A4)
         </button>
       </div>
     `);
@@ -12551,9 +12551,9 @@ CREATE TABLE tb_cuadernos_qr (
     const reqList = [
       { key: 'dniStudent', label: 'Copia de DNI del Estudiante', icon: '🆔', required: true },
       { key: 'dniParent', label: 'Copia de DNI del Padre / Madre / Apoderado', icon: '👨‍👩‍👧', required: true },
-      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: '[Documento]', required: true },
-      { key: 'siagieFUM', label: 'Ficha Única de Matrícula SIAGIE', icon: '[Colegio]', required: true },
-      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: '[Reporte]', required: false },
+      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: '', required: true },
+      { key: 'siagieFUM', label: 'Ficha Única de Matrícula SIAGIE', icon: '', required: true },
+      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: '', required: false },
       { key: 'vaccinationCard', label: 'Cartilla de Vacunación Completa', icon: '💉', required: false }
     ];
 
@@ -12695,7 +12695,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Documento Sustentatorio (Constancia Médica / Receta):</label>
           <div style="border: 2px dashed #cbd5e1; border-radius: 6px; padding: 12px; text-align: center; background: #f8fafc;">
-            <span style="font-size: 12px; color: #475569;">[Documento] Constancia_Medica_Atencion_19082026.pdf</span>
+            <span style="font-size: 12px; color: #475569;">Constancia_Medica_Atencion_19082026.pdf</span>
             <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 4px;">✓ Documento adjunto verificado</div>
           </div>
         </div>
@@ -12793,7 +12793,7 @@ CREATE TABLE tb_cuadernos_qr (
         if (feedContainer) {
           feedContainer.innerHTML = `
             <div style="color: white; text-align: center;">
-              <div style="font-size: 48px; margin-bottom: 6px;">⚡[Móvil]</div>
+              <div style="font-size: 48px; margin-bottom: 6px;">⚡</div>
               <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
               <div style="font-size: 10.5px; opacity: 0.8;">Presiona 'Encender Cámara' o usa simulación</div>
             </div>
@@ -12832,21 +12832,21 @@ CREATE TABLE tb_cuadernos_qr (
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <button class="btn btn-red btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Grave')" style="font-weight: 900; font-size: 12px; padding: 8px 14px;">
-                [Alerta] Registrar Nuevo Informe de Incidencia Conductual
+                Registrar Nuevo Informe de Incidencia Conductual
               </button>
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
                 <button class="btn btn-gold btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Mérito')" style="font-weight: 800; font-size: 11px;">
                   ★ Anotar Mérito / Reconocimiento
                 </button>
                 <button class="btn btn-outline btn-sm" onclick="window.app.openStudentQRModal('${result.student.studentCode}')" style="font-size: 11px;">
-                  [Usuario] Ver Fotocheck QR
+                  Ver Fotocheck QR
                 </button>
               </div>
             </div>
           </div>
         `;
       }
-      this.showToast(`[Alerta] QR Detectado: ${result.student.studentName} ya ingresó (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
+      this.showToast(`QR Detectado: ${result.student.studentName} ya ingresó (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
       return;
     }
 
@@ -12912,7 +12912,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            [Móvil] Tarjeta Oficial de Asistencia QR (Sin Foto)
+            Tarjeta Oficial de Asistencia QR (Sin Foto)
           </h3>
           <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" • Año Lectivo 2026</span>
         </div>
@@ -12975,13 +12975,13 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <div style="display: flex; gap: 6px;">
           <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-            [Imprimir] Imprimir Tarjeta / Sticker
+            Imprimir Tarjeta / Sticker
           </button>
           <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-weight: 800;">
-            [Descargar] Descargar QR
+            Descargar QR
           </button>
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); window.app.openCreateIncidentModal('${st.studentCode}')" style="color: #dc2626; border-color: #fca5a5; font-weight: bold;">
-            [Alerta] Informe
+            Informe
           </button>
         </div>
       </div>
@@ -13010,7 +13010,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            [Alerta] Registrar Nuevo Informe de Incidencia Conductual / Convivencia
+            Registrar Nuevo Informe de Incidencia Conductual / Convivencia
           </h3>
           <span style="font-size: 11px; color: #fee2e2;">I.E.P. "El Educador" • Conforme a Ley N° 29719</span>
         </div>
@@ -13159,7 +13159,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Notificación enviada a WhatsApp', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 18px;">
-          [Evaluación] Abrir WhatsApp y Enviar Mensaje
+          Abrir WhatsApp y Enviar Mensaje
         </button>
       </div>
     `);
@@ -13171,7 +13171,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white; font-size: 15px;">[Documento] Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
+        <h3 style="color: white; font-size: 15px;">Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
@@ -13247,7 +13247,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-          [Imprimir] Imprimir Acta Oficial A4
+          Imprimir Acta Oficial A4
         </button>
       </div>
     `);
@@ -13285,7 +13285,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 16px;">
-          [Evaluación] Enviar por WhatsApp Oficial
+          Enviar por WhatsApp Oficial
         </button>
       </div>
     `);
@@ -13314,7 +13314,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-red btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="font-weight: 800; padding: 8px 16px;">
-          [Evaluación] Enviar Alerta de Inasistencia
+          Enviar Alerta de Inasistencia
         </button>
       </div>
     `);
@@ -13330,7 +13330,7 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 20px;">
-        <div style="font-size: 40px; margin-bottom: 8px;">[Móvil]⚡</div>
+        <div style="font-size: 40px; margin-bottom: 8px;">⚡</div>
         <h4 style="font-size: 15px; font-weight: 800; color: #0b132b; margin-bottom: 6px;">
           Notificación Automatizada del Parte Diario (${date})
         </h4>
@@ -13348,7 +13348,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.closeModal(); window.app.showToast('✓ ${totalToNotify} notificaciones de WhatsApp despachadas con éxito a los apoderados', 'success');" style="font-weight: 800;">
-          [Evaluación] Confirmar y Enviar Todo
+          Confirmar y Enviar Todo
         </button>
       </div>
     `);
@@ -13361,7 +13361,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #f59e0b; color: #0b132b;">
-        <h3 style="color: #0b132b; font-weight: 900;">[Documento] Pase Oficial de Tardanza (Portería)</h3>
+        <h3 style="color: #0b132b; font-weight: 900;">Pase Oficial de Tardanza (Portería)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="padding: 20px; background: white;">
@@ -13395,7 +13395,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800;">
-          [Imprimir] Imprimir Pase de Tardanza
+          Imprimir Pase de Tardanza
         </button>
       </div>
     `);
@@ -13406,7 +13406,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white;">[Documento] Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
+        <h3 style="color: white;">Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
@@ -13524,7 +13524,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          [Imprimir] Imprimir Parte Diario A4
+          Imprimir Parte Diario A4
         </button>
       </div>
     `);
@@ -13536,7 +13536,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">[Documento] Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
+        <h3 style="color: #ffffff;">Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 20px; background: #ffffff;">
@@ -13630,7 +13630,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          [Imprimir] Imprimir Consolidado Oficial
+          Imprimir Consolidado Oficial
         </button>
       </div>
     `);
@@ -13837,7 +13837,7 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          [Colegio] Asignación de Bloque Lectivo • Duración: 50 min • Periodo Lectivo 2026
+          Asignación de Bloque Lectivo • Duración: 50 min • Periodo Lectivo 2026
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-bottom: 10px;">
@@ -13868,7 +13868,7 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            [Lista] Asignatura / Curso (Boleta Oficial de Notas):
+            Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="sched-create-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6; background: #ffffff;">
             ${this.getBoletaCoursesSelectOptions("Aritmética")}
@@ -13947,12 +13947,12 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          [Colegio] ${currentGrade.label} • Bloque: ${row.time} • ${dayNameMap[dayKey]}
+          ${currentGrade.label} • Bloque: ${row.time} • ${dayNameMap[dayKey]}
         </div>
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            [Lista] Asignatura / Curso (Boleta Oficial de Notas):
+            Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="edit-slot-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6;">
             ${this.getBoletaCoursesSelectOptions(slot.course)}
@@ -14138,7 +14138,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">[Lista] Clonar Horario a Otra Aula / Sección</h3>
+        <h3 style="color: #ffffff;">Clonar Horario a Otra Aula / Sección</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body">
@@ -14155,7 +14155,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmCloneSchedule('${sourceGradeId}')" style="font-weight: 800;">
-          [Lista] Confirmar y Clonar Horario
+          Confirmar y Clonar Horario
         </button>
       </div>
     `);
@@ -14484,7 +14484,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header">
-        <h3>[Documento] Informe Oficial de Revisión de Cuadernos - ${studentName}</h3>
+        <h3>Informe Oficial de Revisión de Cuadernos - ${studentName}</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14531,7 +14531,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-gold" onclick="window.print()">[Imprimir] Imprimir Documento</button>
+        <button class="btn btn-gold" onclick="window.print()">Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14567,7 +14567,7 @@ CREATE TABLE tb_cuadernos_qr (
   openPayModal(paymentId, amount = 480.00, concept = "Pensión Escolar - Agosto 2026") {
     this.showModal(`
       <div class="modal-header">
-        <h3>[Pago] Pagar con Tarjeta & Desbloquear Intranet</h3>
+        <h3>Pagar con Tarjeta & Desbloquear Intranet</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14601,7 +14601,7 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <button type="submit" class="btn btn-red" style="width: 100%; padding: 12px; font-weight: 900; font-size: 14px; margin-top: 8px;">
-            [Bloqueado] Pagar S/ ${amount.toFixed(2)} y Validar Acceso
+            Pagar S/ ${amount.toFixed(2)} y Validar Acceso
           </button>
         </form>
       </div>
@@ -14625,7 +14625,7 @@ CREATE TABLE tb_cuadernos_qr (
   openYapePayModal(paymentId, amount = 480.00) {
     this.showModal(`
       <div class="modal-header">
-        <h3>[Móvil] Pagar con Yape / Plin Institucional</h3>
+        <h3>Pagar con Yape / Plin Institucional</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="text-align: center;">
@@ -14741,7 +14741,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">Imprimir Recibo</button>
         <button class="btn btn-gold" onclick="window.app.closeModal()">Continuar a la Intranet</button>
       </div>
     `);
@@ -14759,7 +14759,7 @@ CREATE TABLE tb_cuadernos_qr (
   openManualPaymentModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>[Pensiones] Registrar Pago en Caja (Coordinación / Tesorería)</h3>
+        <h3>Registrar Pago en Caja (Coordinación / Tesorería)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14816,7 +14816,7 @@ CREATE TABLE tb_cuadernos_qr (
     const p = this.store.getPayments().find(x => x.id === paymentId) || this.store.getPayments()[1];
     if (!p) return;
     this.showModal(`
-      <div class="modal-header"><h3>[Documento] Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
+      <div class="modal-header"><h3>Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body" style="text-align:center; padding:20px;">
         <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 6px;" />
         <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" (S.J.L.) • 21 años dejando huellas</div>
@@ -14830,7 +14830,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">Imprimir Recibo</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14949,7 +14949,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   openUploadMaterialModal(courseId) {
     const courses = [
-      { id: "MAT-401", name: "Matemática Avanzada", icon: "[Formato]" },
+      { id: "MAT-401", name: "Matemática Avanzada", icon: "" },
       { id: "EPT-402", name: "Computación e Informática / Robótica", icon: "🤖" },
       { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", icon: "🔬" },
       { id: "COM-404", name: "Comunicación & Literatura", icon: "📚" }
@@ -14995,7 +14995,7 @@ CREATE TABLE tb_cuadernos_qr (
 
             <!-- Dropzone Interactivo -->
             <div id="ai-dropzone" class="smart-dropzone" onclick="document.getElementById('smart-file-input').click()" style="border: 2px dashed #3b82f6; background: #f8fafc; border-radius: 8px; padding: 22px 16px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-              <div style="font-size: 36px; margin-bottom: 6px;">📁 ⚡ [Documento]</div>
+              <div style="font-size: 36px; margin-bottom: 6px;">📁 ⚡ </div>
               <div style="font-weight: 800; font-size: 13.5px; color: #1e3a8a; margin-bottom: 4px;">
                 Haga clic para seleccionar archivo o arrástrelo aquí
               </div>
@@ -15024,7 +15024,7 @@ CREATE TABLE tb_cuadernos_qr (
                 📕 Guía_Trigonometria.pdf
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Sesion_Arduino_Servomotores_S3.pptx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
-                [Reporte] Arduino_Robótica.pptx
+                Arduino_Robótica.pptx
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Laboratorio_Leyes_Termodinamica_Carnot.docx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
                 📘 Termodinamica_Carnot.docx
@@ -15120,7 +15120,7 @@ CREATE TABLE tb_cuadernos_qr (
     const stepText = document.getElementById("ai-step-text");
     const progressBar = document.getElementById("ai-progress-bar");
 
-    if (stepText) stepText.innerText = "[Buscar] Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
+    if (stepText) stepText.innerText = "Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
     if (progressBar) progressBar.style.width = "35%";
 
     setTimeout(() => {
@@ -15176,7 +15176,7 @@ CREATE TABLE tb_cuadernos_qr (
       keyConcepts: keyConcepts.length > 0 ? keyConcepts : ["Fundamentos Teóricos", "Procedimientos de Cálculo", "Aplicación Práctica"],
       attachments: [
         { type: "pdf", name: formData.get("attachmentName") || "Guia_Semanal.pdf", size: "2.5 MB", icon: "📕" },
-        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "[Reporte]" },
+        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "" },
         { type: "worksheet", name: `Ficha_Practica_Semana_${formData.get("weekNumber")}.pdf`, size: "1.1 MB", icon: "📝" }
       ]
     };
@@ -15279,7 +15279,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold btn-sm" onclick="window.app.confirmGenerateQuiz('${material.id}')" style="font-weight: 900;">
-          [Evaluación] Iniciar Generación de 10 Preguntas
+          Iniciar Generación de 10 Preguntas
         </button>
       </div>
     `;
@@ -15318,7 +15318,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: var(--color-navy-900); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            [Lista] Previsualización: ${evalObj.title}
+            Previsualización: ${evalObj.title}
           </h3>
           <span style="font-size: 11px; color: var(--color-yellow-400);">10 Preguntas Generadas Dinámicamente • 2 Puntos c/u (Total 20 Pts)</span>
         </div>
@@ -15353,7 +15353,7 @@ CREATE TABLE tb_cuadernos_qr (
             </div>
 
             <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11px; color: #475569; border-left: 3px solid #3b82f6;">
-              [Nota] <strong>Explicación Formativa:</strong> ${q.explanation}
+              <strong>Explicación Formativa:</strong> ${q.explanation}
             </div>
           </div>
         `).join('')}
@@ -15440,7 +15440,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar Examen</button>
           <button class="btn btn-gold btn-sm" onclick="window.app.submitStudentQuiz('${material.id}')" style="font-weight: 900; font-size: 13px; padding: 8px 24px;">
-            [Evaluación] Finalizar y Enviar Evaluación
+            Finalizar y Enviar Evaluación
           </button>
         </div>
       `;
@@ -15504,7 +15504,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: ${attempt.score >= 14 ? 'linear-gradient(135deg, #065f46 0%, #047857 100%)' : 'linear-gradient(135deg, #991b1b 0%, #dc2626 100%)'}; color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            [Reporte] Resultados Oficiales de la Evaluación
+            Resultados Oficiales de la Evaluación
           </h3>
           <span style="font-size: 11px; opacity: 0.9;">Estudiante: ${attempt.studentName} • Fecha: ${attempt.date}</span>
         </div>
@@ -15523,7 +15523,7 @@ CREATE TABLE tb_cuadernos_qr (
           </span>
 
           <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 12px 14px; border-radius: 6px; font-size: 12.5px; color: #334155; margin-top: 14px; text-align: left; line-height: 1.5;">
-            [Nota] <strong>Retroalimentación Pedagógica del Sistema:</strong><br>
+            <strong>Retroalimentación Pedagógica del Sistema:</strong><br>
             ${attempt.feedback}
           </div>
         </div>
@@ -15566,7 +15566,7 @@ CREATE TABLE tb_cuadernos_qr (
               </div>
 
               <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11.5px; color: #475569; border-left: 3px solid #3b82f6;">
-                [Nota] <strong>Por qué es correcta:</strong> ${q.explanation}
+                <strong>Por qué es correcta:</strong> ${q.explanation}
               </div>
             </div>
           `;
