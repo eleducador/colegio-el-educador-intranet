@@ -1,0 +1,26 @@
+﻿{
+  name: colegio-el-educador-intranet,
+  version: 1.0.0,
+  description: Sistema de Intranet, Control de Asistencia y Sellado de Cuadernos QR - I.E.P. El Educador,
+  main: server.js,
+  scripts: {
+    start: node server.js,
+    dev: node server.js
+  },
+  engines: {
+    node: >=18.0.0
+  },
+  dependencies: {
+    cors: ^2.8.5,
+    express: ^4.19.2
+  },
+  keywords: [
+    colegio,
+    intranet,
+    qr-scanner,
+    render,
+    educacion
+  ],
+  author: I.E.P. El Educador,
+  license: ISC
+}
