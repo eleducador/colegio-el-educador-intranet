@@ -14,7 +14,14 @@
   <!-- Librería Oficial de Lectura de Códigos QR por Cámara (Html5Qrcode) -->
   <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
 
-  <!-- Estilos del Sistema -->
+  <style>
+    /* Protección inmediata anti-desborde de SVGs */
+    svg { max-width: 100%; height: auto; }
+    .nav-icon { width: 20px !important; height: 20px !important; flex-shrink: 0; }
+  </style>
+
+  <!-- Estilos del Sistema (Bundle Raíz y Carpetas) -->
+  <link rel="stylesheet" href="bundle.css?v=10.1">
   <link rel="stylesheet" href="css/variables.css?v=10.1">
   <link rel="stylesheet" href="css/main.css?v=10.1">
   <link rel="stylesheet" href="css/components.css?v=10.1">
@@ -184,7 +191,8 @@
   <!-- Contenedor de Alertas Toast -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- Scripts de la Aplicación con Cache-Busting -->
+  <!-- Scripts de la Aplicación (Bundle Raíz y Fallback Modular) -->
+  <script src="bundle.js?v=10.1"></script>
   <script src="js/data.js?v=10.1"></script>
   <script src="js/store.js?v=10.1"></script>
   <script src="js/components.js?v=10.1"></script>
