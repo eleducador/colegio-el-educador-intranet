@@ -130,14 +130,16 @@ app.get(['/login_bg_official.jpg', '/assets/login_bg_official.jpg'], (req, res) 
   res.status(404).send('Fondo no encontrado');
 });
 
-// Servir archivos estaticos del frontend (HTML, CSS, JS, Assets) con UTF-8 explicito
+// Servir archivos estaticos del frontend (HTML, CSS, JS, Assets) con UTF-8 explicito y sin cache
 app.use(express.static(__dirname, {
-  etag: true,
-  maxAge: '1h',
+  etag: false,
+  maxAge: 0,
   setHeaders: (res, filePath) => {
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
     if (filePath.endsWith('.html')) {
       res.setHeader('Content-Type', 'text/html; charset=utf-8');
-      res.setHeader('Cache-Control', 'no-cache');
     } else if (filePath.endsWith('.js')) {
       res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
     } else if (filePath.endsWith('.css')) {

@@ -2073,14 +2073,26 @@ if (window.initialData && window.initialData.schedules) {
  */
 class IntranetStore {
   constructor() {
-    this.storageKey = "colegio_el_educador_state_v10";
-    this.backupKey = "colegio_el_educador_backup_v10";
+    this.storageKey = "colegio_el_educador_state_v2026";
+    this.backupKey = "colegio_el_educador_backup_v2026";
     this.listeners = [];
     this.apiBaseUrl = window.location.origin;
     this.isSyncing = false;
     this.lastDataSignature = "";
 
-    // 1. Carga inicial del estado preservando todos los datos guardados
+    // Limpieza automática de cualquier residuo corrupto de versiones anteriores en localStorage
+    try {
+      if (typeof localStorage !== "undefined") {
+        for (let i = localStorage.length - 1; i >= 0; i--) {
+          const k = localStorage.key(i);
+          if (k && (k.includes("colegio_") || k.includes("educador_")) && !k.includes("v2026")) {
+            localStorage.removeItem(k);
+          }
+        }
+      }
+    } catch(e) {}
+
+    // 1. Carga inicial del estado limpio
     this.state = this.loadState();
     
     // 2. Guardado automático ante cierre de pestaña, cambio de visibilidad o recarga
