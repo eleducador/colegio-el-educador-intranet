@@ -133,12 +133,12 @@ const initialData = {
           pendingTasksCount: 1,
           avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
           notebooks: [
-            { course: "📐 Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
-            { course: "📖 Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
-            { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
-            { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
-            { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
-            { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
+            { course: "[Formato] Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+            { course: "[Cuaderno] Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+            { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+            { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+            { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+            { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
           ]
         },
         {
@@ -155,10 +155,10 @@ const initialData = {
           pendingTasksCount: 0,
           avatar: "https://images.unsplash.com/photo-1543332164-6e82f355badc?w=150&auto=format&fit=crop&q=80",
           notebooks: [
-            { course: "🔢 Lógico Matemático", teacher: "Miss Julisa Arroyo", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "20 (AD)", remarks: "Numeración y sumas perfectas. Excelente coloreado y trazos." },
-            { course: "✏️ Comunicación Integral", teacher: "Miss Julisa Arroyo", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Lectoescritura fluida y caligrafía prolija." },
-            { course: "🌱 Ciencia y Ambiente", teacher: "Miss Maritza", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Fichas de los seres vivos completas y coloreadas." },
-            { course: "🎨 Arte y Cultura", teacher: "Miss Julisa Arroyo", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "20 (AD)", remarks: "Técnicas de dactilopintura y recortado excelentes." }
+            { course: "🔢 Lógico Matemático", teacher: "Miss Julisa Arroyo", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "20 (AD)", remarks: "Numeración y sumas perfectas. Excelente coloreado y trazos." },
+            { course: "✏️ Comunicación Integral", teacher: "Miss Julisa Arroyo", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Lectoescritura fluida y caligrafía prolija." },
+            { course: "🌱 Ciencia y Ambiente", teacher: "Miss Maritza", lastDate: "14/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Fichas de los seres vivos completas y coloreadas." },
+            { course: "🎨 Arte y Cultura", teacher: "Miss Julisa Arroyo", lastDate: "12/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "20 (AD)", remarks: "Técnicas de dactilopintura y recortado excelentes." }
           ]
         }
       ],
@@ -430,7 +430,7 @@ const initialData = {
   navigationTabsConfig: {
     auxiliar: [
       { id: "dashboard", label: "Inicio / Turno Auxiliar", icon: "dashboard", enabled: true },
-      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "Portería", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "Portería", icon: "attendance", enabled: true },
       { id: "cuadernos-qr", label: "Lector de Cuadernos QR", badge: "CÁMARA", icon: "qr", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true }
     ],
@@ -441,7 +441,7 @@ const initialData = {
       { id: "horarios", label: "Horario de Clases", icon: "schedule", enabled: true },
       { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual / Quizzes", badge: "10P", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "Puerta", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", icon: "announcements", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", badge: "2026", icon: "boleta", enabled: true }
     ],
@@ -475,7 +475,7 @@ const initialData = {
       { id: "horarios", label: "Horarios Institucionales", icon: "schedule", enabled: true },
       { id: "silabus", label: "Sílabus Curriculares", icon: "syllabus", enabled: true },
       { id: "tareas", label: "Aula Virtual", icon: "virtual", enabled: true },
-      { id: "asistencia", label: "🚪 Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
+      { id: "asistencia", label: "[Portería] Registro de Ingreso & QR", badge: "En Vivo", icon: "attendance", enabled: true },
       { id: "comunicados", label: "Informes & Circulares", badge: "N°003", icon: "announcements", enabled: true },
       { id: "pagos", label: "Reportes Económicos & Caja", badge: "S/ 25,130", icon: "payments", enabled: true },
       { id: "boleta", label: "Boleta Oficial MINEDU", icon: "boleta", enabled: true }
@@ -1561,7 +1561,7 @@ const initialData = {
       ],
       attachments: [
         { type: "pdf", name: "Guía_Teorica_Funciones_Cuadraticas_S1.pdf", size: "2.8 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "📊" },
+        { type: "pptx", name: "Diapositivas_Explicativas_Clase_S1.pptx", size: "4.5 MB", icon: "[Reporte]" },
         { type: "worksheet", name: "Ficha_Problemas_Optimizacion_S1.pdf", size: "1.4 MB", icon: "📝" },
         { type: "video", name: "Video_Demostracion_GeoGebra_Parabolas.mp4", duration: "18 min", icon: "🎬" }
       ],
@@ -1753,7 +1753,7 @@ const initialData = {
       attachments: [
         { type: "pdf", name: "Manual_Montaje_HC_SR04_Arduino.pdf", size: "3.2 MB", icon: "📕" },
         { type: "code", name: "Codigo_Sensor_Ultrasonico.ino", size: "45 KB", icon: "💻" },
-        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "📊" },
+        { type: "pptx", name: "Diapositivas_Robotica_Sensores_S1.pptx", size: "5.8 MB", icon: "[Reporte]" },
         { type: "worksheet", name: "Ficha_Circuito_Tinkercad_S1.pdf", size: "1.1 MB", icon: "📝" }
       ],
       evaluation: {
@@ -1921,7 +1921,7 @@ const initialData = {
       ],
       attachments: [
         { type: "pdf", name: "Guia_Laboratorio_Dinamica_S1.pdf", size: "2.1 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "📊" },
+        { type: "pptx", name: "Diapositivas_Leyes_Newton.pptx", size: "3.9 MB", icon: "[Reporte]" },
         { type: "worksheet", name: "Ficha_Diagramas_Cuerpo_Libre.pdf", size: "1.3 MB", icon: "📝" }
       ],
       evaluation: {
@@ -2073,8 +2073,8 @@ if (window.initialData && window.initialData.schedules) {
  */
 class IntranetStore {
   constructor() {
-    this.storageKey = "colegio_el_educador_state_v7";
-    this.backupKey = "colegio_el_educador_backup_v7";
+    this.storageKey = "colegio_el_educador_state_v10";
+    this.backupKey = "colegio_el_educador_backup_v10";
     this.listeners = [];
     this.apiBaseUrl = window.location.origin;
     this.isSyncing = false;
@@ -3100,14 +3100,14 @@ class IntranetStore {
 
   getStudentBoletaCoursesCatalog(gradeId = "4sec") {
     return [
-      { id: "ARIT", name: "Aritmética", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
-      { id: "ALG", name: "Álgebra", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
-      { id: "GEOM", name: "Geometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
-      { id: "TRIG", name: "Trigonometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
-      { id: "RM", name: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "📐" },
-      { id: "LENG", name: "Lenguaje y Gramática", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
-      { id: "LIT", name: "Literatura Universal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
-      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "📖" },
+      { id: "ARIT", name: "Aritmética", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
+      { id: "ALG", name: "Álgebra", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
+      { id: "GEOM", name: "Geometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
+      { id: "TRIG", name: "Trigonometría", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
+      { id: "RM", name: "Razonamiento Matemático", teacher: "Prof. Roberto Silva", area: "Matemática", icon: "[Formato]" },
+      { id: "LENG", name: "Lenguaje y Gramática", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
+      { id: "LIT", name: "Literatura Universal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
+      { id: "RV", name: "Razonamiento Verbal", teacher: "Miss María Daysi Reyes Milla", area: "Comunicación", icon: "[Cuaderno]" },
       { id: "BIO", name: "Biología & Anatomía", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
       { id: "FIS", name: "Física Elemental", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
       { id: "QUIM", name: "Química Inorgánica", teacher: "Miss Leyli Graciela Reyes Cerquen", area: "Ciencia y Tecnología", icon: "🔬" },
@@ -3117,7 +3117,7 @@ class IntranetStore {
       { id: "CIV", name: "Educación Cívica & DPCC", teacher: "Miss Julisa Magali Arroyo Araujo", area: "Personal Social", icon: "⚖️" },
       { id: "PSIC", name: "Psicología & Filosofía", teacher: "Prof. Manuel Soto", area: "Personal Social", icon: "🧠" },
       { id: "COMP", name: "Computación & Robótica", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "💻" },
-      { id: "GEST", name: "Gestión Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "📊" },
+      { id: "GEST", name: "Gestión Empresarial & Emprendimiento", teacher: "Prof. Fernando Rojas", area: "EPT", icon: "[Reporte]" },
       { id: "ING", name: "Inglés Institucional (B2/C1)", teacher: "Miss Andrea Ramos", area: "Idiomas", icon: "🇬🇧" },
       { id: "ARTE", name: "Arte y Cultura", teacher: "Miss Claudia Mendoza", area: "Arte", icon: "🎨" },
       { id: "REL", name: "Educación Religiosa", teacher: "Prof. Manuel Soto", area: "Valores", icon: "🕊️" },
@@ -3303,7 +3303,7 @@ class IntranetStore {
     const scoreNum = parseFloat(data.score) || 18;
     const status = data.status || (scoreNum >= 15 ? "Al Día" : scoreNum >= 11 ? "Observado" : "No Presentó");
     const stampType = status === "Al Día" ? "stamp-al-dia" : status === "Observado" ? "stamp-observado" : "stamp-no-presento";
-    const stampText = status === "Al Día" ? "🟢 REVISADO & AL DÍA" : status === "Observado" ? "🟡 OBSERVADO" : "🔴 NO PRESENTÓ";
+    const stampText = status === "Al Día" ? "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA" : status === "Observado" ? "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> OBSERVADO" : "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> NO PRESENTÓ";
 
     const newReview = {
       id: `REV-2026-${Math.floor(100 + Math.random() * 900)}`,
@@ -3981,7 +3981,7 @@ class IntranetStore {
       keyConcepts: materialData.keyConcepts || [],
       attachments: materialData.attachments || [
         { type: "pdf", name: "Guía_Sesión_Semanal.pdf", size: "2.1 MB", icon: "📕" },
-        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "📊" }
+        { type: "pptx", name: "Diapositivas_Clase.pptx", size: "3.8 MB", icon: "[Reporte]" }
       ],
       evaluation: materialData.evaluation || null,
       studentAttempts: []
@@ -4009,10 +4009,10 @@ class IntranetStore {
     const fileSize = (fileInfo && fileInfo.size) ? fileInfo.size : "2.8 MB";
     const fileExt = fileName.split('.').pop().toLowerCase();
     
-    let icon = "📄";
+    let icon = "[Documento]";
     if (fileExt === "pdf") icon = "📕";
     else if (fileExt === "doc" || fileExt === "docx") icon = "📘";
-    else if (fileExt === "ppt" || fileExt === "pptx") icon = "📊";
+    else if (fileExt === "ppt" || fileExt === "pptx") icon = "[Reporte]";
     else if (fileExt === "txt" || fileExt === "md") icon = "📝";
     else if (fileExt === "png" || fileExt === "jpg" || fileExt === "jpeg") icon = "🖼️";
     else if (fileExt === "xls" || fileExt === "xlsx") icon = "📗";
@@ -4086,7 +4086,7 @@ class IntranetStore {
       keyConcepts: detectedConcepts,
       attachments: [
         { type: fileExt, name: fileName, size: fileSize, icon: icon },
-        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "📊" },
+        { type: "pptx", name: `Diapositivas_Sesion_Semana_${nextWeek}.pptx`, size: "3.5 MB", icon: "[Reporte]" },
         { type: "pdf", name: `Guía_Evaluativa_Semana_${nextWeek}.pdf`, size: "1.8 MB", icon: "📝" }
       ]
     };
@@ -4491,7 +4491,7 @@ const Components = {
 
       <a class="nav-item ${currentView === 'asistencia' ? 'active' : ''}" data-view="asistencia" id="nav-asistencia" onclick="window.app.navigate('asistencia')" style="background: rgba(34,197,94,0.12); border: 1px dashed rgba(34,197,94,0.4); color: #86efac; font-weight: bold; cursor: pointer;">
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-        <span>🚪 Registro de Ingreso & QR</span>
+        <span>[Portería] Registro de Ingreso & QR</span>
         <span class="nav-badge badge-yellow" style="background: #22c55e; color: #0b132b; font-weight: 800;">QR Puerta</span>
       </a>
 
@@ -4586,7 +4586,7 @@ const Components = {
               </div>
 
               <button type="submit" class="btn btn-navy" style="width: 100%; padding: 13px; font-size: 14px; font-weight: 900; border-radius: 22px; box-shadow: 0 4px 14px rgba(11,19,43,0.3); transition: all 0.2s ease;">
-                🚀 Ingresar al Sistema
+                [Evaluación] Ingresar al Sistema
               </button>
             </form>
 
@@ -4627,10 +4627,10 @@ const Components = {
           <div class="welcome-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
               <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: #fde047; border: 1px solid var(--color-yellow-500);">
-                ⭐ COORDINACIÓN & DOCUMENTACIÓN • I.E.P. "EL EDUCADOR"
+                ★ COORDINACIÓN & DOCUMENTACIÓN • I.E.P. "EL EDUCADOR"
               </span>
               <span class="status-badge status-approved" style="background: rgba(34, 197, 94, 0.2); color: #86efac; border: 1px solid #22c55e;">
-                🟢 21 años dejando huellas (S.J.L. - UGEL 05)
+                <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> 21 años dejando huellas (S.J.L. - UGEL 05)
               </span>
             </div>
             <h1 class="welcome-title">Bienvenido, <span>${user.name}</span></h1>
@@ -4647,7 +4647,7 @@ const Components = {
               </div>
               <div class="metric-card-mini">
                 <span class="metric-label">Lector Cámara QR</span>
-                <span class="metric-val highlight-yellow">ACTIVO 📷</span>
+                <span class="metric-val highlight-yellow">ACTIVO [Cámara]</span>
               </div>
               <div class="metric-card-mini">
                 <span class="metric-label">Base de Datos</span>
@@ -4663,7 +4663,7 @@ const Components = {
           <div class="card" style="border-top: 4px solid #10b981; background: #f0fdf4;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
               <h4 style="font-size: var(--font-size-base); font-weight: 900; color: #065f46;">
-                🚪 Control de Asistencia & Portería
+                [Portería] Control de Asistencia & Portería
               </h4>
               <span class="status-badge status-approved">Auxiliar / Puerta</span>
             </div>
@@ -4679,7 +4679,7 @@ const Components = {
           <div class="card" style="border-top: 4px solid var(--color-yellow-500); background: #fffdf5;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
               <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900);">
-                📷 Lector de Cuadernos QR
+                [Cámara] Lector de Cuadernos QR
               </h4>
               <span class="status-badge status-approved" style="background:#f59e0b; color:#0b132b;">En Vivo</span>
             </div>
@@ -4687,14 +4687,14 @@ const Components = {
               Abra la cámara de su celular o computadora para escanear y calificar cuadernos escolares al instante.
             </p>
             <button class="btn btn-gold btn-sm" onclick="window.app.navigate('cuadernos-qr')" style="width: 100%; font-weight: 800;">
-              📷 Abrir Escáner por Cámara
+              [Cámara] Abrir Escáner por Cámara
             </button>
           </div>
 
           <!-- 2. Registro de Notas -->
           <div class="card" style="border-top: 4px solid var(--color-navy-700);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              📊 Registro Oficial de Notas
+              [Reporte] Registro Oficial de Notas
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
               Edición de calificaciones del 1°, 2°, 3° y 4° Bimestre con promedios automáticos.
@@ -4707,7 +4707,7 @@ const Components = {
           <!-- 3. Informe N° 003 -->
           <div class="card" style="border-top: 4px solid var(--color-red-500);">
             <h4 style="font-size: var(--font-size-base); font-weight: bold; color: var(--color-navy-900); margin-bottom: 4px;">
-              📄 Informe Oficial N° 003/ED
+              [Documento] Informe Oficial N° 003/ED
             </h4>
             <p style="font-size: 12px; color: var(--text-secondary); margin-bottom: var(--space-4);">
               Recaudación de agosto (S/ 25,130), 4ta categoría y expedientes ante la UGEL 05.
@@ -4737,7 +4737,7 @@ const Components = {
             
             <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
               <button class="btn btn-outline btn-sm" onclick="window.app.toggleAcademicSections(${!(state.academicConfig && state.academicConfig.hasSections)})" style="font-size: 11.5px; font-weight: 700;">
-                ${(state.academicConfig && state.academicConfig.hasSections) ? '🔒 Desactivar Secciones' : '⚙️ Habilitar Secciones'}
+                ${(state.academicConfig && state.academicConfig.hasSections) ? '[Bloqueado] Desactivar Secciones' : '⚙️ Habilitar Secciones'}
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.openCreateGradeModal()" style="font-weight: 800; font-size: 11.5px;">
                 + Agregar Nuevo Grado
@@ -4803,7 +4803,7 @@ const Components = {
                     <td><strong>${u.name}</strong><br><span style="font-size:11px; color:var(--text-muted);">${u.email}</span></td>
                     <td>${u.detail}</td>
                     <td><span class="status-badge status-approved">✓ Enviado Contador</span></td>
-                    <td><span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}">${u.hasAdminPrivilege ? '⭐ Permisos Admin' : 'Docente'}</span></td>
+                    <td><span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}">${u.hasAdminPrivilege ? '★ Permisos Admin' : 'Docente'}</span></td>
                     <td>
                       <button class="btn btn-sm ${u.hasAdminPrivilege ? 'btn-outline' : 'btn-red'}" onclick="window.app.toggleTeacherAdminPrivilege('${u.id}')">
                         ${u.hasAdminPrivilege ? 'Revocar' : 'Conceder Admin'}
@@ -4841,7 +4841,7 @@ const Components = {
                 👮 TURNO DE AUXILIAR & CONTROL ESCOLAR • I.E.P. "EL EDUCADOR"
               </span>
               <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: #fde047; border: 1px solid #f59e0b;">
-                🚪 Portería Puerta 1 & Pabellón Secundaria
+                [Portería] Portería Puerta 1 & Pabellón Secundaria
               </span>
             </div>
             <h1 class="welcome-title">Bienvenido(a), <span>${user.name}</span></h1>
@@ -4877,7 +4877,7 @@ const Components = {
           <div class="card" style="border-top: 5px solid #10b981; box-shadow: 0 4px 14px rgba(16,185,129,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #065f46; margin: 0;">
-                🚪 1. Control de Asistencia & Portería
+                [Portería] 1. Control de Asistencia & Portería
               </h3>
               <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight: 900;">07:00 - 08:30 AM</span>
             </div>
@@ -4886,13 +4886,13 @@ const Components = {
             </p>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
               <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #047857; color: white; font-weight: 800; padding: 10px 8px; font-size: 12px;">
-                📷 Escáner en Puerta
+                [Cámara] Escáner en Puerta
               </button>
               <button class="btn btn-gold btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800; padding: 10px 8px; font-size: 12px;">
-                🖨️ Plancha QR (Sin Foto)
+                [Imprimir] Plancha QR (Sin Foto)
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('daily-report');" style="font-weight: 800; padding: 10px 8px; font-size: 12px; grid-column: span 2;">
-                📊 Parte Diario de Tardanzas / Inasistencias (08:30 AM)
+                [Reporte] Parte Diario de Tardanzas / Inasistencias (08:30 AM)
               </button>
             </div>
           </div>
@@ -4901,7 +4901,7 @@ const Components = {
           <div class="card" style="border-top: 5px solid #f59e0b; box-shadow: 0 4px 14px rgba(245,158,11,0.15);">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
               <h3 style="font-size: 16px; font-weight: 900; color: #b45309; margin: 0;">
-                📖 2. Lector de Cuadernos QR
+                [Cuaderno] 2. Lector de Cuadernos QR
               </h3>
               <span class="status-badge" style="background:#f59e0b; color:#0b132b; font-weight: 900;">CÁMARA VIVA</span>
             </div>
@@ -4910,13 +4910,13 @@ const Components = {
             </p>
             <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
               <button class="btn btn-gold btn-sm" onclick="window.app.navigate('cuadernos-qr')" style="font-weight: 900; padding: 10px; font-size: 13px;">
-                📷 Iniciar Lector de Cuadernos QR
+                [Cámara] Iniciar Lector de Cuadernos QR
               </button>
               <button class="btn btn-navy btn-sm" onclick="window.app.openStudentFullBoletaStickersModal('EST-2026-042')" style="font-weight: 800; padding: 9px; font-size: 12px; background: #0f172a; color: #fde047; border: 1px solid #f59e0b;">
                 ⚡ Plancha QR por Estudiante (Cursos Boleta)
               </button>
               <button class="btn btn-outline btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('incidents');" style="font-weight: 800; padding: 8px; font-size: 12px; color: #dc2626; border-color: #fca5a5;">
-                🚨 Registrar Incidencia Conductual
+                [Alerta] Registrar Incidencia Conductual
               </button>
             </div>
           </div>
@@ -4927,7 +4927,7 @@ const Components = {
         <div class="card">
           <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
             <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-              📋 Padrón Rápido de Aulas a Cargo del Auxiliar
+              [Lista] Padrón Rápido de Aulas a Cargo del Auxiliar
             </h3>
             <button class="btn btn-navy btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('classroom');">
               Ver Asistencia por Aula Completa
@@ -4986,12 +4986,12 @@ const Components = {
       const studentTutor = "Prof. Roberto Silva";
       
       const defaultNotebooks = [
-        { course: "📐 Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
-        { course: "📖 Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
-        { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
-        { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
-        { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
-        { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
+        { course: "[Formato] Matemática", teacher: "Prof. Roberto Silva", lastDate: "16/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+        { course: "[Cuaderno] Comunicación", teacher: "Miss María Daysi Reyes", lastDate: "15/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+        { course: "🔬 Ciencia y Tecnología", teacher: "Miss Leyli Reyes", lastDate: "14/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+        { course: "🌎 Ciencias Sociales", teacher: "Prof. Javier Vega", lastDate: "12/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+        { course: "🇬🇧 Inglés", teacher: "Miss Andrea Ramos", lastDate: "11/08/2026", status: "al_dia", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+        { course: "💻 EPT (Computación)", teacher: "Prof. Alex Lino", lastDate: "10/08/2026", status: "observado", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
       ];
 
       return `
@@ -5013,7 +5013,7 @@ const Components = {
               </div>
               <div style="display: flex; gap: 8px; align-items: center; justify-content: flex-end;">
                 <button class="btn btn-gold btn-sm" onclick="window.app.openPrintParentNotebookReportModal()" style="font-weight: 800; padding: 8px 16px;">
-                  🖨️ Imprimir / Guardar PDF
+                  [Imprimir] Imprimir / Guardar PDF
                 </button>
               </div>
             </div>
@@ -5040,7 +5040,7 @@ const Components = {
             <!-- Detalle por Curso y Sellos Oficiales -->
             <div class="card-header" style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border-subtle);">
               <h3 class="card-title" style="font-size: var(--font-size-base);">
-                📖 Detalle de Cuadernos de ${studentName}
+                [Cuaderno] Detalle de Cuadernos de ${studentName}
               </h3>
               <span class="status-badge status-approved">Actualizado al Día</span>
             </div>
@@ -5123,9 +5123,9 @@ const Components = {
           <div class="card-header" style="flex-wrap: wrap; gap: 12px; align-items: center;">
             <div>
               <div style="display:flex; align-items:center; gap: 8px; flex-wrap: wrap;">
-                <h2 class="card-title" style="font-size: var(--font-size-xl);">📖 Control y Sellado de Cuadernos Mediante QR</h2>
+                <h2 class="card-title" style="font-size: var(--font-size-xl);">[Cuaderno] Control y Sellado de Cuadernos Mediante QR</h2>
                 <span class="status-badge status-approved" style="background:#10b981; color:white; font-weight:800;">CÁMARA BAJO DEMANDA</span>
-                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">📡 MULTI-DOCENTE EN VIVO</span>
+                <span class="status-badge status-approved" style="background:#3b82f6; color:white; font-weight:800;">[WiFi] MULTI-DOCENTE EN VIVO</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 I.E.P. "El Educador" • Escaneo óptico de stickers de cuadernos. <strong>Varios profesores pueden escanear simultáneamente desde sus celulares</strong> sin sobreescritura de datos.
@@ -5135,16 +5135,16 @@ const Components = {
             <!-- Barra de Sub-Pestañas y Botón Conectar Celular -->
             <div style="display:flex; gap: 8px; flex-wrap: wrap; align-items: center;">
               <button class="btn btn-outline btn-sm" onclick="window.app.openMultiDeviceConnectModal()" style="font-weight: 800; color: #1e3a8a; border-color: #3b82f6; background: #eff6ff; border-radius: 18px; padding: 6px 14px;">
-                📱 Conectar Celular
+                [Móvil] Conectar Celular
               </button>
               <button class="btn btn-sm ${activeSubTab === 'scanner' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('scanner')" style="font-weight: 800;">
-                📷 1. Escáner en Vivo
+                [Cámara] 1. Escáner en Vivo
               </button>
               <button class="btn btn-sm ${activeSubTab === 'stickers' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('stickers')" style="font-weight: 800;">
-                🖨️ 2. Plancha de Stickers QR
+                [Imprimir] 2. Plancha de Stickers QR
               </button>
               <button class="btn btn-sm ${activeSubTab === 'report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setNotebookActiveSubTab('report')" style="font-weight: 800;">
-                📊 3. Informe de Supervisión
+                [Reporte] 3. Informe de Supervisión
               </button>
             </div>
           </div>
@@ -5157,7 +5157,7 @@ const Components = {
             <!-- Banner de Escaneo Protegido Bajo Demanda y Multi-Dispositivo -->
             <div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1.5px solid #93c5fd; border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div style="display: flex; align-items: center; gap: 12px;">
-                <span style="font-size: 26px;">🛡️</span>
+                <span style="font-size: 26px;">[Seguridad]️</span>
                 <div>
                   <div style="font-size: 13px; font-weight: 900; color: #1e3a8a;">
                     Modo Bajo Demanda & Concurrencia Multi-Dispositivo
@@ -5196,7 +5196,7 @@ const Components = {
                 <!-- Botones de Control de Cámara -->
                 <div style="display: flex; gap: 8px; margin-top: 12px; width: 100%; justify-content: center; flex-wrap: wrap;">
                   <button id="btn-start-camera" class="btn btn-gold" onclick="window.app.startLiveCameraScanner()" style="font-weight:800; font-size:13px; border-radius: 20px; padding: 10px 20px;">
-                    📷 Encender Cámara
+                    [Cámara] Encender Cámara
                   </button>
                   <button id="btn-stop-camera" class="btn btn-outline" onclick="window.app.stopLiveCameraScanner()" style="display:none; color:#fca5a5; border-color:rgba(220,38,38,0.4); border-radius: 20px;">
                     ⏹️ Apagar Cámara
@@ -5220,7 +5220,7 @@ const Components = {
                   <div style="display: flex; flex-direction:column; gap: 6px; margin-bottom: 12px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Matemática Avanzada (Álgebra / Geometría)|Prof. Roberto Silva')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">📐 Sofía Méndez Flores</strong>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">[Formato] Sofía Méndez Flores</strong>
                         <div style="font-size: 10.5px; color: #047857;">Matemática Avanzada • Docente: Prof. Roberto Silva</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
@@ -5228,7 +5228,7 @@ const Components = {
 
                     <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('QR-NB|EST-2026-042|Sofía Méndez Flores|4° de Secundaria|Comunicación & Literatura|Miss María Daysi Reyes Milla')" style="justify-content:space-between; display:flex; text-align:left; background: #ffffff; border-radius: 10px; padding: 8px 12px;">
                       <div>
-                        <strong style="color:var(--color-navy-900); font-size: 12px;">📖 Sofía Méndez Flores</strong>
+                        <strong style="color:var(--color-navy-900); font-size: 12px;">[Cuaderno] Sofía Méndez Flores</strong>
                         <div style="font-size: 10.5px; color: #1e3a8a;">Comunicación & Literatura • Docente: Miss María Daysi Reyes</div>
                       </div>
                       <span class="status-badge status-approved" style="font-size: 10px;">Evaluar</span>
@@ -5316,7 +5316,7 @@ const Components = {
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
                     <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0;">
-                      🖨️ Planchas de Stickers QR Exclusivos por Estudiante y Curso
+                      [Imprimir] Planchas de Stickers QR Exclusivos por Estudiante y Curso
                     </h3>
                     <span class="status-badge status-approved" style="font-size: 10.5px; font-weight: 800;">Boleta Oficial 2026</span>
                   </div>
@@ -5331,7 +5331,7 @@ const Components = {
                     <span>⚡</span> <span>Generar QR por Estudiante (Todos los Cursos de Boleta)</span>
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookStickerSheet()" style="font-weight: 800; padding: 10px 16px; border-radius: 20px; font-size: 12.5px;">
-                    🖨️ Imprimir Selección A4 (15 QR / Hoja)
+                    [Imprimir] Imprimir Selección A4 (15 QR / Hoja)
                   </button>
                 </div>
               </div>
@@ -5360,8 +5360,8 @@ const Components = {
                 <div class="form-group" style="margin:0;">
                   <label class="form-label" style="font-size: 11px; font-weight: 700; color: #1e3a8a;">3. Distribución por Hoja A4:</label>
                   <select id="sticker-layout-select" class="form-control" style="font-size: 12.5px; font-weight: 800; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                    <option value="3x5" selected>📌 3 × 5 (15 QR por Hoja)</option>
-                    <option value="3x4">📌 3 × 4 (12 QR por Hoja)</option>
+                    <option value="3x5" selected>[Fijado] 3 × 5 (15 QR por Hoja)</option>
+                    <option value="3x4">[Fijado] 3 × 4 (12 QR por Hoja)</option>
                   </select>
                 </div>
               </div>
@@ -5380,20 +5380,20 @@ const Components = {
                     </div>
                     <div style="flex: 1; display: flex; flex-direction: column; gap: 2px;">
                       <span style="font-size: 8.5px; font-weight: 900; color: #dc2626; letter-spacing: 0.05em; text-transform: uppercase;">
-                        ⭐ I.E.P. EL EDUCADOR • SJL
+                        ★ I.E.P. EL EDUCADOR • SJL
                       </span>
                       <strong style="font-size: 13px; color: #0f172a; line-height: 1.2;">
                         ${st.course}
                       </strong>
                       <div style="font-size: 11px; font-weight: 700; color: #1e3a8a; margin-top: 2px;">
-                        👤 ${st.studentName}
+                        [Usuario] ${st.studentName}
                       </div>
                       <div style="font-size: 10px; color: #475569;">
-                        🎓 ${st.grade} • Código: ${st.studentCode}
+                        [Expediente] ${st.grade} • Código: ${st.studentCode}
                       </div>
                       <div style="margin-top: 6px;">
                         <button class="btn btn-outline btn-sm" onclick="window.app.simulateQRScan('${safePayload}')" style="font-size: 10px; padding: 3px 8px; border-radius: 12px; font-weight: 800;">
-                          📷 Probar Escaneo
+                          [Cámara] Probar Escaneo
                         </button>
                       </div>
                     </div>
@@ -5411,7 +5411,7 @@ const Components = {
               <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 12px; margin-bottom: 16px;">
                 <div>
                   <h3 style="font-size: 16px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 4px 0;">
-                    📊 Informe General de Cuadernos Revisados & Sellos Otorgados
+                    [Reporte] Informe General de Cuadernos Revisados & Sellos Otorgados
                   </h3>
                   <p style="font-size: 12px; color: var(--text-secondary); margin: 0;">
                     Consolidado de cumplimiento de tareas, cuadernos observados y sellos otorgados por el Auxiliar y Docentes.
@@ -5419,7 +5419,7 @@ const Components = {
                 </div>
                 
                 <button class="btn btn-navy btn-sm" onclick="window.app.printNotebookGeneralReport()" style="font-weight: 800; padding: 8px 16px; border-radius: 18px;">
-                  🖨️ Imprimir Informe Oficial PDF
+                  [Imprimir] Imprimir Informe Oficial PDF
                 </button>
               </div>
 
@@ -5466,7 +5466,7 @@ const Components = {
               <!-- Matriz Resumen de Cuadernos por Alumno del Aula -->
               <div class="card" style="margin-bottom: 16px; background: #ffffff; border: 1px solid #cbd5e1; padding: 14px; border-radius: 10px;">
                 <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin: 0 0 10px 0;">
-                  🏫 Matriz de Estado de Cuadernos por Estudiante (4° de Secundaria "A")
+                  [Colegio] Matriz de Estado de Cuadernos por Estudiante (4° de Secundaria "A")
                 </h4>
                 <div class="table-container">
                   <table class="data-table" style="font-size: 11.5px;">
@@ -5571,7 +5571,7 @@ const Components = {
             <div>
               <div style="display: flex; align-items: center; gap: 8px;">
                 <h2 class="card-title" style="font-size: var(--font-size-xl);">🗄️ Motor de Base de Datos y Persistencia - I.E.P. "El Educador"</h2>
-                <span class="status-badge status-approved">🟢 Motor Activo (db.json)</span>
+                <span class="status-badge status-approved"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Motor Activo (db.json)</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 S.J.L. • UGEL 05 • Sincronización multi-dispositivo en tiempo real y copias de seguridad garantizadas.
@@ -5579,10 +5579,10 @@ const Components = {
             </div>
             <div style="display: flex; gap: var(--space-2);">
               <a href="/api/backup" download="backup_colegio_educador.json" class="btn btn-navy btn-sm" style="text-decoration:none;">
-                📥 Descargar Backup (.JSON)
+                [Descargar] Descargar Backup (.JSON)
               </a>
               <button class="btn btn-gold btn-sm" onclick="window.app.showSQLSchemaModal()">
-                📄 Ver Esquema SQL (.SQL)
+                [Documento] Ver Esquema SQL (.SQL)
               </button>
             </div>
           </div>
@@ -5590,7 +5590,7 @@ const Components = {
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
             <div class="card" style="padding: var(--space-4); border-left: 4px solid var(--color-green-500); background: #f8faf9;">
               <span style="font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase;">Estado de Sincronización</span>
-              <div style="font-size: 18px; font-weight: 800; color: var(--color-green-600); margin-top: 2px;">🟢 Multi-Dispositivo OK</div>
+              <div style="font-size: 18px; font-weight: 800; color: var(--color-green-600); margin-top: 2px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Multi-Dispositivo OK</div>
               <span style="font-size: 10px; color: var(--text-muted);">Sincronización en vivo</span>
             </div>
 
@@ -5663,7 +5663,7 @@ const Components = {
                   👥 Centro de Control de Cuentas, Perfiles & Pestañas
                 </h2>
                 <span class="status-badge status-approved" style="background: #e0e7ff; color: #3730a3; font-weight: 800;">
-                  ⭐ Módulo Exclusivo Administrador
+                  ★ Módulo Exclusivo Administrador
                 </span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
@@ -5735,7 +5735,7 @@ const Components = {
                 </div>
 
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <input type="text" id="user-search-input" class="form-control" placeholder="🔍 Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
+                  <input type="text" id="user-search-input" class="form-control" placeholder="[Buscar] Buscar por nombre, usuario, DNI..." oninput="window.app.onUserSearchFilter(this.value)" style="font-size: 12px; padding: 5px 12px; width: 220px;" />
                 </div>
               </div>
 
@@ -5765,7 +5765,7 @@ const Components = {
                                              isEstudiante ? "background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0;" :
                                              "background: #fffbeb; color: #b45309; border: 1px solid #fde68a;";
                       
-                      const roleEmoji = isDirectivo ? "🛡️" : isDocente ? "👨‍🏫" : isEstudiante ? "🎒" : "👨‍👩‍👧";
+                      const roleEmoji = isDirectivo ? "[Seguridad]️" : isDocente ? "👨‍[Colegio]" : isEstudiante ? "🎒" : "👨‍👩‍👧";
 
                       return `
                         <tr>
@@ -5797,7 +5797,7 @@ const Components = {
                           <td>
                             ${isDocente || isDirectivo ? `
                               <span class="status-badge ${u.hasAdminPrivilege ? 'status-approved' : 'status-pending'}" style="${u.hasAdminPrivilege ? 'background:#fef08a; color:#854d0e; font-weight:800;' : ''}">
-                                ${u.hasAdminPrivilege ? '⭐ Permisos Admin' : 'Estándar'}
+                                ${u.hasAdminPrivilege ? '★ Permisos Admin' : 'Estándar'}
                               </span>
                             ` : `
                               <span style="font-size: 11px; color: #94a3b8;">--</span>
@@ -5807,7 +5807,7 @@ const Components = {
                             <div style="display: flex; gap: 4px; justify-content: center;">
                               ${isEstudiante ? `
                                 <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${u.code || u.id}')" title="Ver Tarjeta QR de Asistencia (Sin Foto)" style="padding: 4px 8px; font-size: 11px; font-weight: bold;">
-                                  📱 QR
+                                  [Móvil] QR
                                 </button>
                               ` : ''}
                               <button class="btn btn-outline btn-sm" onclick="window.app.openEditUserModal('${u.id}')" title="Editar datos y contraseña" style="padding: 4px 8px;">
@@ -5815,7 +5815,7 @@ const Components = {
                               </button>
                               ${isDocente ? `
                                 <button class="btn btn-sm ${u.hasAdminPrivilege ? 'btn-outline' : 'btn-gold'}" onclick="window.app.toggleTeacherAdminPrivilege('${u.id}')" title="${u.hasAdminPrivilege ? 'Revocar Permiso Admin' : 'Conceder Permiso Admin'}" style="padding: 4px 8px; font-size: 11px;">
-                                  ${u.hasAdminPrivilege ? '⭐' : '☆'}
+                                  ${u.hasAdminPrivilege ? '★' : '☆'}
                                 </button>
                               ` : ''}
                               <button class="btn btn-outline btn-sm" onclick="window.app.confirmDeleteUser('${u.id}')" title="Eliminar usuario" style="padding: 4px 8px; color: var(--color-red-600);">
@@ -5851,10 +5851,10 @@ const Components = {
                   <div style="display: flex; gap: 8px; align-items: center;">
                     <label style="font-size: 12px; font-weight: 800; color: #1e3a8a;">Perfil a Editar:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold;" onchange="window.app.onSelectNavConfigRole(this.value)">
-                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>👨‍🏫 Panel Docente</option>
+                      <option value="docente" ${targetNavRole === 'docente' ? 'selected' : ''}>👨‍[Colegio] Panel Docente</option>
                       <option value="estudiante" ${targetNavRole === 'estudiante' ? 'selected' : ''}>🎒 Portal del Estudiante</option>
                       <option value="padre" ${targetNavRole === 'padre' ? 'selected' : ''}>👨‍👩‍👧 Portal de Familias (Apoderados)</option>
-                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>🎓 Dirección General</option>
+                      <option value="director" ${targetNavRole === 'director' ? 'selected' : ''}>[Expediente] Dirección General</option>
                     </select>
                   </div>
                 </div>
@@ -5868,14 +5868,14 @@ const Components = {
                     <div class="card" style="padding: 14px; border: 1px solid ${isEnabled ? '#cbd5e1' : '#f1f5f9'}; background: ${isEnabled ? '#ffffff' : '#f8fafc'}; opacity: ${isEnabled ? '1' : '0.65'};">
                       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                         <div style="display: flex; align-items: center; gap: 8px;">
-                          <span style="font-size: 18px;">📌</span>
+                          <span style="font-size: 18px;">[Fijado]</span>
                           <strong style="font-size: 13px; color: var(--color-navy-900);">${tab.id}</strong>
                         </div>
                         
                         <!-- Toggle Switch -->
                         <label style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; cursor: pointer; color: ${isEnabled ? '#047857' : '#94a3b8'};">
                           <input type="checkbox" ${isEnabled ? 'checked' : ''} onchange="window.app.toggleNavTab('${targetNavRole}', '${tab.id}', this.checked)" />
-                          <span>${isEnabled ? '🟢 VISIBLE' : '⚪ OCULTO'}</span>
+                          <span>${isEnabled ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> VISIBLE' : '⚪ OCULTO'}</span>
                         </label>
                       </div>
 
@@ -5906,7 +5906,7 @@ const Components = {
                   * Los cambios de visibilidad y nombres se aplican inmediatamente a todos los usuarios con el rol <strong>${targetNavRole.toUpperCase()}</strong>.
                 </span>
                 <button class="btn btn-outline btn-sm" onclick="window.app.resetNavTabsToDefault('${targetNavRole}')" style="color: var(--color-red-600); border-color: var(--color-red-200); font-weight: bold;">
-                  🔄 Restaurar Menús por Defecto
+                  [Sincronizar] Restaurar Menús por Defecto
                 </button>
               </div>
             </div>
@@ -5932,7 +5932,7 @@ const Components = {
                     <span>➕</span> + Nueva Matrícula / Ficha FUM
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800;">
-                    🖨️ Imprimir Padrón
+                    [Imprimir] Imprimir Padrón
                   </button>
                 </div>
               </div>
@@ -5997,13 +5997,13 @@ const Components = {
                           <td style="text-align:center; white-space: nowrap;">
                             <div style="display: flex; gap: 4px; justify-content: center;">
                               <button class="btn btn-gold btn-sm" onclick="window.app.openStudentQRModal('${m.studentCode}')" title="Generar / Ver Código QR de Asistencia (Sin Foto)" style="font-size: 11px; padding: 4px 8px; font-weight: bold;">
-                                📱 QR
+                                [Móvil] QR
                               </button>
                               <button class="btn btn-navy btn-sm" onclick="window.app.openEditEnrollmentFUMModal('${m.id}')" title="Editar Ficha FUM, Salud y Documentos" style="font-size: 11px; padding: 4px 8px;">
                                 ✏️ FUM
                               </button>
                               <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${m.id}')" title="Imprimir Ficha Única Oficial A4" style="font-size: 11px; padding: 4px 8px;">
-                                📄 FUM A4
+                                [Documento] FUM A4
                               </button>
                               <button class="btn btn-outline btn-sm" onclick="window.app.openDocumentsChecklistModal('${m.id}')" title="Ver y Validar Documentos Digitales" style="font-size: 11px; padding: 4px 8px; color: #047857;">
                                 📎 Docs
@@ -6047,7 +6047,7 @@ const Components = {
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Muro de Circulares e Informes</h3>
-                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">📄 Ver Informe N° 003</button>
+                <button class="btn btn-gold btn-sm" onclick="window.app.showOfficialReportModal()">[Documento] Ver Informe N° 003</button>
               </div>
               <div class="announcement-list">
                 ${state.announcements.map(a => `
@@ -6065,10 +6065,10 @@ const Components = {
               <div class="card-header"><h3 class="card-title">Supervisión Académica</h3></div>
               <div style="display:flex; flex-direction:column; gap: var(--space-3);">
                 <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 800; padding: 10px; font-size: 13px; text-align: left; display: flex; align-items: center; gap: 8px;">
-                  <span>🚪</span>
+                  <span>[Portería]</span>
                   <span>Registro de Ingreso & Asistencia QR (Portería)</span>
                 </button>
-                <button class="btn btn-navy" onclick="window.app.navigate('cuadernos-qr')">📷 Escáner Cuadernos QR</button>
+                <button class="btn btn-navy" onclick="window.app.navigate('cuadernos-qr')">[Cámara] Escáner Cuadernos QR</button>
                 <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">Registro de Notas Oficiales</button>
                 <button class="btn btn-navy" onclick="window.app.navigate('horarios')">Horarios Escolares</button>
                 <button class="btn btn-navy" onclick="window.app.navigate('silabus')">Sílabus Académicos</button>
@@ -6092,7 +6092,7 @@ const Components = {
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
               ${hasAdminPrivilege ? `
                 <span class="status-badge status-approved" style="background: rgba(245, 158, 11, 0.2); color: var(--color-yellow-400); border: 1px solid var(--color-yellow-500);">
-                  ⭐ PRIVILEGIOS DE EDICIÓN HABILITADOS
+                  ★ PRIVILEGIOS DE EDICIÓN HABILITADOS
                 </span>
               ` : `
                 <span class="status-badge status-approved">PERFIL DOCENTE</span>
@@ -6113,14 +6113,14 @@ const Components = {
 
         <div style="display: flex; gap: var(--space-3); margin-bottom: var(--space-6); flex-wrap: wrap;">
           <button class="btn btn-sm" onclick="window.app.navigate('asistencia'); window.app.setAttendanceSubTab('door-scanner');" style="background: #10b981; color: white; font-weight: 900; font-size: 13px; padding: 9px 18px; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">
-            <span>🚪</span>
+            <span>[Portería]</span>
             <span>Registro de Ingreso & Asistencia QR</span>
           </button>
           <button class="btn btn-gold" onclick="window.app.navigate('cuadernos-qr')" style="font-weight: 800;">
-            📷 Abrir Escáner QR de Cuadernos
+            [Cámara] Abrir Escáner QR de Cuadernos
           </button>
           <button class="btn btn-navy" onclick="window.app.navigate('calificaciones')">✏️ Registrar Notas</button>
-          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">📄 Boleta Oficial MINEDU 2026</button>
+          <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="border: 1px solid var(--color-yellow-500);">[Documento] Boleta Oficial MINEDU 2026</button>
           <button class="btn btn-outline" onclick="window.app.navigate('horarios')">Ver Horario</button>
         </div>
 
@@ -6170,7 +6170,7 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.showOfficialFUMPrintModal('MATR-2026-001')">
-            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">📄 Ficha de Matrícula (FUM)</h4>
+            <h4 style="font-size:14px; color:#065f46; margin:0 0 2px;">[Documento] Ficha de Matrícula (FUM)</h4>
             <span style="font-size:12px; color:#047857;">Expediente SIAGIE y ficha médica oficial 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
@@ -6182,7 +6182,7 @@ const Components = {
             <span style="font-size:12px; color:var(--text-muted);">Programación y competencias 2026</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-yellow-600);" onclick="window.app.navigate('cuadernos-qr')">
-            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">📖 Cuadernos QR</h4>
+            <h4 style="font-size:14px; color:var(--color-navy-900); margin:0 0 2px;">[Cuaderno] Cuadernos QR</h4>
             <span style="font-size:12px; color:var(--text-muted);">5 de 6 cuadernos al día</span>
           </div>
           <div class="card" style="padding: 14px; cursor: pointer; border-left: 4px solid var(--color-red-500);" onclick="window.app.navigate('asistencia')">
@@ -6232,7 +6232,7 @@ const Components = {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-6);">
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid #10b981; background: #f0fdf4;" onclick="window.app.navigate('asistencia')">
-            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">🚪 Mi Asistencia & QR</h4>
+            <h4 style="font-size:13px; color: #065f46; margin: 0 0 2px;">[Portería] Mi Asistencia & QR</h4>
             <span style="font-size:11px; color:#047857;">Marcaciones y código QR</span>
           </div>
           <div class="card" style="padding: 12px; cursor: pointer; border-left: 4px solid var(--color-yellow-500);" onclick="window.app.navigate('horarios')">
@@ -6293,20 +6293,20 @@ const Components = {
     // Lista oficial de asignaturas y sus docentes responsables
     const subjectDirectory = [
       { key: "computacion", name: "Computación (EPT)", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "💻" },
-      { key: "gestion_empresarial", name: "Gestión Empresarial", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "📊" },
-      { key: "algebra", name: "Álgebra", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📐" },
+      { key: "gestion_empresarial", name: "Gestión Empresarial", area: "Educación para el Trabajo", teacher: "Prof. Alex Lino", icon: "[Reporte]" },
+      { key: "algebra", name: "Álgebra", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "[Formato]" },
       { key: "aritmetica", name: "Aritmética", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🔢" },
       { key: "geometria", name: "Geometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📏" },
-      { key: "trigonometria", name: "Trigonometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "📐" },
+      { key: "trigonometria", name: "Trigonometría", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "[Formato]" },
       { key: "raz_matematico", name: "Razonamiento Matemático", area: "Matemática", teacher: "Prof. Roberto Silva", icon: "🧮" },
-      { key: "lenguaje", name: "Lenguaje", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "📖" },
+      { key: "lenguaje", name: "Lenguaje", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "[Cuaderno]" },
       { key: "literatura", name: "Literatura", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "📚" },
       { key: "raz_verbal", name: "Razonamiento Verbal", area: "Comunicación", teacher: "Miss María Daysi Reyes", icon: "✏️" },
       { key: "biologia", name: "Biología", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧬" },
       { key: "fisica", name: "Física", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "⚡" },
       { key: "quimica", name: "Química", area: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", icon: "🧪" },
       { key: "geografia", name: "Geografía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🌍" },
-      { key: "filosofia", name: "Filosofía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "💡" },
+      { key: "filosofia", name: "Filosofía", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "[Nota]" },
       { key: "historia_peru", name: "Historia del Perú", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "🏛️" },
       { key: "historia_universal", name: "Historia Universal", area: "Ciencias Sociales", teacher: "Prof. Javier Vega", icon: "📜" },
       { key: "civica", name: "Cívica", area: "DPCC", teacher: "Miss Julisa Arroyo", icon: "⚖️" },
@@ -6315,7 +6315,7 @@ const Components = {
       { key: "religion", name: "Educación Religiosa (Valores y Lid.)", area: "Otras Áreas", teacher: "Miss Carmen Vidal", icon: "🕊️" },
       { key: "educ_fisica", name: "Educación Física", area: "Otras Áreas", teacher: "Prof. Marco Soto", icon: "⚽" },
       { key: "ingles", name: "Inglés Avanzado", area: "Otras Áreas", teacher: "Miss Andrea Ramos", icon: "🇬🇧" },
-      { key: "conducta", name: "Conducta y Disciplina", area: "Tutoría", teacher: "Prof. Roberto Silva (Tutor)", icon: "⭐" }
+      { key: "conducta", name: "Conducta y Disciplina", area: "Tutoría", teacher: "Prof. Roberto Silva (Tutor)", icon: "★" }
     ];
 
     // Directorio de alumnos del aula (4to Sec 'A')
@@ -6348,20 +6348,20 @@ const Components = {
             </div>
             
             <button class="btn btn-gold" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-              📄 Ver Boleta Oficial Consolidada
+              [Documento] Ver Boleta Oficial Consolidada
             </button>
           </div>
 
           <!-- Selector de Pestañas / Modalidades -->
           <div style="display: flex; border-top: 1px solid var(--border-subtle); background: var(--bg-surface-subtle); padding: 6px 12px; gap: 8px; flex-wrap: wrap;">
             <button class="btn btn-sm ${activeTab === 'subject' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('subject')" style="font-weight: 800;">
-              👨‍🏫 1. Carga por Docente de Curso
+              👨‍[Colegio] 1. Carga por Docente de Curso
             </button>
             <button class="btn btn-sm ${activeTab === 'tutor' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('tutor')" style="font-weight: 800;">
-              🎓 2. Módulo de Tutoría (Asistencia, Apreciaciones y Familias)
+              [Expediente] 2. Módulo de Tutoría (Asistencia, Apreciaciones y Familias)
             </button>
             <button class="btn btn-sm ${activeTab === 'overview' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setGradesActiveTab('overview')" style="font-weight: 800;">
-              📊 3. Sábana Consolidada del Aula
+              [Reporte] 3. Sábana Consolidada del Aula
             </button>
           </div>
         </div>
@@ -6633,7 +6633,7 @@ const Components = {
                         <td style="text-align:center; font-weight:bold; color:var(--color-navy-900);">${aVal}</td>
                         <td style="text-align:center;">
                           <span class="status-badge ${hasAll ? 'status-approved' : 'status-pending'}">
-                            ${hasAll ? '🟢 Completo' : '🟡 En Proceso'}
+                            ${hasAll ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Completo' : '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> En Proceso'}
                           </span>
                         </td>
                       </tr>
@@ -6645,10 +6645,10 @@ const Components = {
 
             <div style="padding: 16px; background: #f8fafc; border-top: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <span style="font-size: 13px; font-weight: 700; color: #1e293b;">
-                📄 El sistema ya tiene consolidadas todas las notas para la emisión oficial.
+                [Documento] El sistema ya tiene consolidadas todas las notas para la emisión oficial.
               </span>
               <button class="btn btn-navy" onclick="window.app.navigate('boleta')" style="font-weight: 800;">
-                🖨️ Generar Boleta Oficial MINEDU (PDF)
+                [Imprimir] Generar Boleta Oficial MINEDU (PDF)
               </button>
             </div>
           </div>
@@ -6755,7 +6755,7 @@ const Components = {
           
           <div style="display: flex; gap: 8px; align-items: center;">
             <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; font-size: 13px; padding: 9px 20px;">
-              🖨️ Imprimir Boleta Oficial Completa (PDF / Doble Cara)
+              [Imprimir] Imprimir Boleta Oficial Completa (PDF / Doble Cara)
             </button>
           </div>
         </div>
@@ -7357,7 +7357,7 @@ const Components = {
                   <span style="font-size: 24px;">📅</span>
                   <h2 style="font-size: 18px; font-weight: 900; margin: 0; color: #ffffff;">Gestión y Creación de Horarios Escolares</h2>
                   <span class="status-badge" style="background: #f59e0b; color: #78350f; font-weight: 900; font-size: 11px;">
-                    🛡️ Modo Administrador Activo
+                    [Seguridad]️ Modo Administrador Activo
                   </span>
                 </div>
                 <p style="font-size: 12px; color: #cbd5e1; margin: 4px 0 0 0;">
@@ -7372,13 +7372,13 @@ const Components = {
                   <span>+ CREAR / ASIGNAR CLASE</span>
                 </button>
                 <button class="btn btn-outline" onclick="window.app.setTeacherScheduleTab('${activeTab === 'personal' ? 'classroom' : 'personal'}')" style="background: rgba(255,255,255,0.18); color: #ffffff; border-color: rgba(255,255,255,0.5); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  ${activeTab === 'personal' ? '🏫 Ver Horario por Aula' : '👨‍🏫 Ver Horario Semanal Docente'}
+                  ${activeTab === 'personal' ? '[Colegio] Ver Horario por Aula' : '👨‍[Colegio] Ver Horario Semanal Docente'}
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openAutoScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
                   ⚡ Horario Automático
                 </button>
                 <button class="btn btn-outline" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="background: rgba(255,255,255,0.12); color: #ffffff; border-color: rgba(255,255,255,0.4); font-weight: 800; font-size: 12px; padding: 8px 14px;">
-                  📋 Clonar Horario
+                  [Lista] Clonar Horario
                 </button>
                 <button class="btn btn-outline" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="background: rgba(239,68,68,0.25); color: #fca5a5; border-color: #ef4444; font-weight: 800; font-size: 12px; padding: 8px 12px;">
                   🗑️ Limpiar
@@ -7391,10 +7391,10 @@ const Components = {
           ${isTeacherOrAdmin ? `
             <div style="display: flex; gap: 8px; margin-bottom: 16px; background: #f1f5f9; padding: 6px; border-radius: 10px; border: 1px solid #cbd5e1; flex-wrap: wrap;">
               <button class="btn ${activeTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('classroom')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'classroom' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>🏫</span> Horario General por Aula / Grado (Secciones)
+                <span>[Colegio]</span> Horario General por Aula / Grado (Secciones)
               </button>
               <button class="btn ${activeTab === 'personal' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setTeacherScheduleTab('personal')" style="flex: 1; min-width: 220px; font-weight: 900; font-size: 13px; padding: 10px 16px; border-radius: 8px; box-shadow: ${activeTab === 'personal' ? '0 3px 10px rgba(30,58,138,0.25)' : 'none'}; display: flex; justify-content: center; align-items: center; gap: 8px;">
-                <span>👨‍🏫</span> Horario Semanal por Docente (Carga Horaria & Cursos)
+                <span>👨‍[Colegio]</span> Horario Semanal por Docente (Carga Horaria & Cursos)
               </button>
             </div>
           ` : ''}
@@ -7407,7 +7407,7 @@ const Components = {
               <div class="teacher-schedule-banner" style="background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%); color: #ffffff; padding: 16px 20px; border-radius: 8px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <span style="font-size: 24px;">👨‍🏫</span>
+                    <span style="font-size: 24px;">👨‍[Colegio]</span>
                     <h2 style="font-size: 19px; font-weight: 900; margin: 0; color: #ffffff;">${currentTeacher.name}</h2>
                     <span class="status-badge" style="background: #fef08a; color: #854d0e; font-weight: 900; font-size: 11px;">
                       Docente Curricular
@@ -7432,7 +7432,7 @@ const Components = {
                     </button>
                   ` : ''}
                   <button class="btn btn-outline btn-sm" onclick="window.print()" style="font-weight: 800; white-space: nowrap; color: #ffffff; border-color: rgba(255,255,255,0.4); padding: 6px 12px;">
-                    🖨️ Imprimir A4
+                    [Imprimir] Imprimir A4
                   </button>
                 </div>
               </div>
@@ -7452,7 +7452,7 @@ const Components = {
                 </div>
 
                 <div class="teacher-stat-card" style="background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 14px; border-radius: 6px; border: 1px solid #fde68a;">
-                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">🏫 Aulas / Grados Asignados</span>
+                  <span class="teacher-stat-lbl" style="font-size: 11px; font-weight: 700; color: #92400e; display: block;">[Colegio] Aulas / Grados Asignados</span>
                   <span class="teacher-stat-val" style="font-size: 18px; font-weight: 900; color: #b45309; display: block; margin: 2px 0;">${teacherGrades.length} Grados</span>
                   <span style="font-size: 11px; color: #64748b;">${teacherGrades.slice(0, 2).join(', ')}${teacherGrades.length > 2 ? '...' : ''}</span>
                 </div>
@@ -7467,7 +7467,7 @@ const Components = {
               <!-- Barra de Filtros por Curso y Alerta de Disponibilidad -->
               <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 10px 14px; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">🔍 Filtrar por Asignatura:</label>
+                  <label style="font-size: 12px; font-weight: 800; color: #1e293b;">[Buscar] Filtrar por Asignatura:</label>
                   <select class="form-control" style="width: auto; padding: 4px 10px; font-size: 12px; font-weight: bold;" onchange="window.app.onTeacherCourseFilterChange(this.value)">
                     <option value="all" ${courseFilter === 'all' ? 'selected' : ''}>Todos los cursos (${teacherCourses.length})</option>
                     ${teacherCourses.map(c => `<option value="${c}" ${courseFilter === c ? 'selected' : ''}>${c}</option>`).join('')}
@@ -7553,13 +7553,13 @@ const Components = {
                     I.E.P. "El Educador" • "21 años dejando huellas" (S.J.L. • UGEL 05) • Bloques de 50 min
                   </p>
                 </div>
-                <button class="btn btn-navy btn-sm" onclick="window.print()">🖨️ Imprimir Horario de Aula</button>
+                <button class="btn btn-navy btn-sm" onclick="window.print()">[Imprimir] Imprimir Horario de Aula</button>
               </div>
 
               <div class="schedule-filter-bar" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                 ${isTeacherOrAdmin ? `
                   <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">🏫 Seleccionar Aula / Grado:</label>
+                    <label style="font-size: 12px; font-weight: 800; color: #1e293b;">[Colegio] Seleccionar Aula / Grado:</label>
                     <select class="form-control" style="width: auto; padding: 4px 12px; font-weight: bold; border-color: #3b82f6;" onchange="window.app.onScheduleGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === currentGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
@@ -7584,7 +7584,7 @@ const Components = {
                       ⚡ Generar Horario Automático
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCloneScheduleModal('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                      📋 Clonar a Otra Aula
+                      [Lista] Clonar a Otra Aula
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.clearScheduleGrade('${currentGradeId}')" style="font-weight: 800; font-size: 11.5px; color: var(--color-red-600);">
                       🗑️ Limpiar
@@ -7625,7 +7625,7 @@ const Components = {
                                     <div class="slot-course-title">${slot.course}</div>
                                     ${hasAdminEditPower ? `<span style="font-size: 10px; opacity: 0.8;">✏️</span>` : ''}
                                   </div>
-                                  <div class="slot-teacher-name">👨‍🏫 ${slot.teacher}</div>
+                                  <div class="slot-teacher-name">👨‍[Colegio] ${slot.teacher}</div>
                                   <div class="slot-room-badge">📍 ${slot.room || currentGrade.classroom || 'Aula Principal'}</div>
                                 </div>
                               </td>
@@ -7649,7 +7649,7 @@ const Components = {
           <h3 style="color: #9f1239; margin-bottom: 8px;">⚠️ Restableciendo visualización de Horarios</h3>
           <p style="color: #4b5563; font-size: 13px;">Se ha detectado una actualización en la estructura de horarios. Pulse el botón inferior para sincronizar:</p>
           <button class="btn btn-navy" onclick="window.app.render()" style="font-weight: 800; margin-top: 10px;">
-            🔄 Sincronizar y Ver Horarios
+            [Sincronizar] Sincronizar y Ver Horarios
           </button>
         </div>
       `;
@@ -7713,7 +7713,7 @@ const Components = {
                 <div>
                   <div class="syllabus-header"><span class="syllabus-code">${s.courseCode}</span><span class="status-badge status-approved">${s.bimester}</span></div>
                   <h3 class="syllabus-title">${s.courseName}</h3>
-                  <div class="syllabus-meta-list"><div>👨‍🏫 Docente: ${s.teacher}</div><div>⏱️ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
+                  <div class="syllabus-meta-list"><div>👨‍[Colegio] Docente: ${s.teacher}</div><div>⏱️ Carga: ${s.hoursWeekly || '4 hrs'}</div></div>
                   <div class="competency-tag-box">${(s.competencies || ['Competencia General']).map(c => `<span class="competency-pill">✓ ${c}</span>`).join('')}</div>
                 </div>
                 <div style="border-top:1px solid var(--border-subtle); padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
@@ -7741,7 +7741,7 @@ const Components = {
     
     // Lista de cursos disponibles en el aula virtual
     const availableCourses = [
-      { id: "MAT-401", name: "Matemática Avanzada (Álgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "📐", color: "blue" },
+      { id: "MAT-401", name: "Matemática Avanzada (Álgebra y Funciones)", teacher: "Prof. Roberto Silva", grade: "4to de Secundaria", icon: "[Formato]", color: "blue" },
       { id: "EPT-402", name: "Computación e Informática / Robótica", teacher: "Prof. Fernando Rojas", grade: "4to de Secundaria", icon: "🤖", color: "yellow" },
       { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", teacher: "Miss Leyli Reyes Cerquen", grade: "4to de Secundaria", icon: "🔬", color: "green" },
       { id: "COM-404", name: "Comunicación & Literatura", teacher: "Miss María Daysi Reyes", grade: "4to de Secundaria", icon: "📚", color: "navy" }
@@ -7780,8 +7780,8 @@ const Components = {
                 <span class="status-badge status-approved" style="background: var(--color-yellow-100); color: var(--color-yellow-800); font-weight: 800;">
                   Periodo Lectivo 2026 • III Bimestre
                 </span>
-                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">👨‍🏫 Modo Gestión Docente</span>` : ''}
-                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">🎓 Alumno(a): Sofía Méndez</span>` : ''}
+                ${isTeacherOrAdmin ? `<span class="status-badge" style="background:#dbeafe; color:#1e40af; font-weight:800;">👨‍[Colegio] Modo Gestión Docente</span>` : ''}
+                ${isEstudiante ? `<span class="status-badge" style="background:#dcfce7; color:#166534; font-weight:800;">[Expediente] Alumno(a): Sofía Méndez</span>` : ''}
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 I.E.P. "El Educador" • Publicación continua del trabajo realizado en el aula y generación automática de evaluaciones dinámicas de 10 preguntas con retroalimentación inmediata.
@@ -7841,7 +7841,7 @@ const Components = {
               <span style="font-size: 10.5px; color: #64748b;">Estudiantes evaluados</span>
             </div>
             <div class="teacher-stat-card" style="border-left: 4px solid #8b5cf6;">
-              <span class="teacher-stat-lbl">📊 Promedio de Logro</span>
+              <span class="teacher-stat-lbl">[Reporte] Promedio de Logro</span>
               <span class="teacher-stat-val" style="color: #5b21b6;">17.8 / 20</span>
               <span style="font-size: 10.5px; color: #64748b;">Nivel Logro Destacado (AD)</span>
             </div>
@@ -7915,7 +7915,7 @@ const Components = {
                 <div style="padding: 20px;">
                   <!-- Resumen Pedagógico del Trabajo en el Aula -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-                    <span>👨‍🏫 Resumen del Trabajo Realizado en el Aula:</span>
+                    <span>👨‍[Colegio] Resumen del Trabajo Realizado en el Aula:</span>
                   </h4>
                   <div style="background: #f1f5f9; border-left: 4px solid var(--color-navy-800); padding: 14px 16px; border-radius: 6px; font-size: 13px; line-height: 1.6; color: #334155; margin-bottom: 18px;">
                     ${activeMaterial.summary}
@@ -7923,7 +7923,7 @@ const Components = {
 
                   <!-- Conceptos Clave Trabajados -->
                   <h4 style="font-size: 13px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 8px;">
-                    📌 Conceptos Clave Abordados en Clase:
+                    [Fijado] Conceptos Clave Abordados en Clase:
                   </h4>
                   <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
                     ${(activeMaterial.keyConcepts || []).map(c => `
@@ -7942,7 +7942,7 @@ const Components = {
                   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
                     ${(activeMaterial.attachments || []).map(att => `
                       <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; display: flex; align-items: center; gap: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: transform 0.2s;" class="hover-shadow">
-                        <div style="font-size: 24px;">${att.icon || '📄'}</div>
+                        <div style="font-size: 24px;">${att.icon || '[Documento]'}</div>
                         <div style="flex: 1; min-width: 0;">
                           <div style="font-size: 12px; font-weight: 800; color: var(--color-navy-900); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                             ${att.name}
@@ -8006,7 +8006,7 @@ const Components = {
                       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; font-size: 11.5px; color: #475569; display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
                         <div>⏱️ <strong>Tiempo:</strong> 20 min</div>
                         <div>🎯 <strong>Mínimo:</strong> 14 pts</div>
-                        <div>📊 <strong>Puntaje:</strong> 2 pts c/u</div>
+                        <div>[Reporte] <strong>Puntaje:</strong> 2 pts c/u</div>
                         <div>🤖 <strong>IA Feedback:</strong> Activo</div>
                       </div>
                     </div>
@@ -8024,7 +8024,7 @@ const Components = {
                             ${studentAttempt.status} (${studentAttempt.correctCount} / 10 correctas)
                           </span>
                           <p style="font-size: 11px; color: #475569; margin-top: 8px; line-height: 1.4; text-align: left; background: rgba(255,255,255,0.7); padding: 8px; border-radius: 4px;">
-                            💡 <strong>Retroalimentación del Sistema:</strong> ${studentAttempt.feedback}
+                            [Nota] <strong>Retroalimentación del Sistema:</strong> ${studentAttempt.feedback}
                           </p>
                         </div>
 
@@ -8033,7 +8033,7 @@ const Components = {
                             👁️ Revisar Respuestas y Explicaciones
                           </button>
                           <button class="btn btn-outline btn-sm" onclick="window.app.startStudentQuiz('${activeMaterial.id}')" style="width: 100%; font-weight: 700; font-size: 11px;">
-                            🔄 Rendir Nuevo Intento de Refuerzo
+                            [Sincronizar] Rendir Nuevo Intento de Refuerzo
                           </button>
                         </div>
                       ` : `
@@ -8233,7 +8233,7 @@ const Components = {
           <div class="welcome-content">
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
               <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800;">
-                🟢 SISTEMA QR & BIOMÉTRICO EN PUERTA ACTIVO
+                <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> SISTEMA QR & BIOMÉTRICO EN PUERTA ACTIVO
               </span>
               <span style="font-size: 11.5px; opacity: 0.9;">Tolerancia Oficial: 07:45 AM • UGEL 05 S.J.L.</span>
             </div>
@@ -8254,13 +8254,13 @@ const Components = {
                ========================================================================= -->
           <div style="display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; overflow-x: auto;">
             <button class="btn btn-sm ${activeSubTab === 'door-scanner' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('door-scanner')" style="font-weight: 900; font-size: 12.5px; white-space: nowrap; padding: 8px 16px; border: 2px solid #f59e0b; box-shadow: ${activeSubTab === 'door-scanner' ? '0 2px 8px rgba(245,158,11,0.4)' : 'none'};">
-              🚪 1. Registro de Ingreso (Escáner QR en Portería)
+              [Portería] 1. Registro de Ingreso (Escáner QR en Portería)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'id-cards' ? 'btn-gold' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('id-cards')" style="font-weight: 900; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              🖨️ 2. Generador de Códigos QR (Sin Fotos)
+              [Imprimir] 2. Generador de Códigos QR (Sin Fotos)
             </button>
             <button class="btn btn-sm ${activeSubTab === 'daily-report' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('daily-report')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>📊 3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
+              <span>[Reporte] 3. Parte Diario de Tardanzas e Inasistencias (Corte 08:30 AM)</span>
               ${dayReport.tardinessList.length > 0 || dayReport.absenceList.length > 0 ? `
                 <span style="background: #ef4444; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                   ${dayReport.tardinessList.length + dayReport.absenceList.length}
@@ -8268,10 +8268,10 @@ const Components = {
               ` : ''}
             </button>
             <button class="btn btn-sm ${activeSubTab === 'classroom' ? 'btn-navy' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('classroom')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px;">
-              📋 4. Lista y Marcación por Aula
+              [Lista] 4. Lista y Marcación por Aula
             </button>
             <button class="btn btn-sm ${activeSubTab === 'incidents' ? 'btn-red' : 'btn-outline'}" onclick="window.app.setAttendanceSubTab('incidents')" style="font-weight: 800; font-size: 12px; white-space: nowrap; padding: 7px 14px; position: relative;">
-              <span>🚨 5. Libro de Incidencias Conductuales</span>
+              <span>[Alerta] 5. Libro de Incidencias Conductuales</span>
               <span style="background: #dc2626; color: white; border-radius: 10px; padding: 1px 6px; font-size: 10px; font-weight: 900; margin-left: 4px;">
                 ${(state.behaviorIncidents || initialData.behaviorIncidents || []).length}
               </span>
@@ -8290,7 +8290,7 @@ const Components = {
                 
                 <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                   <div>
-                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">🏫 Grado / Aula:</label>
+                    <label style="font-size: 11px; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 2px;">[Colegio] Grado / Aula:</label>
                     <select class="form-control" style="font-weight: bold; font-size: 12px; border-color: #3b82f6; width: auto;" onchange="window.app.onAttendanceGradeChange(this.value)">
                       ${catalog.map(g => `<option value="${g.id}" ${g.id === selectedGradeId ? 'selected' : ''}>${g.label} (${g.level})</option>`).join('')}
                     </select>
@@ -8316,10 +8316,10 @@ const Components = {
                     ⚡ Marcar Todos Presentes
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.app.setAttendanceSubTab('door-scanner')" style="font-weight: 800; font-size: 11.5px;">
-                    📷 Escanear QR en Puerta
+                    [Cámara] Escanear QR en Puerta
                   </button>
                   <button class="btn btn-outline btn-sm" onclick="window.app.openMonthlyAttendanceReportModal('${selectedGradeId}')" style="font-weight: 800; font-size: 11.5px;">
-                    📄 Consolidado UGEL 05
+                    [Documento] Consolidado UGEL 05
                   </button>
                 </div>
 
@@ -8335,19 +8335,19 @@ const Components = {
               </div>
               
               <div class="card" style="padding: 12px; border-left: 4px solid #10b981; background: #ecfdf5;">
-                <span style="font-size: 11px; font-weight: 800; color: #065f46;">🟢 PRESENTES</span>
+                <span style="font-size: 11px; font-weight: 800; color: #065f46;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> PRESENTES</span>
                 <div style="font-size: 22px; font-weight: 900; color: #047857; margin: 2px 0;">${presentCount} (${attendancePct}%)</div>
                 <span style="font-size: 10px; color: #047857;">A tiempo en portería</span>
               </div>
 
               <div class="card" style="padding: 12px; border-left: 4px solid #f59e0b; background: #fffbeb;">
-                <span style="font-size: 11px; font-weight: 800; color: #92400e;">🟡 TARDANZAS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #92400e;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> TARDANZAS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #b45309; margin: 2px 0;">${lateCount}</div>
                 <span style="font-size: 10px; color: #b45309;">Después de 07:45 am</span>
               </div>
 
               <div class="card" style="padding: 12px; border-left: 4px solid #ef4444; background: #fef2f2;">
-                <span style="font-size: 11px; font-weight: 800; color: #991b1b;">🔴 INASISTENCIAS</span>
+                <span style="font-size: 11px; font-weight: 800; color: #991b1b;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> INASISTENCIAS</span>
                 <div style="font-size: 22px; font-weight: 900; color: #dc2626; margin: 2px 0;">${absentCount}</div>
                 <span style="font-size: 10px; color: #dc2626;">Sin registro biométrico</span>
               </div>
@@ -8364,7 +8364,7 @@ const Components = {
               <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                 <div>
                   <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0;">
-                    📋 Registro y Marcación de Asistencia: ${currentGrade.label} • Fecha: ${selectedDate}
+                    [Lista] Registro y Marcación de Asistencia: ${currentGrade.label} • Fecha: ${selectedDate}
                   </h3>
                   <span style="font-size: 11px; color: var(--text-muted);">
                     Haga clic en los botones de estado para cambiar la asistencia del estudiante al instante.
@@ -8403,13 +8403,13 @@ const Components = {
                         <td>
                           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Presente')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Presente' ? '#10b981' : '#f1f5f9'}; color: ${r.status === 'Presente' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Presente' ? '#059669' : '#cbd5e1'};">
-                              🟢 Presente
+                              <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Presente
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Tardanza')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Tardanza' ? '#f59e0b' : '#f1f5f9'}; color: ${r.status === 'Tardanza' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Tardanza' ? '#d97706' : '#cbd5e1'};">
-                              🟡 Tardanza
+                              <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Tardanza
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Falta')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Falta' ? '#ef4444' : '#f1f5f9'}; color: ${r.status === 'Falta' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Falta' ? '#dc2626' : '#cbd5e1'};">
-                              🔴 Falta
+                              <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Falta
                             </button>
                             <button class="btn btn-sm" onclick="window.app.setStudentAttendanceStatus('${r.id}', 'Justificada')" style="font-size: 10.5px; padding: 2px 7px; font-weight: 800; background: ${r.status === 'Justificada' ? '#8b5cf6' : '#f1f5f9'}; color: ${r.status === 'Justificada' ? '#ffffff' : '#334155'}; border: 1px solid ${r.status === 'Justificada' ? '#7c3aed' : '#cbd5e1'};">
                               🔵 Justificada
@@ -8448,7 +8448,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 20px;">📊</span>
+                    <span style="font-size: 20px;">[Reporte]</span>
                     <div>
                       <h2 style="font-size: 17px; font-weight: 900; color: #0b132b; margin: 0;">
                         Parte Diario Oficial de Tardanzas e Inasistencias
@@ -8462,7 +8462,7 @@ const Components = {
 
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button class="btn btn-navy btn-sm" onclick="window.app.openOfficialDailyReportPrintModal('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
-                    🖨️ Imprimir Parte Diario A4 (UGEL 05)
+                    [Imprimir] Imprimir Parte Diario A4 (UGEL 05)
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.notifyAllAbsencesAndTardinessWhatsApp('${selectedDate}')" style="font-weight: 800; font-size: 12px;">
                     📲 Notificar a Todos los Apoderados (WhatsApp)
@@ -8502,7 +8502,7 @@ const Components = {
             <div class="card" style="margin-bottom: var(--space-5); border: 1px solid #fde68a;">
               <div class="card-header" style="background: #fffbeb; border-bottom: 1px solid #fef3c7;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="font-size: 18px;">🟡</span>
+                  <span style="font-size: 18px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span></span>
                   <div>
                     <h3 style="font-size: 14px; font-weight: 900; color: #92400e; margin: 0;">
                       1. Registro Detallado de Tardanzas en Portería (${dayReport.tardinessList.length} casos)
@@ -8547,7 +8547,7 @@ const Components = {
                               💬 WhatsApp
                             </button>
                             <button class="btn btn-outline btn-sm" onclick="window.app.showTardinessPassModal('${t.studentCode}')" style="font-size: 10.5px; padding: 4px 8px;" title="Emitir Pase de Tardanza">
-                              📄 Pase
+                              [Documento] Pase
                             </button>
                           </div>
                         </td>
@@ -8568,7 +8568,7 @@ const Components = {
             <div class="card" style="border: 1px solid #fecaca;">
               <div class="card-header" style="background: #fef2f2; border-bottom: 1px solid #fee2e2;">
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="font-size: 18px;">🔴</span>
+                  <span style="font-size: 18px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span></span>
                   <div>
                     <h3 style="font-size: 14px; font-weight: 900; color: #991b1b; margin: 0;">
                       2. Registro de Inasistencias del Día (${dayReport.absenceList.length} casos)
@@ -8606,7 +8606,7 @@ const Components = {
                         <td>${currentGrade.tutor || 'Prof. Roberto Silva'}</td>
                         <td>${a.guardian || 'Apoderado'}</td>
                         <td><code>${a.guardianPhone || '984-123-456'}</code></td>
-                        <td><span class="status-badge status-failed" style="font-weight: 800;">🔴 Inasistencia Injustificada</span></td>
+                        <td><span class="status-badge status-failed" style="font-weight: 800;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Inasistencia Injustificada</span></td>
                         <td style="text-align: center;">
                           <div style="display: flex; gap: 4px; justify-content: center;">
                             <button class="btn btn-sm" onclick="window.app.sendAbsenceWhatsApp('${a.studentName}', '${a.guardianPhone || '984-123-456'}', '${a.guardian || 'Apoderado'}')" style="background: #22c55e; color: white; font-weight: 800; font-size: 10.5px; padding: 4px 8px;" title="Notificar Inasistencia por WhatsApp">
@@ -8644,7 +8644,7 @@ const Components = {
                 <div class="card-header" style="background: #0f172a; color: white;">
                   <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
                     <div style="display: flex; align-items: center; gap: 8px;">
-                      <span style="font-size: 20px;">📷</span>
+                      <span style="font-size: 20px;">[Cámara]</span>
                       <div>
                         <h3 style="font-size: 15px; font-weight: 900; color: white; margin: 0;">
                           Estación de Portería & Auxiliar: Escáner QR Inteligente
@@ -8652,7 +8652,7 @@ const Components = {
                         <span style="font-size: 11px; color: #94a3b8;">Asistencia en Puerta (07:00 - 08:30 AM) • Incidencias durante la jornada</span>
                       </div>
                     </div>
-                    <span id="camera-door-status" class="status-badge status-approved" style="font-size: 10px;">🟢 LISTO</span>
+                    <span id="camera-door-status" class="status-badge status-approved" style="font-size: 10px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> LISTO</span>
                   </div>
                 </div>
 
@@ -8660,7 +8660,7 @@ const Components = {
                   
                   <div id="qr-door-camera-feed" style="width: 100%; max-width: 320px; height: 240px; margin: 0 auto 16px; border: 3px dashed #3b82f6; border-radius: 12px; background: #0f172a; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;">
                     <div style="color: white; text-align: center;">
-                      <div style="font-size: 48px; margin-bottom: 6px;">⚡📱</div>
+                      <div style="font-size: 48px; margin-bottom: 6px;">⚡[Móvil]</div>
                       <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
                       <div style="font-size: 10.5px; opacity: 0.8;">Muestra el fotocheck frente al lente</div>
                     </div>
@@ -8682,16 +8682,16 @@ const Components = {
                   </h4>
                   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-042', '07:38 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      🟢 <strong>Sofía Méndez</strong><br><span style="font-size: 9.5px; color: #047857;">1er Escaneo: Puntual (07:38 AM)</span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> <strong>Sofía Méndez</strong><br><span style="font-size: 9.5px; color: #047857;">1er Escaneo: Puntual (07:38 AM)</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-011', '08:10 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      🟡 <strong>Carlos Benítez</strong><br><span style="font-size: 9.5px; color: #b45309;">1er Escaneo: Tardanza (08:10 AM)</span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> <strong>Carlos Benítez</strong><br><span style="font-size: 9.5px; color: #b45309;">1er Escaneo: Tardanza (08:10 AM)</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-055')" style="font-size: 11px; text-align: left; padding: 8px; border: 2px solid #ef4444; background: #fff5f5;">
-                      🚨 <strong>Gael Cáceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
+                      [Alerta] <strong>Gael Cáceres</strong><br><span style="font-size: 9.5px; color: #dc2626; font-weight: bold;">2do Escaneo: Crear Informe</span>
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.processSmartQRScan('EST-2026-025', '08:45 AM')" style="font-size: 11px; text-align: left; padding: 8px;">
-                      🔴 <strong>Mateo Ramos</strong><br><span style="font-size: 9.5px; color: #dc2626;">08:45 AM (Puerta Cerrada / Falta)</span>
+                      <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> <strong>Mateo Ramos</strong><br><span style="font-size: 9.5px; color: #dc2626;">08:45 AM (Puerta Cerrada / Falta)</span>
                     </button>
                   </div>
 
@@ -8708,7 +8708,7 @@ const Components = {
                   </div>
                   
                   <div id="door-last-scan-display" style="padding: 20px; text-align: center;">
-                    <div style="font-size: 40px; margin-bottom: 6px;">🎓</div>
+                    <div style="font-size: 40px; margin-bottom: 6px;">[Expediente]</div>
                     <h4 style="font-size: 15px; font-weight: 800; color: var(--color-navy-900); margin-bottom: 4px;">
                       Esperando lectura de fotocheck escolar...
                     </h4>
@@ -8758,7 +8758,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 24px;">🖨️</span>
+                    <span style="font-size: 24px;">[Imprimir]</span>
                     <div>
                       <h3 style="font-size: 16px; font-weight: 900; color: #0b132b; margin: 0;">
                         Generador de Códigos QR Estudiantiles (Solo Código QR, Nombres y Grado)
@@ -8775,10 +8775,10 @@ const Components = {
                     <span>➕</span> + Matricular Nuevo Alumno y Generar QR
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    🖨️ Imprimir Plancha A4 de Códigos QR
+                    [Imprimir] Imprimir Plancha A4 de Códigos QR
                   </button>
                   <button class="btn btn-gold btn-sm" onclick="window.app.downloadAllQRSheets()" style="font-weight: 800; font-size: 12px;">
-                    📥 Descargar Plancha QR
+                    [Descargar] Descargar Plancha QR
                   </button>
                 </div>
               </div>
@@ -8826,13 +8826,13 @@ const Components = {
                   <!-- Pie de Tarjeta con Botones de Acción -->
                   <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; gap: 6px;">
                     <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 10px; flex: 1;" title="Ver Tarjeta QR Individual en Grande">
-                      📱 Ver QR
+                      [Móvil] Ver QR
                     </button>
                     <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px;" title="Descargar Código QR">
-                      📥 Guardar
+                      [Descargar] Guardar
                     </button>
                     <button class="btn btn-outline btn-sm" onclick="window.app.openCreateIncidentModal('${st.studentCode}')" style="font-size: 11px; font-weight: bold; padding: 4px 8px; color: #dc2626; border-color: #fca5a5;" title="Registrar Incidencia Conductual">
-                      🚨 Informe
+                      [Alerta] Informe
                     </button>
                   </div>
 
@@ -8852,7 +8852,7 @@ const Components = {
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 14px;">
                 <div>
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 22px;">🚨</span>
+                    <span style="font-size: 22px;">[Alerta]</span>
                     <div>
                       <h2 style="font-size: 16px; font-weight: 900; color: #991b1b; margin: 0;">
                         Libro Oficial de Registro de Incidencias & Convivencia Escolar
@@ -8869,7 +8869,7 @@ const Components = {
                     + Registrar Nuevo Informe de Incidencia / Mérito
                   </button>
                   <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800; font-size: 12px;">
-                    🖨️ Imprimir Libro de Incidencias
+                    [Imprimir] Imprimir Libro de Incidencias
                   </button>
                 </div>
               </div>
@@ -8892,13 +8892,13 @@ const Components = {
                   </div>
                   
                   <div class="card" style="padding: 12px; border-left: 4px solid #f59e0b; background: #fffbeb;">
-                    <span style="font-size: 11px; font-weight: 800; color: #92400e;">🟡 FALTAS LEVES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #92400e;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> FALTAS LEVES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #b45309; margin: 2px 0;">${leves}</div>
                     <span style="font-size: 10px; color: #b45309;">Uniforme, tardanza aula</span>
                   </div>
 
                   <div class="card" style="padding: 12px; border-left: 4px solid #ef4444; background: #fef2f2;">
-                    <span style="font-size: 11px; font-weight: 800; color: #991b1b;">🔴 FALTAS GRAVES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #991b1b;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> FALTAS GRAVES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #dc2626; margin: 2px 0;">${graves}</div>
                     <span style="font-size: 10px; color: #dc2626;">Desobediencia, celulares</span>
                   </div>
@@ -8910,7 +8910,7 @@ const Components = {
                   </div>
 
                   <div class="card" style="padding: 12px; border-left: 4px solid #10b981; background: #ecfdf5;">
-                    <span style="font-size: 11px; font-weight: 800; color: #065f46;">⭐ MÉRITOS / FELICITACIONES</span>
+                    <span style="font-size: 11px; font-weight: 800; color: #065f46;">★ MÉRITOS / FELICITACIONES</span>
                     <div style="font-size: 22px; font-weight: 900; color: #047857; margin: 2px 0;">${meritos}</div>
                     <span style="font-size: 10px; color: #047857;">Conducta destacada</span>
                   </div>
@@ -8921,7 +8921,7 @@ const Components = {
                   <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
                     <div>
                       <h3 class="card-title" style="font-size: 14px; margin: 0;">
-                        📋 Expediente Conductual & Registro de Casos
+                        [Lista] Expediente Conductual & Registro de Casos
                       </h3>
                       <span style="font-size: 11px; color: var(--text-muted);">
                         Cada reporte está amarrado al código QR y perfil del estudiante con notificación inmediata a su apoderado.
@@ -8929,7 +8929,7 @@ const Components = {
                     </div>
 
                     <div style="display: flex; gap: 8px;">
-                      <input type="text" id="incident-search-input" class="form-control" placeholder="🔍 Buscar por estudiante (ej: Gael Cáceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
+                      <input type="text" id="incident-search-input" class="form-control" placeholder="[Buscar] Buscar por estudiante (ej: Gael Cáceres)..." style="font-size: 11.5px; width: 260px;" oninput="window.app.filterIncidentsTable(this.value)">
                     </div>
                   </div>
 
@@ -8969,7 +8969,7 @@ const Components = {
                               </td>
                               <td>
                                 <span class="status-badge" style="background: ${badgeColor}; color: white; font-weight: 800; font-size: 10px;">
-                                  ${inc.severity === 'Mérito' ? '⭐ Mérito' : inc.severity === 'Leve' ? '🟡 Leve' : inc.severity === 'Grave' ? '🔴 Grave' : '⛔ Muy Grave'}
+                                  ${inc.severity === 'Mérito' ? '★ Mérito' : inc.severity === 'Leve' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Leve' : inc.severity === 'Grave' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Grave' : '⛔ Muy Grave'}
                                 </span>
                               </td>
                               <td><strong>${inc.category}</strong></td>
@@ -8982,7 +8982,7 @@ const Components = {
                                     💬 WhatsApp
                                   </button>
                                   <button class="btn btn-navy btn-sm" onclick="window.app.openIncidentOfficialPrintModal('${inc.id}')" style="font-size: 10.5px; padding: 3px 8px;" title="Imprimir Acta A4 de Compromiso">
-                                    📄 Acta A4
+                                    [Documento] Acta A4
                                   </button>
                                 </div>
                               </td>
@@ -9050,7 +9050,7 @@ const Components = {
               
               <div style="display: flex; gap: 6px;">
                 <button class="btn btn-navy btn-sm" onclick="window.app.openStudentQRModal('${studentCode}')" style="font-weight: 800; font-size: 11.5px;">
-                  📱 Ver Mi Código QR
+                  [Móvil] Ver Mi Código QR
                 </button>
                 ${isPadre ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.openJustifyAttendanceModal('${studentCode}', '19/08/2026')" style="font-weight: 800; font-size: 11.5px;">
@@ -9086,7 +9086,7 @@ const Components = {
                       <td><code>${h.exitTime || '03:30 PM'}</code></td>
                       <td>
                         <span class="status-badge ${h.status === 'Presente' ? 'status-approved' : h.status === 'Tardanza' ? 'status-pending' : 'status-approved'}" style="font-weight: 800;">
-                          ${h.status === 'Presente' ? '🟢 Presente a Tiempo' : h.status === 'Tardanza' ? '🟡 Tardanza' : '🔵 Justificada'}
+                          ${h.status === 'Presente' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Presente a Tiempo' : h.status === 'Tardanza' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Tardanza' : '🔵 Justificada'}
                         </span>
                       </td>
                       <td>
@@ -9118,7 +9118,7 @@ const Components = {
                 <div class="card-header" style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 10px;">
                   <div>
                     <h3 class="card-title" style="font-size: var(--font-size-base); margin: 0; color: #1e3a8a;">
-                      📖 Registro Conductual & Anecdotario Escolar de ${studentName}
+                      [Cuaderno] Registro Conductual & Anecdotario Escolar de ${studentName}
                     </h3>
                     <span style="font-size: 11px; color: var(--text-muted);">
                       Seguimiento formativo, reconocimientos e informes disciplinarios registrados institucionalmente.
@@ -9196,7 +9196,7 @@ const Components = {
                 <h3>${a.title}</h3>
                 <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">${a.content}</p>
                 <div style="margin-top: 8px;">
-                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">📄 Ver Documento Completo</button>
+                  <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialReportModal()">[Documento] Ver Documento Completo</button>
                 </div>
               </div>
             `).join('')}
@@ -9224,7 +9224,7 @@ const Components = {
               I.E.P. "EL EDUCADOR" • 21 AÑOS DEJANDO HUELLAS (S.J.L.)
             </div>
             <h2 style="font-size: 22px; font-weight: 900; margin: 6px 0 4px; color: white;">
-              🔒 ACCESO A LA INTRANET RESTRINGIDO
+              [Bloqueado] ACCESO A LA INTRANET RESTRINGIDO
             </h2>
             <p style="font-size: 13px; color: #fecaca; margin: 0;">
               Validación de Pensión Escolar Requerida para el Alumno(a) y Apoderado(a)
@@ -9253,7 +9253,7 @@ const Components = {
               </div>
               <div>
                 <span style="font-size: 11px; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">Estado Actual</span>
-                <div><span class="status-badge status-failed" style="font-weight: bold;">🔴 Bloqueado por Mora</span></div>
+                <div><span class="status-badge status-failed" style="font-weight: bold;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Bloqueado por Mora</span></div>
               </div>
             </div>
 
@@ -9266,7 +9266,7 @@ const Components = {
               
               <!-- Opción 1: Tarjeta Débito / Crédito -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')">
-                <div style="font-size: 24px; margin-bottom: 4px;">💳</div>
+                <div style="font-size: 24px; margin-bottom: 4px;">[Pago]</div>
                 <strong style="font-size: 13px; color: var(--color-navy-900);">Tarjeta Débito / Crédito</strong>
                 <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Visa, Mastercard, Débito</p>
                 <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Desbloqueo Inmediato</span>
@@ -9274,7 +9274,7 @@ const Components = {
 
               <!-- Opción 2: Yape / Plin -->
               <div class="card" style="border: 2px solid var(--border-subtle); cursor: pointer; padding: 14px; text-align: center; transition: all 0.2s;" onclick="window.app.openYapePayModal('PEN-08', ${debtAmount})">
-                <div style="font-size: 24px; margin-bottom: 4px;">📱</div>
+                <div style="font-size: 24px; margin-bottom: 4px;">[Móvil]</div>
                 <strong style="font-size: 13px; color: #6d28d9;">Yape / Plin Institucional</strong>
                 <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">987-654-321 (I.E.P. El Educador)</p>
                 <span class="status-badge status-approved" style="background: #22c55e; color: #0b132b; font-weight: 800; margin-top: 6px;">Validación Automática</span>
@@ -9291,11 +9291,11 @@ const Components = {
 
             <!-- Botón de Pago Rápido Principal -->
             <button class="btn btn-red" onclick="window.app.openPayModal('PEN-08', ${debtAmount}, '${concept}')" style="width: 100%; padding: 14px; font-size: 15px; font-weight: 900; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);">
-              <span>💳 Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
+              <span>[Pago] Pagar S/ ${debtAmount.toFixed(2)} y Desbloquear Intranet Ahora</span>
             </button>
 
             <div style="text-align: center; margin-top: 14px; font-size: 11px; color: var(--text-muted);">
-              🔒 Al confirmar el pago, la base de datos central emitirá su recibo digital y se habilitará el acceso en todos sus dispositivos al instante.
+              [Bloqueado] Al confirmar el pago, la base de datos central emitirá su recibo digital y se habilitará el acceso en todos sus dispositivos al instante.
             </div>
           </div>
         </div>
@@ -9316,7 +9316,7 @@ const Components = {
             <div>
               <div style="display: flex; align-items: center; gap: 8px;">
                 <h2 class="card-title" style="font-size: var(--font-size-xl);">Control de Pensiones & Validación Automática de Intranet</h2>
-                <span class="status-badge status-approved">🟢 Sistema de Pago Online Activo</span>
+                <span class="status-badge status-approved"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Sistema de Pago Online Activo</span>
               </div>
               <p style="font-size: var(--font-size-xs); color: var(--text-muted); margin-top: 4px;">
                 I.E.P. "El Educador" • "21 años dejando huellas" (S.J.L. • UGEL 05)
@@ -9324,7 +9324,7 @@ const Components = {
             </div>
             ${isCoordination ? `
               <button class="btn btn-gold btn-sm" onclick="window.app.openManualPaymentModal()">
-                💵 + Registrar Pago en Caja (Efectivo/Banco)
+                [Pensiones] + Registrar Pago en Caja (Efectivo/Banco)
               </button>
             ` : ''}
           </div>
@@ -9370,12 +9370,12 @@ const Components = {
                         <td><strong style="color: ${f.pendingAmount > 0 ? 'var(--color-red-600)' : 'var(--color-green-600)'};">${f.pendingAmount > 0 ? `S/ ${f.pendingAmount.toFixed(2)}` : 'S/ 0.00 (Al Día)'}</strong></td>
                         <td>
                           <span class="status-badge ${f.isAccessLocked ? 'status-failed' : 'status-approved'}" style="font-weight: bold;">
-                            ${f.isAccessLocked ? '🔴 BLOQUEADO POR MORA' : '🟢 ACCESO HABILITADO'}
+                            ${f.isAccessLocked ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> BLOQUEADO POR MORA' : '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> ACCESO HABILITADO'}
                           </span>
                         </td>
                         <td style="text-align:center; white-space: nowrap;">
                           <button class="btn btn-sm ${f.isAccessLocked ? 'btn-gold' : 'btn-outline'}" onclick="window.app.toggleFamilyLock('${f.familyId}')">
-                            ${f.isAccessLocked ? '🟢 Desbloquear / Prórroga' : '🔴 Bloquear Acceso'}
+                            ${f.isAccessLocked ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Desbloquear / Prórroga' : '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Bloquear Acceso'}
                           </button>
                         </td>
                       </tr>
@@ -9389,7 +9389,7 @@ const Components = {
           <!-- Lista de Pagos del Usuario -->
           <div class="card-header" style="margin-bottom: 8px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
             <h3 class="card-title" style="font-size: var(--font-size-base);">
-              📄 Cronograma de Cuotas y Recibos Oficiales
+              [Documento] Cronograma de Cuotas y Recibos Oficiales
             </h3>
           </div>
 
@@ -9405,11 +9405,11 @@ const Components = {
                 </span>
                 ${p.status === 'paid' ? `
                   <button class="btn btn-outline btn-sm" onclick="window.app.showReceiptModal('${p.id}')">
-                    📄 Ver Recibo (${p.receiptNo || 'REC-2026'})
+                    [Documento] Ver Recibo (${p.receiptNo || 'REC-2026'})
                   </button>
                 ` : `
                   <button class="btn btn-red btn-sm" onclick="window.app.openPayModal('${p.id}', ${p.amount}, '${p.concept}')" style="font-weight: 800;">
-                    💳 Pagar y Validar Intranet
+                    [Pago] Pagar y Validar Intranet
                   </button>
                 `}
               </div>
@@ -9580,7 +9580,7 @@ class IntranetApp {
       <div class="modal-header" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: #fde047;">
-            📱 Conectar Celular para Escaneo Simultáneo
+            [Móvil] Conectar Celular para Escaneo Simultáneo
           </h3>
           <span style="font-size: 11px; opacity: 0.9;">Acceso Multi-Dispositivo en Tiempo Real (Varios Profesores a la Vez)</span>
         </div>
@@ -9591,13 +9591,13 @@ class IntranetApp {
         <div style="background: white; border: 2px solid #3b82f6; border-radius: 16px; padding: 20px; display: inline-block; box-shadow: 0 8px 24px rgba(59,130,246,0.15); margin-bottom: 16px;">
           <img src="${qrApiUrl}" alt="QR Conexión Móvil" style="width: 200px; height: 200px; display: block; border-radius: 8px; margin: 0 auto;" onerror="this.src='https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=${encodeURIComponent(targetUrl)}'" />
           <div style="margin-top: 10px; font-size: 13px; font-weight: 900; color: #1e3a8a;">
-            📡 ${targetUrl}
+            [WiFi] ${targetUrl}
           </div>
         </div>
 
         <div style="text-align: left; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px;">
           <h4 style="margin: 0 0 8px 0; font-size: 13px; color: #0f172a; font-weight: 800;">
-            🚀 ¿Cómo escanear con varios celulares al mismo tiempo sin perder datos?
+            [Evaluación] ¿Cómo escanear con varios celulares al mismo tiempo sin perder datos?
           </h4>
           <ol style="margin: 0; padding-left: 20px; font-size: 12px; color: #475569; line-height: 1.6;">
             <li>Conecta tu celular a la <strong>misma red Wi-Fi</strong> del colegio.</li>
@@ -9610,7 +9610,7 @@ class IntranetApp {
 
         <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
           <button class="btn btn-outline btn-sm" onclick="navigator.clipboard.writeText('${targetUrl}'); window.app.showToast('Enlace copiado al portapapeles: ${targetUrl}', 'success');" style="font-weight: 700;">
-            📋 Copiar Enlace Directo
+            [Lista] Copiar Enlace Directo
           </button>
         </div>
       </div>
@@ -9712,12 +9712,12 @@ class IntranetApp {
       ).then(() => {
         this.isCameraActive = true;
         if (statusTag) {
-          statusTag.textContent = "🟢 CÁMARA ACTIVA";
+          statusTag.textContent = "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> CÁMARA ACTIVA";
           statusTag.className = "status-badge status-approved";
         }
         if (btnStart) btnStart.style.display = "none";
         if (btnStop) btnStop.style.display = "inline-block";
-        this.showToast("📷 Cámara encendida. Apunta hacia el sticker QR del cuaderno.", "info");
+        this.showToast("[Cámara] Cámara encendida. Apunta hacia el sticker QR del cuaderno.", "info");
       }).catch((err) => {
         console.error("Error al acceder a la cámara:", err);
         if (statusTag) {
@@ -9765,7 +9765,7 @@ class IntranetApp {
     this.isScanProcessing = true;
     this.playScanBeep();
     const notebookData = this.store.findNotebookByQR(qrCode);
-    this.showToast(`🔍 QR Reconocido: ${qrCode}`, "info");
+    this.showToast(`[Buscar] QR Reconocido: ${qrCode}`, "info");
     setTimeout(() => {
       this.openNotebookReviewModal(notebookData);
       this.isScanProcessing = false;
@@ -9815,7 +9815,7 @@ class IntranetApp {
       <div class="modal-header">
         <div>
           <h3 style="margin: 0; font-size: 16px; font-weight: 900; color: var(--color-navy-900);">
-            📖 Calificar & Sellar Cuaderno Escolar
+            [Cuaderno] Calificar & Sellar Cuaderno Escolar
           </h3>
           <span style="font-size: 11px; color: var(--text-secondary);">Escaneo de Código QR Verificado</span>
         </div>
@@ -9827,7 +9827,7 @@ class IntranetApp {
         <div style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 14px; border-radius: 12px; margin-bottom: 16px; border-left: 6px solid #f59e0b; box-shadow: 0 4px 12px rgba(15,23,42,0.15);">
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
             <span style="font-size: 10px; font-weight: 900; color: #fde047; letter-spacing: 0.05em; text-transform: uppercase;">
-              ⭐ I.E.P. EL EDUCADOR • CUADERNO OFICIAL 2026
+              ★ I.E.P. EL EDUCADOR • CUADERNO OFICIAL 2026
             </span>
             <span style="font-size: 10px; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 10px;">
               <code>${data.qrCode}</code>
@@ -9860,21 +9860,21 @@ class IntranetApp {
           <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
             <label style="border: 2px solid #10b981; background: #ecfdf5; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
               <input type="radio" name="nb-status-radio" value="Al Día" ${defaultStatus === 'Al Día' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'Al Día'; document.getElementById('nb-score-input').value = '18';" />
-              <span style="font-size: 16px;">🟢</span>
+              <span style="font-size: 16px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span></span>
               <strong style="font-size: 11px; color: #065f46;">AL DÍA</strong>
               <span style="font-size: 9.5px; color: #047857;">Tareas 100%</span>
             </label>
 
             <label style="border: 2px solid #f59e0b; background: #fffbeb; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
               <input type="radio" name="nb-status-radio" value="Observado" ${defaultStatus === 'Observado' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'Observado'; document.getElementById('nb-score-input').value = '13';" />
-              <span style="font-size: 16px;">🟡</span>
+              <span style="font-size: 16px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span></span>
               <strong style="font-size: 11px; color: #b45309;">OBSERVADO</strong>
               <span style="font-size: 9.5px; color: #92400e;">Incompleto / Atraso</span>
             </label>
 
             <label style="border: 2px solid #ef4444; background: #fef2f2; border-radius: 12px; padding: 10px 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;">
               <input type="radio" name="nb-status-radio" value="No Presentó" ${defaultStatus === 'No Presentó' ? 'checked' : ''} onchange="document.getElementById('nb-status-val').value = 'No Presentó'; document.getElementById('nb-score-input').value = '05';" />
-              <span style="font-size: 16px;">🔴</span>
+              <span style="font-size: 16px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span></span>
               <strong style="font-size: 11px; color: #b91c1c;">NO PRESENTÓ</strong>
               <span style="font-size: 9.5px; color: #dc2626;">Sin entrega</span>
             </label>
@@ -9891,7 +9891,7 @@ class IntranetApp {
           <div class="form-group" style="margin: 0; display:flex; flex-direction:column; justify-content:center;">
             <span style="font-size: 11px; color: var(--text-muted);">Escala Nacional:</span>
             <div style="font-size: 12px; font-weight: 800; color: #047857; margin-top: 4px;">
-              ⭐ 18-20: AD (Destacado)<br>✓ 14-17: A (Esperado)
+              ★ 18-20: AD (Destacado)<br>✓ 14-17: A (Esperado)
             </div>
           </div>
         </div>
@@ -9900,8 +9900,8 @@ class IntranetApp {
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" style="font-weight: 800; font-size: 12px;">Criterios Verificados:</label>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px; background: #f8fafc; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> 📐 Márgenes y Fechas</label>
-            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> 📖 Teoría Completa</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-margenes" checked /> [Formato] Márgenes y Fechas</label>
+            <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-teoria" checked /> [Cuaderno] Teoría Completa</label>
             <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-ejercicios" checked /> ✍️ Tareas / Ejercicios al Día</label>
             <label style="display:flex; align-items:center; gap: 6px;"><input type="checkbox" id="chk-pulcritud" checked /> ✨ Pulcritud y Limpieza</label>
           </div>
@@ -9932,7 +9932,7 @@ class IntranetApp {
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold" onclick="window.app.confirmRegisterNotebookReview('${data.qrCode}', '${data.studentId}', '${data.studentName}', '${data.grade}', '${data.course}', '${data.teacher || 'Prof. Responsable'}')" style="font-weight: 900; padding: 10px 20px;">
-          ⭐ Guardar Sello Digital & Actualizar Informe
+          ★ Guardar Sello Digital & Actualizar Informe
         </button>
       </div>
     `);
@@ -10049,9 +10049,9 @@ class IntranetApp {
         <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
           <div>
             <span style="font-size: 10.5px; font-weight: 800; color: #64748b; text-transform: uppercase;">Estudiante Seleccionado:</span>
-            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">👤 ${student.studentName}</div>
+            <div style="font-size: 17px; font-weight: 900; color: #0f172a;">[Usuario] ${student.studentName}</div>
             <div style="font-size: 12px; color: #1e3a8a; font-weight: 700;">
-              🎓 ${student.grade} • Código / DNI: ${student.studentCode || student.dni} • Tutor: ${student.tutor || 'Prof. Titular'}
+              [Expediente] ${student.grade} • Código / DNI: ${student.studentCode || student.dni} • Tutor: ${student.tutor || 'Prof. Titular'}
             </div>
           </div>
 
@@ -10068,10 +10068,10 @@ class IntranetApp {
             </div>
 
             <div>
-              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">📐 Formato por Hoja A4:</label>
+              <label style="font-size: 11px; font-weight: 700; color: #1e3a8a; display: block; margin-bottom: 2px;">[Formato] Formato por Hoja A4:</label>
               <select id="modal-sticker-layout-select" class="form-control" style="font-size: 12px; font-weight: 800; max-width: 210px; border-radius: 16px; background: #eff6ff; border: 1.5px solid #3b82f6; color: #1e3a8a;">
-                <option value="3x5" selected>📌 3 × 5 (15 QR por Hoja)</option>
-                <option value="3x4">📌 3 × 4 (12 QR por Hoja)</option>
+                <option value="3x5" selected>[Fijado] 3 × 5 (15 QR por Hoja)</option>
+                <option value="3x4">[Fijado] 3 × 4 (12 QR por Hoja)</option>
               </select>
             </div>
           </div>
@@ -10082,7 +10082,7 @@ class IntranetApp {
             Mostrando los <strong>${stickers.length} stickers adhesivos</strong> para cada cuaderno curricular de la boleta:
           </span>
           <button class="btn btn-navy btn-sm" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px; border-radius: 18px; box-shadow: 0 4px 12px rgba(15,23,42,0.2);">
-            🖨️ Imprimir Plancha A4
+            [Imprimir] Imprimir Plancha A4
           </button>
         </div>
 
@@ -10099,20 +10099,20 @@ class IntranetApp {
                 </div>
                 <div style="flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0;">
                   <span style="font-size: 8px; font-weight: 900; color: #dc2626; letter-spacing: 0.05em; text-transform: uppercase;">
-                    ⭐ I.E.P. EL EDUCADOR • SJL
+                    ★ I.E.P. EL EDUCADOR • SJL
                   </span>
                   <strong style="font-size: 12px; color: #0f172a; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${st.course}">
                     ${st.icon || '📚'} ${st.course}
                   </strong>
                   <div style="font-size: 10.5px; font-weight: 700; color: #1e3a8a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                    👤 ${st.studentName}
+                    [Usuario] ${st.studentName}
                   </div>
                   <div style="font-size: 9.5px; color: #64748b;">
-                    🎓 ${st.grade} • ${st.area}
+                    [Expediente] ${st.grade} • ${st.area}
                   </div>
                   <div style="margin-top: 4px;">
                     <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); setTimeout(() => window.app.simulateQRScan('${safePayload}'), 150);" style="font-size: 9.5px; padding: 2px 6px; border-radius: 10px; font-weight: 800;">
-                      📷 Probar Escaneo
+                      [Cámara] Probar Escaneo
                     </button>
                   </div>
                 </div>
@@ -10129,7 +10129,7 @@ class IntranetApp {
         <div style="display: flex; gap: 8px;">
           <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
           <button class="btn btn-gold" onclick="window.app.printOnlyElement('modal-boleta-stickers-grid', 'Plancha de Boleta')" style="font-weight: 900; padding: 8px 18px;">
-            🖨️ Imprimir Plancha A4
+            [Imprimir] Imprimir Plancha A4
           </button>
         </div>
       </div>
@@ -10142,7 +10142,7 @@ class IntranetApp {
   showOfficialReportModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>📄 INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN</h3>
+        <h3>[Documento] INFORME N°003 /ED - COORDINACIÓN Y DOCUMENTACIÓN</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto; background: #ffffff; padding: 24px;">
@@ -10225,7 +10225,7 @@ class IntranetApp {
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Documento</button>
+        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -10234,7 +10234,7 @@ class IntranetApp {
   showSQLSchemaModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>📄 Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
+        <h3>[Documento] Esquema SQL Relacional - I.E.P. "El Educador" S.J.L.</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
@@ -10480,7 +10480,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   toggleNavTab(role, tabId, isChecked) {
     this.store.toggleNavigationTab(role, tabId, isChecked);
-    this.showToast(`Pestaña "${tabId}" ${isChecked ? '🟢 ACTIVADA' : '⚪ OCULTADA'} para ${role.toUpperCase()}`, isChecked ? "success" : "info");
+    this.showToast(`Pestaña "${tabId}" ${isChecked ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> ACTIVADA' : '⚪ OCULTADA'} para ${role.toUpperCase()}`, isChecked ? "success" : "info");
     this.updateHeaderUserInfo();
   }
 
@@ -10523,7 +10523,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;">
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-docente">
               <input type="radio" name="new-user-role-radio" value="Docente" ${defaultRole === 'Docente' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">👨‍🏫</span>
+              <span style="font-size: 16px;">👨‍[Colegio]</span>
               <strong style="font-size: 12px; color: #1e3a8a;">Docente</strong>
             </label>
 
@@ -10547,7 +10547,7 @@ CREATE TABLE tb_cuadernos_qr (
 
             <label style="border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px;" class="role-selector-card" id="card-role-directivo">
               <input type="radio" name="new-user-role-radio" value="Directivo" ${defaultRole === 'Directivo' ? 'checked' : ''} onchange="window.app.onUserRoleTypeChange(this.value)" style="margin-bottom: 2px;" />
-              <span style="font-size: 16px;">🛡️</span>
+              <span style="font-size: 16px;">[Seguridad]️</span>
               <strong style="font-size: 12px; color: #6b21a8;">Directivo</strong>
             </label>
           </div>
@@ -10599,7 +10599,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" id="admin-privilege-checkbox-box">
           <label style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: var(--color-navy-900); cursor: pointer; background: var(--color-yellow-50); padding: 10px; border: 1px dashed var(--color-yellow-500); border-radius: 8px; font-size: 12.5px;">
             <input type="checkbox" id="new-user-has-admin" />
-            <span>⭐ Conceder Privilegios de Edición (Horarios, Sílabus, Notas y Carga de Materiales)</span>
+            <span>★ Conceder Privilegios de Edición (Horarios, Sílabus, Notas y Carga de Materiales)</span>
           </label>
         </div>
 
@@ -10636,7 +10636,7 @@ CREATE TABLE tb_cuadernos_qr (
   getBoletaCoursesSelectOptions(selectedSubject = "Aritmética") {
     const categories = [
       {
-        area: "📐 Área de Matemática",
+        area: "[Formato] Área de Matemática",
         courses: [
           "Aritmética",
           "Álgebra",
@@ -10646,7 +10646,7 @@ CREATE TABLE tb_cuadernos_qr (
         ]
       },
       {
-        area: "📖 Área de Comunicación",
+        area: "[Cuaderno] Área de Comunicación",
         courses: [
           "Lenguaje",
           "Literatura",
@@ -10745,7 +10745,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div style="margin-top: 8px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 6px;">
           <label class="form-label" style="font-size: 11.5px; font-weight: 800; color: #1e3a8a; margin: 0;">
-            🏫 Grados a Cargo (Checklist - Marque los grados asignados):
+            [Colegio] Grados a Cargo (Checklist - Marque los grados asignados):
           </label>
           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
             <button type="button" class="btn btn-outline btn-sm" onclick="window.app.quickSelectGrades('${prefix}', 'secundaria')" style="font-size: 10.5px; padding: 2px 6px; font-weight: bold;">+ Toda Secundaria</button>
@@ -10805,7 +10805,7 @@ CREATE TABLE tb_cuadernos_qr (
   renderCoursesChecklistHTML(prefix = "new-user-courses", selectedCourses = ["Aritmética", "Álgebra"]) {
     const courseCategories = [
       {
-        category: "📐 Área de Matemática",
+        category: "[Formato] Área de Matemática",
         color: "#1e40af",
         bg: "#eff6ff",
         border: "#bfdbfe",
@@ -10910,7 +10910,7 @@ CREATE TABLE tb_cuadernos_qr (
             </div>
           </div>
           <span class="status-badge" style="background: #dbeafe; color: #1e40af; font-weight: 800; font-size: 11px;" id="${prefix}-count-badge">
-            📋 <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
+            [Lista] <span id="${prefix}-count-val">${selList.length}</span> curso(s) seleccionado(s)
           </span>
         </div>
 
@@ -11059,7 +11059,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="card parent-student-row" id="${rowId}" style="padding: 12px; margin-bottom: 10px; border: 1px solid #fdba74; background: #fffaf0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-bottom: 1px solid #ffedd5; padding-bottom: 4px;">
           <span style="font-size: 12px; font-weight: 800; color: #9a3412;">
-            🎓 Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
+            [Expediente] Estudiante #${index + 1} a Registrar (Hijo / Sobrino / Familiar)
           </span>
           <button type="button" class="btn btn-outline btn-sm" onclick="window.app.removeParentStudentRow('${prefix}', '${rowId}')" style="font-size: 11px; padding: 2px 8px; color: var(--color-red-600); border-color: #fca5a5;" title="Quitar estudiante">
             🗑️ Quitar
@@ -11222,7 +11222,7 @@ CREATE TABLE tb_cuadernos_qr (
     // Re-index titles
     currentRows.forEach((r, i) => {
       const headerSpan = r.querySelector("span");
-      if (headerSpan) headerSpan.innerText = `🎓 Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
+      if (headerSpan) headerSpan.innerText = `[Expediente] Estudiante #${i + 1} a Registrar (Hijo / Sobrino / Familiar)`;
     });
   }
 
@@ -11315,7 +11315,7 @@ CREATE TABLE tb_cuadernos_qr (
       `;
     } else {
       return `
-        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">🛡️ Cargo Institucional & Despacho:</div>
+        <div style="font-size: 12px; font-weight: 800; color: #581c87; margin-bottom: 8px;">[Seguridad]️ Cargo Institucional & Despacho:</div>
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-size: 11.5px;">Cargo o Dependencia:</label>
           <select id="new-user-directivo-pos" class="form-control">
@@ -11576,8 +11576,8 @@ CREATE TABLE tb_cuadernos_qr (
           <div class="form-group">
             <label class="form-label">Rol / Perfil:</label>
             <select id="edit-user-role" class="form-control">
-              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>🛡️ Directivo</option>
-              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>👨‍🏫 Docente</option>
+              <option value="Directivo" ${user.role === 'Directivo' ? 'selected' : ''}>[Seguridad]️ Directivo</option>
+              <option value="Docente" ${user.role === 'Docente' ? 'selected' : ''}>👨‍[Colegio] Docente</option>
               <option value="Estudiante" ${user.role === 'Estudiante' ? 'selected' : ''}>🎒 Estudiante</option>
               <option value="Apoderado" ${user.role === 'Apoderado' ? 'selected' : ''}>👨‍👩‍👧 Apoderado</option>
             </select>
@@ -11629,7 +11629,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group">
           <label style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: var(--color-navy-900); cursor: pointer; background: var(--color-yellow-50); padding: 10px; border: 1px dashed var(--color-yellow-500); border-radius: 8px;">
             <input type="checkbox" id="edit-user-has-admin" ${user.hasAdminPrivilege ? 'checked' : ''} />
-            <span>⭐ Conceder Privilegios de Administrador (Edición de Horarios, Sílabus, Notas)</span>
+            <span>★ Conceder Privilegios de Administrador (Edición de Horarios, Sílabus, Notas)</span>
           </label>
         </div>
       </div>
@@ -11772,7 +11772,7 @@ CREATE TABLE tb_cuadernos_qr (
   toggleTeacherAdminPrivilege(userId) {
     const res = this.store.toggleTeacherAdminPrivilege(userId);
     if (res !== null) {
-      this.showToast(res ? "⭐ Privilegios de Edición CONCEDIDOS" : "Privilegios revocados", res ? "success" : "info");
+      this.showToast(res ? "★ Privilegios de Edición CONCEDIDOS" : "Privilegios revocados", res ? "success" : "info");
     }
   }
 
@@ -11800,7 +11800,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="fum-tab-btn-1" onclick="window.app.switchFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            🎓 1. Datos del Alumno & SIAGIE
+            [Expediente] 1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="fum-tab-btn-2" onclick="window.app.switchFUMTab('2')" style="font-weight: 800; font-size: 11px;">
             👨‍👩‍👧 2. Apoderado & Emergencia
@@ -11956,32 +11956,32 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Copia de DNI del Estudiante</span>
               <input type="checkbox" id="chk-doc-dnistudent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="chk-doc-dniparent" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Partida / Acta de Nacimiento (Original o Copia Legalizada)</span>
               <input type="checkbox" id="chk-doc-birthcert" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Ficha Única de Matrícula SIAGIE (Traslado / Continuidad)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Ficha Única de Matrícula SIAGIE (Traslado / Continuidad)</span>
               <input type="checkbox" id="chk-doc-siagiefum" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Certificado de Estudios / Libreta de Notas 2025</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Certificado de Estudios / Libreta de Notas 2025</span>
               <input type="checkbox" id="chk-doc-reportcard" checked style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">📄 Cartilla de Vacunación Completa (Nivel Inicial/Primaria)</span>
+              <span style="font-size: 12px; font-weight: 700; color: #1e293b;">[Documento] Cartilla de Vacunación Completa (Nivel Inicial/Primaria)</span>
               <input type="checkbox" id="chk-doc-vaccine" checked style="transform: scale(1.2);" />
             </label>
           </div>
@@ -12123,13 +12123,13 @@ CREATE TABLE tb_cuadernos_qr (
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
           <div style="display: flex; gap: 6px;">
             <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-              🖨️ Imprimir Tarjeta QR
+              [Imprimir] Imprimir Tarjeta QR
             </button>
             <button class="btn btn-outline btn-sm" onclick="window.app.showOfficialFUMPrintModal('${created.id}')" style="font-size: 11px;">
-              📄 Ver Ficha FUM A4
+              [Documento] Ver Ficha FUM A4
             </button>
             <button class="btn btn-gold btn-sm" onclick="window.app.closeModal(); window.app.navigate('attendance'); window.app.setAttendanceSubTab('id-cards');" style="font-weight: 800;">
-              🖨️ Ir a Plancha de QR
+              [Imprimir] Ir a Plancha de QR
             </button>
           </div>
         </div>
@@ -12154,7 +12154,7 @@ CREATE TABLE tb_cuadernos_qr (
         <!-- Pestañas del Formulario FUM -->
         <div style="display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; flex-wrap: wrap;">
           <button type="button" class="btn btn-navy btn-sm" id="edit-fum-tab-btn-1" onclick="window.app.switchEditFUMTab('1')" style="font-weight: 800; font-size: 11px;">
-            🎓 1. Datos del Alumno & SIAGIE
+            [Expediente] 1. Datos del Alumno & SIAGIE
           </button>
           <button type="button" class="btn btn-outline btn-sm" id="edit-fum-tab-btn-2" onclick="window.app.switchEditFUMTab('2')" style="font-weight: 800; font-size: 11px;">
             👨‍👩‍👧 2. Apoderado & Emergencia
@@ -12284,32 +12284,32 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="display: flex; flex-direction: column; gap: 8px; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid #cbd5e1;">
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Copia de DNI del Estudiante</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Copia de DNI del Estudiante</span>
               <input type="checkbox" id="edit-chk-dnistudent" ${docs.dniStudent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Copia de DNI del Padre / Madre / Apoderado</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Copia de DNI del Padre / Madre / Apoderado</span>
               <input type="checkbox" id="edit-chk-dniparent" ${docs.dniParent ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Partida / Acta de Nacimiento</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Partida / Acta de Nacimiento</span>
               <input type="checkbox" id="edit-chk-birthcert" ${docs.birthCertificate ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Ficha Única de Matrícula SIAGIE</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Ficha Única de Matrícula SIAGIE</span>
               <input type="checkbox" id="edit-chk-siagiefum" ${docs.siagieFUM ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Certificado de Estudios / Libreta de Notas</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Certificado de Estudios / Libreta de Notas</span>
               <input type="checkbox" id="edit-chk-reportcard" ${docs.reportCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
 
             <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #ffffff; padding: 8px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
-              <span style="font-size: 12px; font-weight: 700;">📄 Cartilla de Vacunación</span>
+              <span style="font-size: 12px; font-weight: 700;">[Documento] Cartilla de Vacunación</span>
               <input type="checkbox" id="edit-chk-vaccine" ${docs.vaccinationCard ? 'checked' : ''} style="transform: scale(1.2);" />
             </label>
           </div>
@@ -12401,7 +12401,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">📄 Ficha Única de Matrícula Oficial (F.U.M. 2026)</h3>
+        <h3 style="color: #ffffff;">[Documento] Ficha Única de Matrícula Oficial (F.U.M. 2026)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: #ffffff;">
@@ -12524,7 +12524,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 900; padding: 8px 24px;">
-          🖨️ Imprimir Ficha Única Oficial (A4)
+          [Imprimir] Imprimir Ficha Única Oficial (A4)
         </button>
       </div>
     `);
@@ -12539,9 +12539,9 @@ CREATE TABLE tb_cuadernos_qr (
     const reqList = [
       { key: 'dniStudent', label: 'Copia de DNI del Estudiante', icon: '🆔', required: true },
       { key: 'dniParent', label: 'Copia de DNI del Padre / Madre / Apoderado', icon: '👨‍👩‍👧', required: true },
-      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: '📄', required: true },
-      { key: 'siagieFUM', label: 'Ficha Única de Matrícula SIAGIE', icon: '🏫', required: true },
-      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: '📊', required: false },
+      { key: 'birthCertificate', label: 'Partida / Acta de Nacimiento', icon: '[Documento]', required: true },
+      { key: 'siagieFUM', label: 'Ficha Única de Matrícula SIAGIE', icon: '[Colegio]', required: true },
+      { key: 'reportCard', label: 'Certificado de Estudios / Libreta de Notas 2025', icon: '[Reporte]', required: false },
       { key: 'vaccinationCard', label: 'Cartilla de Vacunación Completa', icon: '💉', required: false }
     ];
 
@@ -12642,7 +12642,7 @@ CREATE TABLE tb_cuadernos_qr (
   setStudentAttendanceStatus(recordId, newStatus) {
     const updated = this.store.updateStudentAttendanceStatus(recordId, newStatus);
     if (updated) {
-      const icon = newStatus === 'Presente' ? '🟢' : newStatus === 'Tardanza' ? '🟡' : newStatus === 'Falta' ? '🔴' : '🔵';
+      const icon = newStatus === 'Presente' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span>' : newStatus === 'Tardanza' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span>' : newStatus === 'Falta' ? '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span>' : '🔵';
       this.showToast(`${icon} ${updated.studentName} marcado como "${newStatus}"`, "info");
       this.render();
     }
@@ -12683,7 +12683,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="form-group" style="margin-bottom: 0;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Documento Sustentatorio (Constancia Médica / Receta):</label>
           <div style="border: 2px dashed #cbd5e1; border-radius: 6px; padding: 12px; text-align: center; background: #f8fafc;">
-            <span style="font-size: 12px; color: #475569;">📄 Constancia_Medica_Atencion_19082026.pdf</span>
+            <span style="font-size: 12px; color: #475569;">[Documento] Constancia_Medica_Atencion_19082026.pdf</span>
             <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 4px;">✓ Documento adjunto verificado</div>
           </div>
         </div>
@@ -12743,12 +12743,12 @@ CREATE TABLE tb_cuadernos_qr (
       ).then(() => {
         this.isDoorCamActive = true;
         if (statusTag) {
-          statusTag.textContent = "🟢 CÁMARA ACTIVA";
+          statusTag.textContent = "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> CÁMARA ACTIVA";
           statusTag.className = "status-badge status-approved";
         }
         if (btnStart) btnStart.style.display = "none";
         if (btnStop) btnStop.style.display = "inline-block";
-        this.showToast("📷 Cámara de portería activa. Apunte los fotochecks QR al lente.", "info");
+        this.showToast("[Cámara] Cámara de portería activa. Apunte los fotochecks QR al lente.", "info");
       }).catch((err) => {
         console.error("Error al acceder a la cámara:", err);
         if (statusTag) {
@@ -12781,7 +12781,7 @@ CREATE TABLE tb_cuadernos_qr (
         if (feedContainer) {
           feedContainer.innerHTML = `
             <div style="color: white; text-align: center;">
-              <div style="font-size: 48px; margin-bottom: 6px;">⚡📱</div>
+              <div style="font-size: 48px; margin-bottom: 6px;">⚡[Móvil]</div>
               <div style="font-size: 12px; font-weight: bold; color: #38bdf8;">Lector QR Activo</div>
               <div style="font-size: 10.5px; opacity: 0.8;">Presiona 'Encender Cámara' o usa simulación</div>
             </div>
@@ -12810,7 +12810,7 @@ CREATE TABLE tb_cuadernos_qr (
                 <div style="font-size: 15px; font-weight: 900; color: #991b1b;">${result.student.studentName}</div>
                 <div style="font-size: 12px; font-weight: bold; color: #1e3a8a;">${result.student.grade}</div>
                 <div style="font-size: 10.5px; color: #64748b;">DNI: ${result.student.dni} • Código: ${result.student.studentCode}</div>
-                <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 2px;">🟢 Ingreso registrado hoy a las ${result.previousScanTime}</div>
+                <div style="font-size: 10.5px; color: #047857; font-weight: bold; margin-top: 2px;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Ingreso registrado hoy a las ${result.previousScanTime}</div>
               </div>
             </div>
 
@@ -12820,21 +12820,21 @@ CREATE TABLE tb_cuadernos_qr (
 
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <button class="btn btn-red btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Grave')" style="font-weight: 900; font-size: 12px; padding: 8px 14px;">
-                🚨 Registrar Nuevo Informe de Incidencia Conductual
+                [Alerta] Registrar Nuevo Informe de Incidencia Conductual
               </button>
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
                 <button class="btn btn-gold btn-sm" onclick="window.app.openCreateIncidentModal('${result.student.studentCode}', 'Mérito')" style="font-weight: 800; font-size: 11px;">
-                  ⭐ Anotar Mérito / Reconocimiento
+                  ★ Anotar Mérito / Reconocimiento
                 </button>
                 <button class="btn btn-outline btn-sm" onclick="window.app.openStudentQRModal('${result.student.studentCode}')" style="font-size: 11px;">
-                  👤 Ver Fotocheck QR
+                  [Usuario] Ver Fotocheck QR
                 </button>
               </div>
             </div>
           </div>
         `;
       }
-      this.showToast(`🚨 QR Detectado: ${result.student.studentName} ya ingresó (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
+      this.showToast(`[Alerta] QR Detectado: ${result.student.studentName} ya ingresó (${result.previousScanTime}). Habilitado registro de incidencias.`, "warning");
       return;
     }
 
@@ -12861,7 +12861,7 @@ CREATE TABLE tb_cuadernos_qr (
 
           <div style="font-size: 11.5px; color: #475569;">
             ${isDoorClosed ? `
-              🔴 <strong>Corte de Asistencia Aplicado:</strong> Notificando inasistencia al apoderado ${result.guardianName} (${result.guardianPhone}).
+              <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> <strong>Corte de Asistencia Aplicado:</strong> Notificando inasistencia al apoderado ${result.guardianName} (${result.guardianPhone}).
             ` : isLate ? `
               🔔 <strong>Notificación de Tardanza despachada:</strong> ${result.guardianName} (${result.guardianPhone})
             ` : `
@@ -12900,7 +12900,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #0b132b 0%, #1e3a8a 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            📱 Tarjeta Oficial de Asistencia QR (Sin Foto)
+            [Móvil] Tarjeta Oficial de Asistencia QR (Sin Foto)
           </h3>
           <span style="font-size: 11px; color: #fde047;">I.E.P. "El Educador" • Año Lectivo 2026</span>
         </div>
@@ -12963,13 +12963,13 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <div style="display: flex; gap: 6px;">
           <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-            🖨️ Imprimir Tarjeta / Sticker
+            [Imprimir] Imprimir Tarjeta / Sticker
           </button>
           <button class="btn btn-gold btn-sm" onclick="window.app.downloadStudentQR('${st.studentCode}')" style="font-weight: 800;">
-            📥 Descargar QR
+            [Descargar] Descargar QR
           </button>
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal(); window.app.openCreateIncidentModal('${st.studentCode}')" style="color: #dc2626; border-color: #fca5a5; font-weight: bold;">
-            🚨 Informe
+            [Alerta] Informe
           </button>
         </div>
       </div>
@@ -12998,7 +12998,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 15px;">
-            🚨 Registrar Nuevo Informe de Incidencia Conductual / Convivencia
+            [Alerta] Registrar Nuevo Informe de Incidencia Conductual / Convivencia
           </h3>
           <span style="font-size: 11px; color: #fee2e2;">I.E.P. "El Educador" • Conforme a Ley N° 29719</span>
         </div>
@@ -13037,10 +13037,10 @@ CREATE TABLE tb_cuadernos_qr (
             <div class="form-group" style="margin-bottom: 0;">
               <label class="form-label" style="font-weight: 800; font-size: 11.5px;">Nivel de Gravedad / Tipo:</label>
               <select name="severity" class="form-control" style="font-weight: bold;" required>
-                <option value="Leve" ${defaultSeverity === 'Leve' ? 'selected' : ''}>🟡 Falta Leve (Uniforme, tardanza a aula)</option>
-                <option value="Grave" ${defaultSeverity === 'Grave' ? 'selected' : ''}>🔴 Falta Grave (Desobediencia, uso de celular)</option>
+                <option value="Leve" ${defaultSeverity === 'Leve' ? 'selected' : ''}><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Falta Leve (Uniforme, tardanza a aula)</option>
+                <option value="Grave" ${defaultSeverity === 'Grave' ? 'selected' : ''}><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Falta Grave (Desobediencia, uso de celular)</option>
                 <option value="Muy Grave" ${defaultSeverity === 'Muy Grave' ? 'selected' : ''}>⛔ Muy Grave (Agresión, daño material)</option>
-                <option value="Mérito" ${defaultSeverity === 'Mérito' ? 'selected' : ''}>⭐ Reconocimiento / Mérito Académico</option>
+                <option value="Mérito" ${defaultSeverity === 'Mérito' ? 'selected' : ''}>★ Reconocimiento / Mérito Académico</option>
               </select>
             </div>
             <div class="form-group" style="margin-bottom: 0;">
@@ -13147,7 +13147,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Notificación enviada a WhatsApp', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 18px;">
-          🚀 Abrir WhatsApp y Enviar Mensaje
+          [Evaluación] Abrir WhatsApp y Enviar Mensaje
         </button>
       </div>
     `);
@@ -13159,7 +13159,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white; font-size: 15px;">📄 Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
+        <h3 style="color: white; font-size: 15px;">[Documento] Acta Oficial de Compromiso y Convivencia Escolar (MINEDU / UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
@@ -13235,7 +13235,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy btn-sm" onclick="window.print()" style="font-weight: 800;">
-          🖨️ Imprimir Acta Oficial A4
+          [Imprimir] Imprimir Acta Oficial A4
         </button>
       </div>
     `);
@@ -13273,7 +13273,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="background: #22c55e; color: white; font-weight: 800; padding: 8px 16px;">
-          🚀 Enviar por WhatsApp Oficial
+          [Evaluación] Enviar por WhatsApp Oficial
         </button>
       </div>
     `);
@@ -13302,7 +13302,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-red btn-sm" onclick="window.open('https://api.whatsapp.com/send?phone=51${phone.replace(/[^0-9]/g, '')}&text=${encodeURIComponent(msg)}', '_blank'); window.app.closeModal(); window.app.showToast('✓ Mensaje WhatsApp enviado al apoderado', 'success');" style="font-weight: 800; padding: 8px 16px;">
-          🚀 Enviar Alerta de Inasistencia
+          [Evaluación] Enviar Alerta de Inasistencia
         </button>
       </div>
     `);
@@ -13318,7 +13318,7 @@ CREATE TABLE tb_cuadernos_qr (
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="text-align: center; padding: 20px;">
-        <div style="font-size: 40px; margin-bottom: 8px;">📱⚡</div>
+        <div style="font-size: 40px; margin-bottom: 8px;">[Móvil]⚡</div>
         <h4 style="font-size: 15px; font-weight: 800; color: #0b132b; margin-bottom: 6px;">
           Notificación Automatizada del Parte Diario (${date})
         </h4>
@@ -13329,14 +13329,14 @@ CREATE TABLE tb_cuadernos_qr (
         </p>
 
         <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; font-size: 11.5px; text-align: left; max-height: 140px; overflow-y: auto;">
-          ${report.tardinessList.map(t => `<div style="color:#b45309; padding:2px 0;">🟡 <strong>${t.studentName}</strong>: Tardanza ${t.arrivalTime} → Notificando a ${t.guardian} (${t.guardianPhone})</div>`).join('')}
-          ${report.absenceList.map(a => `<div style="color:#dc2626; padding:2px 0;">🔴 <strong>${a.studentName}</strong>: Inasistencia → Notificando a ${a.guardian} (${a.guardianPhone})</div>`).join('')}
+          ${report.tardinessList.map(t => `<div style="color:#b45309; padding:2px 0;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> <strong>${t.studentName}</strong>: Tardanza ${t.arrivalTime} → Notificando a ${t.guardian} (${t.guardianPhone})</div>`).join('')}
+          ${report.absenceList.map(a => `<div style="color:#dc2626; padding:2px 0;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> <strong>${a.studentName}</strong>: Inasistencia → Notificando a ${a.guardian} (${a.guardianPhone})</div>`).join('')}
         </div>
       </div>
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.closeModal(); window.app.showToast('✓ ${totalToNotify} notificaciones de WhatsApp despachadas con éxito a los apoderados', 'success');" style="font-weight: 800;">
-          🚀 Confirmar y Enviar Todo
+          [Evaluación] Confirmar y Enviar Todo
         </button>
       </div>
     `);
@@ -13349,7 +13349,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #f59e0b; color: #0b132b;">
-        <h3 style="color: #0b132b; font-weight: 900;">📄 Pase Oficial de Tardanza (Portería)</h3>
+        <h3 style="color: #0b132b; font-weight: 900;">[Documento] Pase Oficial de Tardanza (Portería)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="padding: 20px; background: white;">
@@ -13383,7 +13383,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800;">
-          🖨️ Imprimir Pase de Tardanza
+          [Imprimir] Imprimir Pase de Tardanza
         </button>
       </div>
     `);
@@ -13394,7 +13394,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: white;">
-        <h3 style="color: white;">📄 Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
+        <h3 style="color: white;">[Documento] Parte Diario Oficial de Tardanzas e Inasistencias (UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: white;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 24px; background: white;">
@@ -13512,7 +13512,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          🖨️ Imprimir Parte Diario A4
+          [Imprimir] Imprimir Parte Diario A4
         </button>
       </div>
     `);
@@ -13524,7 +13524,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #0f172a; color: #ffffff;">
-        <h3 style="color: #ffffff;">📄 Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
+        <h3 style="color: #ffffff;">[Documento] Consolidado Mensual de Asistencia Oficial (UGEL 05)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body" style="max-height: 80vh; overflow-y: auto; padding: 20px; background: #ffffff;">
@@ -13618,7 +13618,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
         <button class="btn btn-navy" onclick="window.print()" style="font-weight: 800; padding: 8px 20px;">
-          🖨️ Imprimir Consolidado Oficial
+          [Imprimir] Imprimir Consolidado Oficial
         </button>
       </div>
     `);
@@ -13825,7 +13825,7 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          🏫 Asignación de Bloque Lectivo • Duración: 50 min • Periodo Lectivo 2026
+          [Colegio] Asignación de Bloque Lectivo • Duración: 50 min • Periodo Lectivo 2026
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-bottom: 10px;">
@@ -13856,7 +13856,7 @@ CREATE TABLE tb_cuadernos_qr (
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            📋 Asignatura / Curso (Boleta Oficial de Notas):
+            [Lista] Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="sched-create-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6; background: #ffffff;">
             ${this.getBoletaCoursesSelectOptions("Aritmética")}
@@ -13880,10 +13880,10 @@ CREATE TABLE tb_cuadernos_qr (
           <label class="form-label" style="font-weight: 700; font-size: 11.5px;">Color de la Tarjeta en Horario:</label>
           <select id="sched-create-color" class="form-control" style="font-size: 12px; font-weight: bold;">
             <option value="navy">🔵 Azul Institucional (Matemáticas / Ciencias)</option>
-            <option value="gold">🟡 Dorado / Amarillo (Comunicación / Letras)</option>
-            <option value="emerald">🟢 Verde Esmeralda (Ciencia / Biología / EPT)</option>
+            <option value="gold"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Dorado / Amarillo (Comunicación / Letras)</option>
+            <option value="emerald"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Verde Esmeralda (Ciencia / Biología / EPT)</option>
             <option value="purple">🟣 Morado / Púrpura (Ciencias Sociales / Filosofía)</option>
-            <option value="red">🔴 Rojo (Cívica / Tutoria)</option>
+            <option value="red"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Rojo (Cívica / Tutoria)</option>
           </select>
         </div>
       </div>
@@ -13935,12 +13935,12 @@ CREATE TABLE tb_cuadernos_qr (
       </div>
       <div class="modal-body" style="max-height: 75vh; overflow-y: auto;">
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #1e3a8a; font-weight: 700;">
-          🏫 ${currentGrade.label} • Bloque: ${row.time} • ${dayNameMap[dayKey]}
+          [Colegio] ${currentGrade.label} • Bloque: ${row.time} • ${dayNameMap[dayKey]}
         </div>
 
         <div class="form-group" style="margin-bottom: 10px;">
           <label class="form-label" style="font-weight: 800; font-size: 11.5px; color: #1e3a8a;">
-            📋 Asignatura / Curso (Boleta Oficial de Notas):
+            [Lista] Asignatura / Curso (Boleta Oficial de Notas):
           </label>
           <select id="edit-slot-course" class="form-control" style="font-size: 12px; font-weight: bold; border-color: #3b82f6;">
             ${this.getBoletaCoursesSelectOptions(slot.course)}
@@ -13964,10 +13964,10 @@ CREATE TABLE tb_cuadernos_qr (
           <label class="form-label" style="font-weight: 700; font-size: 11.5px;">Color de la Tarjeta:</label>
           <select id="edit-slot-color" class="form-control" style="font-size: 12px; font-weight: bold;">
             <option value="navy" ${slot.color === 'navy' ? 'selected' : ''}>🔵 Azul Institucional</option>
-            <option value="gold" ${slot.color === 'gold' ? 'selected' : ''}>🟡 Dorado / Amarillo</option>
-            <option value="emerald" ${slot.color === 'emerald' ? 'selected' : ''}>🟢 Verde Esmeralda</option>
+            <option value="gold" ${slot.color === 'gold' ? 'selected' : ''}><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> Dorado / Amarillo</option>
+            <option value="emerald" ${slot.color === 'emerald' ? 'selected' : ''}><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Verde Esmeralda</option>
             <option value="purple" ${slot.color === 'purple' ? 'selected' : ''}>🟣 Morado</option>
-            <option value="red" ${slot.color === 'red' ? 'selected' : ''}>🔴 Rojo</option>
+            <option value="red" ${slot.color === 'red' ? 'selected' : ''}><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Rojo</option>
           </select>
         </div>
       </div>
@@ -14126,7 +14126,7 @@ CREATE TABLE tb_cuadernos_qr (
 
     this.showModal(`
       <div class="modal-header" style="background: #1e3a8a; color: #ffffff;">
-        <h3 style="color: #ffffff;">📋 Clonar Horario a Otra Aula / Sección</h3>
+        <h3 style="color: #ffffff;">[Lista] Clonar Horario a Otra Aula / Sección</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()" style="color: #ffffff;">✕</button>
       </div>
       <div class="modal-body">
@@ -14143,7 +14143,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-navy" onclick="window.app.confirmCloneSchedule('${sourceGradeId}')" style="font-weight: 800;">
-          📋 Confirmar y Clonar Horario
+          [Lista] Confirmar y Clonar Horario
         </button>
       </div>
     `);
@@ -14462,17 +14462,17 @@ CREATE TABLE tb_cuadernos_qr (
     const parentName = (this.store.state.users.padre && this.store.state.users.padre.name) || "Dra. Carmen Méndez";
 
     const notebooks = [
-      { course: "Matemática", teacher: "Prof. Roberto Silva", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
-      { course: "Comunicación", teacher: "Miss María Daysi Reyes", statusLabel: "🟢 REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
-      { course: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", statusLabel: "🟢 REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
-      { course: "Ciencias Sociales", teacher: "Prof. Javier Vega", statusLabel: "🟢 REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
-      { course: "Inglés", teacher: "Miss Andrea Ramos", statusLabel: "🟢 REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
-      { course: "EPT (Computación)", teacher: "Prof. Alex Lino", statusLabel: "🟡 OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
+      { course: "Matemática", teacher: "Prof. Roberto Silva", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Tareas completas al 100%, márgenes impecables y esquemas en orden." },
+      { course: "Comunicación", teacher: "Miss María Daysi Reyes", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "17 (A)", remarks: "Análisis de textos y caligrafía óptima. Muy buen desarrollo." },
+      { course: "Ciencia y Tecnología", teacher: "Miss Leyli Reyes", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "18 (AD)", remarks: "Prácticas experimentales ilustradas y fichas de laboratorio selladas." },
+      { course: "Ciencias Sociales", teacher: "Prof. Javier Vega", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "16 (A)", remarks: "Mapas históricos y resúmenes de época bien estructurados." },
+      { course: "Inglés", teacher: "Miss Andrea Ramos", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> REVISADO & AL DÍA", score: "19 (AD)", remarks: "Vocabulario y ejercicios de gramática avanzados completos." },
+      { course: "EPT (Computación)", teacher: "Prof. Alex Lino", statusLabel: "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span> OBSERVADO", score: "13 (B)", remarks: "Falta pegar y desarrollar la ficha de proyecto técnico N° 3. Presentar este viernes." }
     ];
 
     this.showModal(`
       <div class="modal-header">
-        <h3>📄 Informe Oficial de Revisión de Cuadernos - ${studentName}</h3>
+        <h3>[Documento] Informe Oficial de Revisión de Cuadernos - ${studentName}</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14519,7 +14519,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-gold" onclick="window.print()">🖨️ Imprimir Documento</button>
+        <button class="btn btn-gold" onclick="window.print()">[Imprimir] Imprimir Documento</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14555,7 +14555,7 @@ CREATE TABLE tb_cuadernos_qr (
   openPayModal(paymentId, amount = 480.00, concept = "Pensión Escolar - Agosto 2026") {
     this.showModal(`
       <div class="modal-header">
-        <h3>💳 Pagar con Tarjeta & Desbloquear Intranet</h3>
+        <h3>[Pago] Pagar con Tarjeta & Desbloquear Intranet</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14589,7 +14589,7 @@ CREATE TABLE tb_cuadernos_qr (
           </div>
 
           <button type="submit" class="btn btn-red" style="width: 100%; padding: 12px; font-weight: 900; font-size: 14px; margin-top: 8px;">
-            🔒 Pagar S/ ${amount.toFixed(2)} y Validar Acceso
+            [Bloqueado] Pagar S/ ${amount.toFixed(2)} y Validar Acceso
           </button>
         </form>
       </div>
@@ -14613,7 +14613,7 @@ CREATE TABLE tb_cuadernos_qr (
   openYapePayModal(paymentId, amount = 480.00) {
     this.showModal(`
       <div class="modal-header">
-        <h3>📱 Pagar con Yape / Plin Institucional</h3>
+        <h3>[Móvil] Pagar con Yape / Plin Institucional</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body" style="text-align: center;">
@@ -14721,7 +14721,7 @@ CREATE TABLE tb_cuadernos_qr (
           <div><strong>Monto Cancelado:</strong> S/ ${res.amount.toFixed(2)}</div>
           <div><strong>Medio de Pago:</strong> ${res.method}</div>
           <div><strong>Fecha & Hora:</strong> ${res.date}</div>
-          <div><strong>Estado de Intranet:</strong> <span class="status-badge status-approved" style="background:#22c55e; color:#0b132b; font-weight:800;">🟢 DESBLOQUEADO Y AL DÍA</span></div>
+          <div><strong>Estado de Intranet:</strong> <span class="status-badge status-approved" style="background:#22c55e; color:#0b132b; font-weight:800;"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> DESBLOQUEADO Y AL DÍA</span></div>
         </div>
 
         <div style="background: #ecfdf5; border: 1px solid #a7f3d0; padding: 10px; border-radius: 6px; color: #065f46; font-size: 12px; font-weight: bold;">
@@ -14729,7 +14729,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Recibo</button>
         <button class="btn btn-gold" onclick="window.app.closeModal()">Continuar a la Intranet</button>
       </div>
     `);
@@ -14740,14 +14740,14 @@ CREATE TABLE tb_cuadernos_qr (
   toggleFamilyLock(familyId) {
     const isLocked = this.store.toggleFamilyAccessLock(familyId);
     if (isLocked !== null) {
-      this.showToast(isLocked ? "🔴 Acceso a Intranet BLOQUEADO por mora" : "🟢 Acceso a Intranet DESBLOQUEADO / Prórroga concedida", isLocked ? "danger" : "success");
+      this.showToast(isLocked ? "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:4px;vertical-align:middle;"></span> Acceso a Intranet BLOQUEADO por mora" : "<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:4px;vertical-align:middle;"></span> Acceso a Intranet DESBLOQUEADO / Prórroga concedida", isLocked ? "danger" : "success");
     }
   }
 
   openManualPaymentModal() {
     this.showModal(`
       <div class="modal-header">
-        <h3>💵 Registrar Pago en Caja (Coordinación / Tesorería)</h3>
+        <h3>[Pensiones] Registrar Pago en Caja (Coordinación / Tesorería)</h3>
         <button class="modal-close-btn" onclick="window.app.closeModal()">✕</button>
       </div>
       <div class="modal-body">
@@ -14804,7 +14804,7 @@ CREATE TABLE tb_cuadernos_qr (
     const p = this.store.getPayments().find(x => x.id === paymentId) || this.store.getPayments()[1];
     if (!p) return;
     this.showModal(`
-      <div class="modal-header"><h3>📄 Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
+      <div class="modal-header"><h3>[Documento] Recibo Oficial de Tesorería</h3><button class="modal-close-btn" onclick="window.app.closeModal()">✕</button></div>
       <div class="modal-body" style="text-align:center; padding:20px;">
         <img src="logo.png" onerror="this.src='assets/logo.png'" alt="Escudo I.E.P. El Educador" style="width: 60px; height: 60px; object-fit: contain; margin-bottom: 6px;" />
         <div style="font-size: 11px; font-weight: 800; color: #dc2626;">I.E.P. "EL EDUCADOR" (S.J.L.) • 21 años dejando huellas</div>
@@ -14818,7 +14818,7 @@ CREATE TABLE tb_cuadernos_qr (
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-navy" onclick="window.print()">🖨️ Imprimir Recibo</button>
+        <button class="btn btn-navy" onclick="window.print()">[Imprimir] Imprimir Recibo</button>
         <button class="btn btn-outline" onclick="window.app.closeModal()">Cerrar</button>
       </div>
     `);
@@ -14937,7 +14937,7 @@ CREATE TABLE tb_cuadernos_qr (
 
   openUploadMaterialModal(courseId) {
     const courses = [
-      { id: "MAT-401", name: "Matemática Avanzada", icon: "📐" },
+      { id: "MAT-401", name: "Matemática Avanzada", icon: "[Formato]" },
       { id: "EPT-402", name: "Computación e Informática / Robótica", icon: "🤖" },
       { id: "CTA-403", name: "Ciencia y Tecnología (Física & Química)", icon: "🔬" },
       { id: "COM-404", name: "Comunicación & Literatura", icon: "📚" }
@@ -14983,7 +14983,7 @@ CREATE TABLE tb_cuadernos_qr (
 
             <!-- Dropzone Interactivo -->
             <div id="ai-dropzone" class="smart-dropzone" onclick="document.getElementById('smart-file-input').click()" style="border: 2px dashed #3b82f6; background: #f8fafc; border-radius: 8px; padding: 22px 16px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
-              <div style="font-size: 36px; margin-bottom: 6px;">📁 ⚡ 📄</div>
+              <div style="font-size: 36px; margin-bottom: 6px;">📁 ⚡ [Documento]</div>
               <div style="font-weight: 800; font-size: 13.5px; color: #1e3a8a; margin-bottom: 4px;">
                 Haga clic para seleccionar archivo o arrástrelo aquí
               </div>
@@ -15012,7 +15012,7 @@ CREATE TABLE tb_cuadernos_qr (
                 📕 Guía_Trigonometria.pdf
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Sesion_Arduino_Servomotores_S3.pptx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
-                📊 Arduino_Robótica.pptx
+                [Reporte] Arduino_Robótica.pptx
               </button>
               <button type="button" class="btn btn-outline btn-sm" onclick="window.app.loadDemoFileForAnalysis('Laboratorio_Leyes_Termodinamica_Carnot.docx', '${course.id}')" style="font-size: 10.5px; padding: 3px 8px; font-weight: 700;">
                 📘 Termodinamica_Carnot.docx
@@ -15108,7 +15108,7 @@ CREATE TABLE tb_cuadernos_qr (
     const stepText = document.getElementById("ai-step-text");
     const progressBar = document.getElementById("ai-progress-bar");
 
-    if (stepText) stepText.innerText = "🔍 Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
+    if (stepText) stepText.innerText = "[Buscar] Paso 1/3: Decodificando archivo y extrayendo estructura (" + fileInfo.name + ")...";
     if (progressBar) progressBar.style.width = "35%";
 
     setTimeout(() => {
@@ -15164,7 +15164,7 @@ CREATE TABLE tb_cuadernos_qr (
       keyConcepts: keyConcepts.length > 0 ? keyConcepts : ["Fundamentos Teóricos", "Procedimientos de Cálculo", "Aplicación Práctica"],
       attachments: [
         { type: "pdf", name: formData.get("attachmentName") || "Guia_Semanal.pdf", size: "2.5 MB", icon: "📕" },
-        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "📊" },
+        { type: "pptx", name: `Diapositivas_Semana_${formData.get("weekNumber")}.pptx`, size: "4.2 MB", icon: "[Reporte]" },
         { type: "worksheet", name: `Ficha_Practica_Semana_${formData.get("weekNumber")}.pdf`, size: "1.1 MB", icon: "📝" }
       ]
     };
@@ -15267,7 +15267,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-footer">
         <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar</button>
         <button class="btn btn-gold btn-sm" onclick="window.app.confirmGenerateQuiz('${material.id}')" style="font-weight: 900;">
-          🚀 Iniciar Generación de 10 Preguntas
+          [Evaluación] Iniciar Generación de 10 Preguntas
         </button>
       </div>
     `;
@@ -15306,7 +15306,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: var(--color-navy-900); color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            📋 Previsualización: ${evalObj.title}
+            [Lista] Previsualización: ${evalObj.title}
           </h3>
           <span style="font-size: 11px; color: var(--color-yellow-400);">10 Preguntas Generadas Dinámicamente • 2 Puntos c/u (Total 20 Pts)</span>
         </div>
@@ -15341,7 +15341,7 @@ CREATE TABLE tb_cuadernos_qr (
             </div>
 
             <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11px; color: #475569; border-left: 3px solid #3b82f6;">
-              💡 <strong>Explicación Formativa:</strong> ${q.explanation}
+              [Nota] <strong>Explicación Formativa:</strong> ${q.explanation}
             </div>
           </div>
         `).join('')}
@@ -15428,7 +15428,7 @@ CREATE TABLE tb_cuadernos_qr (
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
           <button class="btn btn-outline btn-sm" onclick="window.app.closeModal()">Cancelar Examen</button>
           <button class="btn btn-gold btn-sm" onclick="window.app.submitStudentQuiz('${material.id}')" style="font-weight: 900; font-size: 13px; padding: 8px 24px;">
-            🚀 Finalizar y Enviar Evaluación
+            [Evaluación] Finalizar y Enviar Evaluación
           </button>
         </div>
       `;
@@ -15492,7 +15492,7 @@ CREATE TABLE tb_cuadernos_qr (
       <div class="modal-header" style="background: ${attempt.score >= 14 ? 'linear-gradient(135deg, #065f46 0%, #047857 100%)' : 'linear-gradient(135deg, #991b1b 0%, #dc2626 100%)'}; color: white;">
         <div>
           <h3 class="modal-title" style="color: white; margin: 0; font-size: 16px;">
-            📊 Resultados Oficiales de la Evaluación
+            [Reporte] Resultados Oficiales de la Evaluación
           </h3>
           <span style="font-size: 11px; opacity: 0.9;">Estudiante: ${attempt.studentName} • Fecha: ${attempt.date}</span>
         </div>
@@ -15511,7 +15511,7 @@ CREATE TABLE tb_cuadernos_qr (
           </span>
 
           <div style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 12px 14px; border-radius: 6px; font-size: 12.5px; color: #334155; margin-top: 14px; text-align: left; line-height: 1.5;">
-            💡 <strong>Retroalimentación Pedagógica del Sistema:</strong><br>
+            [Nota] <strong>Retroalimentación Pedagógica del Sistema:</strong><br>
             ${attempt.feedback}
           </div>
         </div>
@@ -15554,7 +15554,7 @@ CREATE TABLE tb_cuadernos_qr (
               </div>
 
               <div style="background: #f1f5f9; padding: 8px 12px; border-radius: 6px; font-size: 11.5px; color: #475569; border-left: 3px solid #3b82f6;">
-                💡 <strong>Por qué es correcta:</strong> ${q.explanation}
+                [Nota] <strong>Por qué es correcta:</strong> ${q.explanation}
               </div>
             </div>
           `;
